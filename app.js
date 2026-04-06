@@ -1,188 +1,292 @@
 
-const sessions = window.FAFA_SESSIONS || [];
-const programs = window.FAFA_PROGRAMS || [];
-const state = {
-  clients: JSON.parse(localStorage.getItem('fafa-v3-ultra-clients') || '[]'),
-  progress: JSON.parse(localStorage.getItem('fafa-v3-ultra-progress') || '[]'),
-  generatedHTML: ''
-};
+let DATA = null;
 const qs = s => document.querySelector(s);
 const qsa = s => [...document.querySelectorAll(s)];
+const esc = s => String(s ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
-function escapeHtml(s=''){return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');}
-function openTab(id){qsa('.tab').forEach(x=>x.classList.toggle('active',x.dataset.target===id));qsa('.tab-panel').forEach(x=>x.classList.toggle('active',x.id===id));}
-function applyMode(){
-  const mode = qs('#modeSelect').value;
-  qsa('.coach-only').forEach(el => el.classList.toggle('coach-hidden', mode !== 'coach'));
-  if(mode !== 'coach' && qs('.tab.active').classList.contains('coach-only')) openTab('tab-seances');
+function openTab(id){
+  qsa('.tab').forEach(b => b.classList.toggle('active', b.dataset.target===id));
+  qsa('.tab-panel').forEach(p => p.classList.toggle('active', p.id===id));
 }
-function filterSessions(){
-  const q = qs('#searchInput').value.toLowerCase().trim();
-  const goal = qs('#goalSelect').value;
-  const sport = qs('#sportSelect').value;
-  const level = qs('#levelSelect').value;
-  const setting = qs('#settingSelect').value;
-  const audience = qs('#audienceSelect').value;
-  const sex = qs('#sexSelect').value;
-  return sessions.filter(s=>{
-    const blob=[s.name,s.sport,s.goal,s.setting,s.level,s.audience,s.sex,s.description,...(s.equipment||[])].join(' ').toLowerCase();
-    if(q && !blob.includes(q)) return false;
-    if(goal && s.goal !== goal) return false;
-    if(sport && s.sport !== sport) return false;
-    if(level && s.level !== level) return false;
-    if(setting && s.setting !== setting) return false;
-    if(audience && s.audience !== audience) return false;
-    if(sex && s.sex !== sex) return false;
-    return true;
-  });
+
+async function init(){
+  DATA = await fetch('data.json').then(r => r.json());
+  qs('#statExercises').textContent = DATA.exercises.length;
+  qs('#goal').innerHTML = DATA.goals.map(g => `<option value="${g.key}">${g.label}</option>`).join('');
+  qs('#singleGoal').innerHTML = DATA.goals.map(g => `<option value="${g.key}">${g.label}</option>`).join('');
+  qs('#equipmentGrid').innerHTML = DATA.equipmentOptions.map(k => `
+    <label class="equip-chip"><input type="checkbox" value="${k}" checked> ${prettyEquip(k)}</label>
+  `).join('');
+  const cats = [...new Set(DATA.exercises.map(e => e.category))].sort();
+  qs('#libCategory').innerHTML += cats.map(c => `<option value="${c}">${prettyCategory(c)}</option>`).join('');
+  renderLibrary();
 }
-function renderSessions(){
-  const list = filterSessions();
-  qs('#countSessions').textContent = sessions.length;
-  qs('#filterSummary').innerHTML = `<strong>Résultats :</strong> ${list.length} séance(s) · <strong>Mode :</strong> ${qs('#modeSelect').value === 'coach' ? 'Coach' : 'Utilisateur'}`;
-  qs('#sessionGrid').innerHTML = list.length ? list.map(s => `
-    <article class="card">
-      <div class="badges">
-        <span class="badge">${escapeHtml(s.sport)}</span>
-        <span class="badge">${escapeHtml(s.goal)}</span>
-        <span class="badge">${escapeHtml(s.level)}</span>
+
+function prettyEquip(k){
+  const m = {
+    bodyweight:'Poids du corps', band:'Élastiques', dumbbell:'Haltères', barbell:'Barre', bench:'Banc', rack:'Rack',
+    machine:'Machines', cable:'Poulie / câble', kettlebell:'Kettlebell', trx:'TRX', rope:'Corde à sauter', airbike:'Air bike',
+    bike:'Vélo', rower:'Rameur', skierg:'SkiErg', treadmill:'Tapis', medball:'Med ball', battle_ropes:'Battle rope',
+    trapbar:'Trap bar', box:'Box / step', sled:'Traîneau', heavy_bag:'Sac de frappe', pads:'Pattes d’ours', ladder:'Échelle de rythme',
+    cones:'Plots / cônes', ab_wheel:'Roue abdos', swissball:'Swiss ball', landmine:'Landmine', dip_bars:'Barres dips', slam_ball:'Slam ball'
+  };
+  return m[k] || k;
+}
+function prettyCategory(c){
+  const m = {athletic:'Athlétique', boxing:'Boxe', cardio:'Cardio', conditioning:'Conditionnement', core:'Gainage', mobility:'Mobilité', strength:'Force / musculation'};
+  return m[c] || c;
+}
+function trainingAgeBand(age){ return age < 16 ? 'youth' : age >= 55 ? 'senior' : 'adult'; }
+function activityFactor(a){ return {sedentary:1.2, light:1.375, moderate:1.55, high:1.725}[a] || 1.2; }
+function mifflin(sex, weight, height, age){
+  return sex === 'female'
+    ? 10*weight + 6.25*height - 5*age - 161
+    : 10*weight + 6.25*height - 5*age + 5;
+}
+function recommendedFrequency(goal, level, activity){
+  if (level === 'beginner' && activity === 'sedentary') return 3;
+  if (goal === 'strength' || goal === 'hypertrophy') return level === 'advanced' ? 5 : 4;
+  if (goal === 'endurance' || goal === 'conditioning') return 4;
+  if (goal === 'health' || goal === 'recovery') return 3;
+  if (goal === 'boxing' || goal === 'athletic') return 4;
+  return 3;
+}
+function goalTemplate(goal){
+  const map = {
+    fat_loss:{reps:'10–15', rest:'45–75 s', intensity:'RPE 6–8', pct:'55–70%', structure:'full_body / circuit / cardio'},
+    hypertrophy:{reps:'6–12', rest:'60–120 s', intensity:'RPE 7–9', pct:'65–80%', structure:'split ou full body selon fréquence'},
+    recomp:{reps:'8–12', rest:'60–90 s', intensity:'RPE 7–8', pct:'60–75%', structure:'full body ou haut/bas'},
+    strength:{reps:'3–6', rest:'2–4 min', intensity:'RPE 7–9', pct:'75–90%', structure:'mouvements de base + assistance'},
+    health:{reps:'8–12', rest:'60–90 s', intensity:'RPE 5–7', pct:'50–65%', structure:'full body + mobilité + cardio léger'},
+    conditioning:{reps:'travail en temps', rest:'30–90 s', intensity:'RPE 7–9', pct:'effort par intervalles', structure:'circuit / intervalles'},
+    boxing:{reps:'rounds 2 à 3 min', rest:'45–75 s', intensity:'RPE 6–9', pct:'technique + intensité', structure:'skill + cardio + gainage'},
+    athletic:{reps:'3–8', rest:'90–180 s', intensity:'RPE 6–8', pct:'puissance / vitesse', structure:'puissance + force + mobilité'},
+    endurance:{reps:'temps / distance', rest:'selon protocole', intensity:'zone 2 + intervalles', pct:'allures', structure:'base aérobie + intervalle'},
+    recovery:{reps:'flux / respiration', rest:'non applicable', intensity:'faible', pct:'non applicable', structure:'mobilité + respiration + marche'}
+  };
+  return map[goal] || map.health;
+}
+function selectedEquipment(){
+  return qsa('#equipmentGrid input:checked').map(x => x.value);
+}
+function envAllowed(e, env){
+  return e.environment.includes(env) || e.environment.includes('gym') && env==='gym' || e.environment.includes('home') && env==='home' || e.environment.includes('outdoor') && env==='outdoor';
+}
+function equipmentAllowed(e, equip, env){
+  if (env==='outdoor' && e.environment.includes('outdoor')) return e.equipment.some(x => equip.includes(x) || ['none','bodyweight'].includes(x));
+  return e.equipment.some(x => equip.includes(x) || ['none','bodyweight'].includes(x));
+}
+function levelRank(l){ return {beginner:1, intermediate:2, advanced:3}[l] || 1; }
+function filterExercises(goal, level, env, equip){
+  return DATA.exercises.filter(e =>
+    e.goals.includes(goal) &&
+    envAllowed(e, env) &&
+    equipmentAllowed(e, equip, env) &&
+    levelRank(e.level_min) <= levelRank(level)
+  );
+}
+function pickUnique(pool, n, byName=true){
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  const out = [];
+  const seen = new Set();
+  for (const item of shuffled){
+    const key = byName ? item.name : JSON.stringify(item);
+    if (!seen.has(key)){
+      seen.add(key);
+      out.push(item);
+      if (out.length >= n) break;
+    }
+  }
+  return out;
+}
+function bucketByPattern(list){
+  const map = {};
+  list.forEach(e => { (map[e.pattern] ||= []).push(e); });
+  return map;
+}
+function exerciseBlock(ex, template, goal, ageBand){
+  const youthAdj = ageBand === 'youth' ? 'réduire la charge, accent technique et maîtrise' : '';
+  return `
+    <li>
+      <strong>${esc(ex.name)}</strong> — ${esc(ex.primary)}<br>
+      Séries : <strong>${goal==='strength' ? '4 à 5' : goal==='hypertrophy' ? '3 à 5' : goal==='conditioning' ? '3 à 4 blocs' : '2 à 4'}</strong> ·
+      Répétitions / temps : <strong>${esc(template.reps)}</strong> ·
+      Repos : <strong>${esc(template.rest)}</strong> ·
+      Intensité : <strong>${esc(template.intensity)}</strong> ·
+      Charge cible : <strong>${esc(template.pct)}</strong><br>
+      Tempo conseillé : <strong>${esc(ex.tempo || 'contrôlé')}</strong><br>
+      Consigne coach : ${esc(ex.coaching)} ${youthAdj ? '· ' + youthAdj : ''}<br>
+      Variantes : ${esc(ex.variants || '—')}
+    </li>
+  `;
+}
+function buildSession(goal, level, env, duration, focus, style, ageBand, equip){
+  const pool = filterExercises(goal, level, env, equip);
+  const byPattern = bucketByPattern(pool);
+  const template = goalTemplate(goal);
+
+  const warmup = DATA.exercises.filter(e => ['mobility','cardio','conditioning'].includes(e.category) && envAllowed(e, env)).slice(0, 4);
+  let picks = [];
+  const pickFrom = pat => pickUnique(byPattern[pat] || [], 1)[0];
+
+  if (focus === 'lower'){
+    picks = [pickFrom('squat'), pickFrom('hinge'), pickFrom('single_leg'), pickFrom('calves'), pickFrom('anti_extension')].filter(Boolean);
+  } else if (focus === 'upper'){
+    picks = [pickFrom('horizontal_push'), pickFrom('horizontal_pull'), pickFrom('vertical_push'), pickFrom('vertical_pull'), pickFrom('rear_delts')].filter(Boolean);
+  } else if (focus === 'push'){
+    picks = [pickFrom('horizontal_push'), pickFrom('vertical_push'), pickFrom('shoulder_isolation'), pickFrom('elbow_extension')].filter(Boolean);
+  } else if (focus === 'pull'){
+    picks = [pickFrom('horizontal_pull'), pickFrom('vertical_pull'), pickFrom('rear_delts'), pickFrom('elbow_flexion')].filter(Boolean);
+  } else if (focus === 'core'){
+    picks = [pickFrom('anti_extension'), pickFrom('anti_rotation'), pickFrom('anti_lateral_flexion'), pickFrom('rotation')].filter(Boolean);
+  } else if (focus === 'cardio'){
+    picks = pickUnique(pool.filter(e => ['cardio','conditioning'].includes(e.category)), duration >= 60 ? 6 : 4);
+  } else if (focus === 'boxing'){
+    picks = pickUnique(pool.filter(e => e.category==='boxing' || e.goals.includes('boxing') || e.goals.includes('athletic')), duration >= 60 ? 6 : 4);
+  } else {
+    picks = [pickFrom('squat'), pickFrom('hinge'), pickFrom('horizontal_push'), pickFrom('horizontal_pull'), pickFrom('anti_extension')].filter(Boolean);
+    if (duration >= 60) {
+      const extra = pickUnique(pool.filter(e => !picks.some(p => p.name===e.name)), 2);
+      picks = picks.concat(extra);
+    }
+  }
+
+  if (style === 'circuit') template.rest = '15–45 s entre exercices, 60–90 s entre tours';
+  if (style === 'intervals') template.reps = '30–60 s de travail / 15–60 s de repos';
+  const finisher = goal in {fat_loss:1, conditioning:1, boxing:1, endurance:1, athletic:1} ? pickUnique(DATA.exercises.filter(e => (e.category==='cardio' || e.category==='conditioning' || e.category==='boxing') && envAllowed(e, env)), 2) : [];
+
+  return {
+    warmup,
+    picks,
+    finisher,
+    template,
+    duration,
+    style,
+    focus,
+    goal
+  };
+}
+function renderSessionCard(session, title){
+  return `
+    <div class="session-card">
+      <div class="pillbar">
+        <span class="pill">${esc(title)}</span>
+        <span class="pill">${esc(session.style)}</span>
+        <span class="pill">${esc(session.focus)}</span>
       </div>
-      <h3>${escapeHtml(s.name)}</h3>
-      <div class="meta">⏱ ${s.durationMin} min · ${escapeHtml(s.setting)} · ${escapeHtml(s.audience)} · ${escapeHtml(s.sex)}</div>
-      <p class="desc">${escapeHtml(s.description)}</p>
-      <div class="actions"><button onclick="openSession('${s.id}')">Ouvrir</button></div>
-    </article>
-  `).join('') : '<div class="panel"><strong>Aucune séance trouvée.</strong></div>';
+      <h3>Échauffement</h3>
+      <ul class="list">${session.warmup.map(e => `<li><strong>${esc(e.name)}</strong> — 5 à 8 min de mise en route / mobilité.</li>`).join('')}</ul>
+      <h3>Bloc principal</h3>
+      <ul class="list">${session.picks.map(e => exerciseBlock(e, session.template, session.goal, window.__ageBand || 'adult')).join('')}</ul>
+      <h3>Finisher</h3>
+      <ul class="list">${session.finisher.length ? session.finisher.map(e => `<li><strong>${esc(e.name)}</strong> — 6 à 12 min, format ${esc(session.template.reps)}, intensité adaptée.</li>`).join('') : '<li>Optionnel selon fatigue, objectif et temps disponible.</li>'}</ul>
+      <h3>Retour au calme</h3>
+      <ul class="list"><li>3 à 8 min de respiration nasale, mobilité douce et étirements actifs.</li></ul>
+    </div>
+  `;
 }
-function renderPrograms(){
-  qs('#countPrograms').textContent = programs.length;
-  qs('#programGrid').innerHTML = programs.map(p => `
-    <article class="card">
-      <div class="badges"><span class="badge">${escapeHtml(p.goal)}</span><span class="badge">${escapeHtml(p.frequency)}</span></div>
-      <h3>${escapeHtml(p.name)}</h3>
-      <p class="desc">Programme structuré avec logique de progression par semaine.</p>
-      <div class="actions"><button onclick="openProgram('${p.id}')">Ouvrir</button></div>
+function generateProgram(){
+  const age = Number(qs('#age').value || 30);
+  const sex = qs('#sex').value;
+  const height = Number(qs('#height').value || 175);
+  const weight = Number(qs('#weight').value || 75);
+  const level = qs('#level').value;
+  const activity = qs('#activity').value;
+  const goal = qs('#goal').value;
+  const env = qs('#environment').value;
+  const duration = Number(qs('#duration').value || 60);
+  const equip = selectedEquipment();
+  const ageBand = trainingAgeBand(age);
+  window.__ageBand = ageBand;
+
+  let frequency = qs('#frequency').value === 'auto' ? recommendedFrequency(goal, level, activity) : Number(qs('#frequency').value);
+  const bmr = Math.round(mifflin(sex, weight, height, age));
+  const tdee = Math.round(bmr * activityFactor(activity));
+  let calorieTarget = tdee;
+  if (goal === 'fat_loss') calorieTarget = Math.round(tdee - 300);
+  if (goal === 'hypertrophy') calorieTarget = Math.round(tdee + 250);
+  if (goal === 'recomp') calorieTarget = tdee;
+  const protein = Math.round(weight * (goal === 'hypertrophy' ? 2.0 : goal === 'fat_loss' ? 2.0 : 1.6));
+
+  const sessionFocuses = frequency <= 2 ? ['full_body','full_body'] :
+                         frequency === 3 ? ['full_body','upper','lower'] :
+                         frequency === 4 ? ['upper','lower','push','pull'] :
+                         frequency === 5 ? ['lower','upper','full_body','lower','upper'] :
+                         ['lower','upper','conditioning','lower','upper','athletic'];
+
+  const style = goal === 'conditioning' || goal === 'fat_loss' ? 'circuit' : 'classic';
+  const sessions = sessionFocuses.slice(0, frequency).map((focus, i) => buildSession(goal, level, env, duration, focus, style, ageBand, equip));
+
+  qs('#programOutput').innerHTML = `
+    <div class="week-box">
+      <h3>Résumé profil</h3>
+      <div class="meta">
+        Âge : <strong>${age}</strong> · Niveau : <strong>${esc(level)}</strong> · Activité : <strong>${esc(activity)}</strong> ·
+        Objectif : <strong>${esc(goal)}</strong> · Environnement : <strong>${esc(env)}</strong><br>
+        BMR estimé : <strong>${bmr} kcal</strong> · Dépense journalière estimée : <strong>${tdee} kcal</strong> ·
+        Cible calorique : <strong>${calorieTarget} kcal</strong> · Protéines conseillées : <strong>${protein} g/j</strong>
+      </div>
+      <p class="small">Les calories sont des estimations de départ. À ajuster selon évolution du poids, de la récupération, de la faim et des performances.</p>
+    </div>
+    <div class="week-box">
+      <h3>Répartition hebdomadaire conseillée</h3>
+      <ul class="list">
+        <li>Fréquence proposée : <strong>${frequency} séance(s) / semaine</strong>.</li>
+        <li>Durée cible : <strong>${duration} min</strong> par séance.</li>
+        <li>Structure dominante : <strong>${esc(goalTemplate(goal).structure)}</strong>.</li>
+        <li>Progression : ajouter 1 à 2 répétitions ou 2 à 5% de charge quand toutes les séries sont techniquement propres.</li>
+      </ul>
+    </div>
+    <div class="exercise-grid">
+      ${sessions.map((s, idx) => renderSessionCard(s, `Séance ${idx+1}`)).join('')}
+    </div>
+  `;
+}
+function generateSingleSession(){
+  const goal = qs('#singleGoal').value;
+  const level = qs('#singleLevel').value;
+  const env = qs('#singleEnv').value;
+  const duration = Number(qs('#singleDuration').value || 60);
+  const focus = qs('#singleFocus').value;
+  const style = qs('#singleStyle').value;
+  const equip = selectedEquipment();
+  window.__ageBand = 'adult';
+  const session = buildSession(goal, level, env, duration, focus, style, 'adult', equip);
+  qs('#sessionOutput').innerHTML = renderSessionCard(session, 'Séance générée');
+}
+function renderLibrary(){
+  const cat = qs('#libCategory').value;
+  const level = qs('#libLevel').value;
+  const env = qs('#libEnv').value;
+  const q = qs('#libSearch').value.toLowerCase().trim();
+  const list = DATA.exercises.filter(e => {
+    const blob = [e.name,e.primary,e.pattern,e.coaching,e.variants,...e.goals].join(' ').toLowerCase();
+    return (!cat || e.category===cat) && (!level || e.level_min===level || levelRank(e.level_min) <= levelRank(level)) && (!env || e.environment.includes(env)) && (!q || blob.includes(q));
+  });
+  qs('#libraryGrid').innerHTML = list.map(e => `
+    <article class="exercise-card">
+      <div class="pillbar">
+        <span class="pill">${esc(prettyCategory(e.category))}</span>
+        <span class="pill">${esc(e.level_min)}</span>
+        <span class="pill">${esc(e.pattern)}</span>
+      </div>
+      <h3>${esc(e.name)}</h3>
+      <div class="story"><strong>Muscles / dominante :</strong> ${esc(e.primary)}</div>
+      <div class="story"><strong>Matériel :</strong> ${esc(e.equipment.map(prettyEquip).join(', '))}</div>
+      <div class="story"><strong>Lieu :</strong> ${esc(e.environment.join(', '))}</div>
+      <div class="story"><strong>Objectifs :</strong> ${esc(e.goals.join(', '))}</div>
+      <ul class="list">
+        <li><strong>Tempo conseillé :</strong> ${esc(e.tempo || 'contrôlé')}</li>
+        <li><strong>Consigne coach :</strong> ${esc(e.coaching)}</li>
+        <li><strong>Variantes :</strong> ${esc(e.variants || '—')}</li>
+      </ul>
     </article>
   `).join('');
 }
-function openSession(id){
-  const s = sessions.find(x=>x.id===id); if(!s) return;
-  qs('#modalContent').innerHTML = `
-    <h2>${escapeHtml(s.name)}</h2>
-    <div class="badges">
-      <span class="badge">${escapeHtml(s.sport)}</span>
-      <span class="badge">${escapeHtml(s.goal)}</span>
-      <span class="badge">${escapeHtml(s.level)}</span>
-      <span class="badge">${escapeHtml(s.setting)}</span>
-      <span class="badge">${escapeHtml(s.audience)}</span>
-    </div>
-    <p>${escapeHtml(s.description)}</p>
-    <h3>Repères séance</h3>
-    <ul>
-      <li>Durée : ${s.durationMin} min</li>
-      <li>Matériel : ${escapeHtml((s.equipment||[]).join(', '))}</li>
-      <li>Repos : ${escapeHtml(s.rest)}</li>
-      <li>Volume / répétitions : ${escapeHtml(s.reps)}</li>
-      <li>Charges : ${escapeHtml(s.loadNote || 'à adapter')}</li>
-    </ul>
-    <h3>Déroulement</h3>
-    <ol>${(s.structure||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol>
-  `;
-  qs('#modal').classList.remove('hidden');
-}
-function openProgram(id){
-  const p = programs.find(x=>x.id===id); if(!p) return;
-  qs('#modalContent').innerHTML = `
-    <h2>${escapeHtml(p.name)}</h2>
-    <div class="badges"><span class="badge">${escapeHtml(p.goal)}</span><span class="badge">${escapeHtml(p.frequency)}</span></div>
-    ${p.weeks.map(w => `
-      <div class="tool-card" style="margin-bottom:12px">
-        <strong>Semaine ${w.week}</strong><br>
-        <span>${escapeHtml(w.focus)}</span>
-        <ul>${(w.sessions||[]).map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>
-      </div>
-    `).join('')}
-  `;
-  qs('#modal').classList.remove('hidden');
-}
-function closeModal(){qs('#modal').classList.add('hidden');}
-
-function calculateCoach(){
-  const age = Number(qs('#age').value||0), height = Number(qs('#height').value||0), weight = Number(qs('#weight').value||0), activity = Number(qs('#activity').value||1.2), oneRm = Number(qs('#oneRm').value||0), percent = Number(qs('#percentLoad').value||0);
-  if(!age || !height || !weight){ qs('#calcOutput').innerHTML='Complète âge, taille et poids.'; return; }
-  const bmi = weight / ((height/100)**2);
-  const bmr = (10*weight)+(6.25*height)-(5*age)+5;
-  const tdee = bmr * activity;
-  const load = oneRm && percent ? Math.round(oneRm * (percent/100)) : 0;
-  qs('#calcOutput').innerHTML = `<strong>IMC</strong> : ${bmi.toFixed(1)}<br><strong>Métabolisme de base</strong> : ${Math.round(bmr)} kcal/jour<br><strong>Dépense journalière</strong> : ${Math.round(tdee)} kcal/jour<br><strong>Charge conseillée</strong> : ${load ? load + ' kg' : 'renseigne 1RM et %'}<br><strong>Repère</strong> : 60-70% volume / 75-85% force / >85% intensification`;
-}
-function saveClient(){
-  const obj = {id:Date.now(),name:qs('#clientName').value.trim(),age:qs('#clientAge').value.trim(),goal:qs('#clientGoal').value.trim(),sport:qs('#clientSport').value.trim(),level:qs('#clientLevel').value.trim(),context:qs('#clientContext').value.trim(),notes:qs('#clientNotes').value.trim()};
-  if(!obj.name) return;
-  state.clients.unshift(obj);
-  localStorage.setItem('fafa-v3-ultra-clients', JSON.stringify(state.clients));
-  ['#clientName','#clientAge','#clientGoal','#clientSport','#clientLevel','#clientContext','#clientNotes'].forEach(sel => qs(sel).value='');
-  renderClients();
-}
-function renderClients(){
-  qs('#clientList').innerHTML = state.clients.length ? `<div class="client-cards">${state.clients.map(c => `<div class="mini-card"><strong>${escapeHtml(c.name)}</strong><br>Âge : ${escapeHtml(c.age)}<br>Objectif : ${escapeHtml(c.goal)}<br>Sport : ${escapeHtml(c.sport)}<br>Niveau : ${escapeHtml(c.level)}<br>Contexte : ${escapeHtml(c.context)}<br><small>${escapeHtml(c.notes)}</small></div>`).join('')}</div>` : '<p>Aucune fiche client enregistrée.</p>';
-}
-function saveProgress(){
-  const obj = {id:Date.now(),name:qs('#progressName').value.trim(),weight:qs('#progressWeight').value.trim(),waist:qs('#progressWaist').value.trim(),perf:qs('#progressPerf').value.trim(),notes:qs('#progressNotes').value.trim(),date:new Date().toLocaleDateString('fr-FR')};
-  if(!obj.name) return;
-  state.progress.unshift(obj);
-  localStorage.setItem('fafa-v3-ultra-progress', JSON.stringify(state.progress));
-  ['#progressName','#progressWeight','#progressWaist','#progressPerf','#progressNotes'].forEach(sel => qs(sel).value='');
-  renderProgress();
-}
-function renderProgress(){
-  qs('#progressList').innerHTML = state.progress.length ? `<div class="progress-cards">${state.progress.map(p => `<div class="mini-card"><strong>${escapeHtml(p.name)}</strong><br>Date : ${escapeHtml(p.date)}<br>Poids : ${escapeHtml(p.weight)}<br>Tour de taille : ${escapeHtml(p.waist)}<br>Perf : ${escapeHtml(p.perf)}<br><small>${escapeHtml(p.notes)}</small></div>`).join('')}</div>` : '<p>Aucune entrée enregistrée.</p>';
-}
-function generateProgram(){
-  const goal = qs('#genGoal').value.trim().toLowerCase();
-  const sport = qs('#genSport').value.trim().toLowerCase();
-  const level = qs('#genLevel').value.trim().toLowerCase();
-  const setting = qs('#genSetting').value.trim().toLowerCase();
-  const audience = qs('#genAudience').value.trim().toLowerCase();
-  const freq = Math.max(1, Number(qs('#genFreq').value||3));
-  const weeks = Math.max(1, Number(qs('#genWeeks').value||4));
-  const pool = sessions.filter(s => (!goal || s.goal.toLowerCase().includes(goal)) && (!sport || s.sport.toLowerCase().includes(sport)) && (!level || s.level.toLowerCase().includes(level)) && (!setting || s.setting.toLowerCase().includes(setting)) && (!audience || s.audience.toLowerCase().includes(audience)));
-  if(!pool.length){ qs('#generatorOutput').innerHTML = '<p>Aucune séance compatible trouvée.</p>'; state.generatedHTML=''; return; }
-  let html = '';
-  for(let w=1; w<=weeks; w++){
-    const picked = [];
-    for(let i=0; i<freq; i++){ picked.push(pool[(w+i-1) % pool.length]); }
-    html += `<div class="tool-card" style="margin-bottom:12px"><strong>Semaine ${w}</strong><ul>${picked.map(s => `<li>${escapeHtml(s.name)} · ${escapeHtml(s.goal)} · ${escapeHtml(s.setting)} · ${escapeHtml(s.level)}</li>`).join('')}</ul></div>`;
-  }
-  state.generatedHTML = html;
-  qs('#generatorOutput').innerHTML = html;
-}
-function exportPrintable(title, html){
+function exportCurrent(id){
+  const html = qs('#'+id).innerHTML;
   const win = window.open('', '_blank');
-  win.document.write(`<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>${title}</title><style>body{font-family:Arial;padding:30px;color:#111}h1{margin-top:0} .card{border:1px solid #ccc;border-radius:12px;padding:14px;margin-bottom:12px}</style></head><body><h1>${title}</h1>${html}</body></html>`);
+  win.document.write(`<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>Export coach</title><style>body{font-family:Arial;padding:30px}.session-card,.week-box,.exercise-card{border:1px solid #ccc;border-radius:12px;padding:14px;margin-bottom:14px}.pill{display:inline-block;border:1px solid #aaa;border-radius:999px;padding:4px 8px;margin:2px}</style></head><body>${html}</body></html>`);
   win.document.close();
-  win.focus();
-  setTimeout(() => win.print(), 300);
-}
-function exportGeneratedPDF(){
-  if(!state.generatedHTML){ generateProgram(); }
-  if(state.generatedHTML){ exportPrintable('Programme FAFATRAINING généré', state.generatedHTML); }
-}
-function exportClientsPDF(){
-  const html = state.clients.length ? state.clients.map(c => `<div class="card"><strong>${escapeHtml(c.name)}</strong><br>Âge : ${escapeHtml(c.age)}<br>Objectif : ${escapeHtml(c.goal)}<br>Sport : ${escapeHtml(c.sport)}<br>Niveau : ${escapeHtml(c.level)}<br>Contexte : ${escapeHtml(c.context)}<br>Notes : ${escapeHtml(c.notes)}</div>`).join('') : '<p>Aucune fiche client.</p>';
-  exportPrintable('Fiches clients FAFATRAINING', html);
-}
-function exportProgressPDF(){
-  const html = state.progress.length ? state.progress.map(p => `<div class="card"><strong>${escapeHtml(p.name)}</strong><br>Date : ${escapeHtml(p.date)}<br>Poids : ${escapeHtml(p.weight)}<br>Tour de taille : ${escapeHtml(p.waist)}<br>Performance : ${escapeHtml(p.perf)}<br>Notes : ${escapeHtml(p.notes)}</div>`).join('') : '<p>Aucune progression enregistrée.</p>';
-  exportPrintable('Suivi progression FAFATRAINING', html);
-}
-function applyAll(){ renderSessions(); }
-function init(){
-  applyMode();
-  renderSessions();
-  renderPrograms();
-  renderClients();
-  renderProgress();
-  calculateCoach();
 }
 init();

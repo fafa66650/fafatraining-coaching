@@ -2,256 +2,108 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FAFATRAINING Coach Sportif V3 Ultra</title>
-<meta name="theme-color" content="#0A0A0A">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FAFATRAINING Coach V4 Ultra Détaillée</title>
+<meta name="theme-color" content="#0b0b12">
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
   <header class="hero">
-    <div class="hero-left">
-      <div class="brand">FAFATRAINING · COACH SPORTIF V3 ULTRA</div>
-      <h1>Planifier. Suivre. Adapter. Performer.</h1>
-      <p>Version corrigée, renforcée et plus professionnelle : logique coach / utilisateur, bibliothèque complète, générateur automatique, PDF, suivi progression, fiches clients, sports variés, âge, sexe, environnement et charges de travail.</p>
+    <div class="hero-main">
+      <div class="eyebrow">FAFATRAINING · COACH V4 ULTRA DÉTAILLÉE</div>
+      <h1>Vraie logique de coaching. Vraies séances. Vrais détails.</h1>
+      <p>Bibliothèque très large d’exercices, programmes détaillés, séries, répétitions, récupération, charge estimée, tempo, coaching cues, adaptation au niveau, à l’âge, au matériel, au lieu et à l’objectif.</p>
       <div class="hero-actions">
-        <button onclick="openTab('tab-seances')">Séances</button>
-        <button class="ghost" onclick="openTab('tab-generator')">Générateur</button>
-        <button class="ghost" onclick="openTab('tab-clients')">Clients</button>
+        <button onclick="openTab('generator')">Créer un programme</button>
+        <button class="ghost" onclick="openTab('session')">Créer une séance</button>
+        <button class="ghost" onclick="openTab('library')">Voir la bibliothèque</button>
       </div>
-      <div class="logo-box">
-        <img src="assets/logo-fafatraining.jpeg" alt="Logo FAFATRAINING">
-        <div>
-          <strong>Mode coach / mode utilisateur</strong><br>
-          <span>Interface claire, premium et exploitable sur le terrain.</span>
-        </div>
+      <div class="brandbox">
+        <strong>Mode coach</strong><br>
+        <span>Programme intelligent, séance intelligente, détails exploitables immédiatement.</span>
       </div>
     </div>
-    <div class="hero-right">
-      <div class="stat"><strong id="countSessions">0</strong><span>séances</span></div>
-      <div class="stat"><strong id="countPrograms">0</strong><span>programmes</span></div>
+    <div class="hero-side">
+      <div class="stat"><strong id="statExercises">0</strong><span>exercices</span></div>
+      <div class="stat"><strong>Ultra</strong><span>détaillé</span></div>
       <div class="stat"><strong>PDF</strong><span>export imprimable</span></div>
-      <div class="stat"><strong>Vrai coach</strong><span>charges, repos, planning</span></div>
+      <div class="stat"><strong>Auto</strong><span>fréquence conseillée</span></div>
     </div>
   </header>
 
-  <main class="layout">
-    <aside class="sidebar">
-      <section class="panel">
-        <h2>Mode & filtres</h2>
-        <label>Mode d'utilisation</label>
-        <select id="modeSelect" onchange="applyMode()">
-          <option value="user">Utilisateur</option>
-          <option value="coach">Coach</option>
-        </select>
+  <nav class="tabs">
+    <button class="tab active" data-target="generator" onclick="openTab('generator')">Programme</button>
+    <button class="tab" data-target="session" onclick="openTab('session')">Séance</button>
+    <button class="tab" data-target="library" onclick="openTab('library')">Bibliothèque</button>
+    <button class="tab" data-target="guide" onclick="openTab('guide')">Guide</button>
+  </nav>
 
-        <label>Objectif</label>
-        <select id="goalSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="remise en forme">Remise en forme</option>
-          <option value="forme">Forme</option>
-          <option value="perte de poids">Perte de poids</option>
-          <option value="prise de muscle">Prise de muscle</option>
-          <option value="force">Force</option>
-          <option value="endurance">Endurance</option>
-          <option value="performance">Performance</option>
-          <option value="compétition">Compétition</option>
-          <option value="cardio">Cardio</option>
-          <option value="technique">Technique</option>
-          <option value="récupération">Récupération</option>
-          <option value="loisir">Loisir</option>
-          <option value="tonification">Tonification</option>
-        </select>
+  <section id="generator" class="panel tab-panel active">
+    <h2>Créer un programme complet</h2>
+    <div class="grid-form">
+      <div><label>Âge</label><input id="age" type="number" min="10" max="90" value="30"></div>
+      <div><label>Sexe</label><select id="sex"><option value="male">Homme</option><option value="female">Femme</option></select></div>
+      <div><label>Taille (cm)</label><input id="height" type="number" min="120" max="230" value="175"></div>
+      <div><label>Poids (kg)</label><input id="weight" type="number" min="35" max="250" value="75"></div>
+      <div><label>Niveau</label><select id="level"><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></div>
+      <div><label>Activité actuelle</label><select id="activity"><option value="sedentary">Sédentaire / reprise</option><option value="light">Légèrement actif</option><option value="moderate">Actif</option><option value="high">Très actif / sportif</option></select></div>
+      <div><label>Objectif principal</label><select id="goal"></select></div>
+      <div><label>Environnement</label><select id="environment"><option value="gym">Salle de sport</option><option value="home">Domicile</option><option value="outdoor">Extérieur</option></select></div>
+      <div><label>Nombre de séances / semaine</label><select id="frequency"><option value="auto">Automatique selon le profil</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div>
+      <div><label>Durée d’une séance</label><select id="duration"><option value="45">45 min</option><option value="60" selected>60 min</option><option value="75">75 min</option><option value="90">90 min</option></select></div>
+      <div class="full"><label>Matériel disponible</label><div id="equipmentGrid" class="equip-grid"></div></div>
+    </div>
+    <div class="actions">
+      <button onclick="generateProgram()">Générer le programme</button>
+      <button class="ghost" onclick="exportCurrent('programOutput')">Exporter / imprimer</button>
+    </div>
+    <div id="programOutput" class="output"></div>
+  </section>
 
-        <label>Sport</label>
-        <select id="sportSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="Musculation">Musculation</option>
-          <option value="Boxe">Boxe</option>
-          <option value="Hyrox">Hyrox</option>
-          <option value="Trail">Trail</option>
-          <option value="Course à pied">Course à pied</option>
-          <option value="Danse">Danse</option>
-          <option value="Préparation physique">Préparation physique</option>
-          <option value="HIIT">HIIT</option>
-          <option value="Mobilité">Mobilité</option>
-          <option value="Core">Core</option>
-          <option value="Suspension">Suspension</option>
-          <option value="Natation">Natation</option>
-        </select>
+  <section id="session" class="panel tab-panel">
+    <h2>Créer une seule séance</h2>
+    <div class="grid-form">
+      <div><label>Objectif séance</label><select id="singleGoal"></select></div>
+      <div><label>Niveau</label><select id="singleLevel"><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></div>
+      <div><label>Environnement</label><select id="singleEnv"><option value="gym">Salle de sport</option><option value="home">Domicile</option><option value="outdoor">Extérieur</option></select></div>
+      <div><label>Durée</label><select id="singleDuration"><option value="30">30 min</option><option value="45">45 min</option><option value="60" selected>60 min</option><option value="75">75 min</option></select></div>
+      <div><label>Dominante</label><select id="singleFocus">
+        <option value="full_body">Full body</option><option value="lower">Bas du corps</option><option value="upper">Haut du corps</option>
+        <option value="push">Poussée</option><option value="pull">Tirage</option><option value="core">Gainage / centre du corps</option>
+        <option value="cardio">Cardio</option><option value="boxing">Boxe</option></select></div>
+      <div><label>Style</label><select id="singleStyle"><option value="classic">Classique</option><option value="circuit">Circuit</option><option value="intervals">Intervalles</option></select></div>
+    </div>
+    <div class="actions">
+      <button onclick="generateSingleSession()">Générer la séance</button>
+      <button class="ghost" onclick="exportCurrent('sessionOutput')">Exporter / imprimer</button>
+    </div>
+    <div id="sessionOutput" class="output"></div>
+  </section>
 
-        <label>Niveau</label>
-        <select id="levelSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="débutant">Débutant</option>
-          <option value="intermédiaire">Intermédiaire</option>
-          <option value="confirmé">Confirmé</option>
-          <option value="tout niveau">Tout niveau</option>
-        </select>
+  <section id="library" class="panel tab-panel">
+    <h2>Bibliothèque d’exercices</h2>
+    <div class="filters">
+      <select id="libCategory" onchange="renderLibrary()"><option value="">Toutes les catégories</option></select>
+      <select id="libLevel" onchange="renderLibrary()"><option value="">Tous les niveaux</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select>
+      <select id="libEnv" onchange="renderLibrary()"><option value="">Tous les lieux</option><option value="gym">Salle</option><option value="home">Domicile</option><option value="outdoor">Extérieur</option></select>
+      <input id="libSearch" type="text" placeholder="Rechercher un exercice, un muscle, un pattern..." oninput="renderLibrary()">
+    </div>
+    <div id="libraryGrid" class="card-grid"></div>
+  </section>
 
-        <label>Environnement</label>
-        <select id="settingSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="salle">Salle</option>
-          <option value="domicile">Domicile</option>
-          <option value="extérieur">Extérieur</option>
-        </select>
-
-        <label>Public</label>
-        <select id="audienceSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="ado">Ado</option>
-          <option value="adulte">Adulte</option>
-          <option value="senior">Senior</option>
-        </select>
-
-        <label>Sexe</label>
-        <select id="sexSelect" onchange="applyAll()">
-          <option value="">Tous</option>
-          <option value="mixte">Mixte</option>
-          <option value="femme">Femme</option>
-          <option value="homme">Homme</option>
-        </select>
-
-        <label>Recherche</label>
-        <input id="searchInput" type="text" placeholder="boxe, trail, squat..." oninput="applyAll()">
-      </section>
-
-      <section class="panel">
-        <h2>Calculs coach</h2>
-        <div class="mini-grid">
-          <div><label>Âge</label><input id="age" type="number" value="30"></div>
-          <div><label>Taille (cm)</label><input id="height" type="number" value="175"></div>
-          <div><label>Poids (kg)</label><input id="weight" type="number" value="75"></div>
-          <div><label>Activité</label>
-            <select id="activity">
-              <option value="1.2">Sédentaire</option>
-              <option value="1.375">Légère</option>
-              <option value="1.55" selected>Modérée</option>
-              <option value="1.725">Intense</option>
-            </select>
-          </div>
-          <div><label>1RM</label><input id="oneRm" type="number" value="100"></div>
-          <div><label>% charge</label><input id="percentLoad" type="number" value="75"></div>
-        </div>
-        <button class="secondary full" onclick="calculateCoach()">Calculer</button>
-        <div id="calcOutput" class="calc">IMC, calories, charge conseillée.</div>
-      </section>
-    </aside>
-
-    <section class="content">
-      <div class="tabs">
-        <button class="tab active" data-target="tab-seances" onclick="openTab('tab-seances')">Séances</button>
-        <button class="tab" data-target="tab-programmes" onclick="openTab('tab-programmes')">Programmes</button>
-        <button class="tab coach-only" data-target="tab-generator" onclick="openTab('tab-generator')">Générateur</button>
-        <button class="tab coach-only" data-target="tab-clients" onclick="openTab('tab-clients')">Clients</button>
-        <button class="tab coach-only" data-target="tab-suivi" onclick="openTab('tab-suivi')">Suivi</button>
-        <button class="tab" data-target="tab-tests" onclick="openTab('tab-tests')">Tests</button>
-      </div>
-
-      <section id="tab-seances" class="tab-panel active">
-        <div class="panel strip">
-          <div id="filterSummary"></div>
-        </div>
-        <div id="sessionGrid" class="grid"></div>
-      </section>
-
-      <section id="tab-programmes" class="tab-panel">
-        <div id="programGrid" class="grid"></div>
-      </section>
-
-      <section id="tab-generator" class="tab-panel">
-        <div class="panel">
-          <h2>Générateur de programme automatique</h2>
-          <div class="mini-grid">
-            <div><label>Objectif</label><input id="genGoal" type="text" placeholder="prise de muscle, boxe..."></div>
-            <div><label>Sport</label><input id="genSport" type="text" placeholder="Musculation, Boxe..."></div>
-            <div><label>Niveau</label><input id="genLevel" type="text" placeholder="débutant, intermédiaire..."></div>
-            <div><label>Lieu</label><input id="genSetting" type="text" placeholder="salle, domicile, extérieur"></div>
-            <div><label>Public</label><input id="genAudience" type="text" placeholder="ado, adulte, senior"></div>
-            <div><label>Séances / semaine</label><input id="genFreq" type="number" value="3"></div>
-            <div><label>Semaines</label><input id="genWeeks" type="number" value="4"></div>
-          </div>
-          <div class="actions">
-            <button class="secondary" onclick="generateProgram()">Générer</button>
-            <button class="ghost" onclick="exportGeneratedPDF()">Exporter en PDF</button>
-          </div>
-        </div>
-        <div class="panel">
-          <h2>Résultat généré</h2>
-          <div id="generatorOutput"></div>
-        </div>
-      </section>
-
-      <section id="tab-clients" class="tab-panel">
-        <div class="panel">
-          <h2>Nouvelle fiche client</h2>
-          <div class="mini-grid">
-            <div><label>Nom</label><input id="clientName" type="text"></div>
-            <div><label>Âge</label><input id="clientAge" type="number"></div>
-            <div><label>Objectif</label><input id="clientGoal" type="text"></div>
-            <div><label>Sport</label><input id="clientSport" type="text"></div>
-            <div><label>Niveau</label><input id="clientLevel" type="text"></div>
-            <div><label>Contexte</label><input id="clientContext" type="text"></div>
-          </div>
-          <label>Notes coach</label>
-          <textarea id="clientNotes" class="big"></textarea>
-          <div class="actions">
-            <button class="secondary" onclick="saveClient()">Enregistrer</button>
-            <button class="ghost" onclick="exportClientsPDF()">Exporter en PDF</button>
-          </div>
-        </div>
-        <div class="panel">
-          <h2>Fiches enregistrées</h2>
-          <div id="clientList"></div>
-        </div>
-      </section>
-
-      <section id="tab-suivi" class="tab-panel">
-        <div class="panel">
-          <h2>Ajouter une entrée progression</h2>
-          <div class="mini-grid">
-            <div><label>Nom</label><input id="progressName" type="text"></div>
-            <div><label>Poids</label><input id="progressWeight" type="number"></div>
-            <div><label>Tour de taille</label><input id="progressWaist" type="number"></div>
-            <div><label>Performance repère</label><input id="progressPerf" type="text" placeholder="ex: squat 5x5 à 80kg"></div>
-          </div>
-          <label>Notes</label>
-          <textarea id="progressNotes" class="big"></textarea>
-          <div class="actions">
-            <button class="secondary" onclick="saveProgress()">Ajouter</button>
-            <button class="ghost" onclick="exportProgressPDF()">Exporter en PDF</button>
-          </div>
-        </div>
-        <div class="panel">
-          <h2>Historique</h2>
-          <div id="progressList"></div>
-        </div>
-      </section>
-
-      <section id="tab-tests" class="tab-panel">
-        <div class="tests">
-          <div class="tool-card"><h3>Cardio</h3><p>Cooper 12 min, chrono 1500 m, VMA terrain, récupération 1 min.</p></div>
-          <div class="tool-card"><h3>Force</h3><p>1RM, 5RM, max pompes, max tractions, wall sit, med ball.</p></div>
-          <div class="tool-card"><h3>Vitesse</h3><p>10 m, 30 m, sprints répétés, détente verticale.</p></div>
-          <div class="tool-card"><h3>Mobilité</h3><p>Chevilles, hanches, squat test, épaules, gainage.</p></div>
-          <div class="tool-card"><h3>Natation</h3><p>400 m chronométré, 8 x 50 m régularité, technique respiration.</p></div>
-          <div class="tool-card"><h3>Hyrox</h3><p>Blocs de transition, temps de passage, capacité à répéter les efforts.</p></div>
-        </div>
-      </section>
-    </section>
-  </main>
+  <section id="guide" class="panel tab-panel">
+    <h2>Guide rapide</h2>
+    <div class="guide-grid">
+      <article class="guide-card"><strong>Équation coaching</strong><p>Programme = Objectif + Niveau + Profil + Matériel + Fréquence + Durée.</p></article>
+      <article class="guide-card"><strong>Charge estimée</strong><p>La charge est donnée en % de réserve selon l’objectif et le niveau. Tu peux partir léger puis ajuster selon la qualité technique.</p></article>
+      <article class="guide-card"><strong>Fréquence automatique</strong><p>Plus la personne est débutante ou sédentaire, plus la progression reste prudente. L’application propose une fréquence réaliste.</p></article>
+      <article class="guide-card"><strong>Export</strong><p>Tu peux imprimer directement le programme ou la séance pour en faire une fiche client.</p></article>
+    </div>
+  </section>
 </div>
 
-<div id="modal" class="modal hidden">
-  <div class="modal-card">
-    <button class="close" onclick="closeModal()">✕</button>
-    <div id="modalContent"></div>
-  </div>
-</div>
-
-<script src="data.js"></script>
 <script src="app.js"></script>
 <script>
 if ('serviceWorker' in navigator) {

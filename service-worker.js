@@ -1,6 +1,6 @@
 
-const CACHE='fafa-coach-v3-ultra';
-const ASSETS=['./','./index.html','./style.css','./app.js','./data.js','./manifest.json','./icons/icon-192.png','./icons/icon-512.png','./assets/logo-fafatraining.jpeg'];
+const CACHE='fafa-coach-v4';
+const ASSETS=['./','./index.html','./style.css','./app.js','./data.json','./manifest.json','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))); });
 self.addEventListener('activate', e => e.waitUntil(clients.claim()));
 self.addEventListener('fetch', e => {
