@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAFATRAINING Coach Sportif V3 Ultra</title>
+<meta name="theme-color" content="#0A0A0A">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="hero">
+    <div class="hero-left">
+      <div class="brand">FAFATRAINING · COACH SPORTIF V3 ULTRA</div>
+      <h1>Planifier. Suivre. Adapter. Performer.</h1>
+      <p>Version corrigée, renforcée et plus professionnelle : logique coach / utilisateur, bibliothèque complète, générateur automatique, PDF, suivi progression, fiches clients, sports variés, âge, sexe, environnement et charges de travail.</p>
+      <div class="hero-actions">
+        <button onclick="openTab('tab-seances')">Séances</button>
+        <button class="ghost" onclick="openTab('tab-generator')">Générateur</button>
+        <button class="ghost" onclick="openTab('tab-clients')">Clients</button>
+      </div>
+      <div class="logo-box">
+        <img src="assets/logo-fafatraining.jpeg" alt="Logo FAFATRAINING">
+        <div>
+          <strong>Mode coach / mode utilisateur</strong><br>
+          <span>Interface claire, premium et exploitable sur le terrain.</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="stat"><strong id="countSessions">0</strong><span>séances</span></div>
+      <div class="stat"><strong id="countPrograms">0</strong><span>programmes</span></div>
+      <div class="stat"><strong>PDF</strong><span>export imprimable</span></div>
+      <div class="stat"><strong>Vrai coach</strong><span>charges, repos, planning</span></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Mode & filtres</h2>
+        <label>Mode d'utilisation</label>
+        <select id="modeSelect" onchange="applyMode()">
+          <option value="user">Utilisateur</option>
+          <option value="coach">Coach</option>
+        </select>
+
+        <label>Objectif</label>
+        <select id="goalSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="remise en forme">Remise en forme</option>
+          <option value="forme">Forme</option>
+          <option value="perte de poids">Perte de poids</option>
+          <option value="prise de muscle">Prise de muscle</option>
+          <option value="force">Force</option>
+          <option value="endurance">Endurance</option>
+          <option value="performance">Performance</option>
+          <option value="compétition">Compétition</option>
+          <option value="cardio">Cardio</option>
+          <option value="technique">Technique</option>
+          <option value="récupération">Récupération</option>
+          <option value="loisir">Loisir</option>
+          <option value="tonification">Tonification</option>
+        </select>
+
+        <label>Sport</label>
+        <select id="sportSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="Musculation">Musculation</option>
+          <option value="Boxe">Boxe</option>
+          <option value="Hyrox">Hyrox</option>
+          <option value="Trail">Trail</option>
+          <option value="Course à pied">Course à pied</option>
+          <option value="Danse">Danse</option>
+          <option value="Préparation physique">Préparation physique</option>
+          <option value="HIIT">HIIT</option>
+          <option value="Mobilité">Mobilité</option>
+          <option value="Core">Core</option>
+          <option value="Suspension">Suspension</option>
+          <option value="Natation">Natation</option>
+        </select>
+
+        <label>Niveau</label>
+        <select id="levelSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="débutant">Débutant</option>
+          <option value="intermédiaire">Intermédiaire</option>
+          <option value="confirmé">Confirmé</option>
+          <option value="tout niveau">Tout niveau</option>
+        </select>
+
+        <label>Environnement</label>
+        <select id="settingSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="salle">Salle</option>
+          <option value="domicile">Domicile</option>
+          <option value="extérieur">Extérieur</option>
+        </select>
+
+        <label>Public</label>
+        <select id="audienceSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="ado">Ado</option>
+          <option value="adulte">Adulte</option>
+          <option value="senior">Senior</option>
+        </select>
+
+        <label>Sexe</label>
+        <select id="sexSelect" onchange="applyAll()">
+          <option value="">Tous</option>
+          <option value="mixte">Mixte</option>
+          <option value="femme">Femme</option>
+          <option value="homme">Homme</option>
+        </select>
+
+        <label>Recherche</label>
+        <input id="searchInput" type="text" placeholder="boxe, trail, squat..." oninput="applyAll()">
+      </section>
+
+      <section class="panel">
+        <h2>Calculs coach</h2>
+        <div class="mini-grid">
+          <div><label>Âge</label><input id="age" type="number" value="30"></div>
+          <div><label>Taille (cm)</label><input id="height" type="number" value="175"></div>
+          <div><label>Poids (kg)</label><input id="weight" type="number" value="75"></div>
+          <div><label>Activité</label>
+            <select id="activity">
+              <option value="1.2">Sédentaire</option>
+              <option value="1.375">Légère</option>
+              <option value="1.55" selected>Modérée</option>
+              <option value="1.725">Intense</option>
+            </select>
+          </div>
+          <div><label>1RM</label><input id="oneRm" type="number" value="100"></div>
+          <div><label>% charge</label><input id="percentLoad" type="number" value="75"></div>
+        </div>
+        <button class="secondary full" onclick="calculateCoach()">Calculer</button>
+        <div id="calcOutput" class="calc">IMC, calories, charge conseillée.</div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <div class="tabs">
+        <button class="tab active" data-target="tab-seances" onclick="openTab('tab-seances')">Séances</button>
+        <button class="tab" data-target="tab-programmes" onclick="openTab('tab-programmes')">Programmes</button>
+        <button class="tab coach-only" data-target="tab-generator" onclick="openTab('tab-generator')">Générateur</button>
+        <button class="tab coach-only" data-target="tab-clients" onclick="openTab('tab-clients')">Clients</button>
+        <button class="tab coach-only" data-target="tab-suivi" onclick="openTab('tab-suivi')">Suivi</button>
+        <button class="tab" data-target="tab-tests" onclick="openTab('tab-tests')">Tests</button>
+      </div>
+
+      <section id="tab-seances" class="tab-panel active">
+        <div class="panel strip">
+          <div id="filterSummary"></div>
+        </div>
+        <div id="sessionGrid" class="grid"></div>
+      </section>
+
+      <section id="tab-programmes" class="tab-panel">
+        <div id="programGrid" class="grid"></div>
+      </section>
+
+      <section id="tab-generator" class="tab-panel">
+        <div class="panel">
+          <h2>Générateur de programme automatique</h2>
+          <div class="mini-grid">
+            <div><label>Objectif</label><input id="genGoal" type="text" placeholder="prise de muscle, boxe..."></div>
+            <div><label>Sport</label><input id="genSport" type="text" placeholder="Musculation, Boxe..."></div>
+            <div><label>Niveau</label><input id="genLevel" type="text" placeholder="débutant, intermédiaire..."></div>
+            <div><label>Lieu</label><input id="genSetting" type="text" placeholder="salle, domicile, extérieur"></div>
+            <div><label>Public</label><input id="genAudience" type="text" placeholder="ado, adulte, senior"></div>
+            <div><label>Séances / semaine</label><input id="genFreq" type="number" value="3"></div>
+            <div><label>Semaines</label><input id="genWeeks" type="number" value="4"></div>
+          </div>
+          <div class="actions">
+            <button class="secondary" onclick="generateProgram()">Générer</button>
+            <button class="ghost" onclick="exportGeneratedPDF()">Exporter en PDF</button>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Résultat généré</h2>
+          <div id="generatorOutput"></div>
+        </div>
+      </section>
+
+      <section id="tab-clients" class="tab-panel">
+        <div class="panel">
+          <h2>Nouvelle fiche client</h2>
+          <div class="mini-grid">
+            <div><label>Nom</label><input id="clientName" type="text"></div>
+            <div><label>Âge</label><input id="clientAge" type="number"></div>
+            <div><label>Objectif</label><input id="clientGoal" type="text"></div>
+            <div><label>Sport</label><input id="clientSport" type="text"></div>
+            <div><label>Niveau</label><input id="clientLevel" type="text"></div>
+            <div><label>Contexte</label><input id="clientContext" type="text"></div>
+          </div>
+          <label>Notes coach</label>
+          <textarea id="clientNotes" class="big"></textarea>
+          <div class="actions">
+            <button class="secondary" onclick="saveClient()">Enregistrer</button>
+            <button class="ghost" onclick="exportClientsPDF()">Exporter en PDF</button>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Fiches enregistrées</h2>
+          <div id="clientList"></div>
+        </div>
+      </section>
+
+      <section id="tab-suivi" class="tab-panel">
+        <div class="panel">
+          <h2>Ajouter une entrée progression</h2>
+          <div class="mini-grid">
+            <div><label>Nom</label><input id="progressName" type="text"></div>
+            <div><label>Poids</label><input id="progressWeight" type="number"></div>
+            <div><label>Tour de taille</label><input id="progressWaist" type="number"></div>
+            <div><label>Performance repère</label><input id="progressPerf" type="text" placeholder="ex: squat 5x5 à 80kg"></div>
+          </div>
+          <label>Notes</label>
+          <textarea id="progressNotes" class="big"></textarea>
+          <div class="actions">
+            <button class="secondary" onclick="saveProgress()">Ajouter</button>
+            <button class="ghost" onclick="exportProgressPDF()">Exporter en PDF</button>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Historique</h2>
+          <div id="progressList"></div>
+        </div>
+      </section>
+
+      <section id="tab-tests" class="tab-panel">
+        <div class="tests">
+          <div class="tool-card"><h3>Cardio</h3><p>Cooper 12 min, chrono 1500 m, VMA terrain, récupération 1 min.</p></div>
+          <div class="tool-card"><h3>Force</h3><p>1RM, 5RM, max pompes, max tractions, wall sit, med ball.</p></div>
+          <div class="tool-card"><h3>Vitesse</h3><p>10 m, 30 m, sprints répétés, détente verticale.</p></div>
+          <div class="tool-card"><h3>Mobilité</h3><p>Chevilles, hanches, squat test, épaules, gainage.</p></div>
+          <div class="tool-card"><h3>Natation</h3><p>400 m chronométré, 8 x 50 m régularité, technique respiration.</p></div>
+          <div class="tool-card"><h3>Hyrox</h3><p>Blocs de transition, temps de passage, capacité à répéter les efforts.</p></div>
+        </div>
+      </section>
+    </section>
+  </main>
+</div>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <button class="close" onclick="closeModal()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(() => {}));
+}
+</script>
+</body>
+</html>

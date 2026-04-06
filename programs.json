@@ -1,0 +1,194 @@
+[
+  {
+    "id": "programme-remise-forme-4-semaines",
+    "name": "Programme remise en forme 4 semaines",
+    "goal": "Remise en forme",
+    "frequency": "3 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Reprise",
+        "sessions": [
+          "Full body débutant maison",
+          "Circuit cardio perte de poids",
+          "Mobilité récupération"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Adaptation",
+        "sessions": [
+          "Full body débutant maison",
+          "Abdos gainage premium",
+          "Circuit cardio perte de poids"
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Progression",
+        "sessions": [
+          "TRX full body",
+          "Circuit cardio perte de poids",
+          "Mobilité récupération"
+        ]
+      },
+      {
+        "week": 4,
+        "focus": "Consolidation",
+        "sessions": [
+          "Full body débutant maison",
+          "TRX full body",
+          "Abdos gainage premium"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programme-musculation-prise-de-masse",
+    "name": "Programme musculation prise de masse 6 semaines",
+    "goal": "Prise de masse",
+    "frequency": "4 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Base volume",
+        "sessions": [
+          "Renforcement salle haut du corps",
+          "Bas du corps force salle",
+          "Musculation prise de muscle séance 1",
+          "Musculation prise de muscle séance 2"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Volume + technique",
+        "sessions": [
+          "Renforcement salle haut du corps",
+          "Bas du corps force salle",
+          "Musculation prise de muscle séance 3",
+          "Musculation prise de muscle séance 4"
+        ]
+      },
+      {
+        "week": 3,
+        "focus": "Progression",
+        "sessions": [
+          "Renforcement salle haut du corps",
+          "Bas du corps force salle",
+          "Musculation prise de muscle séance 5",
+          "Musculation force séance 1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programme-boxe-competition",
+    "name": "Programme boxe compétition 4 semaines",
+    "goal": "Boxe compétition",
+    "frequency": "4 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Technique + souffle",
+        "sessions": [
+          "Préparation boxe compétition",
+          "Cardio boxe loisir",
+          "Boxe technique séance 1",
+          "Boxe technique séance 2"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Intensité",
+        "sessions": [
+          "Préparation boxe compétition",
+          "Boxe technique séance 3",
+          "Course sur route fractionné",
+          "Boxe technique séance 4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programme-hyrox-5-semaines",
+    "name": "Programme Hyrox 5 semaines",
+    "goal": "Hyrox",
+    "frequency": "4 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Base aérobie + technique",
+        "sessions": [
+          "Hyrox simulation bloc",
+          "Hyrox performance séance 1",
+          "Course à pied performance séance 1",
+          "Mobilité récupération"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Volume spécifique",
+        "sessions": [
+          "Hyrox performance séance 2",
+          "Hyrox performance séance 3",
+          "Abdos gainage premium",
+          "Course à pied performance séance 2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programme-trail-competition",
+    "name": "Programme trail compétition 5 semaines",
+    "goal": "Trail compétition",
+    "frequency": "4 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Côtes + endurance",
+        "sessions": [
+          "Trail montée puissance",
+          "Trail compétition séance 1",
+          "Course à pied endurance séance 1",
+          "Mobilité récupération"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Progression spécifique",
+        "sessions": [
+          "Trail compétition séance 2",
+          "Trail compétition séance 3",
+          "Course à pied performance séance 3",
+          "Abdos gainage premium"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programme-natation-forme",
+    "name": "Programme natation forme 4 semaines",
+    "goal": "Natation forme",
+    "frequency": "2 à 3 séances / semaine",
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "Technique de base",
+        "sessions": [
+          "Natation endurance technique",
+          "Natation forme séance 1",
+          "Mobilité récupération"
+        ]
+      },
+      {
+        "week": 2,
+        "focus": "Régularité",
+        "sessions": [
+          "Natation forme séance 2",
+          "Natation forme séance 3",
+          "Abdos gainage premium"
+        ]
+      }
+    ]
+  }
+]
