@@ -1,239 +1,141 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>FAFATRAINING ELITE SYSTEM</title>
-<link rel="stylesheet" href="style.css" />
-<link rel="manifest" href="manifest.json" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FAFATRAINING Elite System</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="shell">
-  <aside class="sidebar">
-    <div class="brand">
-      <img src="assets/logo.jpeg" alt="FAFATRAINING" />
-      <div>
-        <h1>FAFATRAINING ELITE SYSTEM</h1>
-        <p>Forge ton corps. Élève ton mental.</p>
+<div class="app">
+  <header class="hero">
+    <div class="hero-left">
+      <div class="eyebrow">FAFATRAINING ELITE SYSTEM</div>
+      <h1>Forge ton corps. Élite ton mental. Domine ta progression.</h1>
+      <p>Un système complet pour coach perso, groupes, jeunes, boxe, fitness, performance et bien-être. Propre comme une appli premium. Impactant comme ta marque.</p>
+      <div class="hero-actions">
+        <button onclick="openTab('coach')">Espace coach</button>
+        <button class="ghost" onclick="openTab('athlete')">Espace athlète</button>
+        <button class="ghost" onclick="openTab('quick')">Session rapide</button>
       </div>
     </div>
-    <nav>
-      <button class="navbtn active" data-view="home">Accueil</button>
-      <button class="navbtn" data-view="coach">Coach</button>
-      <button class="navbtn" data-view="quick">Session rapide</button>
-      <button class="navbtn" data-view="library">Bibliothèque</button>
-      <button class="navbtn" data-view="athlete">Adhérent</button>
-      <button class="navbtn" data-view="progress">Suivi</button>
-    </nav>
-  </aside>
+    <div class="hero-right">
+      <img src="./assets/logo.jpg" alt="Logo FAFATRAINING" class="logo-hero">
+    </div>
+  </header>
 
-  <main class="main">
-    <section id="home" class="view active">
-      <div class="hero">
-        <div class="hero-copy">
-          <span class="eyebrow">COACH PERSO · GROUPE · JEUNES · PERFORMANCE</span>
-          <h2>Une interface coach plus propre, plus dense, plus utile.</h2>
-          <p>Crée des programmes détaillés musculation, boxe, HIIT, Hyrox, cardio, mobilité et bien-être. Gère les charges, les formats d’effort, les repos, les variantes et une bibliothèque plus large.</p>
-          <div class="hero-actions">
-            <button onclick="goView('coach')">Créer un programme</button>
-            <button class="ghost" onclick="goView('library')">Voir la bibliothèque</button>
-          </div>
-        </div>
-        <div class="hero-stats">
-          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices</span></div>
-          <div class="stat"><strong>Mix complet</strong><span>muscu · boxe · HIIT · cardio</span></div>
-          <div class="stat"><strong>Coach + adhérent</strong><span>export + code + séance live</span></div>
-          <div class="stat"><strong>1RM</strong><span>calculs intégrés</span></div>
-        </div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="coach" onclick="openTab('coach')">Coach</button>
+    <button class="tab" data-tab="athlete" onclick="openTab('athlete')">Athlète</button>
+    <button class="tab" data-tab="quick" onclick="openTab('quick')">Session rapide</button>
+    <button class="tab" data-tab="library" onclick="openTab('library')">Bibliothèque</button>
+    <button class="tab" data-tab="progress" onclick="openTab('progress')">Suivi</button>
+  </nav>
+
+  <section id="coach" class="panel tab-panel active">
+    <div class="section-head">
+      <h2>Créer un programme coach</h2>
+      <div class="actions">
+        <button class="ghost" onclick="resetCoachForm()">Réinitialiser</button>
       </div>
-    </section>
+    </div>
 
-    <section id="coach" class="view">
-      <div class="section-head"><h2>Créer un programme</h2></div>
-      <div class="coach-grid">
-        <div class="panel">
-          <h3>Profil</h3>
-          <div class="form-grid">
-            <label>Nom client<input id="clientName" placeholder="Ex : Alex Martin"></label>
-            <label>Code adhérent<input id="clientCode" placeholder="Ex : ALEX01"></label>
-            <label>Âge<input id="clientAge" type="number" value="28"></label>
-            <label>Niveau
-              <select id="clientLevel">
-                <option value="beginner">Débutant</option>
-                <option value="intermediate">Intermédiaire</option>
-                <option value="advanced">Avancé</option>
-              </select>
-            </label>
-            <label>Fréquence / semaine
-              <select id="clientFreq"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option></select>
-            </label>
-            <label>Durée / séance
-              <select id="clientDuration"><option>30</option><option>45</option><option selected>60</option><option>75</option><option>90</option></select>
-            </label>
-          </div>
-        </div>
+    <div class="grid-form">
+      <div><label>Nom client</label><input id="clientName" type="text" placeholder="Ex : Alex Martin"></div>
+      <div><label>Code athlète</label><input id="clientCode" type="text" placeholder="Ex : ALEX-01"></div>
+      <div><label>Âge</label><input id="age" type="number" value="30" min="10" max="90"></div>
 
-        <div class="panel">
-          <h3>Objectifs & environnement</h3>
-          <div class="form-grid">
-            <label>Environnement principal
-              <select id="environmentSelect">
-                <option value="gym">Salle de musculation</option>
-                <option value="crossfit_box">Salle CrossFit / Hyrox</option>
-                <option value="boxing_gym">Salle de boxe</option>
-                <option value="home">Maison</option>
-                <option value="outdoor">Extérieur</option>
-                <option value="bodyweight_only">Poids du corps</option>
-              </select>
-            </label>
-            <label>Objectif principal
-              <select id="mainGoal">
-                <option value="muscle_gain">Prise de muscle</option>
-                <option value="fat_loss">Perte de poids</option>
-                <option value="strength">Force</option>
-                <option value="conditioning">Condition physique / HIIT</option>
-                <option value="boxing">Boxe</option>
-                <option value="hyrox">Hyrox / fonctionnel</option>
-                <option value="endurance">Cardio / endurance</option>
-                <option value="mobility">Mobilité / souplesse</option>
-                <option value="recovery">Bien-être / récupération</option>
-              </select>
-            </label>
-            <label>Objectif secondaire
-              <select id="secondGoal">
-                <option value="">Aucun</option>
-                <option value="fat_loss">Perte de poids</option>
-                <option value="muscle_gain">Prise de muscle</option>
-                <option value="strength">Force</option>
-                <option value="conditioning">Condition physique / HIIT</option>
-                <option value="boxing">Boxe</option>
-                <option value="hyrox">Hyrox / fonctionnel</option>
-                <option value="endurance">Cardio / endurance</option>
-                <option value="mobility">Mobilité / souplesse</option>
-                <option value="recovery">Bien-être / récupération</option>
-              </select>
-            </label>
-            <label>Format HIIT préféré
-              <select id="hiitFormat">
-                <option value="20/10">20/10 (tabata)</option>
-                <option value="30/30">30/30</option>
-                <option value="40/20">40/20</option>
-                <option value="30/60">30/60</option>
-                <option value="45/15">45/15</option>
-              </select>
-            </label>
-          </div>
-        </div>
+      <div><label>Niveau</label><select id="level"><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></div>
+      <div><label>Environnement principal</label><select id="environment"></select></div>
+      <div><label>Séances / semaine</label><select id="frequency"><option value="auto">Automatique</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div>
 
-        <div class="panel">
-          <h3>Matériel & 1RM</h3>
-          <div class="preset-box">
-            <button onclick="applyEquipmentPreset()">Préremplir selon l’environnement</button>
-            <span id="presetLabel"></span>
-          </div>
-          <div id="equipmentGrid" class="checks"></div>
-          <div class="form-grid">
-            <label>1RM Squat (kg)<input id="rmSquat" type="number" value="0"></label>
-            <label>1RM Bench (kg)<input id="rmBench" type="number" value="0"></label>
-            <label>1RM Deadlift (kg)<input id="rmDeadlift" type="number" value="0"></label>
-          </div>
+      <div><label>Durée séance</label><select id="duration"><option value="45">45 min</option><option value="60" selected>60 min</option><option value="75">75 min</option><option value="90">90 min</option></select></div>
+      <div><label>Activité actuelle</label><select id="activity"><option value="sedentary">Sédentaire / reprise</option><option value="light">Légèrement actif</option><option value="moderate">Actif</option><option value="high">Très actif</option></select></div>
+      <div><label>Poids du client (kg)</label><input id="bodyWeight" type="number" value="75" min="35" max="250"></div>
+
+      <div><label>1RM squat (option)</label><input id="rmSquat" type="number" value="0" min="0"></div>
+      <div><label>1RM développé couché (option)</label><input id="rmBench" type="number" value="0" min="0"></div>
+      <div><label>1RM deadlift / SDT (option)</label><input id="rmDeadlift" type="number" value="0" min="0"></div>
+
+      <div class="full"><label>Objectifs</label><div id="goalsGrid" class="chip-grid"></div></div>
+      <div class="full"><label>Matériel disponible</label><div id="equipmentGrid" class="chip-grid"></div></div>
+    </div>
+
+    <div class="actions">
+      <button onclick="generateProgram()">Générer le programme</button>
+      <button class="ghost" onclick="saveAthletePlan()">Enregistrer pour l’athlète</button>
+      <button class="ghost" onclick="exportProgram()">Exporter PDF / impression</button>
+    </div>
+
+    <div id="coachOutput"></div>
+  </section>
+
+  <section id="athlete" class="panel tab-panel">
+    <div id="athleteLobby">
+      <h2>Accès athlète</h2>
+      <div class="grid-form">
+        <div><label>Code athlète</label><input id="athleteCodeInput" type="text" placeholder="Ex : ALEX-01"></div>
+      </div>
+      <div class="actions">
+        <button onclick="openAthletePlan()">Afficher mon programme</button>
+      </div>
+      <div class="notice">L’athlète ne voit que son programme. Le coach peut aussi envoyer directement un PDF propre.</div>
+    </div>
+    <div id="athletePlanWrap" class="hidden">
+      <div class="section-head">
+        <h2 id="athleteTitle"></h2>
+        <div class="actions">
+          <button class="ghost" onclick="backToAthleteLobby()">Retour</button>
+          <button class="ghost" onclick="printAthleteProgram()">Exporter PDF / impression</button>
         </div>
       </div>
+      <div id="athletePlan"></div>
+    </div>
+  </section>
 
-      <div class="actions big-actions">
-        <button onclick="generateProgram()">Générer le programme</button>
-        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button>
-        <button class="ghost" onclick="printProgram()">Exporter PDF / impression</button>
-      </div>
+  <section id="quick" class="panel tab-panel">
+    <h2>Session rapide terrain</h2>
+    <div class="grid-form">
+      <div><label>Public</label><select id="quickLevel"><option value="beginner">Débutant / jeunes</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></div>
+      <div><label>Durée</label><select id="quickDuration"><option value="30">30 min</option><option value="45">45 min</option><option value="60">60 min</option></select></div>
+      <div><label>Type</label><select id="quickType"><option value="conditioning">Cardio / fun</option><option value="boxing">Boxe / cardio boxe</option><option value="mobility">Mobilité / retour au calme</option><option value="hyrox">Challenge fonctionnel</option></select></div>
+    </div>
+    <div class="actions">
+      <button onclick="generateQuickSession()">Générer la session</button>
+    </div>
+    <div id="quickOutput"></div>
+  </section>
 
-      <div id="programOutput" class="output"></div>
-    </section>
+  <section id="library" class="panel tab-panel">
+    <div class="section-head">
+      <h2>Bibliothèque d’exercices</h2>
+      <div class="filters">
+        <select id="filterType" onchange="renderLibrary()"><option value="">Tous les types</option></select>
+        <select id="filterLevel" onchange="renderLibrary()"><option value="">Tous les niveaux</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select>
+        <select id="filterEnvironment" onchange="renderLibrary()"><option value="">Tous les lieux</option></select>
+        <input id="librarySearch" type="text" placeholder="Rechercher un exercice, un muscle, un matériel..." oninput="renderLibrary()">
+      </div>
+    </div>
+    <div id="libraryStats" class="notice"></div>
+    <div id="libraryGrid" class="card-grid"></div>
+  </section>
 
-    <section id="quick" class="view">
-      <div class="section-head"><h2>Session rapide terrain</h2></div>
-      <div class="panel">
-        <div class="form-grid">
-          <label>Type
-            <select id="quickType">
-              <option value="boxing">Boxe / cardio boxe</option>
-              <option value="conditioning">Condition physique / HIIT</option>
-              <option value="muscle_gain">Renforcement / muscu</option>
-              <option value="hyrox">Hyrox / challenge</option>
-              <option value="mobility">Mobilité / retour au calme</option>
-            </select>
-          </label>
-          <label>Niveau
-            <select id="quickLevel">
-              <option value="beginner">Débutant</option>
-              <option value="intermediate">Intermédiaire</option>
-              <option value="advanced">Avancé</option>
-            </select>
-          </label>
-          <label>Durée
-            <select id="quickDuration"><option>20</option><option>30</option><option selected>45</option><option>60</option></select>
-          </label>
-          <label>Lieu
-            <select id="quickEnv">
-              <option value="gym">Salle</option>
-              <option value="outdoor">Extérieur</option>
-              <option value="home">Maison</option>
-              <option value="boxing_gym">Salle de boxe</option>
-              <option value="bodyweight_only">Poids du corps</option>
-            </select>
-          </label>
-        </div>
-        <div class="actions"><button onclick="generateQuickSession()">Générer la session rapide</button></div>
-      </div>
-      <div id="quickOutput" class="output"></div>
-    </section>
-
-    <section id="library" class="view">
-      <div class="section-head"><h2>Bibliothèque</h2></div>
-      <div class="panel">
-        <div class="form-grid">
-          <label>Catégorie<select id="libCategory" onchange="renderLibrary()"></select></label>
-          <label>Niveau<select id="libLevel" onchange="renderLibrary()"><option value="">Tous</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></label>
-          <label>Lieu<select id="libEnv" onchange="renderLibrary()"></select></label>
-          <label>Recherche<input id="libSearch" oninput="renderLibrary()" placeholder="squat, boxe, rameur..."></label>
-        </div>
-      </div>
-      <div id="libraryOutput" class="cards"></div>
-    </section>
-
-    <section id="athlete" class="view">
-      <div class="section-head"><h2>Espace adhérent</h2></div>
-      <div id="athleteLobby" class="panel">
-        <p>Entre ton code pour afficher ton programme, puis bascule en mode séance pour suivre exercice par exercice.</p>
-        <div class="form-grid">
-          <label>Code adhérent<input id="athleteCode" placeholder="Ex : ALEX01"></label>
-        </div>
-        <div class="actions"><button onclick="openAthleteProgram()">Afficher mon programme</button></div>
-      </div>
-      <div id="athleteProgram" class="hidden">
-        <div class="actions"><button class="ghost" onclick="backAthlete()">Retour</button><button onclick="startLiveSession()">Mode séance live</button></div>
-        <div id="athleteProgramOutput" class="output"></div>
-      </div>
-      <div id="liveSession" class="hidden panel">
-        <div class="actions"><button class="ghost" onclick="backProgram()">Retour programme</button><button class="ghost" onclick="prevExercise()">Exercice précédent</button><button onclick="nextExercise()">Exercice suivant</button></div>
-        <div id="liveCard" class="live-card"></div>
-      </div>
-    </section>
-
-    <section id="progress" class="view">
-      <div class="section-head"><h2>Suivi progression</h2></div>
-      <div class="panel">
-        <p>Cette section reste simple pour le moment, mais tu peux déjà noter un poids de corps, un commentaire et la date. C’est là pour préparer la suite.</p>
-        <div class="form-grid">
-          <label>Code adhérent<input id="trackCode" placeholder="ALEX01"></label>
-          <label>Poids du jour (kg)<input id="trackWeight" type="number" step="0.1"></label>
-          <label>Commentaire<input id="trackNote" placeholder="Forme, fatigue, douleur..."></label>
-        </div>
-        <div class="actions"><button onclick="saveTracking()">Enregistrer suivi</button></div>
-      </div>
-      <div id="trackingOutput" class="cards"></div>
-    </section>
-  </main>
+  <section id="progress" class="panel tab-panel">
+    <h2>Suivi progression</h2>
+    <div class="notice">Tu peux enregistrer un suivi simple par athlète : poids, notes, perfs repères. Le système est prêt pour plus tard, même si ton usage principal reste le programme pur.</div>
+    <div class="grid-form">
+      <div><label>Code athlète</label><input id="progressCode" type="text" placeholder="Ex : ALEX-01"></div>
+      <div><label>Poids actuel</label><input id="progressWeight" type="number" step="0.1"></div>
+      <div><label>Note séance / forme</label><input id="progressNote" type="text" placeholder="Ex : jambes lourdes mais séance validée"></div>
+    </div>
+    <div class="actions">
+      <button onclick="saveProgress()">Enregistrer le suivi</button>
+      <button class="ghost" onclick="loadProgress()">Afficher historique</button>
+    </div>
+    <div id="progressOutput"></div>
+  </section>
 </div>
-<script src="app.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>

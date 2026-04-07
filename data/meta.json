@@ -1,0 +1,49 @@
+{
+  "goals": {
+    "fat_loss": "Perte de poids",
+    "muscle_gain": "Prise de muscle",
+    "strength": "Force",
+    "conditioning": "Condition physique / HIIT",
+    "boxing": "Boxe / combat",
+    "hyrox": "Hyrox / fonctionnel",
+    "endurance": "Cardio / endurance",
+    "mobility": "Mobilité / bien-être",
+    "health": "Remise en forme"
+  },
+  "environments": {
+    "gym": "Salle musculation",
+    "crossfit": "Box Hyrox / Cross-training",
+    "boxing_gym": "Salle de boxe",
+    "home": "Maison",
+    "outdoor": "Extérieur",
+    "bodyweight": "Poids du corps"
+  },
+  "equipment": {
+    "bodyweight": "Poids du corps",
+    "dumbbells": "Haltères",
+    "barbell": "Barre",
+    "rack": "Rack",
+    "bench": "Banc",
+    "cable": "Poulie / câble",
+    "machines": "Machines guidées",
+    "bands": "Élastiques",
+    "kettlebells": "Kettlebells",
+    "trx": "TRX / sangles",
+    "rope": "Corde à sauter",
+    "heavy_bag": "Sac de frappe",
+    "pads": "Pattes d'ours",
+    "gloves": "Gants",
+    "treadmill": "Tapis de course",
+    "bike": "Vélo",
+    "elliptical": "Elliptique",
+    "rower": "Rameur",
+    "skierg": "SkiErg",
+    "airbike": "Air bike",
+    "sled": "Traîneau",
+    "medball": "Medicine ball",
+    "battle_rope": "Battle rope",
+    "abwheel": "Roue abdos",
+    "box": "Box / step",
+    "ladder": "Échelle de rythme"
+  }
+}
