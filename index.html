@@ -35,15 +35,15 @@
           <h2>Une interface coach plus propre, plus dense, plus utile.</h2>
           <p>Crée des programmes détaillés musculation, boxe, HIIT, Hyrox, cardio, mobilité et bien-être. Gère les charges, les formats d’effort, les repos, les variantes et une bibliothèque plus large.</p>
           <div class="hero-actions">
-            <button onclick="goView('coach')">Créer un programme</button>
-            <button class="ghost" onclick="goView('library')">Voir la bibliothèque</button>
+            <button id="homeCreateProgram" onclick="goView('coach')">Créer un programme</button>
+            <button id="homeOpenLibrary" class="ghost" onclick="goView('library')">Voir la bibliothèque</button>
           </div>
         </div>
         <div class="hero-stats">
-          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices</span></div>
-          <div class="stat"><strong>Mix complet</strong><span>muscu · boxe · HIIT · cardio</span></div>
-          <div class="stat"><strong>Coach + adhérent</strong><span>export + code + séance live</span></div>
-          <div class="stat"><strong>1RM</strong><span>calculs intégrés</span></div>
+          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices dans la bibliothèque</span></div>
+          <div class="stat"><strong>Mix complet</strong><span>muscu · boxe · HIIT · cardio · mobilité</span></div>
+          <div class="stat"><strong>Coach + adhérent</strong><span>PDF pro · code · lien · séance live</span></div>
+          <div class="stat"><strong>1RM</strong><span>charges calculées sur squat / bench / deadlift</span></div>
         </div>
       </div>
     </section>
@@ -113,13 +113,36 @@
                 <option value="recovery">Bien-être / récupération</option>
               </select>
             </label>
-            <label>Format HIIT préféré
+            <label>Format HIIT favori
               <select id="hiitFormat">
-                <option value="20/10">20/10 (tabata)</option>
+                <option value="20/10">20/10 (Tabata)</option>
                 <option value="30/30">30/30</option>
                 <option value="40/20">40/20</option>
                 <option value="30/60">30/60</option>
                 <option value="45/15">45/15</option>
+                <option value="EMOM">EMOM</option>
+                <option value="AMRAP">AMRAP</option>
+              </select>
+            </label>
+            <label>Zone de travail
+              <select id="bodyArea">
+                <option value="">Mix complet</option>
+                <option value="haut_du_corps">Haut du corps</option>
+                <option value="bas_du_corps">Bas du corps</option>
+                <option value="full_body">Full body</option>
+                <option value="abdos_core">Abdos / gainage</option>
+              </select>
+            </label>
+            <label>Focus musculaire
+              <select id="focusTarget">
+                <option value="">Aucun focus précis</option>
+                <option value="pectoraux">Pectoraux</option>
+                <option value="dos">Dos</option>
+                <option value="épaules">Épaules</option>
+                <option value="bras">Bras</option>
+                <option value="jambes">Jambes</option>
+                <option value="abdos">Abdos / core</option>
+                <option value="cardio">Cardio / endurance</option>
               </select>
             </label>
           </div>
@@ -142,7 +165,7 @@
 
       <div class="actions big-actions">
         <button onclick="generateProgram()">Générer le programme</button>
-        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button>
+        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="generateShareLink()">Générer lien adhérent</button>
         <button class="ghost" onclick="printProgram()">Exporter PDF / impression</button>
       </div>
 
@@ -203,7 +226,7 @@
     <section id="athlete" class="view">
       <div class="section-head"><h2>Espace adhérent</h2></div>
       <div id="athleteLobby" class="panel">
-        <p>Entre ton code pour afficher ton programme, puis bascule en mode séance pour suivre exercice par exercice.</p>
+        <p>Entre ton code pour afficher ton programme. Le coach peut aussi t’envoyer un lien direct en lecture seule. Ici, l’adhérent ne peut rien modifier côté coach.</p>
         <div class="form-grid">
           <label>Code adhérent<input id="athleteCode" placeholder="Ex : ALEX01"></label>
         </div>

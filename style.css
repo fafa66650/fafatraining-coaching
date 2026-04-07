@@ -78,3 +78,17 @@ input,select{background:#0d1118;border:1px solid #20293a;color:#fff;padding:12px
   .sidebar{position:relative;height:auto}
   .hero,.coach-grid,.form-grid{grid-template-columns:1fr}
 }
+
+
+/* V11 additions */
+.hero-actions button, .big-actions button{box-shadow:0 8px 18px rgba(0,0,0,.18)}
+.preset-box{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.section-head h2{display:flex;align-items:center;gap:10px}
+#coach .panel h3{color:var(--green)}
+#quick .section-head h2{color:#ff8a1f}
+#library .section-head h2{color:#58b7ff}
+#athlete .section-head h2{color:#8b5cf6}
+#progress .section-head h2{color:#ff5d73}
+.chk span{font-size:13px}
+.cooldown-box{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);color:var(--muted)}
+.summary .actions button{padding:10px 14px}

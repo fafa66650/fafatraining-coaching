@@ -1,48 +1,69 @@
 
-let EXERCISES=[];
-const $ = s => document.querySelector(s);
-const $$ = s => [...document.querySelectorAll(s)];
+let EXERCISES = [];
 const EQUIPMENTS = [
-  ['bodyweight','Poids du corps'],['dumbbell','Haltères'],['barbell','Barre'],['bench','Banc'],['rack','Rack'],
-  ['cable','Poulie'],['machine','Machines'],['kettlebell','Kettlebell'],['trx','TRX'],['battle_rope','Battle rope'],
-  ['treadmill','Tapis'],['bike','Vélo'],['elliptical','Elliptique'],['rower','Rameur'],['airbike','Air bike'],
-  ['med_ball','Medicine ball'],['heavy_bag','Sac de frappe'],['pads','Pattes d’ours'],['gloves','Gants'],['rope','Corde'],
-  ['ladder','Échelle'],['ab_wheel','Roue abdos'],['trap_bar','Trap bar'],['band','Élastiques'],['sled','Traîneau'],
-  ['skierg','SkiErg'],['dip_bars','Barres dips'],['landmine','Landmine'],['box','Box / step']
+  ['bodyweight','Poids du corps'],['dumbbell','Haltères'],['barbell','Barre olympique / standard'],['bench','Banc'],['rack','Rack / cage'],
+  ['cable','Poulie / vis-à-vis'],['machine','Machines guidées'],['kettlebell','Kettlebell'],['trx','TRX / sangles'],['battle_rope','Battle rope'],
+  ['treadmill','Tapis de course'],['bike','Vélo'],['elliptical','Elliptique'],['rower','Rameur'],['airbike','Air bike'],
+  ['med_ball','Medicine ball'],['heavy_bag','Sac de frappe'],['pads','Pattes d’ours'],['gloves','Gants'],['rope','Corde à sauter'],
+  ['ladder','Échelle de rythme'],['ab_wheel','Roue abdos'],['trap_bar','Trap bar'],['band','Élastiques'],['sled','Traîneau'],
+  ['skierg','SkiErg'],['dip_bars','Barres dips'],['landmine','Landmine'],['box','Plyo box / step']
 ];
+const ENV_LABELS = {
+  gym:'Salle de musculation',
+  crossfit_box:'Salle CrossFit / Hyrox',
+  boxing_gym:'Salle de boxe',
+  home:'Maison',
+  outdoor:'Extérieur',
+  bodyweight_only:'Poids du corps'
+};
 const PRESETS = {
-  gym:['barbell','bench','rack','cable','machine','dumbbell','treadmill','bike','elliptical','rower'],
-  crossfit_box:['barbell','dumbbell','kettlebell','battle_rope','rower','airbike','med_ball','sled','box','skierg','trap_bar'],
-  boxing_gym:['bodyweight','heavy_bag','pads','gloves','rope','ladder','band'],
-  home:['bodyweight','dumbbell','kettlebell','band','trx','bench','bike'],
-  outdoor:['bodyweight','band','ladder','rope','sled'],
+  gym:['barbell','bench','rack','cable','machine','dumbbell','treadmill','bike','elliptical','rower','landmine','dip_bars'],
+  crossfit_box:['barbell','dumbbell','kettlebell','battle_rope','rower','airbike','med_ball','sled','box','skierg','trap_bar','rope'],
+  boxing_gym:['bodyweight','heavy_bag','pads','gloves','rope','ladder','band','med_ball'],
+  home:['bodyweight','dumbbell','kettlebell','band','trx','bench','bike','ab_wheel'],
+  outdoor:['bodyweight','band','ladder','rope','sled','med_ball','box'],
   bodyweight_only:['bodyweight']
 };
+const goalLabels = {
+  muscle_gain:'Prise de muscle',
+  fat_loss:'Perte de poids',
+  strength:'Force',
+  conditioning:'Condition physique / HIIT',
+  boxing:'Boxe',
+  hyrox:'Hyrox / fonctionnel',
+  endurance:'Cardio / endurance',
+  mobility:'Mobilité / souplesse',
+  recovery:'Bien-être / récupération'
+};
+
+function $(sel){ return document.querySelector(sel); }
+function $$(sel){ return [...document.querySelectorAll(sel)]; }
+function esc(s){ return String(s ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
+function shuffle(arr){ return [...arr].sort(()=>Math.random()-0.5); }
+function levelValue(v){ return ({beginner:1, intermediate:2, advanced:3}[v] || 1); }
+function rootName(name){ return name.replace(/\s+—\s+.*$/,'').trim(); }
 
 function goView(id){
   $$('.navbtn').forEach(b=>b.classList.toggle('active', b.dataset.view===id));
   $$('.view').forEach(v=>v.classList.toggle('active', v.id===id));
-  const target = document.getElementById(id);
-  if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
 }
-function initNav(){
-  $$('.navbtn').forEach(btn=>btn.addEventListener('click', ()=>goView(btn.dataset.view)));
+function initNav(){ $$('.navbtn').forEach(btn=>btn.addEventListener('click', ()=>goView(btn.dataset.view))); }
+function bindHeroButtons(){
+  const cp = $('#homeCreateProgram');
+  const lb = $('#homeOpenLibrary');
+  if(cp) cp.addEventListener('click', ()=>goView('coach'));
+  if(lb) lb.addEventListener('click', ()=>goView('library'));
 }
 async function init(){
   EXERCISES = await fetch('data/exercises.json').then(r=>r.json());
-  const countEl = $('#exerciseCount');
-  if(countEl) countEl.textContent = EXERCISES.length;
+  $('#exerciseCount').textContent = EXERCISES.length;
   initNav();
   bindHeroButtons();
   buildEquipmentGrid();
   buildLibraryFilters();
   renderLibrary();
   loadTracking();
-}
-function bindHeroButtons(){
-  const buttons = [...document.querySelectorAll('.hero-actions button')];
-  if(buttons[0]) buttons[0].addEventListener('click', ()=>goView('coach'));
-  if(buttons[1]) buttons[1].addEventListener('click', ()=>goView('library'));
+  hydrateAthleteFromLink();
 }
 function buildEquipmentGrid(){
   $('#equipmentGrid').innerHTML = EQUIPMENTS.map(([k,l])=>`<label class="chk"><input type="checkbox" value="${k}"> <span>${l}</span></label>`).join('');
@@ -53,17 +74,17 @@ function applyEquipmentPreset(){
   const env = $('#environmentSelect').value;
   const preset = PRESETS[env] || [];
   $$('#equipmentGrid input').forEach(i => i.checked = preset.includes(i.value));
-  $('#presetLabel').textContent = `Préselection : ${env}`;
+  $('#presetLabel').textContent = `Préselection : ${ENV_LABELS[env] || env}`;
 }
 function buildLibraryFilters(){
-  const cats = [''].concat([...new Set(EXERCISES.map(e=>e.category))]);
+  const cats = [''].concat([...new Set(EXERCISES.map(e=>e.category))]).filter((v,i,a)=>a.indexOf(v)===i);
   $('#libCategory').innerHTML = cats.map(c=>`<option value="${c}">${c || 'Toutes les catégories'}</option>`).join('');
-  $('#libEnv').innerHTML = ['','gym','crossfit_box','boxing_gym','home','outdoor','bodyweight_only'].map(v=>`<option value="${v}">${v || 'Tous les lieux'}</option>`).join('');
+  $('#libEnv').innerHTML = [''].concat(Object.keys(ENV_LABELS)).map(v=>`<option value="${v}">${v ? ENV_LABELS[v] : 'Tous les lieux'}</option>`).join('');
 }
 function selectedEquipment(){ return $$('#equipmentGrid input:checked').map(i=>i.value); }
-function esc(s){ return String(s ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'); }
+function labelForGoal(v){ return goalLabels[v] || v; }
 
-function goalToCategories(main, second){
+function categoryMap(main, second){
   const goals=[main, second].filter(Boolean);
   const map={
     muscle_gain:['musculation','core'],
@@ -78,39 +99,22 @@ function goalToCategories(main, second){
   };
   return [...new Set(goals.flatMap(g=>map[g]||['musculation']))];
 }
-function calcFreq(){
-  return Number($('#clientFreq').value||3);
-}
-function calcDuration(){ return Number($('#clientDuration').value||60); }
-
-function chooseExercises(categorySet, env, level, equipment){
-  const levelOrder = {beginner:1, intermediate:2, advanced:3};
-  let arr = EXERCISES.filter(e =>
-    categorySet.includes(e.category) &&
-    (e.environments.includes(env) || (env==='crossfit_box' && (e.environments.includes('gym')||e.environments.includes('crossfit_box'))) || (env==='boxing_gym' && (e.environments.includes('gym')||e.environments.includes('boxing_gym')))) &&
-    levelOrder[e.level] <= levelOrder[level] &&
-    e.equipment.some(eq => equipment.includes(eq) || eq==='bodyweight')
-  );
-  if (!arr.length) arr = EXERCISES.filter(e => categorySet.includes(e.category));
-  return arr;
-}
-function shuffle(arr){ return [...arr].sort(()=>Math.random()-0.5); }
 
 function buildPrescription(ex, mainGoal, level, hiitFormat, rmMap){
-  const isBegin = level==='beginner', isInter=level==='intermediate';
-  let series='3', reps='10-12', rest='60 sec', tempo='2-0-2', intensity='modérée', loadText='à ajuster selon technique';
+  const isBegin = level==='beginner', isInter=level==='intermediate', isAdv = level==='advanced';
+  let series='3 séries', reps='10-12 reps', rest='60 sec', tempo='2-0-2', intensity='modérée', loadText='à ajuster selon technique';
   const lowerName = ex.name.toLowerCase();
 
   if (ex.category==='hiit'){
-    series = hiitFormat.includes('/') ? '4 à 8 tours' : '4 tours';
-    reps = `${hiitFormat} travail/repos`;
-    rest = 'entre exercices inclus dans le format';
-    tempo = 'rythme athlétique';
-    intensity = level==='advanced' ? 'élevée' : level==='intermediate' ? 'soutenue' : 'progressive';
+    series = hiitFormat==='EMOM' ? '10 à 16 minutes' : hiitFormat==='AMRAP' ? '10 à 20 minutes' : '4 à 8 tours';
+    reps = hiitFormat==='EMOM' ? '1 bloc / minute' : hiitFormat==='AMRAP' ? 'enchaîner le plus de tours proprement' : `${hiitFormat} travail / repos`;
+    rest = hiitFormat==='EMOM' || hiitFormat==='AMRAP' ? 'intégré au format' : 'inclus dans le format';
+    tempo = 'athlétique';
+    intensity = isAdv ? 'élevée' : isInter ? 'soutenue' : 'progressive';
   } else if (ex.category==='cardio'){
     series='1 bloc';
     reps = lowerName.includes('sprint') ? '8 à 12 efforts' : (lowerName.includes('intervalles') ? '8 à 20 min' : '12 à 30 min');
-    rest = lowerName.includes('intervalles') || lowerName.includes('sprint') ? 'selon format' : 'continu';
+    rest = (lowerName.includes('intervalles') || lowerName.includes('sprint')) ? 'selon format' : 'continu';
     tempo = 'cadence régulière';
     intensity = mainGoal==='fat_loss' ? 'modérée à soutenue' : 'endurance contrôlée';
   } else if (ex.category==='boxe'){
@@ -127,11 +131,11 @@ function buildPrescription(ex, mainGoal, level, hiitFormat, rmMap){
     intensity='faible';
   } else if (ex.category==='hyrox'){
     series = isBegin ? '3 à 4 séries' : '4 à 5 séries';
-    reps = lowerName.includes('carry') || lowerName.includes('sled') ? '20 à 40 m' : '10 à 20 reps';
+    reps = (lowerName.includes('carry') || lowerName.includes('sled')) ? '20 à 40 m' : '10 à 20 reps';
     rest = isBegin ? '75 sec' : '60 sec';
     tempo='athlétique';
     intensity='soutenue';
-  } else { // muscu/core
+  } else {
     if (mainGoal==='strength'){
       series = isBegin ? '4 séries' : '5 séries';
       reps = isBegin ? '6 à 8 reps' : '4 à 6 reps';
@@ -140,8 +144,8 @@ function buildPrescription(ex, mainGoal, level, hiitFormat, rmMap){
       intensity='lourde';
     } else if (mainGoal==='muscle_gain'){
       series = isBegin ? '3 à 4 séries' : '4 séries';
-      reps = '8 à 12 reps';
-      rest = '60 à 90 sec';
+      reps = ex.subcategory==='abdos' || ex.category==='core' ? '10 à 15 reps / 20 à 40 sec' : '8 à 12 reps';
+      rest = ex.subcategory==='abdos' || ex.category==='core' ? '30 à 45 sec' : '60 à 90 sec';
       tempo='2-0-2';
       intensity='modérée à lourde';
     } else if (mainGoal==='fat_loss'){
@@ -180,53 +184,246 @@ function buildPrescription(ex, mainGoal, level, hiitFormat, rmMap){
       }
     }
   }
-
   return {series,reps,rest,tempo,intensity,loadText};
 }
 
+function baseFilter(ex, env, level, equipment, area, focus){
+  const envOk = ex.environments.includes(env) ||
+    (env==='crossfit_box' && (ex.environments.includes('gym')||ex.environments.includes('crossfit_box'))) ||
+    (env==='boxing_gym' && (ex.environments.includes('gym')||ex.environments.includes('boxing_gym')));
+  const levelOk = levelValue(ex.level) <= levelValue(level);
+  const equipOk = ex.equipment.some(eq => equipment.includes(eq) || eq==='bodyweight');
+  const areaOk = !area || (ex.areas||[]).includes(area);
+  const focusOk = !focus || (ex.focus||[]).includes(focus);
+  return envOk && levelOk && equipOk && areaOk && focusOk;
+}
+function pickUniqueFrom(arr, n){
+  const chosen = [];
+  const seenRoots = new Set();
+  for(const ex of shuffle(arr)){
+    const rn = rootName(ex.name);
+    if(seenRoots.has(rn)) continue;
+    chosen.push(ex);
+    seenRoots.add(rn);
+    if(chosen.length>=n) break;
+  }
+  return chosen;
+}
+function fallbackByArea(area){
+  if(area==='haut_du_corps') return ['pectoraux','dos','épaules','bras'];
+  if(area==='bas_du_corps') return ['jambes'];
+  if(area==='abdos_core') return ['abdos'];
+  return ['global','cardio','jambes','pectoraux','dos','abdos'];
+}
+function buildDayBlueprints(freq, mainGoal, secondGoal, area, focus){
+  const hasCombat = mainGoal==='boxing' || secondGoal==='boxing';
+  const hasConditioning = ['conditioning','hyrox','fat_loss','endurance'].includes(mainGoal) || ['conditioning','hyrox','fat_loss','endurance'].includes(secondGoal);
+
+  if(area==='haut_du_corps'){
+    if(freq===2) return [
+      {title:'Haut du corps 1', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'pectoraux'},
+      {title:'Haut du corps 2', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'dos'}
+    ];
+    if(freq===3) return [
+      {title:'Push / haut du corps', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'pectoraux'},
+      {title:'Pull / haut du corps', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'dos'},
+      {title:'Épaules / bras / core', cats:['musculation','core'], areas:['haut_du_corps','abdos_core'], focus:focus || 'épaules'}
+    ];
+  }
+  if(area==='bas_du_corps'){
+    if(freq===2) return [
+      {title:'Bas du corps 1', cats:['musculation','core'], areas:['bas_du_corps'], focus:focus || 'jambes'},
+      {title:'Bas du corps 2', cats:['musculation','core','mobilité'], areas:['bas_du_corps','abdos_core'], focus:focus || 'jambes'}
+    ];
+    if(freq===3) return [
+      {title:'Quadriceps / fentes', cats:['musculation','core'], areas:['bas_du_corps'], focus:focus || 'jambes'},
+      {title:'Chaîne postérieure', cats:['musculation','core'], areas:['bas_du_corps'], focus:focus || 'jambes'},
+      {title:'Jambes + core + mobilité', cats:['musculation','core','mobilité'], areas:['bas_du_corps','abdos_core'], focus:focus || 'jambes'}
+    ];
+  }
+  if(area==='abdos_core'){
+    return Array.from({length:freq}, (_,i)=>({
+      title: `Core / abdos ${i+1}`,
+      cats:['core','mobilité','bien_etre'],
+      areas:['abdos_core'],
+      focus:'abdos'
+    }));
+  }
+
+  if(hasCombat && hasConditioning && freq>=4){
+    return [
+      {title:'Technique boxe', cats:['boxe','core'], areas:['haut_du_corps','full_body'], focus:'global'},
+      {title:'Bas du corps / force', cats:['musculation','core'], areas:['bas_du_corps'], focus:'jambes'},
+      {title:'Conditioning / HIIT', cats:['hiit','cardio','hyrox'], areas:['full_body'], focus:'cardio'},
+      {title:'Haut du corps / puissance', cats:['musculation','boxe','core'], areas:['haut_du_corps'], focus:'dos'}
+    ].slice(0,freq);
+  }
+
+  if(mainGoal==='muscle_gain' || mainGoal==='strength'){
+    if(freq===2) return [
+      {title:'Full body 1', cats:['musculation','core'], areas:['full_body'], focus:focus || ''},
+      {title:'Full body 2', cats:['musculation','core'], areas:['full_body'], focus:focus || ''}
+    ];
+    if(freq===3) return [
+      {title:'Full body 1', cats:['musculation','core'], areas:['full_body'], focus:focus || ''},
+      {title:'Full body 2', cats:['musculation','core'], areas:['full_body'], focus:focus || ''},
+      {title:'Full body 3', cats:['musculation','core','mobilité'], areas:['full_body','abdos_core'], focus:focus || ''}
+    ];
+    return [
+      {title:'Bas du corps', cats:['musculation','core'], areas:['bas_du_corps','abdos_core'], focus:focus || 'jambes'},
+      {title:'Haut du corps 1', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'pectoraux'},
+      {title:'Bas du corps 2 / core', cats:['musculation','core'], areas:['bas_du_corps','abdos_core'], focus:focus || 'jambes'},
+      {title:'Haut du corps 2', cats:['musculation','core'], areas:['haut_du_corps'], focus:focus || 'dos'},
+      {title:'Rappel / mobilité', cats:['musculation','core','mobilité'], areas:['full_body','abdos_core'], focus:focus || ''}
+    ].slice(0,freq);
+  }
+
+  if(mainGoal==='fat_loss' || mainGoal==='conditioning'){
+    const base = [
+      {title:'Circuit full body', cats:['hiit','musculation','core'], areas:['full_body','abdos_core'], focus:focus || 'global'},
+      {title:'Cardio / intervalles', cats:['cardio','hiit'], areas:['full_body'], focus:'cardio'},
+      {title:'Renfo + core', cats:['musculation','core'], areas:['full_body','abdos_core'], focus:focus || 'abdos'},
+      {title:'Conditioning mix', cats:['hiit','hyrox','cardio'], areas:['full_body'], focus:'cardio'}
+    ];
+    return base.slice(0,freq);
+  }
+
+  if(mainGoal==='boxing'){
+    const base = [
+      {title:'Technique / appuis', cats:['boxe','core'], areas:['full_body','abdos_core'], focus:focus || 'global'},
+      {title:'Cardio boxe', cats:['boxe','hiit','cardio'], areas:['full_body'], focus:'cardio'},
+      {title:'Renforcement boxeur', cats:['musculation','core','boxe'], areas:['haut_du_corps','abdos_core'], focus:focus || 'épaules'},
+      {title:'Rounds / puissance', cats:['boxe','hiit','core'], areas:['full_body'], focus:'global'}
+    ];
+    return base.slice(0,freq);
+  }
+
+  if(mainGoal==='hyrox'){
+    const base = [
+      {title:'Jambes / charge', cats:['musculation','hyrox','core'], areas:['bas_du_corps','abdos_core'], focus:'jambes'},
+      {title:'Machines / cardio', cats:['cardio','hyrox'], areas:['full_body'], focus:'cardio'},
+      {title:'Carry / sled / wall ball', cats:['hyrox','core'], areas:['full_body'], focus:'global'},
+      {title:'Mix complet Hyrox', cats:['hyrox','cardio','musculation'], areas:['full_body'], focus:'cardio'}
+    ];
+    return base.slice(0,freq);
+  }
+
+  if(mainGoal==='endurance'){
+    return [
+      {title:'Endurance 1', cats:['cardio','mobilité'], areas:['full_body'], focus:'cardio'},
+      {title:'Intervalles', cats:['cardio','hiit'], areas:['full_body'], focus:'cardio'},
+      {title:'Renfo coureur', cats:['musculation','core','mobilité'], areas:['bas_du_corps','abdos_core'], focus:'jambes'}
+    ].slice(0,freq);
+  }
+
+  if(mainGoal==='mobility' || mainGoal==='recovery'){
+    return Array.from({length:freq}, (_,i)=>({
+      title:`Mobilité / récupération ${i+1}`,
+      cats:['mobilité','bien_etre','core'],
+      areas:['full_body','abdos_core'],
+      focus:focus || ''
+    }));
+  }
+
+  return Array.from({length:freq}, (_,i)=>({
+    title:`Séance ${i+1}`,
+    cats:categoryMap(mainGoal, secondGoal),
+    areas:['full_body','abdos_core'],
+    focus:focus || ''
+  }));
+}
+function filterPool(bp, env, level, equipment){
+  return EXERCISES.filter(ex =>
+    bp.cats.includes(ex.category) &&
+    bp.areas.some(a => (ex.areas||[]).includes(a)) &&
+    (!bp.focus || (ex.focus||[]).includes(bp.focus)) &&
+    baseFilter(ex, env, level, equipment, '', '')
+  );
+}
+function buildWarmup(mainGoal, secondGoal, area){
+  const lines = ['3 à 5 min de mise en route progressive'];
+  if(mainGoal==='boxing' || secondGoal==='boxing') lines.push('Corde à sauter ou shadow boxing léger 2 à 4 min');
+  if(mainGoal==='hyrox' || secondGoal==='hyrox') lines.push('Activation hanches / chevilles + locomotion');
+  if(mainGoal==='muscle_gain' || mainGoal==='strength') lines.push('2 à 3 séries de chauffe progressives sur le 1er mouvement');
+  if(area==='haut_du_corps') lines.push('Mobilité épaules / scapulas / T-spine');
+  if(area==='bas_du_corps') lines.push('Mobilité hanches / chevilles / genoux');
+  if(area==='abdos_core') lines.push('Respiration / gainage basse intensité');
+  return [...new Set(lines)];
+}
+function buildCooldown(mainGoal, secondGoal){
+  const lines = ['Retour au calme 3 à 5 min', 'Respiration lente 1 à 2 min'];
+  if(['boxing','conditioning','hyrox','fat_loss','endurance'].includes(mainGoal) || ['boxing','conditioning','hyrox','fat_loss','endurance'].includes(secondGoal)){
+    lines.push('Mobilité douce + baisse progressive du rythme cardiaque');
+  } else {
+    lines.push('Étirements doux ciblés sur les zones travaillées');
+  }
+  return lines;
+}
+function computeExercisesPerDay(duration, mainGoal){
+  const d = Number(duration||60);
+  if(['mobility','recovery'].includes(mainGoal)) return d>=60 ? 5 : 4;
+  if(d>=90) return 8;
+  if(d>=75) return 7;
+  if(d>=60) return 6;
+  if(d>=45) return 5;
+  return 4;
+}
 function generateProgram(){
   const name = $('#clientName').value.trim() || 'Client FAFATRAINING';
   const code = ($('#clientCode').value.trim() || '').toUpperCase() || ('FT'+Math.floor(Math.random()*9000+1000));
   $('#clientCode').value = code;
   const level = $('#clientLevel').value;
-  const freq = calcFreq();
-  const duration = calcDuration();
+  const freq = Number($('#clientFreq').value||3);
+  const duration = Number($('#clientDuration').value||60);
   const env = $('#environmentSelect').value;
   const mainGoal = $('#mainGoal').value;
   const secondGoal = $('#secondGoal').value;
   const hiitFormat = $('#hiitFormat').value;
+  const bodyArea = $('#bodyArea') ? $('#bodyArea').value : '';
+  const focusTarget = $('#focusTarget') ? $('#focusTarget').value : '';
   const equipment = selectedEquipment();
-  const categories = goalToCategories(mainGoal, secondGoal);
-  const pool = chooseExercises(categories, env, level, equipment);
   const rmMap = {
     squat:Number($('#rmSquat').value||0),
     bench:Number($('#rmBench').value||0),
     deadlift:Number($('#rmDeadlift').value||0)
   };
 
-  const perDay = duration>=75 ? 7 : duration>=60 ? 6 : duration>=45 ? 5 : 4;
-  const days = [];
-  for(let d=0; d<freq; d++){
-    const chosen = shuffle(pool).slice(0, perDay);
-    const title = freq===2 ? (d===0?'Séance A':'Séance B') :
-                  freq===3 ? ['Full body 1','Full body 2','Full body 3'][d] || `Séance ${d+1}` :
-                  freq===4 ? ['Bas du corps','Haut du corps','Conditioning','Mix complet'][d] || `Séance ${d+1}` :
-                  `Séance ${d+1}`;
-    const items = chosen.map(ex=>({...ex, prescription:buildPrescription(ex, mainGoal, level, hiitFormat, rmMap)}));
-    days.push({title, items});
-  }
+  const blueprints = buildDayBlueprints(freq, mainGoal, secondGoal, bodyArea, focusTarget);
+  const perDay = computeExercisesPerDay(duration, mainGoal);
+  const warmup = buildWarmup(mainGoal, secondGoal, bodyArea);
+  const cooldown = buildCooldown(mainGoal, secondGoal);
 
-  const warmup = mainGoal==='boxing'
-    ? ['Mobilité épaules 2 min','Shadow boxing 2 rounds','Appuis / coordination 3 min']
-    : mainGoal==='hyrox'
-    ? ['Cardio progressif 5 min','Mobilité hanches/chevilles','Activation bas du corps et gainage']
-    : mainGoal==='mobility' || mainGoal==='recovery'
-    ? ['Respiration 2 min','Mobilité douce 5 min','Activation légère']
-    : ['Cardio léger 5 min','Mobilité dynamique','2 séries progressives du 1er exercice'];
+  const days = blueprints.map(bp => {
+    let pool = filterPool(bp, env, level, equipment);
+    if(!pool.length){
+      // progressively relax focus/area
+      pool = EXERCISES.filter(ex => bp.cats.includes(ex.category) && baseFilter(ex, env, level, equipment, '', ''));
+    }
+    if(!pool.length){
+      pool = EXERCISES.filter(ex => bp.cats.includes(ex.category));
+    }
 
-  const cooldown = ['Retour au calme 3 à 5 min','Respiration lente','Mobilité ciblée / étirements doux'];
+    // split selection by type to avoid generic programs
+    const categoryBias = bp.cats;
+    const prim = pickUniqueFrom(pool.filter(e => ['musculation','hyrox','boxe'].includes(e.category)), Math.max(2, Math.ceil(perDay/3)));
+    const support = pickUniqueFrom(pool.filter(e => ['core','mobilité','bien_etre'].includes(e.category)), Math.max(1, Math.floor(perDay/4)));
+    const condition = pickUniqueFrom(pool.filter(e => ['hiit','cardio'].includes(e.category)), Math.max(1, Math.floor(perDay/4)));
+    let chosen = [...prim, ...support, ...condition];
+    if(chosen.length < perDay){
+      const avoid = new Set(chosen.map(x=>rootName(x.name)));
+      for(const ex of shuffle(pool)){
+        if(avoid.has(rootName(ex.name))) continue;
+        chosen.push(ex);
+        avoid.add(rootName(ex.name));
+        if(chosen.length>=perDay) break;
+      }
+    }
+    chosen = chosen.slice(0, perDay).map(ex => ({...ex, prescription: buildPrescription(ex, mainGoal, level, hiitFormat, rmMap)}));
+    return {title: bp.title, items: chosen};
+  });
 
-  const program = {name, code, level, freq, duration, env, mainGoal, secondGoal, hiitFormat, warmup, cooldown, days, rmMap, createdAt:new Date().toISOString()};
+  const athleteLink = `${location.origin}${location.pathname}?client=${encodeURIComponent(code)}`;
+  const program = {name, code, level, freq, duration, env, mainGoal, secondGoal, bodyArea, focusTarget, hiitFormat, warmup, cooldown, days, rmMap, athleteLink, createdAt:new Date().toISOString()};
   window.currentProgram = program;
   $('#programOutput').innerHTML = renderProgram(program, true);
 }
@@ -234,9 +431,11 @@ function renderProgram(p, coachView){
   return `
     <div class="summary">
       <h3>${esc(p.name)} · ${esc(p.code)}</h3>
-      <p><strong>Objectif principal :</strong> ${esc(p.mainGoal)} ${p.secondGoal ? `· <strong>objectif secondaire :</strong> ${esc(p.secondGoal)}`:''}</p>
-      <p><strong>Niveau :</strong> ${esc(p.level)} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Environnement :</strong> ${esc(p.env)}</p>
+      <p><strong>Objectif principal :</strong> ${esc(labelForGoal(p.mainGoal))} ${p.secondGoal ? `· <strong>objectif secondaire :</strong> ${esc(labelForGoal(p.secondGoal))}`:''}</p>
+      <p><strong>Niveau :</strong> ${esc(p.level)} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Environnement :</strong> ${esc(ENV_LABELS[p.env] || p.env)}</p>
+      ${(p.bodyArea || p.focusTarget) ? `<p><strong>Zone :</strong> ${esc(p.bodyArea || 'mix complet')} · <strong>Focus :</strong> ${esc(p.focusTarget || 'aucun')}</p>` : ''}
       <div class="meta">${p.warmup.map(x=>`<span class="badge">${esc(x)}</span>`).join(' ')}</div>
+      ${coachView ? `<div class="actions" style="margin-top:12px"><button class="ghost" onclick="generateShareLink()">Copier le lien adhérent</button><button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button></div>` : ''}
     </div>
     <div class="program-days">
       ${p.days.map((day,idx)=>`
@@ -251,21 +450,16 @@ function renderProgram(p, coachView){
               </div>
               <strong>${esc(ex.name)}</strong><br>
               Muscles : ${esc(ex.muscles)}<br>
-              Séries : <strong>${esc(ex.prescription.series)}</strong> · Rép / temps : <strong>${esc(ex.prescription.reps)}</strong><br>
-              Repos : <strong>${esc(ex.prescription.rest)}</strong> · Tempo : <strong>${esc(ex.prescription.tempo)}</strong> · Intensité : <strong>${esc(ex.prescription.intensity)}</strong><br>
-              ${coachView ? `Charge conseillée : <strong>${esc(ex.prescription.loadText)}</strong><br>`:''}
-              Consigne coach : ${esc(ex.cue)}<br>
+              Séries : <strong>${esc(ex.prescription.series)}</strong> · Rép / temps : <strong>${esc(ex.prescription.reps)}</strong> · Repos : <strong>${esc(ex.prescription.rest)}</strong>${ex.prescription.tempo ? ` · Tempo : <strong>${esc(ex.prescription.tempo)}</strong>`:''}<br>
+              Intensité : ${esc(ex.prescription.intensity)}${coachView ? ` · Charge : ${esc(ex.prescription.loadText)}`:''}<br>
+              Consigne : ${esc(ex.cue)}<br>
               Variante facile : ${esc(ex.easy)} · Variante avancée : ${esc(ex.hard)}
             </div>
           `).join('')}
+          <div class="cooldown-box"><strong>Retour au calme :</strong> ${p.cooldown.map(x=>esc(x)).join(' · ')}</div>
         </article>
       `).join('')}
-    </div>
-    <div class="summary">
-      <h3>Retour au calme</h3>
-      <div class="meta">${p.cooldown.map(x=>`<span class="badge">${esc(x)}</span>`).join(' ')}</div>
-    </div>
-  `;
+    </div>`;
 }
 function saveForAthlete(){
   if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
@@ -274,10 +468,61 @@ function saveForAthlete(){
   localStorage.setItem('fafaPrograms', JSON.stringify(all));
   alert(`Programme enregistré pour l’adhérent : ${window.currentProgram.code}`);
 }
+function generateShareLink(){
+  if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(window.currentProgram.athleteLink);
+    alert(`Lien adhérent copié : ${window.currentProgram.athleteLink}`);
+  } else {
+    alert(window.currentProgram.athleteLink);
+  }
+}
 function printProgram(){
   if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
+  const logo = 'assets/logo.jpeg';
   const w = window.open('', '_blank');
-  w.document.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Programme FAFATRAINING</title><style>body{font-family:Arial;padding:24px} .day{border:1px solid #ddd;border-radius:12px;padding:14px;margin:14px 0} .item{margin:10px 0;padding-top:10px;border-top:1px solid #eee} h1{margin:0 0 8px}</style></head><body><h1>${window.currentProgram.name}</h1>${window.currentProgram.days.map(d=>`<div class="day"><h2>${d.title}</h2>${d.items.map(ex=>`<div class="item"><strong>${ex.name}</strong><br>Séries : ${ex.prescription.series} · Rép / temps : ${ex.prescription.reps} · Repos : ${ex.prescription.rest}<br>Consigne : ${ex.cue}<br>Variante facile : ${ex.easy} · Variante avancée : ${ex.hard}</div>`).join('')}</div>`).join('')}</body></html>`);
+  w.document.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Programme FAFATRAINING</title><style>
+    body{font-family:Arial,Helvetica,sans-serif;padding:24px;background:#f7f7f7;color:#111}
+    .page{max-width:980px;margin:0 auto;background:#fff;border:1px solid #ddd;border-radius:18px;overflow:hidden}
+    .head{position:relative;padding:24px 24px 18px;background:#0c1016;color:#fff}
+    .head:after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(142,255,0,.08),transparent 35%,rgba(88,183,255,.07),transparent 70%);pointer-events:none}
+    .brand{display:flex;gap:16px;align-items:center}
+    .brand img{width:88px;height:88px;border-radius:50%;object-fit:cover}
+    .title{font-size:32px;font-weight:800;margin:0}
+    .sub{color:#9BFF00;font-weight:700;margin-top:4px}
+    .meta{padding:18px 24px;border-bottom:1px solid #e6e6e6}
+    .day{margin:18px 24px;padding:16px;border:1px solid #dfe4ea;border-radius:14px}
+    .day h2{margin:0 0 10px}
+    .item{padding:10px 0;border-top:1px solid #ececec}
+    .item:first-child{border-top:none}
+    .tag{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef6e8;color:#244400;font-size:12px;font-weight:700;margin:0 4px 6px 0}
+    .notes{margin:20px 24px 24px;padding:14px;border:1px dashed #bbb;border-radius:12px}
+  </style></head><body>
+    <div class="page">
+      <div class="head">
+        <div class="brand">
+          <img src="${logo}">
+          <div>
+            <div class="title">FAFATRAINING ELITE SYSTEM</div>
+            <div class="sub">Forge ton corps. Élite ton mental.</div>
+          </div>
+        </div>
+      </div>
+      <div class="meta">
+        <strong>${window.currentProgram.name}</strong> · ${window.currentProgram.code}<br>
+        Objectif principal : ${labelForGoal(window.currentProgram.mainGoal)}${window.currentProgram.secondGoal ? ' · Objectif secondaire : '+labelForGoal(window.currentProgram.secondGoal) : ''}<br>
+        Niveau : ${window.currentProgram.level} · Fréquence : ${window.currentProgram.freq}/semaine · Durée : ${window.currentProgram.duration} min · Environnement : ${ENV_LABELS[window.currentProgram.env] || window.currentProgram.env}
+      </div>
+      ${window.currentProgram.days.map(d=>`<div class="day"><h2>${d.title}</h2>${d.items.map(ex=>`<div class="item">
+        <div><span class="tag">${ex.category}</span><span class="tag">${ex.subcategory}</span></div>
+        <strong>${ex.name}</strong><br>
+        Séries : ${ex.prescription.series} · Rép / temps : ${ex.prescription.reps} · Repos : ${ex.prescription.rest}${ex.prescription.tempo ? ' · Tempo : '+ex.prescription.tempo : ''}<br>
+        Consigne : ${ex.cue}<br>
+        Variante facile : ${ex.easy} · Variante avancée : ${ex.hard}
+      </div>`).join('')}</div>`).join('')}
+      <div class="notes"><strong>Notes coach / client :</strong><br><br>..........................................................................................................................<br><br>..........................................................................................................................</div>
+    </div>
+  </body></html>`);
   w.document.close();
   w.focus();
 }
@@ -291,7 +536,7 @@ function renderLibrary(){
     (!cat || ex.category===cat) &&
     (!level || lvl[ex.level] <= lvl[level]) &&
     (!env || ex.environments.includes(env)) &&
-    (!q || [ex.name,ex.subcategory,ex.muscles,ex.cue,...ex.tags].join(' ').toLowerCase().includes(q))
+    (!q || [ex.name,ex.subcategory,ex.muscles,ex.cue,...(ex.tags||[]),...(ex.focus||[])].join(' ').toLowerCase().includes(q))
   );
   $('#libraryOutput').innerHTML = arr.map(ex=>`
     <article class="library-card">
@@ -302,8 +547,8 @@ function renderLibrary(){
       </div>
       <h4>${esc(ex.name)}</h4>
       <p><strong>Muscles :</strong> ${esc(ex.muscles)}</p>
-      <p><strong>Lieux :</strong> ${esc(ex.environments.join(', '))}</p>
-      <p><strong>Matériel :</strong> ${esc(ex.equipment.join(', '))}</p>
+      <p><strong>Lieux :</strong> ${esc(ex.environments.map(v=>ENV_LABELS[v] || v).join(', '))}</p>
+      <p><strong>Matériel :</strong> ${esc(ex.equipment.map(v => (EQUIPMENTS.find(x=>x[0]===v)||[v,v])[1]).join(', '))}</p>
       <p><strong>Consigne :</strong> ${esc(ex.cue)}</p>
       <p><strong>Variante facile :</strong> ${esc(ex.easy)} · <strong>Variante avancée :</strong> ${esc(ex.hard)}</p>
     </article>
@@ -318,6 +563,15 @@ function openAthleteProgram(){
   $('#athleteLobby').classList.add('hidden');
   $('#athleteProgram').classList.remove('hidden');
   $('#athleteProgramOutput').innerHTML = renderProgram(p, false);
+}
+function hydrateAthleteFromLink(){
+  const params = new URLSearchParams(location.search);
+  const code = (params.get('client') || '').trim().toUpperCase();
+  if(code){
+    goView('athlete');
+    $('#athleteCode').value = code;
+    setTimeout(()=>openAthleteProgram(), 200);
+  }
 }
 function backAthlete(){
   $('#athleteProgram').classList.add('hidden');
@@ -346,20 +600,31 @@ function prevExercise(){ if(window.liveIndex > 0){ window.liveIndex--; renderLiv
 function backProgram(){ $('#liveSession').classList.add('hidden'); }
 
 function generateQuickSession(){
-  const type = $('#quickType').value, level = $('#quickLevel').value, duration = Number($('#quickDuration').value), env = $('#quickEnv').value;
-  const pool = chooseExercises(goalToCategories(type,''), env, level, PRESETS[env]||['bodyweight']);
-  const blocks = Math.max(3, Math.min(6, Math.round(duration/10)));
-  const items = shuffle(pool).slice(0, blocks*2);
+  const type = $('#quickType').value, level = $('#quickLevel').value, duration = Number($('#quickDuration').value||45), env = $('#quickEnv').value;
+  const map = {
+    muscle_gain:['musculation','core'],
+    conditioning:['hiit','cardio','core'],
+    boxing:['boxe','hiit','core'],
+    hyrox:['hyrox','cardio','hiit','musculation'],
+    mobility:['mobilité','bien_etre','core']
+  };
+  const cats = map[type] || ['musculation'];
+  const arr = EXERCISES.filter(e => cats.includes(e.category) && (e.environments.includes(env) || env==='bodyweight_only' || e.environments.includes('home')));
+  const count = duration>=60 ? 6 : duration>=45 ? 5 : 4;
+  const chosen = pickUniqueFrom(arr, count);
   $('#quickOutput').innerHTML = `
-    <div class="summary"><h3>Session rapide ${esc(type)}</h3><p>${duration} min · ${esc(level)} · ${esc(env)}</p></div>
+    <div class="summary">
+      <h3>Session rapide ${esc(type)}</h3>
+      <p><strong>Niveau :</strong> ${esc(level)} · <strong>Durée :</strong> ${duration} min · <strong>Lieu :</strong> ${esc(ENV_LABELS[env]||env)}</p>
+    </div>
     <div class="program-days">
-      ${Array.from({length:blocks}).map((_,i)=>`
       <article class="day-card">
-        <h4>Bloc ${i+1}</h4>
-        ${items.slice(i*2,i*2+2).map(ex=>`
-          <div class="ex-item"><strong>${esc(ex.name)}</strong><br>Format conseillé : ${type==='conditioning' || type==='hyrox' ? '40 sec effort / 20 sec repos x 3' : type==='boxing' ? '2 min round / 45 sec repos x 3' : '3 séries de 10 à 15 reps'}<br>Consigne : ${esc(ex.cue)}</div>
-        `).join('')}
-      </article>`).join('')}
+        <h4>Déroulé</h4>
+        ${chosen.map((ex,i)=>{
+          const p = buildPrescription(ex, type, level, '30/30', {squat:0,bench:0,deadlift:0});
+          return `<div class="ex-item"><strong>Bloc ${i+1} : ${esc(ex.name)}</strong><br>${esc(p.series)} · ${esc(p.reps)} · repos ${esc(p.rest)}<br>Consigne : ${esc(ex.cue)}</div>`;
+        }).join('')}
+      </article>
     </div>`;
 }
 function saveTracking(){
