@@ -1,9 +1,18 @@
-FAFATRAINING V11.1 Moteur Pro
+FAFATRAINING MindGame V15 Pro Real
 
-Amélioration principale :
-- moteur de programme plus intelligent
-- vrais blueprints de séances selon objectif, fréquence, zone et focus musculaire
-- moins de combinaisons génériques
-- moins de doublons de variantes dans la même séance
-- meilleure logique full body / haut / bas / abdos / boxe / conditioning / hyrox
-- génération adhérent par lien et code conservée
+Contenu :
+- 18 jeux différenciés
+- 162 scénarios (âges + difficultés)
+- 2754 missions
+- séparation admin / joueurs
+- plusieurs équipes
+- nom d’équipe + noms des joueurs
+- QR / liens par équipe
+- réponses animateur
+- bibliothèque de scénarios
+- prêt GitHub Pages
+
+Important :
+- cette version fonctionne entièrement en statique sur GitHub Pages.
+- le suivi session / équipes est stocké dans le navigateur (localStorage).
+- sans backend, ce suivi n’est pas synchronisé en vrai temps réel entre plusieurs appareils différents.
