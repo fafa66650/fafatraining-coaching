@@ -17,8 +17,8 @@
       "health",
       "recomp"
     ],
-    "description": "Descendre sous contrôle en gardant le buste gainé puis pousser dans le sol.",
-    "cues": "Genoux dans l’axe, talons ancrés.",
+    "description": "Descends sous contrôle en gardant le buste gainé puis pousse dans le sol.",
+    "cues": "Genoux dans l’axe, talons au sol.",
     "easier_variant": "Squat vers une chaise",
     "harder_variant": "Squat tempo 3-1-1",
     "load_hint": "Poids du corps"
@@ -41,8 +41,8 @@
       "recomp",
       "fat_loss"
     ],
-    "description": "Tenir la charge devant la poitrine pour mieux garder le dos droit.",
-    "cues": "Coudes proches, descente propre.",
+    "description": "Tiens la charge devant la poitrine pour garder le dos droit.",
+    "cues": "Coudes proches, respiration contrôlée.",
     "easier_variant": "Goblet squat léger",
     "harder_variant": "Goblet squat pause",
     "load_hint": "60–75%"
@@ -64,11 +64,55 @@
       "muscle_gain",
       "hyrox"
     ],
-    "description": "Squat barre sur le dos pour force et masse du bas du corps.",
-    "cues": "Créer une vraie pression abdominale.",
+    "description": "Squat barre sur le dos pour développer force et masse du bas du corps.",
+    "cues": "Pression abdominale avant chaque rep.",
     "easier_variant": "Front squat",
     "harder_variant": "Back squat pause",
     "load_hint": "70–85%"
+  },
+  {
+    "name": "Front squat",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / sangle abdominale",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain",
+      "hyrox"
+    ],
+    "description": "Barre devant les épaules, torse haut, descente contrôlée.",
+    "cues": "Coudes hauts, poitrine ouverte.",
+    "easier_variant": "Goblet squat",
+    "harder_variant": "Front squat pause",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Leg press",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain",
+      "recomp"
+    ],
+    "description": "Pousse la plateforme avec stabilité sans décoller le bassin.",
+    "cues": "Amplitude propre, pas d’à-coups.",
+    "easier_variant": "Leg press légère",
+    "harder_variant": "Single-leg press",
+    "load_hint": "65–80%"
   },
   {
     "name": "Romanian deadlift",
@@ -114,10 +158,81 @@
       "health"
     ],
     "description": "Extension de hanches pour cibler les fessiers.",
-    "cues": "Verrouiller sans cambrer.",
+    "cues": "Verrouille sans cambrer.",
     "easier_variant": "Glute bridge",
     "harder_variant": "Hip thrust lourd",
     "load_hint": "60–80%"
+  },
+  {
+    "name": "Bulgarian split squat",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / stabilité",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bench",
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "muscle_gain",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fente arrière surélevée pour jambes et équilibre.",
+    "cues": "Bassin face devant.",
+    "easier_variant": "Split squat",
+    "harder_variant": "Bulgarian chargé",
+    "load_hint": "60–75%"
+  },
+  {
+    "name": "Walking lunges",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / cardio",
+    "environments": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "bodyweight",
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fentes marchées fluides avec grand pas et gainage.",
+    "cues": "Reste haut, pousse dans le sol.",
+    "easier_variant": "Fentes arrière",
+    "harder_variant": "Walking lunges chargées",
+    "load_hint": "Poids du corps / 50–70%"
+  },
+  {
+    "name": "Trap bar deadlift",
+    "category": "strength_lower",
+    "muscles": "Chaîne postérieure / quadriceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "trap_bar"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "athletic",
+      "hyrox"
+    ],
+    "description": "Soulevé de terre avec trap bar, accessible et puissant.",
+    "cues": "Tronc solide, pousser le sol.",
+    "easier_variant": "Kettlebell deadlift",
+    "harder_variant": "Trap bar lourd",
+    "load_hint": "70–85%"
   },
   {
     "name": "Pompes",
@@ -184,8 +299,8 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Banc incliné modérément, descente contrôlée, poussée forte.",
-    "cues": "Épaules basses.",
+    "description": "Banc incliné modérément, descente contrôlée puis poussée nette.",
+    "cues": "Épaules basses, cage ouverte.",
     "easier_variant": "Développé couché haltères",
     "harder_variant": "Incline lourd",
     "load_hint": "60–75%"
@@ -207,10 +322,77 @@
       "athletic"
     ],
     "description": "Poussée verticale debout pour la force du haut du corps.",
-    "cues": "Fessiers serrés, cage basse.",
+    "cues": "Fessiers serrés, pas de cambrure excessive.",
     "easier_variant": "Shoulder press assis",
     "harder_variant": "Push press",
     "load_hint": "65–80%"
+  },
+  {
+    "name": "Landmine press",
+    "category": "strength_upper_push",
+    "muscles": "Épaules / haut des pectoraux / gainage",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "landmine",
+      "barbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "athletic",
+      "recomp"
+    ],
+    "description": "Poussée diagonale très utile pour stabilité et puissance.",
+    "cues": "Reste grand, tronc gainé.",
+    "easier_variant": "Shoulder press haltères",
+    "harder_variant": "Landmine unilatéral lourd",
+    "load_hint": "55–70%"
+  },
+  {
+    "name": "Élévations latérales",
+    "category": "strength_upper_push",
+    "muscles": "Deltoïdes moyens",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "dumbbell",
+      "cable"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain"
+    ],
+    "description": "Monte les bras jusqu’à l’horizontale sans hausser les épaules.",
+    "cues": "Mouvement propre, léger à modéré.",
+    "easier_variant": "Partielles",
+    "harder_variant": "Élévations câble unilatérales",
+    "load_hint": "Léger à modéré"
+  },
+  {
+    "name": "Dips",
+    "category": "strength_upper_push",
+    "muscles": "Triceps / pectoraux",
+    "environments": [
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "dip_bars",
+      "bodyweight"
+    ],
+    "level": "advanced",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Descends sous contrôle puis repousse sans écraser les épaules.",
+    "cues": "Épaules basses, amplitude maîtrisée.",
+    "easier_variant": "Bench dips",
+    "harder_variant": "Dips lestés",
+    "load_hint": "Poids du corps / lesté"
   },
   {
     "name": "TRX row",
@@ -256,6 +438,27 @@
     "easier_variant": "Band row",
     "harder_variant": "Single-arm cable row",
     "load_hint": "60–75%"
+  },
+  {
+    "name": "Rowing barre",
+    "category": "strength_upper_pull",
+    "muscles": "Dos / arrière d’épaules / biceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Tirage barre en charnière pour le dos et la posture.",
+    "cues": "Dos neutre, tirage contrôlé.",
+    "easier_variant": "Chest-supported row",
+    "harder_variant": "Pendlay row",
+    "load_hint": "65–80%"
   },
   {
     "name": "Lat pulldown",
@@ -320,7 +523,7 @@
       "muscle_gain",
       "boxing"
     ],
-    "description": "Tirage visage utile pour la posture et les épaules.",
+    "description": "Tirage visage utile pour posture et santé d’épaule.",
     "cues": "Coudes hauts, épaules basses.",
     "easier_variant": "Band pull-apart",
     "harder_variant": "Face pull pause",
@@ -346,35 +549,11 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Tenir une ligne droite tête-épaules-bassin-chevilles.",
-    "cues": "Respirer sans perdre l’alignement.",
+    "description": "Tiens une ligne droite tête-épaules-bassin-chevilles.",
+    "cues": "Respire sans perdre l’alignement.",
     "easier_variant": "Planche genoux",
     "harder_variant": "Planche RKC",
     "load_hint": "Temps"
-  },
-  {
-    "name": "Dead bug",
-    "category": "core",
-    "muscles": "Abdominaux profonds",
-    "environments": [
-      "bodyweight_only",
-      "home",
-      "gym"
-    ],
-    "equipment": [
-      "bodyweight"
-    ],
-    "level": "beginner",
-    "goals": [
-      "health",
-      "recomp",
-      "mobility"
-    ],
-    "description": "Alterner bras et jambe opposés sans creuser le bas du dos.",
-    "cues": "Souffler longuement.",
-    "easier_variant": "Version simplifiée",
-    "harder_variant": "Version avec bande",
-    "load_hint": "8–12 reps"
   },
   {
     "name": "Pallof press",
@@ -394,11 +573,33 @@
       "boxing",
       "athletic"
     ],
-    "description": "Pousser les mains devant soi en résistant à la rotation.",
-    "cues": "Rester de face.",
+    "description": "Pousse les mains devant toi en résistant à la rotation.",
+    "cues": "Reste de face, bassin fixe.",
     "easier_variant": "Isométrique",
     "harder_variant": "Genou au sol",
     "load_hint": "8–12 reps"
+  },
+  {
+    "name": "Roue abdominale",
+    "category": "core",
+    "muscles": "Sangle abdominale / dorsaux",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "ab_wheel"
+    ],
+    "level": "advanced",
+    "goals": [
+      "athletic",
+      "strength"
+    ],
+    "description": "Rouler vers l’avant en gardant les côtes rentrées.",
+    "cues": "Ne pas creuser le bas du dos.",
+    "easier_variant": "Body saw",
+    "harder_variant": "Roue debout",
+    "load_hint": "6–12 reps"
   },
   {
     "name": "Burpees",
@@ -426,6 +627,28 @@
     "load_hint": "Temps / reps"
   },
   {
+    "name": "Air bike sprints",
+    "category": "conditioning",
+    "muscles": "Cardio total body",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "airbike"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "conditioning",
+      "fat_loss",
+      "hyrox"
+    ],
+    "description": "Sprints très intenses sur air bike.",
+    "cues": "Très fort sur l’effort, vraie récup.",
+    "easier_variant": "Air bike modéré",
+    "harder_variant": "10/50",
+    "load_hint": "Temps"
+  },
+  {
     "name": "Battle rope waves",
     "category": "conditioning",
     "muscles": "Cardio / épaules",
@@ -445,28 +668,6 @@
     "cues": "Genoux souples, tronc gainé.",
     "easier_variant": "Petites vagues",
     "harder_variant": "Slams puissants",
-    "load_hint": "Temps"
-  },
-  {
-    "name": "Air bike sprints",
-    "category": "conditioning",
-    "muscles": "Cardio total body",
-    "environments": [
-      "gym"
-    ],
-    "equipment": [
-      "airbike"
-    ],
-    "level": "intermediate",
-    "goals": [
-      "conditioning",
-      "fat_loss",
-      "hyrox"
-    ],
-    "description": "Sprints très intenses sur air bike.",
-    "cues": "Très fort sur l’effort, vraie récup.",
-    "easier_variant": "Air bike modéré",
-    "harder_variant": "10/50 ou 15/45",
     "load_hint": "Temps"
   },
   {
@@ -557,10 +758,32 @@
       "health",
       "endurance"
     ],
-    "description": "Marche rapide inclinée pour brûler et renforcer sans impact violent.",
+    "description": "Marche rapide inclinée pour brûler sans impact violent.",
     "cues": "Posture haute, grand pas.",
     "easier_variant": "Marche plate",
     "harder_variant": "Intervalles de pente",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Course tapis intervalles",
+    "category": "cardio",
+    "muscles": "Course / cardio",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "treadmill"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "conditioning",
+      "endurance"
+    ],
+    "description": "Alternance course / récupération sur tapis.",
+    "cues": "Ne pas partir trop vite.",
+    "easier_variant": "Course continue facile",
+    "harder_variant": "Intervalles plus longs",
     "load_hint": "Temps"
   },
   {
@@ -585,6 +808,29 @@
     "cues": "Cadence stable.",
     "easier_variant": "Vélo facile",
     "harder_variant": "Bike intervals",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Vélo elliptique",
+    "category": "cardio",
+    "muscles": "Cardio sans impact",
+    "environments": [
+      "gym",
+      "home"
+    ],
+    "equipment": [
+      "elliptical"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "health",
+      "conditioning"
+    ],
+    "description": "Cardio sans impact avec bras et jambes.",
+    "cues": "Rester grand, pousser et tirer.",
+    "easier_variant": "Elliptique léger",
+    "harder_variant": "Elliptique fractionné",
     "load_hint": "Temps"
   },
   {
@@ -675,7 +921,29 @@
     "description": "Travail partenaire sur précision, vitesse et lecture des cibles.",
     "cues": "Précision avant force.",
     "easier_variant": "Touches simples",
-    "harder_variant": "Travail réaction/défense",
+    "harder_variant": "Réaction/défense",
+    "load_hint": "Rounds"
+  },
+  {
+    "name": "Corde d’esquive",
+    "category": "boxing",
+    "muscles": "Esquive / coordination",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "rope"
+    ],
+    "level": "beginner",
+    "goals": [
+      "boxing",
+      "conditioning"
+    ],
+    "description": "Passer sous une corde réelle ou imaginaire en garde.",
+    "cues": "Utiliser les jambes.",
+    "easier_variant": "Déplacement simple",
+    "harder_variant": "Esquive + contre",
     "load_hint": "Rounds"
   },
   {
@@ -724,7 +992,29 @@
     "cues": "Respirer calmement.",
     "easier_variant": "Fente simple",
     "harder_variant": "Pause isométrique",
-    "load_hint": "4–8 reps / côté"
+    "load_hint": "4–8 reps/côté"
+  },
+  {
+    "name": "90/90 hanches",
+    "category": "mobility",
+    "muscles": "Hanches",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "goals": [
+      "mobility",
+      "recovery"
+    ],
+    "description": "Passer d’un côté à l’autre en gardant le buste haut.",
+    "cues": "Mouvement lent et propre.",
+    "easier_variant": "Version assistée",
+    "harder_variant": "Sans les mains",
+    "load_hint": "1–3 min"
   },
   {
     "name": "Respiration diaphragmatique",
@@ -745,7 +1035,7 @@
       "health"
     ],
     "description": "Inspirer par le nez, gonfler le ventre, expirer longuement.",
-    "cues": "Relâcher la mâchoire.",
+    "cues": "Relâcher mâchoire et épaules.",
     "easier_variant": "Allongé jambes surélevées",
     "harder_variant": "Box breathing",
     "load_hint": "3–8 min"
@@ -767,7 +1057,7 @@
       "health"
     ],
     "description": "Allongé ou assis, relâcher progressivement tout le corps.",
-    "cues": "Respiration calme.",
+    "cues": "Respiration calme, rythme lent.",
     "easier_variant": "2 min simple",
     "harder_variant": "10 min profonde",
     "load_hint": "5–10 min"
@@ -790,8 +1080,8 @@
       "health",
       "recomp"
     ],
-    "description": "Descendre sous contrôle en gardant le buste gainé puis pousser dans le sol. Accent sur le contrôle du rythme.",
-    "cues": "Genoux dans l’axe, talons ancrés.",
+    "description": "Descends sous contrôle en gardant le buste gainé puis pousse dans le sol. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Genoux dans l’axe, talons au sol.",
     "easier_variant": "Squat vers une chaise",
     "harder_variant": "Squat tempo 3-1-1",
     "load_hint": "Poids du corps"
@@ -814,8 +1104,8 @@
       "health",
       "recomp"
     ],
-    "description": "Descendre sous contrôle en gardant le buste gainé puis pousser dans le sol. Accent sur la stabilité avec une pause.",
-    "cues": "Genoux dans l’axe, talons ancrés.",
+    "description": "Descends sous contrôle en gardant le buste gainé puis pousse dans le sol. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Genoux dans l’axe, talons au sol.",
     "easier_variant": "Squat vers une chaise",
     "harder_variant": "Squat tempo 3-1-1",
     "load_hint": "Poids du corps"
@@ -838,8 +1128,8 @@
       "health",
       "recomp"
     ],
-    "description": "Descendre sous contrôle en gardant le buste gainé puis pousser dans le sol. Accent sur le volume de travail.",
-    "cues": "Genoux dans l’axe, talons ancrés.",
+    "description": "Descends sous contrôle en gardant le buste gainé puis pousse dans le sol. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Genoux dans l’axe, talons au sol.",
     "easier_variant": "Squat vers une chaise",
     "harder_variant": "Squat tempo 3-1-1",
     "load_hint": "Poids du corps"
@@ -862,8 +1152,8 @@
       "recomp",
       "fat_loss"
     ],
-    "description": "Tenir la charge devant la poitrine pour mieux garder le dos droit. Accent sur le contrôle du rythme.",
-    "cues": "Coudes proches, descente propre.",
+    "description": "Tiens la charge devant la poitrine pour garder le dos droit. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Coudes proches, respiration contrôlée.",
     "easier_variant": "Goblet squat léger",
     "harder_variant": "Goblet squat pause",
     "load_hint": "60–75%"
@@ -886,8 +1176,8 @@
       "recomp",
       "fat_loss"
     ],
-    "description": "Tenir la charge devant la poitrine pour mieux garder le dos droit. Accent sur la stabilité avec une pause.",
-    "cues": "Coudes proches, descente propre.",
+    "description": "Tiens la charge devant la poitrine pour garder le dos droit. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Coudes proches, respiration contrôlée.",
     "easier_variant": "Goblet squat léger",
     "harder_variant": "Goblet squat pause",
     "load_hint": "60–75%"
@@ -910,8 +1200,8 @@
       "recomp",
       "fat_loss"
     ],
-    "description": "Tenir la charge devant la poitrine pour mieux garder le dos droit. Accent sur le volume de travail.",
-    "cues": "Coudes proches, descente propre.",
+    "description": "Tiens la charge devant la poitrine pour garder le dos droit. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Coudes proches, respiration contrôlée.",
     "easier_variant": "Goblet squat léger",
     "harder_variant": "Goblet squat pause",
     "load_hint": "60–75%"
@@ -933,8 +1223,8 @@
       "muscle_gain",
       "hyrox"
     ],
-    "description": "Squat barre sur le dos pour force et masse du bas du corps. Accent sur le contrôle du rythme.",
-    "cues": "Créer une vraie pression abdominale.",
+    "description": "Squat barre sur le dos pour développer force et masse du bas du corps. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Pression abdominale avant chaque rep.",
     "easier_variant": "Front squat",
     "harder_variant": "Back squat pause",
     "load_hint": "70–85%"
@@ -956,8 +1246,8 @@
       "muscle_gain",
       "hyrox"
     ],
-    "description": "Squat barre sur le dos pour force et masse du bas du corps. Accent sur la stabilité avec une pause.",
-    "cues": "Créer une vraie pression abdominale.",
+    "description": "Squat barre sur le dos pour développer force et masse du bas du corps. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Pression abdominale avant chaque rep.",
     "easier_variant": "Front squat",
     "harder_variant": "Back squat pause",
     "load_hint": "70–85%"
@@ -979,11 +1269,143 @@
       "muscle_gain",
       "hyrox"
     ],
-    "description": "Squat barre sur le dos pour force et masse du bas du corps. Accent sur le volume de travail.",
-    "cues": "Créer une vraie pression abdominale.",
+    "description": "Squat barre sur le dos pour développer force et masse du bas du corps. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Pression abdominale avant chaque rep.",
     "easier_variant": "Front squat",
     "harder_variant": "Back squat pause",
     "load_hint": "70–85%"
+  },
+  {
+    "name": "Front squat — version tempo",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / sangle abdominale",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain",
+      "hyrox"
+    ],
+    "description": "Barre devant les épaules, torse haut, descente contrôlée. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Coudes hauts, poitrine ouverte.",
+    "easier_variant": "Goblet squat",
+    "harder_variant": "Front squat pause",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Front squat — version pause",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / sangle abdominale",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain",
+      "hyrox"
+    ],
+    "description": "Barre devant les épaules, torse haut, descente contrôlée. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Coudes hauts, poitrine ouverte.",
+    "easier_variant": "Goblet squat",
+    "harder_variant": "Front squat pause",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Front squat — version volume",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / sangle abdominale",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell",
+      "rack"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain",
+      "hyrox"
+    ],
+    "description": "Barre devant les épaules, torse haut, descente contrôlée. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Coudes hauts, poitrine ouverte.",
+    "easier_variant": "Goblet squat",
+    "harder_variant": "Front squat pause",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Leg press — version tempo",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain",
+      "recomp"
+    ],
+    "description": "Pousse la plateforme avec stabilité sans décoller le bassin. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Amplitude propre, pas d’à-coups.",
+    "easier_variant": "Leg press légère",
+    "harder_variant": "Single-leg press",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Leg press — version pause",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain",
+      "recomp"
+    ],
+    "description": "Pousse la plateforme avec stabilité sans décoller le bassin. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Amplitude propre, pas d’à-coups.",
+    "easier_variant": "Leg press légère",
+    "harder_variant": "Single-leg press",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Leg press — version volume",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain",
+      "recomp"
+    ],
+    "description": "Pousse la plateforme avec stabilité sans décoller le bassin. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Amplitude propre, pas d’à-coups.",
+    "easier_variant": "Leg press légère",
+    "harder_variant": "Single-leg press",
+    "load_hint": "65–80%"
   },
   {
     "name": "Romanian deadlift — version tempo",
@@ -1003,7 +1425,7 @@
       "strength",
       "recomp"
     ],
-    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur le contrôle du rythme.",
+    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Dos neutre, hanches en arrière.",
     "easier_variant": "RDL haltères légers",
     "harder_variant": "RDL barre lourde",
@@ -1027,7 +1449,7 @@
       "strength",
       "recomp"
     ],
-    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur la stabilité avec une pause.",
+    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Dos neutre, hanches en arrière.",
     "easier_variant": "RDL haltères légers",
     "harder_variant": "RDL barre lourde",
@@ -1051,7 +1473,7 @@
       "strength",
       "recomp"
     ],
-    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur le volume de travail.",
+    "description": "Charnière de hanches pour renforcer l’arrière des jambes. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Dos neutre, hanches en arrière.",
     "easier_variant": "RDL haltères légers",
     "harder_variant": "RDL barre lourde",
@@ -1076,8 +1498,8 @@
       "recomp",
       "health"
     ],
-    "description": "Extension de hanches pour cibler les fessiers. Accent sur le contrôle du rythme.",
-    "cues": "Verrouiller sans cambrer.",
+    "description": "Extension de hanches pour cibler les fessiers. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Verrouille sans cambrer.",
     "easier_variant": "Glute bridge",
     "harder_variant": "Hip thrust lourd",
     "load_hint": "60–80%"
@@ -1101,8 +1523,8 @@
       "recomp",
       "health"
     ],
-    "description": "Extension de hanches pour cibler les fessiers. Accent sur la stabilité avec une pause.",
-    "cues": "Verrouiller sans cambrer.",
+    "description": "Extension de hanches pour cibler les fessiers. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Verrouille sans cambrer.",
     "easier_variant": "Glute bridge",
     "harder_variant": "Hip thrust lourd",
     "load_hint": "60–80%"
@@ -1126,11 +1548,224 @@
       "recomp",
       "health"
     ],
-    "description": "Extension de hanches pour cibler les fessiers. Accent sur le volume de travail.",
-    "cues": "Verrouiller sans cambrer.",
+    "description": "Extension de hanches pour cibler les fessiers. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Verrouille sans cambrer.",
     "easier_variant": "Glute bridge",
     "harder_variant": "Hip thrust lourd",
     "load_hint": "60–80%"
+  },
+  {
+    "name": "Bulgarian split squat — version tempo",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / stabilité",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bench",
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "muscle_gain",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fente arrière surélevée pour jambes et équilibre. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Bassin face devant.",
+    "easier_variant": "Split squat",
+    "harder_variant": "Bulgarian chargé",
+    "load_hint": "60–75%"
+  },
+  {
+    "name": "Bulgarian split squat — version pause",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / stabilité",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bench",
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "muscle_gain",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fente arrière surélevée pour jambes et équilibre. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Bassin face devant.",
+    "easier_variant": "Split squat",
+    "harder_variant": "Bulgarian chargé",
+    "load_hint": "60–75%"
+  },
+  {
+    "name": "Bulgarian split squat — version volume",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / stabilité",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bench",
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "muscle_gain",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fente arrière surélevée pour jambes et équilibre. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Bassin face devant.",
+    "easier_variant": "Split squat",
+    "harder_variant": "Bulgarian chargé",
+    "load_hint": "60–75%"
+  },
+  {
+    "name": "Walking lunges — version tempo",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / cardio",
+    "environments": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "bodyweight",
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fentes marchées fluides avec grand pas et gainage. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Reste haut, pousse dans le sol.",
+    "easier_variant": "Fentes arrière",
+    "harder_variant": "Walking lunges chargées",
+    "load_hint": "Poids du corps / 50–70%"
+  },
+  {
+    "name": "Walking lunges — version pause",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / cardio",
+    "environments": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "bodyweight",
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fentes marchées fluides avec grand pas et gainage. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Reste haut, pousse dans le sol.",
+    "easier_variant": "Fentes arrière",
+    "harder_variant": "Walking lunges chargées",
+    "load_hint": "Poids du corps / 50–70%"
+  },
+  {
+    "name": "Walking lunges — version volume",
+    "category": "strength_lower",
+    "muscles": "Quadriceps / fessiers / cardio",
+    "environments": [
+      "home",
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "bodyweight",
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "recomp",
+      "hyrox"
+    ],
+    "description": "Fentes marchées fluides avec grand pas et gainage. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Reste haut, pousse dans le sol.",
+    "easier_variant": "Fentes arrière",
+    "harder_variant": "Walking lunges chargées",
+    "load_hint": "Poids du corps / 50–70%"
+  },
+  {
+    "name": "Trap bar deadlift — version tempo",
+    "category": "strength_lower",
+    "muscles": "Chaîne postérieure / quadriceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "trap_bar"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "athletic",
+      "hyrox"
+    ],
+    "description": "Soulevé de terre avec trap bar, accessible et puissant. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Tronc solide, pousser le sol.",
+    "easier_variant": "Kettlebell deadlift",
+    "harder_variant": "Trap bar lourd",
+    "load_hint": "70–85%"
+  },
+  {
+    "name": "Trap bar deadlift — version pause",
+    "category": "strength_lower",
+    "muscles": "Chaîne postérieure / quadriceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "trap_bar"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "athletic",
+      "hyrox"
+    ],
+    "description": "Soulevé de terre avec trap bar, accessible et puissant. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Tronc solide, pousser le sol.",
+    "easier_variant": "Kettlebell deadlift",
+    "harder_variant": "Trap bar lourd",
+    "load_hint": "70–85%"
+  },
+  {
+    "name": "Trap bar deadlift — version volume",
+    "category": "strength_lower",
+    "muscles": "Chaîne postérieure / quadriceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "trap_bar"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "athletic",
+      "hyrox"
+    ],
+    "description": "Soulevé de terre avec trap bar, accessible et puissant. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Tronc solide, pousser le sol.",
+    "easier_variant": "Kettlebell deadlift",
+    "harder_variant": "Trap bar lourd",
+    "load_hint": "70–85%"
   },
   {
     "name": "Pompes — version tempo",
@@ -1151,7 +1786,7 @@
       "conditioning",
       "recomp"
     ],
-    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur le contrôle du rythme.",
+    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Corps aligné de la tête aux pieds.",
     "easier_variant": "Pompes inclinées",
     "harder_variant": "Pompes déclinées",
@@ -1176,7 +1811,7 @@
       "conditioning",
       "recomp"
     ],
-    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur la stabilité avec une pause.",
+    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Corps aligné de la tête aux pieds.",
     "easier_variant": "Pompes inclinées",
     "harder_variant": "Pompes déclinées",
@@ -1201,7 +1836,7 @@
       "conditioning",
       "recomp"
     ],
-    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur le volume de travail.",
+    "description": "Corps gainé, poitrine vers le sol puis repousse fort. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Corps aligné de la tête aux pieds.",
     "easier_variant": "Pompes inclinées",
     "harder_variant": "Pompes déclinées",
@@ -1224,7 +1859,7 @@
       "strength",
       "muscle_gain"
     ],
-    "description": "Poussée horizontale barre pour force et volume. Accent sur le contrôle du rythme.",
+    "description": "Poussée horizontale barre pour force et volume. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Omoplates serrées, pieds actifs.",
     "easier_variant": "Développé haltères",
     "harder_variant": "Bench pause",
@@ -1247,7 +1882,7 @@
       "strength",
       "muscle_gain"
     ],
-    "description": "Poussée horizontale barre pour force et volume. Accent sur la stabilité avec une pause.",
+    "description": "Poussée horizontale barre pour force et volume. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Omoplates serrées, pieds actifs.",
     "easier_variant": "Développé haltères",
     "harder_variant": "Bench pause",
@@ -1270,7 +1905,7 @@
       "strength",
       "muscle_gain"
     ],
-    "description": "Poussée horizontale barre pour force et volume. Accent sur le volume de travail.",
+    "description": "Poussée horizontale barre pour force et volume. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Omoplates serrées, pieds actifs.",
     "easier_variant": "Développé haltères",
     "harder_variant": "Bench pause",
@@ -1293,8 +1928,8 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Banc incliné modérément, descente contrôlée, poussée forte. Accent sur le contrôle du rythme.",
-    "cues": "Épaules basses.",
+    "description": "Banc incliné modérément, descente contrôlée puis poussée nette. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Épaules basses, cage ouverte.",
     "easier_variant": "Développé couché haltères",
     "harder_variant": "Incline lourd",
     "load_hint": "60–75%"
@@ -1316,8 +1951,8 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Banc incliné modérément, descente contrôlée, poussée forte. Accent sur la stabilité avec une pause.",
-    "cues": "Épaules basses.",
+    "description": "Banc incliné modérément, descente contrôlée puis poussée nette. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Épaules basses, cage ouverte.",
     "easier_variant": "Développé couché haltères",
     "harder_variant": "Incline lourd",
     "load_hint": "60–75%"
@@ -1339,8 +1974,8 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Banc incliné modérément, descente contrôlée, poussée forte. Accent sur le volume de travail.",
-    "cues": "Épaules basses.",
+    "description": "Banc incliné modérément, descente contrôlée puis poussée nette. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Épaules basses, cage ouverte.",
     "easier_variant": "Développé couché haltères",
     "harder_variant": "Incline lourd",
     "load_hint": "60–75%"
@@ -1361,8 +1996,8 @@
       "muscle_gain",
       "athletic"
     ],
-    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur le contrôle du rythme.",
-    "cues": "Fessiers serrés, cage basse.",
+    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Fessiers serrés, pas de cambrure excessive.",
     "easier_variant": "Shoulder press assis",
     "harder_variant": "Push press",
     "load_hint": "65–80%"
@@ -1383,8 +2018,8 @@
       "muscle_gain",
       "athletic"
     ],
-    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur la stabilité avec une pause.",
-    "cues": "Fessiers serrés, cage basse.",
+    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Fessiers serrés, pas de cambrure excessive.",
     "easier_variant": "Shoulder press assis",
     "harder_variant": "Push press",
     "load_hint": "65–80%"
@@ -1405,11 +2040,212 @@
       "muscle_gain",
       "athletic"
     ],
-    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur le volume de travail.",
-    "cues": "Fessiers serrés, cage basse.",
+    "description": "Poussée verticale debout pour la force du haut du corps. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Fessiers serrés, pas de cambrure excessive.",
     "easier_variant": "Shoulder press assis",
     "harder_variant": "Push press",
     "load_hint": "65–80%"
+  },
+  {
+    "name": "Landmine press — version tempo",
+    "category": "strength_upper_push",
+    "muscles": "Épaules / haut des pectoraux / gainage",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "landmine",
+      "barbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "athletic",
+      "recomp"
+    ],
+    "description": "Poussée diagonale très utile pour stabilité et puissance. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Reste grand, tronc gainé.",
+    "easier_variant": "Shoulder press haltères",
+    "harder_variant": "Landmine unilatéral lourd",
+    "load_hint": "55–70%"
+  },
+  {
+    "name": "Landmine press — version pause",
+    "category": "strength_upper_push",
+    "muscles": "Épaules / haut des pectoraux / gainage",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "landmine",
+      "barbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "athletic",
+      "recomp"
+    ],
+    "description": "Poussée diagonale très utile pour stabilité et puissance. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Reste grand, tronc gainé.",
+    "easier_variant": "Shoulder press haltères",
+    "harder_variant": "Landmine unilatéral lourd",
+    "load_hint": "55–70%"
+  },
+  {
+    "name": "Landmine press — version volume",
+    "category": "strength_upper_push",
+    "muscles": "Épaules / haut des pectoraux / gainage",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "landmine",
+      "barbell"
+    ],
+    "level": "beginner",
+    "goals": [
+      "athletic",
+      "recomp"
+    ],
+    "description": "Poussée diagonale très utile pour stabilité et puissance. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Reste grand, tronc gainé.",
+    "easier_variant": "Shoulder press haltères",
+    "harder_variant": "Landmine unilatéral lourd",
+    "load_hint": "55–70%"
+  },
+  {
+    "name": "Élévations latérales — version tempo",
+    "category": "strength_upper_push",
+    "muscles": "Deltoïdes moyens",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "dumbbell",
+      "cable"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain"
+    ],
+    "description": "Monte les bras jusqu’à l’horizontale sans hausser les épaules. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Mouvement propre, léger à modéré.",
+    "easier_variant": "Partielles",
+    "harder_variant": "Élévations câble unilatérales",
+    "load_hint": "Léger à modéré"
+  },
+  {
+    "name": "Élévations latérales — version pause",
+    "category": "strength_upper_push",
+    "muscles": "Deltoïdes moyens",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "dumbbell",
+      "cable"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain"
+    ],
+    "description": "Monte les bras jusqu’à l’horizontale sans hausser les épaules. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Mouvement propre, léger à modéré.",
+    "easier_variant": "Partielles",
+    "harder_variant": "Élévations câble unilatérales",
+    "load_hint": "Léger à modéré"
+  },
+  {
+    "name": "Élévations latérales — version volume",
+    "category": "strength_upper_push",
+    "muscles": "Deltoïdes moyens",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "dumbbell",
+      "cable"
+    ],
+    "level": "beginner",
+    "goals": [
+      "muscle_gain"
+    ],
+    "description": "Monte les bras jusqu’à l’horizontale sans hausser les épaules. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Mouvement propre, léger à modéré.",
+    "easier_variant": "Partielles",
+    "harder_variant": "Élévations câble unilatérales",
+    "load_hint": "Léger à modéré"
+  },
+  {
+    "name": "Dips — version tempo",
+    "category": "strength_upper_push",
+    "muscles": "Triceps / pectoraux",
+    "environments": [
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "dip_bars",
+      "bodyweight"
+    ],
+    "level": "advanced",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Descends sous contrôle puis repousse sans écraser les épaules. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Épaules basses, amplitude maîtrisée.",
+    "easier_variant": "Bench dips",
+    "harder_variant": "Dips lestés",
+    "load_hint": "Poids du corps / lesté"
+  },
+  {
+    "name": "Dips — version pause",
+    "category": "strength_upper_push",
+    "muscles": "Triceps / pectoraux",
+    "environments": [
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "dip_bars",
+      "bodyweight"
+    ],
+    "level": "advanced",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Descends sous contrôle puis repousse sans écraser les épaules. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Épaules basses, amplitude maîtrisée.",
+    "easier_variant": "Bench dips",
+    "harder_variant": "Dips lestés",
+    "load_hint": "Poids du corps / lesté"
+  },
+  {
+    "name": "Dips — version volume",
+    "category": "strength_upper_push",
+    "muscles": "Triceps / pectoraux",
+    "environments": [
+      "gym",
+      "outdoor"
+    ],
+    "equipment": [
+      "dip_bars",
+      "bodyweight"
+    ],
+    "level": "advanced",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Descends sous contrôle puis repousse sans écraser les épaules. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Épaules basses, amplitude maîtrisée.",
+    "easier_variant": "Bench dips",
+    "harder_variant": "Dips lestés",
+    "load_hint": "Poids du corps / lesté"
   },
   {
     "name": "TRX row — version tempo",
@@ -1429,7 +2265,7 @@
       "fat_loss",
       "recomp"
     ],
-    "description": "Tirage au poids du corps avec angle réglable. Accent sur le contrôle du rythme.",
+    "description": "Tirage au poids du corps avec angle réglable. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Poitrine vers les poignées.",
     "easier_variant": "TRX plus vertical",
     "harder_variant": "TRX pieds surélevés",
@@ -1453,7 +2289,7 @@
       "fat_loss",
       "recomp"
     ],
-    "description": "Tirage au poids du corps avec angle réglable. Accent sur la stabilité avec une pause.",
+    "description": "Tirage au poids du corps avec angle réglable. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Poitrine vers les poignées.",
     "easier_variant": "TRX plus vertical",
     "harder_variant": "TRX pieds surélevés",
@@ -1477,7 +2313,7 @@
       "fat_loss",
       "recomp"
     ],
-    "description": "Tirage au poids du corps avec angle réglable. Accent sur le volume de travail.",
+    "description": "Tirage au poids du corps avec angle réglable. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Poitrine vers les poignées.",
     "easier_variant": "TRX plus vertical",
     "harder_variant": "TRX pieds surélevés",
@@ -1498,7 +2334,7 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage horizontal guidé pour le dos. Accent sur le contrôle du rythme.",
+    "description": "Tirage horizontal guidé pour le dos. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Épaules basses, coudes vers les côtes.",
     "easier_variant": "Band row",
     "harder_variant": "Single-arm cable row",
@@ -1519,7 +2355,7 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage horizontal guidé pour le dos. Accent sur la stabilité avec une pause.",
+    "description": "Tirage horizontal guidé pour le dos. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Épaules basses, coudes vers les côtes.",
     "easier_variant": "Band row",
     "harder_variant": "Single-arm cable row",
@@ -1540,11 +2376,74 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage horizontal guidé pour le dos. Accent sur le volume de travail.",
+    "description": "Tirage horizontal guidé pour le dos. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Épaules basses, coudes vers les côtes.",
     "easier_variant": "Band row",
     "harder_variant": "Single-arm cable row",
     "load_hint": "60–75%"
+  },
+  {
+    "name": "Rowing barre — version tempo",
+    "category": "strength_upper_pull",
+    "muscles": "Dos / arrière d’épaules / biceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Tirage barre en charnière pour le dos et la posture. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Dos neutre, tirage contrôlé.",
+    "easier_variant": "Chest-supported row",
+    "harder_variant": "Pendlay row",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Rowing barre — version pause",
+    "category": "strength_upper_pull",
+    "muscles": "Dos / arrière d’épaules / biceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Tirage barre en charnière pour le dos et la posture. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Dos neutre, tirage contrôlé.",
+    "easier_variant": "Chest-supported row",
+    "harder_variant": "Pendlay row",
+    "load_hint": "65–80%"
+  },
+  {
+    "name": "Rowing barre — version volume",
+    "category": "strength_upper_pull",
+    "muscles": "Dos / arrière d’épaules / biceps",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "strength",
+      "muscle_gain"
+    ],
+    "description": "Tirage barre en charnière pour le dos et la posture. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Dos neutre, tirage contrôlé.",
+    "easier_variant": "Chest-supported row",
+    "harder_variant": "Pendlay row",
+    "load_hint": "65–80%"
   },
   {
     "name": "Lat pulldown — version tempo",
@@ -1562,7 +2461,7 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage vertical pour développer le dos. Accent sur le contrôle du rythme.",
+    "description": "Tirage vertical pour développer le dos. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Tirer les coudes vers les hanches.",
     "easier_variant": "Band pulldown",
     "harder_variant": "Pull-up",
@@ -1584,7 +2483,7 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage vertical pour développer le dos. Accent sur la stabilité avec une pause.",
+    "description": "Tirage vertical pour développer le dos. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Tirer les coudes vers les hanches.",
     "easier_variant": "Band pulldown",
     "harder_variant": "Pull-up",
@@ -1606,7 +2505,7 @@
       "muscle_gain",
       "recomp"
     ],
-    "description": "Tirage vertical pour développer le dos. Accent sur le volume de travail.",
+    "description": "Tirage vertical pour développer le dos. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Tirer les coudes vers les hanches.",
     "easier_variant": "Band pulldown",
     "harder_variant": "Pull-up",
@@ -1629,7 +2528,7 @@
       "athletic",
       "boxing"
     ],
-    "description": "Traction stricte sans élan. Accent sur le contrôle du rythme.",
+    "description": "Traction stricte sans élan. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Dépression scapulaire au départ.",
     "easier_variant": "Traction assistée",
     "harder_variant": "Traction lestée",
@@ -1652,7 +2551,7 @@
       "athletic",
       "boxing"
     ],
-    "description": "Traction stricte sans élan. Accent sur la stabilité avec une pause.",
+    "description": "Traction stricte sans élan. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Dépression scapulaire au départ.",
     "easier_variant": "Traction assistée",
     "harder_variant": "Traction lestée",
@@ -1675,7 +2574,7 @@
       "athletic",
       "boxing"
     ],
-    "description": "Traction stricte sans élan. Accent sur le volume de travail.",
+    "description": "Traction stricte sans élan. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Dépression scapulaire au départ.",
     "easier_variant": "Traction assistée",
     "harder_variant": "Traction lestée",
@@ -1699,7 +2598,7 @@
       "muscle_gain",
       "boxing"
     ],
-    "description": "Tirage visage utile pour la posture et les épaules. Accent sur le contrôle du rythme.",
+    "description": "Tirage visage utile pour posture et santé d’épaule. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Coudes hauts, épaules basses.",
     "easier_variant": "Band pull-apart",
     "harder_variant": "Face pull pause",
@@ -1723,7 +2622,7 @@
       "muscle_gain",
       "boxing"
     ],
-    "description": "Tirage visage utile pour la posture et les épaules. Accent sur la stabilité avec une pause.",
+    "description": "Tirage visage utile pour posture et santé d’épaule. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Coudes hauts, épaules basses.",
     "easier_variant": "Band pull-apart",
     "harder_variant": "Face pull pause",
@@ -1747,7 +2646,7 @@
       "muscle_gain",
       "boxing"
     ],
-    "description": "Tirage visage utile pour la posture et les épaules. Accent sur le volume de travail.",
+    "description": "Tirage visage utile pour posture et santé d’épaule. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Coudes hauts, épaules basses.",
     "easier_variant": "Band pull-apart",
     "harder_variant": "Face pull pause",
@@ -1773,8 +2672,8 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Tenir une ligne droite tête-épaules-bassin-chevilles. Accent sur le contrôle du rythme.",
-    "cues": "Respirer sans perdre l’alignement.",
+    "description": "Tiens une ligne droite tête-épaules-bassin-chevilles. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Respire sans perdre l’alignement.",
     "easier_variant": "Planche genoux",
     "harder_variant": "Planche RKC",
     "load_hint": "Temps"
@@ -1799,8 +2698,8 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Tenir une ligne droite tête-épaules-bassin-chevilles. Accent sur la stabilité avec une pause.",
-    "cues": "Respirer sans perdre l’alignement.",
+    "description": "Tiens une ligne droite tête-épaules-bassin-chevilles. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Respire sans perdre l’alignement.",
     "easier_variant": "Planche genoux",
     "harder_variant": "Planche RKC",
     "load_hint": "Temps"
@@ -1825,83 +2724,11 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Tenir une ligne droite tête-épaules-bassin-chevilles. Accent sur le volume de travail.",
-    "cues": "Respirer sans perdre l’alignement.",
+    "description": "Tiens une ligne droite tête-épaules-bassin-chevilles. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Respire sans perdre l’alignement.",
     "easier_variant": "Planche genoux",
     "harder_variant": "Planche RKC",
     "load_hint": "Temps"
-  },
-  {
-    "name": "Dead bug — version tempo",
-    "category": "core",
-    "muscles": "Abdominaux profonds",
-    "environments": [
-      "bodyweight_only",
-      "home",
-      "gym"
-    ],
-    "equipment": [
-      "bodyweight"
-    ],
-    "level": "beginner",
-    "goals": [
-      "health",
-      "recomp",
-      "mobility"
-    ],
-    "description": "Alterner bras et jambe opposés sans creuser le bas du dos. Accent sur le contrôle du rythme.",
-    "cues": "Souffler longuement.",
-    "easier_variant": "Version simplifiée",
-    "harder_variant": "Version avec bande",
-    "load_hint": "8–12 reps"
-  },
-  {
-    "name": "Dead bug — version pause",
-    "category": "core",
-    "muscles": "Abdominaux profonds",
-    "environments": [
-      "bodyweight_only",
-      "home",
-      "gym"
-    ],
-    "equipment": [
-      "bodyweight"
-    ],
-    "level": "beginner",
-    "goals": [
-      "health",
-      "recomp",
-      "mobility"
-    ],
-    "description": "Alterner bras et jambe opposés sans creuser le bas du dos. Accent sur la stabilité avec une pause.",
-    "cues": "Souffler longuement.",
-    "easier_variant": "Version simplifiée",
-    "harder_variant": "Version avec bande",
-    "load_hint": "8–12 reps"
-  },
-  {
-    "name": "Dead bug — version volume",
-    "category": "core",
-    "muscles": "Abdominaux profonds",
-    "environments": [
-      "bodyweight_only",
-      "home",
-      "gym"
-    ],
-    "equipment": [
-      "bodyweight"
-    ],
-    "level": "beginner",
-    "goals": [
-      "health",
-      "recomp",
-      "mobility"
-    ],
-    "description": "Alterner bras et jambe opposés sans creuser le bas du dos. Accent sur le volume de travail.",
-    "cues": "Souffler longuement.",
-    "easier_variant": "Version simplifiée",
-    "harder_variant": "Version avec bande",
-    "load_hint": "8–12 reps"
   },
   {
     "name": "Pallof press — version tempo",
@@ -1921,8 +2748,8 @@
       "boxing",
       "athletic"
     ],
-    "description": "Pousser les mains devant soi en résistant à la rotation. Accent sur le contrôle du rythme.",
-    "cues": "Rester de face.",
+    "description": "Pousse les mains devant toi en résistant à la rotation. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Reste de face, bassin fixe.",
     "easier_variant": "Isométrique",
     "harder_variant": "Genou au sol",
     "load_hint": "8–12 reps"
@@ -1945,8 +2772,8 @@
       "boxing",
       "athletic"
     ],
-    "description": "Pousser les mains devant soi en résistant à la rotation. Accent sur la stabilité avec une pause.",
-    "cues": "Rester de face.",
+    "description": "Pousse les mains devant toi en résistant à la rotation. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Reste de face, bassin fixe.",
     "easier_variant": "Isométrique",
     "harder_variant": "Genou au sol",
     "load_hint": "8–12 reps"
@@ -1969,11 +2796,77 @@
       "boxing",
       "athletic"
     ],
-    "description": "Pousser les mains devant soi en résistant à la rotation. Accent sur le volume de travail.",
-    "cues": "Rester de face.",
+    "description": "Pousse les mains devant toi en résistant à la rotation. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Reste de face, bassin fixe.",
     "easier_variant": "Isométrique",
     "harder_variant": "Genou au sol",
     "load_hint": "8–12 reps"
+  },
+  {
+    "name": "Roue abdominale — version tempo",
+    "category": "core",
+    "muscles": "Sangle abdominale / dorsaux",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "ab_wheel"
+    ],
+    "level": "advanced",
+    "goals": [
+      "athletic",
+      "strength"
+    ],
+    "description": "Rouler vers l’avant en gardant les côtes rentrées. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Ne pas creuser le bas du dos.",
+    "easier_variant": "Body saw",
+    "harder_variant": "Roue debout",
+    "load_hint": "6–12 reps"
+  },
+  {
+    "name": "Roue abdominale — version pause",
+    "category": "core",
+    "muscles": "Sangle abdominale / dorsaux",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "ab_wheel"
+    ],
+    "level": "advanced",
+    "goals": [
+      "athletic",
+      "strength"
+    ],
+    "description": "Rouler vers l’avant en gardant les côtes rentrées. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Ne pas creuser le bas du dos.",
+    "easier_variant": "Body saw",
+    "harder_variant": "Roue debout",
+    "load_hint": "6–12 reps"
+  },
+  {
+    "name": "Roue abdominale — version volume",
+    "category": "core",
+    "muscles": "Sangle abdominale / dorsaux",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "ab_wheel"
+    ],
+    "level": "advanced",
+    "goals": [
+      "athletic",
+      "strength"
+    ],
+    "description": "Rouler vers l’avant en gardant les côtes rentrées. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Ne pas creuser le bas du dos.",
+    "easier_variant": "Body saw",
+    "harder_variant": "Roue debout",
+    "load_hint": "6–12 reps"
   },
   {
     "name": "Burpees — version tempo",
@@ -1994,7 +2887,7 @@
       "conditioning",
       "hyrox"
     ],
-    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur le contrôle du rythme.",
+    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Rester propre malgré la fatigue.",
     "easier_variant": "No push-up burpee",
     "harder_variant": "Burpee broad jump",
@@ -2019,7 +2912,7 @@
       "conditioning",
       "hyrox"
     ],
-    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur la stabilité avec une pause.",
+    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Rester propre malgré la fatigue.",
     "easier_variant": "No push-up burpee",
     "harder_variant": "Burpee broad jump",
@@ -2044,11 +2937,77 @@
       "conditioning",
       "hyrox"
     ],
-    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur le volume de travail.",
+    "description": "Exercice global mêlant gainage, saut et cardio. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Rester propre malgré la fatigue.",
     "easier_variant": "No push-up burpee",
     "harder_variant": "Burpee broad jump",
     "load_hint": "Temps / reps"
+  },
+  {
+    "name": "Air bike sprints — version tempo",
+    "category": "conditioning",
+    "muscles": "Cardio total body",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "airbike"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "conditioning",
+      "fat_loss",
+      "hyrox"
+    ],
+    "description": "Sprints très intenses sur air bike. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Très fort sur l’effort, vraie récup.",
+    "easier_variant": "Air bike modéré",
+    "harder_variant": "10/50",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Air bike sprints — version pause",
+    "category": "conditioning",
+    "muscles": "Cardio total body",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "airbike"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "conditioning",
+      "fat_loss",
+      "hyrox"
+    ],
+    "description": "Sprints très intenses sur air bike. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Très fort sur l’effort, vraie récup.",
+    "easier_variant": "Air bike modéré",
+    "harder_variant": "10/50",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Air bike sprints — version volume",
+    "category": "conditioning",
+    "muscles": "Cardio total body",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "airbike"
+    ],
+    "level": "intermediate",
+    "goals": [
+      "conditioning",
+      "fat_loss",
+      "hyrox"
+    ],
+    "description": "Sprints très intenses sur air bike. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Très fort sur l’effort, vraie récup.",
+    "easier_variant": "Air bike modéré",
+    "harder_variant": "10/50",
+    "load_hint": "Temps"
   },
   {
     "name": "Battle rope waves — version tempo",
@@ -2066,7 +3025,7 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Vagues alternées avec battle rope. Accent sur le contrôle du rythme.",
+    "description": "Vagues alternées avec battle rope. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Genoux souples, tronc gainé.",
     "easier_variant": "Petites vagues",
     "harder_variant": "Slams puissants",
@@ -2088,7 +3047,7 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Vagues alternées avec battle rope. Accent sur la stabilité avec une pause.",
+    "description": "Vagues alternées avec battle rope. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Genoux souples, tronc gainé.",
     "easier_variant": "Petites vagues",
     "harder_variant": "Slams puissants",
@@ -2110,76 +3069,10 @@
       "conditioning",
       "boxing"
     ],
-    "description": "Vagues alternées avec battle rope. Accent sur le volume de travail.",
+    "description": "Vagues alternées avec battle rope. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Genoux souples, tronc gainé.",
     "easier_variant": "Petites vagues",
     "harder_variant": "Slams puissants",
-    "load_hint": "Temps"
-  },
-  {
-    "name": "Air bike sprints — version tempo",
-    "category": "conditioning",
-    "muscles": "Cardio total body",
-    "environments": [
-      "gym"
-    ],
-    "equipment": [
-      "airbike"
-    ],
-    "level": "intermediate",
-    "goals": [
-      "conditioning",
-      "fat_loss",
-      "hyrox"
-    ],
-    "description": "Sprints très intenses sur air bike. Accent sur le contrôle du rythme.",
-    "cues": "Très fort sur l’effort, vraie récup.",
-    "easier_variant": "Air bike modéré",
-    "harder_variant": "10/50 ou 15/45",
-    "load_hint": "Temps"
-  },
-  {
-    "name": "Air bike sprints — version pause",
-    "category": "conditioning",
-    "muscles": "Cardio total body",
-    "environments": [
-      "gym"
-    ],
-    "equipment": [
-      "airbike"
-    ],
-    "level": "intermediate",
-    "goals": [
-      "conditioning",
-      "fat_loss",
-      "hyrox"
-    ],
-    "description": "Sprints très intenses sur air bike. Accent sur la stabilité avec une pause.",
-    "cues": "Très fort sur l’effort, vraie récup.",
-    "easier_variant": "Air bike modéré",
-    "harder_variant": "10/50 ou 15/45",
-    "load_hint": "Temps"
-  },
-  {
-    "name": "Air bike sprints — version volume",
-    "category": "conditioning",
-    "muscles": "Cardio total body",
-    "environments": [
-      "gym"
-    ],
-    "equipment": [
-      "airbike"
-    ],
-    "level": "intermediate",
-    "goals": [
-      "conditioning",
-      "fat_loss",
-      "hyrox"
-    ],
-    "description": "Sprints très intenses sur air bike. Accent sur le volume de travail.",
-    "cues": "Très fort sur l’effort, vraie récup.",
-    "easier_variant": "Air bike modéré",
-    "harder_variant": "10/50 ou 15/45",
     "load_hint": "Temps"
   },
   {
@@ -2199,7 +3092,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur le contrôle du rythme.",
+    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Petits pas rapides, tronc solide.",
     "easier_variant": "Charge légère",
     "harder_variant": "Charge lourde",
@@ -2222,7 +3115,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur la stabilité avec une pause.",
+    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Petits pas rapides, tronc solide.",
     "easier_variant": "Charge légère",
     "harder_variant": "Charge lourde",
@@ -2245,7 +3138,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur le volume de travail.",
+    "description": "Poussée de traîneau pour force, cardio et mental. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Petits pas rapides, tronc solide.",
     "easier_variant": "Charge légère",
     "harder_variant": "Charge lourde",
@@ -2271,7 +3164,7 @@
       "conditioning",
       "athletic"
     ],
-    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur le contrôle du rythme.",
+    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Rester grand, épaules basses.",
     "easier_variant": "Suitcase carry",
     "harder_variant": "Carry plus lourd",
@@ -2297,7 +3190,7 @@
       "conditioning",
       "athletic"
     ],
-    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur la stabilité avec une pause.",
+    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Rester grand, épaules basses.",
     "easier_variant": "Suitcase carry",
     "harder_variant": "Carry plus lourd",
@@ -2323,7 +3216,7 @@
       "conditioning",
       "athletic"
     ],
-    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur le volume de travail.",
+    "description": "Porter des charges en marchant pour gainage et poigne. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Rester grand, épaules basses.",
     "easier_variant": "Suitcase carry",
     "harder_variant": "Carry plus lourd",
@@ -2346,7 +3239,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Squat + lancer de médecine ball contre cible. Accent sur le contrôle du rythme.",
+    "description": "Squat + lancer de médecine ball contre cible. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Coordonner squat, poussée, respiration.",
     "easier_variant": "Thruster léger",
     "harder_variant": "Wall ball volume",
@@ -2369,7 +3262,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Squat + lancer de médecine ball contre cible. Accent sur la stabilité avec une pause.",
+    "description": "Squat + lancer de médecine ball contre cible. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Coordonner squat, poussée, respiration.",
     "easier_variant": "Thruster léger",
     "harder_variant": "Wall ball volume",
@@ -2392,7 +3285,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Squat + lancer de médecine ball contre cible. Accent sur le volume de travail.",
+    "description": "Squat + lancer de médecine ball contre cible. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Coordonner squat, poussée, respiration.",
     "easier_variant": "Thruster léger",
     "harder_variant": "Wall ball volume",
@@ -2414,7 +3307,7 @@
       "health",
       "endurance"
     ],
-    "description": "Marche rapide inclinée pour brûler et renforcer sans impact violent. Accent sur le contrôle du rythme.",
+    "description": "Marche rapide inclinée pour brûler sans impact violent. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Posture haute, grand pas.",
     "easier_variant": "Marche plate",
     "harder_variant": "Intervalles de pente",
@@ -2436,7 +3329,7 @@
       "health",
       "endurance"
     ],
-    "description": "Marche rapide inclinée pour brûler et renforcer sans impact violent. Accent sur la stabilité avec une pause.",
+    "description": "Marche rapide inclinée pour brûler sans impact violent. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Posture haute, grand pas.",
     "easier_variant": "Marche plate",
     "harder_variant": "Intervalles de pente",
@@ -2458,10 +3351,76 @@
       "health",
       "endurance"
     ],
-    "description": "Marche rapide inclinée pour brûler et renforcer sans impact violent. Accent sur le volume de travail.",
+    "description": "Marche rapide inclinée pour brûler sans impact violent. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Posture haute, grand pas.",
     "easier_variant": "Marche plate",
     "harder_variant": "Intervalles de pente",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Course tapis intervalles — version tempo",
+    "category": "cardio",
+    "muscles": "Course / cardio",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "treadmill"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "conditioning",
+      "endurance"
+    ],
+    "description": "Alternance course / récupération sur tapis. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Ne pas partir trop vite.",
+    "easier_variant": "Course continue facile",
+    "harder_variant": "Intervalles plus longs",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Course tapis intervalles — version pause",
+    "category": "cardio",
+    "muscles": "Course / cardio",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "treadmill"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "conditioning",
+      "endurance"
+    ],
+    "description": "Alternance course / récupération sur tapis. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Ne pas partir trop vite.",
+    "easier_variant": "Course continue facile",
+    "harder_variant": "Intervalles plus longs",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Course tapis intervalles — version volume",
+    "category": "cardio",
+    "muscles": "Course / cardio",
+    "environments": [
+      "gym"
+    ],
+    "equipment": [
+      "treadmill"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "conditioning",
+      "endurance"
+    ],
+    "description": "Alternance course / récupération sur tapis. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Ne pas partir trop vite.",
+    "easier_variant": "Course continue facile",
+    "harder_variant": "Intervalles plus longs",
     "load_hint": "Temps"
   },
   {
@@ -2482,7 +3441,7 @@
       "conditioning",
       "endurance"
     ],
-    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur le contrôle du rythme.",
+    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Cadence stable.",
     "easier_variant": "Vélo facile",
     "harder_variant": "Bike intervals",
@@ -2506,7 +3465,7 @@
       "conditioning",
       "endurance"
     ],
-    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur la stabilité avec une pause.",
+    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Cadence stable.",
     "easier_variant": "Vélo facile",
     "harder_variant": "Bike intervals",
@@ -2530,10 +3489,79 @@
       "conditioning",
       "endurance"
     ],
-    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur le volume de travail.",
+    "description": "Travail d’endurance sur vélo à intensité contrôlée. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Cadence stable.",
     "easier_variant": "Vélo facile",
     "harder_variant": "Bike intervals",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Vélo elliptique — version tempo",
+    "category": "cardio",
+    "muscles": "Cardio sans impact",
+    "environments": [
+      "gym",
+      "home"
+    ],
+    "equipment": [
+      "elliptical"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "health",
+      "conditioning"
+    ],
+    "description": "Cardio sans impact avec bras et jambes. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Rester grand, pousser et tirer.",
+    "easier_variant": "Elliptique léger",
+    "harder_variant": "Elliptique fractionné",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Vélo elliptique — version pause",
+    "category": "cardio",
+    "muscles": "Cardio sans impact",
+    "environments": [
+      "gym",
+      "home"
+    ],
+    "equipment": [
+      "elliptical"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "health",
+      "conditioning"
+    ],
+    "description": "Cardio sans impact avec bras et jambes. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Rester grand, pousser et tirer.",
+    "easier_variant": "Elliptique léger",
+    "harder_variant": "Elliptique fractionné",
+    "load_hint": "Temps"
+  },
+  {
+    "name": "Vélo elliptique — version volume",
+    "category": "cardio",
+    "muscles": "Cardio sans impact",
+    "environments": [
+      "gym",
+      "home"
+    ],
+    "equipment": [
+      "elliptical"
+    ],
+    "level": "beginner",
+    "goals": [
+      "fat_loss",
+      "health",
+      "conditioning"
+    ],
+    "description": "Cardio sans impact avec bras et jambes. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Rester grand, pousser et tirer.",
+    "easier_variant": "Elliptique léger",
+    "harder_variant": "Elliptique fractionné",
     "load_hint": "Temps"
   },
   {
@@ -2553,7 +3581,7 @@
       "hyrox",
       "endurance"
     ],
-    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur le contrôle du rythme.",
+    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Jambes, hanches, bras dans cet ordre.",
     "easier_variant": "Rameur continu facile",
     "harder_variant": "500m repeats",
@@ -2576,7 +3604,7 @@
       "hyrox",
       "endurance"
     ],
-    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur la stabilité avec une pause.",
+    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Jambes, hanches, bras dans cet ordre.",
     "easier_variant": "Rameur continu facile",
     "harder_variant": "500m repeats",
@@ -2599,7 +3627,7 @@
       "hyrox",
       "endurance"
     ],
-    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur le volume de travail.",
+    "description": "Intervalles sur rameur pour cardio et puissance. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Jambes, hanches, bras dans cet ordre.",
     "easier_variant": "Rameur continu facile",
     "harder_variant": "500m repeats",
@@ -2623,7 +3651,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur le contrôle du rythme.",
+    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Respirer, pivoter, revenir en garde.",
     "easier_variant": "Shadow lent",
     "harder_variant": "Shadow avec défense et angles",
@@ -2647,7 +3675,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur la stabilité avec une pause.",
+    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Respirer, pivoter, revenir en garde.",
     "easier_variant": "Shadow lent",
     "harder_variant": "Shadow avec défense et angles",
@@ -2671,7 +3699,7 @@
       "conditioning",
       "fat_loss"
     ],
-    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur le volume de travail.",
+    "description": "Boxer dans le vide en travaillant garde, déplacements et précision. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Respirer, pivoter, revenir en garde.",
     "easier_variant": "Shadow lent",
     "harder_variant": "Shadow avec défense et angles",
@@ -2693,7 +3721,7 @@
       "boxing",
       "conditioning"
     ],
-    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur le contrôle du rythme.",
+    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Appuis vivants, garde haute.",
     "easier_variant": "Jab seul",
     "harder_variant": "Jab-cross déplacement",
@@ -2715,7 +3743,7 @@
       "boxing",
       "conditioning"
     ],
-    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur la stabilité avec une pause.",
+    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Appuis vivants, garde haute.",
     "easier_variant": "Jab seul",
     "harder_variant": "Jab-cross déplacement",
@@ -2737,7 +3765,7 @@
       "boxing",
       "conditioning"
     ],
-    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur le volume de travail.",
+    "description": "Enchaîner jab-cross avec retour rapide des mains. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Appuis vivants, garde haute.",
     "easier_variant": "Jab seul",
     "harder_variant": "Jab-cross déplacement",
@@ -2759,10 +3787,10 @@
       "boxing",
       "athletic"
     ],
-    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur le contrôle du rythme.",
+    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Précision avant force.",
     "easier_variant": "Touches simples",
-    "harder_variant": "Travail réaction/défense",
+    "harder_variant": "Réaction/défense",
     "load_hint": "Rounds"
   },
   {
@@ -2781,10 +3809,10 @@
       "boxing",
       "athletic"
     ],
-    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur la stabilité avec une pause.",
+    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Précision avant force.",
     "easier_variant": "Touches simples",
-    "harder_variant": "Travail réaction/défense",
+    "harder_variant": "Réaction/défense",
     "load_hint": "Rounds"
   },
   {
@@ -2803,10 +3831,76 @@
       "boxing",
       "athletic"
     ],
-    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur le volume de travail.",
+    "description": "Travail partenaire sur précision, vitesse et lecture des cibles. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Précision avant force.",
     "easier_variant": "Touches simples",
-    "harder_variant": "Travail réaction/défense",
+    "harder_variant": "Réaction/défense",
+    "load_hint": "Rounds"
+  },
+  {
+    "name": "Corde d’esquive — version tempo",
+    "category": "boxing",
+    "muscles": "Esquive / coordination",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "rope"
+    ],
+    "level": "beginner",
+    "goals": [
+      "boxing",
+      "conditioning"
+    ],
+    "description": "Passer sous une corde réelle ou imaginaire en garde. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Utiliser les jambes.",
+    "easier_variant": "Déplacement simple",
+    "harder_variant": "Esquive + contre",
+    "load_hint": "Rounds"
+  },
+  {
+    "name": "Corde d’esquive — version pause",
+    "category": "boxing",
+    "muscles": "Esquive / coordination",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "rope"
+    ],
+    "level": "beginner",
+    "goals": [
+      "boxing",
+      "conditioning"
+    ],
+    "description": "Passer sous une corde réelle ou imaginaire en garde. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Utiliser les jambes.",
+    "easier_variant": "Déplacement simple",
+    "harder_variant": "Esquive + contre",
+    "load_hint": "Rounds"
+  },
+  {
+    "name": "Corde d’esquive — version volume",
+    "category": "boxing",
+    "muscles": "Esquive / coordination",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "rope"
+    ],
+    "level": "beginner",
+    "goals": [
+      "boxing",
+      "conditioning"
+    ],
+    "description": "Passer sous une corde réelle ou imaginaire en garde. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Utiliser les jambes.",
+    "easier_variant": "Déplacement simple",
+    "harder_variant": "Esquive + contre",
     "load_hint": "Rounds"
   },
   {
@@ -2827,7 +3921,7 @@
       "recovery",
       "health"
     ],
-    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur le contrôle du rythme.",
+    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Segment par segment.",
     "easier_variant": "Respiration simple",
     "harder_variant": "Amplitude plus grande",
@@ -2851,7 +3945,7 @@
       "recovery",
       "health"
     ],
-    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur la stabilité avec une pause.",
+    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Segment par segment.",
     "easier_variant": "Respiration simple",
     "harder_variant": "Amplitude plus grande",
@@ -2875,7 +3969,7 @@
       "recovery",
       "health"
     ],
-    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur le volume de travail.",
+    "description": "Mobiliser la colonne lentement en alternant flexion et extension douce. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Segment par segment.",
     "easier_variant": "Respiration simple",
     "harder_variant": "Amplitude plus grande",
@@ -2899,11 +3993,11 @@
       "recovery",
       "health"
     ],
-    "description": "Fente longue, main au sol, rotation du thorax. Accent sur le contrôle du rythme.",
+    "description": "Fente longue, main au sol, rotation du thorax. Accent sur le contrôle du rythme et de la descente.",
     "cues": "Respirer calmement.",
     "easier_variant": "Fente simple",
     "harder_variant": "Pause isométrique",
-    "load_hint": "4–8 reps / côté"
+    "load_hint": "4–8 reps/côté"
   },
   {
     "name": "World greatest stretch — version pause",
@@ -2923,11 +4017,11 @@
       "recovery",
       "health"
     ],
-    "description": "Fente longue, main au sol, rotation du thorax. Accent sur la stabilité avec une pause.",
+    "description": "Fente longue, main au sol, rotation du thorax. Accent sur la stabilité avec pause dans la zone difficile.",
     "cues": "Respirer calmement.",
     "easier_variant": "Fente simple",
     "harder_variant": "Pause isométrique",
-    "load_hint": "4–8 reps / côté"
+    "load_hint": "4–8 reps/côté"
   },
   {
     "name": "World greatest stretch — version volume",
@@ -2947,11 +4041,77 @@
       "recovery",
       "health"
     ],
-    "description": "Fente longue, main au sol, rotation du thorax. Accent sur le volume de travail.",
+    "description": "Fente longue, main au sol, rotation du thorax. Accent sur le temps sous tension et le volume de travail.",
     "cues": "Respirer calmement.",
     "easier_variant": "Fente simple",
     "harder_variant": "Pause isométrique",
-    "load_hint": "4–8 reps / côté"
+    "load_hint": "4–8 reps/côté"
+  },
+  {
+    "name": "90/90 hanches — version tempo",
+    "category": "mobility",
+    "muscles": "Hanches",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "goals": [
+      "mobility",
+      "recovery"
+    ],
+    "description": "Passer d’un côté à l’autre en gardant le buste haut. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Mouvement lent et propre.",
+    "easier_variant": "Version assistée",
+    "harder_variant": "Sans les mains",
+    "load_hint": "1–3 min"
+  },
+  {
+    "name": "90/90 hanches — version pause",
+    "category": "mobility",
+    "muscles": "Hanches",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "goals": [
+      "mobility",
+      "recovery"
+    ],
+    "description": "Passer d’un côté à l’autre en gardant le buste haut. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Mouvement lent et propre.",
+    "easier_variant": "Version assistée",
+    "harder_variant": "Sans les mains",
+    "load_hint": "1–3 min"
+  },
+  {
+    "name": "90/90 hanches — version volume",
+    "category": "mobility",
+    "muscles": "Hanches",
+    "environments": [
+      "home",
+      "gym"
+    ],
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "goals": [
+      "mobility",
+      "recovery"
+    ],
+    "description": "Passer d’un côté à l’autre en gardant le buste haut. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Mouvement lent et propre.",
+    "easier_variant": "Version assistée",
+    "harder_variant": "Sans les mains",
+    "load_hint": "1–3 min"
   },
   {
     "name": "Respiration diaphragmatique — version tempo",
@@ -2971,8 +4131,8 @@
       "recovery",
       "health"
     ],
-    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur le contrôle du rythme.",
-    "cues": "Relâcher la mâchoire.",
+    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Relâcher mâchoire et épaules.",
     "easier_variant": "Allongé jambes surélevées",
     "harder_variant": "Box breathing",
     "load_hint": "3–8 min"
@@ -2995,8 +4155,8 @@
       "recovery",
       "health"
     ],
-    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur la stabilité avec une pause.",
-    "cues": "Relâcher la mâchoire.",
+    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Relâcher mâchoire et épaules.",
     "easier_variant": "Allongé jambes surélevées",
     "harder_variant": "Box breathing",
     "load_hint": "3–8 min"
@@ -3019,8 +4179,8 @@
       "recovery",
       "health"
     ],
-    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur le volume de travail.",
-    "cues": "Relâcher la mâchoire.",
+    "description": "Inspirer par le nez, gonfler le ventre, expirer longuement. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Relâcher mâchoire et épaules.",
     "easier_variant": "Allongé jambes surélevées",
     "harder_variant": "Box breathing",
     "load_hint": "3–8 min"
@@ -3041,8 +4201,8 @@
       "recovery",
       "health"
     ],
-    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur le contrôle du rythme.",
-    "cues": "Respiration calme.",
+    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur le contrôle du rythme et de la descente.",
+    "cues": "Respiration calme, rythme lent.",
     "easier_variant": "2 min simple",
     "harder_variant": "10 min profonde",
     "load_hint": "5–10 min"
@@ -3063,8 +4223,8 @@
       "recovery",
       "health"
     ],
-    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur la stabilité avec une pause.",
-    "cues": "Respiration calme.",
+    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur la stabilité avec pause dans la zone difficile.",
+    "cues": "Respiration calme, rythme lent.",
     "easier_variant": "2 min simple",
     "harder_variant": "10 min profonde",
     "load_hint": "5–10 min"
@@ -3085,8 +4245,8 @@
       "recovery",
       "health"
     ],
-    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur le volume de travail.",
-    "cues": "Respiration calme.",
+    "description": "Allongé ou assis, relâcher progressivement tout le corps. Accent sur le temps sous tension et le volume de travail.",
+    "cues": "Respiration calme, rythme lent.",
     "easier_variant": "2 min simple",
     "harder_variant": "10 min profonde",
     "load_hint": "5–10 min"

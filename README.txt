@@ -1,7 +1,7 @@
-FAFATRAINING Elite Coach Studio V7
+FAFATRAINING Elite Coach Studio V8
 
 Contenu :
-- 132 exercices
+- 184 exercices
 - 6 templates de programmes
 - espace coach
 - espace adhérent
