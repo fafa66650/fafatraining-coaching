@@ -1,11 +1,29 @@
-function generate(){
-let prog={exercice:"Squat",series:4,reps:"10-12",repos:"1min30"};
-localStorage.setItem("prog_code123", JSON.stringify(prog));
-document.getElementById("result").innerHTML="Programme généré (code: code123)";
+let ex=[];
+
+fetch('exercises.json').then(r=>r.json()).then(d=>{
+ex=d;
+if(document.getElementById('lib')){
+document.getElementById('lib').innerHTML =
+d.map(e=>e.name+" ("+e.type+")").join("<br>");
 }
-function loadProg(){
-let code=document.getElementById("code").value;
-let data=JSON.parse(localStorage.getItem("prog_"+code));
-if(data){
-document.getElementById("prog").innerHTML=data.exercice+" - "+data.series+" séries - "+data.reps+" reps - repos "+data.repos;
-}}
+});
+
+function generate(){
+let obj=document.getElementById('objectif').value;
+let niv=document.getElementById('niveau').value;
+
+let prog=ex.filter(e=>e.type==obj && e.level==niv);
+
+let formatted=prog.map(e=>
+e.name+" - "+e.series+" séries - "+e.reps+" - repos "+e.rest);
+
+localStorage.setItem("prog_user",JSON.stringify(formatted));
+
+document.getElementById("result").innerHTML=
+formatted.join("<br>");
+}
+
+function load(){
+let data=JSON.parse(localStorage.getItem("prog_user"));
+document.getElementById("prog").innerHTML=data.join("<br>");
+}

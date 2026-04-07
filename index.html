@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>FAFATRAINING ELITE SYSTEM</title><link rel="stylesheet" href="style.css"></head>
+<html><head><meta charset="UTF-8">
+<title>FAFATRAINING ELITE SYSTEM</title>
+<link rel="stylesheet" href="style.css"></head>
 <body>
 <h1>FAFATRAINING ELITE SYSTEM</h1>
 <p>Forge ton corps. Élève ton mental.</p>
-<button onclick="location.href='coach.html'">Espace Coach</button>
-<button onclick="location.href='athlete.html'">Espace Athlète</button>
-</body>
-</html>
+
+<div class="menu">
+<button onclick="go('coach')">COACH</button>
+<button onclick="go('athlete')">ATHLÈTE</button>
+<button onclick="go('library')">BIBLIOTHÈQUE</button>
+</div>
+
+<script>
+function go(p){location.href=p+".html";}
+</script>
+</body></html>

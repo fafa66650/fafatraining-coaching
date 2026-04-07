@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>Coach</title></head>
+<html><head><meta charset="UTF-8">
+<title>Coach</title>
+<link rel="stylesheet" href="style.css"></head>
 <body>
-<h2>Création programme</h2>
-<label>Objectif</label>
+
+<h2>Créer un programme</h2>
+
 <select id="objectif">
-<option>Perte de poids</option>
-<option>Prise de muscle</option>
-<option>Performance</option>
+<option value="muscu">Musculation</option>
+<option value="hiit">HIIT</option>
+<option value="boxe">Boxe</option>
+<option value="cardio">Cardio</option>
 </select>
-<label>Environnement</label>
-<select id="env">
-<option>Maison</option>
-<option>Salle musculation</option>
+
+<select id="niveau">
+<option value="beginner">Débutant</option>
+<option value="intermediate">Intermédiaire</option>
 </select>
-<button onclick="generate()">Générer</button>
+
+<button onclick="generate()">GÉNÉRER</button>
+
 <div id="result"></div>
+
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>

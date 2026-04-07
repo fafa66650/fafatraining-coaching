@@ -1,2 +1,7 @@
-body{background:black;color:#00ff88;font-family:Arial;text-align:center;}
-button{padding:15px;margin:10px;background:#00ff88;border:none;}
+body{
+background:#0a0a0a;
+color:#00ff88;
+font-family:Arial;
+text-align:center;
+}
+button{padding:12px;margin:8px;background:#00ff88;border:none;}
