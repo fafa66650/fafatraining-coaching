@@ -1,0 +1,72 @@
+[
+  {
+    "key": "muscle_gain_gym",
+    "title": "Prise de muscle salle",
+    "goals": [
+      "muscle_gain"
+    ],
+    "env": [
+      "gym"
+    ]
+  },
+  {
+    "key": "fat_loss_home",
+    "title": "Perte de poids maison",
+    "goals": [
+      "fat_loss"
+    ],
+    "env": [
+      "home",
+      "bodyweight_only"
+    ]
+  },
+  {
+    "key": "boxing_conditioning",
+    "title": "Boxe + condition physique",
+    "goals": [
+      "boxing",
+      "conditioning"
+    ],
+    "env": [
+      "gym",
+      "home",
+      "outdoor"
+    ]
+  },
+  {
+    "key": "hyrox_build",
+    "title": "Prépa Hyrox",
+    "goals": [
+      "hyrox",
+      "conditioning"
+    ],
+    "env": [
+      "gym",
+      "outdoor"
+    ]
+  },
+  {
+    "key": "mobility_wellness",
+    "title": "Mobilité / bien-être",
+    "goals": [
+      "mobility",
+      "recovery",
+      "health"
+    ],
+    "env": [
+      "home",
+      "gym"
+    ]
+  },
+  {
+    "key": "endurance_trail",
+    "title": "Course / trail",
+    "goals": [
+      "endurance"
+    ],
+    "env": [
+      "outdoor",
+      "gym"
+    ]
+  }
+]

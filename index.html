@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>FAFATRAINING Elite Coach Studio</title>
+<meta name="theme-color" content="#0b0b12">
+<link rel="manifest" href="./manifest.json">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="app">
+  <header class="hero">
+    <div class="hero-main">
+      <div class="eyebrow">FAFATRAINING ELITE COACH STUDIO</div>
+      <h1>Plateforme coach + adhérent pour programmes, séances et suivi.</h1>
+      <p>Prépare les profils côté coach, génère des programmes détaillés, filtre une vraie bibliothèque d’exercices, puis partage un accès adhérent ou exporte un PDF propre du programme.</p>
+      <div class="hero-actions">
+        <button onclick="openTab('coach')">Espace coach</button>
+        <button class="ghost" onclick="openTab('client')">Espace adhérent</button>
+        <button class="ghost" onclick="openTab('library')">Bibliothèque</button>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div class="stat"><strong id="countExercises">0</strong><span>exercices</span></div>
+      <div class="stat"><strong id="countPrograms">0</strong><span>templates</span></div>
+      <div class="stat"><strong>Coach</strong><span>+ adhérent</span></div>
+      <div class="stat"><strong>PDF</strong><span>propre</span></div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-target="coach" onclick="openTab('coach')">Coach</button>
+    <button class="tab" data-target="client" onclick="openTab('client')">Adhérent</button>
+    <button class="tab" data-target="library" onclick="openTab('library')">Bibliothèque</button>
+    <button class="tab" data-target="guide" onclick="openTab('guide')">Guide</button>
+  </nav>
+
+  <section id="coach" class="panel tab-panel active">
+    <div class="section-head">
+      <h2>Créer un programme</h2>
+      <div class="actions">
+        <button class="ghost" onclick="resetCoachForm()">Réinitialiser</button>
+      </div>
+    </div>
+    <div class="grid-form">
+      <div><label>Nom client / adhérent</label><input id="clientName" type="text" placeholder="Ex : Alex Martin"></div>
+      <div><label>Code adhérent</label><input id="clientCode" type="text" placeholder="Ex : ALEX-01"></div>
+      <div><label>Âge</label><input id="age" type="number" min="10" max="90" value="30"></div>
+      <div><label>Sexe</label><select id="sex"><option value="male">Homme</option><option value="female">Femme</option></select></div>
+      <div><label>Taille (cm)</label><input id="height" type="number" min="120" max="230" value="175"></div>
+      <div><label>Poids (kg)</label><input id="weight" type="number" min="35" max="250" value="75"></div>
+      <div><label>Niveau</label><select id="level"><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></div>
+      <div><label>Activité actuelle</label><select id="activity"><option value="sedentary">Sédentaire / reprise</option><option value="light">Légèrement actif</option><option value="moderate">Actif</option><option value="high">Très actif / sportif</option></select></div>
+      <div><label>Environnement principal</label><select id="environment"></select></div>
+      <div><label>Séances / semaine</label><select id="frequency"><option value="auto">Automatique</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div>
+      <div><label>Durée par séance</label><select id="duration"><option value="45">45 min</option><option value="60" selected>60 min</option><option value="75">75 min</option><option value="90">90 min</option></select></div>
+      <div><label>1RM ou charge max connue (option)</label><input id="oneRM" type="number" min="0" step="0.5" value="0"></div>
+      <div class="full"><label>Objectifs</label><div id="goalsGrid" class="chip-grid"></div></div>
+      <div class="full"><label>Matériel disponible</label><div id="equipGrid" class="chip-grid"></div></div>
+    </div>
+    <div class="actions">
+      <button onclick="generateProgram()">Générer le programme</button>
+      <button class="ghost" onclick="saveClientPlan()">Enregistrer pour l’adhérent</button>
+      <button class="ghost" onclick="exportProgram()">Exporter PDF / impression</button>
+    </div>
+    <div id="programOutput" class="output"></div>
+  </section>
+
+  <section id="client" class="panel tab-panel">
+    <div id="clientLobby">
+      <h2>Accès adhérent</h2>
+      <div class="notice">Entre ton code adhérent pour afficher uniquement ton programme. Le coach peut aussi t’envoyer directement un PDF propre.</div>
+      <div class="grid-form">
+        <div><label>Code adhérent</label><input id="clientAccessCode" type="text" placeholder="Ex : ALEX-01"></div>
+      </div>
+      <div class="actions">
+        <button onclick="openClientPlan()">Afficher mon programme</button>
+      </div>
+    </div>
+    <div id="clientPlan" class="hidden">
+      <div class="section-head">
+        <h2 id="clientPlanTitle"></h2>
+        <div class="actions">
+          <button class="ghost" onclick="backToClientLobby()">Retour</button>
+          <button class="ghost" onclick="printClientPlan()">Exporter PDF / impression</button>
+        </div>
+      </div>
+      <div id="clientPlanContent"></div>
+    </div>
+  </section>
+
+  <section id="library" class="panel tab-panel">
+    <div class="section-head">
+      <h2>Bibliothèque d’exercices</h2>
+      <div class="filters">
+        <select id="filterCategory" onchange="renderLibrary()"><option value="">Toutes les catégories</option></select>
+        <select id="filterLevel" onchange="renderLibrary()"><option value="">Tous les niveaux</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select>
+        <select id="filterEnvironment" onchange="renderLibrary()"><option value="">Tous les lieux</option></select>
+        <input id="searchInput" type="text" placeholder="Rechercher un exercice, un muscle, un matériel..." oninput="renderLibrary()">
+      </div>
+    </div>
+    <div id="libraryGrid" class="grid"></div>
+  </section>
+
+  <section id="guide" class="panel tab-panel">
+    <h2>Guide rapide</h2>
+    <div class="grid">
+      <article class="card"><h3>Mode coach</h3><p>Tu crées un profil, tu choisis les objectifs, l’environnement, le matériel, puis l’application génère un programme lisible et détaillé.</p></article>
+      <article class="card"><h3>Mode adhérent</h3><p>L’adhérent ne voit que son programme via son code d’accès. Il n’a pas accès au back-office coach.</p></article>
+      <article class="card"><h3>PDF</h3><p>Le programme peut être exporté dans une vue propre pour l’impression ou l’envoi en PDF.</p></article>
+      <article class="card"><h3>Bibliothèque</h3><p>La bibliothèque contient des exercices réels classés par catégorie, niveau, lieu et matériel, avec variantes et consignes.</p></article>
+    </div>
+  </section>
+</div>
+<script src="./app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(() => {}));
+}
+</script>
+</body>
+</html>

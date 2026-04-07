@@ -1,13 +1,17 @@
-FAFATRAINING COACH V4 ULTRA DÉTAILLÉE
+FAFATRAINING Elite Coach Studio V7
 
 Contenu :
-- 89 exercices
-- générateur de programme
-- générateur de séance
+- 132 exercices
+- 6 templates de programmes
+- espace coach
+- espace adhérent
+- génération de programme
+- enregistrement local de programmes par code adhérent
+- export impression / PDF
 - bibliothèque filtrable
-- BMR / TDEE estimés
-- cible calorique de départ
-- protéines journalières conseillées
-- fréquence auto selon le profil
-- export imprimable
-- PWA / hors ligne
+- boutons retour côté adhérent
+- GitHub Pages ready
+
+Note :
+- Les programmes adhérents sont stockés en localStorage dans le navigateur.
+- Pour un usage multi-appareils synchronisé, il faudra une vraie base distante.
