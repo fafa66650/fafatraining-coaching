@@ -1,4 +1,4 @@
-FAFATRAINING V11.3 Onglets Plus
+FAFATRAINING
 
 Améliorations :
 - amélioration générale dans chaque onglet
