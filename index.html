@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FAFATRAINING COACHING</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="manifest" href="manifest.json" />
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <img class="main-logo" src="assets/logo.jpeg" alt="FAFATRAINING" />
+      <div>
+        <h1>FAFATRAINING COACHING</h1>
+        <p>Forge ton corps. Élève ton mental.</p>
+      </div>
+    </div>
+    <nav>
+      <button class="navbtn active" data-view="home">🏠 Accueil</button>
+      <button class="navbtn" data-view="coach">🧠 Coach Pro</button>
+      <button class="navbtn" data-view="quick">⚡ Session rapide</button>
+      <button class="navbtn" data-view="library">📚 Bibliothèque</button>
+      <button class="navbtn" data-view="athlete">👤 Adhérent</button>
+      <button class="navbtn" data-view="progress">📈 Suivi</button>
+      <button class="navbtn" data-view="nutrition">🥗 Nutrition</button>
+      <button class="navbtn" data-view="business">💼 Business</button>
+      <button class="navbtn" data-view="live">📅 Booking / Live</button>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section id="home" class="view active">
+      <div class="hero compact-hero premium-hero">
+        <div class="hero-copy">
+          <span class="eyebrow">COACHING · PROGRAMMATION · NUTRITION · SUIVI</span>
+          <h2>Le cockpit premium FAFATRAINING pour Coach Fafa.</h2>
+          <p>Crée des programmes plus intelligents, organise tes cycles, suis tes adhérents, pilote la nutrition, verrouille l’accès selon le paiement et travaille proprement sur mobile comme sur ordinateur.</p>
+          <div class="hero-actions">
+            <button id="homeCreateProgram" onclick="goView('coach')">FAFATRAINING</button>
+            
+          </div>
+        </div>
+        <div class="hero-stats premium-stats">
+          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices</span></div>
+          <div class="stat"><strong>Coach + adhérent</strong><span>programmation, suivi, nutrition, CRM</span></div>
+          <div class="stat"><strong>IMC réel</strong><span>lecture santé + objectif</span></div>
+          <div class="stat"><strong>Export programme</strong><span>PDF coach clair et imprimable</span></div>
+        </div>
+      </div>
+      <div class="premium-home-grid">
+        <article class="mini-help"><strong>Programmation pro</strong><span>Cycles 4 à 12 semaines, progression automatique, deload et adaptation au niveau, au matériel et au contexte.</span></article>
+        <article class="mini-help"><strong>Espace adhérent</strong><span>Lecture claire du programme, suivi séance, historique, ressenti, RPE et compréhension facilitée pour les débutants.</span></article>
+        <article class="mini-help"><strong>Nutrition intelligente</strong><span>Calories, macros, menus et logique alimentaire alignés avec le profil, le poids, la taille, l’objectif et la fréquence.</span></article>
+        <article class="mini-help"><strong>Admin / business</strong><span>Statut abonnement, paiement, notes coach, CRM et suivi global pour travailler comme une vraie activité premium.</span></article>
+      </div>
+      <div class="premium-home-flow">
+        <div class="flow-card"><strong>1.</strong><span>Créer le profil</span></div>
+        <div class="flow-card"><strong>2.</strong><span>Choisir le contexte</span></div>
+        <div class="flow-card"><strong>3.</strong><span>Générer le cycle</span></div>
+        <div class="flow-card"><strong>4.</strong><span>Partager au client</span></div>
+      </div>
+    </section>
+
+    <section id="coach" class="view">
+      <div class="section-head"><h2>FAFATRAINING</h2><p class="helper">Workflow coach premium : moins de répétitions, plus d’automatique, plus de cohérence entre profil, objectif, matériel et programme.</p></div>
+      <div class="stepper-nav"><button class="step-pill" onclick="scrollCoachTo('onboarding-panel')">1. Onboarding</button><button class="step-pill" onclick="scrollCoachTo('profile-panel')">2. Profil</button><button class="step-pill" onclick="scrollCoachTo('objectives-panel')">3. Objectifs</button><button class="step-pill" onclick="scrollCoachTo('materials-panel')">4. Matériel</button></div><div class="coach-grid coach-grid-clean">
+        
+<div class="panel onboarding-panel" id="onboarding-panel">
+  <h3 class="section-title">Onboarding intelligent</h3>
+  <p class="helper">Renseigne d’abord les informations qui changent vraiment le coaching : habitudes, santé, restrictions, préférences et mode d’accompagnement.</p>
+  <div class="form-grid">
+    <label>Email client<input id="clientEmail" type="email" placeholder="exemple@mail.com"></label>
+        <label>Niveau d’activité physique
+      <select id="activityLevel">
+        <option value="">À choisir</option>
+        <option value="sedentary">Sédentaire</option>
+        <option value="moderate">Modéré</option>
+        <option value="active">Actif</option>
+        <option value="very_active">Très actif</option>
+      </select>
+    </label>
+    <label>Sport pratiqué actuellement
+      <select id="currentSport">
+        <option value="">À choisir</option>
+        <option value="none">Aucune activité régulière</option>
+        <option value="running">Course à pied</option>
+        <option value="gym">Salle de sport</option>
+        <option value="boxing">Boxe</option>
+        <option value="strength">Renforcement musculaire</option>
+        <option value="other">Autre</option>
+      </select>
+    </label>
+    <label>Expérience coaching
+      <select id="coachingExperience">
+        <option value="">À choisir</option>
+        <option value="new">Premier programme</option>
+        <option value="beginner">Débutant accompagné</option>
+        <option value="experienced">Déjà une expérience</option>
+      </select>
+    </label>
+    <label>Disponibilité / semaine
+      <select id="availabilityWeekly">
+        <option value="">À choisir</option>
+        <option value="1">1 jour</option>
+        <option value="2-3">2 à 3 jours</option>
+        <option value="4-5">4 à 5 jours</option>
+        <option value="6+">Plus de 5 jours</option>
+      </select>
+    </label>
+    <div class="multi-block"><label>Préférence de pratique</label><div id="trainingPreferenceMulti" class="checks chips-multi">
+      <label class="chk"><input type="checkbox" value="home"> <span>Maison</span></label>
+      <label class="chk"><input type="checkbox" value="gym"> <span>Salle</span></label>
+      <label class="chk"><input type="checkbox" value="outdoor"> <span>Extérieur</span></label>
+      <label class="chk"><input type="checkbox" value="video"> <span>Visioconférence</span></label>
+      <label class="chk"><input type="checkbox" value="any"> <span>Peu importe</span></label>
+    </div></div>
+    <div class="multi-block"><label>Pathologies / antécédents connus</label><div id="medicalPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="diabète"> <span>Diabète</span></label>
+      <label class="chk"><input type="checkbox" value="hypertension"> <span>Hypertension</span></label>
+      <label class="chk"><input type="checkbox" value="arthrose"> <span>Arthrose</span></label>
+      <label class="chk"><input type="checkbox" value="asthme"> <span>Asthme</span></label>
+      <label class="chk"><input type="checkbox" value="lombalgie"> <span>Lombalgie</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
+    <label>Pathologies / détails<input id="medicalNotes" placeholder="Compléter si nécessaire"></label>
+    <div class="multi-block"><label>Blessures / douleur actuelle</label><div id="injuryPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="épaule"> <span>Épaule</span></label>
+      <label class="chk"><input type="checkbox" value="genou"> <span>Genou</span></label>
+      <label class="chk"><input type="checkbox" value="dos"> <span>Dos</span></label>
+      <label class="chk"><input type="checkbox" value="cheville"> <span>Cheville</span></label>
+      <label class="chk"><input type="checkbox" value="poignet"> <span>Poignet</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
+    <label>Médicaments<input id="medicationNotes" placeholder="Optionnel"></label>
+    <div class="multi-block"><label>Allergies / alimentation</label><div id="foodPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="végétarien"> <span>Végétarien</span></label>
+      <label class="chk"><input type="checkbox" value="végan"> <span>Végan</span></label>
+      <label class="chk"><input type="checkbox" value="sans gluten"> <span>Sans gluten</span></label>
+      <label class="chk"><input type="checkbox" value="sans lactose"> <span>Sans lactose</span></label>
+      <label class="chk"><input type="checkbox" value="allergie arachides"> <span>Arachides</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
+    <label>Détails nutrition / allergies<input id="foodNotes" placeholder="Compléter si nécessaire"></label>
+    <div class="multi-block"><label>Type de coaching</label><div id="coachingTypeMulti" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="general"> <span>Sportif général</span></label>
+      <label class="chk"><input type="checkbox" value="health"> <span>Santé / rééducation</span></label>
+      <label class="chk"><input type="checkbox" value="fitness"> <span>Fitness</span></label>
+      <label class="chk"><input type="checkbox" value="boxing"> <span>Boxe</span></label>
+      <label class="chk"><input type="checkbox" value="nutrition"> <span>Nutrition</span></label>
+      <label class="chk"><input type="checkbox" value="stretching"> <span>Stretching</span></label>
+      <label class="chk"><input type="checkbox" value="hyrox"> <span>Hyrox</span></label>
+      <label class="chk"><input type="checkbox" value="trail"> <span>Trail / course</span></label>
+      <label class="chk"><input type="checkbox" value="return"> <span>Retour blessure</span></label>
+      <label class="chk"><input type="checkbox" value="kids"> <span>Kids / ados</span></label>
+      <label class="chk"><input type="checkbox" value="senior"> <span>Séniors</span></label>
+    </div></div>
+    <div class="multi-block"><label>Accompagnement</label><div id="liveModeMulti" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="none"> <span>Aucun</span></label>
+      <label class="chk"><input type="checkbox" value="video"> <span>Visioconférence</span></label>
+      <label class="chk"><input type="checkbox" value="outdoor"> <span>Présentiel extérieur</span></label>
+      <label class="chk"><input type="checkbox" value="gym"> <span>Présentiel en salle</span></label>
+      <label class="chk"><input type="checkbox" value="chat"> <span>Suivi messagerie</span></label>
+      <label class="chk"><input type="checkbox" value="voice"> <span>Feedback vocal</span></label>
+    </div></div>
+  </div>
+</div>
+<div class="panel profile-panel" id="profile-panel">
+          <h3 class="section-title profile">Profil athlète</h3><p class="helper">Ici, tu règles le cœur du profil athlète : identité, niveau, fréquence, durée, mensurations et repères de charge.</p>
+          <div class="form-grid">
+            <label>Nom client<input id="clientName" placeholder="Ex : Alex Martin"></label>
+            <label>Code adhérent<input id="clientCode" placeholder="Ex : ALEX01"></label>
+            <label>Âge<input id="clientAge" type="number" value=""></label>
+            <label>Niveau
+              <select id="clientLevel">
+                <option value="beginner">Débutant</option>
+                <option value="intermediate">Intermédiaire</option>
+                <option value="advanced">Avancé</option>
+              </select>
+            </label>
+            <label>Fréquence / semaine
+              <select id="clientFreq"><option value="">À choisir</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select>
+            </label>
+            <label>Durée / séance
+              <select id="clientDuration"><option value="">À choisir</option><option>30</option><option>45</option><option>60</option><option>75</option><option>90</option></select>
+            </label>
+            <label>1RM Squat (kg)<input id="rmSquat" type="number" value=""></label>
+            <label>1RM Développé couché (kg)<input id="rmBench" type="number" value="0"></label>
+            <label>1RM Deadlift / soulevé de terre (kg)<input id="rmDeadlift" type="number" value="0"></label><label>Taille (cm)<input id="clientHeight" type="number" value=""></label><label>Poids (kg)<input id="clientWeight" type="number" step="0.1" value=""></label><label>Sexe<select id="clientSex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
+          </div>
+        </div>
+
+        <div class="panel objectives-panel" id="objectives-panel">
+          <h3 class="section-title objectives">Objectifs & contexte d’entraînement</h3><p class="helper">Choisis ici le vrai contexte d’entraînement, la priorité principale et le type de cycle. Les autres champs se recalent ensuite automatiquement.</p>
+          <div class="mini-help"><strong>Lecture simple</strong><span>Choisis le lieu réel, l’objectif n°1, puis affine avec des objectifs secondaires et des modules. Le moteur complète ensuite le reste.</span></div><div class="form-grid">
+            <label>Contexte d’entraînement
+              <select id="environmentSelect">
+                <option value="">À choisir</option><option value="gym">Salle de musculation</option><option value="hotel_gym">Salle d'hôtel</option><option value="garage_gym">Garage gym</option><option value="small_group_room">Studio small group</option>
+                <option value="crossfit_box">Salle CrossFit / Hyrox</option>
+                <option value="boxing_gym">Salle de boxe</option>
+                <option value="home">Maison / appartement</option>
+                <option value="outdoor">Extérieur</option>
+                <option value="bodyweight_only">Poids du corps uniquement</option>
+              <option value="travel">Voyage / déplacement</option><option value="beach">Plage / sable</option><option value="video_coaching">Visiocoaching uniquement</option></select>
+            </label>
+            <label>Objectif principal
+              <select id="mainGoal">
+                <option value="">À choisir</option><option value="muscle_gain">Prise de muscle</option><option value="recomposition">Recomposition corporelle</option>
+                <option value="fat_loss">Perte de poids</option>
+                <option value="strength">Force</option>
+                <option value="conditioning">Condition physique / HIIT</option>
+                <option value="boxing">Boxe</option>
+                <option value="hyrox">Hyrox / fonctionnel</option>
+                <option value="endurance">Cardio / endurance</option>
+                <option value="mobility">Mobilité / souplesse</option>
+                <option value="recovery">Bien-être / récupération</option>
+              <option value="fitness_general">Remise en forme générale</option><option value="explosiveness">Explosivité / puissance</option><option value="athleticism">Athlétisation / coordination</option><option value="posture">Posture / gainage</option><option value="combat_conditioning">Conditionnement combat</option></select>
+            </label>
+            <label>Objectifs secondaires
+              <select id="secondGoal" multiple size="6">
+                <option value="">Aucun</option>
+                <option value="fat_loss">Perte de poids</option>
+                <option value="">À choisir</option><option value="muscle_gain">Prise de muscle</option><option value="recomposition">Recomposition corporelle</option>
+                <option value="strength">Force</option>
+                <option value="conditioning">Condition physique / HIIT</option>
+                <option value="boxing">Boxe</option>
+                <option value="hyrox">Hyrox / fonctionnel</option>
+                <option value="endurance">Cardio / endurance</option>
+                <option value="mobility">Mobilité / souplesse</option>
+                <option value="recovery">Bien-être / récupération</option>
+              <option value="fitness_general">Remise en forme générale</option><option value="explosiveness">Explosivité / puissance</option><option value="athleticism">Athlétisation / coordination</option><option value="posture">Posture / gainage</option><option value="recovery">Récupération</option></select>
+            </label>
+            <label>Formats d’effort favoris
+              <select id="hiitFormat" multiple size="7">
+                <option value="">À choisir</option><option value="20/10">20/10 (Tabata)</option>
+                <option value="30/30">30/30</option>
+                <option value="40/20">40/20</option>
+                <option value="30/60">30/60</option>
+                <option value="45/15">45/15</option>
+                <option value="EMOM">EMOM</option>
+                <option value="AMRAP">AMRAP</option>
+              <option value="for_time">For time</option><option value="intervals">Intervals progressifs</option><option value="tempo_sets">Tempo sets</option></select>
+            </label>
+            <label>Zone de travail
+              <select id="bodyArea">
+                <option value="">À choisir / mix complet</option>
+                <option value="haut_du_corps">Haut du corps</option>
+                <option value="bas_du_corps">Bas du corps</option>
+                <option value="full_body">Full body</option>
+                <option value="abdos_core">Abdos / gainage</option>
+                <option value="push">Poussée haut du corps</option>
+                <option value="pull">Tirage haut du corps</option>
+              </select>
+            </label>
+            <label>Focus musculaires
+              <select id="focusTarget" multiple size="10">
+                <option value="">À choisir / aucun focus</option>
+                <option value="pectoraux">Pectoraux</option>
+                <option value="dos">Dos</option>
+                <option value="épaules">Épaules</option>
+                <option value="bras">Bras</option>
+                <option value="triceps">Triceps</option>
+                <option value="biceps">Biceps</option>
+                <option value="jambes">Jambes</option>
+                <option value="quadriceps">Quadriceps</option>
+                <option value="ischios">Ischios / fessiers</option>
+                <option value="abdos">Abdos / core</option>
+                <option value="cardio">Cardio / endurance</option>
+              <option value="fessiers">Fessiers</option><option value="mollets">Mollets</option><option value="avant_bras">Avant-bras / grip</option><option value="nuque">Nuque / trapèzes</option><option value="hanche">Hanche / stabilité</option><option value="thorax">Mobilité thoracique</option></select>
+            </label>
+          <label>Bloc / cycle<select id="cycleWeeks"><option value="">À choisir</option><option value="4">4 semaines</option><option value="6">6 semaines</option><option value="8" selected>8 semaines</option><option value="12">12 semaines</option></select></label><label>Orientations du cycle<select id="cycleGoal" multiple size="5"><option value="">À choisir</option><option value="hypertrophy">Hypertrophie</option><option value="strength">Force</option><option value="conditioning">Conditionnement</option><option value="peak">Peaking</option><option value="maintenance">Maintien</option><option value="technical">Technique</option><option value="rehab">Réathlétisation</option><option value="mixed">Mixte</option></select></label><label>Modules FAFATRAINING<select id="specialModule" multiple size="8"><option value="">À choisir / aucun module</option><option value="boxing_prep">Prépa boxe</option><option value="hyrox_prep">Prépa Hyrox</option><option value="trail_prep">Prépa Trail</option><option value="return_to_play">Réathlétisation</option><option value="seniors_health">Séniors / santé</option><option value="kids_teens">Kids / ados</option><option value="express_fat_loss">Perte de poids express</option><option value="transformation">Challenge transformation</option><option value="combat_conditioning">Conditionnement combat</option><option value="posture_core">Posture / core</option><option value="fitness_reset">Remise en route santé</option></select></label><label>Sommeil moyen (h)<input id="sleepHours" type="number" step="0.5" value="7"></label><label>Stress / fatigue<select id="stressLevel"><option value="low">Faible</option><option value="medium" selected>Moyen</option><option value="high">Élevé</option></select></label></div>
+        </div>
+
+        <div class="panel materials-panel" id="materials-panel">
+          <h3 class="section-title gear">Matériel disponible</h3><p class="helper">Sélectionne le matériel réel. Ajoute les substitutions du quotidien si nécessaire.</p>
+          <div class="preset-box">
+            <button onclick="applyEquipmentPreset()">Préremplir selon l’environnement</button>
+            <span id="presetLabel"></span>
+          </div>
+          <div class="mini-help"><strong>Matériel disponible</strong><span>Ne rien cocher = sélection libre. Tu peux tout choisir toi-même et ajouter des variantes ensuite.</span></div><div id="equipmentGrid" class="checks"></div><small id="presetStatus" class="muted"></small>
+          <div class="hint-box"><strong>Astuce :</strong> si la personne n’a pas de matériel précis, coche aussi les substitutions du quotidien comme chaise, canapé, marches, sac à dos ou bouteilles d’eau.</div>
+        </div>
+      </div>
+
+      <div class="action-help"><span><strong>Enregistrer pour l’adhérent</strong> : stocke le programme côté app pour qu’il soit accessible avec son code.</span><span><strong>Générer lien adhérent</strong> : crée le lien direct à lui envoyer en lecture seule.</span></div><div class="coach-top-info"><span class="info-pill">Conseil : commence par un objectif principal, puis affine avec la zone et le focus.</span><span class="info-pill">Astuce : si tu n’as pas de matériel précis, coche aussi les substitutions du quotidien.</span></div><div class="actions big-actions">
+        <button onclick="generateProgram()">Générer le programme</button>
+        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="generateShareLink()">Générer lien adhérent</button><span id="copyBadge" class="copy-badge hidden">Copié</span><span id="copyLinkBadge" class="copy-badge hidden">Lien copié</span>
+        <button class="ghost" onclick="printProgram()">Exporter PDF premium</button>
+      </div>
+
+      <div class="coach-grid premium-grid"><div class="panel"><h3>IMC & profil santé</h3><div id="bmiOutput" class="output mini-output"></div></div><div class="panel"><h3>Nutrition intelligente</h3><p class="helper">Repère coach : ces chiffres servent à poser une base réaliste en calories et macros selon le profil, l’objectif et le contexte d’entraînement.</p><div id="nutritionOutput" class="output mini-output"></div></div><div class="panel"><h3>Admin / business</h3><div class="form-grid"><label>Statut abonnement<select id="subStatus"><option value="active">Actif</option><option value="paused">En pause</option><option value="trial">Essai</option><option value="inactive">Inactif</option></select></label><label>Paiement<select id="payStatus"><option value="paid">Payé</option><option value="pending">En attente</option><option value="late">Retard</option></select></label><label>Notes coach privées<textarea id="coachNotes" placeholder="Douleurs, contraintes, suivi, relances..."></textarea></label></div></div></div><div id="programOutput" class="output"></div>
+    </section>
+
+    <section id="quick" class="view">
+      <div class="section-head"><h2>Session rapide terrain</h2></div><p class="helper quick-helper">Génère rapidement une séance fluide pour groupe, jeune, cours collectif ou coaching express.</p>
+      <div class="panel">
+        <div class="form-grid">
+          <label>Type
+            <select id="quickType">
+              <option value="boxing">Boxe / cardio boxe</option>
+              <option value="conditioning">Condition physique / HIIT</option>
+              <option value="muscle_gain">Renforcement / muscu</option>
+              <option value="hyrox">Hyrox / challenge</option>
+              <option value="mobility">Mobilité / retour au calme</option>
+              <option value="endurance">Cardio continu / endurance</option>
+              <option value="core">Abdos / gainage</option>
+            </select>
+          </label>
+          <label>Niveau
+            <select id="quickLevel">
+              <option value="beginner">Débutant</option>
+              <option value="intermediate">Intermédiaire</option>
+              <option value="advanced">Avancé</option>
+            </select>
+          </label>
+          <label>Durée
+            <select id="quickDuration"><option>20</option><option>30</option><option selected>45</option><option>60</option></select>
+          </label>
+          <label>Lieu
+            <select id="quickEnv">
+              <option value="gym">Salle</option>
+              <option value="outdoor">Extérieur</option>
+              <option value="home">Maison / appartement</option>
+              <option value="boxing_gym">Salle de boxe</option>
+              <option value="bodyweight_only">Poids du corps uniquement</option>
+            </select>
+          </label>
+        </div>
+        <div class="actions"><button onclick="generateQuickSession()">Générer la session rapide</button></div>
+      </div>
+      <div id="quickOutput" class="output"></div>
+    </section>
+
+    <section id="library" class="view">
+      <div class="section-head"><h2>Bibliothèque</h2></div>
+      <div class="panel">
+        <div class="form-grid">
+          <label>Catégorie<select id="libCategory" onchange="renderLibrary()"></select></label>
+          <label>Niveau<select id="libLevel" onchange="renderLibrary()"><option value="">Tous</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></label>
+          <label>Lieu<select id="libEnv" onchange="renderLibrary()"></select></label>
+          <label>Recherche<input id="libSearch" oninput="renderLibrary()" placeholder="squat, boxe, rameur..."></label><div class="lib-action"><button type="button" onclick="renderLibrary()">Rechercher dans la bibliothèque</button></div>
+        </div>
+      </div>
+      <div id="libraryOutput" class="cards"></div>
+    </section>
+
+    <section id="athlete" class="view">
+      <div class="section-head"><h2>Espace adhérent</h2></div>
+      <div id="athleteLobby" class="panel">
+        <p>Entre ton code pour afficher ton programme, ou ouvre directement le lien envoyé par le coach. L’adhérent voit uniquement ce qui le concerne : son programme, sa lecture séance et son suivi côté lecture.</p>
+        <div class="form-grid">
+          <label>Code adhérent<input id="athleteCode" placeholder="Ex : ALEX01"></label>
+        </div>
+        <div class="actions"><button onclick="openAthleteProgram()">Afficher mon programme</button></div>
+      </div>
+      <div id="athleteProgram" class="hidden">
+        <div class="actions"><button class="ghost" onclick="backAthlete()">Retour</button><button onclick="startLiveSession()">Mode séance live</button></div>
+        <div id="athleteDashboard" class="panel hidden"></div><div id="athleteCalendar" class="panel hidden"></div><div id="athleteProgramOutput" class="output"></div><div id="athleteHistory" class="panel hidden"></div><div id="athleteHabits" class="panel hidden"></div>
+      </div>
+      <div id="liveSession" class="hidden panel">
+        <div class="actions"><button class="ghost" onclick="backProgram()">Retour programme</button><button class="ghost" onclick="prevExercise()">Exercice précédent</button><button onclick="nextExercise()">Exercice suivant</button></div>
+        <div id="liveCard" class="live-card"></div><div id="liveLog" class="panel"></div>
+      </div>
+    </section>
+
+    <section id="progress" class="view">
+      <div class="progress-guide">
+        <article class="mini-help"><strong>Suivi poids</strong><span>Ajoute les évolutions de poids au fil des semaines.</span></article>
+        <article class="mini-help"><strong>Note séance</strong><span>Garde une trace simple du ressenti, de la fatigue ou d’une adaptation.</span></article>
+        <article class="mini-help"><strong>Code adhérent</strong><span>Le suivi est rattaché au code pour rester propre et rapide.</span></article>
+      </div>
+      <div class="section-head"><h2>Suivi progression</h2></div>
+      <div class="panel">
+        <p>Cette section reste simple pour le moment, mais tu peux déjà noter un poids de corps, un commentaire et la date. C’est là pour préparer la suite.</p>
+        <div class="form-grid">
+          <label>Code adhérent<input id="trackCode" placeholder="ALEX01"></label>
+          <label>Poids du jour (kg)<input id="trackWeight" type="number" step="0.1"></label>
+          <label>Commentaire<input id="trackNote" placeholder="Forme, fatigue, douleur..."></label><label>Tour de taille (cm)<input id="trackWaist" type="number" step="0.1"></label><label>Énergie / 10<input id="trackEnergy" type="number" min="1" max="10" step="1"></label><label>RPE moyen<input id="trackRpe" type="number" min="1" max="10" step="1"></label><label>Assiduité semaine (%)<input id="trackCompliance" type="number" min="0" max="100" step="5"></label>
+        </div>
+        <div class="actions"><button onclick="saveTracking()">Enregistrer suivi</button></div>
+      </div>
+      <div id="analyticsOutput" class="panel"></div><div id="trackingOutput" class="cards"></div>
+    </section>
+
+<section id="nutrition" class="view">
+  <div class="section-head"><h2>Nutrition premium</h2></div>
+  <div class="panel">
+    <p>Recherche un adhérent via son code, retrouve ses calories, ses macros, ses menus et suis ses repas de manière simple et claire.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="nutritionCode" placeholder="ALEX01"></label>
+      <label>Date du repas<input id="mealDate" type="date"></label>
+      <label>Moment du repas
+        <select id="mealMoment">
+          <option value="">À choisir</option>
+          <option>Petit-déjeuner</option>
+          <option>Déjeuner</option>
+          <option>Collation</option>
+          <option>Dîner</option>
+        </select>
+      </label>
+      <label>Calories estimées<input id="mealCalories" type="number" step="1" placeholder="450"></label>
+    </div>
+    <label>Repas / aliments<textarea id="mealText" rows="3" placeholder="Ex : poulet, riz, légumes, fruit"></textarea></label>
+    <div class="actions"><button onclick="openNutritionForCode()">Afficher le plan nutrition</button><button class="ghost" onclick="saveMealLog()">Enregistrer ce repas</button></div>
+  </div>
+  <div id="nutritionOutput" class="panel"></div>
+  <div id="mealLogOutput" class="cards"></div>
+  <div id="foodBankOutput" class="panel"></div>
+</section>
+
+<section id="business" class="view">
+  <div class="section-head"><h2>Business / CRM</h2></div>
+  <div class="panel">
+    <p>Gère le statut client, les paiements, les échéances, les notes privées et les relances dans une interface coach claire.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="bizCode" placeholder="ALEX01"></label>
+      <label>Statut abonnement
+        <select id="bizStatus">
+          <option value="">À choisir</option>
+          <option value="actif">Actif</option>
+          <option value="pause">En pause</option>
+          <option value="impaye">Impayé</option>
+          <option value="termine">Terminé</option>
+        </select>
+      </label>
+      <label>Formule<input id="bizPlan" placeholder="Coaching premium mensuel"></label>
+      <label>Montant payé (€)<input id="bizAmount" type="number" step="0.01"></label>
+      <label>Mode de paiement
+        <select id="bizPaymentMethod">
+          <option value="">À choisir</option>
+          <option>Virement</option>
+          <option>CB</option>
+          <option>Espèces</option>
+          <option>PayPal</option>
+        </select>
+      </label>
+      <label>Prochaine échéance<input id="bizRenewal" type="date"></label>
+    </div>
+    <label>Notes coach privées<textarea id="bizNotes" rows="4" placeholder="Relance, vigilance, adaptation, infos utiles..."></textarea></label>
+    <div class="actions"><button onclick="saveBusiness()">Enregistrer le suivi business</button><button class="ghost" onclick="renderBusinessCenter()">Actualiser la vue CRM</button></div>
+  </div>
+  <div id="businessOutput" class="panel"></div>
+</section>
+
+<section id="live" class="view">
+  <div class="section-head"><h2>Booking / coaching live</h2></div>
+  <div class="panel">
+    <p>Planifie des séances visio, extérieur ou présentiel, avec rappel simple et lecture planning mobile/ordinateur.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="bookCode" placeholder="ALEX01"></label>
+      <label>Nom séance<input id="bookTitle" placeholder="Boxe technique / Visio nutrition"></label>
+      <label>Date<input id="bookDate" type="date"></label>
+      <label>Heure<input id="bookTime" type="time"></label>
+      <label>Format
+        <select id="bookMode">
+          <option value="">À choisir</option>
+          <option>Visioconférence</option>
+          <option>Présentiel salle</option>
+          <option>Extérieur</option>
+          <option>Téléphone / suivi</option>
+        </select>
+      </label>
+      <label>Lien / lieu<input id="bookLink" placeholder="Lien visio ou adresse / lieu"></label>
+    </div>
+    <label>Note séance<textarea id="bookNote" rows="3" placeholder="Objectif de la séance, matériel prévu, point à travailler..."></textarea></label>
+    <div class="actions"><button onclick="saveBooking()">Ajouter au planning</button><button class="ghost" onclick="renderBookingList()">Actualiser le planning</button></div>
+  </div>
+  <div id="bookingOutput" class="panel"></div>
+</section>
+
+  </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
