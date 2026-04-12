@@ -39,6 +39,58 @@ function levelValue(v){ return ({beginner:1, intermediate:2, advanced:3}[v] || 1
 function eqLabel(v){ return (EQUIPMENTS.find(x=>x[0]===v)||[v,v])[1]; }
 function labelForGoal(v){ return goalLabels[v] || v; }
 
+
+function simplifyPrescriptionText(p){
+  return `En clair : fais ${p.series.toLowerCase()}, ${p.reps.toLowerCase()}, récupère ${p.rest.toLowerCase()}.`;
+}
+function stripProgramForShare(p){
+  return {
+    name:p.name, code:p.code, age:p.age, sex:p.sex, height:p.height, weight:p.weight, level:p.level, freq:p.freq, duration:p.duration,
+    env:p.env, mainGoal:p.mainGoal, secondGoal:p.secondGoal, bodyArea:p.bodyArea, focusTarget:p.focusTarget,
+    cycleWeeks:p.cycleWeeks, cycleGoal:p.cycleGoal, specialModule:p.specialModule, warmup:p.warmup, cooldown:p.cooldown,
+    days:p.days, bmi:p.bmi, nutrition:p.nutrition, cycle:p.cycle
+  };
+}
+function encodeSharePayload(obj){
+  return btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+}
+function decodeSharePayload(str){
+  try{ return JSON.parse(decodeURIComponent(escape(atob(str)))); }catch(e){ return null; }
+}
+function beginnerGlossaryHTML(){
+  return `<h2>Glossaire simple</h2>
+  <p><strong>Série :</strong> nombre de blocs à faire.</p>
+  <p><strong>Reps :</strong> nombre de répétitions dans un bloc.</p>
+  <p><strong>Repos :</strong> temps à récupérer avant de repartir.</p>
+  <p><strong>Tempo :</strong> vitesse d’exécution de l’exercice.</p>
+  <p><strong>RPE :</strong> ressenti d’effort sur 10.</p>`;
+}
+function exportProgramHTML(p){
+  const levelText = p.level==='beginner' ? 'Débutant' : p.level==='intermediate' ? 'Intermédiaire' : 'Avancé';
+  return `<!DOCTYPE html><html><head><meta charset="UTF-8"><title>${esc(p.name)}</title><style>
+  body{font-family:Arial,sans-serif;padding:28px;color:#111;background:#fff}
+  h1,h2,h3{margin:0 0 12px}
+  .top{padding:18px 20px;border:1px solid #ddd;border-radius:20px;background:#f7f9fc;margin-bottom:18px}
+  .day{border:1px solid #ddd;border-radius:16px;padding:16px;margin:16px 0}
+  .ex{padding:10px 0;border-top:1px solid #eee}
+  .ex:first-child{border-top:none}
+  .muted{color:#555;line-height:1.45}
+  .badge{display:inline-block;padding:4px 8px;border:1px solid #ccc;border-radius:999px;margin:0 6px 6px 0;font-size:12px}
+  .small{font-size:13px;color:#555}
+  </style></head><body>
+  <div class="top">
+    <h1>${esc(p.name)} · ${esc(p.code)}</h1>
+    <p><strong>Objectif :</strong> ${esc(labelForGoal(p.mainGoal))}${p.secondGoal?` · ${esc(labelForGoal(p.secondGoal))}`:''}</p>
+    <p><strong>Niveau :</strong> ${esc(levelText)} · <strong>Fréquence :</strong> ${p.freq}/semaine · <strong>Durée :</strong> ${p.duration} min</p>
+    ${p.bmi?`<p><strong>IMC :</strong> ${esc(p.bmi.value)} · ${esc(p.bmi.label)}</p>`:''}
+    ${p.nutrition?`<p><strong>Nutrition :</strong> ${p.nutrition.kcal} kcal · P ${p.nutrition.protein} g · G ${p.nutrition.carbs} g · L ${p.nutrition.fats} g</p><p class="small">Ces repères servent de base de travail et s’ajustent selon l’évolution, la récupération et l’adhérence alimentaire.</p>`:''}
+  </div>
+  <h2>Programme</h2>
+  ${p.days.map(day=>`<div class="day"><h3>${esc(day.title)}</h3>${day.items.map(ex=>`<div class="ex"><strong>${esc(ex.name)}</strong><br><span class="muted">${esc(ex.prescription.series)} · ${esc(ex.prescription.reps)} · repos ${esc(ex.prescription.rest)}</span><br><span class="muted">${esc(ex.cue||'')}</span><br><span class="small">${esc(simplifyPrescriptionText(ex.prescription))}</span></div>`).join('')}</div>`).join('')}
+  ${p.level==='beginner' ? beginnerGlossaryHTML() : ''}
+  </body></html>`;
+}
+
 function goView(id){
   $$('.navbtn').forEach(b=>b.classList.toggle('active', b.dataset.view===id));
   $$('.view').forEach(v=>v.classList.toggle('active', v.id===id));
@@ -65,21 +117,15 @@ function renderHomeEnhancements(){
   if(hero){
     const x = document.createElement('div');
     x.className='mini-help premium-home';
-    x.innerHTML='<strong>V12 Premium</strong><span>IMC réel · nutrition · cycle intelligent · dashboard adhérent · analytics · CRM coach.</span>';
+    x.innerHTML='';
     hero.appendChild(x);
   }
 }
 function buildEquipmentGrid(){
   $('#equipmentGrid').innerHTML = EQUIPMENTS.map(([k,l])=>`<label class="chk"><input type="checkbox" value="${k}"> <span>${l}</span></label>`).join('');
-  applyEquipmentPreset();
-  $('#environmentSelect').addEventListener('change', applyEquipmentPreset);
+  $('#environmentSelect').addEventListener('change', ()=>{ $('#presetLabel').textContent='Contexte choisi : '+($('#environmentSelect').selectedOptions[0]?.textContent||''); });
 }
-function applyEquipmentPreset(){
-  const env = $('#environmentSelect').value;
-  const preset = PRESETS[env] || [];
-  $$('#equipmentGrid input').forEach(i => i.checked = preset.includes(i.value));
-  $('#presetLabel').textContent = `Préselection : ${ENV_LABELS[env] || env}`;
-}
+function applyEquipmentPreset(){}
 function buildLibraryFilters(){
   const cats = [''].concat([...new Set(EXERCISES.map(e=>e.category))]);
   $('#libCategory').innerHTML = cats.map(c=>`<option value="${c}">${c || 'Toutes les catégories'}</option>`).join('');
@@ -303,7 +349,7 @@ function renderBMIBox(bmi){
 function renderNutritionBox(nutri, goal){
   if(!nutri) return '<p>Ajoute taille, poids, âge et sexe pour calculer les besoins.</p>';
   const menu = nutritionMenu(goal);
-  return `<div class="summary"><h4>${nutri.kcal} kcal / jour</h4><p><strong>Macros :</strong> protéines ${nutri.protein} g · glucides ${nutri.carbs} g · lipides ${nutri.fats} g</p><p><strong>Petit-déj :</strong> ${esc(menu.breakfast)}</p><p><strong>Déjeuner :</strong> ${esc(menu.lunch)}</p><p><strong>Snack :</strong> ${esc(menu.snack)}</p><p><strong>Dîner :</strong> ${esc(menu.dinner)}</p></div>`;
+  return `<div class="summary"><h4>${nutri.kcal} kcal / jour</h4><p><strong>Pourquoi :</strong> base de départ pour cadrer l'énergie et les macros selon le profil et l'objectif. À ajuster après 2 à 3 semaines de suivi.</p><p><strong>Macros :</strong> protéines ${nutri.protein} g · glucides ${nutri.carbs} g · lipides ${nutri.fats} g</p><p><strong>Petit-déj :</strong> ${esc(menu.breakfast)}</p><p><strong>Déjeuner :</strong> ${esc(menu.lunch)}</p><p><strong>Snack :</strong> ${esc(menu.snack)}</p><p><strong>Dîner :</strong> ${esc(menu.dinner)}</p></div>`;
 }
 function renderCycleTimeline(cycle){
   return `<div class="cycle-grid">${cycle.map(w=>`<div class="cycle-card ${w.phase.includes('Déload')?'deload':''}"><strong>S${w.week}</strong><span>${esc(w.phase)}</span><small>Volume ${esc(w.volume)} · intensité ${esc(w.intensity)}</small></div>`).join('')}</div>`;
@@ -324,7 +370,7 @@ function exerciseHtml(ex, mode){
       <strong>${esc(ex.name)}</strong><br>
       <span class="line"><strong>${esc(ex.prescription.series)}</strong> · <strong>${esc(ex.prescription.reps)}</strong> · repos <strong>${esc(ex.prescription.rest)}</strong>${showCoach || showAdvanced ? ` · tempo <strong>${esc(ex.prescription.tempo)}</strong>` : ''}</span><br>
       ${showCoach ? `Muscles : ${esc(ex.muscles)}<br>` : ''}
-      ${showBeginner ? `Consigne : ${esc(ex.cue)}<br>` : ''}
+      ${showBeginner ? `Consigne simple : ${esc(ex.cue)}<br><em>${esc(simplifyPrescriptionText(ex.prescription))}</em><br>` : ''}
       ${(showCoach || showIntermediate) && ex.substitute ? `Substitut utile : ${esc(ex.substitute)}<br>` : ''}
       ${(showCoach || showBeginner || showIntermediate) ? `Variante facile : ${esc(ex.easy)} · Variante avancée : ${esc(ex.hard)}<br>` : ''}
       ${showCoach ? `Intensité : ${esc(ex.prescription.intensity)} · Charge : ${esc(ex.prescription.loadText)}<br>Fatigue nerveuse : ${ex.neuralFatigue || 'modérée'} · Difficulté technique : ${ex.techDifficulty || 'modérée'}` : ''}
@@ -341,15 +387,15 @@ function renderProgram(p, coachView){
   const module = p.specialModule ? `<p><strong>Module FAFATRAINING :</strong> ${esc(moduleLabels[p.specialModule] || p.specialModule)}</p>` : '';
   return `
     <div class="summary">
-      <h3>${esc(p.name)} · ${esc(p.code)}</h3>
+      <h3>${esc(p.name)}</h3><p class="muted">Code adhérent : ${esc(p.code)}</p>
       <p><strong>Objectif principal :</strong> ${esc(labelForGoal(p.mainGoal))} ${p.secondGoal ? `· <strong>objectif secondaire :</strong> ${esc(labelForGoal(p.secondGoal))}`:''}</p>
       <p><strong>Niveau :</strong> ${esc(p.level)} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Contexte :</strong> ${esc(ENV_LABELS[p.env] || p.env)}</p>
       ${bmi}
-      ${nutrition}
+      ${nutrition}${p.nutrition?`<div class="mini-help"><strong>Nutrition intelligente</strong><span>Ces calories et macros donnent une base claire. Elles servent à démarrer correctement puis à ajuster selon le poids, l’énergie, la faim, la récupération et les résultats.</span></div>`:''}
       ${module}
       <p><strong>Bloc :</strong> ${p.cycleWeeks} semaines · <strong>orientation :</strong> ${esc(p.cycleGoal)}</p>
-      <div class="meta">${p.warmup.map(x=>`<span class="badge">${esc(x)}</span>`).join(' ')}</div>
-      ${coachView ? `<div class="actions" style="margin-top:12px"><button class="ghost" onclick="generateShareLink()">Copier le lien adhérent</button><button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="printProgram()">Exporter PDF / impression</button></div>` : ''}
+      <div class="meta">${p.warmup.map(x=>`<span class="badge">${esc(x)}</span>`).join(' ')}</div>${!coachView && mode==='beginner' ? `<div class="mini-help"><strong>Comment lire le programme</strong><span>Une série = un bloc de répétitions. Reps = nombre de répétitions. Repos = temps à récupérer avant de repartir.</span></div>` : ''}
+      ${coachView ? `<div class="actions" style="margin-top:12px"><button class="ghost" onclick="generateShareLink()">Copier le lien adhérent</button><button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="printProgram()">Exporter le programme en PDF</button></div>` : ''}${!coachView && mode==='beginner' ? `<div class="mini-help"><strong>Lecture simple</strong><span>Lis chaque exercice une ligne après l’autre. Fais le nombre de séries indiqué, puis le nombre de répétitions, puis récupère le temps prévu avant de repartir.</span></div>`:''}
     </div>
     <div class="panel">
       <h4>Timeline du cycle</h4>
@@ -427,7 +473,8 @@ function generateProgram(){
     const patternSummary = Array.from(new Set(chosen.map(x=>x.pattern))).join(' · ');
     return {title: bp.title, items: chosen, patternSummary};
   });
-  const athleteLink = `${location.origin}${location.pathname}?client=${encodeURIComponent(code)}`;
+  const athletePayload = encodeURIComponent(encodeSharePayload(stripProgramForShare({name, code, age, sex, height, weight, level, freq, duration, env, mainGoal, secondGoal, bodyArea, focusTarget, hiitFormat, cycleWeeks, cycleGoal, specialModule, sleepHours, stressLevel, warmup, cooldown, days, rmMap, createdAt:new Date().toISOString(), bmi, nutrition, cycle})));
+  const athleteLink = `${location.origin}${location.pathname}?client=${encodeURIComponent(code)}&payload=${athletePayload}`;
   const crm = {
     subStatus: $('#subStatus').value,
     payStatus: $('#payStatus').value,
@@ -465,10 +512,11 @@ function saveForAthlete(){
 }
 function generateShareLink(){
   if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
-  navigator.clipboard?.writeText(window.currentProgram.athleteLink);
-  alert(`Lien adhérent copié : ${window.currentProgram.athleteLink}`);
+  const link = window.currentProgram.athleteLink;
+  if(navigator.clipboard?.writeText){ navigator.clipboard.writeText(link).then(()=>alert('Lien adhérent copié.')).catch(()=>window.prompt('Copie ce lien adhérent :', link)); }
+  else { window.prompt('Copie ce lien adhérent :', link); }
 }
-function printProgram(){ window.print(); }
+function printProgram(){ if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; } const w=window.open('','_blank'); if(!w){ alert('Autorise les fenêtres pour exporter en PDF.'); return; } w.document.open(); w.document.write(exportProgramHTML(window.currentProgram)); w.document.close(); w.focus(); setTimeout(()=>w.print(),300); }
 
 function renderLibrary(){
   const cat = $('#libCategory').value;
@@ -527,16 +575,15 @@ function renderAthleteDashboard(p){
     <span class="badge">Score régularité : ${adherence}%</span>
   </div>
   <div class="mini-help"><strong>Cycle actif</strong><span>${p.cycleWeeks} semaines · ${esc(p.cycleGoal)}</span></div>
-  <div class="mini-help"><strong>Nutrition</strong><span>${p.nutrition ? `${p.nutrition.kcal} kcal · P ${p.nutrition.protein}g · G ${p.nutrition.carbs}g · L ${p.nutrition.fats}g` : 'non définie'}</span></div>`;
+  <div class="mini-help"><strong>Nutrition</strong><span>${p.nutrition ? `${p.nutrition.kcal} kcal · P ${p.nutrition.protein}g · G ${p.nutrition.carbs}g · L ${p.nutrition.fats}g` : 'non définie'}</span></div>
+  <div class="mini-help"><strong>Lecture simple</strong><span>Valide tes séances, note ta difficulté et ton RPE pour aider le coach à ajuster la suite.</span></div>`;
 }
 function hydrateAthleteFromLink(){
   const params = new URLSearchParams(location.search);
   const code = (params.get('client') || '').trim().toUpperCase();
-  if(code){
-    goView('athlete');
-    $('#athleteCode').value = code;
-    setTimeout(()=>openAthleteProgram(), 200);
-  }
+  const payload = params.get('payload');
+  if(payload){ const parsed = decodeSharePayload(decodeURIComponent(payload)); if(parsed?.code){ const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}'); all[parsed.code]=parsed; localStorage.setItem('fafaPrograms', JSON.stringify(all)); } }
+  if(code){ goView('athlete'); $('#athleteCode').value = code; setTimeout(()=>openAthleteProgram(), 200); }
 }
 function backAthlete(){
   $('#athleteProgram').classList.add('hidden');

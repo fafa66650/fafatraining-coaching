@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>FAFATRAINING ELITE SYSTEM</title>
+<title>FAFATRAINING COACHING</title>
 <link rel="stylesheet" href="style.css" />
 <link rel="manifest" href="manifest.json" />
 </head>
@@ -13,44 +13,50 @@
     <div class="brand">
       <img src="assets/logo.jpeg" alt="FAFATRAINING" />
       <div>
-        <h1>FAFATRAINING ELITE SYSTEM</h1>
+        <h1>FAFATRAINING COACHING</h1>
         <p>Forge ton corps. Élève ton mental.</p>
       </div>
     </div>
     <nav>
-      <button class="navbtn active" data-view="home">Accueil</button>
-      <button class="navbtn" data-view="coach">Coach</button>
-      <button class="navbtn" data-view="quick">Session rapide</button>
-      <button class="navbtn" data-view="library">Bibliothèque</button>
-      <button class="navbtn" data-view="athlete">Adhérent</button>
-      <button class="navbtn" data-view="progress">Suivi</button>
+      <button class="navbtn active" data-view="home">🏠 Accueil</button>
+      <button class="navbtn" data-view="coach">🧠 Coach Pro</button>
+      <button class="navbtn" data-view="quick">⚡ Session rapide</button>
+      <button class="navbtn" data-view="library">📚 Bibliothèque</button>
+      <button class="navbtn" data-view="athlete">👤 Adhérent</button>
+      <button class="navbtn" data-view="progress">📈 Suivi</button>
     </nav>
   </aside>
 
   <main class="main">
     <section id="home" class="view active">
-      <div class="home-help-grid">
-        <article class="mini-help"><strong>Accueil</strong><span>Vue rapide de l’application, des stats et des accès principaux.</span></article>
-        <article class="mini-help"><strong>Coach</strong><span>Créer un programme détaillé, le sauvegarder, l’exporter et générer un lien adhérent.</span></article>
-        <article class="mini-help"><strong>Session rapide</strong><span>Créer vite une séance pour groupe, jeunes, cours collectif ou coaching express.</span></article>
-        <article class="mini-help"><strong>Bibliothèque</strong><span>Parcourir les exercices, variantes, substitutions et filtres avancés.</span></article>
-      </div>
-      <div class="hero">
+      <div class="hero compact-hero premium-hero">
         <div class="hero-copy">
-          <span class="eyebrow">COACH PERSO · GROUPE · JEUNES · PERFORMANCE</span>
-          <h2>Une interface coach plus propre, plus dense, plus utile.</h2>
-          <p>Crée des programmes détaillés musculation, boxe, HIIT, Hyrox, cardio, mobilité et bien-être. Gère les charges, les formats d’effort, les repos, les variantes et une bibliothèque plus large.</p>
+          <span class="eyebrow">COACHING · PROGRAMMATION · NUTRITION · SUIVI</span>
+          <h2>Une plateforme FAFATRAINING plus premium, plus claire, plus efficace.</h2>
+          <p>Construis des programmes intelligents, adapte-les à la personne, suis les progrès, gère la nutrition et pilote ton activité coach dans une seule interface pensée mobile + ordinateur.</p>
           <div class="hero-actions">
-            <button id="homeCreateProgram" onclick="goView('coach')">Créer un programme</button>
-            <button id="homeOpenLibrary" class="ghost" onclick="goView('library')">Voir la bibliothèque</button>
+            <button id="homeCreateProgram" onclick="goView('coach')">Créer un programme premium</button>
+            <button id="homeOpenLibrary" class="ghost" onclick="goView('library')">Explorer la bibliothèque</button>
           </div>
         </div>
-        <div class="hero-stats">
-          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices dans la bibliothèque</span></div>
-          <div class="stat"><strong>Mix complet</strong><span>muscu · boxe · HIIT · cardio · mobilité</span></div>
-          <div class="stat"><strong>Coach + adhérent</strong><span>PDF pro · code · lien · séance live</span></div>
-          <div class="stat"><strong>1RM</strong><span>charges calculées sur squat / bench / deadlift</span></div>
+        <div class="hero-stats premium-stats">
+          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices</span></div>
+          <div class="stat"><strong>Coach + adhérent</strong><span>programmation, suivi, nutrition, CRM</span></div>
+          <div class="stat"><strong>IMC réel</strong><span>lecture santé + objectif</span></div>
+          <div class="stat"><strong>Export programme</strong><span>PDF coach clair et imprimable</span></div>
         </div>
+      </div>
+      <div class="premium-home-grid">
+        <article class="mini-help"><strong>Programmation pro</strong><span>Cycles 4 à 12 semaines, progression automatique, deload et adaptation au niveau, au matériel et au contexte.</span></article>
+        <article class="mini-help"><strong>Espace adhérent</strong><span>Lecture claire du programme, suivi séance, historique, ressenti, RPE et compréhension facilitée pour les débutants.</span></article>
+        <article class="mini-help"><strong>Nutrition intelligente</strong><span>Calories, macros, menus et logique alimentaire alignés avec le profil, le poids, la taille, l’objectif et la fréquence.</span></article>
+        <article class="mini-help"><strong>Admin / business</strong><span>Statut abonnement, paiement, notes coach, CRM et suivi global pour travailler comme une vraie activité premium.</span></article>
+      </div>
+      <div class="premium-home-flow">
+        <div class="flow-card"><strong>1.</strong><span>Créer le profil</span></div>
+        <div class="flow-card"><strong>2.</strong><span>Choisir le contexte</span></div>
+        <div class="flow-card"><strong>3.</strong><span>Générer le cycle</span></div>
+        <div class="flow-card"><strong>4.</strong><span>Partager au client</span></div>
       </div>
     </section>
 
@@ -62,7 +68,7 @@
           <div class="form-grid">
             <label>Nom client<input id="clientName" placeholder="Ex : Alex Martin"></label>
             <label>Code adhérent<input id="clientCode" placeholder="Ex : ALEX01"></label>
-            <label>Âge<input id="clientAge" type="number" value="28"></label>
+            <label>Âge<input id="clientAge" type="number" value=""></label>
             <label>Niveau
               <select id="clientLevel">
                 <option value="beginner">Débutant</option>
@@ -71,14 +77,14 @@
               </select>
             </label>
             <label>Fréquence / semaine
-              <select id="clientFreq"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option></select>
+              <select id="clientFreq"><option value="">À choisir</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select>
             </label>
             <label>Durée / séance
-              <select id="clientDuration"><option>30</option><option>45</option><option selected>60</option><option>75</option><option>90</option></select>
+              <select id="clientDuration"><option value="">À choisir</option><option>30</option><option>45</option><option>60</option><option>75</option><option>90</option></select>
             </label>
-            <label>1RM Squat (kg)<input id="rmSquat" type="number" value="0"></label>
+            <label>1RM Squat (kg)<input id="rmSquat" type="number" value=""></label>
             <label>1RM Développé couché (kg)<input id="rmBench" type="number" value="0"></label>
-            <label>1RM Deadlift / soulevé de terre (kg)<input id="rmDeadlift" type="number" value="0"></label><label>Taille (cm)<input id="clientHeight" type="number" value="175"></label><label>Poids (kg)<input id="clientWeight" type="number" step="0.1" value="75"></label><label>Sexe<select id="clientSex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
+            <label>1RM Deadlift / soulevé de terre (kg)<input id="rmDeadlift" type="number" value="0"></label><label>Taille (cm)<input id="clientHeight" type="number" value=""></label><label>Poids (kg)<input id="clientWeight" type="number" step="0.1" value=""></label><label>Sexe<select id="clientSex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
           </div>
         </div>
 
@@ -87,7 +93,7 @@
           <div class="form-grid">
             <label>Contexte d’entraînement
               <select id="environmentSelect">
-                <option value="gym">Salle de musculation</option>
+                <option value="">À choisir</option><option value="gym">Salle de musculation</option><option value="hotel_gym">Salle d'hôtel</option><option value="garage_gym">Garage gym</option><option value="small_group_room">Studio small group</option>
                 <option value="crossfit_box">Salle CrossFit / Hyrox</option>
                 <option value="boxing_gym">Salle de boxe</option>
                 <option value="home">Maison / appartement</option>
@@ -97,7 +103,7 @@
             </label>
             <label>Objectif principal
               <select id="mainGoal">
-                <option value="muscle_gain">Prise de muscle</option>
+                <option value="">À choisir</option><option value="muscle_gain">Prise de muscle</option><option value="recomposition">Recomposition corporelle</option>
                 <option value="fat_loss">Perte de poids</option>
                 <option value="strength">Force</option>
                 <option value="conditioning">Condition physique / HIIT</option>
@@ -112,7 +118,7 @@
               <select id="secondGoal">
                 <option value="">Aucun</option>
                 <option value="fat_loss">Perte de poids</option>
-                <option value="muscle_gain">Prise de muscle</option>
+                <option value="">À choisir</option><option value="muscle_gain">Prise de muscle</option><option value="recomposition">Recomposition corporelle</option>
                 <option value="strength">Force</option>
                 <option value="conditioning">Condition physique / HIIT</option>
                 <option value="boxing">Boxe</option>
@@ -124,7 +130,7 @@
             </label>
             <label>Format d’effort favori
               <select id="hiitFormat">
-                <option value="20/10">20/10 (Tabata)</option>
+                <option value="">À choisir</option><option value="20/10">20/10 (Tabata)</option>
                 <option value="30/30">30/30</option>
                 <option value="40/20">40/20</option>
                 <option value="30/60">30/60</option>
@@ -135,7 +141,7 @@
             </label>
             <label>Zone de travail
               <select id="bodyArea">
-                <option value="">Mix complet</option>
+                <option value="">À choisir / mix complet</option>
                 <option value="haut_du_corps">Haut du corps</option>
                 <option value="bas_du_corps">Bas du corps</option>
                 <option value="full_body">Full body</option>
@@ -146,7 +152,7 @@
             </label>
             <label>Focus musculaire
               <select id="focusTarget">
-                <option value="">Aucun focus précis</option>
+                <option value="">À choisir / aucun focus</option>
                 <option value="pectoraux">Pectoraux</option>
                 <option value="dos">Dos</option>
                 <option value="épaules">Épaules</option>
@@ -160,7 +166,7 @@
                 <option value="cardio">Cardio / endurance</option>
               </select>
             </label>
-          <label>Bloc / cycle<select id="cycleWeeks"><option value="4">4 semaines</option><option value="6">6 semaines</option><option value="8" selected>8 semaines</option><option value="12">12 semaines</option></select></label><label>Orientation du cycle<select id="cycleGoal"><option value="hypertrophy">Hypertrophie</option><option value="strength">Force</option><option value="conditioning">Conditionnement</option><option value="peak">Peaking</option><option value="maintenance">Maintien</option></select></label><label>Module FAFATRAINING<select id="specialModule"><option value="">Aucun module</option><option value="boxing_prep">Prépa boxe</option><option value="hyrox_prep">Prépa Hyrox</option><option value="trail_prep">Prépa Trail</option><option value="return_to_play">Réathlétisation</option><option value="seniors_health">Séniors / santé</option><option value="kids_teens">Kids / ados</option><option value="express_fat_loss">Perte de poids express</option><option value="transformation">Challenge transformation</option></select></label><label>Sommeil moyen (h)<input id="sleepHours" type="number" step="0.5" value="7"></label><label>Stress / fatigue<select id="stressLevel"><option value="low">Faible</option><option value="medium" selected>Moyen</option><option value="high">Élevé</option></select></label></div>
+          <label>Bloc / cycle<select id="cycleWeeks"><option value="">À choisir</option><option value="4">4 semaines</option><option value="6">6 semaines</option><option value="8" selected>8 semaines</option><option value="12">12 semaines</option></select></label><label>Orientation du cycle<select id="cycleGoal"><option value="">À choisir</option><option value="hypertrophy">Hypertrophie</option><option value="strength">Force</option><option value="conditioning">Conditionnement</option><option value="peak">Peaking</option><option value="maintenance">Maintien</option></select></label><label>Module FAFATRAINING<select id="specialModule"><option value="">À choisir / aucun module</option><option value="boxing_prep">Prépa boxe</option><option value="hyrox_prep">Prépa Hyrox</option><option value="trail_prep">Prépa Trail</option><option value="return_to_play">Réathlétisation</option><option value="seniors_health">Séniors / santé</option><option value="kids_teens">Kids / ados</option><option value="express_fat_loss">Perte de poids express</option><option value="transformation">Challenge transformation</option></select></label><label>Sommeil moyen (h)<input id="sleepHours" type="number" step="0.5" value="7"></label><label>Stress / fatigue<select id="stressLevel"><option value="low">Faible</option><option value="medium" selected>Moyen</option><option value="high">Élevé</option></select></label></div>
         </div>
 
         <div class="panel">
@@ -169,7 +175,7 @@
             <button onclick="applyEquipmentPreset()">Préremplir selon l’environnement</button>
             <span id="presetLabel"></span>
           </div>
-          <div id="equipmentGrid" class="checks"></div>
+          <div class="mini-help"><strong>Matériel disponible</strong><span>Ne rien cocher = sélection libre. Tu peux tout choisir toi-même et ajouter des variantes ensuite.</span></div><div id="equipmentGrid" class="checks"></div><small id="presetLabel" class="muted"></small>
           <div class="hint-box"><strong>Astuce :</strong> si la personne n’a pas de matériel précis, coche aussi les substitutions du quotidien comme chaise, canapé, marches, sac à dos ou bouteilles d’eau.</div>
         </div>
       </div>
@@ -180,7 +186,7 @@
         <button class="ghost" onclick="printProgram()">Exporter PDF / impression</button>
       </div>
 
-      <div class="coach-grid premium-grid"><div class="panel"><h3>IMC & profil santé</h3><div id="bmiOutput" class="output mini-output"></div></div><div class="panel"><h3>Nutrition intelligente</h3><div id="nutritionOutput" class="output mini-output"></div></div><div class="panel"><h3>Admin / business</h3><div class="form-grid"><label>Statut abonnement<select id="subStatus"><option value="active">Actif</option><option value="paused">En pause</option><option value="trial">Essai</option><option value="inactive">Inactif</option></select></label><label>Paiement<select id="payStatus"><option value="paid">Payé</option><option value="pending">En attente</option><option value="late">Retard</option></select></label><label>Notes coach privées<textarea id="coachNotes" placeholder="Douleurs, contraintes, suivi, relances..."></textarea></label></div></div></div><div id="programOutput" class="output"></div>
+      <div class="coach-grid premium-grid"><div class="panel"><h3>IMC & profil santé</h3><div id="bmiOutput" class="output mini-output"></div></div><div class="panel"><h3>Nutrition intelligente</h3><p class="helper">Repère coach : ces chiffres servent à poser une base réaliste en calories et macros selon le profil, l’objectif et le contexte d’entraînement.</p><div id="nutritionOutput" class="output mini-output"></div></div><div class="panel"><h3>Admin / business</h3><div class="form-grid"><label>Statut abonnement<select id="subStatus"><option value="active">Actif</option><option value="paused">En pause</option><option value="trial">Essai</option><option value="inactive">Inactif</option></select></label><label>Paiement<select id="payStatus"><option value="paid">Payé</option><option value="pending">En attente</option><option value="late">Retard</option></select></label><label>Notes coach privées<textarea id="coachNotes" placeholder="Douleurs, contraintes, suivi, relances..."></textarea></label></div></div></div><div id="programOutput" class="output"></div>
     </section>
 
     <section id="quick" class="view">
