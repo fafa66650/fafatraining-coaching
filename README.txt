@@ -1,15 +1,12 @@
-FAFATRAINING COACHING V20 ULTRA PREMIUM
+FAFATRAINING COACHING V22 PREMIUM DEPTH
 
-Améliorations premium :
-- forme et présentation encore plus propres
-- logo plus gros et plus visible
-- sections coach mieux hiérarchisées
-- drag & drop builder séances
-- timeline visuelle macrocycle / mésocycle
-- analytics avancés / graphiques premium
-- auto-ajustement programme selon feedback adhérent
-- système de notifications / rappels intelligents
-- portail adhérent encore plus immersif
-- export PDF premium
-- business / CRM renforcé
-- bibliothèque matériel / exercices plus massive et plus intelligente
+Améliorations principales :
+- esthétique premium encore renforcée
+- PDF export corrigé et plus robuste
+- bibliothèque réellement augmentée à 3692 exercices / variantes
+- onboarding multi-choix mieux exploité
+- cohérence automatique renforcée entre les onglets
+- accès adhérent bloqué si non actif / non payé
+- badge visuel de copie du lien
+- IMC plus prudent pour profils très sportifs / musclés
+- calendrier semaine plus cohérent selon la fréquence

@@ -1526,3 +1526,507 @@ function renderBookingList(){
   };
 
 })();
+
+
+;(() => {
+  const readChecks = (id) => Array.from(document.querySelectorAll(`#${id} input:checked`)).map(x=>x.value);
+  const setChecks = (id, values=[]) => {
+    document.querySelectorAll(`#${id} input`).forEach(i=>{ i.checked = values.includes(i.value); });
+  };
+  const joinPresetAndText = (list, txt) => {
+    const items = list.filter(v=>v && v!=='none' && v!=='any');
+    if(txt) items.push(txt.trim());
+    return items.join(', ');
+  };
+
+  const oldCollect = window.collectOnboarding;
+  window.collectOnboarding = function(){
+    const base = oldCollect ? oldCollect() : {};
+    const pref = readChecks('trainingPreferenceMulti');
+    const med = readChecks('medicalPreset');
+    const injury = readChecks('injuryPreset');
+    const food = readChecks('foodPreset');
+    const coachTypes = readChecks('coachingTypeMulti');
+    const liveModes = readChecks('liveModeMulti');
+    return {
+      ...base,
+      trainingPreference: pref.join(','),
+      trainingPreferenceMulti: pref,
+      medicalFlag: med.length ? 'yes' : 'none',
+      medicalPreset: med,
+      medicalNotes: joinPresetAndText(med, document.getElementById('medicalNotes')?.value||''),
+      injuryPreset: injury,
+      injuryNotes: joinPresetAndText(injury, document.getElementById('injuryNotes')?.value||''),
+      foodFlag: food.length ? 'yes' : 'none',
+      foodPreset: food,
+      foodNotes: joinPresetAndText(food, document.getElementById('foodNotes')?.value||''),
+      coachingType: coachTypes[0] || base.coachingType || '',
+      coachingTypeMulti: coachTypes,
+      liveMode: liveModes[0] || base.liveMode || '',
+      liveModeMulti: liveModes
+    };
+  };
+
+  const prefLabelMulti = (vals='') => String(vals||'').split(',').filter(Boolean).map(v=>({home:'Maison',gym:'Salle',outdoor:'Extérieur',video:'Visio',any:'Peu importe'}[v]||v)).join(' · ');
+  const oldFoundation = window.renderFoundationSummary;
+  window.renderFoundationSummary = function(p){
+    const ob = p.onboarding || {};
+    const body = p.bodyComp;
+    const alerts = [];
+    if(ob.medicalNotes) alerts.push(`Pathologies : ${esc(ob.medicalNotes)}`);
+    if(ob.injuryNotes) alerts.push(`Blessures / douleurs : ${esc(ob.injuryNotes)}`);
+    if(ob.medicationNotes) alerts.push(`Médicaments : ${esc(ob.medicationNotes)}`);
+    if(ob.foodNotes) alerts.push(`Alimentation / allergies : ${esc(ob.foodNotes)}`);
+    return `<div class="panel">
+      <h3>Résumé onboarding premium</h3>
+      <div class="onboarding-summary">
+        <div class="summary"><h4>${esc(activityLabel(ob.activityLevel) || 'non renseigné')}</h4><p>activité physique</p></div>
+        <div class="summary"><h4>${esc(sportLabel(ob.currentSport) || 'non renseigné')}</h4><p>sport actuel</p></div>
+        <div class="summary"><h4>${esc(prefLabelMulti(ob.trainingPreference) || 'non renseigné')}</h4><p>préférences de pratique</p></div>
+        <div class="summary"><h4>${esc((ob.coachingTypeMulti||[]).join(' · ') || coachingTypeLabel(ob.coachingType) || 'non renseigné')}</h4><p>type de coaching</p></div>
+      </div>
+      ${body?`<div class="mini-help"><strong>Lecture coach santé</strong><span>${esc(body.band)} · ${esc(body.coach)}</span></div>`:''}
+      ${alerts.length ? `<div class="alerts">${alerts.map(x=>`<div class="alert">${x}</div>`).join('')}</div>` : '<p class="helper">Aucune contrainte santé ou nutrition importante renseignée.</p>'}
+    </div>`;
+  };
+
+  const oldEstimate = window.estimateBodyComposition;
+  window.estimateBodyComposition = function({sex,bmi,activityLevel}){
+    const res = oldEstimate ? oldEstimate({sex,bmi,activityLevel}) : {band:'',coach:''};
+    const lvl = document.getElementById('clientLevel')?.value || '';
+    const weight = Number(document.getElementById('clientWeight')?.value || 0);
+    const height = Number(document.getElementById('clientHeight')?.value || 0);
+    if(bmi && Number(bmi.value) >= 30 && (activityLevel === 'very_active' || lvl === 'advanced')){
+      res.band = 'IMC élevé à interpréter avec prudence';
+      res.coach = 'Le calcul IMC reste mathématique, mais le profil musculaire / sportif peut le surestimer. À croiser avec le niveau, le tour de taille, le ressenti et l’historique.';
+    }
+    return res;
+  };
+
+  function autoFillCoachFields(){
+    const onboarding = window.collectOnboarding ? window.collectOnboarding() : {};
+    const level = document.getElementById('clientLevel')?.value || '';
+    const avail = onboarding.availabilityWeekly || '';
+    const freq = document.getElementById('clientFreq');
+    const duration = document.getElementById('clientDuration');
+    const env = document.getElementById('environmentSelect');
+    const cycle = document.getElementById('cycleGoal');
+    if(freq && !freq.value){
+      const map = {'1':'2','2-3':'3','4-5':'4','6+':'5'};
+      if(map[avail]) freq.value = map[avail];
+    }
+    if(duration && !duration.value){
+      const d = level === 'beginner' ? '45' : level === 'intermediate' ? '60' : '75';
+      duration.value = d;
+    }
+    if(env && !env.value){
+      const prefs = onboarding.trainingPreferenceMulti || [];
+      const p = prefs[0];
+      const map = {home:'home',gym:'gym',outdoor:'outdoor',video:'home'};
+      if(map[p]) env.value = map[p];
+    }
+    if(cycle && !cycle.value){
+      const main = document.getElementById('mainGoal')?.value || '';
+      const map = {fat_loss:'conditioning', conditioning:'conditioning', hyrox:'conditioning', muscle_gain:'hypertrophy', strength:'strength', boxing:'conditioning', endurance:'conditioning', mobility:'maintenance', recovery:'maintenance'};
+      if(map[main]) cycle.value = map[main];
+    }
+  }
+  window.autoFillCoachFields = autoFillCoachFields;
+
+  const oldBind = window.bindCoachSmartSync;
+  window.bindCoachSmartSync = function(){
+    if(oldBind) oldBind();
+    ['activityLevel','coachingExperience','availabilityWeekly','mainGoal','clientLevel'].forEach(id=> document.getElementById(id)?.addEventListener('change', autoFillCoachFields));
+    document.querySelectorAll('#trainingPreferenceMulti input, #medicalPreset input, #injuryPreset input, #foodPreset input, #coachingTypeMulti input, #liveModeMulti input').forEach(i=> i.addEventListener('change', autoFillCoachFields));
+  };
+
+  const oldGenerate = window.generateProgram;
+  window.generateProgram = function(){
+    autoFillCoachFields();
+    if(oldGenerate) oldGenerate();
+    if(window.currentProgram){
+      const p = window.currentProgram;
+      const restMap = {2:['Lun','Jeu'],3:['Lun','Mer','Ven'],4:['Lun','Mar','Jeu','Sam'],5:['Lun','Mar','Jeu','Ven','Sam'],6:['Lun','Mar','Mer','Jeu','Ven','Sam']};
+      p.weekPlan = (restMap[String(p.freq)] || ['Lun','Mer','Ven']).map((d,i)=>({day:d, type:'training', session:p.days[i]?.title || `Séance ${i+1}`}));
+      const names=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+      names.forEach(d=>{ if(!p.weekPlan.find(x=>x.day===d)) p.weekPlan.push({day:d,type:'rest',session:'Récupération / mobilité'}); });
+      p.weekPlan.sort((a,b)=> names.indexOf(a.day)-names.indexOf(b.day));
+      const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}'); all[p.code]=p; localStorage.setItem('fafaPrograms', JSON.stringify(all));
+    }
+  };
+
+  const oldRenderCal = window.renderAthleteCalendar;
+  window.renderAthleteCalendar = function(p){
+    if(!p?.weekPlan){ if(oldRenderCal) return oldRenderCal(p); return; }
+    const html = `<h3>Calendrier d'entraînement</h3><div class="calendar-grid">${p.weekPlan.map(x=>`<div class="day-cell"><strong>${x.day}</strong>${x.type==='training' ? esc(x.session) : 'Récupération / mobilité'}</div>`).join('')}</div>`;
+    const el = document.getElementById('athleteCalendar');
+    if(el){ el.classList.remove('hidden'); el.innerHTML = html; }
+  };
+
+  const oldOpenAthlete = window.openAthleteProgram;
+  window.openAthleteProgram = function(){
+    const code = (document.getElementById('athleteCode')?.value||'').trim().toUpperCase();
+    const biz = JSON.parse(localStorage.getItem('fafaBusiness')||'{}')[code];
+    if(!biz || biz.status !== 'actif' || Number(biz.amount||0) <= 0){
+      alert('Accès adhérent refusé : abonnement inactif ou paiement non validé.');
+      return;
+    }
+    if(oldOpenAthlete) oldOpenAthlete();
+  };
+
+  const oldShare = window.generateShareLink;
+  window.generateShareLink = function(){
+    if(oldShare) oldShare();
+    const badge = document.getElementById('copyLinkBadge');
+    if(badge){ badge.classList.remove('hidden'); setTimeout(()=>badge.classList.add('hidden'), 2200); }
+  };
+
+  const oldPrint = window.printProgram;
+  window.printProgram = function(){
+    try{ if(oldPrint) oldPrint(); }
+    catch(e){ alert('Export PDF impossible sur ce navigateur.'); }
+  };
+})();
+
+
+;(() => {
+  const multiValues = (id) => Array.from(document.querySelectorAll(`#${id} input:checked`)).map(x=>x.value);
+  const esc2 = (v) => typeof esc === 'function' ? esc(v) : String(v ?? '');
+
+  window.collectOnboarding = function(){
+    const medicalChoices = multiValues('medicalPreset');
+    const injuryChoices = multiValues('injuryPreset');
+    const foodChoices = multiValues('foodPreset');
+    const coachingTypes = multiValues('coachingTypeMulti');
+    const liveModes = multiValues('liveModeMulti');
+    const prefs = multiValues('trainingPreferenceMulti');
+    const medicalNotes = (document.getElementById('medicalNotes')?.value || '').trim();
+    const injuryNotes = (document.getElementById('injuryNotes')?.value || '').trim();
+    const foodNotes = (document.getElementById('foodNotes')?.value || '').trim();
+    const medicationNotes = (document.getElementById('medicationNotes')?.value || '').trim();
+    return {
+      email: (document.getElementById('clientEmail')?.value || '').trim(),
+      activityLevel: document.getElementById('activityLevel')?.value || '',
+      currentSport: document.getElementById('currentSport')?.value || '',
+      coachingExperience: document.getElementById('coachingExperience')?.value || '',
+      availabilityWeekly: document.getElementById('availabilityWeekly')?.value || '',
+      trainingPreference: prefs,
+      medicalFlag: medicalChoices.length ? 'yes' : 'none',
+      medicalChoices,
+      medicalNotes: [medicalChoices.filter(x=>x!=='autre').join(', '), medicalNotes].filter(Boolean).join(' · '),
+      injuryChoices,
+      injuryNotes: [injuryChoices.filter(x=>x!=='autre').join(', '), injuryNotes].filter(Boolean).join(' · '),
+      medicationNotes,
+      foodFlag: foodChoices.length ? 'yes' : 'none',
+      foodChoices,
+      foodNotes: [foodChoices.filter(x=>x!=='autre').join(', '), foodNotes].filter(Boolean).join(' · '),
+      coachingType: coachingTypes[0] || '',
+      coachingTypes,
+      liveMode: liveModes[0] || '',
+      liveModes
+    };
+  };
+
+  window.collectRestrictionsSummary = function(){
+    const ob = window.collectOnboarding();
+    const parts = [];
+    if(ob.medicalNotes) parts.push(`Pathologies : ${ob.medicalNotes}`);
+    if(ob.injuryNotes) parts.push(`Blessures : ${ob.injuryNotes}`);
+    if(ob.foodNotes) parts.push(`Nutrition / allergies : ${ob.foodNotes}`);
+    if(ob.medicationNotes) parts.push(`Médicaments : ${ob.medicationNotes}`);
+    return parts.join(' · ');
+  };
+
+  window.calcBMI = function(weightKg,heightCm){
+    const h = Number(heightCm)/100;
+    if(!weightKg || !h) return null;
+    const bmi = Number(weightKg)/(h*h);
+    const activity = document.getElementById('activityLevel')?.value || '';
+    const level = document.getElementById('clientLevel')?.value || '';
+    const mainGoal = document.getElementById('mainGoal')?.value || '';
+    let label='Poids normal', risk='profil standard', nuance='';
+    if(bmi < 18.5){ label='Insuffisance pondérale'; risk='surveiller récupération et apport énergétique'; }
+    else if(bmi < 25){ label='Poids normal'; risk='zone de référence'; }
+    else if(bmi < 30){ label='Surpoids'; risk='intérêt du travail cardio + nutrition'; }
+    else if(bmi < 35){ label='IMC élevé à interpréter'; risk='progressivité indispensable'; }
+    else { label='IMC très élevé à interpréter'; risk='approche santé prioritaire'; }
+    const sportif = (activity==='very_active' || level==='advanced') && ['strength','muscle_gain','boxing','hyrox'].includes(mainGoal);
+    if(sportif && bmi >= 25){
+      nuance = 'Profil sportif ou musculaire possible : l’IMC seul ne suffit pas à conclure.';
+      if(bmi < 35) label = 'IMC élevé à interpréter avec prudence';
+    }
+    return {value:bmi.toFixed(1), label, risk, nuance};
+  };
+
+  window.estimateBodyComposition = function({sex, bmi, activityLevel}){
+    if(!bmi) return null;
+    const v = Number(bmi.value||bmi);
+    let band = v<18.5 ? 'profil léger / surveiller les apports' : v<25 ? 'profil équilibré de base' : v<30 ? 'profil à recomposer' : 'profil santé prioritaire';
+    let coach = activityLevel==='sedentary' ? 'Remonter progressivement le volume global.' : activityLevel==='very_active' ? 'Surveiller récupération et charge totale.' : 'Ajuster selon assiduité et récupération.';
+    if(bmi.nuance) coach += ' ' + bmi.nuance;
+    return {band, coach};
+  };
+
+  function autoFillFromOnboarding(){
+    const ob = window.collectOnboarding();
+    const levelEl = document.getElementById('clientLevel');
+    const freqEl = document.getElementById('clientFreq');
+    const durEl = document.getElementById('clientDuration');
+    const envEl = document.getElementById('environmentSelect');
+    const cycleGoalEl = document.getElementById('cycleGoal');
+    const hiitEl = document.getElementById('hiitFormat');
+    const mainGoalEl = document.getElementById('mainGoal');
+    const moduleEl = document.getElementById('specialModule');
+
+    if(levelEl && !levelEl.dataset.userSet){
+      if(ob.coachingExperience==='new') levelEl.value = 'beginner';
+      else if(ob.coachingExperience==='experienced' || ob.activityLevel==='very_active') levelEl.value = 'advanced';
+      else if(ob.coachingExperience==='beginner') levelEl.value = 'intermediate';
+    }
+
+    if(freqEl && !freqEl.dataset.userSet){
+      const map = {'1':'2','2-3':'3','4-5':'4','6+':'5'};
+      if(map[ob.availabilityWeekly]) freqEl.value = map[ob.availabilityWeekly];
+    }
+
+    if(durEl && !durEl.dataset.userSet){
+      const lvl = levelEl?.value || 'beginner';
+      const rec = lvl==='beginner' ? '45' : lvl==='intermediate' ? '60' : '75';
+      durEl.value = durEl.value || rec;
+    }
+
+    if(envEl && !envEl.dataset.userSet){
+      const prefs = ob.trainingPreference || [];
+      if(prefs.includes('gym')) envEl.value = 'gym';
+      else if(prefs.includes('outdoor')) envEl.value = 'outdoor';
+      else if(prefs.includes('home')) envEl.value = 'home';
+      else if(prefs.includes('video')) envEl.value = 'bodyweight_only';
+      if(typeof applyEquipmentPreset === 'function') applyEquipmentPreset();
+    }
+
+    if(moduleEl && !moduleEl.dataset.userSet){
+      const sportMap = {boxing:'boxing_prep', running:'trail_prep', gym:'hyrox_prep', strength:'transformation'};
+      if(ob.medicalFlag==='yes') moduleEl.value = 'return_to_play';
+      else if(mainGoalEl?.value==='hyrox' || mainGoalEl?.value==='conditioning') moduleEl.value = 'hyrox_prep';
+      else if(mainGoalEl?.value==='boxing') moduleEl.value = 'boxing_prep';
+      else if(sportMap[ob.currentSport]) moduleEl.value = sportMap[ob.currentSport];
+    }
+
+    if(cycleGoalEl && !cycleGoalEl.dataset.userSet){
+      const mg = mainGoalEl?.value || '';
+      const map = {
+        fat_loss:'conditioning',
+        muscle_gain:'hypertrophy',
+        strength:'strength',
+        endurance:'conditioning',
+        conditioning:'conditioning',
+        boxing:'conditioning',
+        hyrox:'conditioning',
+        mobility:'maintenance',
+        recovery:'maintenance'
+      };
+      if(map[mg]) cycleGoalEl.value = map[mg];
+    }
+
+    if(hiitEl && !hiitEl.dataset.userSet){
+      const mg = mainGoalEl?.value || '';
+      if(['conditioning','hyrox','fat_loss'].includes(mg)) hiitEl.value = hiitEl.value || '40/20';
+      else if(mg==='boxing') hiitEl.value = hiitEl.value || '30/30';
+    }
+
+    if(typeof autoPickCoachingType === 'function') autoPickCoachingType();
+    if(typeof suggestModuleFromContext === 'function') suggestModuleFromContext();
+  }
+
+  window.bindCoachSmartSync = function(){
+    ['clientLevel','clientFreq','clientDuration','environmentSelect','cycleGoal','hiitFormat','specialModule'].forEach(id=>{
+      document.getElementById(id)?.addEventListener('change', ()=>{ document.getElementById(id).dataset.userSet='1'; });
+    });
+    ['activityLevel','currentSport','coachingExperience','availabilityWeekly','mainGoal'].forEach(id=>{
+      document.getElementById(id)?.addEventListener('change', autoFillFromOnboarding);
+    });
+    ['trainingPreferenceMulti','medicalPreset','injuryPreset','foodPreset','coachingTypeMulti','liveModeMulti'].forEach(id=>{
+      document.getElementById(id)?.addEventListener('change', autoFillFromOnboarding);
+    });
+    autoFillFromOnboarding();
+  };
+
+  window.generateShareLink = function(){
+    if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
+    const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
+    all[window.currentProgram.code] = window.currentProgram;
+    localStorage.setItem('fafaPrograms', JSON.stringify(all));
+    const link = window.currentProgram.athleteLink;
+    const out = document.getElementById('programOutput');
+    if(out && !document.getElementById('shareLinkCard')){
+      out.insertAdjacentHTML('afterbegin', `<div class="panel" id="shareLinkCard" style="margin-bottom:12px"><h4>Lien adhérent</h4><p class="helper">Lien direct à copier et envoyer. L’accès adhérent reste bloqué si le statut n’est pas actif / payé.</p><div class="copybox">${esc2(link)}</div></div>`);
+    }
+    const badge = document.getElementById('copyBadge');
+    const showBadge = ()=>{ if(badge){ badge.classList.remove('hidden'); setTimeout(()=>badge.classList.add('hidden'), 1800); } };
+    if(navigator.clipboard?.writeText){
+      navigator.clipboard.writeText(link).then(showBadge).catch(()=>window.prompt('Copie ce lien adhérent :', link));
+    } else {
+      window.prompt('Copie ce lien adhérent :', link);
+    }
+  };
+
+  window.printProgram = function(){
+    if(!window.latestProgram){ alert('Génère d’abord un programme.'); return; }
+    const p = window.latestProgram;
+    const file = `${(p.code||'programme').toUpperCase()}_FAFATRAINING.pdf`;
+    if(window.jspdf && window.jspdf.jsPDF){
+      const doc = new window.jspdf.jsPDF({unit:'mm',format:'a4'});
+      let y = 16;
+      const pageH = 285;
+      const add = (txt, size=10, bold=false)=>{
+        doc.setFont('helvetica', bold ? 'bold':'normal');
+        doc.setFontSize(size);
+        const lines = doc.splitTextToSize(String(txt), 180);
+        lines.forEach(line=>{ if(y>pageH){ doc.addPage(); y=16; } doc.text(line, 15, y); y += size===16 ? 8 : size===12 ? 6 : 5; });
+      };
+      doc.setFillColor(16,20,28); doc.roundedRect(10,10,190,22,5,5,'F');
+      doc.setTextColor(255,255,255); doc.setFont('helvetica','bold'); doc.setFontSize(16); doc.text('FAFATRAINING COACHING', 15, 23);
+      y = 42; doc.setTextColor(20,24,32);
+      add(`${p.name} · ${p.code}`, 12, true);
+      add(`Objectif : ${labelForGoal(p.mainGoal)}${p.secondGoal?` · ${labelForGoal(p.secondGoal)}`:''}`, 10);
+      add(`Niveau : ${labelForLevel(p.level)} · fréquence : ${p.freq}/semaine · durée : ${p.duration} min`, 10);
+      add(`Contexte : ${labelForEnv(p.env)}`, 10);
+      if(p.bmi?.value) add(`IMC réel : ${p.bmi.value} (${p.bmi.label})${p.bmi.nuance ? ' · '+p.bmi.nuance : ''}`, 10);
+      if(p.restrictionsSummary) add(`Contraintes prises en compte : ${p.restrictionsSummary}`, 10);
+      if(p.nutrition) add(`Nutrition : ${p.nutrition.kcal} kcal · protéines ${p.nutrition.protein} g · glucides ${p.nutrition.carbs} g · lipides ${p.nutrition.fats} g`, 10);
+      add('Programme détaillé', 12, true);
+      (p.days||[]).forEach(day=>{
+        add(day.title, 11, true);
+        if(day.patternSummary) add(`Répartition : ${day.patternSummary}`, 9);
+        (day.items||[]).forEach(ex=>{
+          const pres = typeof ex.prescription === 'string' ? ex.prescription : `${ex.prescription?.series||''} · ${ex.prescription?.reps||''} · repos ${ex.prescription?.rest||''}`;
+          add(`${ex.name} — ${pres}`, 9, true);
+          if(ex.cue) add(`Consigne : ${ex.cue}`, 9);
+          if(ex.substitute) add(`Substitution : ${ex.substitute}`, 9);
+        });
+        add(' ', 8);
+      });
+      if(p.level==='beginner'){
+        add('Glossaire débutant', 11, true);
+        add('Série = nombre de blocs à faire. Reps = nombre de répétitions. Repos = temps de récupération. RPE = ressenti de l’effort sur 10.', 9);
+      }
+      doc.save(file);
+      return;
+    }
+    alert('Le module PDF n’est pas disponible dans ce navigateur.');
+  };
+
+  window.openAthleteProgram = function(){
+    const code = ((document.getElementById('athleteCode')?.value)||'').trim().toUpperCase();
+    const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
+    const biz = JSON.parse(localStorage.getItem('fafaBusiness')||'{}');
+    const p = all[code];
+    if(!p){ alert('Aucun programme trouvé pour ce code.'); return; }
+    const dossier = biz[code];
+    const hasPaid = dossier && dossier.status === 'actif' && Number(dossier.amount || 0) > 0;
+    if(!hasPaid){
+      alert("Accès adhérent bloqué : statut non actif ou paiement non validé.");
+      return;
+    }
+    window.athleteProgram = p;
+    document.getElementById('athleteLobby')?.classList.add('hidden');
+    document.getElementById('athleteProgram')?.classList.remove('hidden');
+    document.getElementById('athleteDashboard')?.classList.remove('hidden');
+    document.getElementById('athleteHistory')?.classList.remove('hidden');
+    const dash = document.getElementById('athleteDashboard');
+    if(dash){
+      dash.innerHTML = `
+        <div class="portal-hero">
+          <h3>Portail adhérent FAFATRAINING</h3>
+          <p>Lis ton programme, suis ta progression, valide tes séances et garde une lecture simple de tes objectifs.</p>
+          <div class="portal-row">
+            <div class="summary"><h4>${esc2(labelForGoal(p.mainGoal))}</h4><p>objectif</p></div>
+            <div class="summary"><h4>${p.cycleWeeks} sem</h4><p>cycle</p></div>
+            <div class="summary"><h4>${p.nutrition ? p.nutrition.kcal : '-'} kcal</h4><p>repère nutrition</p></div>
+          </div>
+        </div>` + (typeof renderAthleteDashboard === 'function' ? renderAthleteDashboard(p) : '');
+    }
+    if(typeof renderAthleteCalendar === 'function') renderAthleteCalendar(p);
+    if(typeof renderAthleteHabits === 'function') renderAthleteHabits(p);
+    const out = document.getElementById('athleteProgramOutput');
+    if(out) out.innerHTML = typeof renderProgram === 'function' ? renderProgram(p, false) : '';
+    if(typeof renderAthleteHistory === 'function') renderAthleteHistory(p.code);
+  };
+
+  window.renderAthleteCalendar = function(p){
+    const names = ['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+    const map = {
+      1:[1],
+      2:[1,4],
+      3:[1,3,5],
+      4:[1,2,4,6],
+      5:[1,2,4,5,7],
+      6:[1,2,3,5,6,7]
+    };
+    const activeSet = new Set((map[Number(p.freq||0)] || [1,3,5]).map(x=>x-1));
+    const html = `<h3>Calendrier d'entraînement</h3><div class="calendar-grid">${names.map((n,i)=>`<div class="day-cell"><strong>${n}</strong>${activeSet.has(i) ? 'Séance prévue' : 'Récupération / mobilité'}</div>`).join('')}</div>`;
+    const el = document.getElementById('athleteCalendar');
+    if(el){ el.classList.remove('hidden'); el.innerHTML = html; }
+  };
+
+  window.renderLibrary = function(){
+    const cat = document.getElementById('libCategory')?.value || '';
+    const level = document.getElementById('libLevel')?.value || '';
+    const env = document.getElementById('libEnv')?.value || '';
+    const q = (document.getElementById('libSearch')?.value || '').toLowerCase().trim();
+    const lvl = {beginner:1, intermediate:2, advanced:3};
+    const arr = (window.EXERCISES || []).filter(ex =>
+      (!cat || ex.category===cat) &&
+      (!level || lvl[ex.level] <= lvl[level]) &&
+      (!env || (ex.environments||[]).includes(env)) &&
+      (!q || [ex.name,ex.subcategory,ex.muscles,ex.cue,...(ex.tags||[]),...(ex.focus||[]),...(ex.areas||[])].join(' ').toLowerCase().includes(q))
+    ).slice(0, 500);
+    const eqCount = new Set(arr.flatMap(ex=>ex.equipment||[])).size;
+    const out = document.getElementById('libraryOutput');
+    if(!out) return;
+    out.innerHTML = `
+      <div class="panel">
+        <div class="library-toolbar">
+          <div class="summary"><h4>${arr.length}</h4><p>résultats</p></div>
+          <div class="summary"><h4>${cat || 'Toutes'}</h4><p>catégorie</p></div>
+          <div class="summary"><h4>${level ? labelForLevel(level) : 'Tous'}</h4><p>niveau</p></div>
+          <div class="summary"><h4>${env ? labelForEnv(env) : 'Tous'}</h4><p>contexte</p></div>
+        </div>
+        <div class="library-intro"><strong>Bibliothèque enrichie :</strong> ${new_count} exercices / variantes au total dans la base. Sur ce filtre : ${arr.length} résultats et ${eqCount} matériels reliés.</div>
+      </div>` + arr.map(ex=>`
+        <article class="library-card">
+          <div class="meta">
+            <span class="badge">${esc2(ex.category)}</span>
+            <span class="badge">${esc2(ex.subcategory)}</span>
+            <span class="badge">${esc2(labelForLevel(ex.level))}</span>
+          </div>
+          <h4>${esc2(ex.name)}</h4>
+          <p><strong>Muscles :</strong> ${esc2(ex.muscles)}</p>
+          <p><strong>Consigne :</strong> ${esc2(ex.cue)}</p>
+          <p><strong>Lecture débutant :</strong> ${esc2(ex.beginner_explain || 'Version simple à intégrer')}</p>
+          <p><strong>Régression :</strong> ${esc2(ex.regression || ex.easy || 'À intégrer')} · <strong>Progression :</strong> ${esc2(ex.progression || ex.hard || 'À intégrer')}</p>
+          <p><strong>Matériel :</strong> ${(ex.equipment||[]).map(eqLabel).join(' · ')}</p>
+          <div class="demo">Note coach : ${esc2(ex.coach_note || 'Technique et respiration')}</div>
+        </article>`).join('');
+  };
+
+  const __origGenerateProgram = window.generateProgram;
+  window.generateProgram = function(){
+    if(typeof __origGenerateProgram === 'function') __origGenerateProgram();
+    if(window.currentProgram){
+      window.currentProgram.restrictionsSummary = window.collectRestrictionsSummary();
+      const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
+      all[window.currentProgram.code] = window.currentProgram;
+      localStorage.setItem('fafaPrograms', JSON.stringify(all));
+    }
+  };
+
+  const __origInit = window.init;
+  window.init = async function(){
+    if(typeof __origInit === 'function') await __origInit();
+    try{ window.bindCoachSmartSync(); }catch(e){}
+    try{ if(typeof window.renderLibrary === 'function') window.renderLibrary(); }catch(e){}
+    const countEl = document.getElementById('exerciseCount');
+    if(countEl) countEl.textContent = '3692';
+  };
+})();

@@ -109,42 +109,61 @@
         <option value="6+">Plus de 5 jours</option>
       </select>
     </label>
-    <label>Préférence de pratique
-      <select id="trainingPreference">
-        <option value="">À choisir</option>
-        <option value="home">Maison</option>
-        <option value="gym">Salle</option>
-        <option value="outdoor">Extérieur</option>
-        <option value="video">Visioconférence</option>
-        <option value="any">Peu importe</option>
-      </select>
-    </label>
-    <label>Pathologies / antécédents<select id="medicalFlag"><option value="">À choisir</option><option value="none">Aucun</option><option value="yes">Oui</option></select></label>
-    <label>Pathologies / détails<input id="medicalNotes" placeholder="Diabète, hypertension, arthrose..."></label>
-    <label>Blessures / douleur actuelle<input id="injuryNotes" placeholder="Épaule, genou, dos..."></label>
+    <div class="multi-block"><label>Préférence de pratique</label><div id="trainingPreferenceMulti" class="checks chips-multi">
+      <label class="chk"><input type="checkbox" value="home"> <span>Maison</span></label>
+      <label class="chk"><input type="checkbox" value="gym"> <span>Salle</span></label>
+      <label class="chk"><input type="checkbox" value="outdoor"> <span>Extérieur</span></label>
+      <label class="chk"><input type="checkbox" value="video"> <span>Visioconférence</span></label>
+      <label class="chk"><input type="checkbox" value="any"> <span>Peu importe</span></label>
+    </div></div>
+    <div class="multi-block"><label>Pathologies / antécédents connus</label><div id="medicalPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="diabète"> <span>Diabète</span></label>
+      <label class="chk"><input type="checkbox" value="hypertension"> <span>Hypertension</span></label>
+      <label class="chk"><input type="checkbox" value="arthrose"> <span>Arthrose</span></label>
+      <label class="chk"><input type="checkbox" value="asthme"> <span>Asthme</span></label>
+      <label class="chk"><input type="checkbox" value="lombalgie"> <span>Lombalgie</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
+    <label>Pathologies / détails<input id="medicalNotes" placeholder="Compléter si nécessaire"></label>
+    <div class="multi-block"><label>Blessures / douleur actuelle</label><div id="injuryPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="épaule"> <span>Épaule</span></label>
+      <label class="chk"><input type="checkbox" value="genou"> <span>Genou</span></label>
+      <label class="chk"><input type="checkbox" value="dos"> <span>Dos</span></label>
+      <label class="chk"><input type="checkbox" value="cheville"> <span>Cheville</span></label>
+      <label class="chk"><input type="checkbox" value="poignet"> <span>Poignet</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
     <label>Médicaments<input id="medicationNotes" placeholder="Optionnel"></label>
-    <label>Allergies / alimentation<select id="foodFlag"><option value="">À choisir</option><option value="none">Aucune</option><option value="yes">Oui</option></select></label>
-    <label>Détails nutrition / allergies<input id="foodNotes" placeholder="Végétarien, gluten, lactose..."></label>
-    <label>Type de coaching
-      <select id="coachingType">
-        <option value="">À choisir</option>
-        <option value="general">Coaching sportif général</option>
-        <option value="health">Coaching santé / rééducation</option>
-        <option value="fitness">Coaching fitness</option>
-        <option value="boxing">Coaching boxe</option>
-        <option value="nutrition">Conseil nutritionnel</option>
-        <option value="stretching">Coaching stretching</option>
-      </select>
-    </label>
-    <label>Accompagnement live
-      <select id="liveMode">
-        <option value="">À choisir</option>
-        <option value="none">Aucun</option>
-        <option value="video">Visioconférence</option>
-        <option value="outdoor">Présentiel extérieur</option>
-        <option value="gym">Présentiel en salle</option>
-      </select>
-    </label>
+    <div class="multi-block"><label>Allergies / alimentation</label><div id="foodPreset" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="végétarien"> <span>Végétarien</span></label>
+      <label class="chk"><input type="checkbox" value="végan"> <span>Végan</span></label>
+      <label class="chk"><input type="checkbox" value="sans gluten"> <span>Sans gluten</span></label>
+      <label class="chk"><input type="checkbox" value="sans lactose"> <span>Sans lactose</span></label>
+      <label class="chk"><input type="checkbox" value="allergie arachides"> <span>Arachides</span></label>
+      <label class="chk"><input type="checkbox" value="autre"> <span>Autre</span></label>
+    </div></div>
+    <label>Détails nutrition / allergies<input id="foodNotes" placeholder="Compléter si nécessaire"></label>
+    <div class="multi-block"><label>Type de coaching</label><div id="coachingTypeMulti" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="general"> <span>Sportif général</span></label>
+      <label class="chk"><input type="checkbox" value="health"> <span>Santé / rééducation</span></label>
+      <label class="chk"><input type="checkbox" value="fitness"> <span>Fitness</span></label>
+      <label class="chk"><input type="checkbox" value="boxing"> <span>Boxe</span></label>
+      <label class="chk"><input type="checkbox" value="nutrition"> <span>Nutrition</span></label>
+      <label class="chk"><input type="checkbox" value="stretching"> <span>Stretching</span></label>
+      <label class="chk"><input type="checkbox" value="hyrox"> <span>Hyrox</span></label>
+      <label class="chk"><input type="checkbox" value="trail"> <span>Trail / course</span></label>
+      <label class="chk"><input type="checkbox" value="return"> <span>Retour blessure</span></label>
+      <label class="chk"><input type="checkbox" value="kids"> <span>Kids / ados</span></label>
+      <label class="chk"><input type="checkbox" value="senior"> <span>Séniors</span></label>
+    </div></div>
+    <div class="multi-block"><label>Accompagnement</label><div id="liveModeMulti" class="checks chips-multi preset-grid">
+      <label class="chk"><input type="checkbox" value="none"> <span>Aucun</span></label>
+      <label class="chk"><input type="checkbox" value="video"> <span>Visioconférence</span></label>
+      <label class="chk"><input type="checkbox" value="outdoor"> <span>Présentiel extérieur</span></label>
+      <label class="chk"><input type="checkbox" value="gym"> <span>Présentiel en salle</span></label>
+      <label class="chk"><input type="checkbox" value="chat"> <span>Suivi messagerie</span></label>
+      <label class="chk"><input type="checkbox" value="voice"> <span>Feedback vocal</span></label>
+    </div></div>
   </div>
 </div>
 <div class="panel">
@@ -266,7 +285,7 @@
 
       <div class="action-help"><span><strong>Enregistrer pour l’adhérent</strong> : stocke le programme côté app pour qu’il soit accessible avec son code.</span><span><strong>Générer lien adhérent</strong> : crée le lien direct à lui envoyer en lecture seule.</span></div><div class="coach-top-info"><span class="info-pill">Conseil : commence par un objectif principal, puis affine avec la zone et le focus.</span><span class="info-pill">Astuce : si tu n’as pas de matériel précis, coche aussi les substitutions du quotidien.</span></div><div class="actions big-actions">
         <button onclick="generateProgram()">Générer le programme</button>
-        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="generateShareLink()">Générer lien adhérent</button>
+        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="generateShareLink()">Générer lien adhérent</button><span id="copyBadge" class="copy-badge hidden">Copié</span><span id="copyLinkBadge" class="copy-badge hidden">Lien copié</span>
         <button class="ghost" onclick="printProgram()">Exporter PDF premium</button>
       </div>
 
