@@ -24,6 +24,9 @@
       <button class="navbtn" data-view="library">📚 Bibliothèque</button>
       <button class="navbtn" data-view="athlete">👤 Adhérent</button>
       <button class="navbtn" data-view="progress">📈 Suivi</button>
+      <button class="navbtn" data-view="nutrition">🥗 Nutrition</button>
+      <button class="navbtn" data-view="business">💼 Business</button>
+      <button class="navbtn" data-view="live">📅 Booking / Live</button>
     </nav>
   </aside>
 
@@ -370,6 +373,93 @@
       </div>
       <div id="analyticsOutput" class="panel"></div><div id="trackingOutput" class="cards"></div>
     </section>
+
+<section id="nutrition" class="view">
+  <div class="section-head"><h2>Nutrition premium</h2></div>
+  <div class="panel">
+    <p>Recherche un adhérent via son code, retrouve ses calories, ses macros, ses menus et suis ses repas de manière simple et claire.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="nutritionCode" placeholder="ALEX01"></label>
+      <label>Date du repas<input id="mealDate" type="date"></label>
+      <label>Moment du repas
+        <select id="mealMoment">
+          <option value="">À choisir</option>
+          <option>Petit-déjeuner</option>
+          <option>Déjeuner</option>
+          <option>Collation</option>
+          <option>Dîner</option>
+        </select>
+      </label>
+      <label>Calories estimées<input id="mealCalories" type="number" step="1" placeholder="450"></label>
+    </div>
+    <label>Repas / aliments<textarea id="mealText" rows="3" placeholder="Ex : poulet, riz, légumes, fruit"></textarea></label>
+    <div class="actions"><button onclick="openNutritionForCode()">Afficher le plan nutrition</button><button class="ghost" onclick="saveMealLog()">Enregistrer ce repas</button></div>
+  </div>
+  <div id="nutritionOutput" class="panel"></div>
+  <div id="mealLogOutput" class="cards"></div>
+  <div id="foodBankOutput" class="panel"></div>
+</section>
+
+<section id="business" class="view">
+  <div class="section-head"><h2>Business / CRM</h2></div>
+  <div class="panel">
+    <p>Gère le statut client, les paiements, les échéances, les notes privées et les relances dans une interface coach claire.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="bizCode" placeholder="ALEX01"></label>
+      <label>Statut abonnement
+        <select id="bizStatus">
+          <option value="">À choisir</option>
+          <option value="actif">Actif</option>
+          <option value="pause">En pause</option>
+          <option value="impaye">Impayé</option>
+          <option value="termine">Terminé</option>
+        </select>
+      </label>
+      <label>Formule<input id="bizPlan" placeholder="Coaching premium mensuel"></label>
+      <label>Montant payé (€)<input id="bizAmount" type="number" step="0.01"></label>
+      <label>Mode de paiement
+        <select id="bizPaymentMethod">
+          <option value="">À choisir</option>
+          <option>Virement</option>
+          <option>CB</option>
+          <option>Espèces</option>
+          <option>PayPal</option>
+        </select>
+      </label>
+      <label>Prochaine échéance<input id="bizRenewal" type="date"></label>
+    </div>
+    <label>Notes coach privées<textarea id="bizNotes" rows="4" placeholder="Relance, vigilance, adaptation, infos utiles..."></textarea></label>
+    <div class="actions"><button onclick="saveBusiness()">Enregistrer le suivi business</button><button class="ghost" onclick="renderBusinessCenter()">Actualiser la vue CRM</button></div>
+  </div>
+  <div id="businessOutput" class="panel"></div>
+</section>
+
+<section id="live" class="view">
+  <div class="section-head"><h2>Booking / coaching live</h2></div>
+  <div class="panel">
+    <p>Planifie des séances visio, extérieur ou présentiel, avec rappel simple et lecture planning mobile/ordinateur.</p>
+    <div class="form-grid">
+      <label>Code adhérent<input id="bookCode" placeholder="ALEX01"></label>
+      <label>Nom séance<input id="bookTitle" placeholder="Boxe technique / Visio nutrition"></label>
+      <label>Date<input id="bookDate" type="date"></label>
+      <label>Heure<input id="bookTime" type="time"></label>
+      <label>Format
+        <select id="bookMode">
+          <option value="">À choisir</option>
+          <option>Visioconférence</option>
+          <option>Présentiel salle</option>
+          <option>Extérieur</option>
+          <option>Téléphone / suivi</option>
+        </select>
+      </label>
+      <label>Lien / lieu<input id="bookLink" placeholder="Lien visio ou adresse / lieu"></label>
+    </div>
+    <label>Note séance<textarea id="bookNote" rows="3" placeholder="Objectif de la séance, matériel prévu, point à travailler..."></textarea></label>
+    <div class="actions"><button onclick="saveBooking()">Ajouter au planning</button><button class="ghost" onclick="renderBookingList()">Actualiser le planning</button></div>
+  </div>
+  <div id="bookingOutput" class="panel"></div>
+</section>
+
   </main>
 </div>
 <script src="app.js"></script>

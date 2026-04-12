@@ -266,3 +266,9 @@ body{scroll-behavior:smooth}
 @media (max-width:700px){
   .calendar-grid,.habit-grid,.program-header-grid,.onboarding-summary{grid-template-columns:1fr}
 }
+
+
+/* V18 ecosystem complete */
+#nutritionOutput .summary, #businessOutput .summary, #bookingOutput .summary{margin-top:12px}
+textarea{min-height:96px}
+#foodBankOutput .card p{margin:8px 0 0}

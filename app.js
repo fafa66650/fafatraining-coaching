@@ -115,6 +115,9 @@ async function init(){
   renderLibrary();
   loadTracking();
   hydrateAthleteFromLink();
+  renderFoodBank();
+  renderBookingList();
+  renderBusinessCenter();
   renderHomeEnhancements();
 }
 
@@ -179,10 +182,12 @@ function renderAthleteHabits(p){
   if($('#athleteHabits')){ $('#athleteHabits').classList.remove('hidden'); $('#athleteHabits').innerHTML = html; }
 }
 
+
 function renderHomeEnhancements(){
   const programs = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
   const tracking = JSON.parse(localStorage.getItem('fafaTracking')||'{}');
   const business = JSON.parse(localStorage.getItem('fafaBusiness')||'{}');
+  const bookings = JSON.parse(localStorage.getItem('fafaBookings')||'{}');
   const codes = Object.keys(programs);
   const activeClients = Object.values(business).filter(x=>x.status==='actif').length || codes.length;
   const revenue = Object.values(business).reduce((a,b)=>a + Number(b.amount||0), 0);
@@ -195,13 +200,9 @@ function renderHomeEnhancements(){
     const diff = (d - new Date()) / 86400000;
     return diff >= 0 && diff <= 7;
   }).length;
+  const bookingCount = Object.values(bookings).flat().length;
   const lastWeights = [];
-  Object.values(tracking).forEach(arr=>{
-    if(arr?.length){
-      const last = arr[arr.length-1];
-      if(last.weight) lastWeights.push(Number(last.weight));
-    }
-  });
+  Object.values(tracking).forEach(arr=>{ if(arr?.length){ const last = arr[arr.length-1]; if(last.weight) lastWeights.push(Number(last.weight)); } });
   const avgWeight = lastWeights.length ? (lastWeights.reduce((a,b)=>a+b,0)/lastWeights.length).toFixed(1) : '-';
   const html = `
     <div class="panel">
@@ -210,18 +211,20 @@ function renderHomeEnhancements(){
         <div class="kpi"><strong>${codes.length}</strong><span>programmes enregistrés</span></div>
         <div class="kpi"><strong>${activeClients}</strong><span>clients actifs</span></div>
         <div class="kpi"><strong>${dueSoon}</strong><span>échéances &lt; 7 jours</span></div>
-        <div class="kpi"><strong>${avgWeight}</strong><span>poids moyen suivi</span></div>
+        <div class="kpi"><strong>${bookingCount}</strong><span>séances live planifiées</span></div>
       </div>
       <div class="timeline-legend">
         <div class="timeline-pill">Programme : moteur coach + cycle + nutrition</div>
         <div class="timeline-pill">Adhérent : lecture séance + historique + RPE</div>
-        <div class="timeline-pill">Suivi : poids, taille, énergie, assiduité</div>
-        <div class="timeline-pill">Business : statut, paiement, renouvellement</div>
+        <div class="timeline-pill">Business : paiements, échéances, CRM</div>
+        <div class="timeline-pill">Live : booking visio / présentiel / extérieur</div>
       </div>
+      <div class="mini-help"><strong>Lecture rapide</strong><span>Poids moyen suivi : ${avgWeight} kg · mets à jour la nutrition, les paiements et les séances live pour garder un vrai cockpit coach.</span></div>
     </div>
   `;
   if($('#studioHomeDashboard')) $('#studioHomeDashboard').innerHTML = html;
 }
+
 
 function buildEquipmentGrid(){
   $('#equipmentGrid').innerHTML = EQUIPMENTS.map(([k,l])=>`<label class="chk equip"><input type="checkbox" value="${k}"> <span>${l}</span></label>`).join('');
@@ -1006,3 +1009,84 @@ function renderBusinessPanel(){
 }
 
 window.addEventListener('load', ()=>{ try{ renderBusinessPanel(); }catch(e){} });
+
+
+function nutritionTargetReason(goal){
+  return goal==='fat_loss' ? 'déficit modéré pour perdre sans casser l’énergie' :
+         goal==='muscle_gain' ? 'léger surplus pour construire plus proprement' :
+         goal==='conditioning' ? 'cadre énergétique suffisant pour performer et récupérer' :
+         'base de maintien ajustable selon l’évolution réelle';
+}
+function openNutritionForCode(){
+  const code = ($('#nutritionCode').value||'').trim().toUpperCase();
+  const all = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
+  const p = all[code];
+  if(!p){ $('#nutritionOutput').innerHTML = '<p>Aucun programme trouvé pour ce code.</p>'; return; }
+  const nutrition = p.nutrition || null;
+  const html = `
+    <h3>Plan nutrition · ${esc(code)}</h3>
+    <div class="dashboard-kpi">
+      <div class="kpi"><strong>${nutrition ? nutrition.kcal : '-'}</strong><span>kcal / jour</span></div>
+      <div class="kpi"><strong>${nutrition ? nutrition.protein : '-'}</strong><span>protéines</span></div>
+      <div class="kpi"><strong>${nutrition ? nutrition.carbs : '-'}</strong><span>glucides</span></div>
+      <div class="kpi"><strong>${nutrition ? nutrition.fats : '-'}</strong><span>lipides</span></div>
+    </div>
+    <div class="summary"><p><strong>Pourquoi ce cadre :</strong> ${nutritionTargetReason(p.mainGoal)}</p><p><strong>Lecture coach :</strong> base à ajuster selon la faim, le poids, l’énergie, l’assiduité et les retours adhérent.</p></div>
+    ${renderNutritionBox(nutrition, p.mainGoal)}
+  `;
+  $('#nutritionOutput').innerHTML = html;
+  renderMealLogs(code);
+}
+function saveMealLog(){
+  const code = ($('#nutritionCode').value||'').trim().toUpperCase();
+  if(!code){ alert('Ajoute un code adhérent.'); return; }
+  const all = JSON.parse(localStorage.getItem('fafaMealLogs')||'{}');
+  if(!all[code]) all[code] = [];
+  all[code].push({
+    date: $('#mealDate').value,
+    moment: $('#mealMoment').value,
+    calories: Number($('#mealCalories').value||0),
+    text: ($('#mealText').value||'').trim()
+  });
+  localStorage.setItem('fafaMealLogs', JSON.stringify(all));
+  renderMealLogs(code);
+}
+function renderMealLogs(code){
+  const all = JSON.parse(localStorage.getItem('fafaMealLogs')||'{}');
+  const arr = (all[code]||[]).slice().reverse();
+  $('#mealLogOutput').innerHTML = arr.length ? arr.map(x=>`<article class="library-card"><div class="meta"><span class="badge">${esc(x.date||'-')}</span><span class="badge">${esc(x.moment||'-')}</span><span class="badge">${x.calories||0} kcal</span></div><p>${esc(x.text||'')}</p></article>`).join('') : '<p>Aucun repas enregistré pour ce code.</p>';
+}
+function renderFoodBank(){
+  const blocks = [
+    ['Protéines maigres','Poulet, dinde, œufs, skyr, thon, tofu'],
+    ['Glucides utiles','Riz, flocons d’avoine, pommes de terre, quinoa, pâtes, fruits'],
+    ['Lipides qualité','Huile d’olive, avocat, oléagineux, saumon'],
+    ['Collations simples','Fruit + yaourt, shake protéiné, amandes, tartines complètes']
+  ];
+  $('#foodBankOutput').innerHTML = '<h3>Banque alimentaire coach</h3><div class="team-grid">' + blocks.map(([t,c])=>`<div class="card"><strong>${t}</strong><p>${c}</p></div>`).join('') + '</div>';
+}
+function renderBusinessCenter(){
+  if(typeof renderBusinessPanel === 'function'){ renderBusinessPanel(); return; }
+}
+function saveBooking(){
+  const all = JSON.parse(localStorage.getItem('fafaBookings')||'{}');
+  const code = ($('#bookCode').value||'').trim().toUpperCase();
+  if(!code){ alert('Ajoute un code adhérent.'); return; }
+  if(!all[code]) all[code]=[];
+  all[code].push({
+    code,
+    title: ($('#bookTitle').value||'').trim(),
+    date: $('#bookDate').value,
+    time: $('#bookTime').value,
+    mode: $('#bookMode').value,
+    link: ($('#bookLink').value||'').trim(),
+    note: ($('#bookNote').value||'').trim()
+  });
+  localStorage.setItem('fafaBookings', JSON.stringify(all));
+  renderBookingList();
+}
+function renderBookingList(){
+  const all = JSON.parse(localStorage.getItem('fafaBookings')||'{}');
+  const rows = Object.values(all).flat().sort((a,b)=>`${a.date||''} ${a.time||''}`.localeCompare(`${b.date||''} ${b.time||''}`));
+  $('#bookingOutput').innerHTML = `<h3>Planning coaching live</h3><div class="crm-list">${rows.length ? rows.map(r=>`<div class="crm-row"><div class="left"><strong>${esc(r.code)} · ${esc(r.title||'Séance')}</strong><span>${esc(r.mode||'')}</span></div><div class="right"><div>${esc(r.date||'')}</div><div>${esc(r.time||'')}</div><div>${esc(r.link||'')}</div></div></div>`).join('') : '<p>Aucune séance planifiée pour le moment.</p>'}</div>`;
+}
