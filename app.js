@@ -1,4 +1,9 @@
 
+const LEVEL_LABELS = {beginner:'Débutant', intermediate:'Intermédiaire', advanced:'Avancé'};
+const CYCLE_LABELS = {hypertrophy:'Hypertrophie', strength:'Force', conditioning:'Conditionnement', peak:'Peaking', maintenance:'Maintien'};
+function labelForLevel(v){ return LEVEL_LABELS[v] || v; }
+function labelForCycle(v){ return CYCLE_LABELS[v] || v; }
+
 let EXERCISES = [];
 const EQUIPMENTS = [
   ['bodyweight','Poids du corps'],['mat','Tapis de sol'],['dumbbell','Haltères'],['barbell','Barre olympique / standard'],
@@ -112,20 +117,76 @@ async function init(){
   hydrateAthleteFromLink();
   renderHomeEnhancements();
 }
+
 function renderHomeEnhancements(){
-  const hero = $('#home .hero-copy');
-  if(hero){
-    const x = document.createElement('div');
-    x.className='mini-help premium-home';
-    x.innerHTML='';
-    hero.appendChild(x);
-  }
+  const programs = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
+  const tracking = JSON.parse(localStorage.getItem('fafaTracking')||'{}');
+  const business = JSON.parse(localStorage.getItem('fafaBusiness')||'{}');
+  const codes = Object.keys(programs);
+  const activeClients = Object.values(business).filter(x=>x.status==='actif').length || codes.length;
+  const revenue = Object.values(business).reduce((a,b)=>a + Number(b.amount||0), 0);
+  if($('#homeClientCount')) $('#homeClientCount').textContent = String(activeClients);
+  if($('#homeProgramCount')) $('#homeProgramCount').textContent = String(codes.length);
+  if($('#homeRevenue')) $('#homeRevenue').textContent = `${Math.round(revenue)} €`;
+  const dueSoon = Object.entries(business).filter(([_,v])=>{
+    if(!v.renewal) return false;
+    const d = new Date(v.renewal);
+    const diff = (d - new Date()) / 86400000;
+    return diff >= 0 && diff <= 7;
+  }).length;
+  const lastWeights = [];
+  Object.values(tracking).forEach(arr=>{
+    if(arr?.length){
+      const last = arr[arr.length-1];
+      if(last.weight) lastWeights.push(Number(last.weight));
+    }
+  });
+  const avgWeight = lastWeights.length ? (lastWeights.reduce((a,b)=>a+b,0)/lastWeights.length).toFixed(1) : '-';
+  const html = `
+    <div class="panel">
+      <h3>Dashboard studio coach</h3>
+      <div class="dashboard-kpi">
+        <div class="kpi"><strong>${codes.length}</strong><span>programmes enregistrés</span></div>
+        <div class="kpi"><strong>${activeClients}</strong><span>clients actifs</span></div>
+        <div class="kpi"><strong>${dueSoon}</strong><span>échéances &lt; 7 jours</span></div>
+        <div class="kpi"><strong>${avgWeight}</strong><span>poids moyen suivi</span></div>
+      </div>
+      <div class="timeline-legend">
+        <div class="timeline-pill">Programme : moteur coach + cycle + nutrition</div>
+        <div class="timeline-pill">Adhérent : lecture séance + historique + RPE</div>
+        <div class="timeline-pill">Suivi : poids, taille, énergie, assiduité</div>
+        <div class="timeline-pill">Business : statut, paiement, renouvellement</div>
+      </div>
+    </div>
+  `;
+  if($('#studioHomeDashboard')) $('#studioHomeDashboard').innerHTML = html;
 }
+
 function buildEquipmentGrid(){
-  $('#equipmentGrid').innerHTML = EQUIPMENTS.map(([k,l])=>`<label class="chk"><input type="checkbox" value="${k}"> <span>${l}</span></label>`).join('');
-  $('#environmentSelect').addEventListener('change', ()=>{ $('#presetLabel').textContent='Contexte choisi : '+($('#environmentSelect').selectedOptions[0]?.textContent||''); });
+  $('#equipmentGrid').innerHTML = EQUIPMENTS.map(([k,l])=>`<label class="chk equip"><input type="checkbox" value="${k}"> <span>${l}</span></label>`).join('');
+  const syncEnv = ()=>{
+    const txt = $('#environmentSelect').selectedOptions[0]?.textContent || 'Aucun contexte';
+    if($('#presetStatus')) $('#presetStatus').textContent = `Contexte choisi : ${txt}`;
+    if($('#presetLabel')) $('#presetLabel').textContent = `Contexte choisi : ${txt}`;
+  };
+  $('#environmentSelect').addEventListener('change', syncEnv);
+  syncEnv();
 }
-function applyEquipmentPreset(){}
+
+function applyEquipmentPreset(){
+  // Préremplissage doux, l'utilisateur reste libre d'ajouter/retirer du matériel.
+
+  const env = $('#environmentSelect').value;
+  const preset = PRESETS[env] || [];
+  const boxes = $$('#equipmentGrid input[type="checkbox"]');
+  boxes.forEach(b=> b.checked = preset.includes(b.value));
+  const label = $('#presetLabel');
+  const status = $('#presetStatus');
+  const txt = preset.length ? `Pré-sélection appliquée : ${preset.length} éléments. Tu peux ensuite compléter ou retirer librement.` : 'Aucun préremplissage automatique.';
+  if(label) label.textContent = txt;
+  if(status) status.textContent = txt;
+}
+
 function buildLibraryFilters(){
   const cats = [''].concat([...new Set(EXERCISES.map(e=>e.category))]);
   $('#libCategory').innerHTML = cats.map(c=>`<option value="${c}">${c || 'Toutes les catégories'}</option>`).join('');
@@ -328,32 +389,78 @@ function computeExercisesPerDay(duration, mainGoal, module){
   if(['mobility','recovery'].includes(mainGoal)) return d>=60 ? 5 : 4;
   if(d>=90) return 8; if(d>=75) return 7; if(d>=60) return 6; if(d>=45) return 5; return 4;
 }
+
 function buildCycle(weeks, cycleGoal, fatigue){
   const arr = [];
+  const deloadEvery = weeks >= 8 ? 4 : weeks >= 6 ? 3 : 0;
   for(let i=1;i<=weeks;i++){
-    const isDeload = i%4===0;
-    arr.push({
-      week:i,
-      phase: isDeload ? 'Déload' : (i<=Math.ceil(weeks/2) ? 'Accumulation' : cycleGoal==='peak' ? 'Intensification / peaking' : 'Intensification'),
-      volume: isDeload ? '-35%' : (i===1 ? 'base' : '+'+Math.min(5*(i-1),15)+'%'),
-      intensity: isDeload ? 'modérée' : (cycleGoal==='strength' ? (i<weeks ? 'haute' : 'très haute') : cycleGoal==='hypertrophy' ? 'modérée à haute' : 'variable'),
-      recoveryFocus: fatigue==='high' || isDeload ? 'prioritaire' : 'standard'
-    });
+    const isDeload = deloadEvery ? i % deloadEvery === 0 : false;
+    const phase =
+      isDeload ? 'Déload / récupération' :
+      i <= Math.ceil(weeks*0.4) ? 'Accumulation technique' :
+      i <= Math.ceil(weeks*0.75) ? (cycleGoal==='strength' ? 'Intensification force' : cycleGoal==='hypertrophy' ? 'Montée en volume' : 'Développement spécifique') :
+      cycleGoal==='peak' ? 'Peaking / affûtage' : 'Consolidation';
+    const volume =
+      isDeload ? '-35%' :
+      i===1 ? 'base' :
+      i<=Math.ceil(weeks*0.4) ? '+5%' :
+      i<=Math.ceil(weeks*0.75) ? '+8%' :
+      '+3%';
+    const intensity =
+      isDeload ? 'modérée' :
+      cycleGoal==='strength' ? (i<weeks ? 'haute' : 'très haute') :
+      cycleGoal==='hypertrophy' ? (i<weeks ? 'modérée à haute' : 'haute') :
+      cycleGoal==='conditioning' ? 'variable et soutenue' :
+      'contrôlée';
+    const coachNote =
+      isDeload ? 'Semaine pour faire redescendre la fatigue, garder la technique et repartir plus propre.' :
+      fatigue==='high' ? 'Surveille la récupération, le sommeil et évite de forcer à l’échec.' :
+      'Progression normale, technique propre et marge de sécurité.';
+    arr.push({week:i, phase, volume, intensity, recoveryFocus: fatigue==='high' || isDeload ? 'prioritaire' : 'standard', coachNote});
   }
   return arr;
 }
+
 function renderBMIBox(bmi){
   if(!bmi) return '<p>Ajoute taille et poids pour calculer l’IMC réel.</p>';
   return `<div class="summary"><h4>IMC réel : ${bmi.value}</h4><p><strong>Interprétation :</strong> ${esc(bmi.label)}</p><p><strong>Lecture coach :</strong> ${esc(bmi.risk)}</p></div>`;
 }
+
 function renderNutritionBox(nutri, goal){
   if(!nutri) return '<p>Ajoute taille, poids, âge et sexe pour calculer les besoins.</p>';
   const menu = nutritionMenu(goal);
-  return `<div class="summary"><h4>${nutri.kcal} kcal / jour</h4><p><strong>Pourquoi :</strong> base de départ pour cadrer l'énergie et les macros selon le profil et l'objectif. À ajuster après 2 à 3 semaines de suivi.</p><p><strong>Macros :</strong> protéines ${nutri.protein} g · glucides ${nutri.carbs} g · lipides ${nutri.fats} g</p><p><strong>Petit-déj :</strong> ${esc(menu.breakfast)}</p><p><strong>Déjeuner :</strong> ${esc(menu.lunch)}</p><p><strong>Snack :</strong> ${esc(menu.snack)}</p><p><strong>Dîner :</strong> ${esc(menu.dinner)}</p></div>`;
+  const why = goal==='fat_loss' ? 'Déficit modéré pour perdre sans détruire l’énergie.' :
+              goal==='muscle_gain' ? 'Léger surplus pour construire sans prise de gras excessive.' :
+              goal==='conditioning' ? 'Assez d’énergie pour tenir le volume et récupérer.' :
+              'Base de maintien ajustable selon le ressenti, le poids et la régularité.';
+  return `<div class="summary"><h4>${nutri.kcal} kcal / jour</h4>
+    <p><strong>Pourquoi ce cadre :</strong> ${why}</p>
+    <p><strong>Macros :</strong> protéines ${nutri.protein} g · glucides ${nutri.carbs} g · lipides ${nutri.fats} g</p>
+    <div class="export-chip">Petit-déj · ${esc(menu.breakfast)}</div>
+    <div class="export-chip">Déjeuner · ${esc(menu.lunch)}</div>
+    <div class="export-chip">Snack · ${esc(menu.snack)}</div>
+    <div class="export-chip">Dîner · ${esc(menu.dinner)}</div>
+    <p class="pdf-note">Lecture coach : point de départ à ajuster après 2 à 3 semaines selon poids, faim, énergie et assiduité.</p>
+  </div>`;
 }
+
 function renderCycleTimeline(cycle){
-  return `<div class="cycle-grid">${cycle.map(w=>`<div class="cycle-card ${w.phase.includes('Déload')?'deload':''}"><strong>S${w.week}</strong><span>${esc(w.phase)}</span><small>Volume ${esc(w.volume)} · intensité ${esc(w.intensity)}</small></div>`).join('')}</div>`;
+  return `<div class="cycle-grid">${cycle.map(w=>`<button class="cycle-card ${w.phase.includes('Déload')?'deload':''}" onclick="showCycleWeek(${w.week}, '${esc(w.phase)}', '${esc(w.volume)}', '${esc(w.intensity)}')"><strong>S${w.week}</strong><span>${esc(w.phase)}</span><small>Volume ${esc(w.volume)} · intensité ${esc(w.intensity)}</small></button>`).join('')}</div>`;
 }
+
+function showCycleWeek(week, phase, volume, intensity){
+  const el = document.getElementById('cycleInfo');
+  const cards = document.querySelectorAll('.cycle-card');
+  cards.forEach(btn=>btn.classList.remove('active-week'));
+  const active = Array.from(cards).find(btn=>btn.textContent.includes(`S${week}`));
+  if(active) active.classList.add('active-week');
+  const all = window.currentProgram?.cycle || [];
+  const meta = all.find(x=>x.week===Number(week));
+  if(el) el.innerHTML = `<strong>Semaine ${week}</strong><span>Phase : ${phase} · volume ${volume} · intensité ${intensity}. ${meta?.coachNote || 'Cette semaine sert à organiser la progression sans surcharger inutilement.'}</span>`;
+}
+</strong><span>Phase : ${phase} · volume ${volume} · intensité ${intensity}. Cette semaine sert à organiser la progression sans surcharger inutilement.</span>`;
+}
+
 function exerciseHtml(ex, mode){
   const showCoach = mode==='coach';
   const showBeginner = mode==='beginner' || mode==='coach';
@@ -364,7 +471,7 @@ function exerciseHtml(ex, mode){
       <div class="meta">
         <span class="badge">${esc(ex.category)}</span>
         <span class="badge">${esc(ex.subcategory)}</span>
-        ${showCoach ? `<span class="badge">${esc(ex.level)}</span>` : ''}
+        ${showCoach ? `<span class="badge">${esc(labelForLevel(ex.level))}</span>` : ''}
         ${showCoach && ex.pattern ? `<span class="badge">${esc(ex.pattern)}</span>` : ''}
       </div>
       <strong>${esc(ex.name)}</strong><br>
@@ -383,23 +490,23 @@ function displayMode(level, coachView){
 function renderProgram(p, coachView){
   const mode = displayMode(p.level, coachView);
   const bmi = p.bmi ? `<p><strong>IMC :</strong> ${esc(p.bmi.value)} · ${esc(p.bmi.label)}</p>` : '';
-  const nutrition = p.nutrition ? `<p><strong>Nutrition :</strong> ${p.nutrition.kcal} kcal · P ${p.nutrition.protein}g · G ${p.nutrition.carbs}g · L ${p.nutrition.fats}g</p>` : '';
+  const nutrition = p.nutrition ? `<p><strong>Nutrition :</strong> ${p.nutrition.kcal} kcal · Protéines ${p.nutrition.protein}g · Glucides ${p.nutrition.carbs}g · Lipides ${p.nutrition.fats}g</p>` : '';
   const module = p.specialModule ? `<p><strong>Module FAFATRAINING :</strong> ${esc(moduleLabels[p.specialModule] || p.specialModule)}</p>` : '';
   return `
     <div class="summary">
       <h3>${esc(p.name)}</h3><p class="muted">Code adhérent : ${esc(p.code)}</p>
       <p><strong>Objectif principal :</strong> ${esc(labelForGoal(p.mainGoal))} ${p.secondGoal ? `· <strong>objectif secondaire :</strong> ${esc(labelForGoal(p.secondGoal))}`:''}</p>
-      <p><strong>Niveau :</strong> ${esc(p.level)} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Contexte :</strong> ${esc(ENV_LABELS[p.env] || p.env)}</p>
+      <p><strong>Niveau :</strong> ${esc(labelForLevel(p.level))} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Contexte :</strong> ${esc(ENV_LABELS[p.env] || p.env)}</p>
       ${bmi}
-      ${nutrition}${p.nutrition?`<div class="mini-help"><strong>Nutrition intelligente</strong><span>Ces calories et macros donnent une base claire. Elles servent à démarrer correctement puis à ajuster selon le poids, l’énergie, la faim, la récupération et les résultats.</span></div>`:''}
+      ${nutrition}${p.nutrition?`<div class="mini-help"><strong>Nutrition intelligente</strong><span>Ces chiffres servent de base coach. Ils aident à démarrer juste, puis s’ajustent selon la faim, l’énergie, la récupération, le poids et les résultats observés semaine après semaine.</span></div>`:''}
       ${module}
-      <p><strong>Bloc :</strong> ${p.cycleWeeks} semaines · <strong>orientation :</strong> ${esc(p.cycleGoal)}</p>
+      <p><strong>Bloc :</strong> ${p.cycleWeeks} semaines · <strong>orientation :</strong> ${esc(labelForCycle(p.cycleGoal))}</p>
       <div class="meta">${p.warmup.map(x=>`<span class="badge">${esc(x)}</span>`).join(' ')}</div>${!coachView && mode==='beginner' ? `<div class="mini-help"><strong>Comment lire le programme</strong><span>Une série = un bloc de répétitions. Reps = nombre de répétitions. Repos = temps à récupérer avant de repartir.</span></div>` : ''}
       ${coachView ? `<div class="actions" style="margin-top:12px"><button class="ghost" onclick="generateShareLink()">Copier le lien adhérent</button><button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="printProgram()">Exporter le programme en PDF</button></div>` : ''}${!coachView && mode==='beginner' ? `<div class="mini-help"><strong>Lecture simple</strong><span>Lis chaque exercice une ligne après l’autre. Fais le nombre de séries indiqué, puis le nombre de répétitions, puis récupère le temps prévu avant de repartir.</span></div>`:''}
     </div>
     <div class="panel">
-      <h4>Timeline du cycle</h4>
-      ${renderCycleTimeline(p.cycle)}
+      <h4>Timeline du cycle</h4><p class="helper">Chaque carte représente une semaine. Clique dessus pour voir l’intention de la semaine.</p>
+      ${renderCycleTimeline(p.cycle)}<div id="cycleInfo" class="mini-help"><strong>Lecture du cycle</strong><span>Cliquer sur une semaine affiche son rôle : accumulation, intensification ou déload.</span></div>
     </div>
     <div class="program-days">
       ${p.days.map(day=>`
@@ -448,7 +555,8 @@ function generateProgram(){
   const usedRoots = new Set();
   const days = blueprints.map((bp, idx) => {
     let pool = filterPoolPremium(bp, env, level, equipment);
-    if(!pool.length) pool = EXERCISES.filter(ex => (ex.environments||[]).includes(env));
+    if(!pool.length) pool = EXERCISES.filter(ex => !env || (ex.environments||[]).includes(env));
+    if(!pool.length) pool = EXERCISES.slice();
     let chosen = [];
     const patternTargets = idx%2===0 ? ['squat','push','pull','core','engine'] : ['hinge','pull','push','core','engine'];
     for(const pattern of patternTargets){
@@ -508,15 +616,37 @@ function saveForAthlete(){
   const crm = JSON.parse(localStorage.getItem('fafaCRM')||'{}');
   crm[window.currentProgram.code] = {name:window.currentProgram.name, ...window.currentProgram.crm, mainGoal:window.currentProgram.mainGoal};
   localStorage.setItem('fafaCRM', JSON.stringify(crm));
-  alert(`Le programme ${window.currentProgram.code} est maintenant stocké côté application avec son profil, sa nutrition et son suivi coach.`);
+  alert(`Le programme ${window.currentProgram.code} est enregistré côté application. L’adhérent pourra l’ouvrir avec son code ou avec le lien direct.`);
 }
 function generateShareLink(){
   if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; }
   const link = window.currentProgram.athleteLink;
-  if(navigator.clipboard?.writeText){ navigator.clipboard.writeText(link).then(()=>alert('Lien adhérent copié.')).catch(()=>window.prompt('Copie ce lien adhérent :', link)); }
+  if(navigator.clipboard?.writeText){ navigator.clipboard.writeText(link).then(()=>alert('Lien adhérent copié. Tu peux maintenant le coller dans un SMS, WhatsApp ou mail.')).catch(()=>window.prompt('Copie ce lien adhérent :', link)); }
   else { window.prompt('Copie ce lien adhérent :', link); }
 }
-function printProgram(){ if(!window.currentProgram){ alert('Génère d’abord un programme.'); return; } const w=window.open('','_blank'); if(!w){ alert('Autorise les fenêtres pour exporter en PDF.'); return; } w.document.open(); w.document.write(exportProgramHTML(window.currentProgram)); w.document.close(); w.focus(); setTimeout(()=>w.print(),300); }
+
+function printProgram(){
+  if(!window.latestProgram){ alert('Génère d’abord un programme.'); return; }
+  const html = exportProgramHTML(window.latestProgram);
+  const frame = document.createElement('iframe');
+  frame.style.position = 'fixed';
+  frame.style.right = '0';
+  frame.style.bottom = '0';
+  frame.style.width = '0';
+  frame.style.height = '0';
+  frame.style.border = '0';
+  document.body.appendChild(frame);
+  const doc = frame.contentWindow.document;
+  doc.open();
+  doc.write(html);
+  doc.close();
+  frame.contentWindow.focus();
+  setTimeout(()=>{ frame.contentWindow.print(); }, 250);
+  setTimeout(()=>{ frame.remove(); }, 2000);
+}
+
+
+
 
 function renderLibrary(){
   const cat = $('#libCategory').value;
@@ -530,26 +660,38 @@ function renderLibrary(){
     (!env || (ex.environments||[]).includes(env)) &&
     (!q || [ex.name,ex.subcategory,ex.muscles,ex.cue,...(ex.tags||[]),...(ex.focus||[]),...(ex.areas||[])].join(' ').toLowerCase().includes(q))
   ).slice(0, 300);
-  $('#libraryOutput').innerHTML = arr.map(ex=>{
-    const pattern = patternFromExercise(ex);
-    const neural = fatigueCost(ex)>=4 ? 'élevée' : fatigueCost(ex)===3 ? 'modérée +' : 'modérée';
-    return `<article class="library-card">
-      <div class="meta">
-        <span class="badge">${esc(ex.category)}</span>
-        <span class="badge">${esc(ex.subcategory)}</span>
-        <span class="badge">${esc(ex.level)}</span>
-        <span class="badge">${esc(pattern)}</span>
+  $('#libraryOutput').innerHTML = `
+    <div class="panel">
+      <div class="library-toolbar">
+        <div class="summary"><h4>${arr.length}</h4><p>résultats</p></div>
+        <div class="summary"><h4>${cat || 'Toutes'}</h4><p>catégorie</p></div>
+        <div class="summary"><h4>${level ? labelForLevel(level) : 'Tous'}</h4><p>niveau</p></div>
+        <div class="summary"><h4>${env || 'Tous'}</h4><p>contexte</p></div>
+        <div class="summary"><h4>${q || '—'}</h4><p>recherche</p></div>
       </div>
-      <h4>${esc(ex.name)}</h4>
-      <p><strong>Muscles :</strong> ${esc(ex.muscles)}</p>
-      <p><strong>Consigne :</strong> ${esc(ex.cue)}</p>
-      <p><strong>Variante facile :</strong> ${esc(ex.easy)} · <strong>Variante avancée :</strong> ${esc(ex.hard)}</p>
-      <p><strong>Substitution coach :</strong> ${esc(substituteText(ex, env||'home') || 'Selon matériel disponible')}</p>
-      <p><strong>Biomécanique :</strong> pattern ${esc(pattern)} · fatigue nerveuse ${esc(neural)} · difficulté technique ${esc(ex.level==='advanced'?'haute':ex.level==='intermediate'?'moyenne':'accessible')}</p>
-      <p><strong>Matériel :</strong> ${(ex.equipment||[]).map(eqLabel).join(' · ')}</p>
-    </article>`;
+    </div>` + arr.map(ex=>{
+      const pattern = ex.biomech_pattern || patternFromExercise(ex);
+      const neural = ex.neural_fatigue || (fatigueCost(ex)>=4 ? 'élevée' : fatigueCost(ex)===3 ? 'modérée +' : 'modérée');
+      return `<article class="library-card">
+        <div class="meta">
+          <span class="badge">${esc(ex.category)}</span>
+          <span class="badge">${esc(ex.subcategory)}</span>
+          <span class="badge">${esc(labelForLevel(ex.level))}</span>
+          <span class="badge badge-premium">${esc(pattern)}</span>
+        </div>
+        <h4>${esc(ex.name)}</h4>
+        <p><strong>Muscles :</strong> ${esc(ex.muscles)}</p>
+        <p><strong>Consigne :</strong> ${esc(ex.cue)}</p>
+        <p><strong>Régression :</strong> ${esc(ex.regression || ex.easy || 'À intégrer')} · <strong>Progression :</strong> ${esc(ex.progression || ex.hard || 'À intégrer')}</p>
+        <p><strong>Substitution coach :</strong> ${esc(ex.substitution || substituteText(ex, env||'home') || 'Selon matériel disponible')}</p>
+        <p><strong>Biomécanique :</strong> pattern ${esc(pattern)} · fatigue nerveuse ${esc(neural)} · difficulté technique ${esc(ex.technical_difficulty || (ex.level==='advanced'?'haute':ex.level==='intermediate'?'moyenne':'accessible'))}</p>
+        <p><strong>Transfert :</strong> ${esc(ex.sport_transfer || 'général')} · <strong>Risque articulaire :</strong> ${esc(ex.joint_risk || 'standard')}</p>
+        <p><strong>Matériel :</strong> ${(ex.equipment||[]).map(eqLabel).join(' · ')}</p>
+        <div class="demo">Démo : ${esc(ex.video_hint || 'GIF / vidéo à intégrer')}</div>
+      </article>`;
   }).join('');
 }
+
 
 function openAthleteProgram(){
   const code = ($('#athleteCode').value||'').trim().toUpperCase();
@@ -565,19 +707,26 @@ function openAthleteProgram(){
   $('#athleteProgramOutput').innerHTML = renderProgram(p, false);
   renderAthleteHistory(p.code);
 }
+
 function renderAthleteDashboard(p){
   const adherence = getAdherenceScore(p.code);
+  const tracking = JSON.parse(localStorage.getItem('fafaTracking')||'{}')[p.code] || [];
+  const last = tracking.length ? tracking[tracking.length-1] : null;
   return `<h3>Dashboard adhérent</h3>
+  <div class="athlete-dashboard-grid">
+    <div class="summary"><h4>${esc(labelForGoal(p.mainGoal))}</h4><p>Objectif principal</p></div>
+    <div class="summary"><h4>${esc(p.bmi?.value || '-')}</h4><p>IMC réel</p></div>
+    <div class="summary"><h4>${adherence}%</h4><p>Régularité</p></div>
+  </div>
   <div class="tracking-summary">
     <span class="badge">Code : ${esc(p.code)}</span>
-    <span class="badge">Objectif : ${esc(labelForGoal(p.mainGoal))}</span>
-    <span class="badge">IMC : ${esc(p.bmi?.value || '-')}</span>
-    <span class="badge">Score régularité : ${adherence}%</span>
+    <span class="badge">Cycle : ${p.cycleWeeks} semaines · ${esc(p.cycleGoal)}</span>
+    <span class="badge">Nutrition : ${p.nutrition ? `${p.nutrition.kcal} kcal` : 'non définie'}</span>
+    <span class="badge">Dernier suivi : ${last ? `${last.weight || '-'} kg · énergie ${last.energy || '-'}/10` : 'aucun'}</span>
   </div>
-  <div class="mini-help"><strong>Cycle actif</strong><span>${p.cycleWeeks} semaines · ${esc(p.cycleGoal)}</span></div>
-  <div class="mini-help"><strong>Nutrition</strong><span>${p.nutrition ? `${p.nutrition.kcal} kcal · P ${p.nutrition.protein}g · G ${p.nutrition.carbs}g · L ${p.nutrition.fats}g` : 'non définie'}</span></div>
-  <div class="mini-help"><strong>Lecture simple</strong><span>Valide tes séances, note ta difficulté et ton RPE pour aider le coach à ajuster la suite.</span></div>`;
+  <div class="mini-help"><strong>Lecture simple</strong><span>Valide tes séances, note ton ressenti, ton RPE et ton énergie. Le coach pourra ajuster la suite plus précisément.</span></div>`;
 }
+
 function hydrateAthleteFromLink(){
   const params = new URLSearchParams(location.search);
   const code = (params.get('client') || '').trim().toUpperCase();
@@ -702,20 +851,65 @@ function loadTracking(){
   const firstCode = $('#trackCode')?.value?.trim().toUpperCase() || Object.keys(all)[0];
   renderAnalytics(firstCode, all[firstCode] || []);
 }
+
 function renderAnalytics(code, entries){
   const weights = entries.filter(x=>x.weight).map((x,i)=>({x:i,y:Number(x.weight)}));
   const waists = entries.filter(x=>x.waist).map((x,i)=>({x:i,y:Number(x.waist)}));
   const avgEnergy = entries.filter(x=>x.energy).map(x=>Number(x.energy));
   const consistency = Math.min(100, entries.length*8);
+  const avg = avgEnergy.length ? (avgEnergy.reduce((a,b)=>a+b,0)/avgEnergy.length) : 0;
+  const fatigueTrend = avgEnergy.length ? (avg < 6 ? 'à surveiller' : avg < 7.5 ? 'modérée' : 'bonne') : 'pas assez de données';
   $('#analyticsOutput').innerHTML = `<h3>Analytics visuels ${code ? '· '+esc(code) : ''}</h3>
-    <div class="tracking-summary">
-      <span class="badge">Score régularité : ${consistency}%</span>
-      <span class="badge">Énergie moyenne : ${avgEnergy.length ? (avgEnergy.reduce((a,b)=>a+b,0)/avgEnergy.length).toFixed(1) : '-'}/10</span>
-      <span class="badge">Tendance fatigue : ${avgEnergy.length ? ((avgEnergy.reduce((a,b)=>a+b,0)/avgEnergy.length) < 6 ? 'à surveiller' : 'correcte') : 'pas assez de données'}</span>
+    <div class="dashboard-kpi">
+      <div class="kpi"><strong>${consistency}%</strong><span>score régularité</span></div>
+      <div class="kpi"><strong>${avgEnergy.length ? avg.toFixed(1) : '-'}/10</strong><span>énergie moyenne</span></div>
+      <div class="kpi"><strong>${fatigueTrend}</strong><span>tendance fatigue</span></div>
+      <div class="kpi"><strong>${entries.length}</strong><span>entrées suivies</span></div>
     </div>
     <div class="coach-grid premium-grid">
       <div class="panel"><h4>Progression poids</h4>${lineSvg(weights)}</div>
       <div class="panel"><h4>Progression tour de taille</h4>${lineSvg(waists)}</div>
     </div>`;
 }
+
 init();
+
+
+function saveBusiness(){
+  const code = ($('#bizCode').value||'').trim().toUpperCase();
+  if(!code){ alert('Ajoute un code adhérent.'); return; }
+  const all = JSON.parse(localStorage.getItem('fafaBusiness')||'{}');
+  all[code] = {
+    code,
+    status: $('#bizStatus').value,
+    plan: ($('#bizPlan').value||'').trim(),
+    amount: Number($('#bizAmount').value||0),
+    renewal: $('#bizRenewal').value,
+    paymentMethod: $('#bizPaymentMethod').value,
+    notes: ($('#bizNotes').value||'').trim(),
+    updatedAt: new Date().toISOString()
+  };
+  localStorage.setItem('fafaBusiness', JSON.stringify(all));
+  renderBusinessPanel();
+}
+function renderBusinessPanel(){
+  const all = JSON.parse(localStorage.getItem('fafaBusiness')||'{}');
+  const rows = Object.values(all).sort((a,b)=>(a.renewal||'').localeCompare(b.renewal||''));
+  const total = rows.reduce((s,x)=>s+Number(x.amount||0),0);
+  const active = rows.filter(x=>x.status==='actif').length;
+  const unpaid = rows.filter(x=>x.status==='impaye').length;
+  const html = `<h3>Vue business</h3>
+    <div class="tracking-summary">
+      <span class="badge">Actifs : ${active}</span>
+      <span class="badge">Impayés : ${unpaid}</span>
+      <span class="badge">CA saisi : ${Math.round(total)} €</span>
+      <span class="badge">Dossiers : ${rows.length}</span>
+    </div>
+    <div class="crm-list">
+      ${rows.length ? rows.map(r=>`<div class="crm-row"><div class="left"><strong>${esc(r.code)}</strong><span>${esc(r.plan||'Formule non précisée')}</span></div><div class="right"><div>${esc(r.status||'statut vide')}</div><div>${r.amount ? `${Math.round(r.amount)} €` : '0 €'} · ${esc(r.paymentMethod||'paiement non précisé')}</div><div>${r.renewal ? 'Échéance : '+esc(r.renewal) : 'Sans échéance'}</div></div></div>`).join('') : '<p>Aucun suivi business enregistré pour le moment.</p>'}
+    </div>`;
+  if($('#businessOutput')) $('#businessOutput').innerHTML = html;
+  renderHomeEnhancements();
+}
+
+window.addEventListener('load', ()=>{ try{ renderBusinessPanel(); }catch(e){} });

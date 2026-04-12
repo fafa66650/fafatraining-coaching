@@ -11,7 +11,7 @@
 <div class="shell">
   <aside class="sidebar">
     <div class="brand">
-      <img src="assets/logo.jpeg" alt="FAFATRAINING" />
+      <img class="main-logo" src="assets/logo.jpeg" alt="FAFATRAINING" />
       <div>
         <h1>FAFATRAINING COACHING</h1>
         <p>Forge ton corps. Élève ton mental.</p>
@@ -61,7 +61,7 @@
     </section>
 
     <section id="coach" class="view">
-      <div class="section-head"><h2>Créer un programme</h2></div>
+      <div class="section-head"><h2>Créer un programme premium</h2></div>
       <div class="coach-grid">
         <div class="panel">
           <h3 class="section-title profile">Profil athlète</h3><p class="helper">Renseigne ici les infos de base, le niveau, la fréquence, la durée et les repères de charge.</p>
@@ -89,8 +89,8 @@
         </div>
 
         <div class="panel">
-          <h3 class="section-title objectives">Objectifs & contexte d’entraînement</h3><p class="helper">Choisis le but principal, le cadre de pratique et les préférences de travail.</p>
-          <div class="form-grid">
+          <h3 class="section-title objectives">Objectifs & contexte d’entraînement</h3><p class="helper">Choisis séparément le contexte, les objectifs, le bloc de cycle et les préférences de travail pour mieux comprendre quoi sélectionner.</p>
+          <div class="mini-help"><strong>Comment choisir ?</strong><span><strong>Contexte</strong> = lieu réel de pratique. <strong>Objectif principal</strong> = priorité numéro 1. <strong>Objectif secondaire</strong> = bonus. <strong>Bloc / cycle</strong> = durée et orientation de progression.</span></div><div class="form-grid">
             <label>Contexte d’entraînement
               <select id="environmentSelect">
                 <option value="">À choisir</option><option value="gym">Salle de musculation</option><option value="hotel_gym">Salle d'hôtel</option><option value="garage_gym">Garage gym</option><option value="small_group_room">Studio small group</option>
@@ -175,7 +175,7 @@
             <button onclick="applyEquipmentPreset()">Préremplir selon l’environnement</button>
             <span id="presetLabel"></span>
           </div>
-          <div class="mini-help"><strong>Matériel disponible</strong><span>Ne rien cocher = sélection libre. Tu peux tout choisir toi-même et ajouter des variantes ensuite.</span></div><div id="equipmentGrid" class="checks"></div><small id="presetLabel" class="muted"></small>
+          <div class="mini-help"><strong>Matériel disponible</strong><span>Ne rien cocher = sélection libre. Tu peux tout choisir toi-même et ajouter des variantes ensuite.</span></div><div id="equipmentGrid" class="checks"></div><small id="presetStatus" class="muted"></small>
           <div class="hint-box"><strong>Astuce :</strong> si la personne n’a pas de matériel précis, coche aussi les substitutions du quotidien comme chaise, canapé, marches, sac à dos ou bouteilles d’eau.</div>
         </div>
       </div>

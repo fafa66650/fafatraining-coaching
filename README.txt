@@ -1,11 +1,11 @@
-FAFATRAINING COACHING V14 PREMIUM
+FAFATRAINING COACHING V16 STUDIO MAX
 
-Refonte premium mobile + ordinateur :
-- accueil épuré et plus premium
-- navigation plus claire
-- design plus original et plus haut de gamme
-- export programme PDF plus propre
-- lecture adhérent simplifiée
-- nutrition mieux expliquée
-- expérience débutant mieux accompagnée
-- base coach conservée et renforcée
+Améliorations premium :
+- dashboard coach plus spectaculaire
+- bibliothèque exercices plus riche et plus belle
+- admin / business renforcé
+- moteur programme plus sophistiqué
+- micro-animations plus fortes
+- nutrition plus lisible
+- PDF programme via iframe d’impression
+- CRM coach + échéances + paiements
