@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FAFATRAINING ELITE SYSTEM</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="manifest" href="manifest.json" />
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="assets/logo.jpeg" alt="FAFATRAINING" />
+      <div>
+        <h1>FAFATRAINING ELITE SYSTEM</h1>
+        <p>Forge ton corps. Élève ton mental.</p>
+      </div>
+    </div>
+    <nav>
+      <button class="navbtn active" data-view="home">Accueil</button>
+      <button class="navbtn" data-view="coach">Coach</button>
+      <button class="navbtn" data-view="quick">Session rapide</button>
+      <button class="navbtn" data-view="library">Bibliothèque</button>
+      <button class="navbtn" data-view="athlete">Adhérent</button>
+      <button class="navbtn" data-view="progress">Suivi</button>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section id="home" class="view active">
+      <div class="home-help-grid">
+        <article class="mini-help"><strong>Accueil</strong><span>Vue rapide de l’application, des stats et des accès principaux.</span></article>
+        <article class="mini-help"><strong>Coach</strong><span>Créer un programme détaillé, le sauvegarder, l’exporter et générer un lien adhérent.</span></article>
+        <article class="mini-help"><strong>Session rapide</strong><span>Créer vite une séance pour groupe, jeunes, cours collectif ou coaching express.</span></article>
+        <article class="mini-help"><strong>Bibliothèque</strong><span>Parcourir les exercices, variantes, substitutions et filtres avancés.</span></article>
+      </div>
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">COACH PERSO · GROUPE · JEUNES · PERFORMANCE</span>
+          <h2>Une interface coach plus propre, plus dense, plus utile.</h2>
+          <p>Crée des programmes détaillés musculation, boxe, HIIT, Hyrox, cardio, mobilité et bien-être. Gère les charges, les formats d’effort, les repos, les variantes et une bibliothèque plus large.</p>
+          <div class="hero-actions">
+            <button id="homeCreateProgram" onclick="goView('coach')">Créer un programme</button>
+            <button id="homeOpenLibrary" class="ghost" onclick="goView('library')">Voir la bibliothèque</button>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong id="exerciseCount">0</strong><span>exercices dans la bibliothèque</span></div>
+          <div class="stat"><strong>Mix complet</strong><span>muscu · boxe · HIIT · cardio · mobilité</span></div>
+          <div class="stat"><strong>Coach + adhérent</strong><span>PDF pro · code · lien · séance live</span></div>
+          <div class="stat"><strong>1RM</strong><span>charges calculées sur squat / bench / deadlift</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coach" class="view">
+      <div class="section-head"><h2>Créer un programme</h2></div>
+      <div class="coach-grid">
+        <div class="panel">
+          <h3 class="section-title profile">Profil athlète</h3><p class="helper">Renseigne ici les infos de base, le niveau, la fréquence, la durée et les repères de charge.</p>
+          <div class="form-grid">
+            <label>Nom client<input id="clientName" placeholder="Ex : Alex Martin"></label>
+            <label>Code adhérent<input id="clientCode" placeholder="Ex : ALEX01"></label>
+            <label>Âge<input id="clientAge" type="number" value="28"></label>
+            <label>Niveau
+              <select id="clientLevel">
+                <option value="beginner">Débutant</option>
+                <option value="intermediate">Intermédiaire</option>
+                <option value="advanced">Avancé</option>
+              </select>
+            </label>
+            <label>Fréquence / semaine
+              <select id="clientFreq"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option></select>
+            </label>
+            <label>Durée / séance
+              <select id="clientDuration"><option>30</option><option>45</option><option selected>60</option><option>75</option><option>90</option></select>
+            </label>
+            <label>1RM Squat (kg)<input id="rmSquat" type="number" value="0"></label>
+            <label>1RM Développé couché (kg)<input id="rmBench" type="number" value="0"></label>
+            <label>1RM Deadlift / soulevé de terre (kg)<input id="rmDeadlift" type="number" value="0"></label><label>Taille (cm)<input id="clientHeight" type="number" value="175"></label><label>Poids (kg)<input id="clientWeight" type="number" step="0.1" value="75"></label><label>Sexe<select id="clientSex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3 class="section-title objectives">Objectifs & contexte d’entraînement</h3><p class="helper">Choisis le but principal, le cadre de pratique et les préférences de travail.</p>
+          <div class="form-grid">
+            <label>Contexte d’entraînement
+              <select id="environmentSelect">
+                <option value="gym">Salle de musculation</option>
+                <option value="crossfit_box">Salle CrossFit / Hyrox</option>
+                <option value="boxing_gym">Salle de boxe</option>
+                <option value="home">Maison / appartement</option>
+                <option value="outdoor">Extérieur</option>
+                <option value="bodyweight_only">Poids du corps uniquement</option>
+              </select>
+            </label>
+            <label>Objectif principal
+              <select id="mainGoal">
+                <option value="muscle_gain">Prise de muscle</option>
+                <option value="fat_loss">Perte de poids</option>
+                <option value="strength">Force</option>
+                <option value="conditioning">Condition physique / HIIT</option>
+                <option value="boxing">Boxe</option>
+                <option value="hyrox">Hyrox / fonctionnel</option>
+                <option value="endurance">Cardio / endurance</option>
+                <option value="mobility">Mobilité / souplesse</option>
+                <option value="recovery">Bien-être / récupération</option>
+              </select>
+            </label>
+            <label>Objectif secondaire
+              <select id="secondGoal">
+                <option value="">Aucun</option>
+                <option value="fat_loss">Perte de poids</option>
+                <option value="muscle_gain">Prise de muscle</option>
+                <option value="strength">Force</option>
+                <option value="conditioning">Condition physique / HIIT</option>
+                <option value="boxing">Boxe</option>
+                <option value="hyrox">Hyrox / fonctionnel</option>
+                <option value="endurance">Cardio / endurance</option>
+                <option value="mobility">Mobilité / souplesse</option>
+                <option value="recovery">Bien-être / récupération</option>
+              </select>
+            </label>
+            <label>Format d’effort favori
+              <select id="hiitFormat">
+                <option value="20/10">20/10 (Tabata)</option>
+                <option value="30/30">30/30</option>
+                <option value="40/20">40/20</option>
+                <option value="30/60">30/60</option>
+                <option value="45/15">45/15</option>
+                <option value="EMOM">EMOM</option>
+                <option value="AMRAP">AMRAP</option>
+              </select>
+            </label>
+            <label>Zone de travail
+              <select id="bodyArea">
+                <option value="">Mix complet</option>
+                <option value="haut_du_corps">Haut du corps</option>
+                <option value="bas_du_corps">Bas du corps</option>
+                <option value="full_body">Full body</option>
+                <option value="abdos_core">Abdos / gainage</option>
+                <option value="push">Poussée haut du corps</option>
+                <option value="pull">Tirage haut du corps</option>
+              </select>
+            </label>
+            <label>Focus musculaire
+              <select id="focusTarget">
+                <option value="">Aucun focus précis</option>
+                <option value="pectoraux">Pectoraux</option>
+                <option value="dos">Dos</option>
+                <option value="épaules">Épaules</option>
+                <option value="bras">Bras</option>
+                <option value="triceps">Triceps</option>
+                <option value="biceps">Biceps</option>
+                <option value="jambes">Jambes</option>
+                <option value="quadriceps">Quadriceps</option>
+                <option value="ischios">Ischios / fessiers</option>
+                <option value="abdos">Abdos / core</option>
+                <option value="cardio">Cardio / endurance</option>
+              </select>
+            </label>
+          <label>Bloc / cycle<select id="cycleWeeks"><option value="4">4 semaines</option><option value="6">6 semaines</option><option value="8" selected>8 semaines</option><option value="12">12 semaines</option></select></label><label>Orientation du cycle<select id="cycleGoal"><option value="hypertrophy">Hypertrophie</option><option value="strength">Force</option><option value="conditioning">Conditionnement</option><option value="peak">Peaking</option><option value="maintenance">Maintien</option></select></label><label>Module FAFATRAINING<select id="specialModule"><option value="">Aucun module</option><option value="boxing_prep">Prépa boxe</option><option value="hyrox_prep">Prépa Hyrox</option><option value="trail_prep">Prépa Trail</option><option value="return_to_play">Réathlétisation</option><option value="seniors_health">Séniors / santé</option><option value="kids_teens">Kids / ados</option><option value="express_fat_loss">Perte de poids express</option><option value="transformation">Challenge transformation</option></select></label><label>Sommeil moyen (h)<input id="sleepHours" type="number" step="0.5" value="7"></label><label>Stress / fatigue<select id="stressLevel"><option value="low">Faible</option><option value="medium" selected>Moyen</option><option value="high">Élevé</option></select></label></div>
+        </div>
+
+        <div class="panel">
+          <h3 class="section-title gear">Matériel disponible</h3><p class="helper">Sélectionne le matériel réel. Ajoute les substitutions du quotidien si nécessaire.</p>
+          <div class="preset-box">
+            <button onclick="applyEquipmentPreset()">Préremplir selon l’environnement</button>
+            <span id="presetLabel"></span>
+          </div>
+          <div id="equipmentGrid" class="checks"></div>
+          <div class="hint-box"><strong>Astuce :</strong> si la personne n’a pas de matériel précis, coche aussi les substitutions du quotidien comme chaise, canapé, marches, sac à dos ou bouteilles d’eau.</div>
+        </div>
+      </div>
+
+      <div class="action-help"><span><strong>Enregistrer pour l’adhérent</strong> : stocke le programme côté app pour qu’il soit accessible avec son code.</span><span><strong>Générer lien adhérent</strong> : crée le lien direct à lui envoyer en lecture seule.</span></div><div class="coach-top-info"><span class="info-pill">Conseil : commence par un objectif principal, puis affine avec la zone et le focus.</span><span class="info-pill">Astuce : si tu n’as pas de matériel précis, coche aussi les substitutions du quotidien.</span></div><div class="actions big-actions">
+        <button onclick="generateProgram()">Générer le programme</button>
+        <button class="ghost" onclick="saveForAthlete()">Enregistrer pour l’adhérent</button><button class="ghost" onclick="generateShareLink()">Générer lien adhérent</button>
+        <button class="ghost" onclick="printProgram()">Exporter PDF / impression</button>
+      </div>
+
+      <div class="coach-grid premium-grid"><div class="panel"><h3>IMC & profil santé</h3><div id="bmiOutput" class="output mini-output"></div></div><div class="panel"><h3>Nutrition intelligente</h3><div id="nutritionOutput" class="output mini-output"></div></div><div class="panel"><h3>Admin / business</h3><div class="form-grid"><label>Statut abonnement<select id="subStatus"><option value="active">Actif</option><option value="paused">En pause</option><option value="trial">Essai</option><option value="inactive">Inactif</option></select></label><label>Paiement<select id="payStatus"><option value="paid">Payé</option><option value="pending">En attente</option><option value="late">Retard</option></select></label><label>Notes coach privées<textarea id="coachNotes" placeholder="Douleurs, contraintes, suivi, relances..."></textarea></label></div></div></div><div id="programOutput" class="output"></div>
+    </section>
+
+    <section id="quick" class="view">
+      <div class="section-head"><h2>Session rapide terrain</h2></div><p class="helper quick-helper">Génère rapidement une séance fluide pour groupe, jeune, cours collectif ou coaching express.</p>
+      <div class="panel">
+        <div class="form-grid">
+          <label>Type
+            <select id="quickType">
+              <option value="boxing">Boxe / cardio boxe</option>
+              <option value="conditioning">Condition physique / HIIT</option>
+              <option value="muscle_gain">Renforcement / muscu</option>
+              <option value="hyrox">Hyrox / challenge</option>
+              <option value="mobility">Mobilité / retour au calme</option>
+              <option value="endurance">Cardio continu / endurance</option>
+              <option value="core">Abdos / gainage</option>
+            </select>
+          </label>
+          <label>Niveau
+            <select id="quickLevel">
+              <option value="beginner">Débutant</option>
+              <option value="intermediate">Intermédiaire</option>
+              <option value="advanced">Avancé</option>
+            </select>
+          </label>
+          <label>Durée
+            <select id="quickDuration"><option>20</option><option>30</option><option selected>45</option><option>60</option></select>
+          </label>
+          <label>Lieu
+            <select id="quickEnv">
+              <option value="gym">Salle</option>
+              <option value="outdoor">Extérieur</option>
+              <option value="home">Maison / appartement</option>
+              <option value="boxing_gym">Salle de boxe</option>
+              <option value="bodyweight_only">Poids du corps uniquement</option>
+            </select>
+          </label>
+        </div>
+        <div class="actions"><button onclick="generateQuickSession()">Générer la session rapide</button></div>
+      </div>
+      <div id="quickOutput" class="output"></div>
+    </section>
+
+    <section id="library" class="view">
+      <div class="section-head"><h2>Bibliothèque</h2></div>
+      <div class="panel">
+        <div class="form-grid">
+          <label>Catégorie<select id="libCategory" onchange="renderLibrary()"></select></label>
+          <label>Niveau<select id="libLevel" onchange="renderLibrary()"><option value="">Tous</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></label>
+          <label>Lieu<select id="libEnv" onchange="renderLibrary()"></select></label>
+          <label>Recherche<input id="libSearch" oninput="renderLibrary()" placeholder="squat, boxe, rameur..."></label>
+        </div>
+      </div>
+      <div id="libraryOutput" class="cards"></div>
+    </section>
+
+    <section id="athlete" class="view">
+      <div class="section-head"><h2>Espace adhérent</h2></div>
+      <div id="athleteLobby" class="panel">
+        <p>Entre ton code pour afficher ton programme, ou ouvre directement le lien envoyé par le coach. L’adhérent voit uniquement ce qui le concerne : son programme, sa lecture séance et son suivi côté lecture.</p>
+        <div class="form-grid">
+          <label>Code adhérent<input id="athleteCode" placeholder="Ex : ALEX01"></label>
+        </div>
+        <div class="actions"><button onclick="openAthleteProgram()">Afficher mon programme</button></div>
+      </div>
+      <div id="athleteProgram" class="hidden">
+        <div class="actions"><button class="ghost" onclick="backAthlete()">Retour</button><button onclick="startLiveSession()">Mode séance live</button></div>
+        <div id="athleteDashboard" class="panel hidden"></div><div id="athleteProgramOutput" class="output"></div><div id="athleteHistory" class="panel hidden"></div>
+      </div>
+      <div id="liveSession" class="hidden panel">
+        <div class="actions"><button class="ghost" onclick="backProgram()">Retour programme</button><button class="ghost" onclick="prevExercise()">Exercice précédent</button><button onclick="nextExercise()">Exercice suivant</button></div>
+        <div id="liveCard" class="live-card"></div><div id="liveLog" class="panel"></div>
+      </div>
+    </section>
+
+    <section id="progress" class="view">
+      <div class="progress-guide">
+        <article class="mini-help"><strong>Suivi poids</strong><span>Ajoute les évolutions de poids au fil des semaines.</span></article>
+        <article class="mini-help"><strong>Note séance</strong><span>Garde une trace simple du ressenti, de la fatigue ou d’une adaptation.</span></article>
+        <article class="mini-help"><strong>Code adhérent</strong><span>Le suivi est rattaché au code pour rester propre et rapide.</span></article>
+      </div>
+      <div class="section-head"><h2>Suivi progression</h2></div>
+      <div class="panel">
+        <p>Cette section reste simple pour le moment, mais tu peux déjà noter un poids de corps, un commentaire et la date. C’est là pour préparer la suite.</p>
+        <div class="form-grid">
+          <label>Code adhérent<input id="trackCode" placeholder="ALEX01"></label>
+          <label>Poids du jour (kg)<input id="trackWeight" type="number" step="0.1"></label>
+          <label>Commentaire<input id="trackNote" placeholder="Forme, fatigue, douleur..."></label><label>Tour de taille (cm)<input id="trackWaist" type="number" step="0.1"></label><label>Énergie / 10<input id="trackEnergy" type="number" min="1" max="10" step="1"></label>
+        </div>
+        <div class="actions"><button onclick="saveTracking()">Enregistrer suivi</button></div>
+      </div>
+      <div id="analyticsOutput" class="panel"></div><div id="trackingOutput" class="cards"></div>
+    </section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
