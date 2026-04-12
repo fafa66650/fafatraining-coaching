@@ -63,7 +63,98 @@
     <section id="coach" class="view">
       <div class="section-head"><h2>Créer un programme premium</h2></div>
       <div class="coach-grid">
-        <div class="panel">
+        
+<div class="panel onboarding-panel">
+  <h3 class="section-title">Onboarding intelligent</h3>
+  <p class="helper">Questionnaire premium pour personnaliser le coaching comme un vrai outil coach expert. Tout reste compatible GitHub, mobile et ordinateur.</p>
+  <div class="form-grid">
+    <label>Email client<input id="clientEmail" type="email" placeholder="exemple@mail.com"></label>
+    <label>Méthode d’accès
+      <select id="signupMethod">
+        <option value="">À choisir</option>
+        <option value="email">Email</option>
+        <option value="google">Google</option>
+        <option value="facebook">Facebook</option>
+        <option value="apple">Apple</option>
+      </select>
+    </label>
+    <label>Photo / avatar (URL optionnelle)<input id="clientAvatar" placeholder="https://..."></label>
+    <label>Niveau d’activité physique
+      <select id="activityLevel">
+        <option value="">À choisir</option>
+        <option value="sedentary">Sédentaire</option>
+        <option value="moderate">Modéré</option>
+        <option value="active">Actif</option>
+        <option value="very_active">Très actif</option>
+      </select>
+    </label>
+    <label>Sport pratiqué actuellement
+      <select id="currentSport">
+        <option value="">À choisir</option>
+        <option value="none">Aucune activité régulière</option>
+        <option value="running">Course à pied</option>
+        <option value="gym">Salle de sport</option>
+        <option value="boxing">Boxe</option>
+        <option value="strength">Renforcement musculaire</option>
+        <option value="other">Autre</option>
+      </select>
+    </label>
+    <label>Expérience coaching
+      <select id="coachingExperience">
+        <option value="">À choisir</option>
+        <option value="new">Premier programme</option>
+        <option value="beginner">Débutant accompagné</option>
+        <option value="experienced">Déjà une expérience</option>
+      </select>
+    </label>
+    <label>Disponibilité / semaine
+      <select id="availabilityWeekly">
+        <option value="">À choisir</option>
+        <option value="1">1 jour</option>
+        <option value="2-3">2 à 3 jours</option>
+        <option value="4-5">4 à 5 jours</option>
+        <option value="6+">Plus de 5 jours</option>
+      </select>
+    </label>
+    <label>Préférence de pratique
+      <select id="trainingPreference">
+        <option value="">À choisir</option>
+        <option value="home">Maison</option>
+        <option value="gym">Salle</option>
+        <option value="outdoor">Extérieur</option>
+        <option value="video">Visioconférence</option>
+        <option value="any">Peu importe</option>
+      </select>
+    </label>
+    <label>Pathologies / antécédents<select id="medicalFlag"><option value="">À choisir</option><option value="none">Aucun</option><option value="yes">Oui</option></select></label>
+    <label>Pathologies / détails<input id="medicalNotes" placeholder="Diabète, hypertension, arthrose..."></label>
+    <label>Blessures / douleur actuelle<input id="injuryNotes" placeholder="Épaule, genou, dos..."></label>
+    <label>Médicaments<input id="medicationNotes" placeholder="Optionnel"></label>
+    <label>Allergies / alimentation<select id="foodFlag"><option value="">À choisir</option><option value="none">Aucune</option><option value="yes">Oui</option></select></label>
+    <label>Détails nutrition / allergies<input id="foodNotes" placeholder="Végétarien, gluten, lactose..."></label>
+    <label>Type de coaching
+      <select id="coachingType">
+        <option value="">À choisir</option>
+        <option value="general">Coaching sportif général</option>
+        <option value="health">Coaching santé / rééducation</option>
+        <option value="fitness">Coaching fitness</option>
+        <option value="boxing">Coaching boxe</option>
+        <option value="nutrition">Conseil nutritionnel</option>
+        <option value="stretching">Coaching stretching</option>
+      </select>
+    </label>
+    <label>Accompagnement live
+      <select id="liveMode">
+        <option value="">À choisir</option>
+        <option value="none">Aucun</option>
+        <option value="video">Visioconférence</option>
+        <option value="outdoor">Présentiel extérieur</option>
+        <option value="gym">Présentiel en salle</option>
+      </select>
+    </label>
+  </div>
+</div>
+<div class="panel">
           <h3 class="section-title profile">Profil athlète</h3><p class="helper">Renseigne ici les infos de base, le niveau, la fréquence, la durée et les repères de charge.</p>
           <div class="form-grid">
             <label>Nom client<input id="clientName" placeholder="Ex : Alex Martin"></label>
@@ -253,7 +344,7 @@
       </div>
       <div id="athleteProgram" class="hidden">
         <div class="actions"><button class="ghost" onclick="backAthlete()">Retour</button><button onclick="startLiveSession()">Mode séance live</button></div>
-        <div id="athleteDashboard" class="panel hidden"></div><div id="athleteProgramOutput" class="output"></div><div id="athleteHistory" class="panel hidden"></div>
+        <div id="athleteDashboard" class="panel hidden"></div><div id="athleteCalendar" class="panel hidden"></div><div id="athleteProgramOutput" class="output"></div><div id="athleteHistory" class="panel hidden"></div><div id="athleteHabits" class="panel hidden"></div>
       </div>
       <div id="liveSession" class="hidden panel">
         <div class="actions"><button class="ghost" onclick="backProgram()">Retour programme</button><button class="ghost" onclick="prevExercise()">Exercice précédent</button><button onclick="nextExercise()">Exercice suivant</button></div>
@@ -273,7 +364,7 @@
         <div class="form-grid">
           <label>Code adhérent<input id="trackCode" placeholder="ALEX01"></label>
           <label>Poids du jour (kg)<input id="trackWeight" type="number" step="0.1"></label>
-          <label>Commentaire<input id="trackNote" placeholder="Forme, fatigue, douleur..."></label><label>Tour de taille (cm)<input id="trackWaist" type="number" step="0.1"></label><label>Énergie / 10<input id="trackEnergy" type="number" min="1" max="10" step="1"></label>
+          <label>Commentaire<input id="trackNote" placeholder="Forme, fatigue, douleur..."></label><label>Tour de taille (cm)<input id="trackWaist" type="number" step="0.1"></label><label>Énergie / 10<input id="trackEnergy" type="number" min="1" max="10" step="1"></label><label>RPE moyen<input id="trackRpe" type="number" min="1" max="10" step="1"></label><label>Assiduité semaine (%)<input id="trackCompliance" type="number" min="0" max="100" step="5"></label>
         </div>
         <div class="actions"><button onclick="saveTracking()">Enregistrer suivi</button></div>
       </div>

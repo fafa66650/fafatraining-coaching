@@ -118,6 +118,67 @@ async function init(){
   renderHomeEnhancements();
 }
 
+
+function collectOnboarding(){
+  return {
+    email: ($('#clientEmail')?.value||'').trim(),
+    signupMethod: $('#signupMethod')?.value || '',
+    avatar: ($('#clientAvatar')?.value||'').trim(),
+    activityLevel: $('#activityLevel')?.value || '',
+    currentSport: $('#currentSport')?.value || '',
+    coachingExperience: $('#coachingExperience')?.value || '',
+    availabilityWeekly: $('#availabilityWeekly')?.value || '',
+    trainingPreference: $('#trainingPreference')?.value || '',
+    medicalFlag: $('#medicalFlag')?.value || '',
+    medicalNotes: ($('#medicalNotes')?.value||'').trim(),
+    injuryNotes: ($('#injuryNotes')?.value||'').trim(),
+    medicationNotes: ($('#medicationNotes')?.value||'').trim(),
+    foodFlag: $('#foodFlag')?.value || '',
+    foodNotes: ($('#foodNotes')?.value||'').trim(),
+    coachingType: $('#coachingType')?.value || '',
+    liveMode: $('#liveMode')?.value || ''
+  };
+}
+function activityFactorFromProfile(level, freq){
+  const map = {sedentary:1.2, moderate:1.4, active:1.55, very_active:1.7};
+  const base = map[level] || (1.3 + Number(freq||0)*0.08);
+  return Math.min(1.9, Math.max(1.2, base));
+}
+function renderFoundationSummary(p){
+  const ob = p.onboarding || {};
+  const body = p.bodyComp;
+  return `<div class="panel">
+    <h3>Résumé onboarding premium</h3>
+    <div class="onboarding-summary">
+      <div class="summary"><h4>${esc(ob.activityLevel || 'non renseigné')}</h4><p>activité physique</p></div>
+      <div class="summary"><h4>${esc(ob.currentSport || 'non renseigné')}</h4><p>sport actuel</p></div>
+      <div class="summary"><h4>${esc(ob.coachingType || 'non renseigné')}</h4><p>type de coaching</p></div>
+      <div class="summary"><h4>${esc(ob.trainingPreference || 'non renseigné')}</h4><p>préférence pratique</p></div>
+      <div class="summary"><h4>${esc(ob.liveMode || 'aucun')}</h4><p>coaching live</p></div>
+      <div class="summary"><h4>${body ? esc(body.band) : 'à estimer'}</h4><p>lecture morpho-coach</p></div>
+    </div>
+    <p class="helper">${body ? esc(body.coach) : 'Complète le profil pour enrichir les recommandations.'}</p>
+  </div>`;
+}
+function renderAthleteCalendar(p){
+  const names = ['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+  const freq = Number(p.freq||0);
+  const activeDays = Array.from({length:7}, (_,i)=> i<freq);
+  const html = `<h3>Calendrier d'entraînement</h3><div class="calendar-grid">${names.map((n,i)=>`<div class="day-cell"><strong>${n}</strong>${activeDays[i] ? 'Séance prévue' : 'Récupération / mobilité'}</div>`).join('')}</div>`;
+  if($('#athleteCalendar')){ $('#athleteCalendar').classList.remove('hidden'); $('#athleteCalendar').innerHTML = html; }
+}
+function renderAthleteHabits(p){
+  const nutr = p.nutrition ? `${p.nutrition.kcal} kcal` : 'non défini';
+  const html = `<h3>Habitudes & repères</h3>
+    <div class="habit-grid">
+      <div class="habit-card"><strong>Hydratation</strong><p>Objectif : 2 à 3 L / jour selon le volume d'effort.</p></div>
+      <div class="habit-card"><strong>Sommeil</strong><p>Repère profil : ${esc(String(p.sleepHours || '-'))} h / nuit.</p></div>
+      <div class="habit-card"><strong>Nutrition</strong><p>${esc(nutr)} · objectif ${esc(labelForGoal(p.mainGoal))}</p></div>
+      <div class="habit-card"><strong>Feedback séance</strong><p>Note ton RPE, ton énergie et ton ressenti pour ajuster la suite.</p></div>
+    </div>`;
+  if($('#athleteHabits')){ $('#athleteHabits').classList.remove('hidden'); $('#athleteHabits').innerHTML = html; }
+}
+
 function renderHomeEnhancements(){
   const programs = JSON.parse(localStorage.getItem('fafaPrograms')||'{}');
   const tracking = JSON.parse(localStorage.getItem('fafaTracking')||'{}');
@@ -206,6 +267,15 @@ function calcBMI(weightKg,heightCm){
   else { label='Obésité sévère'; risk='approche santé prioritaire'; }
   return {value:bmi.toFixed(1), label, risk};
 }
+function calcTDEE(profile){ return calcCalories(profile); }
+function estimateBodyComposition({sex, bmi, activityLevel}){
+  if(!bmi) return null;
+  const v = Number(bmi.value||bmi);
+  let band = v<18.5 ? 'profil léger / surveiller les apports' : v<25 ? 'profil équilibré de base' : v<30 ? 'profil à recomposer' : 'profil santé prioritaire';
+  let coach = activityLevel==='sedentary' ? 'Remonter progressivement le volume global.' : activityLevel==='very_active' ? 'Surveiller récupération et charge totale.' : 'Ajuster selon assiduité et récupération.';
+  return {band, coach};
+}
+
 function calcCalories({sex, weight, height, age, goal, stress, activityFactor=1.5}){
   weight=Number(weight||0); height=Number(height||0); age=Number(age||0);
   if(!weight || !height || !age) return null;
@@ -279,6 +349,7 @@ function pickUniqueFrom(pool, count, usedRoots=new Set()){
 function normalizeArea(area){
   return area || '';
 }
+
 function validateCoachInputs(){
   const mainGoal = $('#mainGoal').value;
   const freq = Number($('#clientFreq').value||0);
@@ -286,8 +357,11 @@ function validateCoachInputs(){
   if(!mainGoal){ alert('Choisis un objectif principal.'); return false; }
   if(!freq || !duration){ alert('Renseigne la fréquence et la durée.'); return false; }
   if(!$('#clientHeight').value || !$('#clientWeight').value){ alert('Ajoute la taille et le poids pour l’IMC réel.'); return false; }
+  if(!$('#activityLevel').value){ alert('Choisis le niveau d’activité physique dans l’onboarding.'); return false; }
+  if(!$('#coachingType').value){ alert('Choisis un type de coaching dans l’onboarding.'); return false; }
   return true;
 }
+
 function buildDayBlueprintsPremium(freq, mainGoal, secondGoal, area, focus, module, cycleGoal){
   const areaNorm = normalizeArea(area);
   let base = [];
@@ -458,8 +532,6 @@ function showCycleWeek(week, phase, volume, intensity){
   const meta = all.find(x=>x.week===Number(week));
   if(el) el.innerHTML = `<strong>Semaine ${week}</strong><span>Phase : ${phase} · volume ${volume} · intensité ${intensity}. ${meta?.coachNote || 'Cette semaine sert à organiser la progression sans surcharger inutilement.'}</span>`;
 }
-</strong><span>Phase : ${phase} · volume ${volume} · intensité ${intensity}. Cette semaine sert à organiser la progression sans surcharger inutilement.</span>`;
-}
 
 function exerciseHtml(ex, mode){
   const showCoach = mode==='coach';
@@ -487,13 +559,21 @@ function displayMode(level, coachView){
   if(coachView) return 'coach';
   return level==='advanced' ? 'advanced' : level==='intermediate' ? 'intermediate' : 'beginner';
 }
+
 function renderProgram(p, coachView){
   const mode = displayMode(p.level, coachView);
   const bmi = p.bmi ? `<p><strong>IMC :</strong> ${esc(p.bmi.value)} · ${esc(p.bmi.label)}</p>` : '';
   const nutrition = p.nutrition ? `<p><strong>Nutrition :</strong> ${p.nutrition.kcal} kcal · Protéines ${p.nutrition.protein}g · Glucides ${p.nutrition.carbs}g · Lipides ${p.nutrition.fats}g</p>` : '';
   const module = p.specialModule ? `<p><strong>Module FAFATRAINING :</strong> ${esc(moduleLabels[p.specialModule] || p.specialModule)}</p>` : '';
   return `
+    <div class="program-header-grid">
+      <div class="program-kpi"><strong>${esc(labelForGoal(p.mainGoal))}</strong><span>objectif principal</span></div>
+      <div class="program-kpi"><strong>${p.freq}/sem</strong><span>fréquence</span></div>
+      <div class="program-kpi"><strong>${p.duration} min</strong><span>durée séance</span></div>
+      <div class="program-kpi"><strong>${p.cycleWeeks} sem</strong><span>cycle</span></div>
+    </div>
     <div class="summary">
+
       <h3>${esc(p.name)}</h3><p class="muted">Code adhérent : ${esc(p.code)}</p>
       <p><strong>Objectif principal :</strong> ${esc(labelForGoal(p.mainGoal))} ${p.secondGoal ? `· <strong>objectif secondaire :</strong> ${esc(labelForGoal(p.secondGoal))}`:''}</p>
       <p><strong>Niveau :</strong> ${esc(labelForLevel(p.level))} · <strong>Fréquence :</strong> ${p.freq} / semaine · <strong>Durée :</strong> ${p.duration} min · <strong>Contexte :</strong> ${esc(ENV_LABELS[p.env] || p.env)}</p>
@@ -519,6 +599,7 @@ function renderProgram(p, coachView){
       `).join('')}
     </div>`;
 }
+
 function generateProgram(){
   if(!validateCoachInputs()) return;
   const name = $('#clientName').value.trim() || 'Client FAFATRAINING';
@@ -543,10 +624,13 @@ function generateProgram(){
   const sex = $('#clientSex').value;
   const age = Number($('#clientAge').value||0);
   const equipment = selectedEquipment();
+  const onboarding = collectOnboarding();
   const rmMap = { squat:Number($('#rmSquat').value||0), bench:Number($('#rmBench').value||0), deadlift:Number($('#rmDeadlift').value||0) };
   const fatigue = stressLevel==='high' || sleepHours<6 ? 'high' : sleepHours>=8 && stressLevel==='low' ? 'low' : 'medium';
   const bmi = calcBMI(weight, height);
-  const nutrition = calcCalories({sex, weight, height, age, goal:mainGoal, stress:stressLevel, activityFactor: 1.35 + freq*0.08});
+  const tdee = calcTDEE({sex, weight, height, age, goal:mainGoal, stress:stressLevel, activityFactor:activityFactorFromProfile(onboarding.activityLevel, freq)});
+  const bodyComp = estimateBodyComposition({sex, bmi, activityLevel:onboarding.activityLevel});
+  const nutrition = tdee;
   const blueprints = buildDayBlueprintsPremium(freq, mainGoal, secondGoal, bodyArea, focusTarget, specialModule, cycleGoal);
   const perDay = computeExercisesPerDay(duration, mainGoal, specialModule);
   const warmup = buildWarmup(mainGoal, specialModule);
@@ -581,7 +665,7 @@ function generateProgram(){
     const patternSummary = Array.from(new Set(chosen.map(x=>x.pattern))).join(' · ');
     return {title: bp.title, items: chosen, patternSummary};
   });
-  const athletePayload = encodeURIComponent(encodeSharePayload(stripProgramForShare({name, code, age, sex, height, weight, level, freq, duration, env, mainGoal, secondGoal, bodyArea, focusTarget, hiitFormat, cycleWeeks, cycleGoal, specialModule, sleepHours, stressLevel, warmup, cooldown, days, rmMap, createdAt:new Date().toISOString(), bmi, nutrition, cycle})));
+  const athletePayload = encodeURIComponent(encodeSharePayload(stripProgramForShare({name, code, age, sex, height, weight, level, freq, duration, env, mainGoal, secondGoal, bodyArea, focusTarget, hiitFormat, cycleWeeks, cycleGoal, specialModule, sleepHours, stressLevel, warmup, cooldown, days, rmMap, createdAt:new Date().toISOString(), bmi, nutrition, cycle, onboarding, bodyComp})));
   const athleteLink = `${location.origin}${location.pathname}?client=${encodeURIComponent(code)}&payload=${athletePayload}`;
   const crm = {
     subStatus: $('#subStatus').value,
@@ -592,12 +676,15 @@ function generateProgram(){
   const program = {
     name, code, age, sex, height, weight, level, freq, duration, env, mainGoal, secondGoal, bodyArea, focusTarget, hiitFormat,
     cycleWeeks, cycleGoal, specialModule, sleepHours, stressLevel, warmup, cooldown, days, rmMap, athleteLink, createdAt:new Date().toISOString(),
-    bmi, nutrition, cycle, crm
+    bmi, nutrition, cycle, crm, onboarding, bodyComp
   };
   window.currentProgram = program;
-  $('#programOutput').innerHTML = renderProgram(program, true);
-  $('#bmiOutput').innerHTML = renderBMIBox(bmi);
+  window.latestProgram = program;
+  $('#programOutput').innerHTML = renderFoundationSummary(program) + renderProgram(program, true);
+  $('#bmiOutput').innerHTML = renderBMIBox(bmi) + (bodyComp ? `<div class="pdf-note"><strong>Lecture coach :</strong> ${esc(bodyComp.band)} · ${esc(bodyComp.coach)}</div>` : '');
   $('#nutritionOutput').innerHTML = renderNutritionBox(nutrition, mainGoal);
+  renderBusinessPanel();
+  renderHomeEnhancements();
 }
 function substituteText(ex, env){
   const eqs = ex.equipment || [];
@@ -704,6 +791,8 @@ function openAthleteProgram(){
   $('#athleteDashboard').classList.remove('hidden');
   $('#athleteHistory').classList.remove('hidden');
   $('#athleteDashboard').innerHTML = renderAthleteDashboard(p);
+  renderAthleteCalendar(p);
+  renderAthleteHabits(p);
   $('#athleteProgramOutput').innerHTML = renderProgram(p, false);
   renderAthleteHistory(p.code);
 }
@@ -716,6 +805,7 @@ function renderAthleteDashboard(p){
   <div class="athlete-dashboard-grid">
     <div class="summary"><h4>${esc(labelForGoal(p.mainGoal))}</h4><p>Objectif principal</p></div>
     <div class="summary"><h4>${esc(p.bmi?.value || '-')}</h4><p>IMC réel</p></div>
+    <div class="summary"><h4>${p.nutrition ? p.nutrition.kcal : '-'}</h4><p>kcal de référence</p></div>
     <div class="summary"><h4>${adherence}%</h4><p>Régularité</p></div>
   </div>
   <div class="tracking-summary">
@@ -738,7 +828,7 @@ function backAthlete(){
   $('#athleteProgram').classList.add('hidden');
   $('#liveSession').classList.add('hidden');
   $('#athleteDashboard').classList.add('hidden');
-  $('#athleteHistory').classList.add('hidden');
+  $('#athleteHistory').classList.add('hidden'); $('#athleteCalendar').classList.add('hidden'); $('#athleteHabits').classList.add('hidden');
   $('#athleteLobby').classList.remove('hidden');
 }
 function startLiveSession(){
@@ -822,10 +912,12 @@ function saveTracking(){
   const note = $('#trackNote').value;
   const waist = $('#trackWaist').value;
   const energy = $('#trackEnergy').value;
+  const rpe = $('#trackRpe').value;
+  const compliance = $('#trackCompliance').value;
   if(!code){ alert('Ajoute un code.'); return; }
   const all = JSON.parse(localStorage.getItem('fafaTracking')||'{}');
   all[code] = all[code] || [];
-  all[code].push({date:new Date().toLocaleDateString('fr-FR'), weight, note, waist, energy});
+  all[code].push({date:new Date().toLocaleDateString('fr-FR'), weight, note, waist, energy, rpe, compliance});
   localStorage.setItem('fafaTracking', JSON.stringify(all));
   loadTracking();
 }
@@ -856,7 +948,8 @@ function renderAnalytics(code, entries){
   const weights = entries.filter(x=>x.weight).map((x,i)=>({x:i,y:Number(x.weight)}));
   const waists = entries.filter(x=>x.waist).map((x,i)=>({x:i,y:Number(x.waist)}));
   const avgEnergy = entries.filter(x=>x.energy).map(x=>Number(x.energy));
-  const consistency = Math.min(100, entries.length*8);
+  const complianceVals = entries.filter(x=>x.compliance).map(x=>Number(x.compliance));
+  const consistency = complianceVals.length ? Math.round(complianceVals.reduce((a,b)=>a+b,0)/complianceVals.length) : Math.min(100, entries.length*8);
   const avg = avgEnergy.length ? (avgEnergy.reduce((a,b)=>a+b,0)/avgEnergy.length) : 0;
   const fatigueTrend = avgEnergy.length ? (avg < 6 ? 'à surveiller' : avg < 7.5 ? 'modérée' : 'bonne') : 'pas assez de données';
   $('#analyticsOutput').innerHTML = `<h3>Analytics visuels ${code ? '· '+esc(code) : ''}</h3>
