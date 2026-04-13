@@ -1,23 +1,11 @@
-FAFATRAINING COACHING V25 FULL REBUILD PREMIUM
+FAFATRAINING COACHING V26 TARGETED PREMIUM
 
-Projet GitHub-ready / GitHub Pages / PWA simple.
-Fichiers :
-- index.html
-- style.css
-- app.js
-- manifest.json
-- service-worker.js
-- assets/
-- icons/
-- data/exercises.json
-
-Fonctions incluses :
-- Navigation onglets fonctionnelle
-- Coach Pro en 3 étapes : Profil / Objectifs / Matériel
-- Sélecteurs simples et multi-sélections déroulantes
-- Concordances automatiques de base
-- Bibliothèque filtrable et visible
-- Génération programme cohérente
-- Portail adhérent verrouillable si non payé/non actif
-- Export PDF
-- Suivi, nutrition, business, session rapide
+Base: V25 réelle
+Ciblage uniquement sur les points encore partiels :
+- sélecteurs premium avec recherche et tags visuels
+- bibliothèque plus premium et plus fine
+- moteur programme plus profond
+- dashboard/polish renforcé
+- portail adhérent enrichi
+- PDF plus design
+- mobile plus app-like

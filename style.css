@@ -88,3 +88,33 @@ hr.sep{border:none;height:1px;background:var(--line);margin:16px 0}
   .brand img{width:72px;height:72px}
   .hero-card h2{font-size:26px}
 }
+
+/* ===== V26 targeted polish ===== */
+.multi-enhance{display:grid;gap:8px}
+.multi-search{background:#0b1118;border:1px solid #314052;border-radius:14px;padding:10px 12px;color:var(--text)}
+.multi-tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(99,255,165,.09);border:1px solid rgba(99,255,165,.22);color:#d8ffee;font-size:12px}
+.tag.muted{background:#0d131c;border-color:#2a3446;color:var(--muted)}
+.panel-hero{position:relative;overflow:hidden}
+.panel-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(182,255,42,.07),transparent 40%,rgba(99,255,165,.06),transparent 75%);pointer-events:none}
+.summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}
+.library-split{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}
+.session-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.session-item{border:1px solid rgba(99,255,165,.08)}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.kpi{transition:transform .18s ease, box-shadow .18s ease}
+.kpi:hover,.panel:hover,.library-card:hover,.summary-card:hover{transform:translateY(-2px);box-shadow:0 18px 34px rgba(0,0,0,.28)}
+.navbtn{position:relative}
+.navbtn.active:after{content:"";position:absolute;right:12px;top:50%;transform:translateY(-50%);width:8px;height:8px;border-radius:50%;background:#081018}
+#libraryOutput.card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:1200px){
+  #libraryOutput.card-grid,.summary-grid,.library-split{grid-template-columns:1fr 1fr}
+}
+@media (max-width:700px){
+  #libraryOutput.card-grid,.summary-grid,.library-split{grid-template-columns:1fr}
+  .sidebar{position:fixed;left:0;right:0;bottom:0;top:auto;height:auto;padding:10px 12px;border-right:none;border-top:1px solid var(--line);z-index:50}
+  .brand{display:none}
+  .nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+  .navbtn{font-size:12px;text-align:center;padding:10px 8px}
+  .main{padding-bottom:108px}
+}
