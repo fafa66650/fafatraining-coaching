@@ -7,14 +7,16 @@ let currentProgram = null;
 
 const EQUIPMENTS = [
   ['bodyweight','Poids du corps'],['mat','Tapis de sol'],['dumbbell','Haltères'],['barbell','Barre olympique / standard'],
-  ['bench','Banc'],['rack','Rack / cage'],['cable','Poulie / vis-à-vis'],['machine','Machines guidées'],
+  ['bench','Banc'],['rack','Rack / cage'],['smith','Machine Smith'],['cable','Poulie / vis-à-vis'],['machine','Machines guidées'],
+  ['leg_press','Presse à cuisses'],['lat_pulldown','Tirage vertical'],['ghd','GHD / banc lombaires'],['glute_bridge','Banc hip thrust'],
   ['kettlebell','Kettlebell'],['trx','TRX / sangles'],['battle_rope','Battle rope'],['treadmill','Tapis de course'],
-  ['bike','Vélo'],['elliptical','Elliptique'],['rower','Rameur'],['airbike','Air bike'],['med_ball','Medicine ball'],
-  ['heavy_bag','Sac de frappe'],['pads','Pattes d’ours'],['gloves','Gants'],['rope','Corde à sauter'],['ladder','Échelle de rythme'],
-  ['ab_wheel','Roue abdos'],['trap_bar','Trap bar'],['band','Élastiques'],['sled','Traîneau'],['skierg','SkiErg'],
-  ['dip_bars','Barres dips'],['landmine','Landmine'],['box','Plyo box / step'],['chair','Chaise'],['sofa','Canapé / rebord stable'],
-  ['stairs','Marches / escalier'],['backpack','Sac à dos lestable'],['water_bottles','Bouteilles d’eau / bidons'],['foam_roller','Foam roller / rouleau'],
-  ['towel','Serviette'],['sandbag','Sandbag'],['rings','Anneaux'],['pullup_bar','Barre de traction'],['mini_band','Mini-band'],['cones','Plots / balises']
+  ['bike','Vélo'],['elliptical','Elliptique'],['rower','Rameur'],['airbike','Air bike'],['ski_erg','SkiErg'],['med_ball','Medicine ball'],
+  ['wall_ball','Wall ball'],['sandbag','Sandbag'],['heavy_bag','Sac de frappe'],['pads','Pattes d’ours'],['gloves','Gants'],['rope','Corde à sauter'],
+  ['ladder','Échelle de rythme'],['cones','Plots / balises'],['parallettes','Parallettes'],['rings','Anneaux'],['pullup_bar','Barre de traction'],
+  ['ab_wheel','Roue abdos'],['trap_bar','Trap bar'],['band','Élastiques'],['mini_band','Mini-band'],['sled','Traîneau'],['farmer_handles','Poignées farmer carry'],
+  ['landmine','Landmine'],['dip_bars','Barres dips'],['box','Plyo box / step'],['step','Step'],['chair','Chaise'],['sofa','Canapé / rebord stable'],
+  ['stairs','Marches / escalier'],['backpack','Sac à dos lestable'],['water_bottles','Bouteilles / bidons'],['foam_roller','Foam roller / rouleau'],['massage_ball','Balle de massage'],
+  ['towel','Serviette'],['timer','Chrono / timer'],['heart_rate','Cardiofréquencemètre'],['pulse_belt','Ceinture cardio'],['outdoor_track','Piste / boucle running'],['hill','Côtes / dénivelé']
 ];
 const ENV_LABELS = {
   gym:'Salle de musculation',
@@ -25,12 +27,12 @@ const ENV_LABELS = {
   bodyweight_only:'Poids du corps uniquement'
 };
 const PRESETS = {
-  gym:['barbell','bench','rack','cable','machine','dumbbell','bike','rower','landmine','dip_bars','mat'],
-  crossfit_box:['barbell','dumbbell','kettlebell','battle_rope','rower','airbike','med_ball','sled','box','skierg','trap_bar','rope','mat'],
-  boxing_gym:['bodyweight','heavy_bag','pads','gloves','rope','ladder','band','med_ball','mat'],
-  home:['bodyweight','mat','dumbbell','kettlebell','band','trx','bench','bike','ab_wheel','chair','sofa','stairs','backpack','water_bottles','towel'],
-  outdoor:['bodyweight','mat','band','ladder','rope','sled','med_ball','box','stairs','backpack','cones'],
-  bodyweight_only:['bodyweight','mat','chair','sofa','stairs','backpack','water_bottles','towel']
+  gym:['barbell','bench','rack','smith','cable','machine','leg_press','lat_pulldown','dumbbell','bike','rower','landmine','dip_bars','mat'],
+  crossfit_box:['barbell','dumbbell','kettlebell','battle_rope','rower','airbike','med_ball','wall_ball','sled','ski_erg','trap_bar','rope','box','sandbag','mat','timer'],
+  boxing_gym:['bodyweight','heavy_bag','pads','gloves','rope','ladder','cones','band','med_ball','mat','timer'],
+  home:['bodyweight','mat','dumbbell','kettlebell','band','mini_band','trx','bench','bike','ab_wheel','chair','sofa','stairs','backpack','water_bottles','towel','foam_roller','timer'],
+  outdoor:['bodyweight','mat','band','ladder','cones','rope','sled','med_ball','box','sandbag','outdoor_track','hill','timer'],
+  bodyweight_only:['bodyweight','mat','chair','sofa','stairs','towel','mini_band','timer']
 };
 
 function esc(v){return String(v ?? '').replace(/[&<>"]/g,c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));}
@@ -38,6 +40,29 @@ function getMulti(id){ const el=document.getElementById(id); return el ? Array.f
 function setMulti(id, values){ const el=document.getElementById(id); if(!el) return; const set=new Set(values||[]); Array.from(el.options).forEach(o=>o.selected=set.has(o.value));}
 function labelForLevel(v){ return v==='beginner'?'Débutant':v==='intermediate'?'Intermédiaire':v==='advanced'?'Avancé':v; }
 
+
+function normalizeEffortToStyle(s){
+  const map={hiit:'conditioning', circuit:'conditioning', emom:'conditioning', amrap:'conditioning', interval:'conditioning', boxing_rounds:'boxing', classic:'hypertrophy', tempo:'hypertrophy', clusters:'strength', ladder:'conditioning', density:'conditioning', fartlek:'trail', zone2:'trail', threshold:'trail', shadow_rounds:'boxing', complex:'hyrox'};
+  return map[s] || s;
+}
+function styleLabel(style){
+  const m={strength:'Force', hypertrophy:'Hypertrophie', conditioning:'Conditioning', boxing:'Boxe', hyrox:'Hyrox', trail:'Trail', mobility:'Mobilité', health:'Santé'};
+  return m[style] || style;
+}
+function coachNoteForStyle(style, idx, form){
+  const notes={
+    strength:'Reste propre techniquement et garde 1 à 2 reps de marge.',
+    hypertrophy:'Contrôle le tempo et cherche la qualité de contraction.',
+    conditioning:'Travail rythmé, respiration active, récupérations tenues.',
+    boxing:'Garde haute, appuis vivants, précision avant vitesse.',
+    hyrox:'Reste régulier et propre dans les transitions.',
+    trail:'Travail d’économie de course et stabilité.',
+    mobility:'Amplitudes contrôlées, respiration calme et fluide.',
+    health:'Aucun mouvement douloureux, priorité au confort et au contrôle.'
+  };
+  if(form.restrictions && idx===0) return notes[style] + ' Contraintes santé prises en compte.';
+  return notes[style] || 'Technique propre et progression contrôlée.';
+}
 function styleMatches(ex, style){
   if(!style) return true;
   const txt = (ex.name+' '+(ex.category||'')+' '+(ex.subcategory||'')+' '+(ex.muscles||'')+' '+(ex.cue||'')+' '+(ex.tags||[]).join(' ')+' '+(ex.focus||[]).join(' ')).toLowerCase();
@@ -82,21 +107,29 @@ function activityFactorFromProfile(activity,freq){
   if(activity==='very_active') return 1.8;
   return 1.45;
 }
+
 function calcBMI(weightKg,heightCm,meta={}){
   const h = Number(heightCm)/100;
   if(!weightKg || !h) return null;
   const bmi = Number(weightKg)/(h*h);
-  let label='Poids normal', risk='profil standard';
+  let label='Poids normal', risk='zone de référence';
   if(bmi < 18.5){ label='Insuffisance pondérale'; risk='surveiller récupération et apport énergétique'; }
   else if(bmi < 25){ label='Poids normal'; risk='zone de référence'; }
-  else if(bmi < 30){ label='Surpoids'; risk='intérêt du travail cardio + nutrition'; }
+  else if(bmi < 30){ label='Surpoids'; risk='à recouper avec tour de taille, activité et habitudes'; }
   else if(bmi < 35){ label='IMC élevé'; risk='lecture à nuancer selon composition corporelle'; }
   else { label='IMC très élevé'; risk='approche santé prioritaire'; }
   if((meta.activityLevel==='very_active' || meta.activityLevel==='active') && meta.level==='advanced' && bmi >= 27){
     label = 'IMC élevé à interpréter avec prudence';
-    risk = 'profil potentiellement très musclé : compléter avec mensurations et tour de taille';
+    risk = 'profil potentiellement très musclé : compléter avec tour de taille, progression et terrain';
   }
-  return {value:bmi.toFixed(1), label, risk};
+  const waist = Number(meta.waist||0);
+  let waistToHeight = null;
+  let waistRisk = '';
+  if(waist && heightCm){
+    waistToHeight = +(waist/Number(heightCm)).toFixed(2);
+    waistRisk = waistToHeight < 0.5 ? 'tour de taille plutôt rassurant' : 'tour de taille à surveiller';
+  }
+  return {value:bmi.toFixed(1), label, risk, waistToHeight, waistRisk};
 }
 function calcCalories({sex, weight, height, age, goal, stress, activityFactor=1.5}){
   weight=Number(weight||0); height=Number(height||0); age=Number(age||0);
@@ -131,52 +164,86 @@ function showStep(step){
   $$('.step').forEach(b=>b.classList.toggle('active', b.dataset.step===String(step)));
   $$('.step-panel').forEach(p=>p.classList.toggle('active', p.dataset.stepPanel===String(step)));
 }
+
 function buildEquipmentSelect(){
   $('#equipmentSelect').innerHTML=EQUIPMENTS.map(([k,l])=>`<option value="${k}">${l}</option>`).join('');
 }
 
+
+
 function seedAdvancedOptions(){
-  addOptions('secondGoals', [['recovery','Récupération'],['wellbeing','Bien-être'],['performance','Performance générale'],['posture','Posture / stabilité']]);
-  addOptions('cycleGoals', [['technique','Technique'],['endurance','Endurance spécifique'],['recovery','Récupération'],['mobility','Mobilité / amplitudes']]);
-  addOptions('focusTargets', [['mollets','Mollets'],['ischios','Ischios'],['avant_bras','Avant-bras / grip'],['rotation','Rotation / anti-rotation'],['cardio','Cardio / moteur']]);
-  addOptions('fafaModules', [['mobility_flow','Mobilité / flow'],['body_recomp','Recomposition'],['combat_conditioning','Conditioning combat']]);
-  addOptions('effortFormats', [['tempo','Tempo / contrôle'],['clusters','Clusters'],['ladder','Ladder'],['density','Density training'],['fartlek','Fartlek'],['zone2','Zone 2']]);
-  addOptions('coachingTypes', [['performance','Performance'],['wellbeing','Bien-être'],['weightlifting','Haltérophilie'],['athletic','Préparation athlétique']]);
-  addOptions('supports', [['hybrid','Hybride'],['messaging','Messagerie / feedback'],['autonome','Autonome guidé']]);
-  addOptions('medicalKnown', [['asthme','Asthme'],['surpoids','Surpoids / obésité'],['discopathie','Discopathie / hernie'],['anxiete','Stress / anxiété']]);
-  addOptions('injuryKnown', [['poignet','Poignet'],['hanche','Hanche'],['cheville','Cheville'],['ischio','Ischio / adducteurs']]);
-  addOptions('foodKnown', [['vegetarien','Végétarien'],['vegan','Vegan'],['halal','Halal'],['lactose','Sans lactose'],['gluten','Sans gluten'],['arachides','Arachides']]);
+  addOptions('secondGoals', [['recovery','Récupération'],['wellbeing','Bien-être'],['performance','Performance générale'],['posture','Posture / stabilité'],['athleticism','Préparation athlétique'],['health_markers','Marqueurs santé'],['micro_cut','Mini sèche'],['mass_quality','Masse de qualité']]);
+  addOptions('cycleGoals', [['technique','Technique'],['endurance','Endurance spécifique'],['recovery','Récupération'],['mobility','Mobilité / amplitudes'],['aerobic_base','Base aérobie'],['peak','Pic de forme'],['deload','Déload guidé']]);
+  addOptions('focusTargets', [['mollets','Mollets'],['ischios','Ischios'],['avant_bras','Avant-bras / grip'],['rotation','Rotation / anti-rotation'],['cardio','Cardio / moteur'],['stability','Stabilité'],['explosivite','Explosivité'],['posture','Posture']]);
+  addOptions('fafaModules', [['mobility_flow','Mobilité / flow'],['body_recomp','Recomposition'],['combat_conditioning','Conditioning combat'],['micro_nutrition','Micro-nutrition'],['wellness_reset','Rééquilibrage bien-être']]);
+  addOptions('effortFormats', [['tempo','Tempo / contrôle'],['clusters','Clusters'],['ladder','Ladder'],['density','Density training'],['fartlek','Fartlek'],['zone2','Zone 2'],['threshold','Seuil'],['interval_walk','Marche fractionnée'],['shadow_rounds','Shadow rounds'],['complex','Complexe haltères / kettlebell']]);
+  addOptions('coachingTypes', [['performance','Performance'],['wellbeing','Bien-être'],['weightlifting','Haltérophilie'],['athletic','Préparation athlétique'],['micro_nutrition','Micro-nutrition'],['rebalancing','Rééquilibrage alimentaire']]);
+  addOptions('supports', [['hybrid','Hybride'],['messaging','Messagerie / feedback'],['autonome','Autonome guidé'],['nutrition_only','Nutrition seule'],['weekly_review','Bilan hebdo']]);
+  addOptions('medicalKnown', [['asthme','Asthme'],['surpoids','Surpoids / obésité'],['discopathie','Discopathie / hernie'],['anxiete','Stress / anxiété'],['diabete2','Diabète type 2'],['cholesterol','Cholestérol']]);
+  addOptions('injuryKnown', [['poignet','Poignet'],['hanche','Hanche'],['cheville','Cheville'],['ischio','Ischio / adducteurs'],['cervicales','Cervicales'],['coude','Coude']]);
+  addOptions('foodKnown', [['vegetarien','Végétarien'],['vegan','Vegan'],['halal','Halal'],['lactose','Sans lactose'],['gluten','Sans gluten'],['arachides','Arachides'],['fodmap','Sensibilité FODMAP'],['anti_inflammatoire','Orientation anti-inflammatoire']]);
 }
+
+
 function enhanceMultiSelects(ids){
   ids.forEach(id=>{
     const select = document.getElementById(id);
     if(!select || select.dataset.enhanced) return;
     select.dataset.enhanced='1';
-    const wrap = document.createElement('div');
-    wrap.className='multi-enhance';
+    select.style.display='none';
+    const box = document.createElement('div');
+    box.className='multi-select-box';
+    const trigger = document.createElement('button');
+    trigger.type='button';
+    trigger.className='multi-trigger';
+    trigger.innerHTML = `<span>Choisir...</span><span class="caret">▾</span>`;
+    const panel = document.createElement('div');
+    panel.className='multi-panel hidden';
     const search = document.createElement('input');
-    search.className='multi-search';
     search.type='text';
-    search.placeholder='Rechercher / filtrer...';
+    search.className='multi-search';
+    search.placeholder='Rechercher...';
+    const opts = document.createElement('div');
+    opts.className='multi-options';
     const tags = document.createElement('div');
     tags.className='multi-tags';
-    select.parentNode.insertBefore(wrap, select);
-    wrap.appendChild(search);
-    wrap.appendChild(select);
-    wrap.appendChild(tags);
-    const update = ()=>{
-      tags.innerHTML = Array.from(select.selectedOptions).map(o=>`<span class="tag">${o.textContent}</span>`).join('') || '<span class="tag muted">Aucune sélection</span>';
-    };
-    search.addEventListener('input', ()=>{
-      const q = search.value.toLowerCase().trim();
-      Array.from(select.options).forEach(o=>{
-        o.hidden = !!q && !o.textContent.toLowerCase().includes(q);
+    panel.appendChild(search);
+    panel.appendChild(opts);
+    box.appendChild(trigger);
+    box.appendChild(panel);
+    box.appendChild(tags);
+    select.parentNode.insertBefore(box, select.nextSibling);
+    const renderOptions = ()=>{
+      const q=(search.value||'').toLowerCase().trim();
+      opts.innerHTML = Array.from(select.options).filter(o=>!q || o.textContent.toLowerCase().includes(q)).map(o=>`
+        <label class="multi-opt"><input type="checkbox" value="${o.value}" ${o.selected?'checked':''}> <span>${o.textContent}</span></label>
+      `).join('') || '<div class="small-muted">Aucun résultat</div>';
+      opts.querySelectorAll('input[type="checkbox"]').forEach(ch=>{
+        ch.addEventListener('change', ()=>{
+          const opt = Array.from(select.options).find(o=>o.value===ch.value);
+          if(opt) opt.selected = ch.checked;
+          update();
+          select.dispatchEvent(new Event('change',{bubbles:true}));
+        });
       });
+    };
+    const update = ()=>{
+      const selected = Array.from(select.selectedOptions);
+      trigger.querySelector('span').textContent = selected.length ? `${selected.length} sélection${selected.length>1?'s':''}` : 'Choisir...';
+      tags.innerHTML = selected.length ? selected.map(o=>`<span class="tag">${o.textContent}</span>`).join('') : '<span class="tag muted">Aucune sélection</span>';
+    };
+    trigger.addEventListener('click', ()=>{
+      document.querySelectorAll('.multi-panel').forEach(p=>{ if(p!==panel) p.classList.add('hidden'); });
+      panel.classList.toggle('hidden');
+      if(!panel.classList.contains('hidden')) search.focus();
     });
-    select.addEventListener('change', update);
-    update();
+    search.addEventListener('input', renderOptions);
+    document.addEventListener('click', (e)=>{ if(!box.contains(e.target)) panel.classList.add('hidden'); });
+    select.addEventListener('change', ()=>{ renderOptions(); update(); });
+    renderOptions(); update();
   });
 }
+
 
 function buildLibraryFilters(){
   const cats=[''].concat([...new Set(EXERCISES.map(e=>e.category).filter(Boolean))].sort());
@@ -184,6 +251,7 @@ function buildLibraryFilters(){
   $('#libEnv').innerHTML=[''].concat(Object.keys(ENV_LABELS)).map(v=>`<option value="${v}">${v?ENV_LABELS[v]:'Tous les contextes'}</option>`).join('');
   $('#libEquipment').innerHTML=[''].concat(EQUIPMENTS.map(x=>x[0])).map(v=>`<option value="${v}">${v?eqLabel(v):'Tout le matériel'}</option>`).join('');
 }
+
 
 function autoFill(){
   const prefs=getMulti('practicePrefs');
@@ -206,17 +274,20 @@ function autoFill(){
   }
   if(goal){
     const cycleMap = {
-      fat_loss:['conditioning'],
+      fat_loss:['conditioning','maintenance'],
       recomposition:['hypertrophy','conditioning'],
       muscle_gain:['hypertrophy'],
-      strength:['strength'],
-      conditioning:['conditioning'],
-      boxing:['conditioning','peak'],
+      strength:['strength','technique'],
+      conditioning:['conditioning','aerobic_base'],
+      boxing:['conditioning','peak','technique'],
       hyrox:['conditioning','peak'],
-      trail:['conditioning'],
-      mobility:['health'],
-      health:['health'],
-      return_to_play:['health']
+      trail:['conditioning','endurance'],
+      mobility:['health','mobility'],
+      health:['health','recovery'],
+      return_to_play:['health','recovery'],
+      wellbeing:['health','maintenance'],
+      posture:['technique','health'],
+      athleticism:['strength','conditioning']
     };
     setMulti('cycleGoals', cycleMap[goal]||['conditioning']);
   }
@@ -224,41 +295,61 @@ function autoFill(){
   if(goal==='boxing' || sport==='boxing') coachTypes.push('boxing');
   if(goal==='hyrox' || sport==='hyrox') coachTypes.push('hyrox');
   if(goal==='trail' || sport==='running') coachTypes.push('trail');
-  if(['fat_loss','recomposition','muscle_gain','strength','conditioning'].includes(goal)) coachTypes.push('fitness');
-  if(['health','return_to_play','mobility'].includes(goal) || getMulti('medicalKnown').length || getMulti('injuryKnown').length) coachTypes.push('health');
+  if(['fat_loss','recomposition','muscle_gain','strength','conditioning','athleticism'].includes(goal)) coachTypes.push('fitness');
+  if(['health','return_to_play','mobility','wellbeing','posture'].includes(goal) || getMulti('medicalKnown').length || getMulti('injuryKnown').length) coachTypes.push('health');
+  if(getMulti('foodKnown').length || goal==='wellbeing') coachTypes.push('nutrition');
   coachTypes.push('general');
   setMulti('coachingTypes',[...new Set(coachTypes)]);
   const mods=[];
   if(goal==='boxing'||sport==='boxing') mods.push('boxing_prep');
   if(goal==='hyrox'||sport==='hyrox') mods.push('hyrox_prep');
   if(goal==='trail'||sport==='running') mods.push('trail_prep');
-  if(goal==='return_to_play'||getMulti('injuryKnown').length) mods.push('return_to_play');
-  if(goal==='health') mods.push('seniors_health');
-  if(goal==='fat_loss') mods.push('express_fat_loss');
-  if(goal==='recomposition' || goal==='muscle_gain') mods.push('transformation');
+  if(['health','return_to_play','mobility','posture'].includes(goal) || getMulti('injuryKnown').length || getMulti('medicalKnown').length) mods.push('return_to_play');
+  if(['fat_loss','recomposition'].includes(goal)) mods.push('body_recomp');
+  if(goal==='wellbeing' || getMulti('foodKnown').length) mods.push('wellness_reset');
   setMulti('fafaModules',[...new Set(mods)]);
-  applyEquipmentPreset();
+  const supports=[];
+  supports.push('remote');
+  if(prefs.includes('gym')) supports.push('in_person_gym');
+  if(prefs.includes('outdoor')) supports.push('in_person_outdoor');
+  if(prefs.includes('video')) supports.push('video');
+  if(getMulti('coachingTypes').includes('nutrition')) supports.push('nutrition_only');
+  setMulti('supports',[...new Set(supports)]);
+  const env=$('#environmentSelect').value;
+  if(env && !getMulti('equipmentSelect').length){
+    const preset = PRESETS[env] || [];
+    setMulti('equipmentSelect', preset);
+    $('#equipmentSelect').dispatchEvent(new Event('change',{bubbles:true}));
+  }
   updateSummary();
 }
+
 function applyEquipmentPreset(){
   const env=$('#environmentSelect').value;
   const preset=PRESETS[env]||[];
   if(preset.length) setMulti('equipmentSelect', preset);
 }
+
 function updateSummary(){
-  const bmi = calcBMI(Number($('#clientWeight').value||0), Number($('#clientHeight').value||0), {activityLevel:$('#activityLevel').value, level:$('#clientLevel').value});
-  const summary=[
-    ['Client', $('#clientName').value || '—'],
-    ['Objectif', labelForGoal($('#mainGoal').value||'') || '—'],
-    ['Contexte', ENV_LABELS[$('#environmentSelect').value] || 'Auto / à définir'],
-    ['Fréquence conseillée', $('#clientFreq').value ? $('#clientFreq').value+'/semaine' : 'Auto'],
-    ['Durée conseillée', $('#clientDuration').value ? $('#clientDuration').value+' min' : 'Auto'],
-    ['IMC', bmi ? `${bmi.value} · ${bmi.label}` : '—'],
-    ['Modules', getMulti('fafaModules').map(v=>$('#fafaModules').querySelector(`option[value="${v}"]`)?.textContent||v).join(', ') || '—'],
-    ['Statut business', `${$('#bizStatus').value||'—'} / ${Number($('#bizAmount').value||0)>0?'payé':'non payé'}`]
-  ];
-  $('#coachSummary').innerHTML=summary.map(([k,v])=>`<div><strong>${esc(k)} :</strong> ${esc(v)}</div>`).join('');
+  const bmi = calcBMI(Number($('#clientWeight').value||0), Number($('#clientHeight').value||0), {
+    activityLevel: $('#activityLevel').value,
+    level: $('#clientLevel').value,
+    waist: Number($('#clientWaist')?.value||0)
+  });
+  const prefs = getMulti('practicePrefs');
+  const coaching = getMulti('coachingTypes');
+  const modules = getMulti('fafaModules');
+  $('#coachSummary').innerHTML = `
+    <div class="summary-card"><strong>Profil</strong><div class="small-muted">${esc($('#clientName').value||'Client à définir')} · ${esc(labelForLevel($('#clientLevel').value||'intermediate'))}</div></div>
+    <div class="summary-card"><strong>Objectif</strong><div class="small-muted">${esc(labelForGoal($('#mainGoal').value||'')) || 'À choisir'}</div></div>
+    <div class="summary-card"><strong>Contexte</strong><div class="small-muted">${esc(labelForEnv($('#environmentSelect').value||'')) || 'À choisir'}</div></div>
+    <div class="summary-card"><strong>Préférences</strong><div class="small-muted">${esc(prefs.join(', ')||'Aucune')}</div></div>
+    <div class="summary-card"><strong>Coaching</strong><div class="small-muted">${esc(coaching.join(', ')||'Auto')}</div></div>
+    <div class="summary-card"><strong>Modules</strong><div class="small-muted">${esc(modules.join(', ')||'Auto')}</div></div>
+    <div class="summary-card"><strong>Fréquence / durée</strong><div class="small-muted">${esc($('#clientFreq').value||'-')} / semaine · ${esc($('#clientDuration').value||'-')} min</div></div>
+    <div class="summary-card"><strong>Lecture santé</strong><div class="small-muted">${bmi ? `IMC ${bmi.value} · ${bmi.label}${bmi.waistToHeight?` · ratio ${bmi.waistToHeight}`:''}` : 'Renseigne taille / poids / âge'}</div></div>`;
 }
+
 
 function buildDayTitles(freq, goal='conditioning', cycle='conditioning'){
   const f=Number(freq||3);
@@ -277,22 +368,27 @@ function buildDayTitles(freq, goal='conditioning', cycle='conditioning'){
 }
 
 
+
 function exerciseMatches(ex, level, env, equipment, injuries, medical){
   const lvl={beginner:1,intermediate:2,advanced:3};
   if(lvl[ex.level] > lvl[level||'intermediate']) return false;
   if(env && ex.environments && !ex.environments.includes(env) && !['gym','mixed'].includes(env)) return false;
   if(equipment.length && ex.equipment && ex.equipment.length && !ex.equipment.some(e=>equipment.includes(e))) return false;
-  const txt=(ex.name+' '+(ex.category||'')+' '+(ex.subcategory||'')+' '+ex.muscles+' '+ex.cue+' '+(ex.tags||[]).join(' ')).toLowerCase();
-  if(injuries.includes('epaule') && /(overhead|développé nuque|snatch|jerk|throw)/i.test(txt)) return false;
-  if(injuries.includes('dos') && /(soulevé de terre lourd|good morning|deadlift|rotation explosive|hyperextension lourde)/i.test(txt)) return false;
-  if(injuries.includes('genou') && /(jump squat|saut|pistol|bondissement|lunge jump)/i.test(txt)) return false;
-  if(injuries.includes('poignet') && /(handstand|planche|front rack lourd|clean lourd)/i.test(txt)) return false;
+  const txt=(ex.name+' '+(ex.category||'')+' '+(ex.subcategory||'')+' '+(ex.muscles||'')+' '+(ex.cue||'')+' '+(ex.tags||[]).join(' ')+' '+(ex.focus||[]).join(' ')).toLowerCase();
+  if(injuries.includes('epaule') && /(overhead|développé nuque|snatch|jerk|throw|handstand)/i.test(txt)) return false;
+  if(injuries.includes('dos') && /(soulevé de terre lourd|good morning|deadlift|rotation explosive|hyperextension lourde|rounded back)/i.test(txt)) return false;
+  if(injuries.includes('genou') && /(jump squat|saut|pistol|bondissement|lunge jump|depth jump)/i.test(txt)) return false;
+  if(injuries.includes('poignet') && /(handstand|planche|front rack lourd|clean lourd|burpee poignet)/i.test(txt)) return false;
   if(injuries.includes('hanche') && /(cossack lourd|split jump|amplitude forcée)/i.test(txt)) return false;
-  if(medical.includes('hypertension') && /(max|sprint all out|valsalva|all out)/i.test(txt)) return false;
+  if(injuries.includes('cheville') && /(plyo|bondissement|double under|sprint all out)/i.test(txt)) return false;
+  if(medical.includes('hypertension') && /(max|sprint all out|valsalva|all out|effort max)/i.test(txt)) return false;
   if(medical.includes('asthme') && /(apnée|all out long)/i.test(txt)) return false;
-  if(medical.includes('discopathie') && /(flexion lombaire chargée|rounded back deadlift)/i.test(txt)) return false;
+  if(medical.includes('discopathie') && /(flexion lombaire chargée|rounded back deadlift|good morning lourd)/i.test(txt)) return false;
+  if(medical.includes('diabete') && /(jeûne strict|all out prolongé)/i.test(txt)) return false;
   return true;
 }
+
+
 
 
 function buildProgramDays(form){
@@ -300,48 +396,47 @@ function buildProgramDays(form){
   const level=form.level||'intermediate';
   const injuries=getMulti('injuryKnown');
   const medical=getMulti('medicalKnown');
-  const styleHints = [...(form.effortFormats||[]), form.mainGoal, ...(form.fafaModules||[])].join(' ').toLowerCase();
+  const preferredStyles = form.effortFormats||[];
+  const primaryCycle = (form.cycleGoals||[])[0] || '';
   const filtered=EXERCISES.filter(ex=>exerciseMatches(ex, level, form.env, form.equipment, injuries, medical));
   const pickBy = (keywords, count=5, style='')=>{
     let res=filtered.filter(ex=>{
-      const text=(ex.name+' '+(ex.subcategory||'')+' '+(ex.muscles||'')+' '+(ex.category||'')+' '+(ex.tags||[]).join(' ')).toLowerCase();
+      const text=(ex.name+' '+(ex.subcategory||'')+' '+(ex.muscles||'')+' '+(ex.category||'')+' '+(ex.tags||[]).join(' ')+' '+(ex.focus||[]).join(' ')).toLowerCase();
       return keywords.some(k=>text.includes(k));
     });
-    if(style) res = res.filter(ex=>styleMatches(ex, style) || styleHints.includes(style));
+    if(style) res = res.filter(ex=>styleMatches(ex, style));
+    if(preferredStyles.length){
+      const styleRes = res.filter(ex=>preferredStyles.some(s=>styleMatches(ex, normalizeEffortToStyle(s))));
+      if(styleRes.length >= Math.max(2, count-1)) res = styleRes;
+    }
     if(!res.length && style) res = filtered.filter(ex=>styleMatches(ex, style));
     return (res.length?res:filtered).slice(0,count);
   };
   return titles.map((title, i)=>{
-    let keys=['full body']; let style='';
+    let keys=['full body']; let style='conditioning';
     if(/push/i.test(title)) { keys=['pector','épaule','triceps','push']; style=form.mainGoal==='strength'?'strength':'hypertrophy'; }
     else if(/pull/i.test(title)) { keys=['dos','biceps','tirage','pull']; style=form.mainGoal==='strength'?'strength':'hypertrophy'; }
     else if(/lower|bas|squat|hinge/i.test(title)) { keys=['quadriceps','fess','ischio','jamb']; style=form.mainGoal==='strength'?'strength':'hypertrophy'; }
     else if(/conditioning|cardio|engine|simulation|threshold|zone 2|moteur/i.test(title)) { keys=['cardio','course','rameur','conditioning','bike','carry']; style=form.mainGoal==='boxing'?'boxing':form.mainGoal==='hyrox'?'hyrox':form.mainGoal==='trail'?'trail':'conditioning'; }
-    else if(/mobilité|respiration|stabilité|flow/i.test(title)) { keys=['mobility','stability','rotation','core']; style='mobility'; }
-    else if(/technique|rounds/i.test(title)) { keys=['boxe','boxing','shadow','pads','bag']; style='boxing'; }
-    const items=pickBy(keys, 5, style).map((ex,idx)=>({
-      name:ex.name,
-      category:ex.category,
-      muscles:ex.muscles,
-      cue:ex.cue,
-      easy:ex.easy,
-      hard:ex.hard,
-      substitute: ex.easy || ex.hard || 'Adapter selon matériel',
-      prescription:{
-        series: /conditioning|cardio|engine|simulation|rounds/i.test(title) ? (form.mainGoal==='boxing'?'6 à 8 rounds':'4 à 6 blocs') : (form.mainGoal==='strength'?'4 à 5 séries':'3 à 4 séries'),
-        reps: ['strength'].includes(form.mainGoal)?'4 à 6 reps': ['muscle_gain','recomposition'].includes(form.mainGoal)?'8 à 12 reps': ['health','return_to_play','mobility'].includes(form.mainGoal)?'8 à 10 reps contrôlées':'10 à 15 reps',
-        rest: ['conditioning','boxing','hyrox','trail','endurance'].includes(form.mainGoal)?'30 à 60 sec':'60 à 120 sec',
-        tempo: idx===0?'contrôlé':'fluide'
-      },
-      coachNote: style==='strength' ? 'Priorité à la qualité technique et à la récupération entre les séries.' :
-        style==='conditioning' ? 'Garde une intensité progressive et propre, pas de départ trop violent.' :
-        style==='boxing' ? 'Précision, appuis et rythme avant la puissance.' :
-        style==='mobility' ? 'Cherche l’amplitude confortable et la respiration.' :
-        'Exécution propre et marge de sécurité.'
-    }));
-    return {title, items, patternSummary: keys.join(' / '), style};
+    else if(/mobilité|respiratio|flow|stabilité/i.test(title)) { keys=['mobility','stretch','stabilité','core']; style='mobility'; }
+    if(primaryCycle==='strength') style='strength';
+    const exs = pickBy(keys, 5, style);
+    return {
+      title,
+      style,
+      patternSummary: `${labelForLevel(level)} · ${labelForEnv(form.env)} · ${styleLabel(style)}`,
+      items: exs.map((ex, idx)=>({
+        name: ex.name,
+        muscles: ex.muscles,
+        cue: ex.cue,
+        substitute: ex.equipment?.length ? `Alternative si besoin : ${eqLabel(ex.equipment[0])} ou variante facile.` : 'Alternative poids du corps / variante facile.',
+        coachNote: coachNoteForStyle(style, idx, form),
+        prescription: prescribe(ex, level, style, form.duration)
+      }))
+    };
   });
 }
+
 
 
 function buildWeekSchedule(freq){
@@ -363,6 +458,7 @@ function buildWeekSchedule(freq){
 }
 
 
+
 function renderProgram(p, coach=true){
   const week=buildWeekSchedule(p.freq);
   const head = `<div class="panel panel-hero"><h3>${esc(p.name)} · ${esc(p.code)}</h3>
@@ -373,7 +469,7 @@ function renderProgram(p, coach=true){
       <span class="badge">${esc(p.freq)}/semaine</span>
       <span class="badge">${esc(p.duration)} min</span>
     </div>
-    ${p.bmi?`<p><strong>IMC :</strong> ${esc(p.bmi.value)} · ${esc(p.bmi.label)} — ${esc(p.bmi.risk)}</p>`:''}
+    ${p.bmi?`<p><strong>Lecture santé :</strong> IMC ${esc(p.bmi.value)} · ${esc(p.bmi.label)} — ${esc(p.bmi.risk)}${p.bmi.waistToHeight?` · ratio taille/taille ${esc(p.bmi.waistToHeight)} (${esc(p.bmi.waistRisk)})`:''}</p>`:''}
     ${p.restrictions?`<p><strong>Contraintes prises en compte :</strong> ${esc(p.restrictions)}</p>`:''}
     <div class="summary-grid">
       <div class="summary-card"><strong>${esc(p.freq)}</strong><div class="small-muted">séances / semaine</div></div>
@@ -391,23 +487,64 @@ function renderProgram(p, coach=true){
     <div class="small-muted">Substitution : ${esc(ex.substitute)}</div>
     <div class="small-muted">Note coach : ${esc(ex.coachNote||'')}</div></div>`).join('')
   }</article>`).join('');
-  const actions = coach ? `<div class="actions"><button id="coachSaveAgain">Enregistrer</button><button class="ghost" id="coachCopyLinkAgain">Copier lien adhérent</button><button class="ghost" id="coachExportPdfAgain">Exporter PDF premium</button></div>` : '';
-  return head + sched + actions + `<div class="stack">${days}</div>`;
+  const actions = coach ? `<div class="panel"><div class="actions"><button id="copyLinkBtn2">Copier lien adhérent</button><button class="ghost" id="exportPdfBtn2">Exporter PDF</button></div></div>` : '';
+  return head + sched + actions + days;
 }
+
+
 
 function buildNutritionView(p){
   const n = p.nutrition;
   if(!n) return '<div class="panel"><p>Impossible de calculer la nutrition sans taille, poids et âge.</p></div>';
-  return `<div class="panel"><h3>Nutrition</h3><p><strong>Calories :</strong> ${n.kcal} kcal</p><p><strong>Macros :</strong> protéines ${n.protein} g · glucides ${n.carbs} g · lipides ${n.fats} g</p><p class="small-muted">Lecture simple : point de départ à ajuster selon poids, faim, énergie et assiduité.</p></div>`;
+  const food = p.restrictions || '';
+  const nutritionCoaching = (p.coachingTypes||[]).includes('nutrition') || (p.fafaModules||[]).includes('micro_nutrition') || p.mainGoal==='wellbeing';
+  const goalText = labelForGoal(p.mainGoal);
+  const hydration = p.weight ? Math.round(p.weight*35) : 2000;
+  const templates = nutritionTemplates(p);
+  return `<div class="panel panel-hero">
+      <h3>Centre nutrition FAFATRAINING</h3>
+      <p class="small-muted">Lecture intelligente selon objectif, profil, allergies, coaching choisi et volume d'entraînement.</p>
+      <div class="summary-grid">
+        <div class="summary-card"><strong>${n.kcal}</strong><div class="small-muted">kcal / jour</div></div>
+        <div class="summary-card"><strong>${n.protein} g</strong><div class="small-muted">protéines</div></div>
+        <div class="summary-card"><strong>${n.carbs} g</strong><div class="small-muted">glucides</div></div>
+        <div class="summary-card"><strong>${n.fats} g</strong><div class="small-muted">lipides</div></div>
+      </div>
+    </div>
+    <div class="panel"><h3>Lecture coach</h3>
+      <p><strong>Objectif :</strong> ${goalText}</p>
+      <p><strong>Hydratation repère :</strong> environ ${hydration} ml / jour, à ajuster selon chaleur, sudation et volume d'entraînement.</p>
+      <p><strong>Contraintes prises en compte :</strong> ${food || 'Aucune contrainte particulière détectée.'}</p>
+      <p><strong>Orientation micro-nutrition / hygiène de vie :</strong> sommeil régulier, protéines réparties, fibres quotidiennes, oméga-3, fruits/légumes variés, sodium maîtrisé si besoin santé.</p>
+      ${nutritionCoaching?'<p><strong>Mode nutrition coaching actif :</strong> tu peux utiliser ce cadre comme base de rééquilibrage alimentaire, performance ou transformation selon le profil.</p>':''}
+    </div>
+    <div class="panel"><h3>Structure repas type</h3>
+      <div class="summary-grid">
+        <div class="summary-card"><strong>Petit-déjeuner</strong><div>${templates.breakfast}</div></div>
+        <div class="summary-card"><strong>Déjeuner</strong><div>${templates.lunch}</div></div>
+        <div class="summary-card"><strong>Collation</strong><div>${templates.snack}</div></div>
+        <div class="summary-card"><strong>Dîner</strong><div>${templates.dinner}</div></div>
+      </div>
+    </div>
+    <div class="panel"><h3>Aides coach / original FAFATRAINING</h3>
+      <div class="summary-card"><strong>Astuce terrain</strong><div class="small-muted">${templates.tip}</div></div>
+      <div class="summary-card"><strong>Substitutions utiles</strong><div class="small-muted">${templates.swap}</div></div>
+      <div class="summary-card"><strong>Priorité de la semaine</strong><div class="small-muted">${templates.priority}</div></div>
+    </div>`;
 }
+
+
 function collectRestrictions(){
-  const arr=[];
-  if(getMulti('medicalKnown').length) arr.push('Pathologies : '+getMulti('medicalKnown').join(', '));
-  if(getMulti('injuryKnown').length) arr.push('Blessures : '+getMulti('injuryKnown').join(', '));
-  if(getMulti('foodKnown').length) arr.push('Nutrition / allergies : '+getMulti('foodKnown').join(', '));
-  if($('#healthNotes').value.trim()) arr.push($('#healthNotes').value.trim());
-  return arr.join(' · ');
+  const parts=[];
+  const med=getMulti('medicalKnown');
+  const inj=getMulti('injuryKnown');
+  const food=getMulti('foodKnown');
+  if(med.length) parts.push('Pathologies : '+med.join(', '));
+  if(inj.length) parts.push('Blessures : '+inj.join(', '));
+  if(food.length) parts.push('Allergies / alimentation : '+food.join(', '));
+  return parts.join(' · ');
 }
+
 function saveProgram(program){
   const all=loadLocal('fafaPrograms',{});
   all[program.code]=program;
@@ -417,6 +554,7 @@ function saveProgram(program){
 function generateAthleteLink(program){
   return `${location.origin}${location.pathname}?client=${encodeURIComponent(program.code)}`;
 }
+
 function buildProgram(){
   const form = {
     name:$('#clientName').value.trim() || 'Client FAFATRAINING',
@@ -426,6 +564,7 @@ function buildProgram(){
     sex:$('#clientSex').value,
     height:Number($('#clientHeight').value||0),
     weight:Number($('#clientWeight').value||0),
+    waist:Number($('#clientWaist')?.value||0),
     level:$('#clientLevel').value || 'intermediate',
     sport:$('#currentSport').value,
     availability:$('#availabilityWeekly').value,
@@ -450,18 +589,28 @@ function buildProgram(){
   };
   if(!form.mainGoal){ alert('Choisis un objectif principal.'); showStep(2); return; }
   if(!form.height || !form.weight || !form.age){ alert('Renseigne âge, taille et poids.'); showStep(1); return; }
-  form.bmi=calcBMI(form.weight, form.height, {activityLevel:form.activityLevel, level:form.level});
+  form.bmi=calcBMI(form.weight, form.height, {activityLevel:form.activityLevel, level:form.level, waist:form.waist});
   form.nutrition=calcCalories({sex:form.sex, weight:form.weight, height:form.height, age:form.age, goal:form.mainGoal, stress:form.stressLevel, activityFactor:activityFactorFromProfile(form.activityLevel, form.freq)});
   form.restrictions=collectRestrictions();
   form.days=buildProgramDays(form);
   form.athleteLink=generateAthleteLink(form);
   currentProgram=form;
   saveProgram(form);
-  saveBusinessStatus(form.code, form.bizStatus, form.bizAmount, '');
+  const existingBiz = loadLocal('fafaBusiness',{})[form.code];
+  const statusToSave = form.bizStatus || existingBiz?.status || 'pause';
+  const amountToSave = form.bizAmount > 0 ? form.bizAmount : Number(existingBiz?.amount||0);
+  const renewalToSave = existingBiz?.renewal || '';
+  saveBusinessStatus(form.code, statusToSave, amountToSave, renewalToSave);
+  $('#athleteCode').value = form.code;
+  $('#nutritionCode').value = form.code;
+  $('#trackCode').value = form.code;
+  $('#bizCodeInput').value = form.code;
   $('#coachOutput').innerHTML=renderProgram(form,true);
   wireProgramActionButtons();
   updateSummary();
+  $('#coachOutput').scrollIntoView({behavior:'smooth', block:'start'});
 }
+
 function wireProgramActionButtons(){
   $('#coachSaveAgain')?.addEventListener('click', ()=>{ if(currentProgram){ saveProgram(currentProgram); alert('Programme enregistré.'); }});
   $('#coachCopyLinkAgain')?.addEventListener('click', copyAthleteLink);
@@ -525,6 +674,7 @@ function exportPdf(){
 }
 
 
+
 function renderLibrary(){
   const q=($('#libSearch').value||'').toLowerCase().trim();
   const cat=$('#libCategory').value;
@@ -542,10 +692,11 @@ function renderLibrary(){
     styleMatches(ex, style)
   );
   $('#libraryMeta').innerHTML=`<strong>${results.length}</strong> résultats sur <strong>${EXERCISES.length}</strong> exercices / variantes.`;
-  $('#libraryOutput').innerHTML = results.slice(0,240).map(ex=>`<article class="library-card">
+  $('#libraryOutput').innerHTML = results.slice(0,360).map(ex=>`<article class="library-card">
       <div class="meta">
         <span class="badge">${esc(ex.category)}</span>
         <span class="badge">${esc(labelForLevel(ex.level))}</span>
+        <span class="badge">${esc(styleLabel(inferPrimaryStyle(ex)))}</span>
         ${(ex.equipment||[]).slice(0,2).map(eq=>`<span class="badge">${esc(eqLabel(eq))}</span>`).join('')}
       </div>
       <h3>${esc(ex.name)}</h3>
@@ -558,12 +709,14 @@ function renderLibrary(){
     </article>`).join('') || '<div class="panel">Aucun résultat pour ces filtres.</div>';
 }
 
+
 function saveBusinessStatus(code,status,amount,renewal){
   const all=loadLocal('fafaBusiness',{});
   all[code]={code,status,amount,renewal};
   saveLocal('fafaBusiness', all);
   renderBusiness();
 }
+
 
 function openAthletePortal(){
   const code=($('#athleteCode').value||'').trim().toUpperCase();
@@ -578,7 +731,9 @@ function openAthletePortal(){
   const last = tracks[tracks.length-1];
   $('#athleteOutput').innerHTML = `<div class="panel panel-hero"><h3>Portail adhérent · ${esc(p.name)}</h3><div class="meta"><span class="badge">${esc(labelForGoal(p.mainGoal))}</span><span class="badge">${esc(p.freq)}/semaine</span><span class="badge">${esc(p.duration)} min</span></div><p class="small-muted">Lecture simple : suis le planning, valide ton ressenti et garde une exécution propre.</p><div class="summary-grid"><div class="summary-card"><strong>${esc(p.cycleWeeks||8)} semaines</strong><div class="small-muted">cycle</div></div><div class="summary-card"><strong>${last?.energy||'-'}/10</strong><div class="small-muted">dernière énergie</div></div><div class="summary-card"><strong>${p.nutrition?.kcal || '-'}</strong><div class="small-muted">kcal repère</div></div></div></div>` + renderProgram(p,false) + 
     `<div class="panel"><h3>Historique / ressenti</h3>${tracks.length?tracks.map(t=>`<div class="summary-card"><strong>${t.date}</strong><div>Poids : ${t.weight||'-'} kg · Énergie : ${t.energy||'-'}/10 · Compliance : ${t.compliance||'-'}%</div><div class="small-muted">${esc(t.note||'')}</div></div>`).join(''):'<p>Aucun suivi pour le moment.</p>'}</div>`;
+  $('#athleteOutput').scrollIntoView({behavior:'smooth', block:'start'});
 }
+
 
 function saveTracking(){
   const code=($('#trackCode').value||'').trim().toUpperCase();
@@ -602,19 +757,23 @@ function renderProgress(code=''){
   const arr=all[target]||[];
   $('#progressOutput').innerHTML = arr.length?arr.map(x=>`<div class="summary-card"><strong>${x.date}</strong><div>Poids : ${x.weight||'-'} kg · Énergie : ${x.energy||'-'}/10 · Compliance : ${x.compliance||'-'}%</div><div class="small-muted">${esc(x.note||'')}</div></div>`).join(''):'<div class="panel">Aucun suivi pour ce code.</div>';
 }
+
 function showNutrition(){
-  const code=($('#nutritionCode').value||'').trim().toUpperCase();
+  const code=($('#nutritionCode').value||currentProgram?.code||'').trim().toUpperCase();
   const p=loadLocal('fafaPrograms',{})[code];
   $('#nutritionOutput').innerHTML = p ? buildNutritionView(p) : '<div class="panel">Aucun programme trouvé.</div>';
 }
+
+
 function renderBusiness(){
   const all=loadLocal('fafaBusiness',{});
   const rows=Object.values(all);
-  $('#businessOutput').innerHTML = rows.length ? rows.map(r=>`<div class="summary-card"><strong>${esc(r.code)}</strong><div>Statut : ${esc(r.status)} · Montant : ${esc(r.amount)} €</div><div class="small-muted">${r.renewal?`Échéance : ${esc(r.renewal)}`:'Sans échéance'}</div></div>`).join('') : '<div class="panel">Aucun statut enregistré.</div>';
+  $('#businessOutput').innerHTML = rows.length ? rows.map(r=>`<div class="summary-card"><strong>${esc(r.code)}</strong><div>Statut : ${esc(r.status)} · Montant payé : ${esc(r.amount)} €</div><div class="small-muted">${r.renewal?`Échéance : ${esc(r.renewal)}`:'Sans échéance'} · Portail ${r.status==='actif' && Number(r.amount||0)>0 ? 'déverrouillé' : 'bloqué'}</div></div>`).join('') : '<div class="panel">Aucun statut enregistré.</div>';
   const due = rows.filter(r=>r.renewal && ((new Date(r.renewal)-new Date())/86400000)<=7 && ((new Date(r.renewal)-new Date())/86400000)>=0).length;
   $('#kpiDue').textContent = due;
   $('#kpiClients').textContent = rows.filter(r=>r.status==='actif' && Number(r.amount||0)>0).length;
 }
+
 function quickBuild(){
   const dur=$('#quickDuration').value;
   const style=$('#quickStyle').value;
@@ -644,10 +803,11 @@ function renderHome(){
     </div>` + (acts.join('') || '<div class="summary-card">Aucune activité récente.</div>'));
 }
 
+
 function wireEvents(){
-  ['#clientName','#clientCode','#clientEmail','#clientAge','#clientHeight','#clientWeight','#clientLevel','#currentSport','#availabilityWeekly','#activityLevel','#mainGoal','#environmentSelect','#clientFreq','#clientDuration','#bizStatus','#bizAmount']
+  ['#clientName','#clientCode','#clientEmail','#clientAge','#clientHeight','#clientWeight','#clientWaist','#clientLevel','#currentSport','#availabilityWeekly','#activityLevel','#mainGoal','#environmentSelect','#clientFreq','#clientDuration','#bizStatus','#bizAmount']
     .forEach(sel=>$(sel)?.addEventListener('change', autoFill));
-  ['#mainGoal','#currentSport','#availabilityWeekly','#clientLevel','#practicePrefs','#medicalKnown','#injuryKnown','#foodKnown'].forEach(sel=>$(sel)?.addEventListener('change', autoFill));
+  ['#mainGoal','#currentSport','#availabilityWeekly','#clientLevel','#practicePrefs','#medicalKnown','#injuryKnown','#foodKnown','#coachingTypes','#supports','#cycleGoals','#fafaModules','#equipmentSelect','#effortFormats'].forEach(sel=>$(sel)?.addEventListener('change', autoFill));
   $('#buildProgramBtn').addEventListener('click', buildProgram);
   $('#saveProgramBtn').addEventListener('click', ()=>currentProgram && saveProgram(currentProgram));
   $('#copyLinkBtn').addEventListener('click', copyAthleteLink);
@@ -666,7 +826,12 @@ function wireEvents(){
     saveBusinessStatus(($('#bizCodeInput').value||'').trim().toUpperCase(), $('#bizStatusInput').value, Number($('#bizAmountInput').value||0), $('#bizRenewalInput').value);
   });
   $('#quickBuildBtn').addEventListener('click', quickBuild);
+  document.addEventListener('click', (e)=>{
+    if(e.target?.id==='copyLinkBtn2') copyAthleteLink();
+    if(e.target?.id==='exportPdfBtn2') exportPdf();
+  });
 }
+
 function hydrateLink(){
   const sp=new URLSearchParams(location.search);
   const code=(sp.get('client')||'').trim().toUpperCase();
@@ -691,3 +856,31 @@ async function init(){
   hydrateLink();
 }
 window.addEventListener('DOMContentLoaded', init);
+
+function nutritionTemplates(p){
+  const lactose = (p.restrictions||'').toLowerCase().includes('lactose');
+  const gluten = (p.restrictions||'').toLowerCase().includes('gluten');
+  const veg = /(vegetarien|vegan)/i.test(p.restrictions||'');
+  const proteinBase = veg ? 'tofu, tempeh, œufs ou légumineuses' : lactose ? 'œufs, volailles, poissons, yaourts sans lactose' : 'œufs, volailles, poissons, skyr ou yaourt grec';
+  const carbBase = gluten ? 'riz, pommes de terre, quinoa, flocons sans gluten' : 'riz, pommes de terre, avoine, pain complet';
+  const breakfast = `${proteinBase} + ${carbBase} + fruit`;
+  const lunch = `${proteinBase} + légumes + ${carbBase}`;
+  const snack = `fruit + source protéinée simple + oléagineux selon tolérance`;
+  const dinner = `${proteinBase} + légumes cuits + portion de glucides adaptée à l'objectif`;
+  const tip = p.mainGoal==='fat_loss' ? "Garde des repas simples et répétables 80% du temps pour faciliter l'adhérence." :
+              p.mainGoal==='muscle_gain' ? "Ajoute facilement des calories via féculents, huile d'olive, fruits secs et collations utiles." :
+              p.mainGoal==='hyrox' || p.mainGoal==='trail' ? "Priorise les glucides autour des séances les plus dures et l'hydratation." :
+              "Cherche surtout la régularité, le sommeil et des repas lisibles.";
+  const swap = gluten ? "Pain/pâtes → riz, quinoa, pommes de terre." : lactose ? "Skyr/fromage blanc → version sans lactose ou protéine solide." : "Repas libre : garde la structure assiette protéine + légumes + glucides.";
+  const priority = p.mainGoal==='wellbeing' ? "Stabilité digestive et énergie régulière." :
+                   p.mainGoal==='health' || p.mainGoal==='return_to_play' ? "Inflammation maîtrisée, récupération et confort digestif." :
+                   "Adhérence + qualité des portions + suivi simple.";
+  return {breakfast,lunch,snack,dinner,tip,swap,priority};
+}
+
+function inferPrimaryStyle(ex){
+  for(const s of ['strength','hypertrophy','conditioning','boxing','hyrox','trail','mobility','health']){
+    if(styleMatches(ex,s)) return s;
+  }
+  return 'conditioning';
+}

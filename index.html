@@ -85,7 +85,7 @@
                 <label>Âge<input id="clientAge" type="number" min="6" max="99"></label>
                 <label>Sexe<select id="clientSex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
                 <label>Taille (cm)<input id="clientHeight" type="number" min="100" max="230"></label>
-                <label>Poids (kg)<input id="clientWeight" type="number" step="0.1" min="20" max="300"></label>
+                <label>Poids (kg)<input id="clientWeight" type="number" step="0.1" min="20" max="300"></label><label>Tour de taille (cm)<input id="clientWaist" type="number" step="0.1" min="40" max="200" placeholder="Optionnel"></label>
                 <label>Niveau<select id="clientLevel"><option value="">À choisir</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></label>
                 <label>Sport actuel<select id="currentSport"><option value="">À choisir</option><option value="none">Aucun</option><option value="boxing">Boxe</option><option value="running">Course / trail</option><option value="gym">Musculation / fitness</option><option value="hyrox">Hyrox / fonctionnel</option><option value="other">Autre</option></select></label>
                 <label>Disponibilité / semaine<select id="availabilityWeekly"><option value="">À choisir</option><option value="1">1 jour</option><option value="2-3">2 à 3 jours</option><option value="4-5">4 à 5 jours</option><option value="6+">6 jours ou plus</option></select></label>
@@ -96,7 +96,7 @@
 
           <section class="step-panel" data-step-panel="2">
             <div class="panel">
-              <h3>Objectifs & contexte</h3>
+              <h3>Objectifs & contexte</h3><p class="small-muted">Les menus à flèche peuvent contenir plusieurs choix. Les sélecteurs multiples affichent ensuite des tags visibles.</p>
               <div class="form-grid">
                 <label>Objectif principal<select id="mainGoal">
                   <option value="">À choisir</option>
@@ -111,7 +111,7 @@
                   <option value="trail">Trail</option>
                   <option value="mobility">Mobilité</option>
                   <option value="health">Santé / remise en forme</option>
-                  <option value="return_to_play">Retour de blessure</option>
+                  <option value="return_to_play">Retour de blessure</option><option value="wellbeing">Bien-être / rééquilibrage</option><option value="posture">Posture / stabilité</option><option value="athleticism">Préparation athlétique</option>
                 </select></label>
 
                 <label>Objectifs secondaires
@@ -123,7 +123,7 @@
                     <option value="boxing">Boxe</option>
                     <option value="hyrox">Hyrox</option>
                     <option value="mobility">Mobilité</option>
-                    <option value="health">Santé</option>
+                    <option value="health">Santé</option><option value="technique">Technique</option><option value="endurance_specific">Endurance spécifique</option><option value="recovery">Récupération</option>
                   </select>
                 </label>
 
@@ -145,10 +145,10 @@
                     <option value="hyrox">Hyrox</option>
                     <option value="trail">Trail</option>
                     <option value="strength">Force</option>
-                    <option value="health">Santé</option>
+                    <option value="health">Santé</option><option value="technique">Technique</option><option value="endurance_specific">Endurance spécifique</option><option value="recovery">Récupération</option>
                     <option value="mobility">Mobilité</option>
                     <option value="nutrition">Nutrition</option>
-                    <option value="reath">Réathlétisation</option>
+                    <option value="reath">Réathlétisation</option><option value="wellbeing">Bien-être</option><option value="athletic">Préparation athlétique</option><option value="performance">Performance</option>
                   </select>
                 </label>
 
@@ -158,7 +158,7 @@
                     <option value="in_person_gym">Présentiel salle</option>
                     <option value="in_person_outdoor">Présentiel extérieur</option>
                     <option value="video">Visio</option>
-                    <option value="program_only">Programme seul</option>
+                    <option value="program_only">Programme seul</option><option value="nutrition_only">Nutrition seule</option><option value="hybrid">Hybride</option><option value="messaging">Messagerie / feedback</option>
                   </select>
                 </label>
 
@@ -179,7 +179,7 @@
                     <option value="conditioning">Conditioning</option>
                     <option value="maintenance">Maintenance</option>
                     <option value="peak">Peaking</option>
-                    <option value="health">Santé</option>
+                    <option value="health">Santé</option><option value="technique">Technique</option><option value="endurance_specific">Endurance spécifique</option><option value="recovery">Récupération</option>
                   </select>
                 </label>
 
@@ -192,7 +192,7 @@
                     <option value="pectoraux">Pectoraux</option>
                     <option value="epaules">Épaules</option>
                     <option value="abdos">Abdos / core</option>
-                    <option value="bras">Bras</option>
+                    <option value="bras">Bras</option><option value="ischios">Ischios</option><option value="mollets">Mollets</option><option value="grip">Grip / avant-bras</option><option value="rotation">Rotation / anti-rotation</option><option value="cardio">Cardio / moteur</option>
                   </select>
                 </label>
 
@@ -201,11 +201,11 @@
                     <option value="boxing_prep">Boxe</option>
                     <option value="hyrox_prep">Hyrox</option>
                     <option value="trail_prep">Trail</option>
-                    <option value="return_to_play">Retour de blessure</option>
+                    <option value="return_to_play">Retour de blessure</option><option value="wellbeing">Bien-être / rééquilibrage</option><option value="posture">Posture / stabilité</option><option value="athleticism">Préparation athlétique</option>
                     <option value="seniors_health">Santé / sénior</option>
                     <option value="kids_teens">Kids / ados</option>
                     <option value="express_fat_loss">Perte de poids express</option>
-                    <option value="transformation">Transformation</option>
+                    <option value="transformation">Transformation</option><option value="mobility_flow">Mobilité / flow</option><option value="body_recomp">Recomposition</option><option value="combat_conditioning">Conditioning combat</option>
                   </select>
                 </label>
 
@@ -271,7 +271,7 @@
                 <label>Sommeil moyen<select id="sleepHours"><option value="5">5h</option><option value="6">6h</option><option value="7" selected>7h</option><option value="8">8h</option><option value="9">9h</option></select></label>
                 <label>Niveau de stress<select id="stressLevel"><option value="low">Faible</option><option value="medium" selected>Moyen</option><option value="high">Élevé</option></select></label>
                 <label>Statut abonnement<select id="bizStatus"><option value="actif">Actif</option><option value="pause">Pause</option><option value="impaye">Impayé</option></select></label>
-                <label>Montant payé (€)<input id="bizAmount" type="number" min="0" step="0.01" value="0"></label>
+                <label>Montant payé (€)<input id="bizAmount" type="number" min="0" step="0.01" value="0" placeholder="Déverrouille l’accès adhérent si > 0"><small class="inline-help">Sert au verrouillage du portail adhérent et au suivi business.</small></label>
               </div>
               <div class="actions">
                 <button id="buildProgramBtn">Construire le programme FAFATRAINING</button>
@@ -314,7 +314,7 @@
           <label>Catégorie<select id="libCategory"></select></label>
           <label>Niveau<select id="libLevel"><option value="">Tous</option><option value="beginner">Débutant</option><option value="intermediate">Intermédiaire</option><option value="advanced">Avancé</option></select></label>
           <label>Contexte<select id="libEnv"></select></label>
-          <label>Matériel<select id="libEquipment"></select></label><label>Style<select id="libStyle"><option value="">Tous</option><option value="strength">Force</option><option value="hypertrophy">Hypertrophie</option><option value="conditioning">Conditioning</option><option value="boxing">Boxe</option><option value="hyrox">Hyrox</option><option value="trail">Trail</option><option value="mobility">Mobilité</option><option value="health">Santé</option></select></label>
+          <label>Matériel<select id="libEquipment"></select></label><label>Style<select id="libStyle"><option value="">Tous</option><option value="strength">Force</option><option value="hypertrophy">Hypertrophie</option><option value="conditioning">Conditioning</option><option value="boxing">Boxe</option><option value="hyrox">Hyrox</option><option value="trail">Trail</option><option value="mobility">Mobilité</option><option value="health">Santé</option><option value="technique">Technique</option><option value="endurance_specific">Endurance spécifique</option><option value="recovery">Récupération</option></select></label>
         </div>
         <div class="actions"><button id="libSearchBtn">Rechercher</button></div>
       </div>
@@ -349,7 +349,7 @@
     </section>
 
     <section id="nutrition" class="view">
-      <div class="section-head"><h2>Nutrition</h2><p>Lecture calories, macros et repères simples.</p></div>
+      <div class="section-head"><h2>Nutrition</h2><p>Conseils intelligents, repères macro, menus type et adaptations selon objectif, allergies et coaching choisi.</p></div>
       <div class="panel">
         <div class="form-grid">
           <label>Code adhérent<input id="nutritionCode" placeholder="Ex : ALEX01"></label>
