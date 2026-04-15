@@ -316,3 +316,27 @@ label .multi-select{min-width:0;width:100%}
 .hero-card.xl p{max-width:48ch}
 @media (max-width:1080px){.home-grid,.coach-grid,.material-grid{grid-template-columns:1fr}.hero-card.xl h2{font-size:34px;max-width:none}}
 @media (max-width:740px){.brand{grid-template-columns:72px 1fr}.brand img{width:72px;height:72px}.hero-card.xl h2{font-size:30px}.home-grid,#home .feature-grid{grid-template-columns:1fr}}
+
+
+/* V29.5 polish */
+.brand{grid-template-columns:96px 1fr !important;align-items:center !important}
+.brand img{width:96px !important;height:96px !important;border-radius:50% !important;object-fit:cover !important}
+.brand h1{font-size:18px !important;line-height:1.05 !important;max-width:none !important;word-break:normal !important;overflow-wrap:anywhere}
+.brand p{font-size:11px !important;opacity:.92}
+#home .hero-card.xl h2{font-size:34px !important;max-width:14ch !important}
+#home .hero-card.xl p{max-width:56ch !important}
+#home .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+#home .panel.compact-home-panel{min-height:auto !important}
+#home .grid.home-grid{grid-template-columns:1.1fr .9fr !important}
+.coach-layout{grid-template-columns:minmax(0,1.2fr) 320px !important;align-items:start}
+.coach-summary{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto}
+.coach-grid,.material-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:14px 14px !important}
+.coach-grid label,.material-grid label,.quick-grid label,.form-grid label{min-width:0}
+.multi-select,.multi-select-trigger,select,input,textarea{width:100%}
+.multi-select-trigger,select,input,textarea{min-height:52px}
+.multi-select-menu{width:100% !important;max-width:100% !important;left:0 !important;right:0 !important;z-index:7000 !important}
+.daypill strong{font-size:14px}
+.daypill small{font-size:11px;line-height:1.2}
+.session-item{padding:16px 16px 14px}
+.quick-prescription{flex-wrap:wrap}
+@media (max-width:1100px){#home .grid.home-grid,.coach-layout,.coach-grid,.material-grid,#home .feature-grid{grid-template-columns:1fr !important}.coach-summary{position:static;max-height:none;overflow:visible}}

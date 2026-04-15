@@ -2104,3 +2104,122 @@ enhanceMultiSelects = function(ids){
   });
 };
 window.addEventListener('DOMContentLoaded', ()=>{ setTimeout(()=>{ localizeTechnicalLabelsDeep(); parseAndOpenSharedLink(); renderHome(); }, 120); });
+
+
+/* === V29.5 final cleanup and UX fixes === */
+(function(){
+  const DAY_SHORTS=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+  window.buildWeekSchedule = function(freq){
+    const f=Number(freq||3);
+    const layouts={2:[0,3],3:[0,2,4],4:[0,1,3,5],5:[0,1,3,4,5],6:[0,1,2,4,5,6]};
+    const trains=new Set(layouts[f]||layouts[3]);
+    return DAY_SHORTS.map((d,i)=>({day:d,short:d,train:trains.has(i),note:trains.has(i)?'Séance':'Repos actif'}));
+  };
+
+  const STYLE_FR={
+    circuit:'Circuit training', hiit:'HIIT (intervalles haute intensité)', emom:'EMOM (chaque minute sur la minute)',
+    amrap:'AMRAP (maximum de tours)', interval:'Intervalles (effort / récupération)', zone2:'Zone 2 (endurance fondamentale)',
+    boxing:'Boxe', mobility:'Mobilité / stretching', strength:'Force / musculation', conditioning:'Condition physique',
+    hyrox:'Hyrox (course + ateliers fonctionnels)', trail:'Trail / course nature', core:'Gainage / ceinture abdominale',
+    health:'Santé / remise en forme', recovery:'Récupération active', muscle_gain:'Hypertrophie / prise de muscle', recomposition:'Recomposition'
+  };
+  window.frStyleLabel = function(v){ return STYLE_FR[v] || (window.quickStyleLabel ? quickStyleLabel(v) : v) || v; };
+
+  function patchQuickOptions(){
+    const sel=document.getElementById('quickStyle');
+    if(!sel) return;
+    const wanted=[
+      ['circuit','Circuit training'],['hiit','HIIT (intervalles haute intensité)'],['emom','EMOM (chaque minute sur la minute)'],
+      ['amrap','AMRAP (maximum de tours)'],['interval','Intervalles (effort / récupération)'],['zone2','Zone 2 (endurance fondamentale)'],
+      ['strength','Force / musculation'],['boxing','Boxe'],['hyrox','Hyrox (course + ateliers fonctionnels)'],['conditioning','Condition physique'],
+      ['mobility','Mobilité / stretching'],['trail','Trail / course nature'],['core','Gainage / ceinture abdominale'],['health','Santé / remise en forme'],['recovery','Récupération active']
+    ];
+    sel.innerHTML=wanted.map(([v,l])=>`<option value="${v}">${l}</option>`).join('');
+  }
+
+  function localizeAllOptions(){
+    const map={
+      hiit:'HIIT (intervalles haute intensité)',amrap:'AMRAP (maximum de tours)',emom:'EMOM (chaque minute sur la minute)',interval:'Intervalles (effort / récupération)',zone2:'Zone 2 (endurance fondamentale)',
+      hyrox:'Hyrox (course + ateliers fonctionnels)',general:'Général (polyvalent)',fitness:'Fitness (forme générale)',conditioning:'Conditioning (condition physique)',strength:'Force / musculation',
+      mobility:'Mobilité / stretching',nutrition:'Nutrition (alimentation)',trail:'Trail / course nature',boxing:'Boxe',remote:'Suivi à distance',video:'Visio',program_only:'Programme seul',
+      home:'Maison',gym:'Salle de musculation',outdoor:'Extérieur',mixed:'Mixte',crossfit_box:'Salle CrossFit / Hyrox',boxing_gym:'Salle de boxe',bodyweight_only:'Poids du corps uniquement',
+      muscle_gain:'Prise de muscle',fat_loss:'Perte de poids',recomposition:'Recomposition corporelle',health:'Santé / remise en forme',return_to_play:'Retour de blessure',
+      endurance:'Endurance',core:'Gainage / ceinture abdominale',recovery:'Récupération active'
+    };
+    document.querySelectorAll('option').forEach(opt=>{ const v=(opt.value||'').toLowerCase(); if(map[v]) opt.textContent=map[v]; });
+  }
+
+  const oldPattern=window.patternListForDay;
+  window.patternListForDay = function(form,title){
+    const t=String(title||'').toLowerCase();
+    const goal=form.mainGoal; const gym=form.env==='gym' || form.env==='crossfit_box';
+    if(gym && ['strength','muscle_gain','recomposition'].includes(goal)){
+      if(/pouss/.test(t)) return ['push','chest','shoulders','triceps','core'];
+      if(/tirage/.test(t)) return ['pull','back','biceps','rear_delt','core'];
+      if(/squat|quad|jambe|lower/.test(t)) return ['quads','glutes','single_leg','calves','core'];
+      if(/charni|hinge|ischio|poster/.test(t)) return ['hamstrings','glutes','single_leg','calves','core'];
+      return ['push','pull','quads','hamstrings','core'];
+    }
+    if(goal==='boxing') return ['boxing','rotation','single_leg','conditioning','core'];
+    if(goal==='hyrox') return ['sled','carry','row','ski','core'];
+    if(goal==='trail' || goal==='endurance') return ['single_leg','hamstrings','calves','cardio','core'];
+    if(goal==='mobility' || goal==='health' || goal==='return_to_play') return ['mobility','stability','rotation','single_leg','core'];
+    if(goal==='fat_loss' || goal==='conditioning') return ['squat','push','pull','cardio','core'];
+    return oldPattern ? oldPattern(form,title) : ['push','pull','quads','hamstrings','core'];
+  };
+
+  const oldLoad=window.loadGuidance;
+  window.loadGuidance = function(goal,env,idx){
+    if((env==='gym'||env==='crossfit_box') && ['strength','muscle_gain','recomposition'].includes(goal)){
+      if(goal==='strength') return idx<2?'Charge lourde maîtrisée (RPE 7 à 9 / 10)':'Charge modérée à lourde, technique propre';
+      if(goal==='muscle_gain') return idx<2?'Charge de travail 6 à 10 reps, proche de l’échec contrôlé':'Charge modérée, amplitude complète et tension musculaire';
+      return 'Charge modérée, effort propre, transitions courtes';
+    }
+    return oldLoad ? oldLoad(goal,env,idx) : 'Intensité adaptée au niveau';
+  };
+
+  window.renderProgram = function(p,coach=true){
+    const week=buildWeekSchedule(p.freq);
+    const head = `<div class="panel panel-hero clean-program-head"><h3>${esc(p.name)} · ${esc(p.code)}</h3><div class="meta"><span class="program-code">Code ${esc(p.code)}</span>${coach?`<span class="badge">Accès adhérent prêt</span>`:''}</div><div class="meta"><span class="badge">${esc(labelForGoal(p.mainGoal))}</span><span class="badge">${esc(labelForEnv(p.env))}</span><span class="badge">${esc(labelForLevel(p.level))}</span><span class="badge">${esc(p.freq)} séance(s) / semaine</span><span class="badge">${esc(p.duration)} min</span></div><div class="summary-grid summary-grid-4 compact-kpis"><div class="summary-card"><strong>${esc(ageBandLabel(ageBand(p.age)))}</strong><div class="small-muted">public</div></div><div class="summary-card"><strong>${p.bmi?esc(p.bmi.value):'-'}</strong><div class="small-muted">IMC</div></div><div class="summary-card"><strong>${esc(p.cycleWeeks||8)} sem.</strong><div class="small-muted">cycle</div></div><div class="summary-card"><strong>${esc((p.days||[]).length)}</strong><div class="small-muted">séances clés</div></div></div></div>`;
+    const sched = `<div class="panel"><h3>Semaine type</h3><div class="week-days compact">${week.map(w=>`<div class="daypill ${w.train?'train':'rest'}"><strong>${w.short}</strong><small>${w.note}</small></div>`).join('')}</div></div>`;
+    const days=(p.days||[]).map(day=>`<article class="panel session-day"><div class="section-mini-head"><h3>${esc(day.title)}</h3><p>Répartition utile : ${esc(day.patternSummary||'')}</p></div>${(day.items||[]).map(ex=>`<div class="session-item"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.category||'')} · ${esc(ex.muscles||'')}</div><div class="quick-prescription"><span>${esc(ex.prescription?.series||'3 séries')}</span><span>${esc(ex.prescription?.reps||'8 à 12 reps')}</span><span>Repos ${esc(ex.prescription?.rest||'60 sec')}</span><span>${esc(ex.load||'intensité adaptée')}</span></div><div class="session-line"><strong>Consigne :</strong> ${esc(ex.cue||'Exécution propre et respiration maîtrisée.')}</div><div class="session-line"><strong>Version plus facile :</strong> ${esc(ex.substitute||'Alléger la charge, réduire l’amplitude ou choisir une machine plus stable')}</div><div class="session-line"><strong>Version plus difficile :</strong> ${esc(ex.progression||'Ajouter un peu de charge, d’amplitude ou une variante plus exigeante')}</div><div class="session-line"><strong>Note coach :</strong> ${esc(ex.coachNote||'Qualité d’exécution d’abord.')}</div></div>`).join('')}</article>`).join('');
+    return head + sched + days;
+  };
+
+  const oldRenderHome=window.renderHome;
+  window.renderHome = function(){
+    if(oldRenderHome) oldRenderHome();
+    const hero=document.querySelector('#home .hero-card.xl');
+    if(hero){
+      hero.innerHTML=`<span class="eyebrow">FAFATRAINING</span><h2>Une application de coaching premium, claire et utile.</h2><p>Programme, adhérent, nutrition et business dans une interface plus simple, plus lisible et moins chargée.</p>`;
+    }
+    const featureGrid=document.querySelector('#home .feature-grid');
+    if(featureGrid){
+      featureGrid.innerHTML=`<div class="feature-card"><strong>Programmes</strong><span>création, enregistrement, suppression</span></div><div class="feature-card"><strong>Adhérents</strong><span>code, portail et partage</span></div><div class="feature-card"><strong>Nutrition</strong><span>repères concrets + exemples de repas</span></div><div class="feature-card"><strong>Business</strong><span>statut, montant, échéance</span></div>`;
+    }
+  };
+
+  window.quickBuild = function(){
+    const dur=Number(document.getElementById('quickDuration').value||45), style=document.getElementById('quickStyle').value, env=document.getElementById('quickEnv').value, audience=document.getElementById('quickPublic').value;
+    const audienceHints={kids:'ludique, simple et sécurisé',teens:'dynamique, progressif et engageant',adults:'équilibré, utile et adaptable',seniors:'contrôlé, stable et sécurisant',athletes:'plus dense, plus spécifique et exigeant'};
+    const styleMap={amrap:'conditioning',emom:'conditioning',interval:'conditioning',zone2:'trail'};
+    const realStyle=styleMap[style]||style;
+    const warmup=chooseDiverseExercises({level:audience==='athletes'?'advanced':'intermediate',env,equipment:PRESETS[env]||[],style:realStyle,goals:realStyle==='mobility'?['mobility','stability','rotation']:['mobility','core','cardio'],count:3,excludeBases:[]});
+    const mainGoals = realStyle==='strength'?['push','pull','quads','hamstrings','core'] : realStyle==='boxing'?['boxing','rotation','single_leg','conditioning','core'] : realStyle==='hyrox'?['sled','carry','row','ski','core'] : realStyle==='trail'?['cardio','single_leg','calves','hamstrings','core'] : realStyle==='mobility'?['mobility','stability','rotation','breathing','core'] : ['squat','push','pull','cardio','core'];
+    const main=chooseDiverseExercises({level:audience==='athletes'?'advanced':'intermediate',env,equipment:PRESETS[env]||[],style:realStyle,goals:mainGoals,count:5,excludeBases:warmup.map(ex=>baseName(ex))});
+    const finisher=chooseDiverseExercises({level:audience==='athletes'?'advanced':'intermediate',env,equipment:PRESETS[env]||[],style:realStyle==='strength'?'mobility':realStyle,goals:realStyle==='mobility'||realStyle==='recovery'?['breathing','mobility','stability']:['core','mobility','cardio'],count:2,excludeBases:warmup.concat(main).map(ex=>baseName(ex))});
+    const blockTitle = style==='emom'?'Bloc EMOM (chaque minute sur la minute)' : style==='amrap'?'Bloc AMRAP (maximum de tours)' : style==='interval'?'Bloc intervalles' : style==='zone2'?'Bloc Zone 2 (endurance fondamentale)' : realStyle==='mobility'?'Bloc mobilité' : realStyle==='strength'?'Bloc principal force / musculation' : 'Bloc principal';
+    document.getElementById('quickOutput').innerHTML = `<div class="quick-layout"><div class="panel panel-hero"><div class="section-mini-head"><h3>Séance rapide ${esc(frStyleLabel(style))}</h3><p>${dur} minutes · ${esc(ENV_LABELS[env]||env)} · ${esc(audienceLabel(audience))}</p></div><div class="quick-block"><h4>Échauffement</h4><div class="quick-list">${warmup.map(ex=>quickCard(ex,prescriptionForQuick(realStyle,'warmup',dur))).join('')}</div></div><div class="quick-block"><h4>${blockTitle}</h4><div class="quick-list">${main.map(ex=>quickCard(ex,prescriptionForQuick(realStyle,'main',dur))).join('')}</div></div><div class="quick-block"><h4>Retour au calme</h4><div class="quick-list">${finisher.map(ex=>quickCard(ex,prescriptionForQuick(realStyle,'finisher',dur))).join('')}</div></div></div><div class="quick-rail"><div class="panel"><h3>Logique de séance</h3><div class="small-muted">Public : ${audienceHints[audience]||'adaptable'}.</div><div class="small-muted">Style : ${esc(frStyleLabel(style))}.</div><div class="small-muted">Volume cible : ${dur<=20?'court et dense':dur<=30?'efficace et simple':dur<=45?'complet et polyvalent':'plus développé et progressif'}.</div></div><div class="panel"><h3>Glossaire FR</h3><div class="nutrition-list"><div><strong>HIIT :</strong> intervalles haute intensité</div><div><strong>AMRAP :</strong> maximum de tours dans le temps donné</div><div><strong>EMOM :</strong> chaque minute sur la minute</div><div><strong>Zone 2 :</strong> endurance fondamentale, effort confortable</div></div></div></div></div>`;
+  };
+
+  const oldAutoFill = window.autoFill;
+  window.autoFill = function(){ if(oldAutoFill) oldAutoFill(); const goal=document.getElementById('mainGoal')?.value; const env=document.getElementById('environmentSelect')?.value; if(goal && document.getElementById('quickStyle') && !document.getElementById('quickStyle').dataset.userTouched){ if(goal==='muscle_gain') document.getElementById('quickStyle').value='strength'; else if(goal==='fat_loss') document.getElementById('quickStyle').value='conditioning'; else if(STYLE_FR[goal]) document.getElementById('quickStyle').value=goal; } if(env && document.getElementById('quickEnv') && !document.getElementById('quickEnv').dataset.userTouched){ document.getElementById('quickEnv').value=env; } };
+
+  document.addEventListener('DOMContentLoaded', ()=>{
+    patchQuickOptions();
+    localizeAllOptions();
+    setTimeout(()=>{ localizeAllOptions(); if(window.renderHome) renderHome(); },200);
+    const qs=document.getElementById('quickStyle'); if(qs) qs.addEventListener('change',()=>qs.dataset.userTouched='1');
+    const qe=document.getElementById('quickEnv'); if(qe) qe.addEventListener('change',()=>qe.dataset.userTouched='1');
+  });
+})();
