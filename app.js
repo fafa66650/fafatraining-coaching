@@ -361,13 +361,84 @@ function pickExercisesForContext({level='intermediate', env='', equipment=[], in
 }
 
 function formatPrescription(goal, title, idx){
-  const conditioning = /conditioning|cardio|engine|simulation|threshold|zone 2|moteur|rounds/i.test(title);
-  return {
-    series: conditioning ? (goal==='boxing'?'6 à 8 rounds':'4 à 6 blocs') : (goal==='strength'?'4 à 5 séries':'3 à 4 séries'),
-    reps: ['strength'].includes(goal)?'4 à 6 reps': ['muscle_gain','recomposition'].includes(goal)?'8 à 12 reps': ['health','return_to_play','mobility'].includes(goal)?'8 à 10 reps contrôlées':'10 à 15 reps',
-    rest: ['conditioning','boxing','hyrox','trail','endurance'].includes(goal)?'30 à 60 sec':'60 à 120 sec',
-    tempo: idx===0?'contrôlé':'fluide'
+  const lower=(title||'').toLowerCase();
+  if(goal==='strength') return {series: idx<2?'5 séries':'4 séries', reps: idx<2?'4 à 6 reps':'6 à 8 reps', rest: idx<2?'120 à 180 sec':'90 à 120 sec'};
+  if(goal==='muscle_gain' || goal==='recomposition') return {series:'3 à 4 séries', reps: idx<2?'8 à 10 reps':'10 à 15 reps', rest:'60 à 90 sec'};
+  if(goal==='fat_loss' || goal==='conditioning') return {series:'3 à 4 tours', reps: '30 à 45 sec / 10 à 15 reps', rest:'20 à 45 sec'};
+  if(goal==='boxing') return {series:'4 à 8 rounds', reps: lower.includes('technique')?'2 à 3 min / round':'30 à 45 sec / drill', rest:'30 à 60 sec'};
+  if(goal==='hyrox' || goal==='trail' || lower.includes('engine') || lower.includes('conditioning')) return {series:'3 à 5 blocs', reps:'4 à 8 min / bloc', rest:'60 à 120 sec'};
+  if(goal==='mobility' || goal==='health' || lower.includes('mobilité') || lower.includes('respiration')) return {series:'2 à 4 séries', reps:'6 à 10 reps / 30 à 45 sec', rest:'20 à 30 sec'};
+  return {series:'3 séries', reps:'8 à 12 reps', rest:'60 sec'};
+}
+
+function mobilityFocused(ex){
+  const txt = (ex.name+' '+(ex.category||'')+' '+(ex.subcategory||'')+' '+(ex.muscles||'')+' '+(ex.cue||'')+' '+(ex.tags||[]).join(' ')+' '+(ex.focus||[]).join(' ')).toLowerCase();
+  return ['mobil','stretch','rotation','respiration','souplesse','amplitude','stability','stabilité'].some(k=>txt.includes(k));
+}
+function prescriptionForQuick(style, zone='main', dur=45){
+  const short = dur<=20, medium = dur<=30;
+  const map = {
+    mobility: {
+      warmup:{series:'1 à 2 passages', reps:'30 à 40 sec / exercice', rest:'10 à 20 sec'},
+      main:{series:'2 à 3 séries', reps:'6 à 10 reps / côté ou 30 à 45 sec', rest:'15 à 25 sec'},
+      finisher:{series:'1 à 2 passages', reps:'40 à 60 sec respiration / stretch', rest:'10 sec'}
+    },
+    recovery: {
+      warmup:{series:'1 passage', reps:'30 sec / exercice', rest:'10 sec'},
+      main:{series:'2 séries', reps:'6 à 8 reps / 30 à 40 sec', rest:'15 à 20 sec'},
+      finisher:{series:'1 passage', reps:'45 à 75 sec', rest:'10 sec'}
+    },
+    boxing: {
+      warmup:{series:'2 passages', reps:'30 sec / drill', rest:'15 sec'},
+      main:{series: short?'4 rounds':'6 à 8 rounds', reps:'2 à 3 min / round', rest:'45 à 60 sec'},
+      finisher:{series:'2 à 3 rounds', reps:'30 sec', rest:'30 sec'}
+    },
+    hiit: {
+      warmup:{series:'2 passages', reps:'30 sec', rest:'15 sec'},
+      main:{series: short?'3 tours':'4 à 5 tours', reps: medium?'30 sec effort / 20 sec repos':'40 sec effort / 20 sec repos', rest:'60 à 90 sec entre tours'},
+      finisher:{series:'1 à 2 blocs', reps:'4 min', rest:'60 sec'}
+    },
+    circuit: {
+      warmup:{series:'1 à 2 passages', reps:'8 reps / 25 sec', rest:'15 sec'},
+      main:{series: short?'3 tours':'4 tours', reps:'10 à 15 reps / 35 à 45 sec', rest:'20 à 30 sec'},
+      finisher:{series:'1 bloc', reps:'3 à 5 min', rest:'30 sec'}
+    },
+    strength: {
+      warmup:{series:'2 passages', reps:'6 à 8 reps', rest:'20 sec'},
+      main:{series:'4 à 5 séries', reps:'4 à 8 reps', rest:'90 à 150 sec'},
+      finisher:{series:'2 à 3 séries', reps:'8 à 12 reps', rest:'45 à 60 sec'}
+    },
+    conditioning: {
+      warmup:{series:'2 passages', reps:'30 sec', rest:'15 sec'},
+      main:{series:'3 à 4 blocs', reps:'4 à 6 min', rest:'60 à 90 sec'},
+      finisher:{series:'1 bloc', reps:'3 min', rest:'30 sec'}
+    },
+    hyrox: {
+      warmup:{series:'2 passages', reps:'30 sec', rest:'15 sec'},
+      main:{series:'3 à 5 blocs', reps:'3 à 5 min / atelier', rest:'45 à 75 sec'},
+      finisher:{series:'1 bloc', reps:'4 min carry / erg', rest:'45 sec'}
+    },
+    trail: {
+      warmup:{series:'1 à 2 passages', reps:'20 à 30 sec', rest:'15 sec'},
+      main:{series:'4 à 6 blocs', reps:'2 à 5 min', rest:'60 à 90 sec'},
+      finisher:{series:'1 à 2 blocs', reps:'5 min retour au calme', rest:'—'}
+    },
+    core: {
+      warmup:{series:'2 passages', reps:'20 à 30 sec', rest:'15 sec'},
+      main:{series:'3 à 4 tours', reps:'20 à 40 sec / 8 à 12 reps', rest:'20 à 30 sec'},
+      finisher:{series:'1 à 2 passages', reps:'30 sec', rest:'15 sec'}
+    },
+    health: {
+      warmup:{series:'1 à 2 passages', reps:'20 à 30 sec', rest:'15 sec'},
+      main:{series:'2 à 3 séries', reps:'8 à 12 reps / 30 sec', rest:'30 à 45 sec'},
+      finisher:{series:'1 passage', reps:'3 à 5 min', rest:'—'}
+    }
   };
+  return (map[style]||map.circuit)[zone];
+}
+
+function quickCard(ex, prescription){
+  return `<div class="quick-ex"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.muscles||'')}</div><div class="small-muted">${esc(ex.cue||'')}</div><div class="quick-prescription"><span>${esc(prescription.series)}</span><span>${esc(prescription.reps)}</span><span>Repos ${esc(prescription.rest)}</span></div></div>`;
 }
 
 function buildProgramDays(form){
@@ -420,7 +491,7 @@ function buildWeekSchedule(freq){
   return days.map((d,idx)=>({
     day:d,
     train:trainIdx.includes(idx+1),
-    note:trainIdx.includes(idx+1)?'Entraînement':'Repos / mobilité / marche'
+    note:trainIdx.includes(idx+1)?'Training':'Repos actif'
   }));
 }
 
@@ -437,18 +508,18 @@ function renderProgram(p, coach=true){
     </div>
     ${p.bmi?`<p><strong>IMC :</strong> ${esc(p.bmi.value)} · ${esc(p.bmi.label)} — ${esc(p.bmi.risk)}</p>`:''}
     ${p.restrictions?`<p><strong>Contraintes prises en compte :</strong> ${esc(p.restrictions)}</p>`:''}
-    <div class="summary-grid">
+    <div class="summary-grid summary-grid-3">
       <div class="summary-card"><strong>${esc(p.freq)}</strong><div class="small-muted">séances / semaine</div></div>
       <div class="summary-card"><strong>${esc(p.duration)} min</strong><div class="small-muted">durée cible</div></div>
       <div class="summary-card"><strong>${esc((p.cycleGoals||[]).map(labelForGoal).join(', ') || 'Cycle auto')}</strong><div class="small-muted">orientation</div></div>
     </div>
   </div>`;
-  const sched = `<article class="athlete-week"><h3>Semaine type</h3><div class="week-days">${
-    week.map(w=>`<div class="daypill ${w.train?'train':'rest'}"><strong>${w.day}</strong><div>${w.note}</div></div>`).join('')
+  const sched = `<article class="athlete-week"><h3>Semaine type</h3><div class="week-days compact">${
+    week.map(w=>`<div class="daypill ${w.train?'train':'rest'}"><strong>${w.day}</strong><small>${w.note}</small></div>`).join('')
   }</div></article>`;
   const days = p.days.map(day=>`<article class="panel"><div class="session-top"><h3>${esc(day.title)}</h3><span class="badge">${esc(day.style||'mixte')}</span></div><p class="small-muted">Répartition : ${esc(day.patternSummary)}</p>${
     day.items.map(ex=>`<div class="summary-card session-item"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.muscles)}</div>
-    <div><strong>${esc(ex.prescription.series)}</strong> · ${esc(ex.prescription.reps)} · repos ${esc(ex.prescription.rest)}</div>
+    <div class="quick-prescription"><span>${esc(ex.prescription.series)}</span><span>${esc(ex.prescription.reps)}</span><span>Repos ${esc(ex.prescription.rest)}</span></div>
     <div class="small-muted">Consigne : ${esc(ex.cue)}</div>
     <div class="small-muted">Substitution : ${esc(ex.substitute)}</div>
     <div class="small-muted">Note coach : ${esc(ex.coachNote||'')}</div></div>`).join('')
@@ -456,7 +527,6 @@ function renderProgram(p, coach=true){
   const actions = coach ? `<div class="actions"><button id="coachSaveAgain">Enregistrer</button><button class="ghost" id="coachCopyLinkAgain">Copier lien adhérent</button><button class="ghost" id="coachExportPdfAgain">Exporter PDF premium</button></div>` : '';
   return head + sched + actions + `<div class="stack">${days}</div>`;
 }
-
 
 function buildNutritionView(p){
   const n = p.nutrition;
@@ -653,14 +723,15 @@ function openAthletePortal(){
   const code=($('#athleteCode').value||'').trim().toUpperCase();
   const programs=loadLocal('fafaPrograms',{});
   const p=programs[code];
-  if(!p){ $('#athleteOutput').innerHTML='<div class="panel">Aucun programme trouvé.</div>'; return; }
-  const biz=loadLocal('fafaBusiness',{})[code];
-  if(!biz || biz.status!=='actif' || Number(biz.amount||0)<=0){
-    $('#athleteOutput').innerHTML='<div class="panel">Accès bloqué : abonnement non actif ou non payé.</div>'; return;
+  if(!p){ $('#athleteOutput').innerHTML='<div class="panel">Aucun programme trouvé pour ce code. Vérifie le code adhérent ou enregistre d’abord le programme depuis Coach Pro.</div>'; return; }
+  const biz=loadLocal('fafaBusiness',{})[code] || {status:p.bizStatus||'actif', amount:Number(p.bizAmount||0)};
+  if(biz.status==='impaye'){
+    $('#athleteOutput').innerHTML='<div class="panel">Accès bloqué : compte impayé. Remets le statut sur actif ou pause dans le module Business.</div>'; return;
   }
   const tracks=loadLocal('fafaTracking',{})[code]||[];
   const last = tracks[tracks.length-1];
-  $('#athleteOutput').innerHTML = `<div class="panel panel-hero"><h3>Portail adhérent · ${esc(p.name)}</h3><div class="meta"><span class="badge">${esc(labelForGoal(p.mainGoal))}</span><span class="badge">${esc(p.freq)}/semaine</span><span class="badge">${esc(p.duration)} min</span></div><p class="small-muted">Lecture simple : suis le planning, valide ton ressenti et garde une exécution propre.</p><div class="summary-grid"><div class="summary-card"><strong>${esc(p.cycleWeeks||8)} semaines</strong><div class="small-muted">cycle</div></div><div class="summary-card"><strong>${last?.energy||'-'}/10</strong><div class="small-muted">dernière énergie</div></div><div class="summary-card"><strong>${p.nutrition?.kcal || '-'}</strong><div class="small-muted">kcal repère</div></div></div></div>` + renderProgram(p,false) + 
+  const accessNote = biz.status==='pause' ? '<div class="panel"><strong>Compte en pause.</strong> Le planning reste visible, mais l’accompagnement est suspendu.</div>' : (Number(biz.amount||0)<=0 ? '<div class="panel"><strong>Accès ouvert.</strong> Aucun paiement enregistré pour le moment dans Business.</div>' : '');
+  $('#athleteOutput').innerHTML = accessNote + `<div class="panel panel-hero"><h3>Portail adhérent · ${esc(p.name)}</h3><div class="meta"><span class="badge">${esc(labelForGoal(p.mainGoal))}</span><span class="badge">${esc(p.freq)}/semaine</span><span class="badge">${esc(p.duration)} min</span></div><p class="small-muted">Lecture simple : suis le planning, valide ton ressenti et garde une exécution propre.</p><div class="summary-grid summary-grid-3"><div class="summary-card"><strong>${esc(p.cycleWeeks||8)} semaines</strong><div class="small-muted">cycle</div></div><div class="summary-card"><strong>${last?.energy||'-'}/10</strong><div class="small-muted">dernière énergie</div></div><div class="summary-card"><strong>${p.nutrition?.kcal || '-'}</strong><div class="small-muted">kcal repère</div></div></div></div>` + renderProgram(p,false) + 
     `<div class="panel"><h3>Historique / ressenti</h3>${tracks.length?tracks.map(t=>`<div class="summary-card"><strong>${t.date}</strong><div>Poids : ${t.weight||'-'} kg · Énergie : ${t.energy||'-'}/10 · Compliance : ${t.compliance||'-'}%</div><div class="small-muted">${esc(t.note||'')}</div></div>`).join(''):'<p>Aucun suivi pour le moment.</p>'}</div>`;
 }
 
@@ -704,19 +775,6 @@ function quickBuild(){
   const style=$('#quickStyle').value;
   const env=$('#quickEnv').value;
   const audience=$('#quickPublic').value;
-  const styleKeywords={
-    circuit:['full body','conditioning','gainage'],
-    hiit:['conditioning','cardio','bike','rameur','jump'],
-    boxing:['boxe','boxing','shadow','pads','bag'],
-    mobility:['mobil','rotation','amplitude','stretch'],
-    strength:['push','pull','squat','hinge'],
-    conditioning:['conditioning','cardio','carry','bike'],
-    hyrox:['hyrox','sled','carry','ski','rower'],
-    trail:['run','course','endurance','côtes'],
-    core:['abdos','core','gainage','rotation'],
-    recovery:['mobil','respiration','douce','stability'],
-    health:['health','santé','stabilité','douce']
-  };
   const audienceHints={
     kids:'ludique, très simple, peu technique, beaucoup de mouvement',
     teens:'dynamique, varié, progressif et motivant',
@@ -724,35 +782,61 @@ function quickBuild(){
     seniors:'sécurisé, mobilité, posture, respiration et force utile',
     athletes:'plus dense, plus précis et plus exigeant'
   };
-  const pool = pickExercisesForContext({
+  let basePool = pickExercisesForContext({
     level: audience==='kids' || audience==='seniors' ? 'beginner' : audience==='athletes' ? 'advanced' : 'intermediate',
     env,
     equipment: PRESETS[env] || [],
     injuries: [],
     medical: audience==='seniors' ? ['hypertension'] : [],
     style: style==='recovery' ? 'mobility' : style,
-    keywords: styleKeywords[style] || [],
-    count: 10,
+    keywords: [],
+    count: 24,
     excludeBases: []
   });
+
+  if(['mobility','recovery','health'].includes(style)){
+    basePool = basePool.filter(ex=>mobilityFocused(ex));
+  } else if(style==='boxing'){
+    basePool = basePool.filter(ex=>styleMatches(ex,'boxing'));
+  } else if(style==='trail'){
+    basePool = basePool.filter(ex=>styleMatches(ex,'trail'));
+  } else if(style==='hyrox'){
+    basePool = basePool.filter(ex=>styleMatches(ex,'hyrox'));
+  } else if(style==='strength'){
+    basePool = basePool.filter(ex=>styleMatches(ex,'strength') || ['musculation'].includes((ex.category||'').toLowerCase()));
+  }
+
+  if(basePool.length<9){
+    basePool = pickExercisesForContext({
+      level: audience==='kids' || audience==='seniors' ? 'beginner' : audience==='athletes' ? 'advanced' : 'intermediate',
+      env,
+      equipment: PRESETS[env] || [],
+      injuries: [],
+      medical: audience==='seniors' ? ['hypertension'] : [],
+      style: style==='recovery' ? 'mobility' : style,
+      keywords: [],
+      count: 18,
+      excludeBases: []
+    });
+  }
+  const pool = dedupeByBaseName(shuffle(basePool));
   const warmup = pool.slice(0,2);
   const main = pool.slice(2,7);
   const finisher = pool.slice(7,9);
-  const blockTitle = style==='boxing' ? 'Rounds / ateliers' : style==='mobility' || style==='recovery' ? 'Bloc mobilité' : 'Bloc principal';
+  const blockTitle = style==='boxing' ? 'Rounds / ateliers' : style==='mobility' || style==='recovery' ? 'Bloc mobilité / stretching' : 'Bloc principal';
   $('#quickOutput').innerHTML = `<div class="quick-layout">
       <div class="panel panel-hero">
         <div class="section-mini-head"><h3>Séance rapide ${esc(style)}</h3><p>${dur} minutes · ${esc(ENV_LABELS[env]||env)} · ${esc(audience)}</p></div>
-        <div class="quick-block"><h4>Échauffement</h4><div class="quick-list">${warmup.map(ex=>`<div class="quick-ex"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.cue)}</div></div>`).join('')}</div></div>
-        <div class="quick-block"><h4>${blockTitle}</h4><div class="quick-list">${main.map(ex=>`<div class="quick-ex"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.muscles||'')}</div><div class="small-muted">${esc(ex.cue)}</div></div>`).join('')}</div></div>
-        <div class="quick-block"><h4>Finisher / retour au calme</h4><div class="quick-list">${finisher.map(ex=>`<div class="quick-ex"><strong>${esc(ex.name)}</strong><div class="small-muted">${esc(ex.cue)}</div></div>`).join('')}</div></div>
+        <div class="quick-block"><h4>Échauffement</h4><div class="quick-list">${warmup.map(ex=>quickCard(ex, prescriptionForQuick(style,'warmup',dur))).join('')}</div></div>
+        <div class="quick-block"><h4>${blockTitle}</h4><div class="quick-list">${main.map(ex=>quickCard(ex, prescriptionForQuick(style,'main',dur))).join('')}</div></div>
+        <div class="quick-block"><h4>Finisher / retour au calme</h4><div class="quick-list">${finisher.map(ex=>quickCard(ex, prescriptionForQuick(style,'finisher',dur))).join('')}</div></div>
       </div>
       <div class="quick-rail">
         <div class="panel"><h3>Logique de séance</h3><div class="small-muted">Public : ${audienceHints[audience]||'adaptable'}.</div><div class="small-muted">Style : ${esc(style)}.</div><div class="small-muted">Volume cible : ${dur===20?'court et dense':dur===30?'efficace et simple':dur===45?'complet et polyvalent':'plus développé et progressif'}.</div></div>
-        <div class="panel"><h3>Consigne coach</h3><div class="small-muted">Les exercices changent maintenant selon le style, le lieu et le public. La logique évite aussi de ressortir toujours les quatre mêmes variantes en tête.</div><div class="quick-meta"><span class="badge">Public filtré</span><span class="badge">Lieu filtré</span><span class="badge">Style filtré</span></div></div>
+        <div class="panel"><h3>Prescription coach</h3><div class="small-muted">Chaque exercice affiche maintenant le cadre de travail : séries, reps ou temps, et repos.</div><div class="quick-meta"><span class="badge">Public filtré</span><span class="badge">Lieu filtré</span><span class="badge">Style filtré</span></div></div>
       </div>
     </div>`;
 }
-
 
 function renderHome(){
   const programs=loadLocal('fafaPrograms',{});
@@ -761,22 +845,17 @@ function renderHome(){
   $('#kpiPrograms').textContent=Object.keys(programs).length;
   $('#kpiLibrary').textContent=EXERCISES.length;
   renderBusiness();
-  const activeClients = Object.values(business).filter(b=>b.status==='actif' && Number(b.amount||0)>0).length;
+  const activeClients = Object.values(business).filter(b=>b.status==='actif').length;
   const trackedCount = Object.values(tracks).reduce((a,b)=>a+(b?.length||0),0);
   const recentPrograms = Object.values(programs).slice(-4).reverse();
   const recentHtml = recentPrograms.length ? recentPrograms.map(p=>`<div class="summary-card"><strong>${esc(p.name)}</strong><div class="small-muted">${esc(p.code)} · ${esc(labelForGoal(p.mainGoal))} · ${esc(p.freq)}/sem · ${esc(labelForEnv(p.env))}</div></div>`).join('') : '<div class="summary-card"><strong>Aucun programme enregistré</strong><div class="small-muted">Crée ton premier programme depuis Coach Pro.</div></div>';
   $('#homeActivity').innerHTML=`
-    <div class="home-roadmap">
-      <div class="summary-card"><strong>Entrée coach</strong><div class="small-muted">onboarding plus clair, builder 3 étapes, résumé intelligent et sortie PDF.</div></div>
-      <div class="summary-card"><strong>Entrée adhérent</strong><div class="small-muted">programme visible, nutrition lisible, feedback simple et accès verrouillé.</div></div>
-      <div class="summary-card"><strong>Entrée business</strong><div class="small-muted">statut client, paiement, échéance et lien portail en un seul endroit.</div></div>
-    </div>
-    <div class="summary-grid">
-      <div class="summary-card"><strong>${activeClients}</strong><div class="small-muted">clients actifs</div></div>
+    <div class="summary-grid summary-grid-3">
+      <div class="summary-card"><strong>${activeClients}</strong><div class="small-muted">clients suivis</div></div>
       <div class="summary-card"><strong>${trackedCount}</strong><div class="small-muted">check-ins enregistrés</div></div>
-      <div class="summary-card"><strong>${Object.values(business).filter(b=>b.renewal).length}</strong><div class="small-muted">échéances suivies</div></div>
       <div class="summary-card"><strong>${Object.keys(programs).length}</strong><div class="small-muted">programmes sauvegardés</div></div>
     </div>
+    <div class="panel inner-panel"><strong>Ce cockpit sert à une seule chose :</strong> construire vite un vrai programme coachable, enregistrable, partageable et lisible côté adhérent sans doublons inutiles.</div>
     ${recentHtml}`;
   $('#kpiTracked') && ($('#kpiTracked').textContent = trackedCount);
 }

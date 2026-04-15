@@ -164,3 +164,16 @@ label .multi-select{min-width:0;width:100%}
 .home-roadmap .summary-card{min-height:100px}
 @media (max-width:1080px){.quick-grid,.coach-grid,.material-grid,.home-roadmap{grid-template-columns:1fr 1fr}.quick-layout{grid-template-columns:1fr}}
 @media (max-width:740px){.quick-grid,.coach-grid,.material-grid,.home-roadmap{grid-template-columns:1fr}.multi-select-menu{width:min(100%,calc(100vw - 32px));max-width:calc(100vw - 32px)}}
+
+
+.summary-grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.week-days.compact{grid-template-columns:repeat(7,minmax(82px,1fr));align-items:stretch}
+.daypill{min-height:92px;display:flex;flex-direction:column;justify-content:center;gap:6px;padding:10px 8px}
+.daypill strong{font-size:18px;line-height:1}
+.daypill small{display:block;color:var(--muted);font-size:12px;line-height:1.2;word-break:break-word}
+.quick-prescription{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.quick-prescription span{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(134,255,139,.08);border:1px solid rgba(134,255,139,.18);color:#e8fff1;font-size:12px}
+.session-item{display:grid;gap:8px}
+#homeActivity>.summary-card{margin-top:10px}
+@media (max-width:1080px){.summary-grid-3{grid-template-columns:1fr 1fr}.week-days.compact{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:740px){.summary-grid-3,.week-days.compact{grid-template-columns:1fr 1fr}.daypill{min-height:84px}}
