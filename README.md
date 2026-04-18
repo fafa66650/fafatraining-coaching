@@ -1,23 +1,32 @@
-# FAFATRAINING Coaching
+# FAFATRAINING V33
 
-Application web de coaching FAFATRAINING, pensée pour GitHub Pages.
+Version reconstruite autour de 2 entrées claires :
+- **Je veux m'entraîner** : séance rapide immédiate
+- **Coach Pro** : construction d’un programme complet en 3 étapes
 
-## Ce que fait l'application
-- création de programmes en 3 étapes : profil, objectifs, matériel
-- génération de séances avec échauffement, corps de séance et retour au calme
-- portail adhérent par code
-- suivi, nutrition et business reliés au même profil
-- export PDF du programme
+## Structure produit
+1. **Profil**
+   - âge
+   - taille
+   - poids
+   - niveau
+   - activité quotidienne
+2. **Objectif**
+   - objectif principal
+   - objectifs secondaires
+   - lieu
+   - matériel
+   - contraintes
+3. **Paramètres**
+   - durée
+   - fréquence
+   - intensité
 
-## Utilisation rapide
-1. Ouvrir **Coach Pro**
-2. Renseigner les champs obligatoires
-3. Choisir l'objectif principal et le contexte d'entraînement
-4. Vérifier le matériel réellement disponible
-5. Cliquer sur **Construire le programme FAFATRAINING**
-6. Cliquer sur **Enregistrer** pour activer le portail adhérent
+## Principes moteur
+- adaptation au lieu et au matériel
+- séparation des styles : AMRAP, EMOM, HIIT, circuit, musculation, boxe, Hyrox, trail, mobilité, zone 2
+- prescription lisible : séries, reps/temps, repos, charge, consigne, variante facile, variante difficile
+- variation renforcée pour éviter les répétitions
 
-## Remarques
-- le matériel peut être pré-coché automatiquement selon le lieu d'entraînement
-- les champs optionnels servent seulement à affiner le programme
-- le code adhérent sert au portail, au suivi, à la nutrition et au business
+## Déploiement GitHub Pages
+Dépose simplement le contenu de ce dossier à la racine du dépôt GitHub Pages.
