@@ -1,6 +1,6 @@
-# FAFATRAINING COACHING V8.8 REAL EXERCISE VISUALS
+# FAFATRAINING COACHING 
 
-Version générée depuis la V8.7.
+
 
 Améliorations :
 - Illustration dédiée par exercice.
