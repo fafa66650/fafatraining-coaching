@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061009"/><stop offset=".65" stop-color="#101712"/><stop offset="1" stop-color="#020303"/></linearGradient>
+<radialGradient id="glow" cx="72%" cy="26%"><stop stop-color="#45ff5f" stop-opacity=".48"/><stop offset=".65" stop-color="#45ff5f" stop-opacity=".06"/><stop offset="1" stop-color="#45ff5f" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="520" height="320" rx="34" fill="url(#bg)"/>
+<rect width="520" height="320" rx="34" fill="url(#glow)"/>
+<text x="24" y="38" fill="#45ff5f" font-family="Arial" font-size="15" font-weight="900">PACK 03 · EX0272</text>
+<text x="496" y="38" fill="#9fb0a7" font-family="Arial" font-size="14" text-anchor="end">PROFIL · SAC_BOXE</text>
+<rect x="370" y="62" width="58" height="165" rx="26" fill="#45ff5f" opacity=".24"/><line x1="399" y1="35" x2="399" y2="62" stroke="#9fb0a7" stroke-width="5"/>
+<g transform="translate(260 155)"><circle cx="-30" cy="-65" r="19" fill="#f4fff8"/><line x1="-30" y1="-45" x2="-20" y2="35" stroke="#f4fff8" stroke-width="13"/><line x1="-24" y1="-26" x2="78" y2="-58" stroke="#45ff5f" stroke-width="13"/><circle cx="96" cy="-62" r="15" fill="#45ff5f"/><line x1="-22" y1="-18" x2="-76" y2="-54" stroke="#45ff5f" stroke-width="13"/><line x1="-20" y1="35" x2="-68" y2="95" stroke="#f4fff8" stroke-width="13"/><line x1="-20" y1="35" x2="45" y2="88" stroke="#f4fff8" stroke-width="13"/></g>
+<text x="260" y="266" fill="#f4fff8" font-family="Arial" font-size="21" font-weight="900" text-anchor="middle">Contre-attaque sac</text>
+<text x="260" y="292" fill="#9fb0a7" font-family="Arial" font-size="14" text-anchor="middle">🥊 Boxe / cardio boxing · BOXING</text>
+</svg>
