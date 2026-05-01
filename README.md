@@ -1,15 +1,20 @@
-# FAFATRAINING COACHING — V13 LOCAL PHOTOS PRO
+# FAFATRAINING COACHING — V14 STRUCTURE PHOTOS PRO
 
+Version propre pour intégrer de vraies photos type Enrx.
+
+Inclus :
 - Accueil épuré.
-- Boutons retour ajoutés.
-- Boutons aide ajoutés.
+- Boutons retour.
+- Boutons aide.
 - Pastilles plus discrètes.
-- Dossier local `assets/photos/exercises/` avec images associées aux exercices.
-- Plus de logo en remplacement d’exercice.
-- Export PDF conservé.
+- Structure photos professionnelle.
+- Fichier `PHOTOS_A_AJOUTER.csv` avec tous les noms exacts.
+- Guide `GUIDE_PHOTOS.md`.
+- Aucune répétition de logo dans les cartes exercices.
+- Si une photo manque : message “Photo à ajouter”.
 - 409 exercices.
 - 5 packs GitHub.
-- Images locales : 409.
 - Audit : 0 erreur(s).
 
-Note honnête : les images sont des visuels locaux générés en style photo/fitness sombre pour éviter les images cassées et les logos. Ce ne sont pas des photos réelles prises en salle.
+Important :
+Cette version ne contient pas 409 vraies photos. Elle est prête pour que tu ajoutes tes vraies photos dans les bons dossiers.

@@ -1,6 +1,6 @@
 
 let exercises=[],programs=[],manifest=null;
-let state=JSON.parse(localStorage.getItem('fafatraining_coaching_v13'))||{
+let state=JSON.parse(localStorage.getItem('fafatraining_coaching_v14'))||{
  selectedMember:0,family:'force_hypertrophie',childIndex:0,generated:null,visualMode:'premium',
  live:{index:0,seconds:0,running:false},history:[],seed:7,
  members:[{name:'Membre 1',level:1,goal:'remise_forme',days:3,place:'salle',age:30,height:175,weight:78,job:'actif',sleep:7,stress:2,fatigue:2,
@@ -25,7 +25,7 @@ Promise.all([fetch('data/pack_manifest.json').then(r=>r.json()),fetch('data/prog
  if(!state.generated) state.generated=buildSession(false);
  go('home');
 });
-function save(){localStorage.setItem('fafatraining_coaching_v13',JSON.stringify(state))}
+function save(){localStorage.setItem('fafatraining_coaching_v14',JSON.stringify(state))}
 function m(){return state.members[state.selectedMember]||state.members[0]}
 function back(){go(state.lastRoute||'home')}
 function help(txt){alert(txt)}
@@ -41,7 +41,7 @@ function go(r){
  quickStats.innerHTML=`${m().name} · ${level(m().level)} · ${exercises.length} exos`;
  ({home,members,builder,methods,session,live,library,stats}[r]||home)(view);
 }
-function shell(c){return `<div class="shell"><section>${c}</section><aside class="rightcol"><button class="backBtn" onclick="back()">← Retour</button><div class="card mini"><h3>${m().name}</h3><p>${level(m().level)} · ${goal(m().goal)}</p><p>${m().place} · ${m().days} j/sem</p></div><button class="btn full" onclick="state.generated=buildSession(true);save();go('session')">Nouvelle séance</button><button class="btn secondary full" onclick="exportPDF()">Exporter PDF</button><button class="helpBtn" onclick="help('Choisis un membre, crée la séance, vérifie les exercices puis lance le live. Les images sont locales dans assets/photos/exercises.')">?</button></aside></div>`}
+function shell(c){return `<div class="shell"><section>${c}</section><aside class="rightcol"><button class="backBtn" onclick="back()">← Retour</button><div class="card mini"><h3>${m().name}</h3><p>${level(m().level)} · ${goal(m().goal)}</p><p>${m().place} · ${m().days} j/sem</p></div><button class="btn full" onclick="state.generated=buildSession(true);save();go('session')">Nouvelle séance</button><button class="btn secondary full" onclick="exportPDF()">Exporter PDF</button><button class="helpBtn" onclick="help('Les vraies photos doivent être placées dans assets/photos/exercises en respectant PHOTOS_A_AJOUTER.csv.')">?</button></aside></div>`}
 function setMode(mode){state.visualMode=mode;save();go('session')}
 function home(v){
  let d=cur(),g=state.generated;
@@ -53,7 +53,7 @@ function home(v){
      <div class="homeActions">
        <button class="btn" onclick="go('builder')">Créer une séance</button>
        <button class="btn secondary" onclick="go('session')">Voir la séance</button>
-       <button class="helpRound" onclick="help('Accueil épuré : membre actif, séance proposée, accès rapide à la création et à la séance.')">?</button>
+       <button class="helpRound" onclick="help('Accueil épuré : membre actif, séance proposée, accès rapide. Les photos réelles sont à ajouter dans le dossier prévu.')">?</button>
      </div>
    </div>
    <div class="todaySimple">
@@ -86,7 +86,13 @@ function scoreEx(e,i){let c=cur(),x=m();let s=0;if(e.smartCategory===c.smartCate
 function adapt(e){let x=m(),l=x.level>=20?'avance':x.level>=10?'intermediaire':x.level>=5?'intermediaire':'debutant';let v={...(e.variantes?.[l]||e.variantes?.debutant||{})};if(x.fatigue>=4||x.sleep<6){v.series=Math.max(2,+(v.series||3)-1);v.rpe='6';v.repos='60–120s'}return{base:e,...v,charge:charge(e,v)}}
 function charge(e,v){let pct=parseInt((v.charge_pct||'60').split('–')[0]),x=m(),ref=0;if(e.categorie==='pectoraux')ref=x.oneRM?.bench||0;if(e.categorie==='jambes')ref=x.oneRM?.squat||0;if(e.categorie==='chaîne postérieure')ref=x.oneRM?.deadlift||0;if(!ref||e.materiel?.includes('poids du corps'))return'RPE '+(v.rpe||'6–7');return Math.round((ref*pct/100)/2.5)*2.5+' kg'}
 function buildSession(bump=true){let c=cur();if(bump)state.seed=(state.seed+11)%997;let pool=exercises.filter(e=>isSafe(e)&&equipmentOk(e));let pri=pool.filter(e=>e.smartCategory===c.smartCategory);if(pri.length>=c.count)pool=pri;pool=pool.map((e,i)=>({e,score:scoreEx(e,i)})).sort((a,b)=>b.score-a.score).map(x=>x.e);let picked=[],patterns={};for(let e of pool){if(picked.length>=c.count)break;let p=e.patternReadable||e.pattern||'général',n=patterns[p]||0;if(n<2||picked.length>c.count-2){picked.push(e);patterns[p]=n+1}}return{style:fam().nom,format:c.name,type:c.type,duration:c.duration,work:c.work,rest:c.rest,exercises:picked.map(adapt)}}
-function imgTag(e){let src=e.photoUrl||e.image;return `<div class="photoWrap"><img src="${src}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();"><span>Image locale indisponible</span></div>`}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();"><span>Photo indisponible</span></div>`}
+function imgTag(e){
+  let src=e.photoUrl||e.image;
+  return `<div class="photoWrap">
+    <img src="${src}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();">
+    <span>Photo à ajouter<br><small>${(e.nom||'exercice')}</small></span>
+  </div>`
+}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();"><span>Image locale indisponible</span></div>`}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();"><span>Photo indisponible</span></div>`}
 function session(v){let g=state.generated||buildSession(false);v.innerHTML=shell(`<div class="sessionHeader"><div><span>séance</span><h2>${g.format}</h2><p>${g.type} · ${g.duration} · ${g.style}</p></div><div><button class="btn secondary" onclick="state.generated=buildSession(true);save();go('session')">Changer les exercices</button><button class="btn" onclick="go('live')">Lancer en live</button></div></div>${g.exercises.map((x,i)=>exCard(x,i)).join('')}<div class="card center"><button class="btn" onclick="finish()">Séance terminée</button><button class="btn secondary" onclick="showAlternatives()">Voir les alternatives</button></div>`)}
 function exCard(x,i){let e=x.base;return `<div class="exercise photoCard">${imgTag(e)}<div class="exMain"><div><span class="index">${i+1}</span><span class="pill">${e.patternReadable}</span></div><h3>${e.nom}</h3><p class="muscles">${e.smartCategoryLabel||''}</p><div class="chips"><b>${x.series||3} séries</b><b>${x.reps||'8–12'} reps</b><b>${x.charge}</b></div><p class="coachLine"><b>Posture :</b> ${e.postureCoach}</p><p class="coachLine"><b>À éviter :</b> ${(e.avoidMistakes||[]).slice(0,2).join(' · ')}</p></div><button class="playBtn" onclick="go('live')">▶</button></div>`}
 function showAlternatives(){state.generated=buildSession(true);save();go('session')}
@@ -96,7 +102,7 @@ function fmt(s){return `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%6
 function toggleLive(){state.live.running=!state.live.running;save();if(liveTimer)clearInterval(liveTimer);if(state.live.running)liveTimer=setInterval(()=>{state.live.seconds++;save();let t=document.querySelector('.timer');if(t)t.textContent=fmt(state.live.seconds)},1000);go('live')}
 function nextLive(){let l=(state.generated||buildSession(false)).exercises.length;state.live.index=(state.live.index+1)%l;state.live.seconds=0;save();go('live')}
 function prevLive(){let l=(state.generated||buildSession(false)).exercises.length;state.live.index=(state.live.index-1+l)%l;state.live.seconds=0;save();go('live')}
-function library(v){let groups={};exercises.forEach(e=>{let k=e.smartCategoryLabel;groups[k]=groups[k]||[];groups[k].push(e)});v.innerHTML=shell(`<div class="card"><h2>Exercices</h2><input id="search" placeholder="Rechercher un exercice..." oninput="filterLibrary()"><p>${exercises.length} exercices classés.</p></div>${Object.entries(groups).map(([k,l])=>`<div class="card"><h3>${k} · ${l.length}</h3>${l.map(e=>`<span class="pill libpill" data-name="${(e.nom+' '+e.smartCategoryLabel+' '+e.patternReadable+' '+e.materiel.join(' ')).toLowerCase()}">${e.icon} ${e.nom}</span>`).join('')}</div>`).join('')}`)}
+function library(v){let groups={};exercises.forEach(e=>{let k=e.smartCategoryLabel;groups[k]=groups[k]||[];groups[k].push(e)});v.innerHTML=shell(`<div class="card"><h2>Exercices</h2><p class='small'>Les photos réelles sont attendues dans assets/photos/exercises. La liste complète est dans PHOTOS_A_AJOUTER.csv.</p><input id="search" placeholder="Rechercher un exercice..." oninput="filterLibrary()"><p>${exercises.length} exercices classés.</p></div>${Object.entries(groups).map(([k,l])=>`<div class="card"><h3>${k} · ${l.length}</h3>${l.map(e=>`<span class="pill libpill" data-name="${(e.nom+' '+e.smartCategoryLabel+' '+e.patternReadable+' '+e.materiel.join(' ')).toLowerCase()}">${e.icon} ${e.nom}</span>`).join('')}</div>`).join('')}`)}
 function filterLibrary(){let q=search.value.toLowerCase();document.querySelectorAll('.libpill').forEach(e=>e.style.display=e.dataset.name.includes(q)?'inline-flex':'none')}
 function stats(v){let x=m();v.innerHTML=shell(`<div class="card"><h2>Suivi</h2><div class="grid grid3"><div class="card"><h3>${x.completed}</h3><p>Séances</p></div><div class="card"><h3>${x.streak}</h3><p>Régularité</p></div><div class="card"><h3>${x.xp}</h3><p>Points</p></div></div></div><div class="card"><h2>Historique</h2>${state.history.slice().reverse().map(h=>`<p>✅ ${h.date} · ${h.member} · ${h.style} · ${h.session}</p>`).join('')||'<p>Aucune séance terminée.</p>'}</div>`)}
 function finish(){let x=m(),g=state.generated||buildSession(false);x.xp+=120;x.completed++;x.streak++;state.history.push({member:x.name,date:new Date().toLocaleDateString('fr-FR'),style:g.style,session:g.format});state.generated=buildSession(true);state.live={index:0,seconds:0,running:false};save();go('stats')}
