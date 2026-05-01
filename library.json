@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "name": "Exercise 1",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 2,
+    "name": "Exercise 2",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 3,
+    "name": "Exercise 3",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 4,
+    "name": "Exercise 4",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 5,
+    "name": "Exercise 5",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 6,
+    "name": "Exercise 6",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 7,
+    "name": "Exercise 7",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 8,
+    "name": "Exercise 8",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 9,
+    "name": "Exercise 9",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 10,
+    "name": "Exercise 10",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 11,
+    "name": "Exercise 11",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 12,
+    "name": "Exercise 12",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 13,
+    "name": "Exercise 13",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 14,
+    "name": "Exercise 14",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 15,
+    "name": "Exercise 15",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 16,
+    "name": "Exercise 16",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 17,
+    "name": "Exercise 17",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 18,
+    "name": "Exercise 18",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 19,
+    "name": "Exercise 19",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 20,
+    "name": "Exercise 20",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 21,
+    "name": "Exercise 21",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 22,
+    "name": "Exercise 22",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 23,
+    "name": "Exercise 23",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 24,
+    "name": "Exercise 24",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 25,
+    "name": "Exercise 25",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 26,
+    "name": "Exercise 26",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 27,
+    "name": "Exercise 27",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 28,
+    "name": "Exercise 28",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 29,
+    "name": "Exercise 29",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 30,
+    "name": "Exercise 30",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 31,
+    "name": "Exercise 31",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 32,
+    "name": "Exercise 32",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 33,
+    "name": "Exercise 33",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 34,
+    "name": "Exercise 34",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 35,
+    "name": "Exercise 35",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 36,
+    "name": "Exercise 36",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 37,
+    "name": "Exercise 37",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 38,
+    "name": "Exercise 38",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 39,
+    "name": "Exercise 39",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 40,
+    "name": "Exercise 40",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 41,
+    "name": "Exercise 41",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 42,
+    "name": "Exercise 42",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 43,
+    "name": "Exercise 43",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 44,
+    "name": "Exercise 44",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 45,
+    "name": "Exercise 45",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 46,
+    "name": "Exercise 46",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 47,
+    "name": "Exercise 47",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 48,
+    "name": "Exercise 48",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 49,
+    "name": "Exercise 49",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 50,
+    "name": "Exercise 50",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 51,
+    "name": "Exercise 51",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 52,
+    "name": "Exercise 52",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 53,
+    "name": "Exercise 53",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 54,
+    "name": "Exercise 54",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 55,
+    "name": "Exercise 55",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 56,
+    "name": "Exercise 56",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 57,
+    "name": "Exercise 57",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 58,
+    "name": "Exercise 58",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 59,
+    "name": "Exercise 59",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 60,
+    "name": "Exercise 60",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 61,
+    "name": "Exercise 61",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 62,
+    "name": "Exercise 62",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 63,
+    "name": "Exercise 63",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 64,
+    "name": "Exercise 64",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 65,
+    "name": "Exercise 65",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 66,
+    "name": "Exercise 66",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 67,
+    "name": "Exercise 67",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 68,
+    "name": "Exercise 68",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 69,
+    "name": "Exercise 69",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 70,
+    "name": "Exercise 70",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 71,
+    "name": "Exercise 71",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 72,
+    "name": "Exercise 72",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 73,
+    "name": "Exercise 73",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 74,
+    "name": "Exercise 74",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 75,
+    "name": "Exercise 75",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 76,
+    "name": "Exercise 76",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 77,
+    "name": "Exercise 77",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 78,
+    "name": "Exercise 78",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 79,
+    "name": "Exercise 79",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 80,
+    "name": "Exercise 80",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 81,
+    "name": "Exercise 81",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 82,
+    "name": "Exercise 82",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 83,
+    "name": "Exercise 83",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 84,
+    "name": "Exercise 84",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 85,
+    "name": "Exercise 85",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 86,
+    "name": "Exercise 86",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 87,
+    "name": "Exercise 87",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 88,
+    "name": "Exercise 88",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 89,
+    "name": "Exercise 89",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 90,
+    "name": "Exercise 90",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 91,
+    "name": "Exercise 91",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 92,
+    "name": "Exercise 92",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 93,
+    "name": "Exercise 93",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 94,
+    "name": "Exercise 94",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 95,
+    "name": "Exercise 95",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 96,
+    "name": "Exercise 96",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 97,
+    "name": "Exercise 97",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 98,
+    "name": "Exercise 98",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 99,
+    "name": "Exercise 99",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 100,
+    "name": "Exercise 100",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 101,
+    "name": "Exercise 101",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 102,
+    "name": "Exercise 102",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 103,
+    "name": "Exercise 103",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 104,
+    "name": "Exercise 104",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 105,
+    "name": "Exercise 105",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 106,
+    "name": "Exercise 106",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 107,
+    "name": "Exercise 107",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 108,
+    "name": "Exercise 108",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 109,
+    "name": "Exercise 109",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 110,
+    "name": "Exercise 110",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 111,
+    "name": "Exercise 111",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 112,
+    "name": "Exercise 112",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 113,
+    "name": "Exercise 113",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 114,
+    "name": "Exercise 114",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 115,
+    "name": "Exercise 115",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 116,
+    "name": "Exercise 116",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 117,
+    "name": "Exercise 117",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 118,
+    "name": "Exercise 118",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 119,
+    "name": "Exercise 119",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 120,
+    "name": "Exercise 120",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 121,
+    "name": "Exercise 121",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 122,
+    "name": "Exercise 122",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 123,
+    "name": "Exercise 123",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 124,
+    "name": "Exercise 124",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 125,
+    "name": "Exercise 125",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 126,
+    "name": "Exercise 126",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 127,
+    "name": "Exercise 127",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 128,
+    "name": "Exercise 128",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 129,
+    "name": "Exercise 129",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 130,
+    "name": "Exercise 130",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 131,
+    "name": "Exercise 131",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 132,
+    "name": "Exercise 132",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 133,
+    "name": "Exercise 133",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 134,
+    "name": "Exercise 134",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 135,
+    "name": "Exercise 135",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 136,
+    "name": "Exercise 136",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 137,
+    "name": "Exercise 137",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 138,
+    "name": "Exercise 138",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 139,
+    "name": "Exercise 139",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 140,
+    "name": "Exercise 140",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 141,
+    "name": "Exercise 141",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 142,
+    "name": "Exercise 142",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 143,
+    "name": "Exercise 143",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 144,
+    "name": "Exercise 144",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 145,
+    "name": "Exercise 145",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 146,
+    "name": "Exercise 146",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 147,
+    "name": "Exercise 147",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 148,
+    "name": "Exercise 148",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 149,
+    "name": "Exercise 149",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 150,
+    "name": "Exercise 150",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 151,
+    "name": "Exercise 151",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 152,
+    "name": "Exercise 152",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 153,
+    "name": "Exercise 153",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 154,
+    "name": "Exercise 154",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 155,
+    "name": "Exercise 155",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 156,
+    "name": "Exercise 156",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 157,
+    "name": "Exercise 157",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 158,
+    "name": "Exercise 158",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 159,
+    "name": "Exercise 159",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 160,
+    "name": "Exercise 160",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 161,
+    "name": "Exercise 161",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 162,
+    "name": "Exercise 162",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 163,
+    "name": "Exercise 163",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 164,
+    "name": "Exercise 164",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 165,
+    "name": "Exercise 165",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 166,
+    "name": "Exercise 166",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 167,
+    "name": "Exercise 167",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 168,
+    "name": "Exercise 168",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 169,
+    "name": "Exercise 169",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 170,
+    "name": "Exercise 170",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 171,
+    "name": "Exercise 171",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 172,
+    "name": "Exercise 172",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 173,
+    "name": "Exercise 173",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 174,
+    "name": "Exercise 174",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 175,
+    "name": "Exercise 175",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 176,
+    "name": "Exercise 176",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 177,
+    "name": "Exercise 177",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 178,
+    "name": "Exercise 178",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 179,
+    "name": "Exercise 179",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 180,
+    "name": "Exercise 180",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 181,
+    "name": "Exercise 181",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 182,
+    "name": "Exercise 182",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 183,
+    "name": "Exercise 183",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 184,
+    "name": "Exercise 184",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 185,
+    "name": "Exercise 185",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 186,
+    "name": "Exercise 186",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 187,
+    "name": "Exercise 187",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 188,
+    "name": "Exercise 188",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 189,
+    "name": "Exercise 189",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 190,
+    "name": "Exercise 190",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 191,
+    "name": "Exercise 191",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 192,
+    "name": "Exercise 192",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 193,
+    "name": "Exercise 193",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 194,
+    "name": "Exercise 194",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 195,
+    "name": "Exercise 195",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 196,
+    "name": "Exercise 196",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 197,
+    "name": "Exercise 197",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 198,
+    "name": "Exercise 198",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 199,
+    "name": "Exercise 199",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 200,
+    "name": "Exercise 200",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 201,
+    "name": "Exercise 201",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 202,
+    "name": "Exercise 202",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 203,
+    "name": "Exercise 203",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 204,
+    "name": "Exercise 204",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 205,
+    "name": "Exercise 205",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 206,
+    "name": "Exercise 206",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 207,
+    "name": "Exercise 207",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 208,
+    "name": "Exercise 208",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 209,
+    "name": "Exercise 209",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 210,
+    "name": "Exercise 210",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 211,
+    "name": "Exercise 211",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 212,
+    "name": "Exercise 212",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 213,
+    "name": "Exercise 213",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 214,
+    "name": "Exercise 214",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 215,
+    "name": "Exercise 215",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 216,
+    "name": "Exercise 216",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 217,
+    "name": "Exercise 217",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 218,
+    "name": "Exercise 218",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 219,
+    "name": "Exercise 219",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 220,
+    "name": "Exercise 220",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 221,
+    "name": "Exercise 221",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 222,
+    "name": "Exercise 222",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 223,
+    "name": "Exercise 223",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 224,
+    "name": "Exercise 224",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 225,
+    "name": "Exercise 225",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 226,
+    "name": "Exercise 226",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 227,
+    "name": "Exercise 227",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 228,
+    "name": "Exercise 228",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 229,
+    "name": "Exercise 229",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 230,
+    "name": "Exercise 230",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 231,
+    "name": "Exercise 231",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 232,
+    "name": "Exercise 232",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 233,
+    "name": "Exercise 233",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 234,
+    "name": "Exercise 234",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 235,
+    "name": "Exercise 235",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 236,
+    "name": "Exercise 236",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 237,
+    "name": "Exercise 237",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 238,
+    "name": "Exercise 238",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 239,
+    "name": "Exercise 239",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 240,
+    "name": "Exercise 240",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 241,
+    "name": "Exercise 241",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 242,
+    "name": "Exercise 242",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 243,
+    "name": "Exercise 243",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 244,
+    "name": "Exercise 244",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 245,
+    "name": "Exercise 245",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 246,
+    "name": "Exercise 246",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 247,
+    "name": "Exercise 247",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 248,
+    "name": "Exercise 248",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 249,
+    "name": "Exercise 249",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 250,
+    "name": "Exercise 250",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 251,
+    "name": "Exercise 251",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 252,
+    "name": "Exercise 252",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 253,
+    "name": "Exercise 253",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 254,
+    "name": "Exercise 254",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 255,
+    "name": "Exercise 255",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 256,
+    "name": "Exercise 256",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 257,
+    "name": "Exercise 257",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 258,
+    "name": "Exercise 258",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 259,
+    "name": "Exercise 259",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 260,
+    "name": "Exercise 260",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 261,
+    "name": "Exercise 261",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 262,
+    "name": "Exercise 262",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 263,
+    "name": "Exercise 263",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 264,
+    "name": "Exercise 264",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 265,
+    "name": "Exercise 265",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 266,
+    "name": "Exercise 266",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 267,
+    "name": "Exercise 267",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 268,
+    "name": "Exercise 268",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 269,
+    "name": "Exercise 269",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 270,
+    "name": "Exercise 270",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 271,
+    "name": "Exercise 271",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 272,
+    "name": "Exercise 272",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 273,
+    "name": "Exercise 273",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 274,
+    "name": "Exercise 274",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 275,
+    "name": "Exercise 275",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 276,
+    "name": "Exercise 276",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 277,
+    "name": "Exercise 277",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 278,
+    "name": "Exercise 278",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 279,
+    "name": "Exercise 279",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 280,
+    "name": "Exercise 280",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 281,
+    "name": "Exercise 281",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 282,
+    "name": "Exercise 282",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 283,
+    "name": "Exercise 283",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 284,
+    "name": "Exercise 284",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 285,
+    "name": "Exercise 285",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 286,
+    "name": "Exercise 286",
+    "level": "intermediate",
+    "category": "crossfit",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 287,
+    "name": "Exercise 287",
+    "level": "advanced",
+    "category": "boxe",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 288,
+    "name": "Exercise 288",
+    "level": "beginner",
+    "category": "cardio",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 289,
+    "name": "Exercise 289",
+    "level": "intermediate",
+    "category": "mobility",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 290,
+    "name": "Exercise 290",
+    "level": "advanced",
+    "category": "musculation",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 291,
+    "name": "Exercise 291",
+    "level": "beginner",
+    "category": "crossfit",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 292,
+    "name": "Exercise 292",
+    "level": "intermediate",
+    "category": "boxe",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 293,
+    "name": "Exercise 293",
+    "level": "advanced",
+    "category": "cardio",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 294,
+    "name": "Exercise 294",
+    "level": "beginner",
+    "category": "mobility",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 295,
+    "name": "Exercise 295",
+    "level": "intermediate",
+    "category": "musculation",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 296,
+    "name": "Exercise 296",
+    "level": "advanced",
+    "category": "crossfit",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 297,
+    "name": "Exercise 297",
+    "level": "beginner",
+    "category": "boxe",
+    "equipment": "halteres",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 298,
+    "name": "Exercise 298",
+    "level": "intermediate",
+    "category": "cardio",
+    "equipment": "machine",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 299,
+    "name": "Exercise 299",
+    "level": "advanced",
+    "category": "mobility",
+    "equipment": "kettlebell",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  },
+  {
+    "id": 300,
+    "name": "Exercise 300",
+    "level": "beginner",
+    "category": "musculation",
+    "equipment": "poids_corps",
+    "reps": "8-12",
+    "sets": "3-5",
+    "rest": "60-90s"
+  }
+]
