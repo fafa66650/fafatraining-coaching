@@ -1,0 +1,334 @@
+[
+  {
+    "id": "masse",
+    "icon": "💪",
+    "nom": "Prise de masse",
+    "objectif": "Hypertrophie",
+    "days": [
+      {
+        "name": "PUSH",
+        "subtitle": "Pectoraux · Épaules · Triceps",
+        "categories": [
+          "pectoraux",
+          "epaules",
+          "bras"
+        ],
+        "intensity": "Élevée",
+        "duration": "60–75 min",
+        "focus": "Hypertrophie",
+        "count": 8
+      },
+      {
+        "name": "PULL",
+        "subtitle": "Dos · Biceps · Arrière épaules",
+        "categories": [
+          "dos",
+          "bras",
+          "epaules"
+        ],
+        "intensity": "Élevée",
+        "duration": "60–75 min",
+        "focus": "Volume",
+        "count": 8
+      },
+      {
+        "name": "LEGS",
+        "subtitle": "Quadriceps · Fessiers · Ischios",
+        "categories": [
+          "jambes",
+          "posterieur",
+          "core"
+        ],
+        "intensity": "Élevée",
+        "duration": "65–85 min",
+        "focus": "Bas du corps",
+        "count": 8
+      },
+      {
+        "name": "UPPER",
+        "subtitle": "Haut du corps complet",
+        "categories": [
+          "pectoraux",
+          "dos",
+          "epaules",
+          "bras"
+        ],
+        "intensity": "Moyenne",
+        "duration": "55–70 min",
+        "focus": "Rappel",
+        "count": 8
+      },
+      {
+        "name": "LOWER + CORE",
+        "subtitle": "Jambes + gainage",
+        "categories": [
+          "jambes",
+          "posterieur",
+          "core",
+          "mobilite"
+        ],
+        "intensity": "Moyenne",
+        "duration": "50–65 min",
+        "focus": "Stabilité",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "perte",
+    "icon": "🔥",
+    "nom": "Perte de poids",
+    "objectif": "Déficit calorique",
+    "days": [
+      {
+        "name": "FULL BODY HIIT",
+        "subtitle": "Renfo + cardio + dépense",
+        "categories": [
+          "cardio_hiit",
+          "jambes",
+          "pectoraux",
+          "core"
+        ],
+        "intensity": "Élevée",
+        "duration": "35–50 min",
+        "focus": "Dépense calorique",
+        "count": 8
+      },
+      {
+        "name": "CARDIO BOXE",
+        "subtitle": "Boxe · Appuis · Cardio",
+        "categories": [
+          "boxe",
+          "cardio_hiit",
+          "core"
+        ],
+        "intensity": "Élevée",
+        "duration": "40–55 min",
+        "focus": "Conditioning",
+        "count": 8
+      },
+      {
+        "name": "LOWER BURN",
+        "subtitle": "Jambes dynamiques",
+        "categories": [
+          "jambes",
+          "cardio_hiit",
+          "core"
+        ],
+        "intensity": "Moyenne",
+        "duration": "45–60 min",
+        "focus": "Dépense + jambes",
+        "count": 8
+      },
+      {
+        "name": "METCON",
+        "subtitle": "Effort fonctionnel",
+        "categories": [
+          "cross_training",
+          "cardio_hiit",
+          "core"
+        ],
+        "intensity": "Élevée",
+        "duration": "35–50 min",
+        "focus": "Intensité",
+        "count": 8
+      },
+      {
+        "name": "RECOVERY FLOW",
+        "subtitle": "Mobilité · Core · Respiration",
+        "categories": [
+          "mobilite",
+          "core"
+        ],
+        "intensity": "Basse",
+        "duration": "25–40 min",
+        "focus": "Récupération",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "force",
+    "icon": "🏋️",
+    "nom": "Force Max",
+    "objectif": "Force pure",
+    "days": [
+      {
+        "name": "FORCE HAUT",
+        "subtitle": "Poussée + tirage lourd",
+        "categories": [
+          "pectoraux",
+          "dos",
+          "epaules"
+        ],
+        "intensity": "Très élevée",
+        "duration": "70–90 min",
+        "focus": "Force",
+        "count": 7
+      },
+      {
+        "name": "FORCE BAS",
+        "subtitle": "Squat · Deadlift · Accessoires",
+        "categories": [
+          "jambes",
+          "posterieur"
+        ],
+        "intensity": "Très élevée",
+        "duration": "70–90 min",
+        "focus": "Force bas",
+        "count": 7
+      },
+      {
+        "name": "ASSISTANCE",
+        "subtitle": "Accessoires ciblés",
+        "categories": [
+          "bras",
+          "core",
+          "mobilite"
+        ],
+        "intensity": "Moyenne",
+        "duration": "45–60 min",
+        "focus": "Prévention",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "boxe",
+    "icon": "🥊",
+    "nom": "Boxe Performance",
+    "objectif": "Condition physique boxe",
+    "days": [
+      {
+        "name": "TECHNIQUE & CARDIO",
+        "subtitle": "Shadow · Appuis · Rounds",
+        "categories": [
+          "boxe",
+          "cardio_hiit"
+        ],
+        "intensity": "Moyenne",
+        "duration": "45–60 min",
+        "focus": "Technique",
+        "count": 8
+      },
+      {
+        "name": "RENFO BOXEUR",
+        "subtitle": "Core · Épaules · Explosivité",
+        "categories": [
+          "core",
+          "epaules",
+          "cardio_hiit"
+        ],
+        "intensity": "Élevée",
+        "duration": "45–60 min",
+        "focus": "Puissance utile",
+        "count": 8
+      },
+      {
+        "name": "CONDITIONING",
+        "subtitle": "Sac · HIIT · Mental",
+        "categories": [
+          "boxe",
+          "cardio_hiit",
+          "core"
+        ],
+        "intensity": "Élevée",
+        "duration": "45–60 min",
+        "focus": "Endurance spécifique",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "id": "forme",
+    "icon": "❤️",
+    "nom": "Remise en forme",
+    "objectif": "Santé et régularité",
+    "days": [
+      {
+        "name": "FULL BODY ACCESSIBLE",
+        "subtitle": "Renfo global progressif",
+        "categories": [
+          "jambes",
+          "pectoraux",
+          "dos",
+          "core"
+        ],
+        "intensity": "Modérée",
+        "duration": "40–55 min",
+        "focus": "Base solide",
+        "count": 7
+      },
+      {
+        "name": "CARDIO MODÉRÉ",
+        "subtitle": "Cardio + mobilité",
+        "categories": [
+          "cardio_hiit",
+          "mobilite"
+        ],
+        "intensity": "Modérée",
+        "duration": "35–50 min",
+        "focus": "Condition physique",
+        "count": 7
+      },
+      {
+        "name": "MOBILITÉ + CORE",
+        "subtitle": "Prévention et posture",
+        "categories": [
+          "mobilite",
+          "core"
+        ],
+        "intensity": "Basse",
+        "duration": "30–45 min",
+        "focus": "Bien-être",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "crossfit",
+    "icon": "🚀",
+    "nom": "CrossTraining",
+    "objectif": "Metcon et performance",
+    "days": [
+      {
+        "name": "ENGINE",
+        "subtitle": "Cardio + metcon",
+        "categories": [
+          "cross_training",
+          "cardio_hiit"
+        ],
+        "intensity": "Élevée",
+        "duration": "40–60 min",
+        "focus": "Moteur",
+        "count": 8
+      },
+      {
+        "name": "SKILL FORCE",
+        "subtitle": "Technique + force",
+        "categories": [
+          "cross_training",
+          "jambes",
+          "posterieur"
+        ],
+        "intensity": "Élevée",
+        "duration": "55–70 min",
+        "focus": "Compétence",
+        "count": 8
+      },
+      {
+        "name": "CHIPPER",
+        "subtitle": "Long effort varié",
+        "categories": [
+          "cross_training",
+          "cardio_hiit",
+          "core"
+        ],
+        "intensity": "Très élevée",
+        "duration": "45–65 min",
+        "focus": "Mental",
+        "count": 9
+      }
+    ]
+  }
+]

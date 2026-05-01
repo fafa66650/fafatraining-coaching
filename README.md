@@ -1,13 +1,16 @@
-# FAFATRAINING V7.1 ELITE UI
+# FAFATRAINING V8 FINAL APP
 
-Version basée sur la dernière V7 SMART COACH, améliorée sans repartir de zéro.
+Version complète sport/musculation, inspirée ENRX + Nike/Freeletics.
 
-- UI inspirée logiciel sport moderne / ENRX / Nike Training
-- Logo FAFATRAINING intégré
-- Programme du jour premium
-- Semaine complète
-- Bibliothèque réelle et variée
-- Variantes débutant/intermédiaire/avancé
-- Smart Coach : programme, niveau, fatigue, matériel
-- XP, streak, score et stats
-- Compatible GitHub Pages
+Inclus :
+- UI premium avec logo FAFATRAINING
+- 200+ exercices structurés
+- variantes débutant/intermédiaire/avancé
+- profil adhérent complet
+- IMC/corpulence
+- blessures, traitement, travail, sommeil, stress
+- matériel et lieu d'entraînement
+- programmes complets selon objectif et jours disponibles
+- calcul charges estimées, RPE, repos, séries/reps
+- stats, historique, récupération, Smart Coach
+- compatible GitHub Pages
