@@ -1,0 +1,22 @@
+{
+  "version": "V11 ULTRA PRO",
+  "title": "FAFATRAINING COACHING",
+  "exercise_count": 409,
+  "pack_size_max": 95,
+  "exercise_packs": [
+    "data/exercises/exercises_pack_01.json",
+    "data/exercises/exercises_pack_02.json",
+    "data/exercises/exercises_pack_03.json",
+    "data/exercises/exercises_pack_04.json",
+    "data/exercises/exercises_pack_05.json"
+  ],
+  "image_packs": [
+    "assets/exercise-demos/pack_01",
+    "assets/exercise-demos/pack_02",
+    "assets/exercise-demos/pack_03",
+    "assets/exercise-demos/pack_04",
+    "assets/exercise-demos/pack_05"
+  ],
+  "visual_system": "realistic photo cards + light FAFATRAINING branding",
+  "engine": "smart coherent generator + live + cycles + filters"
+}
