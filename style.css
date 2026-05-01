@@ -1,126 +1,18 @@
 
-:root{
-  --bg:#050706;
-  --panel:#101412;
-  --panel2:#151b18;
-  --txt:#f3fff8;
-  --muted:#a7b8ad;
-  --green:#0aff8d;
-  --green2:#00c96d;
-  --orange:#ffb347;
-  --red:#ff5c5c;
-  --blue:#5cc8ff;
-  --radius:22px;
-  --shadow:0 16px 40px rgba(0,0,0,.35);
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(10,255,141,.18), transparent 38%),
-    radial-gradient(circle at bottom right, rgba(92,200,255,.12), transparent 34%),
-    var(--bg);
-  color:var(--txt);
-  min-height:100vh;
-}
-.app-shell{max-width:920px;margin:0 auto;padding-bottom:92px}
-.topbar{
-  position:sticky;top:0;z-index:10;
-  padding:14px 16px 10px;
-  display:flex;justify-content:space-between;gap:12px;align-items:center;
-  background:linear-gradient(180deg, rgba(5,7,6,.98), rgba(5,7,6,.78));
-  backdrop-filter:blur(14px);
-  border-bottom:1px solid rgba(255,255,255,.06);
-}
-.brand{display:flex;gap:12px;align-items:center}
-.brand-mark{
-  width:52px;height:52px;border-radius:50%;
-  background:linear-gradient(135deg,#0aff8d,#0b0b0b 65%);
-  display:grid;place-items:center;
-  font-weight:900;color:#021007;
-  box-shadow:0 0 26px rgba(10,255,141,.35);
-}
-h1{font-size:18px;margin:0;letter-spacing:.7px}
-.brand p{margin:2px 0 0;color:var(--muted);font-size:12px}
-.quick-stats{font-size:12px;color:var(--muted);text-align:right}
-.view{padding:18px 16px}
-.hero{
-  border-radius:28px;padding:22px;
-  background:linear-gradient(135deg, rgba(10,255,141,.2), rgba(255,255,255,.04));
-  box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.08);
-}
-.hero h2{font-size:30px;margin:0 0 8px}
-.hero p{color:var(--muted);line-height:1.4}
-.row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.card{
-  background:linear-gradient(180deg,var(--panel2),var(--panel));
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:var(--radius);
-  padding:16px;
-  margin-bottom:14px;
-  box-shadow:0 8px 24px rgba(0,0,0,.18);
-}
-.card h3,.card h2{margin:0 0 8px}
-.small{color:var(--muted);font-size:13px;line-height:1.35}
-.pill{
-  display:inline-flex;align-items:center;gap:6px;
-  padding:7px 10px;border-radius:999px;
-  background:rgba(10,255,141,.12);color:var(--green);
-  border:1px solid rgba(10,255,141,.22);font-size:12px;font-weight:700;
-  margin:3px 4px 3px 0;
-}
-.btn{
-  border:0;border-radius:16px;padding:14px 16px;
-  background:linear-gradient(135deg,var(--green),var(--green2));
-  color:#031109;font-weight:900;width:100%;
-  box-shadow:0 10px 24px rgba(10,255,141,.18);
-  margin-top:10px;
-}
-.btn.secondary{
-  background:rgba(255,255,255,.08);color:var(--txt);
-  box-shadow:none;border:1px solid rgba(255,255,255,.1)
-}
-.btn.danger{background:linear-gradient(135deg,#ff7676,#ff3e3e);color:#230000}
-select,input{
-  width:100%;padding:13px;border-radius:14px;
-  border:1px solid rgba(255,255,255,.1);
-  background:#0d110f;color:var(--txt);margin:7px 0 12px;
-}
-.exercise{
-  display:flex;gap:12px;align-items:flex-start;
-}
-.icon{
-  width:46px;height:46px;border-radius:16px;background:rgba(10,255,141,.12);
-  display:grid;place-items:center;font-size:22px;flex:0 0 auto;
-}
-.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-.meta span{font-size:11px;color:var(--muted);background:rgba(255,255,255,.06);border-radius:999px;padding:5px 8px}
-.progress{
-  height:12px;background:rgba(255,255,255,.08);border-radius:99px;overflow:hidden;
-}
-.progress div{height:100%;background:linear-gradient(90deg,var(--green),var(--blue));border-radius:99px}
-.warning{border-color:rgba(255,179,71,.35);background:rgba(255,179,71,.08)}
-.success{border-color:rgba(10,255,141,.35);background:rgba(10,255,141,.08)}
-.bottom-nav{
-  position:fixed;bottom:0;left:0;right:0;z-index:20;
-  max-width:920px;margin:0 auto;
-  display:grid;grid-template-columns:repeat(5,1fr);
-  background:rgba(8,10,9,.96);backdrop-filter:blur(16px);
-  border-top:1px solid rgba(255,255,255,.08);
-  padding:8px 8px calc(8px + env(safe-area-inset-bottom));
-}
-.bottom-nav button{
-  border:0;background:transparent;color:var(--muted);
-  padding:8px 4px;border-radius:14px;font-size:18px;
-}
-.bottom-nav button span{display:block;font-size:10px;margin-top:2px}
-.bottom-nav button.active{color:var(--green);background:rgba(10,255,141,.1)}
-.chart{
-  display:flex;align-items:end;gap:8px;height:150px;padding:12px;background:rgba(255,255,255,.04);border-radius:18px;
-}
-.bar{flex:1;background:linear-gradient(180deg,var(--green),var(--green2));border-radius:10px 10px 4px 4px;min-height:8px}
-@media(min-width:720px){
-  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-}
+:root{--bg:#050706;--panel:#0d1210;--txt:#f4fff8;--muted:#9fb0a7;--green:#45ff5f;--green2:#0fd65d;--line:rgba(255,255,255,.10);--radius:22px}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--txt);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:radial-gradient(circle at 70% 0%,rgba(69,255,95,.18),transparent 30%),linear-gradient(135deg,#020303,#0a0e0c 55%,#020303)}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background:url('assets/logo-fafatraining.jpeg') center/620px no-repeat}
+button,select,input{font:inherit}.app{position:relative;max-width:1180px;margin:0 auto;padding-bottom:92px}.topbar{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 18px;background:rgba(5,7,6,.85);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px}.brand img{width:58px;height:58px;object-fit:cover;border-radius:16px;box-shadow:0 0 24px rgba(69,255,95,.35)}.brand h1{margin:0;font-size:22px;letter-spacing:.8px}.brand span,.quick-stats{color:var(--muted);font-size:13px}.quick-stats{text-align:right}#view{padding:18px}
+.hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:28px;padding:26px;min-height:320px;background:linear-gradient(90deg,rgba(8,12,10,.97),rgba(8,12,10,.72),rgba(8,12,10,.96)),url('assets/logo-fafatraining.jpeg') right center/390px no-repeat;box-shadow:0 20px 60px rgba(0,0,0,.38)}
+.eyebrow{color:var(--green);font-weight:900;letter-spacing:2px;font-size:12px}.hero h2{font-size:58px;line-height:.9;margin:12px 0 16px;text-transform:uppercase;font-style:italic}.hero p{max-width:540px;color:#d8e7dd;font-size:17px;line-height:1.45}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{border:0;border-radius:18px;padding:15px 22px;background:linear-gradient(135deg,var(--green),var(--green2));color:#041007;font-weight:950;letter-spacing:.4px;box-shadow:0 12px 28px rgba(69,255,95,.22);cursor:pointer}.btn.secondary{background:rgba(255,255,255,.08);color:var(--txt);border:1px solid var(--line);box-shadow:none}
+.grid{display:grid;gap:14px}.grid2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{background:linear-gradient(180deg,rgba(20,27,23,.88),rgba(10,14,12,.88));border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:0 12px 28px rgba(0,0,0,.25);margin-bottom:14px}.card h2,.card h3{margin:0 0 8px}.small{color:var(--muted);font-size:13px;line-height:1.4}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:7px 11px;border-radius:999px;background:rgba(69,255,95,.12);border:1px solid rgba(69,255,95,.32);color:var(--green);font-size:12px;font-weight:900;margin:3px 4px 3px 0}.metric{display:flex;align-items:center;gap:12px}.metric strong{font-size:34px}.metric span{color:var(--muted);font-size:13px}
+.exercise{display:grid;grid-template-columns:52px 1fr auto;gap:14px;align-items:center;padding:14px;border-radius:18px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07);margin-bottom:10px}.ex-icon{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:rgba(69,255,95,.13);font-size:25px}.exercise h3{margin:0;font-size:17px}.tags span{font-size:11px;color:var(--muted);background:rgba(255,255,255,.07);padding:5px 8px;border-radius:999px;margin-right:4px}.check{width:30px;height:30px;border-radius:50%;border:1px solid rgba(255,255,255,.35);display:grid;place-items:center;color:var(--green)}.done .check{background:var(--green);color:#041007}
+.progress{height:10px;border-radius:99px;background:rgba(255,255,255,.09);overflow:hidden}.progress div{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--green),#a7ff5b)}.program-card{cursor:pointer;transition:.2s}.program-card:hover{transform:translateY(-2px);border-color:rgba(69,255,95,.38)}.week-row{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding:12px 0}.week-row:last-child{border-bottom:0}
+select,input[type=range]{width:100%;padding:13px;border-radius:14px;background:#090d0b;color:var(--txt);border:1px solid var(--line);margin:6px 0 14px}.checkgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.checkgrid label{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:14px;padding:10px;color:#dceae1}.chart{height:170px;display:flex;align-items:end;gap:8px;background:rgba(255,255,255,.035);border-radius:18px;padding:12px}.bar{flex:1;border-radius:12px 12px 4px 4px;background:linear-gradient(180deg,var(--green),var(--green2));min-height:8px}
+.sidebar{display:none}.bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:30;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(7,10,8,.96);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding:8px 8px calc(8px + env(safe-area-inset-bottom))}.bottom-nav button{border:0;background:transparent;color:var(--muted);padding:8px 4px;border-radius:16px;font-size:18px}.bottom-nav span{display:block;font-size:10px;margin-top:2px}.bottom-nav .active{color:var(--green);background:rgba(69,255,95,.11)}.start-btn{transform:translateY(-18px);background:linear-gradient(135deg,var(--green),#92ff5c)!important;color:#031007!important;border-radius:50%!important;height:62px;box-shadow:0 0 32px rgba(69,255,95,.4)}
+@media(min-width:1000px){.sidebar{position:fixed;left:10px;top:10px;bottom:10px;width:220px;display:flex;flex-direction:column;gap:10px;background:rgba(9,14,12,.85);border:1px solid var(--line);border-radius:24px;padding:14px;backdrop-filter:blur(18px)}.side-logo img{width:100%;border-radius:18px}.sidebar button{text-align:left;border:0;border-radius:16px;background:transparent;color:var(--txt);padding:13px;cursor:pointer}.sidebar button.active,.sidebar button:hover{background:rgba(69,255,95,.13);color:var(--green)}.coach-card{margin-top:auto;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:20px;padding:12px}.coach-card img{width:100%;border-radius:16px}.coach-card p{color:var(--muted);font-size:12px}.app{margin-left:250px;max-width:1280px}.bottom-nav{display:none}.topbar{border-radius:0 0 24px 24px}.hero h2{font-size:70px}}
+@media(max-width:720px){.grid2,.grid3,.grid4{grid-template-columns:1fr}.hero h2{font-size:42px}.hero{background:linear-gradient(180deg,rgba(8,12,10,.94),rgba(8,12,10,.82)),url('assets/logo-fafatraining.jpeg') center bottom/280px no-repeat;padding-bottom:230px}.exercise{grid-template-columns:48px 1fr}.check{display:none}}
