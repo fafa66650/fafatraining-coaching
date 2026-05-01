@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0aff8d" />
+  <title>FAFATRAINING SMART COACH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">FT</div>
+        <div>
+          <h1>FAFATRAINING</h1>
+          <p>Smart Coach</p>
+        </div>
+      </div>
+      <div id="quickStats" class="quick-stats"></div>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <nav class="bottom-nav">
+      <button data-route="home" onclick="go('home')">🏠<span>Accueil</span></button>
+      <button data-route="program" onclick="go('program')">📋<span>Prog.</span></button>
+      <button data-route="library" onclick="go('library')">📚<span>Exos</span></button>
+      <button data-route="stats" onclick="go('stats')">📊<span>Stats</span></button>
+      <button data-route="coach" onclick="go('coach')">🧠<span>Coach</span></button>
+    </nav>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

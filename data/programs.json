@@ -1,0 +1,297 @@
+[
+  {
+    "id": "masse_ppl",
+    "nom": "Masse musculaire - Push Pull Legs",
+    "objectif": "masse",
+    "niveau_min": "debutant",
+    "description": "Programme hypertrophie structuré, progressif et lisible.",
+    "jours": [
+      {
+        "nom": "Push",
+        "focus": [
+          "pectoraux",
+          "épaules",
+          "triceps"
+        ],
+        "categories": [
+          "haut_corps"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Pull",
+        "focus": [
+          "dos",
+          "biceps"
+        ],
+        "categories": [
+          "haut_corps"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Legs",
+        "focus": [
+          "quadriceps",
+          "fessiers",
+          "ischios"
+        ],
+        "categories": [
+          "bas_corps",
+          "core"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Upper pump",
+        "focus": [
+          "haut du corps"
+        ],
+        "categories": [
+          "haut_corps",
+          "core"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Lower + Core",
+        "focus": [
+          "jambes",
+          "gainage"
+        ],
+        "categories": [
+          "bas_corps",
+          "core"
+        ],
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "perte_hiit",
+    "nom": "Perte de poids - HIIT Renfo",
+    "objectif": "perte",
+    "description": "Séances rythmées avec renforcement, cardio et dépense énergétique.",
+    "jours": [
+      {
+        "nom": "Full body HIIT",
+        "categories": [
+          "cardio",
+          "bas_corps",
+          "haut_corps"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Cardio boxing",
+        "categories": [
+          "boxe",
+          "cardio",
+          "core"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Jambes dynamiques",
+        "categories": [
+          "bas_corps",
+          "cardio"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Circuit haut + core",
+        "categories": [
+          "haut_corps",
+          "core",
+          "cardio"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Metcon léger",
+        "categories": [
+          "crossfit",
+          "cardio",
+          "core"
+        ],
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "force_base",
+    "nom": "Force - Base solide",
+    "objectif": "force",
+    "description": "Progression sur mouvements fondamentaux avec repos plus long.",
+    "jours": [
+      {
+        "nom": "Force bas",
+        "categories": [
+          "bas_corps"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Force haut",
+        "categories": [
+          "haut_corps"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Core + prévention",
+        "categories": [
+          "core",
+          "mobilite"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Full body force",
+        "categories": [
+          "bas_corps",
+          "haut_corps"
+        ],
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "crossfit_engine",
+    "nom": "CrossTraining - Engine",
+    "objectif": "crossfit",
+    "description": "Mix cardio, haltères, kettlebell et efforts fonctionnels.",
+    "jours": [
+      {
+        "nom": "Engine cardio",
+        "categories": [
+          "cardio",
+          "crossfit"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Strength skill",
+        "categories": [
+          "bas_corps",
+          "haut_corps",
+          "crossfit"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Metcon",
+        "categories": [
+          "crossfit",
+          "cardio",
+          "core"
+        ],
+        "count": 7
+      },
+      {
+        "nom": "Grip + core",
+        "categories": [
+          "crossfit",
+          "core"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Chipper",
+        "categories": [
+          "crossfit",
+          "cardio",
+          "haut_corps",
+          "bas_corps"
+        ],
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "boxe_conditioning",
+    "nom": "Boxe / Cardio Boxing",
+    "objectif": "boxe",
+    "description": "Rounds, déplacements, cardio et gainage pour condition physique boxe.",
+    "jours": [
+      {
+        "nom": "Technique + cardio",
+        "categories": [
+          "boxe",
+          "cardio"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Renfo boxeur",
+        "categories": [
+          "haut_corps",
+          "core",
+          "cardio"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Appuis + vitesse",
+        "categories": [
+          "boxe",
+          "cardio",
+          "bas_corps"
+        ],
+        "count": 6
+      },
+      {
+        "nom": "Sac / shadow intense",
+        "categories": [
+          "boxe",
+          "cardio",
+          "core"
+        ],
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "forme_mobilite",
+    "nom": "Remise en forme + mobilité",
+    "objectif": "forme",
+    "description": "Programme accessible, complet et durable.",
+    "jours": [
+      {
+        "nom": "Full body doux",
+        "categories": [
+          "haut_corps",
+          "bas_corps",
+          "core"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Cardio modéré",
+        "categories": [
+          "cardio",
+          "core"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Mobilité + gainage",
+        "categories": [
+          "mobilite",
+          "stretching",
+          "core"
+        ],
+        "count": 5
+      },
+      {
+        "nom": "Renfo global",
+        "categories": [
+          "haut_corps",
+          "bas_corps"
+        ],
+        "count": 5
+      }
+    ]
+  }
+]

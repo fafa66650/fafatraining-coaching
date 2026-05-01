@@ -1,0 +1,3139 @@
+[
+  {
+    "id": "squat",
+    "nom": "Squat",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "materiel": [
+      "poids_corps",
+      "halteres",
+      "barre"
+    ],
+    "objectifs": [
+      "force",
+      "masse",
+      "perte",
+      "forme"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Garde le buste solide, genoux dans l’axe, descends sans arrondir le dos.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Squat poids du corps",
+        "reps": 12,
+        "series": 3,
+        "repos": "45s",
+        "tempo": "contrôlé"
+      },
+      "intermediaire": {
+        "nom": "Goblet squat",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s",
+        "tempo": "3-1-1"
+      },
+      "avance": {
+        "nom": "Back squat",
+        "reps": 6,
+        "series": 5,
+        "repos": "120s",
+        "tempo": "force"
+      }
+    }
+  },
+  {
+    "id": "front_squat",
+    "nom": "Front squat",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "gainage"
+    ],
+    "materiel": [
+      "barre"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Coudes hauts, tronc gainé, charge proche du centre.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Squat goblet léger",
+        "reps": 10,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Front squat technique",
+        "reps": 8,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Front squat lourd",
+        "reps": 5,
+        "series": 5,
+        "repos": "150s"
+      }
+    }
+  },
+  {
+    "id": "fentes",
+    "nom": "Fentes",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "materiel": [
+      "poids_corps",
+      "halteres"
+    ],
+    "objectifs": [
+      "perte",
+      "forme",
+      "masse"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Pose le pied stable, genou avant aligné, contrôle la descente.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Fentes arrière assistées",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Fentes marchées",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Fentes haltères lourdes",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "hip_thrust",
+    "nom": "Hip thrust",
+    "categorie": "bas_corps",
+    "muscles": [
+      "fessiers",
+      "ischios"
+    ],
+    "materiel": [
+      "poids_corps",
+      "barre",
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "force",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🍑",
+    "consignes": "Rentre le bassin en haut, ne cambre pas, pousse dans les talons.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Pont fessier au sol",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Hip thrust barre modéré",
+        "reps": 12,
+        "series": 4,
+        "repos": "75s"
+      },
+      "avance": {
+        "nom": "Hip thrust lourd",
+        "reps": 8,
+        "series": 5,
+        "repos": "120s"
+      }
+    }
+  },
+  {
+    "id": "deadlift",
+    "nom": "Soulevé de terre",
+    "categorie": "bas_corps",
+    "muscles": [
+      "ischios",
+      "dos",
+      "fessiers"
+    ],
+    "materiel": [
+      "barre",
+      "halteres"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Dos neutre, barre proche du corps, pousse le sol avec les jambes.",
+    "contre_indications": [
+      "douleur_lombaire"
+    ],
+    "variantes": {
+      "debutant": {
+        "nom": "Soulevé de terre haltères léger",
+        "reps": 10,
+        "series": 3,
+        "repos": "75s"
+      },
+      "intermediaire": {
+        "nom": "Deadlift technique",
+        "reps": 6,
+        "series": 4,
+        "repos": "120s"
+      },
+      "avance": {
+        "nom": "Deadlift lourd",
+        "reps": 4,
+        "series": 5,
+        "repos": "180s"
+      }
+    }
+  },
+  {
+    "id": "rdl",
+    "nom": "Romanian deadlift",
+    "categorie": "bas_corps",
+    "muscles": [
+      "ischios",
+      "fessiers"
+    ],
+    "materiel": [
+      "barre",
+      "halteres"
+    ],
+    "objectifs": [
+      "masse",
+      "force",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Hanches vers l’arrière, jambes semi-fléchies, étire les ischios.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "RDL haltères léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "RDL barre",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "RDL lourd contrôlé",
+        "reps": 8,
+        "series": 5,
+        "repos": "120s"
+      }
+    }
+  },
+  {
+    "id": "leg_press",
+    "nom": "Presse à cuisses",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "force"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Pieds stables, ne verrouille pas brutalement les genoux.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Presse légère amplitude contrôlée",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Presse progressive",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Presse lourde",
+        "reps": 8,
+        "series": 5,
+        "repos": "120s"
+      }
+    }
+  },
+  {
+    "id": "leg_extension",
+    "nom": "Leg extension",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "rehab",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Monte sans élan, bloque une seconde en haut.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Leg extension léger",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Leg extension contrôlé",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Leg extension intensif",
+        "reps": 10,
+        "series": 4,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "leg_curl",
+    "nom": "Leg curl",
+    "categorie": "bas_corps",
+    "muscles": [
+      "ischios"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Ramène les talons sans décoller le bassin.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Leg curl léger",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Leg curl modéré",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Leg curl lourd contrôlé",
+        "reps": 10,
+        "series": 4,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "mollets",
+    "nom": "Mollets debout",
+    "categorie": "bas_corps",
+    "muscles": [
+      "mollets"
+    ],
+    "materiel": [
+      "poids_corps",
+      "halteres",
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🦶",
+    "consignes": "Monte haut, redescends lentement, amplitude complète.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Mollets poids du corps",
+        "reps": 20,
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Mollets haltères",
+        "reps": 15,
+        "series": 4,
+        "repos": "45s"
+      },
+      "avance": {
+        "nom": "Mollets machine lourd",
+        "reps": 12,
+        "series": 5,
+        "repos": "60s"
+      }
+    }
+  },
+  {
+    "id": "pushup",
+    "nom": "Pompes",
+    "categorie": "haut_corps",
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "perte",
+      "forme",
+      "force"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Corps gainé, poitrine vers le sol, mains sous les épaules.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Pompes sur genoux",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Pompes classiques",
+        "reps": 15,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Pompes déclinées",
+        "reps": 20,
+        "series": 4,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "bench_press",
+    "nom": "Développé couché",
+    "categorie": "haut_corps",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "materiel": [
+      "barre",
+      "halteres"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Omoplates serrées, pieds au sol, contrôle la barre.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Développé haltères léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "75s"
+      },
+      "intermediaire": {
+        "nom": "Développé couché",
+        "reps": 8,
+        "series": 4,
+        "repos": "120s"
+      },
+      "avance": {
+        "nom": "Développé couché lourd",
+        "reps": 5,
+        "series": 5,
+        "repos": "180s"
+      }
+    }
+  },
+  {
+    "id": "incline_press",
+    "nom": "Développé incliné",
+    "categorie": "haut_corps",
+    "muscles": [
+      "pectoraux_haut",
+      "épaules"
+    ],
+    "materiel": [
+      "barre",
+      "halteres",
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "force"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Inclinaison modérée, trajectoire propre, pas d’élan.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Développé incliné haltères léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "75s"
+      },
+      "intermediaire": {
+        "nom": "Développé incliné haltères",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Développé incliné lourd",
+        "reps": 6,
+        "series": 5,
+        "repos": "150s"
+      }
+    }
+  },
+  {
+    "id": "dips",
+    "nom": "Dips",
+    "categorie": "haut_corps",
+    "muscles": [
+      "triceps",
+      "pectoraux"
+    ],
+    "materiel": [
+      "poids_corps",
+      "barres"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Épaules basses, descente contrôlée, pousse fort en haut.",
+    "contre_indications": [
+      "douleur_epaule"
+    ],
+    "variantes": {
+      "debutant": {
+        "nom": "Dips assistés",
+        "reps": 8,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Dips stricts",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Dips lestés",
+        "reps": 6,
+        "series": 5,
+        "repos": "150s"
+      }
+    }
+  },
+  {
+    "id": "shoulder_press",
+    "nom": "Développé épaules",
+    "categorie": "haut_corps",
+    "muscles": [
+      "épaules",
+      "triceps"
+    ],
+    "materiel": [
+      "halteres",
+      "barre",
+      "machine"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Gainage solide, trajectoire verticale, ne cambre pas.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Développé épaules haltères léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Développé militaire",
+        "reps": 8,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Développé militaire lourd",
+        "reps": 5,
+        "series": 5,
+        "repos": "150s"
+      }
+    }
+  },
+  {
+    "id": "lateral_raise",
+    "nom": "Élévations latérales",
+    "categorie": "haut_corps",
+    "muscles": [
+      "épaules"
+    ],
+    "materiel": [
+      "halteres",
+      "poulie"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Coudes légèrement fléchis, monte à hauteur d’épaule.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Élévations légères",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Élévations contrôlées",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Élévations tempo lent",
+        "reps": 12,
+        "series": 5,
+        "repos": "60s"
+      }
+    }
+  },
+  {
+    "id": "pullup",
+    "nom": "Tractions",
+    "categorie": "haut_corps",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "materiel": [
+      "barre_traction",
+      "machine"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Tire la poitrine vers la barre, épaules basses, contrôle.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Tractions assistées",
+        "reps": 8,
+        "series": 3,
+        "repos": "75s"
+      },
+      "intermediaire": {
+        "nom": "Tractions strictes",
+        "reps": 8,
+        "series": 4,
+        "repos": "120s"
+      },
+      "avance": {
+        "nom": "Tractions lestées",
+        "reps": 5,
+        "series": 5,
+        "repos": "180s"
+      }
+    }
+  },
+  {
+    "id": "lat_pulldown",
+    "nom": "Tirage vertical",
+    "categorie": "haut_corps",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Tire vers le haut de la poitrine, ne balance pas le buste.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Tirage vertical léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Tirage vertical",
+        "reps": 10,
+        "series": 4,
+        "repos": "75s"
+      },
+      "avance": {
+        "nom": "Tirage vertical lourd",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "rowing",
+    "nom": "Rowing",
+    "categorie": "haut_corps",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "materiel": [
+      "barre",
+      "halteres",
+      "machine"
+    ],
+    "objectifs": [
+      "force",
+      "masse"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Tire les coudes vers l’arrière, dos neutre.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Rowing haltères léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Rowing barre",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Rowing lourd",
+        "reps": 6,
+        "series": 5,
+        "repos": "150s"
+      }
+    }
+  },
+  {
+    "id": "facepull",
+    "nom": "Face pull",
+    "categorie": "haut_corps",
+    "muscles": [
+      "arrière_epaule",
+      "haut_dos"
+    ],
+    "materiel": [
+      "poulie",
+      "elastique"
+    ],
+    "objectifs": [
+      "forme",
+      "prevention"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Tire vers le visage, coudes hauts, omoplates serrées.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Face pull élastique",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Face pull poulie",
+        "reps": 15,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Face pull tempo lent",
+        "reps": 12,
+        "series": 5,
+        "repos": "60s"
+      }
+    }
+  },
+  {
+    "id": "curl",
+    "nom": "Curl biceps",
+    "categorie": "haut_corps",
+    "muscles": [
+      "biceps"
+    ],
+    "materiel": [
+      "halteres",
+      "barre",
+      "poulie"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Coudes fixes, pas d’élan, descente lente.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Curl haltères alterné",
+        "reps": 12,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Curl barre EZ",
+        "reps": 10,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Curl lourd contrôlé",
+        "reps": 8,
+        "series": 5,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "triceps_pushdown",
+    "nom": "Extension triceps poulie",
+    "categorie": "haut_corps",
+    "muscles": [
+      "triceps"
+    ],
+    "materiel": [
+      "poulie",
+      "elastique"
+    ],
+    "objectifs": [
+      "masse",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Coudes collés au corps, verrouille sans élan.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Extension élastique",
+        "reps": 15,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Pushdown poulie",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Pushdown lourd",
+        "reps": 10,
+        "series": 5,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "plank",
+    "nom": "Gainage",
+    "categorie": "core",
+    "muscles": [
+      "abdos",
+      "transverse"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "perte",
+      "prevention"
+    ],
+    "formats": [
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Bassin neutre, respire, ne creuse pas le bas du dos.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Gainage genoux",
+        "temps": "20s",
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Gainage classique",
+        "temps": "40s",
+        "series": 4,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Gainage lesté ou long",
+        "temps": "60s",
+        "series": 5,
+        "repos": "45s"
+      }
+    }
+  },
+  {
+    "id": "side_plank",
+    "nom": "Gainage latéral",
+    "categorie": "core",
+    "muscles": [
+      "obliques",
+      "transverse"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "prevention"
+    ],
+    "formats": [
+      "temps"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Corps aligné, hanche haute, épaule stable.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Gainage latéral genoux",
+        "temps": "20s/côté",
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Gainage latéral",
+        "temps": "35s/côté",
+        "series": 4,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Gainage latéral dynamique",
+        "temps": "50s/côté",
+        "series": 4,
+        "repos": "45s"
+      }
+    }
+  },
+  {
+    "id": "deadbug",
+    "nom": "Dead bug",
+    "categorie": "core",
+    "muscles": [
+      "abdos",
+      "coordination"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "prevention",
+      "forme"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "🧠",
+    "consignes": "Bas du dos plaqué, mouvement lent et précis.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Dead bug lent",
+        "reps": 8,
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Dead bug complet",
+        "reps": 10,
+        "series": 4,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Dead bug avec charge légère",
+        "reps": 12,
+        "series": 4,
+        "repos": "45s"
+      }
+    }
+  },
+  {
+    "id": "hollow",
+    "nom": "Hollow hold",
+    "categorie": "core",
+    "muscles": [
+      "abdos"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "force",
+      "forme"
+    ],
+    "formats": [
+      "temps"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Rentre les côtes, bas du dos au sol.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Hollow tuck",
+        "temps": "15s",
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Hollow hold",
+        "temps": "25s",
+        "series": 4,
+        "repos": "45s"
+      },
+      "avance": {
+        "nom": "Hollow rocks",
+        "temps": "35s",
+        "series": 4,
+        "repos": "45s"
+      }
+    }
+  },
+  {
+    "id": "russian_twist",
+    "nom": "Russian twist",
+    "categorie": "core",
+    "muscles": [
+      "obliques"
+    ],
+    "materiel": [
+      "poids_corps",
+      "medecine_ball",
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "perte"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Tourne le buste, pas seulement les bras.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Twist pieds au sol",
+        "reps": 16,
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Russian twist lesté",
+        "reps": 20,
+        "series": 4,
+        "repos": "45s"
+      },
+      "avance": {
+        "nom": "Russian twist lourd contrôlé",
+        "reps": 24,
+        "series": 4,
+        "repos": "45s"
+      }
+    }
+  },
+  {
+    "id": "jumping_jacks",
+    "nom": "Jumping jacks",
+    "categorie": "cardio",
+    "muscles": [
+      "cardio",
+      "jambes"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "perte",
+      "forme",
+      "cardio"
+    ],
+    "formats": [
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Rythme régulier, réception légère.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Jumping jacks doux",
+        "temps": "30s",
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Jumping jacks rapides",
+        "temps": "45s",
+        "series": 4,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Jumping jacks explosifs",
+        "temps": "60s",
+        "series": 5,
+        "repos": "30s"
+      }
+    }
+  },
+  {
+    "id": "burpee",
+    "nom": "Burpee",
+    "categorie": "cardio",
+    "muscles": [
+      "full_body",
+      "cardio"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "perte",
+      "cardio",
+      "crossfit"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Reste gainé, réception souple, dose ton rythme.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Burpee sans pompe",
+        "reps": 8,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Burpee complet",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Burpee explosif",
+        "reps": 15,
+        "series": 5,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "mountain_climber",
+    "nom": "Mountain climbers",
+    "categorie": "cardio",
+    "muscles": [
+      "abdos",
+      "cardio"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "perte",
+      "cardio",
+      "forme"
+    ],
+    "formats": [
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Épaules au-dessus des mains, bassin stable.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Mountain climbers lents",
+        "temps": "30s",
+        "series": 3,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Mountain climbers rapides",
+        "temps": "45s",
+        "series": 4,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Cross mountain climbers",
+        "temps": "60s",
+        "series": 5,
+        "repos": "30s"
+      }
+    }
+  },
+  {
+    "id": "box_jump",
+    "nom": "Box jump",
+    "categorie": "crossfit",
+    "muscles": [
+      "jambes",
+      "explosivité"
+    ],
+    "materiel": [
+      "box_crossfit"
+    ],
+    "objectifs": [
+      "crossfit",
+      "cardio",
+      "force"
+    ],
+    "formats": [
+      "series_reps"
+    ],
+    "imageIcon": "📦",
+    "consignes": "Atterris souple, descends contrôlé, sécurité avant hauteur.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Step-up box",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Box jump",
+        "reps": 8,
+        "series": 4,
+        "repos": "75s"
+      },
+      "avance": {
+        "nom": "Box jump haut",
+        "reps": 6,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "kettlebell_swing",
+    "nom": "Kettlebell swing",
+    "categorie": "crossfit",
+    "muscles": [
+      "ischios",
+      "fessiers",
+      "cardio"
+    ],
+    "materiel": [
+      "kettlebell"
+    ],
+    "objectifs": [
+      "crossfit",
+      "perte",
+      "cardio"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🔔",
+    "consignes": "Hinge de hanche, pas un squat, bras relâchés.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Swing léger technique",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Kettlebell swing",
+        "reps": 20,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Swing lourd",
+        "reps": 25,
+        "series": 5,
+        "repos": "75s"
+      }
+    }
+  },
+  {
+    "id": "thruster",
+    "nom": "Thruster",
+    "categorie": "crossfit",
+    "muscles": [
+      "full_body",
+      "épaules",
+      "jambes"
+    ],
+    "materiel": [
+      "halteres",
+      "barre"
+    ],
+    "objectifs": [
+      "crossfit",
+      "cardio",
+      "force"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🚀",
+    "consignes": "Squat propre puis poussée verticale fluide.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Thruster haltères légers",
+        "reps": 8,
+        "series": 3,
+        "repos": "75s"
+      },
+      "intermediaire": {
+        "nom": "Thruster barre",
+        "reps": 10,
+        "series": 4,
+        "repos": "90s"
+      },
+      "avance": {
+        "nom": "Thruster lourd",
+        "reps": 6,
+        "series": 5,
+        "repos": "120s"
+      }
+    }
+  },
+  {
+    "id": "wall_ball",
+    "nom": "Wall ball",
+    "categorie": "crossfit",
+    "muscles": [
+      "jambes",
+      "épaules",
+      "cardio"
+    ],
+    "materiel": [
+      "medecine_ball"
+    ],
+    "objectifs": [
+      "crossfit",
+      "cardio"
+    ],
+    "formats": [
+      "series_reps",
+      "circuit"
+    ],
+    "imageIcon": "🏀",
+    "consignes": "Descends propre, lance en extension complète.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Wall ball léger",
+        "reps": 12,
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Wall ball",
+        "reps": 20,
+        "series": 4,
+        "repos": "75s"
+      },
+      "avance": {
+        "nom": "Wall ball intensif",
+        "reps": 30,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "shadow_boxing",
+    "nom": "Shadow boxing",
+    "categorie": "boxe",
+    "muscles": [
+      "cardio",
+      "coordination"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "boxe",
+      "cardio",
+      "perte"
+    ],
+    "formats": [
+      "temps",
+      "round"
+    ],
+    "imageIcon": "🥊",
+    "consignes": "Garde les mains hautes, respire, bouge les appuis.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Shadow jab-cross",
+        "temps": "2 min",
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Shadow 1-2 esquive",
+        "temps": "3 min",
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Shadow combos + déplacements",
+        "temps": "3 min",
+        "series": 5,
+        "repos": "60s"
+      }
+    }
+  },
+  {
+    "id": "corde",
+    "nom": "Corde à sauter",
+    "categorie": "cardio",
+    "muscles": [
+      "mollets",
+      "cardio"
+    ],
+    "materiel": [
+      "corde"
+    ],
+    "objectifs": [
+      "cardio",
+      "perte",
+      "boxe"
+    ],
+    "formats": [
+      "temps",
+      "round"
+    ],
+    "imageIcon": "🪢",
+    "consignes": "Reste léger, poignets actifs, épaules relâchées.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Corde rythme simple",
+        "temps": "45s",
+        "series": 4,
+        "repos": "30s"
+      },
+      "intermediaire": {
+        "nom": "Corde alternée",
+        "temps": "1 min",
+        "series": 5,
+        "repos": "30s"
+      },
+      "avance": {
+        "nom": "Double unders / vitesse",
+        "temps": "1 min",
+        "series": 6,
+        "repos": "30s"
+      }
+    }
+  },
+  {
+    "id": "sac_boxe",
+    "nom": "Travail au sac",
+    "categorie": "boxe",
+    "muscles": [
+      "cardio",
+      "haut_corps"
+    ],
+    "materiel": [
+      "sac_boxe",
+      "gants"
+    ],
+    "objectifs": [
+      "boxe",
+      "cardio"
+    ],
+    "formats": [
+      "round"
+    ],
+    "imageIcon": "🥊",
+    "consignes": "Technique avant puissance, garde la distance, mains hautes.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Rounds jab-cross",
+        "temps": "2 min",
+        "series": 3,
+        "repos": "60s"
+      },
+      "intermediaire": {
+        "nom": "Rounds combos simples",
+        "temps": "3 min",
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Rounds intensifs puissance/vitesse",
+        "temps": "3 min",
+        "series": 6,
+        "repos": "60s"
+      }
+    }
+  },
+  {
+    "id": "mobility_hips",
+    "nom": "Mobilité hanches",
+    "categorie": "mobilite",
+    "muscles": [
+      "hanches"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "mobilite",
+      "prevention",
+      "forme"
+    ],
+    "formats": [
+      "temps"
+    ],
+    "imageIcon": "🧘",
+    "consignes": "Respire lentement, amplitude progressive.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Ouverture hanches douce",
+        "temps": "45s",
+        "series": 2,
+        "repos": "15s"
+      },
+      "intermediaire": {
+        "nom": "Flow hanches",
+        "temps": "60s",
+        "series": 3,
+        "repos": "15s"
+      },
+      "avance": {
+        "nom": "Flow hanches avancé",
+        "temps": "90s",
+        "series": 3,
+        "repos": "20s"
+      }
+    }
+  },
+  {
+    "id": "mobility_shoulders",
+    "nom": "Mobilité épaules",
+    "categorie": "mobilite",
+    "muscles": [
+      "épaules"
+    ],
+    "materiel": [
+      "poids_corps",
+      "elastique"
+    ],
+    "objectifs": [
+      "mobilite",
+      "prevention"
+    ],
+    "formats": [
+      "temps"
+    ],
+    "imageIcon": "🧘",
+    "consignes": "Amplitude douce, aucune douleur articulaire.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Cercles épaules + élastique",
+        "temps": "45s",
+        "series": 2,
+        "repos": "15s"
+      },
+      "intermediaire": {
+        "nom": "Pass through élastique",
+        "temps": "60s",
+        "series": 3,
+        "repos": "15s"
+      },
+      "avance": {
+        "nom": "Flow épaules complet",
+        "temps": "90s",
+        "series": 3,
+        "repos": "20s"
+      }
+    }
+  },
+  {
+    "id": "stretch_ischios",
+    "nom": "Étirement ischios",
+    "categorie": "stretching",
+    "muscles": [
+      "ischios"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "stretching",
+      "recuperation"
+    ],
+    "formats": [
+      "temps"
+    ],
+    "imageIcon": "🧘",
+    "consignes": "Étire sans forcer, bassin placé, respiration calme.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Étirement ischios léger",
+        "temps": "30s/côté",
+        "series": 2,
+        "repos": "10s"
+      },
+      "intermediaire": {
+        "nom": "Étirement ischios actif",
+        "temps": "45s/côté",
+        "series": 2,
+        "repos": "10s"
+      },
+      "avance": {
+        "nom": "PNF ischios contrôlé",
+        "temps": "60s/côté",
+        "series": 2,
+        "repos": "15s"
+      }
+    }
+  },
+  {
+    "id": "hack_squat",
+    "nom": "Hack squat",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Hack squat facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Hack squat standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Hack squat avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "split_squat",
+    "nom": "Bulgarian split squat",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "materiel": [
+      "poids_corps",
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🦵",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Bulgarian split squat facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Bulgarian split squat standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Bulgarian split squat avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "step_up",
+    "nom": "Step-up",
+    "categorie": "bas_corps",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "materiel": [
+      "poids_corps",
+      "halteres",
+      "box_crossfit"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "📦",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Step-up facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Step-up standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Step-up avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "glute_kickback",
+    "nom": "Kickback fessier",
+    "categorie": "bas_corps",
+    "muscles": [
+      "fessiers"
+    ],
+    "materiel": [
+      "machine",
+      "elastique"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🍑",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Kickback fessier facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Kickback fessier standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Kickback fessier avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "pec_fly",
+    "nom": "Écarté pectoraux",
+    "categorie": "haut_corps",
+    "muscles": [
+      "pectoraux"
+    ],
+    "materiel": [
+      "halteres",
+      "machine",
+      "poulie"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Écarté pectoraux facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Écarté pectoraux standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Écarté pectoraux avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "machine_chest_press",
+    "nom": "Chest press machine",
+    "categorie": "haut_corps",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "materiel": [
+      "machine"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Chest press machine facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Chest press machine standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Chest press machine avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "seated_row",
+    "nom": "Rowing assis",
+    "categorie": "haut_corps",
+    "muscles": [
+      "dos"
+    ],
+    "materiel": [
+      "machine",
+      "poulie"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Rowing assis facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Rowing assis standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Rowing assis avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "pullover",
+    "nom": "Pullover",
+    "categorie": "haut_corps",
+    "muscles": [
+      "dos",
+      "pectoraux"
+    ],
+    "materiel": [
+      "halteres",
+      "poulie"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🪽",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Pullover facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Pullover standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Pullover avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "arnold_press",
+    "nom": "Arnold press",
+    "categorie": "haut_corps",
+    "muscles": [
+      "épaules"
+    ],
+    "materiel": [
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Arnold press facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Arnold press standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Arnold press avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "rear_delt_fly",
+    "nom": "Oiseau épaules",
+    "categorie": "haut_corps",
+    "muscles": [
+      "arrière_epaule"
+    ],
+    "materiel": [
+      "halteres",
+      "machine"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Oiseau épaules facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Oiseau épaules standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Oiseau épaules avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "hammer_curl",
+    "nom": "Curl marteau",
+    "categorie": "haut_corps",
+    "muscles": [
+      "biceps",
+      "avant_bras"
+    ],
+    "materiel": [
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Curl marteau facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Curl marteau standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Curl marteau avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "skullcrusher",
+    "nom": "Barre front",
+    "categorie": "haut_corps",
+    "muscles": [
+      "triceps"
+    ],
+    "materiel": [
+      "barre",
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "💪",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Barre front facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Barre front standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Barre front avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "ab_wheel",
+    "nom": "Roue abdominale",
+    "categorie": "core",
+    "muscles": [
+      "abdos"
+    ],
+    "materiel": [
+      "ab_wheel"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Roue abdominale facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Roue abdominale standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Roue abdominale avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "reverse_crunch",
+    "nom": "Crunch inversé",
+    "categorie": "core",
+    "muscles": [
+      "abdos"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Crunch inversé facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Crunch inversé standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Crunch inversé avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "bicycle_crunch",
+    "nom": "Bicycle crunch",
+    "categorie": "core",
+    "muscles": [
+      "abdos",
+      "obliques"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🧱",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Bicycle crunch facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Bicycle crunch standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Bicycle crunch avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "assault_bike",
+    "nom": "Assault bike",
+    "categorie": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "materiel": [
+      "cardio"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Assault bike facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Assault bike standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Assault bike avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "rameur",
+    "nom": "Rameur",
+    "categorie": "cardio",
+    "muscles": [
+      "cardio",
+      "dos",
+      "jambes"
+    ],
+    "materiel": [
+      "cardio"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Rameur facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Rameur standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Rameur avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "tapis_course",
+    "nom": "Tapis course",
+    "categorie": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "materiel": [
+      "cardio"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🏃",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Tapis course facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Tapis course standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Tapis course avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "battle_rope",
+    "nom": "Battle rope",
+    "categorie": "crossfit",
+    "muscles": [
+      "cardio",
+      "épaules"
+    ],
+    "materiel": [
+      "battle_rope"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🌊",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Battle rope facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Battle rope standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Battle rope avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "farmer_walk",
+    "nom": "Farmer walk",
+    "categorie": "crossfit",
+    "muscles": [
+      "grip",
+      "gainage"
+    ],
+    "materiel": [
+      "halteres",
+      "kettlebell"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🚶",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Farmer walk facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Farmer walk standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Farmer walk avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "clean_halteres",
+    "nom": "Clean haltères",
+    "categorie": "crossfit",
+    "muscles": [
+      "full_body"
+    ],
+    "materiel": [
+      "halteres"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🏋️",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Clean haltères facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Clean haltères standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Clean haltères avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "snatch_kb",
+    "nom": "Snatch kettlebell",
+    "categorie": "crossfit",
+    "muscles": [
+      "full_body"
+    ],
+    "materiel": [
+      "kettlebell"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔔",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Snatch kettlebell facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Snatch kettlebell standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Snatch kettlebell avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "sprawl",
+    "nom": "Sprawl",
+    "categorie": "cardio",
+    "muscles": [
+      "full_body"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Sprawl facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Sprawl standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Sprawl avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "high_knees",
+    "nom": "Montées de genoux",
+    "categorie": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🔥",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Montées de genoux facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Montées de genoux standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Montées de genoux avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "skater_jump",
+    "nom": "Skater jump",
+    "categorie": "cardio",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "⛸️",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Skater jump facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Skater jump standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Skater jump avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "combo_boxe_1",
+    "nom": "Combo boxe 1-2-3",
+    "categorie": "boxe",
+    "muscles": [
+      "cardio",
+      "coordination"
+    ],
+    "materiel": [
+      "poids_corps",
+      "gants"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🥊",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Combo boxe 1-2-3 facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Combo boxe 1-2-3 standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Combo boxe 1-2-3 avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "esquives",
+    "nom": "Esquives boxe",
+    "categorie": "boxe",
+    "muscles": [
+      "jambes",
+      "coordination"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🥊",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Esquives boxe facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Esquives boxe standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Esquives boxe avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  },
+  {
+    "id": "deplacements_boxe",
+    "nom": "Déplacements boxe",
+    "categorie": "boxe",
+    "muscles": [
+      "coordination",
+      "cardio"
+    ],
+    "materiel": [
+      "poids_corps"
+    ],
+    "objectifs": [
+      "forme",
+      "masse",
+      "perte",
+      "force",
+      "cardio",
+      "crossfit",
+      "boxe",
+      "mobilite"
+    ],
+    "formats": [
+      "series_reps",
+      "temps",
+      "circuit"
+    ],
+    "imageIcon": "🥊",
+    "consignes": "Exécution propre, contrôle, respiration et adaptation selon fatigue.",
+    "contre_indications": [],
+    "variantes": {
+      "debutant": {
+        "nom": "Déplacements boxe facile",
+        "reps": 10,
+        "series": 3,
+        "repos": "45s"
+      },
+      "intermediaire": {
+        "nom": "Déplacements boxe standard",
+        "reps": 12,
+        "series": 4,
+        "repos": "60s"
+      },
+      "avance": {
+        "nom": "Déplacements boxe avancé",
+        "reps": 8,
+        "series": 5,
+        "repos": "90s"
+      }
+    }
+  }
+]
