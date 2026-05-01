@@ -1,0 +1,704 @@
+[
+  {
+    "id": "perte_poids",
+    "icon": "🔥",
+    "nom": "Perte de poids",
+    "desc": "Dépense énergétique, HIIT, cardio et renforcement",
+    "days": [
+      {
+        "name": "HIIT BURN",
+        "subtitle": "HIIT / full body / cardio",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "HIIT / full body / cardio",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "CARDIO BOXING",
+        "subtitle": "boxe + dépense",
+        "smartCategory": "boxe",
+        "duration": "35–75 min",
+        "focus": "boxe + dépense",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "LOWER BURN",
+        "subtitle": "cuisses abdos fessiers",
+        "smartCategory": "caf",
+        "duration": "35–75 min",
+        "focus": "cuisses abdos fessiers",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "METCON",
+        "subtitle": "AMRAP / EMOM",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "AMRAP / EMOM",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "prise_masse",
+    "icon": "💪",
+    "nom": "Prise de masse",
+    "desc": "Hypertrophie, volume, progressions de charge",
+    "days": [
+      {
+        "name": "PUSH",
+        "subtitle": "pectoraux épaules triceps",
+        "smartCategory": "haut_corps",
+        "duration": "35–75 min",
+        "focus": "pectoraux épaules triceps",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "PULL",
+        "subtitle": "dos biceps",
+        "smartCategory": "haut_corps",
+        "duration": "35–75 min",
+        "focus": "dos biceps",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "LEGS",
+        "subtitle": "jambes fessiers",
+        "smartCategory": "bas_corps",
+        "duration": "35–75 min",
+        "focus": "jambes fessiers",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "UPPER",
+        "subtitle": "haut du corps complet",
+        "smartCategory": "haut_corps",
+        "duration": "35–75 min",
+        "focus": "haut du corps complet",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "LOWER",
+        "subtitle": "bas du corps complet",
+        "smartCategory": "bas_corps",
+        "duration": "35–75 min",
+        "focus": "bas du corps complet",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "remise_forme",
+    "icon": "⚖️",
+    "nom": "Remise en forme",
+    "desc": "Santé, reprise, régularité et mobilité",
+    "days": [
+      {
+        "name": "FULL BODY BASE",
+        "subtitle": "renforcement complet",
+        "smartCategory": "full_body",
+        "duration": "35–75 min",
+        "focus": "renforcement complet",
+        "count": 7,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "CARDIO DOUX",
+        "subtitle": "souffle + régularité",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "souffle + régularité",
+        "count": 7,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "MOBILITÉ",
+        "subtitle": "prévention + posture",
+        "smartCategory": "mobilite_prevention",
+        "duration": "35–75 min",
+        "focus": "prévention + posture",
+        "count": 7,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "performance",
+    "icon": "🥊",
+    "nom": "Performance",
+    "desc": "Boxe, Hyrox, CrossTraining, puissance et cardio",
+    "days": [
+      {
+        "name": "BOXE PERFORMANCE",
+        "subtitle": "sac + appuis",
+        "smartCategory": "boxe",
+        "duration": "35–75 min",
+        "focus": "sac + appuis",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "HYROX ENGINE",
+        "subtitle": "course + ateliers",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "course + ateliers",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "FORCE ATHLÈTE",
+        "subtitle": "force utile",
+        "smartCategory": "full_body",
+        "duration": "35–75 min",
+        "focus": "force utile",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "crossfit",
+    "icon": "🚀",
+    "nom": "CrossFit / CrossTraining",
+    "desc": "WOD, AMRAP, EMOM, For Time, Metcon",
+    "days": [
+      {
+        "name": "WOD AMRAP",
+        "subtitle": "maximum de tours",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "maximum de tours",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "EMOM FORCE",
+        "subtitle": "chaque minute",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "chaque minute",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "FOR TIME",
+        "subtitle": "objectif chrono",
+        "smartCategory": "full_body",
+        "duration": "35–75 min",
+        "focus": "objectif chrono",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "hyrox",
+    "icon": "🏃",
+    "nom": "Hyrox",
+    "desc": "Course + ateliers, endurance force",
+    "days": [
+      {
+        "name": "ENGINE",
+        "subtitle": "course + ergos",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "course + ergos",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "ATELIERS",
+        "subtitle": "sled wall ball carry",
+        "smartCategory": "full_body",
+        "duration": "35–75 min",
+        "focus": "sled wall ball carry",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "SIMULATION",
+        "subtitle": "enchaînement complet",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "enchaînement complet",
+        "count": 9,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "hiit",
+    "icon": "⚡",
+    "nom": "HIIT / AMRAP / EMOM",
+    "desc": "Séances rapides, intenses et chronométrées",
+    "days": [
+      {
+        "name": "TABATA",
+        "subtitle": "20/10 explosif",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "20/10 explosif",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "AMRAP 20",
+        "subtitle": "tours max",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "tours max",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "EMOM 24",
+        "subtitle": "rythme minute",
+        "smartCategory": "hiit",
+        "duration": "35–75 min",
+        "focus": "rythme minute",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "boxe",
+    "icon": "🥊",
+    "nom": "Boxe / Cardio Boxing",
+    "desc": "Technique, sac, appuis, conditioning",
+    "days": [
+      {
+        "name": "TECHNIQUE",
+        "subtitle": "shadow + appuis",
+        "smartCategory": "boxe",
+        "duration": "35–75 min",
+        "focus": "shadow + appuis",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "SAC PUISSANCE",
+        "subtitle": "rounds lourds",
+        "smartCategory": "boxe",
+        "duration": "35–75 min",
+        "focus": "rounds lourds",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "CARDIO BOXING",
+        "subtitle": "souffle + coordination",
+        "smartCategory": "boxe",
+        "duration": "35–75 min",
+        "focus": "souffle + coordination",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "trail",
+    "icon": "⛰️",
+    "nom": "Trail / Outdoor",
+    "desc": "Dénivelé, endurance, proprioception",
+    "days": [
+      {
+        "name": "CÔTES",
+        "subtitle": "puissance dénivelé",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "puissance dénivelé",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "ENDURANCE",
+        "subtitle": "sortie fondamentale",
+        "smartCategory": "cardio",
+        "duration": "35–75 min",
+        "focus": "sortie fondamentale",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "RENFO TRAIL",
+        "subtitle": "cheville gainage",
+        "smartCategory": "bas_corps",
+        "duration": "35–75 min",
+        "focus": "cheville gainage",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "stretching",
+    "icon": "🧘",
+    "nom": "Stretching / Mobilité",
+    "desc": "Souplesse, prévention et récupération",
+    "days": [
+      {
+        "name": "MOBILITÉ GLOBALE",
+        "subtitle": "hanches épaules dos",
+        "smartCategory": "mobilite_prevention",
+        "duration": "35–75 min",
+        "focus": "hanches épaules dos",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "STRETCHING FLOW",
+        "subtitle": "souplesse complète",
+        "smartCategory": "stretching",
+        "duration": "35–75 min",
+        "focus": "souplesse complète",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "RÉCUPÉRATION",
+        "subtitle": "respiration et relâchement",
+        "smartCategory": "mobilite_prevention",
+        "duration": "35–75 min",
+        "focus": "respiration et relâchement",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "caf",
+    "icon": "🍑",
+    "nom": "Cuisses Abdos Fessiers",
+    "desc": "Bas du corps, gainage, fessiers",
+    "days": [
+      {
+        "name": "CUISSES",
+        "subtitle": "jambes dynamiques",
+        "smartCategory": "bas_corps",
+        "duration": "35–75 min",
+        "focus": "jambes dynamiques",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "ABDOS",
+        "subtitle": "core / gainage",
+        "smartCategory": "abdos",
+        "duration": "35–75 min",
+        "focus": "core / gainage",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "FESSIERS",
+        "subtitle": "glutes focus",
+        "smartCategory": "caf",
+        "duration": "35–75 min",
+        "focus": "glutes focus",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  },
+  {
+    "id": "abdos",
+    "icon": "🧱",
+    "nom": "Abdos / Core",
+    "desc": "Gainage, anti-rotation, stabilité",
+    "days": [
+      {
+        "name": "CORE STABILITY",
+        "subtitle": "gainage profond",
+        "smartCategory": "abdos",
+        "duration": "35–75 min",
+        "focus": "gainage profond",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "ABDOS BURN",
+        "subtitle": "circuit abdos",
+        "smartCategory": "abdos",
+        "duration": "35–75 min",
+        "focus": "circuit abdos",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      },
+      {
+        "name": "ANTI ROTATION",
+        "subtitle": "prévention dos",
+        "smartCategory": "abdos",
+        "duration": "35–75 min",
+        "focus": "prévention dos",
+        "count": 8,
+        "guided_flow": [
+          "échauffement",
+          "bloc principal",
+          "finisher",
+          "retour au calme"
+        ]
+      }
+    ],
+    "modes": [
+      "coach_pro",
+      "adherent_guidé",
+      "impression"
+    ]
+  }
+]
