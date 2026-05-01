@@ -1,26 +1,86 @@
 
-let exercises=[],programs=[];
-let user=JSON.parse(localStorage.getItem('fafatraining_v83'))||{xp:0,level:'debutant',streak:0,completed:0,score:0,program:'musculation',day:0,fatigue:2,history:[],profile:{prenom:'Adhérent',sexe:'homme',age:30,taille:175,poids:78,experience:'debutant',days:3,location:'salle',injuries:[],job:'actif',sleep:7,stress:2,oneRM:{bench:70,squat:90,deadlift:110}},equipment:['poids du corps','haltères','barre','machine','poulie','banc','cardio','kettlebell','box','corde','gants','sac de frappe','élastique']};
-Promise.all([fetch('data/exercises.json').then(r=>r.json()),fetch('data/programs.json').then(r=>r.json())]).then(([e,p])=>{exercises=e;programs=p;go('dashboard')});
-function save(){localStorage.setItem('fafatraining_v83',JSON.stringify(user))}
+let exercises=[],programs=[],packManifest=null;
+let user=JSON.parse(localStorage.getItem('fafatraining_v85'))||{
+ xp:0,level:'debutant',mode:'mix',streak:0,completed:0,score:0,program:'musculation',day:0,fatigue:2,history:[],
+ currentIndex:0,
+ profile:{prenom:'Adhérent',sexe:'homme',age:30,taille:175,poids:78,experience:'debutant',days:3,location:'salle',injuries:[],job:'actif',sleep:7,stress:2,oneRM:{bench:70,squat:90,deadlift:110}},
+ equipment:['poids du corps','haltères','barre','machine','poulie','banc','cardio','kettlebell','box','corde','gants','sac de frappe','élastique']
+};
+Promise.all([
+ fetch('data/pack_manifest.json').then(r=>r.json()).catch(()=>null),
+ fetch('data/programs.json').then(r=>r.json())
+]).then(async ([manifest,p])=>{
+ packManifest=manifest;programs=p;
+ if(manifest&&manifest.exercise_packs){
+   let packs=await Promise.all(manifest.exercise_packs.map(f=>fetch(f).then(r=>r.json())));
+   exercises=packs.flat();
+ }else{
+   exercises=await fetch('data/exercises.json').then(r=>r.json());
+ }
+ go('dashboard');
+});
+function save(){localStorage.setItem('fafatraining_v85',JSON.stringify(user))}
 function active(r){document.querySelectorAll('[data-route]').forEach(b=>b.classList.toggle('active',b.dataset.route===r))}
 function bmi(){let h=user.profile.taille/100;return +(user.profile.poids/(h*h)).toFixed(1)}
 function corp(){let v=bmi();return v<18.5?'Insuffisance':v<25?'Normale':v<30?'Surpoids':'Obésité'}
 function label(l){return{debutant:'Débutant',intermediaire:'Intermédiaire',avance:'Avancé'}[l]||l}
-function cp(){return programs.find(p=>p.id===user.program)||programs[0]}function days(){return cp().days.slice(0,Math.max(1,Math.min(user.profile.days,cp().days.length)))}function cd(){let d=days();return d[user.day%d.length]}
-function quick(){document.getElementById('quickStats').innerHTML=`<b>${label(user.level)}</b><br>${user.xp} XP · ${user.streak}🔥 · IMC ${bmi()}`}
-function go(r){active(r);quick();let v=document.getElementById('view');if(r==='dashboard')dashboard(v);if(r==='programs')programsView(v);if(r==='today')today(v);if(r==='week')week(v);if(r==='library')library(v);if(r==='client')client(v);if(r==='coach')coach(v);if(r==='stats')stats(v)}
-function dashboard(v){let d=cd(),p=cp();v.innerHTML=`<div class="layout"><section><section class="hero"><div class="eyebrow">PARCOURS CONSEILLÉ : PROFIL → STYLE → SÉANCE</div><h2>${d.name}</h2><p>${d.subtitle}. Style : ${p.nom}. ${user.profile.days} jours/semaine, niveau ${label(user.level)}, lieu ${user.profile.location}. Tous les calculs changent selon ton profil.</p><span class="pill">🕒 ${d.duration}</span><span class="pill">⚡ ${d.focus}</span><span class="pill">${p.icon} ${p.nom}</span><div class="actions"><button class="btn" onclick="go('today')">▶ COMMENCER</button><button class="btn secondary" onclick="go('programs')">CHANGER DE STYLE</button></div></section><div class="grid grid4" style="margin-top:14px">${programs.map(p=>`<div class="card" onclick="selectProgram('${p.id}')"><h3>${p.icon} ${p.nom}</h3><p class="small">${p.desc}</p><div class="progress"><div style="width:${p.id===user.program?80:25}%"></div></div></div>`).join('')}</div></section><aside><div class="card"><h2>${user.profile.prenom}</h2><p>${label(user.level)} · IMC ${bmi()} (${corp()})</p><p>🔥 ${user.streak} jours<br>✅ ${user.completed} séances<br>🏆 ${user.score} score</p></div><div class="card"><h3>Débutant ?</h3><p class="small">Chaque exercice contient une explication simple, les erreurs à éviter, le niveau et une illustration.</p></div></aside></div>`}
-function selectProgram(id){user.program=id;user.day=0;save();go('dashboard')}
-function session(){let d=cd();let pool=exercises.filter(e=>d.styles.includes(e.style)&&e.materiel.some(m=>user.equipment.includes(m)));if(d.cats?.length)pool=pool.filter(e=>d.cats.includes(e.categorie)||d.cats.includes(e.style));if(pool.length<d.count)pool=exercises.filter(e=>d.styles.includes(e.style));return pool.slice(0,d.count).map(adapt)}
-function adapt(e){let v={...e.variantes[user.level]};if(user.fatigue>=4||user.profile.sleep<6){v.series=Math.max(2,+v.series-1);v.rpe='6';}return{base:e,...v,charge:charge(e,v)}}
-function charge(e,v){let pct=parseInt((v.charge_pct||'60').split('–')[0]);let ref=0;if(e.categorie==='pectoraux')ref=user.profile.oneRM.bench;if(e.categorie==='jambes')ref=user.profile.oneRM.squat;if(e.categorie==='chaîne postérieure')ref=user.profile.oneRM.deadlift;if(!ref||e.materiel.includes('poids du corps')||['boxe','trail','cardio','mobilite','hyrox'].includes(e.style))return'RPE '+v.rpe;return Math.round((ref*pct/100)/2.5)*2.5+' kg'}
-function today(v){let d=cd(),s=session();v.innerHTML=`<div class="card"><h2>${d.name}</h2><p class="small">${d.subtitle} · ${d.duration} · ${d.focus}</p><span class="pill">${s.length} exercices</span><span class="pill">Charges / repos adaptés</span><span class="pill">Illustrations incluses</span></div>${s.map(card).join('')}<button class="btn" onclick="finish()">SÉANCE TERMINÉE</button>`}
-function card(x,i){return`<div class="exercise"><img src="${x.base.image}"><div><span class="pill">#${i+1}</span><h3>${x.nom}</h3><p class="small">${x.base.explication_debutant}</p><b>${x.series} séries · ${x.reps} · repos ${x.repos} · RPE ${x.rpe}</b><div class="tags">${x.base.materiel.slice(0,4).map(t=>`<span>${t}</span>`).join('')}</div></div><div class="load">${x.charge}</div></div>`}
-function finish(){let gain=100+session().length*12;user.xp+=gain;user.score+=gain*3;user.completed++;user.streak++;user.day++;user.history.push({date:new Date().toLocaleDateString('fr-FR'),name:cd().name,xp:gain,program:cp().nom});if(user.history.length>30)user.history=user.history.slice(-30);save();go('stats')}
+function cp(){return programs.find(p=>p.id===user.program)||programs[0]}
+function days(){return cp().days.slice(0,Math.max(1,Math.min(user.profile.days,cp().days.length)))}
+function cd(){let d=days();return d[user.day%d.length]}
+function quick(){document.getElementById('quickStats').innerHTML=`<b>${label(user.level)}</b><br>${user.xp} XP · ${user.streak}🔥 · ${exercises.length} exos · ${Math.ceil(exercises.length/95)} packs`}
+function go(r){active(r);quick();let v=document.getElementById('view');if(r==='dashboard')dashboard(v);if(r==='programs')programsView(v);if(r==='today')today(v);if(r==='guided')guided(v);if(r==='week')week(v);if(r==='library')library(v);if(r==='client')client(v);if(r==='coach')coach(v);if(r==='stats')stats(v)}
+function dashboard(v){let d=cd(),p=cp();v.innerHTML=`<div class="layout"><section><section class="hero"><div class="eyebrow">V8.5 ELITE MIX · COACH + ADHÉRENT</div><h2>${d.name}</h2><p>${d.subtitle}. Bibliothèque ${exercises.length} exercices répartis en packs de 95 max, illustrations par mouvement, remplacement automatique selon blessure/matériel.</p><span class="pill">🕒 ${d.duration}</span><span class="pill">⚡ ${d.focus}</span><span class="pill">${p.icon} ${p.nom}</span><div class="actions"><button class="btn" onclick="go('today')">VOIR SÉANCE</button><button class="btn secondary" onclick="go('guided')">MODE GUIDÉ</button></div></section><div class="grid grid4" style="margin-top:14px">${programs.map(p=>`<div class="card" onclick="selectProgram('${p.id}')"><h3>${p.icon} ${p.nom}</h3><p class="small">${p.desc}</p><div class="progress"><div style="width:${p.id===user.program?80:25}%"></div></div></div>`).join('')}</div></section><aside><div class="card"><h2>${user.profile.prenom}</h2><p>${label(user.level)} · IMC ${bmi()} (${corp()})</p><p>🔥 ${user.streak} jours<br>✅ ${user.completed} séances</p></div><div class="card"><h3>Organisation GitHub</h3><p class="small">${Math.ceil(exercises.length/95)} packs exercices<br>Images rangées par dossiers pack_XX</p></div></aside></div>`}
+function selectProgram(id){user.program=id;user.day=0;user.currentIndex=0;save();go('dashboard')}
+function riskyForInjury(e){
+ let inj=user.profile.injuries.join(' ');
+ let n=(e.nom+' '+e.categorie).toLowerCase();
+ if(inj.includes('épaule') && ['développé militaire','handstand','dips','overhead','snatch'].some(k=>n.includes(k))) return true;
+ if(inj.includes('dos') && ['soulevé','good morning','rowing barre','deadlift'].some(k=>n.includes(k))) return true;
+ if(inj.includes('genou') && ['box jump','squat arrière','fente sautée','burpee broad'].some(k=>n.includes(k))) return true;
+ if(inj.includes('cheville') && ['sprint','jump','saut','box jump'].some(k=>n.includes(k))) return true;
+ return false;
+}
+function substitute(e, pool){
+ if(!riskyForInjury(e)) return e;
+ let same=pool.find(x=>x.id!==e.id && !riskyForInjury(x) && x.categorie===e.categorie);
+ if(same) return {...same, replacedFrom:e.nom};
+ let safe=pool.find(x=>x.id!==e.id && !riskyForInjury(x));
+ return safe?{...safe, replacedFrom:e.nom}:e;
+}
+function session(){
+ let d=cd();
+ let pool=exercises.filter(e=>d.styles.includes(e.style)&&e.materiel.some(m=>user.equipment.includes(m)));
+ if(d.cats?.length) pool=pool.filter(e=>d.cats.includes(e.categorie)||d.cats.includes(e.style));
+ if(pool.length<d.count) pool=exercises.filter(e=>d.styles.includes(e.style));
+ let picked=pool.slice(0,d.count).map(e=>substitute(e,pool));
+ return picked.map(adapt);
+}
+function adapt(e){
+ let v={...e.variantes[user.level]};
+ if(user.fatigue>=4||user.profile.sleep<6){v.series=Math.max(2,+v.series-1);v.rpe='6';v.repos='60–120s';}
+ return{base:e,...v,charge:charge(e,v)};
+}
+function charge(e,v){
+ let pct=parseInt((v.charge_pct||'60').split('–')[0]);let ref=0;
+ if(e.categorie==='pectoraux')ref=user.profile.oneRM.bench;
+ if(e.categorie==='jambes')ref=user.profile.oneRM.squat;
+ if(e.categorie==='chaîne postérieure')ref=user.profile.oneRM.deadlift;
+ if(!ref||e.materiel.includes('poids du corps')||['boxe','trail','cardio','mobilite','hyrox'].includes(e.style))return'RPE '+v.rpe;
+ return Math.round((ref*pct/100)/2.5)*2.5+' kg';
+}
+function today(v){let d=cd(),s=session();v.innerHTML=`<div class="card"><h2>${d.name}</h2><p class="small">${d.subtitle} · ${d.duration} · ${d.focus}</p><span class="pill">${s.length} exercices</span><span class="pill">Remplacement blessure auto</span><span class="pill">Mode mix coach + adhérent</span></div>${s.map(card).join('')}<button class="btn" onclick="finish()">SÉANCE TERMINÉE</button><button class="btn secondary" onclick="go('guided')">PASSER EN MODE GUIDÉ</button>`}
+function card(x,i){return`<div class="exercise"><img src="${x.base.image}"><div><span class="pill">#${i+1}</span>${x.base.replacedFrom?`<span class="pill">remplace ${x.base.replacedFrom}</span>`:''}<h3>${x.nom}</h3><p class="small">${x.base.explication_debutant}</p><b>${x.series} séries · ${x.reps} · repos ${x.repos} · RPE ${x.rpe}</b><div class="detail"><span class="demo-badge">Coach pro</span><ul><li>${x.base.coach_pro?.placement||'Posture stable'}</li><li>${x.base.coach_pro?.respiration||'Respiration contrôlée'}</li><li>${x.base.coach_pro?.sensation||'Sensation musculaire sans douleur'}</li></ul></div><div class="tags">${x.base.materiel.slice(0,4).map(t=>`<span>${t}</span>`).join('')}</div></div><div class="load">${x.charge}</div></div>`}
+function guided(v){
+ let s=session(); if(user.currentIndex>=s.length)user.currentIndex=0; let x=s[user.currentIndex];
+ v.innerHTML=`<div class="card"><span class="pill">Exercice ${user.currentIndex+1}/${s.length}</span><h2>${x.nom}</h2><img src="${x.base.image}" style="width:100%;max-width:620px;border-radius:22px"><p>${x.base.fiche.description}</p><h3>${x.series} séries · ${x.reps} · repos ${x.repos}</h3><p class="small">Charge : ${x.charge} · RPE ${x.rpe}</p><div class="detail"><h3>Démo débutant</h3><ul>${x.base.demonstration_debutant.map(a=>`<li>${a}</li>`).join('')}</ul></div><div class="actions"><button class="btn secondary" onclick="prevEx()">◀ Précédent</button><button class="btn" onclick="nextEx()">Suivant ▶</button></div></div>`;
+}
+function nextEx(){user.currentIndex++; if(user.currentIndex>=session().length)user.currentIndex=0; save(); go('guided')}
+function prevEx(){user.currentIndex--; if(user.currentIndex<0)user.currentIndex=session().length-1; save(); go('guided')}
+function finish(){let gain=100+session().length*12;user.xp+=gain;user.score+=gain*3;user.completed++;user.streak++;user.day++;user.currentIndex=0;user.history.push({date:new Date().toLocaleDateString('fr-FR'),name:cd().name,xp:gain,program:cp().nom});if(user.history.length>30)user.history=user.history.slice(-30);save();go('stats')}
 function programsView(v){v.innerHTML=`<div class="card"><h2>Styles d’entraînement</h2><p class="small">Musculation, CrossTraining, Hyrox, Boxe, Trail, Renfo, Cardio, Mobilité.</p></div><div class="grid grid3">${programs.map(p=>`<div class="card" onclick="selectProgram('${p.id}')"><h2>${p.icon} ${p.nom}</h2><p class="small">${p.desc}</p><button class="btn secondary">Choisir</button></div>`).join('')}</div>`}
 function week(v){let p=cp();v.innerHTML=`<div class="card"><h2>${p.nom}</h2><p class="small">${user.profile.days} jours/semaine.</p></div><div class="card">${days().map((d,i)=>`<div class="week-row"><div><b>${i+1}. ${d.name}</b><p class="small">${d.subtitle}</p></div><span class="pill">${d.duration}</span></div>`).join('')}</div>`}
-function library(v){let groups={};exercises.forEach(e=>{groups[e.styleLabel]=groups[e.styleLabel]||[];groups[e.styleLabel].push(e)});v.innerHTML=`<div class="card"><h2>Bibliothèque Elite</h2><input id="search" placeholder="Recherche : squat, boxe, haltères, trail..." oninput="filterLibrary()"><p class="small">${exercises.length} exercices réels avec explications, variantes, matériel, substitutions et illustrations.</p></div><div>${Object.entries(groups).map(([k,l])=>`<div class="card lib"><h3>${k} · ${l.length}</h3>${l.map(e=>`<span class="pill" data-name="${(e.nom+' '+e.style+' '+e.categorie+' '+e.materiel.join(' ')).toLowerCase()}">${e.icon} ${e.nom}</span>`).join('')}</div>`).join('')}</div>`}
+function library(v){let groups={};exercises.forEach(e=>{groups[e.styleLabel]=groups[e.styleLabel]||[];groups[e.styleLabel].push(e)});v.innerHTML=`<div class="card"><h2>Bibliothèque V8.5</h2><input id="search" placeholder="Recherche : squat, boxe, haltères, trail..." oninput="filterLibrary()"><p class="small">${exercises.length} exercices · packs de 95 max · illustrations par mouvement.</p></div><div>${Object.entries(groups).map(([k,l])=>`<div class="card lib"><h3>${k} · ${l.length}</h3>${l.map(e=>`<span class="pill" data-name="${(e.nom+' '+e.style+' '+e.categorie+' '+e.materiel.join(' ')).toLowerCase()}" onclick="showExercise('${e.id}')">${e.icon} ${e.nom}</span>`).join('')}</div>`).join('')}</div><div id="exerciseDetail"></div>`}
+function showExercise(id){let e=exercises.find(x=>x.id===id);if(!e)return;exerciseDetail.innerHTML=`<div class="card"><h2>${e.icon} ${e.nom}</h2><img src="${e.image}" style="width:100%;max-width:620px;border-radius:22px"><p>${e.fiche.description}</p><h3>Démo débutant</h3><ul>${e.demonstration_debutant.map(s=>`<li>${s}</li>`).join('')}</ul><h3>Erreurs à éviter</h3><ul>${e.erreurs.map(s=>`<li>${s}</li>`).join('')}</ul><h3>Alternatives blessure</h3><p class="small">${Object.entries(e.alternatives_blessure).map(([k,v])=>`${k}: ${v.join(', ')}`).join('<br>')}</p><h3>Substitutions</h3><p class="small">${e.substitutions.slice(0,8).join(', ')}</p></div>`;exerciseDetail.scrollIntoView({behavior:'smooth'})}
 function filterLibrary(){let q=search.value.toLowerCase();document.querySelectorAll('[data-name]').forEach(e=>e.style.display=e.dataset.name.includes(q)?'inline-flex':'none')}
 function client(v){let p=user.profile;v.innerHTML=`<div class="card"><h2>Profil adhérent / client</h2><div class="formgrid">${field('prenom','Prénom',p.prenom)}${select('experience','Niveau',['debutant','intermediaire','avance'],p.experience)}${field('days','Jours/semaine',p.days)}${field('age','Âge',p.age)}${field('taille','Taille cm',p.taille)}${field('poids','Poids kg',p.poids)}${select('location','Lieu',['salle','extérieur','studio','domicile'],p.location)}${select('job','Travail',['sédentaire','actif','physique'],p.job)}${field('sleep','Sommeil h',p.sleep)}${field('stress','Stress 1-5',p.stress)}</div><button class="btn" onclick="saveClient()">Enregistrer</button></div><div class="card"><h3>Blessures / limitations</h3><div class="checkgrid">${['épaule','dos','genou','cheville','poignet','hanche'].map(i=>`<label><input class="inj" type="checkbox" value="${i}" ${p.injuries.includes(i)?'checked':''}> ${i}</label>`).join('')}</div></div><div class="card"><h3>Charges repères</h3><div class="formgrid">${field('bench','Bench',p.oneRM.bench)}${field('squat','Squat',p.oneRM.squat)}${field('deadlift','Deadlift',p.oneRM.deadlift)}</div></div>`}
 function field(id,l,v){return`<label>${l}<input id="${id}" value="${v}" type="${isNaN(v)?'text':'number'}"></label>`}
