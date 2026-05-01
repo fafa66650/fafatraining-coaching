@@ -1,17 +1,11 @@
-# FAFATRAINING SMART COACH V8.3 ELITE PRO
+# FAFATRAINING V8.4 REAL DEMO LIBRARY
 
-Version sport/musculation, inspirée ENRX, Nike/Freeletics, avec illustrations.
+- 409 exercices
+- Une image SVG différente par exercice
+- Fiche exercice complète
+- Démonstration débutant
+- Erreurs à éviter
+- Alternatives par blessure et matériel
+- Variantes débutant / intermédiaire / avancé
 
-Inclus :
-- UI premium FAFATRAINING
-- Styles : musculation, CrossTraining, Hyrox, boxe, trail, renfo, cardio, mobilité
-- Bibliothèque enrichie avec exercices réels
-- Illustrations SVG intégrées par style
-- Explications débutant
-- Variantes débutant/intermédiaire/avancé
-- Calcul charges estimées / RPE / repos / séries / reps
-- Profil adhérent/client
-- Matériel, lieu, fatigue, sommeil, blessures
-- Programme complet par nombre de jours
-- Suivi XP / séances / IMC
-- Compatible GitHub Pages
+Note : illustrations SVG différenciées, pas photos réelles.
