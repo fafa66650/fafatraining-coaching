@@ -1,13 +1,15 @@
-# FAFATRAINING COACHING V9 ULTRA COACH ENGINE
+# FAFATRAINING COACHING
 
-- Accueil utile sans doublons
-- Membres : ajouter, modifier, supprimer
-- Création intelligente
-- Durées automatiques selon format
-- Moteur cohérent : niveau, objectif, fatigue, sommeil, blessures, matériel, variété des patterns
-- Mode terrain LIVE avec timer
-- Cycles 6 semaines
-- Bibliothèque filtrable
-- 409 exercices
-- 5 packs GitHub
-- Audit : 0 erreur(s)
+Version corrigée :
+- Navigation du haut uniquement, plus de doublon gauche/droite.
+- Mentions de version retirées de l’interface.
+- Accueil simplifié.
+- Onglet Membres plus clair avec ajout, suppression, enregistrement.
+- Blessures mieux réparties et plus diversifiées.
+- Création : niveau modifiable, durée automatique, formats plus clairs.
+- Onglet Styles renommé Méthodes.
+- Séance plus explicative : posture, exécution, erreurs à éviter.
+- Visuels d’exercices recréés avec un personnage coach stylisé.
+- 409 exercices.
+- 5 packs.
+- Audit : 0 erreur(s).
