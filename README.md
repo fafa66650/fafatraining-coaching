@@ -1,15 +1,13 @@
 # FAFATRAINING COACHING
 
-Version corrigée :
-- Navigation du haut uniquement, plus de doublon gauche/droite.
-- Mentions de version retirées de l’interface.
-- Accueil simplifié.
-- Onglet Membres plus clair avec ajout, suppression, enregistrement.
-- Blessures mieux réparties et plus diversifiées.
-- Création : niveau modifiable, durée automatique, formats plus clairs.
-- Onglet Styles renommé Méthodes.
-- Séance plus explicative : posture, exécution, erreurs à éviter.
-- Visuels d’exercices recréés avec un personnage coach stylisé.
+V9.2 VISUAL PDF PRO
+
+- Accueil conservé.
+- Avatar utilisé pour le branding.
+- Exercices refaits en rendu visuel premium sombre type app fitness.
+- Cartes exercices plus proches d’une app pro.
+- Bouton Imprimer remplacé par Exporter PDF.
+- PDF organisé avec en-tête, profil, séance, tableau des exercices et consignes.
 - 409 exercices.
-- 5 packs.
+- 5 packs GitHub.
 - Audit : 0 erreur(s).
