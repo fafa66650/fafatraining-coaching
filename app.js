@@ -1,7 +1,8 @@
 
 let exercises=[],programs=[],manifest=null;
-let state=JSON.parse(localStorage.getItem('fafatraining_coaching_v11'))||{
- selectedMember:0,family:'force_hypertrophie',childIndex:0,generated:null,live:{index:0,seconds:0,running:false},history:[],seed:7,
+let state=JSON.parse(localStorage.getItem('fafatraining_coaching_v12'))||{
+ selectedMember:0,family:'force_hypertrophie',childIndex:0,generated:null,visualMode:'premium',
+ live:{index:0,seconds:0,running:false},history:[],seed:7,
  members:[{name:'Membre 1',level:1,goal:'remise_forme',days:3,place:'salle',age:30,height:175,weight:78,job:'actif',sleep:7,stress:2,fatigue:2,
  injuries:{epaule:false,coude:false,poignet:false,dos:false,lombaires:false,hanche:false,genou:false,cheville:false,cardio:false,cervicales:false,notes:''},
  equipment:['poids du corps','haltères','barre','machine','poulie','banc','cardio','kettlebell','box','corde','gants','sac de frappe','élastique'],
@@ -18,21 +19,27 @@ const defs={
  trail_cotes:['45–70 min','côtes','descente','Trail côtes'],trail_endurance:['60–120 min','endurance','libre','Trail endurance'],trail_prevention:['35–55 min','prévention','60s','Trail prévention']
 };
 Promise.all([fetch('data/pack_manifest.json').then(r=>r.json()),fetch('data/programs.json').then(r=>r.json())]).then(async([m,p])=>{
- manifest=m;programs=p;
+ manifest=m; programs=p;
  let packs=await Promise.all(m.exercise_packs.map(f=>fetch(f).then(r=>r.json())));
  exercises=packs.flat();
- if(!state.generated)state.generated=buildSession(false);
+ if(!state.generated) state.generated=buildSession(false);
  go('home');
 });
-function save(){localStorage.setItem('fafatraining_coaching_v11',JSON.stringify(state))}
+function save(){localStorage.setItem('fafatraining_coaching_v12',JSON.stringify(state))}
 function m(){return state.members[state.selectedMember]||state.members[0]}
-function go(r){document.querySelectorAll('[data-route]').forEach(b=>b.classList.toggle('active',b.dataset.route===r));quickStats.innerHTML=`${m().name} · ${level(m().level)} · ${exercises.length} exos`;({home,members,builder,methods,session,live,library,stats}[r]||home)(view)}
 function level(n){n=+n;return n>=20?'Athlète FAFATRAINING':n>=10?'Confirmé':n>=5?'Actif':'Débutant'}
 function goal(g){return{perte_poids:'Perte de poids',prise_masse:'Prise de masse',remise_forme:'Remise en forme',performance:'Performance'}[g]||g}
 function fam(){return programs.find(p=>p.id===state.family)||programs[0]}
 function child(){let f=fam();return f.children?.[state.childIndex]||f.children?.[0]||f.days?.[0]}
 function cur(){let c=child();let d=defs[c.id]||[];return{id:c.id,name:c.nom||c.name,smartCategory:c.smartCategory,duration:d[0]||c.time||c.duration,work:d[1]||c.format,rest:d[2]||'selon besoin',type:d[3]||c.format,focus:c.focus,count:c.count||8}}
-function shell(c){return `<div class="shell"><section>${c}</section><aside class="rightcol"><div class="coachMini"><img src="assets/avatar/coach-avatar.jpeg" onerror="this.style.display='none'"><div><b>Coach FAFATRAINING</b><p>Adapte la séance selon niveau, fatigue, blessures et matériel.</p></div></div><div class="card mini"><h3>${m().name}</h3><p>${level(m().level)} · ${goal(m().goal)}</p><p>${m().place} · ${m().days} j/sem · fatigue ${m().fatigue}/5</p></div><button class="btn full" onclick="state.generated=buildSession(true);save();go('session')">Nouvelle séance</button><button class="btn secondary full" onclick="exportPDF()">Exporter PDF</button></aside></div>`}
+function go(r){
+ document.body.dataset.mode=state.visualMode||'premium';
+ document.querySelectorAll('[data-route]').forEach(b=>b.classList.toggle('active',b.dataset.route===r));
+ quickStats.innerHTML=`${m().name} · ${level(m().level)} · ${exercises.length} exos`;
+ ({home,members,builder,methods,session,live,library,stats}[r]||home)(view);
+}
+function shell(c){return `<div class="shell"><section>${c}</section><aside class="rightcol"><div class="modeBox"><h3>Visuel</h3><button onclick="setMode('realiste')" class="${state.visualMode==='realiste'?'sel':''}">Photos</button><button onclick="setMode('mix_branding')" class="${state.visualMode==='mix_branding'?'sel':''}">Mix branding</button><button onclick="setMode('premium')" class="${state.visualMode==='premium'?'sel':''}">Premium</button></div><div class="coachMini"><img src="assets/avatar/coach-avatar.jpeg" onerror="this.style.display='none'"><div><b>Coach FAFATRAINING</b><p>Branding discret. Jamais en visuel principal d’exercice.</p></div></div><div class="card mini"><h3>${m().name}</h3><p>${level(m().level)} · ${goal(m().goal)}</p><p>${m().place} · ${m().days} j/sem · fatigue ${m().fatigue}/5</p></div><button class="btn full" onclick="state.generated=buildSession(true);save();go('session')">Nouvelle séance</button><button class="btn secondary full" onclick="exportPDF()">Exporter PDF</button></aside></div>`}
+function setMode(mode){state.visualMode=mode;save();go('session')}
 function home(v){
  let d=cur(),g=state.generated;
  v.innerHTML=shell(`<div class="homePro">
@@ -55,7 +62,7 @@ function home(v){
    <div class="card kpi"><b>${Math.ceil(exercises.length/95)}</b><p>Packs GitHub</p></div>
    <div class="card kpi"><b>${m().completed}</b><p>Séances faites</p></div>
  </div>
- <div class="card"><h2>Parcours rapide</h2><div class="todo"><button onclick="go('members')">1. Choisir le membre</button><button onclick="go('builder')">2. Créer le programme</button><button onclick="go('session')">3. Vérifier les exercices</button><button onclick="go('live')">4. Lancer en live</button></div></div>`)
+ <div class="card"><h2>Parcours rapide</h2><div class="todo"><button onclick="go('members')">1. Choisir le membre</button><button onclick="go('builder')">2. Créer le programme</button><button onclick="go('session')">3. Vérifier les exercices</button><button onclick="go('live')">4. Lancer en live</button></div></div>`);
 }
 function members(v){let x=m();v.innerHTML=shell(`<div class="card"><h2>Gestion des membres</h2><p class="small">Choisis qui tu suis. Tu peux ajouter, enregistrer ou supprimer un membre.</p><div class="compactRow"><label>Liste des membres<select onchange="state.selectedMember=+this.value;state.generated=buildSession(true);save();go('members')">${state.members.map((p,i)=>`<option value="${i}" ${i===state.selectedMember?'selected':''}>${p.name}</option>`).join('')}</select></label><button class="btn secondary" onclick="addMember()">Ajouter</button><button class="btn danger" onclick="deleteMember()">Supprimer</button></div><div class="formgrid"><label>Nom<input id="mname" value="${x.name}"></label><label>Niveau<select id="mlevel"><option value="1">1 Débutant</option><option value="5">5 Actif</option><option value="10">10 Confirmé</option><option value="20">20 Athlète FAFATRAINING</option></select></label><label>Objectif<select id="mgoal"><option value="perte_poids">Perte de poids</option><option value="prise_masse">Prise de masse</option><option value="remise_forme">Remise en forme</option><option value="performance">Performance</option></select></label><label>Âge<input id="mage" type="number" value="${x.age}"></label><label>Taille cm<input id="mheight" type="number" value="${x.height}"></label><label>Poids kg<input id="mweight" type="number" value="${x.weight}"></label><label>Jours/semaine<input id="mdays" type="number" value="${x.days}"></label><label>Lieu<select id="mplace"><option>salle</option><option>domicile</option><option>extérieur</option><option>studio</option></select></label><label>Activité travail<select id="mjob"><option>sédentaire</option><option>actif</option><option>physique</option></select></label><label>Sommeil h<input id="msleep" type="number" value="${x.sleep}"></label><label>Stress 1-5<input id="mstress" type="number" value="${x.stress}"></label><label>Fatigue 1-5<input id="mfatigue" type="number" value="${x.fatigue}"></label></div><button class="btn" onclick="saveMember()">Enregistrer les infos</button></div><div class="card"><h2>Blessures et précautions</h2><div class="injury-grid">${injuries().map(([id,l,txt])=>`<label class="injury"><input class="inj" type="checkbox" value="${id}" ${x.injuries?.[id]?'checked':''}><b>${l}</b><span>${txt}</span></label>`).join('')}</div><label>Notes importantes<textarea id="injuryNotes">${x.injuries?.notes||''}</textarea></label></div>`);setTimeout(()=>{mlevel.value=x.level;mgoal.value=x.goal;mplace.value=x.place;mjob.value=x.job||'actif'},0)}
 function injuries(){return [['epaule','Épaule','éviter mouvements au-dessus de la tête si douleur'],['coude','Coude','adapter curls, dips, extensions'],['poignet','Poignet','limiter appuis et front rack'],['cervicales','Cervicales','éviter charges compressives'],['dos','Dos','contrôler gainage et charges'],['lombaires','Lombaires','adapter soulevés / hinge'],['hanche','Hanche','surveiller amplitudes profondes'],['genou','Genou','éviter impacts et flexions douloureuses'],['cheville','Cheville','adapter course, sauts, appuis'],['cardio','Souffle / cardio','adapter intensité et récupérations']]}
@@ -74,7 +81,7 @@ function scoreEx(e,i){let c=cur(),x=m();let s=0;if(e.smartCategory===c.smartCate
 function adapt(e){let x=m(),l=x.level>=20?'avance':x.level>=10?'intermediaire':x.level>=5?'intermediaire':'debutant';let v={...(e.variantes?.[l]||e.variantes?.debutant||{})};if(x.fatigue>=4||x.sleep<6){v.series=Math.max(2,+(v.series||3)-1);v.rpe='6';v.repos='60–120s'}return{base:e,...v,charge:charge(e,v)}}
 function charge(e,v){let pct=parseInt((v.charge_pct||'60').split('–')[0]),x=m(),ref=0;if(e.categorie==='pectoraux')ref=x.oneRM?.bench||0;if(e.categorie==='jambes')ref=x.oneRM?.squat||0;if(e.categorie==='chaîne postérieure')ref=x.oneRM?.deadlift||0;if(!ref||e.materiel?.includes('poids du corps'))return'RPE '+(v.rpe||'6–7');return Math.round((ref*pct/100)/2.5)*2.5+' kg'}
 function buildSession(bump=true){let c=cur();if(bump)state.seed=(state.seed+11)%997;let pool=exercises.filter(e=>isSafe(e)&&equipmentOk(e));let pri=pool.filter(e=>e.smartCategory===c.smartCategory);if(pri.length>=c.count)pool=pri;pool=pool.map((e,i)=>({e,score:scoreEx(e,i)})).sort((a,b)=>b.score-a.score).map(x=>x.e);let picked=[],patterns={};for(let e of pool){if(picked.length>=c.count)break;let p=e.patternReadable||e.pattern||'général',n=patterns[p]||0;if(n<2||picked.length>c.count-2){picked.push(e);patterns[p]=n+1}}return{style:fam().nom,format:c.name,type:c.type,duration:c.duration,work:c.work,rest:c.rest,exercises:picked.map(adapt)}}
-function imgTag(e){let src=e.photoUrl||e.image;let fb=e.fallbackImage||'assets/logo/logo-fafatraining.jpeg';return `<img src="${src}" onerror="this.onerror=null;this.src='${fb}'">`}
+function imgTag(e){let src=e.photoUrl||e.image;return `<div class="photoWrap"><img src="${src}" loading="lazy" onerror="this.closest('.photoWrap').classList.add('noPhoto');this.remove();"><span>Photo indisponible</span></div>`}
 function session(v){let g=state.generated||buildSession(false);v.innerHTML=shell(`<div class="sessionHeader"><div><span>séance</span><h2>${g.format}</h2><p>${g.type} · ${g.duration} · ${g.style}</p></div><div><button class="btn secondary" onclick="state.generated=buildSession(true);save();go('session')">Changer les exercices</button><button class="btn" onclick="go('live')">Lancer en live</button></div></div>${g.exercises.map((x,i)=>exCard(x,i)).join('')}<div class="card center"><button class="btn" onclick="finish()">Séance terminée</button><button class="btn secondary" onclick="showAlternatives()">Voir les alternatives</button></div>`)}
 function exCard(x,i){let e=x.base;return `<div class="exercise photoCard">${imgTag(e)}<div class="exMain"><div><span class="index">${i+1}</span><span class="pill">${e.patternReadable}</span></div><h3>${e.nom}</h3><p class="muscles">${e.smartCategoryLabel||''}</p><div class="chips"><b>${x.series||3} séries</b><b>${x.reps||'8–12'} reps</b><b>${x.charge}</b></div><p class="coachLine"><b>Posture :</b> ${e.postureCoach}</p><p class="coachLine"><b>À éviter :</b> ${(e.avoidMistakes||[]).slice(0,2).join(' · ')}</p></div><button class="playBtn" onclick="go('live')">▶</button></div>`}
 function showAlternatives(){state.generated=buildSession(true);save();go('session')}
