@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061009"/><stop offset=".65" stop-color="#101712"/><stop offset="1" stop-color="#020303"/></linearGradient>
+<radialGradient id="glow" cx="72%" cy="26%"><stop stop-color="#45ff5f" stop-opacity=".48"/><stop offset=".65" stop-color="#45ff5f" stop-opacity=".06"/><stop offset="1" stop-color="#45ff5f" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="520" height="320" rx="34" fill="url(#bg)"/>
+<rect width="520" height="320" rx="34" fill="url(#glow)"/>
+<text x="24" y="38" fill="#45ff5f" font-family="Arial" font-size="15" font-weight="900">PACK 04 · EX0336</text>
+<text x="496" y="38" fill="#9fb0a7" font-family="Arial" font-size="14" text-anchor="end">FACE · HALTERES</text>
+<rect x="110" y="83" width="58" height="18" rx="8" fill="#f4fff8" opacity=".8"/><rect x="352" y="83" width="58" height="18" rx="8" fill="#f4fff8" opacity=".8"/>
+<g transform="translate(260 170)"><rect x="-150" y="94" width="300" height="12" rx="6" fill="#45ff5f" opacity=".28"/><circle cx="-92" cy="38" r="17" fill="#f4fff8"/><line x1="-75" y1="45" x2="72" y2="66" stroke="#f4fff8" stroke-width="13" stroke-linecap="round"/><line x1="-40" y1="50" x2="-72" y2="94" stroke="#45ff5f" stroke-width="12" stroke-linecap="round"/><line x1="46" y1="65" x2="125" y2="94" stroke="#45ff5f" stroke-width="12" stroke-linecap="round"/></g>
+<text x="260" y="266" fill="#f4fff8" font-family="Arial" font-size="21" font-weight="900" text-anchor="middle">Wall push-up</text>
+<text x="260" y="292" fill="#9fb0a7" font-family="Arial" font-size="14" text-anchor="middle">🔥 Full body · PUSHUP</text>
+</svg>
