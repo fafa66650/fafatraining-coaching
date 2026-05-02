@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX0571",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_crosstraining_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0572",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_hiit_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0573",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_amrap_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0574",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_emom_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0575",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_cardio_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0576",
+    "name": "Écarté incliné haltères",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_ecarte_incline_halteres_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_ecarte_incline_halteres_athlete_remise_forme_avatar.png",
+    "beginnerText": "Écarté incliné haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0577",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_musculation_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0578",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0579",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_crossfit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0580",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0581",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_hiit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0582",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_amrap_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0583",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_emom_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0584",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_cardio_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0585",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_debutant_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0586",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_musculation_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0587",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0588",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_crossfit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0589",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0590",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_hiit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0591",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_amrap_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0592",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_emom_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0593",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_cardio_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0594",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_actif_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0595",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_musculation_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0596",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0597",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_crossfit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0598",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0599",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_hiit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0600",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_amrap_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0601",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_emom_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0602",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_cardio_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0603",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_confirme_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0604",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_musculation_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0605",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0606",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_crossfit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0607",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0608",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_hiit_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0609",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_amrap_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0610",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_emom_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0611",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_cardio_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0612",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_poulie_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_poulie_athlete_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0613",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_musculation_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0614",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0615",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_crossfit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0616",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0617",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_hiit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0618",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_amrap_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0619",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_emom_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0620",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_cardio_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0621",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_debutant_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0622",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_musculation_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0623",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0624",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_crossfit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0625",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0626",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_hiit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0627",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_amrap_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0628",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_emom_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0629",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_cardio_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0630",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_actif_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0631",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_musculation_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0632",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0633",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_crossfit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0634",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0635",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_hiit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0636",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_amrap_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0637",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_emom_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0638",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_cardio_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0639",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_confirme_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0640",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_musculation_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0641",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0642",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_crossfit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0643",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0644",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_hiit_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0645",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_amrap_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0646",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_emom_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0647",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_cardio_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0648",
+    "name": "Extension triceps corde",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/push/push_extension_triceps_corde_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_corde_athlete_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0649",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_musculation_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0650",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0651",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_crossfit_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0652",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0653",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_hiit_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0654",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_amrap_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0655",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_emom_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0656",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_cardio_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0657",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_debutant_remise_forme_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0658",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_musculation_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0659",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0660",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_crossfit_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0661",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_crosstraining_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0662",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_hiit_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0663",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_amrap_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0664",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_emom_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0665",
+    "name": "Extension triceps haltère",
+    "category": "push",
+    "categoryLabel": "Haut du corps",
+    "folder": "push",
+    "icon": "💪",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "poulie"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/push/push_extension_triceps_haltere_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/push/push_extension_triceps_haltere_actif_cardio_avatar.png",
+    "beginnerText": "Extension triceps haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

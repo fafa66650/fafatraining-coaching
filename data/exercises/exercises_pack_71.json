@@ -1,0 +1,4649 @@
+[
+  {
+    "id": "EX6651",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_crossfit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6652",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_crosstraining_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6653",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_hiit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6654",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_amrap_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6655",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_emom_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6656",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_cardio_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6657",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_trail_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6658",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_caf_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6659",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_mobilite_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6660",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_crunch_classique_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_debutant_remise_forme_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6661",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_musculation_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6662",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6663",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_crossfit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6664",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_crosstraining_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6665",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_hiit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6666",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_amrap_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6667",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_emom_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6668",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_cardio_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6669",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_trail_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6670",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_caf_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6671",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_mobilite_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6672",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_crunch_classique_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_actif_remise_forme_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6673",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_musculation_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6674",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6675",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_crossfit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6676",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_crosstraining_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6677",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_hiit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6678",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_amrap_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6679",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_emom_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6680",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_cardio_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6681",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_trail_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6682",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_caf_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6683",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_mobilite_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6684",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_crunch_classique_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_confirme_remise_forme_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6685",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_musculation_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6686",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6687",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_crossfit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6688",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_crosstraining_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6689",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_hiit_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6690",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_amrap_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6691",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_emom_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6692",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_cardio_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6693",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_trail_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6694",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_caf_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6695",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_mobilite_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6696",
+    "name": "Crunch classique",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_crunch_classique_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_crunch_classique_athlete_remise_forme_avatar.png",
+    "beginnerText": "Crunch classique : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6697",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_musculation_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6698",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6699",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_crossfit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6700",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_crosstraining_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6701",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_hiit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6702",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_amrap_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6703",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_emom_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6704",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_cardio_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6705",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_trail_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6706",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_caf_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6707",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_mobilite_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6708",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_sit_up_controle_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_debutant_remise_forme_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6709",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_musculation_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6710",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6711",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_crossfit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6712",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_crosstraining_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6713",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_hiit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6714",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_amrap_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6715",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_emom_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6716",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_cardio_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6717",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_trail_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6718",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_caf_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6719",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_mobilite_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6720",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_sit_up_controle_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_actif_remise_forme_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6721",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_musculation_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6722",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6723",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_crossfit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6724",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_crosstraining_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6725",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_hiit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6726",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_amrap_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6727",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_emom_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6728",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_cardio_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6729",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_trail_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6730",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_caf_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6731",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_mobilite_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6732",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_sit_up_controle_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_confirme_remise_forme_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6733",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_musculation_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6734",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6735",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_crossfit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6736",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_crosstraining_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6737",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_hiit_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6738",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_amrap_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6739",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_emom_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6740",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_cardio_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6741",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_trail_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6742",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_caf_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6743",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_mobilite_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6744",
+    "name": "Sit-up contrôlé",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_sit_up_controle_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_sit_up_controle_athlete_remise_forme_avatar.png",
+    "beginnerText": "Sit-up contrôlé : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6745",
+    "name": "Mountain climber lent",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_mountain_climber_lent_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_mountain_climber_lent_debutant_musculation_avatar.png",
+    "beginnerText": "Mountain climber lent : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

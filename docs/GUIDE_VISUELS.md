@@ -1,0 +1,1 @@
+Utilise VISUELS_A_AJOUTER.csv. Les photos vont dans assets/photos/ et les postures avatar dans assets/avatar_exercices/.

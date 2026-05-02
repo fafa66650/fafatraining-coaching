@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX5701",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_crossfit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5702",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_crosstraining_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5703",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_hiit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5704",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_amrap_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5705",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_emom_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5706",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_boxe_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5707",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_cardio_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5708",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_actif_remise_forme_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5709",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_musculation_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5710",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5711",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_crossfit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5712",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_crosstraining_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5713",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_hiit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5714",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_amrap_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5715",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_emom_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5716",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_boxe_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5717",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_cardio_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5718",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_confirme_remise_forme_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5719",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_musculation_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5720",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5721",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_crossfit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5722",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_crosstraining_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5723",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_hiit_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5724",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_amrap_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5725",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_emom_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5726",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_boxe_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5727",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_cardio_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5728",
+    "name": "Sprawl boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_sprawl_boxe_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sprawl_boxe_athlete_remise_forme_avatar.png",
+    "beginnerText": "Sprawl boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5729",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_musculation_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5730",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5731",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_crossfit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5732",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_crosstraining_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5733",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_hiit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5734",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_amrap_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5735",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_emom_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5736",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_boxe_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5737",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_cardio_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5738",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_debutant_remise_forme_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5739",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_musculation_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5740",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5741",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_crossfit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5742",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_crosstraining_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5743",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_hiit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5744",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_amrap_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5745",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_emom_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5746",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_boxe_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5747",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_cardio_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5748",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_actif_remise_forme_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5749",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_musculation_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5750",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5751",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_crossfit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5752",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_crosstraining_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5753",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_hiit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5754",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_amrap_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5755",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_emom_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5756",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_boxe_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5757",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_cardio_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5758",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_confirme_remise_forme_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5759",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_musculation_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5760",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5761",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_crossfit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5762",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_crosstraining_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5763",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_hiit_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5764",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_amrap_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5765",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_emom_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5766",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_boxe_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5767",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_cardio_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5768",
+    "name": "Travail garde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_travail_garde_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_garde_athlete_remise_forme_avatar.png",
+    "beginnerText": "Travail garde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5769",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_musculation_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5770",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5771",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_crossfit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5772",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_crosstraining_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5773",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_hiit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5774",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_amrap_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5775",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_emom_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5776",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_boxe_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5777",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_cardio_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5778",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_debutant_remise_forme_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5779",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_musculation_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5780",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5781",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_crossfit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5782",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_crosstraining_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5783",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_hiit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5784",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_amrap_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5785",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_emom_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5786",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_boxe_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5787",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_cardio_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5788",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_actif_remise_forme_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5789",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_musculation_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5790",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5791",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_crossfit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5792",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_crosstraining_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5793",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_hiit_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5794",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_amrap_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5795",
+    "name": "Travail esquive",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_travail_esquive_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_travail_esquive_confirme_emom_avatar.png",
+    "beginnerText": "Travail esquive : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

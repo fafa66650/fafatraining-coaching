@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "EX3326",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_amrap_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3327",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_emom_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3328",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_hyrox_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3329",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_boxe_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3330",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_cardio_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3331",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_trail_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3332",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_debutant_remise_forme_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3333",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_musculation_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3334",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3335",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_crossfit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3336",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_crosstraining_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3337",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_hiit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3338",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_amrap_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3339",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_emom_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3340",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_hyrox_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3341",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_boxe_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3342",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_cardio_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3343",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_trail_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3344",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_actif_remise_forme_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3345",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_musculation_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3346",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3347",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_crossfit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3348",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_crosstraining_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3349",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_hiit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3350",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_amrap_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3351",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_emom_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3352",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_hyrox_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3353",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_boxe_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3354",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_cardio_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3355",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_trail_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3356",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_confirme_remise_forme_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3357",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_musculation_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3358",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3359",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_crossfit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3360",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_crosstraining_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3361",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_hiit_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3362",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_amrap_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3363",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_emom_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3364",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_hyrox_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3365",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_boxe_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3366",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_cardio_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3367",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_trail_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3368",
+    "name": "Complex haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_complex_halteres_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_complex_halteres_athlete_remise_forme_avatar.png",
+    "beginnerText": "Complex haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3369",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_musculation_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3370",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3371",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_crossfit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3372",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_crosstraining_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3373",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_hiit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3374",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_amrap_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3375",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_emom_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3376",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_hyrox_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3377",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_boxe_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3378",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_cardio_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3379",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_debutant_remise_forme_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3380",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_musculation_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3381",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3382",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_crossfit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3383",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_crosstraining_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3384",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_hiit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3385",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_amrap_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3386",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_emom_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3387",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_hyrox_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3388",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_boxe_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3389",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_cardio_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3390",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_actif_remise_forme_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3391",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_musculation_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3392",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3393",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_crossfit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3394",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_crosstraining_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3395",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_hiit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3396",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_amrap_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3397",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_emom_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3398",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_hyrox_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3399",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_boxe_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3400",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_cardio_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3401",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_confirme_remise_forme_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3402",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_musculation_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3403",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3404",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_crossfit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3405",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_crosstraining_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3406",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_hiit_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3407",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_amrap_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3408",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_emom_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3409",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_hyrox_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3410",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_boxe_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3411",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_cardio_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3412",
+    "name": "Mountain climbers",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_mountain_climbers_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_mountain_climbers_athlete_remise_forme_avatar.png",
+    "beginnerText": "Mountain climbers : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3413",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_musculation_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3414",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3415",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_crossfit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3416",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_crosstraining_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3417",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_hiit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3418",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_amrap_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3419",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_emom_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3420",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_hyrox_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

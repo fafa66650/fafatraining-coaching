@@ -1,0 +1,4942 @@
+[
+  {
+    "id": "EX1426",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1427",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_crossfit_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1428",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_crosstraining_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1429",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_hiit_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1430",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_amrap_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1431",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_emom_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1432",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_hyrox_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1433",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_cardio_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1434",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_trail_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1435",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_caf_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1436",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_confirme_remise_forme_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1437",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_musculation_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1438",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1439",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_crossfit_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1440",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_crosstraining_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1441",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_hiit_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1442",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_amrap_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1443",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_emom_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1444",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_hyrox_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1445",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_cardio_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1446",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_trail_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1447",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_caf_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1448",
+    "name": "Squat poids du corps",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_squat_poids_du_corps_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_squat_poids_du_corps_athlete_remise_forme_avatar.png",
+    "beginnerText": "Squat poids du corps : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1449",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_musculation_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1450",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1451",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_crossfit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1452",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_crosstraining_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1453",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_hiit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1454",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_amrap_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1455",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_emom_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1456",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_hyrox_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1457",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_cardio_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1458",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_trail_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1459",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_caf_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1460",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_back_squat_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_debutant_remise_forme_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1461",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_musculation_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1462",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1463",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_crossfit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1464",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_crosstraining_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1465",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_hiit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1466",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_amrap_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1467",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_emom_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1468",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_hyrox_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1469",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_cardio_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1470",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_trail_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1471",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_caf_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1472",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_back_squat_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_actif_remise_forme_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1473",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_musculation_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1474",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1475",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_crossfit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1476",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_crosstraining_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1477",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_hiit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1478",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_amrap_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1479",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_emom_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1480",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_hyrox_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1481",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_cardio_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1482",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_trail_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1483",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_caf_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1484",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/legs/legs_back_squat_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_confirme_remise_forme_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1485",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_musculation_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1486",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1487",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_crossfit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1488",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_crosstraining_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1489",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_hiit_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1490",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_amrap_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1491",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_emom_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1492",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_hyrox_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1493",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_cardio_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1494",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_trail_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1495",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_caf_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1496",
+    "name": "Back squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/legs/legs_back_squat_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_back_squat_athlete_remise_forme_avatar.png",
+    "beginnerText": "Back squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1497",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_musculation_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1498",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1499",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_crossfit_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1500",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_crosstraining_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1501",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_hiit_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1502",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_amrap_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1503",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_emom_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1504",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_hyrox_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1505",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_cardio_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1506",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_trail_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1507",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_caf_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1508",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/legs/legs_front_squat_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_debutant_remise_forme_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1509",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_musculation_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1510",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1511",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_crossfit_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1512",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_crosstraining_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1513",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_hiit_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1514",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_amrap_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1515",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_emom_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1516",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_hyrox_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1517",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_cardio_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1518",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_trail_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1519",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_caf_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1520",
+    "name": "Front squat",
+    "category": "legs",
+    "categoryLabel": "Jambes / Fessiers",
+    "folder": "legs",
+    "icon": "🦵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "machine",
+      "banc",
+      "élastique"
+    ],
+    "injuryFilters": [
+      "genou",
+      "hanche",
+      "cheville",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/legs/legs_front_squat_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/legs/legs_front_squat_actif_remise_forme_avatar.png",
+    "beginnerText": "Front squat : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

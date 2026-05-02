@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX5131",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_crossfit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5132",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_crosstraining_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5133",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_hiit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5134",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_amrap_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5135",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_emom_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5136",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_boxe_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5137",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_cardio_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5138",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_debutant_remise_forme_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5139",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_musculation_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5140",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5141",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_crossfit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5142",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_crosstraining_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5143",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_hiit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5144",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_amrap_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5145",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_emom_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5146",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_boxe_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5147",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_cardio_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5148",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_actif_remise_forme_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5149",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_musculation_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5150",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5151",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_crossfit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5152",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_crosstraining_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5153",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_hiit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5154",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_amrap_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5155",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_emom_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5156",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_boxe_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5157",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_cardio_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5158",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_confirme_remise_forme_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5159",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_musculation_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5160",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5161",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_crossfit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5162",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_crosstraining_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5163",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_hiit_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5164",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_amrap_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5165",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_emom_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5166",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_boxe_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5167",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_cardio_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5168",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_shadow_boxing_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_shadow_boxing_athlete_remise_forme_avatar.png",
+    "beginnerText": "Shadow boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5169",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_musculation_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5170",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5171",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_crossfit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5172",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_crosstraining_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5173",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_hiit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5174",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_amrap_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5175",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_emom_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5176",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_boxe_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5177",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_cardio_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5178",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_debutant_remise_forme_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5179",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_musculation_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5180",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5181",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_crossfit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5182",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_crosstraining_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5183",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_hiit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5184",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_amrap_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5185",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_emom_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5186",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_boxe_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5187",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_cardio_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5188",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_actif_remise_forme_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5189",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_musculation_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5190",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5191",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_crossfit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5192",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_crosstraining_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5193",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_hiit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5194",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_amrap_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5195",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_emom_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5196",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_boxe_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5197",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_cardio_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5198",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_confirme_remise_forme_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5199",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_musculation_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5200",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5201",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_crossfit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5202",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_crosstraining_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5203",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_hiit_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5204",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_amrap_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5205",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_emom_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5206",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_boxe_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5207",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_cardio_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5208",
+    "name": "Jab cross",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_jab_cross_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_jab_cross_athlete_remise_forme_avatar.png",
+    "beginnerText": "Jab cross : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5209",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_musculation_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5210",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5211",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_crossfit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5212",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_crosstraining_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5213",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_hiit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5214",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_amrap_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5215",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_emom_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5216",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_boxe_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5217",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_cardio_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5218",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_debutant_remise_forme_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5219",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_musculation_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5220",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5221",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_crossfit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5222",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_crosstraining_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5223",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_hiit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5224",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_amrap_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5225",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_emom_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

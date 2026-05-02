@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "EX2566",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2567",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_crossfit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2568",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_crosstraining_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2569",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_hiit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2570",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_amrap_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2571",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_emom_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2572",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_hyrox_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2573",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_boxe_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2574",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_cardio_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2575",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_trail_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2576",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_actif_remise_forme_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2577",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_musculation_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2578",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2579",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_crossfit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2580",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_crosstraining_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2581",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_hiit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2582",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_amrap_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2583",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_emom_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2584",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_hyrox_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2585",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_boxe_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2586",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_cardio_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2587",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_trail_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2588",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_confirme_remise_forme_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2589",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_musculation_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2590",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2591",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_crossfit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2592",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_crosstraining_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2593",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_hiit_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2594",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_amrap_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2595",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_emom_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2596",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_hyrox_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2597",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_boxe_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2598",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_cardio_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2599",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_trail_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2600",
+    "name": "Kettlebell swing",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_kettlebell_swing_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_kettlebell_swing_athlete_remise_forme_avatar.png",
+    "beginnerText": "Kettlebell swing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2601",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_musculation_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2602",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2603",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_crossfit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2604",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_crosstraining_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2605",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_hiit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2606",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_amrap_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2607",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_emom_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2608",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_hyrox_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2609",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_boxe_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2610",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_cardio_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2611",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_trail_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2612",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_debutant_remise_forme_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2613",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_musculation_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2614",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2615",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_crossfit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2616",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_crosstraining_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2617",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_hiit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2618",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_amrap_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2619",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_emom_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2620",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_hyrox_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2621",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_boxe_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2622",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_cardio_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2623",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_trail_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2624",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_actif_remise_forme_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2625",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_musculation_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2626",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2627",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_crossfit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2628",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_crosstraining_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2629",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_hiit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2630",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_amrap_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2631",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_emom_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2632",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_hyrox_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2633",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_boxe_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2634",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_cardio_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2635",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_trail_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2636",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_confirme_remise_forme_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2637",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_musculation_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2638",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2639",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_crossfit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2640",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_crosstraining_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2641",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_hiit_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2642",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_amrap_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2643",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_emom_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2644",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_hyrox_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2645",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_boxe_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2646",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_cardio_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2647",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_trail_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2648",
+    "name": "Clean haltères",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_clean_halteres_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_clean_halteres_athlete_remise_forme_avatar.png",
+    "beginnerText": "Clean haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2649",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_musculation_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2650",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2651",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_crossfit_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2652",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_crosstraining_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2653",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_hiit_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2654",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_amrap_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2655",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_emom_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2656",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_hyrox_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2657",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_boxe_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2658",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_cardio_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2659",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_trail_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX2660",
+    "name": "Wall ball",
+    "category": "full_body",
+    "categoryLabel": "Full body",
+    "folder": "full_body",
+    "icon": "🔥",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "kettlebell",
+      "barre",
+      "box"
+    ],
+    "injuryFilters": [
+      "genou",
+      "épaule",
+      "cardio",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_wall_ball_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_wall_ball_debutant_remise_forme_avatar.png",
+    "beginnerText": "Wall ball : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

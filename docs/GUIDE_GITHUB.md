@@ -1,0 +1,1 @@
+Dézippe, envoie tout à la racine du dépôt GitHub, active Pages sur main/root.

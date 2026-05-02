@@ -1,0 +1,4414 @@
+[
+  {
+    "id": "EX6841",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_musculation_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6842",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6843",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_crossfit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6844",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_crosstraining_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6845",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_hiit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6846",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_amrap_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6847",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_emom_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6848",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_cardio_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6849",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_trail_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6850",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_caf_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6851",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_mobilite_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6852",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_commando_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_debutant_remise_forme_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6853",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_musculation_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6854",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6855",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_crossfit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6856",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_crosstraining_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6857",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_hiit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6858",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_amrap_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6859",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_emom_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6860",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_cardio_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6861",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_trail_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6862",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_caf_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6863",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_mobilite_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6864",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_commando_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_actif_remise_forme_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6865",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_musculation_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6866",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6867",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_crossfit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6868",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_crosstraining_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6869",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_hiit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6870",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_amrap_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6871",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_emom_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6872",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_cardio_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6873",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_trail_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6874",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_caf_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6875",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_mobilite_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6876",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_commando_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_confirme_remise_forme_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6877",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_musculation_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6878",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6879",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_crossfit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6880",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_crosstraining_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6881",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_hiit_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6882",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_amrap_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6883",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_emom_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6884",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_cardio_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6885",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_trail_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6886",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_caf_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6887",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_mobilite_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6888",
+    "name": "Gainage commando",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_commando_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_commando_athlete_remise_forme_avatar.png",
+    "beginnerText": "Gainage commando : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6889",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_musculation_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6890",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6891",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_crossfit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6892",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_crosstraining_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6893",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_hiit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6894",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_amrap_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6895",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_emom_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6896",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_cardio_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6897",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_trail_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6898",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_caf_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6899",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "mobilite",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_mobilite_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6900",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–60 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_debutant_remise_forme_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6901",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_musculation_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6902",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_poids_du_corps_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6903",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_crossfit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6904",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_crosstraining_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6905",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_hiit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6906",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_amrap_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6907",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_emom_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6908",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_cardio_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6909",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_trail_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6910",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_caf_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6911",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "mobilite",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_mobilite_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6912",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–60 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_actif_remise_forme_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6913",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_musculation_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6914",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6915",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_crossfit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6916",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_crosstraining_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6917",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_hiit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6918",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_amrap_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6919",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_emom_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6920",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_cardio_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6921",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_trail_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6922",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_caf_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6923",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "mobilite",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_mobilite_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6924",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–60 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_confirme_remise_forme_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6925",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_musculation_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6926",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6927",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_crossfit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6928",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_crosstraining_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6929",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_hiit_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6930",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_amrap_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6931",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_emom_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6932",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_cardio_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6933",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_trail_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6934",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_caf_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX6935",
+    "name": "World greatest stretch",
+    "category": "mobilite",
+    "categoryLabel": "Mobilité / Stretching",
+    "folder": "mobilite",
+    "icon": "🧘",
+    "style": "mobilite",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "bâton"
+    ],
+    "injuryFilters": [],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–60 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/mobilite/mobilite_world_greatest_stretch_athlete_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/mobilite/mobilite_world_greatest_stretch_athlete_mobilite_avatar.png",
+    "beginnerText": "World greatest stretch : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

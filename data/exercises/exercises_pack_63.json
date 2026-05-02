@@ -1,0 +1,4691 @@
+[
+  {
+    "id": "EX5891",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_crossfit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5892",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_crosstraining_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5893",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_hiit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5894",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_amrap_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5895",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_emom_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5896",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_boxe_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5897",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_cardio_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5898",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_debutant_remise_forme_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5899",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_musculation_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5900",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5901",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_crossfit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5902",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_crosstraining_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5903",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_hiit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5904",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_amrap_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5905",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_emom_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5906",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_boxe_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5907",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_cardio_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5908",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_actif_remise_forme_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5909",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_musculation_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5910",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5911",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_crossfit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5912",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_crosstraining_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5913",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_hiit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5914",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_amrap_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5915",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_emom_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5916",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_boxe_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5917",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_cardio_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5918",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_confirme_remise_forme_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5919",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_musculation_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5920",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5921",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_crossfit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5922",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_crosstraining_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5923",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_hiit_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5924",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_amrap_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5925",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_emom_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5926",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_boxe_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5927",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_cardio_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5928",
+    "name": "Circuit boxe",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_circuit_boxe_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_circuit_boxe_athlete_remise_forme_avatar.png",
+    "beginnerText": "Circuit boxe : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5929",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_musculation_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5930",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5931",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_crossfit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5932",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_crosstraining_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5933",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_hiit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5934",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_amrap_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5935",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_emom_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5936",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_cardio_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5937",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_trail_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5938",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_caf_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5939",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_mobilite_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5940",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_planche_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_debutant_remise_forme_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5941",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_musculation_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5942",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5943",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_crossfit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5944",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_crosstraining_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5945",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_hiit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5946",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_amrap_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5947",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_emom_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5948",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_cardio_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5949",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_trail_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5950",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_caf_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5951",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_mobilite_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5952",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/core/core_gainage_planche_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_actif_remise_forme_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5953",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_musculation_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5954",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5955",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_crossfit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5956",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_crosstraining_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5957",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_hiit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5958",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_amrap_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5959",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_emom_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5960",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_cardio_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5961",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_trail_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5962",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_caf_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5963",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_mobilite_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5964",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/core/core_gainage_planche_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_confirme_remise_forme_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5965",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_musculation_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5966",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5967",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_crossfit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5968",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_crosstraining_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5969",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_hiit_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5970",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_amrap_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5971",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_emom_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5972",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_cardio_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5973",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_trail_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5974",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "caf",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_caf.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_caf_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5975",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "mobilite",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_mobilite.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_mobilite_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5976",
+    "name": "Gainage planche",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/core/core_gainage_planche_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_planche_athlete_remise_forme_avatar.png",
+    "beginnerText": "Gainage planche : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5977",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_musculation_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5978",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5979",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_crossfit_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5980",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_crosstraining_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5981",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_hiit_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5982",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_amrap_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5983",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_emom_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5984",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_cardio_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5985",
+    "name": "Gainage latéral",
+    "category": "core",
+    "categoryLabel": "Abdos / Core / CAF",
+    "folder": "core",
+    "icon": "🧱",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "élastique",
+      "poulie",
+      "medecine ball"
+    ],
+    "injuryFilters": [
+      "lombaires",
+      "épaule",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/core/core_gainage_lateral_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/core/core_gainage_lateral_debutant_trail_avatar.png",
+    "beginnerText": "Gainage latéral : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

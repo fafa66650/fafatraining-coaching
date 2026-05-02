@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX0951",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_cardio_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0952",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_remise_forme_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0953",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_musculation_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0954",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_crossfit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0955",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_crosstraining_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0956",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_hiit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0957",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_amrap_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0958",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_emom_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0959",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_cardio_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0960",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_barre_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_debutant_remise_forme_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0961",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_musculation_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0962",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_crossfit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0963",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_crosstraining_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0964",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_hiit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0965",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_amrap_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0966",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_emom_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0967",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_cardio_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0968",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_barre_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_actif_remise_forme_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0969",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_musculation_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0970",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_crossfit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0971",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_crosstraining_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0972",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_hiit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0973",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_amrap_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0974",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_emom_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0975",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_cardio_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0976",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_barre_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_confirme_remise_forme_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0977",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_musculation_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0978",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_crossfit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0979",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_crosstraining_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0980",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_hiit_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0981",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_amrap_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0982",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_emom_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0983",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_cardio_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0984",
+    "name": "Rowing barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_barre_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_barre_athlete_remise_forme_avatar.png",
+    "beginnerText": "Rowing barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0985",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_musculation_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0986",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_crossfit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0987",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_crosstraining_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0988",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_hiit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0989",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_amrap_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0990",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_emom_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0991",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_cardio_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0992",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_debutant_remise_forme_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0993",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_musculation_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0994",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_crossfit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0995",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_crosstraining_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0996",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_hiit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0997",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_amrap_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0998",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_emom_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0999",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_cardio_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1000",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_actif_remise_forme_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1001",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_musculation_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1002",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_crossfit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1003",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_crosstraining_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1004",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_hiit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1005",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_amrap_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1006",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_emom_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1007",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_cardio_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1008",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_confirme_remise_forme_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1009",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_musculation_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1010",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_crossfit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1011",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_crosstraining_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1012",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_hiit_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1013",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_amrap_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1014",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_emom_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1015",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_cardio_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1016",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_haltere_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_haltere_athlete_remise_forme_avatar.png",
+    "beginnerText": "Rowing haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1017",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_musculation_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1018",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_crossfit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1019",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_crosstraining_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1020",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_hiit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1021",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_amrap_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1022",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_emom_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1023",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_cardio_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1024",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_debutant_remise_forme_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1025",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_musculation_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1026",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_crossfit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1027",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_crosstraining_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1028",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_hiit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1029",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_amrap_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1030",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_emom_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1031",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_cardio_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1032",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_actif_remise_forme_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1033",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_musculation_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1034",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_crossfit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1035",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_crosstraining_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1036",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_hiit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1037",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_amrap_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1038",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_emom_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1039",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_cardio_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1040",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_confirme_remise_forme_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1041",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_musculation_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1042",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_crossfit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1043",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_crosstraining_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1044",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_hiit_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1045",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_amrap_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

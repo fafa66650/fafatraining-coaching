@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX4751",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_actif_boxe_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4752",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_actif_cardio_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4753",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_actif_trail_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4754",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_actif_remise_forme_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4755",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_musculation_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4756",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_crossfit_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4757",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_crosstraining_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4758",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_hiit_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4759",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_amrap_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4760",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_emom_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4761",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_hyrox_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4762",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_boxe_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4763",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_cardio_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4764",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_trail_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4765",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_confirme_remise_forme_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4766",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_musculation_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4767",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_crossfit_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4768",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_crosstraining_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4769",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_hiit_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4770",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_amrap_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4771",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_emom_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4772",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_hyrox_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4773",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_boxe_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4774",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_cardio_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4775",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_trail_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4776",
+    "name": "Lunges Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_lunges_hyrox_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_lunges_hyrox_athlete_remise_forme_avatar.png",
+    "beginnerText": "Lunges Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4777",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_musculation_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4778",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_crossfit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4779",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_crosstraining_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4780",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_hiit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4781",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_amrap_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4782",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_emom_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4783",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_hyrox_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4784",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_boxe_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4785",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_cardio_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4786",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_trail_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4787",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_400m_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_debutant_remise_forme_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4788",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_musculation_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4789",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_crossfit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4790",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_crosstraining_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4791",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_hiit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4792",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_amrap_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4793",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_emom_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4794",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_hyrox_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4795",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_boxe_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4796",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_cardio_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4797",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_trail_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4798",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_400m_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_actif_remise_forme_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4799",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_musculation_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4800",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_crossfit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4801",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_crosstraining_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4802",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_hiit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4803",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_amrap_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4804",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_emom_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4805",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_hyrox_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4806",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_boxe_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4807",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_cardio_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4808",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_trail_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4809",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_400m_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_confirme_remise_forme_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4810",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_musculation_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4811",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_crossfit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4812",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_crosstraining_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4813",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_hiit_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4814",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_amrap_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4815",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_emom_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4816",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_hyrox_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4817",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_boxe_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4818",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_cardio_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4819",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_trail_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4820",
+    "name": "Run 400m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_run_400m_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_400m_athlete_remise_forme_avatar.png",
+    "beginnerText": "Run 400m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4821",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_musculation_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4822",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_crossfit_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4823",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_crosstraining_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4824",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_hiit_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4825",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_amrap_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4826",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_emom_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4827",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_hyrox_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4828",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_boxe_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4829",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_cardio_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4830",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_trail_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4831",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_run_800m_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_debutant_remise_forme_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4832",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_musculation_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4833",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_crossfit_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4834",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_crosstraining_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4835",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_hiit_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4836",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_amrap_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4837",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_emom_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4838",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_hyrox_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4839",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_boxe_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4840",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_cardio_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4841",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_trail_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4842",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_run_800m_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_actif_remise_forme_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4843",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_800m_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_confirme_musculation_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4844",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_800m_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_confirme_crossfit_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4845",
+    "name": "Run 800m",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_run_800m_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_run_800m_confirme_crosstraining_avatar.png",
+    "beginnerText": "Run 800m : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "FAFATRAINING Coaching V29",
+  "short_name": "FAFA V29",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050805",
+  "theme_color": "#050805",
+  "icons": [
+    {
+      "src": "assets/logo/logo_officiel.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg"
+    }
+  ]
+}

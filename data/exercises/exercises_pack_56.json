@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX5226",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_boxe_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5227",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_cardio_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5228",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_actif_remise_forme_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5229",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_musculation_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5230",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5231",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_crossfit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5232",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_crosstraining_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5233",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_hiit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5234",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_amrap_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5235",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_emom_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5236",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_boxe_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5237",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_cardio_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5238",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_confirme_remise_forme_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5239",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_musculation_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5240",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5241",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_crossfit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5242",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_crosstraining_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5243",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_hiit_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5244",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_amrap_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5245",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_emom_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5246",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_boxe_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5247",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_cardio_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5248",
+    "name": "Directs au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_directs_au_sac_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_directs_au_sac_athlete_remise_forme_avatar.png",
+    "beginnerText": "Directs au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5249",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_musculation_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5250",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5251",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_crossfit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5252",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_crosstraining_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5253",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_hiit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5254",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_amrap_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5255",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_emom_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5256",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_boxe_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5257",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_cardio_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5258",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_debutant_remise_forme_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5259",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_musculation_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5260",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5261",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_crossfit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5262",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_crosstraining_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5263",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_hiit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5264",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_amrap_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5265",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_emom_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5266",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_boxe_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5267",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_cardio_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5268",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_actif_remise_forme_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5269",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_musculation_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5270",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5271",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_crossfit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5272",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_crosstraining_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5273",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_hiit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5274",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_amrap_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5275",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_emom_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5276",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_boxe_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5277",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_cardio_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5278",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_confirme_remise_forme_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5279",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_musculation_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5280",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5281",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_crossfit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5282",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_crosstraining_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5283",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_hiit_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5284",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_amrap_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5285",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_emom_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5286",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_boxe_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5287",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_cardio_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5288",
+    "name": "Crochets au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_crochets_au_sac_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_crochets_au_sac_athlete_remise_forme_avatar.png",
+    "beginnerText": "Crochets au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5289",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_musculation_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5290",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5291",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_crossfit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5292",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_crosstraining_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5293",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_hiit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5294",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_amrap_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5295",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_emom_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5296",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_boxe_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5297",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_cardio_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5298",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_debutant_remise_forme_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5299",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_musculation_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5300",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5301",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_crossfit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5302",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_crosstraining_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5303",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_hiit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5304",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_amrap_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5305",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_emom_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5306",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_boxe_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5307",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_cardio_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5308",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_actif_remise_forme_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5309",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_musculation_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5310",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5311",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_crossfit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5312",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_crosstraining_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5313",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_hiit_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5314",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_amrap_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5315",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_emom_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5316",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_boxe_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5317",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_cardio_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5318",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_confirme_remise_forme_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5319",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_athlete_musculation_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5320",
+    "name": "Uppercuts au sac",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_uppercuts_au_sac_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_uppercuts_au_sac_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Uppercuts au sac : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

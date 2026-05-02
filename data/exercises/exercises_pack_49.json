@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX4561",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_amrap_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4562",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_emom_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4563",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_hyrox_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4564",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_boxe_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4565",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_cardio_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4566",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_trail_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4567",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_debutant_remise_forme_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4568",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_musculation_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4569",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_crossfit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4570",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_crosstraining_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4571",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_hiit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4572",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_amrap_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4573",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_emom_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4574",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_hyrox_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4575",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_boxe_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4576",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_cardio_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4577",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_trail_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4578",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_actif_remise_forme_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4579",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_musculation_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4580",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_crossfit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4581",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_crosstraining_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4582",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_hiit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4583",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_amrap_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4584",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_emom_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4585",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_hyrox_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4586",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_boxe_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4587",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_cardio_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4588",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_trail_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4589",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_confirme_remise_forme_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4590",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_musculation_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4591",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_crossfit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4592",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_crosstraining_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4593",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_hiit_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4594",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_amrap_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4595",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_emom_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4596",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_hyrox_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4597",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_boxe_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4598",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_cardio_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4599",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_trail_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4600",
+    "name": "Marche inclinée",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_marche_inclinee_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_marche_inclinee_athlete_remise_forme_avatar.png",
+    "beginnerText": "Marche inclinée : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4601",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_musculation_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4602",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_crossfit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4603",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_crosstraining_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4604",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_hiit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4605",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_amrap_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4606",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_emom_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4607",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_hyrox_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4608",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_boxe_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4609",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_cardio_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4610",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_trail_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4611",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_debutant_remise_forme_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4612",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_musculation_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4613",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_crossfit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4614",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_crosstraining_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4615",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_hiit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4616",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_amrap_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4617",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_emom_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4618",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_hyrox_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4619",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_boxe_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4620",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_cardio_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4621",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_trail_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4622",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_actif_remise_forme_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4623",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_musculation_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4624",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_crossfit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4625",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_crosstraining_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4626",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_hiit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4627",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_amrap_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4628",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_emom_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4629",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_hyrox_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4630",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_boxe_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4631",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_cardio_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4632",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_trail_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4633",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_confirme_remise_forme_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4634",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_musculation_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4635",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_crossfit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4636",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_crosstraining_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4637",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_hiit_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4638",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_amrap_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4639",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_emom_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4640",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_hyrox_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4641",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_boxe_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4642",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_cardio_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4643",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_trail_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4644",
+    "name": "Sled push Hyrox",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/cardio/cardio_sled_push_hyrox_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_push_hyrox_athlete_remise_forme_avatar.png",
+    "beginnerText": "Sled push Hyrox : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4645",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_musculation_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4646",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_crossfit_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4647",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_crosstraining_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4648",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_hiit_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4649",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_amrap_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4650",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_emom_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4651",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_hyrox_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4652",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_boxe_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4653",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_cardio_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4654",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_trail_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4655",
+    "name": "Sled pull",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_sled_pull_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_sled_pull_debutant_remise_forme_avatar.png",
+    "beginnerText": "Sled pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

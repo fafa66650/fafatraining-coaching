@@ -1,0 +1,36 @@
+[
+  {
+    "id": "m1",
+    "name": "Membre 1",
+    "level": "debutant",
+    "goal": "remise_forme",
+    "place": "salle",
+    "days": 3,
+    "fatigue": 2,
+    "sleep": 7,
+    "stress": 2,
+    "mode": "debutant",
+    "injuries": [],
+    "equipment": [
+      "poids du corps",
+      "haltères",
+      "barre",
+      "banc",
+      "machine",
+      "poulie",
+      "cardio",
+      "kettlebell",
+      "box",
+      "corde",
+      "gants",
+      "sac de frappe",
+      "rameur",
+      "bike",
+      "extérieur",
+      "élastique",
+      "ski erg",
+      "sled",
+      "battle rope"
+    ]
+  }
+]

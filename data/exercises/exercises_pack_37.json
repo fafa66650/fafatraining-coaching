@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "EX3421",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_boxe_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3422",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_cardio_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3423",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_debutant_remise_forme_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3424",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_musculation_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3425",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3426",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_crossfit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3427",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_crosstraining_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3428",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_hiit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3429",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_amrap_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3430",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_emom_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3431",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_hyrox_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3432",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_boxe_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3433",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_cardio_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3434",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_actif_remise_forme_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3435",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_musculation_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3436",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3437",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_crossfit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3438",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_crosstraining_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3439",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_hiit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3440",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_amrap_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3441",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_emom_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3442",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_hyrox_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3443",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_boxe_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3444",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_cardio_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3445",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_confirme_remise_forme_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3446",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_musculation_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3447",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3448",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_crossfit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3449",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_crosstraining_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3450",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_hiit_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3451",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_amrap_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3452",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_emom_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3453",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_hyrox_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3454",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_boxe_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3455",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_cardio_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3456",
+    "name": "Jumping jacks",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jumping_jacks_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jumping_jacks_athlete_remise_forme_avatar.png",
+    "beginnerText": "Jumping jacks : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3457",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_musculation_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3458",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3459",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_crossfit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3460",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_crosstraining_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3461",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_hiit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3462",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_amrap_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3463",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_emom_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3464",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_hyrox_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3465",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_boxe_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3466",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_cardio_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3467",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_high_knees_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_debutant_remise_forme_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3468",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_musculation_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3469",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_poids_du_corps_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3470",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_crossfit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3471",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_crosstraining_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3472",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_hiit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3473",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_amrap_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3474",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_emom_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3475",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_hyrox_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3476",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_boxe_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3477",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_cardio_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3478",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_high_knees_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_actif_remise_forme_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3479",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_musculation_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3480",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3481",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_crossfit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3482",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_crosstraining_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3483",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_hiit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3484",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_amrap_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3485",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_emom_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3486",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_hyrox_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3487",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_boxe_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3488",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_cardio_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3489",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_high_knees_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_confirme_remise_forme_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3490",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_musculation_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3491",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3492",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_crossfit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3493",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_crosstraining_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3494",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_hiit_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3495",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_amrap_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3496",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_emom_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3497",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_hyrox_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3498",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_boxe_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3499",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_cardio_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3500",
+    "name": "High knees",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_high_knees_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_high_knees_athlete_remise_forme_avatar.png",
+    "beginnerText": "High knees : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3501",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_musculation_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3502",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3503",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_crossfit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3504",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_crosstraining_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3505",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_hiit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3506",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_amrap_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3507",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_emom_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3508",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_hyrox_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3509",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_boxe_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3510",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_cardio_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3511",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_debutant_remise_forme_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3512",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_musculation_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3513",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3514",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_crossfit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3515",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_crosstraining_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

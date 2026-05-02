@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "EX3516",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_hiit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3517",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_amrap_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3518",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_emom_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3519",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_hyrox_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3520",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_boxe_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3521",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_cardio_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3522",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_actif_remise_forme_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3523",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_musculation_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3524",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3525",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_crossfit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3526",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_crosstraining_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3527",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_hiit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3528",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_amrap_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3529",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_emom_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3530",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_hyrox_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3531",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_boxe_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3532",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_cardio_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3533",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_confirme_remise_forme_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3534",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_musculation_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3535",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3536",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_crossfit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3537",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_crosstraining_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3538",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_hiit_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3539",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_amrap_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3540",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_emom_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3541",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_hyrox_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3542",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_boxe_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3543",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_cardio_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3544",
+    "name": "Skater jump",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_skater_jump_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_skater_jump_athlete_remise_forme_avatar.png",
+    "beginnerText": "Skater jump : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3545",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_musculation_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3546",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3547",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_crossfit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3548",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_crosstraining_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3549",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_hiit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3550",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_amrap_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3551",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_emom_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3552",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_hyrox_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3553",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_boxe_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3554",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_cardio_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3555",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_debutant_remise_forme_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3556",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_musculation_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3557",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3558",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_crossfit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3559",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_crosstraining_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3560",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_hiit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3561",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_amrap_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3562",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_emom_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3563",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_hyrox_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3564",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_boxe_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3565",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_cardio_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3566",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_actif_remise_forme_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3567",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_musculation_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3568",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3569",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_crossfit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3570",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_crosstraining_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3571",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_hiit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3572",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_amrap_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3573",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_emom_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3574",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_hyrox_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3575",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_boxe_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3576",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_cardio_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3577",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_confirme_remise_forme_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3578",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_musculation_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3579",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3580",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_crossfit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3581",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_crosstraining_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3582",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_hiit_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3583",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_amrap_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3584",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_emom_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3585",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_hyrox_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3586",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_boxe_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3587",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_cardio_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3588",
+    "name": "Plank jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_plank_jack_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_plank_jack_athlete_remise_forme_avatar.png",
+    "beginnerText": "Plank jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3589",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_musculation_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3590",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3591",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_crossfit_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3592",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_crosstraining_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3593",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_hiit_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3594",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_amrap_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3595",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_emom_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3596",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_hyrox_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3597",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_boxe_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3598",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_cardio_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3599",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_debutant_remise_forme_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3600",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_musculation_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3601",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3602",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_crossfit_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3603",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_crosstraining_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3604",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_hiit_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3605",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_amrap_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3606",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_emom_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3607",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_hyrox_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3608",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_boxe_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3609",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_cardio_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX3610",
+    "name": "Battle rope waves",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_battle_rope_waves_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_battle_rope_waves_actif_remise_forme_avatar.png",
+    "beginnerText": "Battle rope waves : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

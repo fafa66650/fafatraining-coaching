@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX0856",
+    "name": "Tractions supination",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_supination_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_supination_athlete_remise_forme_avatar.png",
+    "beginnerText": "Tractions supination : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0857",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_musculation_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0858",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_crossfit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0859",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_crosstraining_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0860",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_hiit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0861",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_amrap_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0862",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_emom_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0863",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_cardio_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0864",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_debutant_remise_forme_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0865",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_musculation_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0866",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_crossfit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0867",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_crosstraining_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0868",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_hiit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0869",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_amrap_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0870",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_emom_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0871",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_cardio_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0872",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_actif_remise_forme_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0873",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_musculation_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0874",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_crossfit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0875",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_crosstraining_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0876",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_hiit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0877",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_amrap_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0878",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_emom_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0879",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_cardio_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0880",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_confirme_remise_forme_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0881",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_musculation_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0882",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_crossfit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0883",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_crosstraining_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0884",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_hiit_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0885",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_amrap_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0886",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_emom_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0887",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_cardio_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0888",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tractions_assistees_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tractions_assistees_athlete_remise_forme_avatar.png",
+    "beginnerText": "Tractions assistées : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0889",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_musculation_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0890",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_crossfit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0891",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_crosstraining_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0892",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_hiit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0893",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_amrap_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0894",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_emom_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0895",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_cardio_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0896",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_debutant_remise_forme_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0897",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_musculation_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0898",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_crossfit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0899",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_crosstraining_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0900",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_hiit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0901",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_amrap_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0902",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_emom_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0903",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_cardio_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0904",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_actif_remise_forme_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0905",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_musculation_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0906",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_crossfit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0907",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_crosstraining_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0908",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_hiit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0909",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_amrap_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0910",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_emom_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0911",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_cardio_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0912",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_confirme_remise_forme_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0913",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_musculation_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0914",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_crossfit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0915",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_crosstraining_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0916",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_hiit_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0917",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_amrap_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0918",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_emom_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0919",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_cardio_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0920",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_vertical_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_vertical_athlete_remise_forme_avatar.png",
+    "beginnerText": "Tirage vertical : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0921",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_musculation_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0922",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_crossfit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0923",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_crosstraining_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0924",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_hiit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0925",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_amrap_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0926",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_emom_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0927",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_cardio_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0928",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_debutant_remise_forme_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0929",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_musculation_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0930",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_crossfit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0931",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_crosstraining_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0932",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_hiit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0933",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_amrap_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0934",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_emom_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0935",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_cardio_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0936",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_actif_remise_forme_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0937",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_musculation_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0938",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_crossfit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0939",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_crosstraining_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0940",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_hiit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0941",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_amrap_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0942",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_emom_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0943",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_cardio_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0944",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_confirme_remise_forme_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0945",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_musculation_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0946",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_crossfit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0947",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_crosstraining_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0948",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_hiit_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0949",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_amrap_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX0950",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_tirage_horizontal_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_tirage_horizontal_athlete_emom_avatar.png",
+    "beginnerText": "Tirage horizontal : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

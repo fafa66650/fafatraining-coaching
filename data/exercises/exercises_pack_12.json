@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX1046",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_emom_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1047",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_cardio_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1048",
+    "name": "Rowing poulie basse",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_rowing_poulie_basse_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_rowing_poulie_basse_athlete_remise_forme_avatar.png",
+    "beginnerText": "Rowing poulie basse : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1049",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_musculation_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1050",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_crossfit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1051",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_crosstraining_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1052",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_hiit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1053",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_amrap_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1054",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_emom_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1055",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_cardio_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1056",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_face_pull_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_debutant_remise_forme_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1057",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_musculation_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1058",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_crossfit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1059",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_crosstraining_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1060",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_hiit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1061",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_amrap_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1062",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_emom_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1063",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_cardio_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1064",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_face_pull_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_actif_remise_forme_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1065",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_musculation_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1066",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_crossfit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1067",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_crosstraining_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1068",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_hiit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1069",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_amrap_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1070",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_emom_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1071",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_cardio_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1072",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_face_pull_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_confirme_remise_forme_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1073",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_musculation_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1074",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_crossfit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1075",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_crosstraining_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1076",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_hiit_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1077",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_amrap_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1078",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_emom_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1079",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_cardio_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1080",
+    "name": "Face pull",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_face_pull_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_face_pull_athlete_remise_forme_avatar.png",
+    "beginnerText": "Face pull : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1081",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_musculation_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1082",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_crossfit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1083",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_crosstraining_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1084",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_hiit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1085",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_amrap_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1086",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_emom_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1087",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_cardio_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1088",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_debutant_remise_forme_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1089",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_musculation_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1090",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_crossfit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1091",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_crosstraining_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1092",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_hiit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1093",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_amrap_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1094",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_emom_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1095",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_cardio_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1096",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_actif_remise_forme_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1097",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_musculation_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1098",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_crossfit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1099",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_crosstraining_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1100",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_hiit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1101",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_amrap_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1102",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_emom_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1103",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_cardio_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1104",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_confirme_remise_forme_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1105",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_musculation_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1106",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_crossfit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1107",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_crosstraining_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1108",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_hiit_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1109",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_amrap_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1110",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_emom_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1111",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_cardio_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1112",
+    "name": "Pullover poulie",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pullover_poulie_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pullover_poulie_athlete_remise_forme_avatar.png",
+    "beginnerText": "Pullover poulie : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1113",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_musculation_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1114",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_crossfit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1115",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_crosstraining_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1116",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_hiit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1117",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_amrap_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1118",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_emom_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1119",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_cardio_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1120",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_debutant_remise_forme_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1121",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_musculation_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1122",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_crossfit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1123",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_crosstraining_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1124",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_hiit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1125",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_amrap_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1126",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_emom_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1127",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_cardio_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1128",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_actif_remise_forme_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1129",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_musculation_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1130",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_crossfit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1131",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_crosstraining_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1132",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_hiit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1133",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_amrap_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1134",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_emom_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1135",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_cardio_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1136",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_confirme_remise_forme_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1137",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_musculation_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1138",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_crossfit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1139",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_crosstraining_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1140",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_hiit_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX1141",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_amrap_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1142",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_emom_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1143",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_cardio_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1144",
+    "name": "Pull-over haltère",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_pull_over_haltere_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_pull_over_haltere_athlete_remise_forme_avatar.png",
+    "beginnerText": "Pull-over haltère : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1145",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_musculation_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1146",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_crossfit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1147",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_crosstraining_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1148",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_hiit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1149",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_amrap_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1150",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_emom_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1151",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_cardio_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1152",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_barre_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_debutant_remise_forme_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1153",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_musculation_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1154",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_crossfit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1155",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_crosstraining_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1156",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_hiit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1157",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_amrap_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1158",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_emom_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1159",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_cardio_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1160",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_barre_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_actif_remise_forme_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1161",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_musculation_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1162",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_crossfit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1163",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_crosstraining_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1164",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_hiit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1165",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_amrap_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1166",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_emom_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1167",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_cardio_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1168",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_barre_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_confirme_remise_forme_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1169",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_musculation_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1170",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_crossfit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1171",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_crosstraining_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1172",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_hiit_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1173",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_amrap_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1174",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_emom_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1175",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_cardio_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1176",
+    "name": "Curl barre",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_barre_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_barre_athlete_remise_forme_avatar.png",
+    "beginnerText": "Curl barre : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1177",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_musculation_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1178",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_crossfit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1179",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_crosstraining_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1180",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_hiit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1181",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_amrap_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1182",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_emom_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1183",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_cardio_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1184",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_halteres_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_debutant_remise_forme_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1185",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_musculation_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1186",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_crossfit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1187",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_crosstraining_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1188",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_hiit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1189",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_amrap_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1190",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_emom_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1191",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_cardio_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1192",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_halteres_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_actif_remise_forme_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1193",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_musculation_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1194",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_crossfit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1195",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_crosstraining_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1196",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_hiit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1197",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_amrap_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1198",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_emom_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1199",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_cardio_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1200",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_halteres_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_confirme_remise_forme_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1201",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_musculation_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1202",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_crossfit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1203",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_crosstraining_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1204",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_hiit_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1205",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_amrap_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1206",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_emom_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1207",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_cardio_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1208",
+    "name": "Curl haltères",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_halteres_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_halteres_athlete_remise_forme_avatar.png",
+    "beginnerText": "Curl haltères : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1209",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_musculation_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1210",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_crossfit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1211",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_crosstraining_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1212",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_hiit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1213",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_amrap_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1214",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_emom_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1215",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_cardio_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1216",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "8–10 répétitions",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/pull/pull_curl_marteau_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_debutant_remise_forme_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1217",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_musculation_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1218",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_crossfit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1219",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_crosstraining_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1220",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_hiit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1221",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_amrap_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1222",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_emom_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1223",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_cardio_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1224",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "10–12 répétitions",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/pull/pull_curl_marteau_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_actif_remise_forme_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1225",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_musculation_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1226",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_crossfit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1227",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_crosstraining_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1228",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_hiit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1229",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_amrap_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1230",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_emom_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1231",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_cardio_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1232",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "8–12 répétitions",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/pull/pull_curl_marteau_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_confirme_remise_forme_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1233",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_marteau_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_athlete_musculation_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1234",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_marteau_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_athlete_crossfit_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX1235",
+    "name": "Curl marteau",
+    "category": "pull",
+    "categoryLabel": "Dos / Tirage",
+    "folder": "pull",
+    "icon": "🔵",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "haltères",
+      "barre",
+      "poulie",
+      "machine",
+      "barre traction"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "coude",
+      "lombaires"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "6–10 répétitions",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/pull/pull_curl_marteau_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/pull/pull_curl_marteau_athlete_crosstraining_avatar.png",
+    "beginnerText": "Curl marteau : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

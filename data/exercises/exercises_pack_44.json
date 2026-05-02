@@ -1,0 +1,4847 @@
+[
+  {
+    "id": "EX4086",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_crossfit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4087",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_crosstraining_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4088",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_hiit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4089",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_amrap_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4090",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_emom_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4091",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_hyrox_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4092",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_boxe_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4093",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_cardio_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4094",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_actif_remise_forme_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4095",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_musculation_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4096",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4097",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_crossfit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4098",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_crosstraining_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4099",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_hiit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4100",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_amrap_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4101",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_emom_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4102",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_hyrox_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4103",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_boxe_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4104",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_cardio_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4105",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_confirme_remise_forme_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4106",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_musculation_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4107",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4108",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_crossfit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4109",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_crosstraining_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4110",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_hiit_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4111",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_amrap_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4112",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_emom_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4113",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_hyrox_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4114",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_boxe_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4115",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_cardio_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4116",
+    "name": "Burpee over line",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_burpee_over_line_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_burpee_over_line_athlete_remise_forme_avatar.png",
+    "beginnerText": "Burpee over line : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4117",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_musculation_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4118",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4119",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_crossfit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4120",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_crosstraining_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4121",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_hiit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4122",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_amrap_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4123",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_emom_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4124",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_hyrox_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4125",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_boxe_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4126",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_cardio_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4127",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_debutant_remise_forme_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4128",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_musculation_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4129",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4130",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_crossfit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4131",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_crosstraining_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4132",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_hiit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4133",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_amrap_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4134",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_emom_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4135",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_hyrox_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4136",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_boxe_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4137",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_cardio_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4138",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_actif_remise_forme_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4139",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_musculation_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4140",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4141",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_crossfit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4142",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_crosstraining_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4143",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_hiit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4144",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_amrap_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4145",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_emom_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4146",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_hyrox_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4147",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_boxe_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4148",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_cardio_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4149",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_confirme_remise_forme_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4150",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_musculation_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4151",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4152",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_crossfit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4153",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_crosstraining_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4154",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_hiit_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4155",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_amrap_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4156",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_emom_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4157",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_hyrox_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4158",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_boxe_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4159",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_cardio_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4160",
+    "name": "Jump lunge",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_jump_lunge_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_jump_lunge_athlete_remise_forme_avatar.png",
+    "beginnerText": "Jump lunge : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4161",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_musculation_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4162",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4163",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_crossfit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4164",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_crosstraining_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4165",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_hiit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4166",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_amrap_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4167",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_emom_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4168",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_hyrox_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4169",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_boxe_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4170",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_cardio_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4171",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_step_jack_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_debutant_remise_forme_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4172",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_musculation_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4173",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4174",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_crossfit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4175",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_crosstraining_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4176",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_hiit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4177",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_amrap_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4178",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_emom_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4179",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_hyrox_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4180",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_boxe_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

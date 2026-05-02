@@ -1,0 +1,4820 @@
+[
+  {
+    "id": "EX4181",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_cardio_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4182",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_step_jack_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_actif_remise_forme_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4183",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_musculation_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4184",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4185",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_crossfit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4186",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_crosstraining_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4187",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_hiit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4188",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_amrap_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4189",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_emom_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4190",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_hyrox_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4191",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_boxe_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4192",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_cardio_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4193",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_step_jack_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_confirme_remise_forme_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4194",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_musculation_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4195",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4196",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_crossfit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4197",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_crosstraining_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4198",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_hiit_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4199",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_amrap_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4200",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_emom_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4201",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_hyrox_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4202",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_boxe_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4203",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_cardio_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4204",
+    "name": "Step jack",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_step_jack_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_step_jack_athlete_remise_forme_avatar.png",
+    "beginnerText": "Step jack : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4205",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_musculation_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4206",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4207",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_crossfit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4208",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_crosstraining_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4209",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_hiit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4210",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_amrap_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4211",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_emom_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4212",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_hyrox_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4213",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_boxe_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4214",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_cardio_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4215",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_debutant_remise_forme_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4216",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_musculation_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4217",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4218",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_crossfit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4219",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_crosstraining_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4220",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_hiit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4221",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_amrap_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4222",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_emom_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4223",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_hyrox_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4224",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_boxe_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4225",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_cardio_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4226",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_actif_remise_forme_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4227",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_musculation_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4228",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4229",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_crossfit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4230",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_crosstraining_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4231",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_hiit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4232",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_amrap_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4233",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_emom_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4234",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_hyrox_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4235",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_boxe_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4236",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_cardio_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4237",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_confirme_remise_forme_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4238",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_musculation_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4239",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4240",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_crossfit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4241",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_crosstraining_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4242",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_hiit_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4243",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_amrap_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4244",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_emom_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4245",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "hyrox",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_hyrox_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4246",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_boxe_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4247",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_cardio_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4248",
+    "name": "Air squat rapide",
+    "category": "hiit",
+    "categoryLabel": "HIIT / AMRAP / EMOM",
+    "folder": "full_body",
+    "icon": "⚡",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "poids du corps",
+      "corde",
+      "bike",
+      "rameur",
+      "battle rope"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio",
+      "poignet"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/full_body/full_body_air_squat_rapide_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/full_body/full_body_air_squat_rapide_athlete_remise_forme_avatar.png",
+    "beginnerText": "Air squat rapide : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4249",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_musculation_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4250",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_crossfit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4251",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_crosstraining_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4252",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_hiit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4253",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_amrap_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4254",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_emom_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4255",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_hyrox_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4256",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_boxe_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4257",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_cardio_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4258",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_trail_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4259",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_debutant_remise_forme_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4260",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_musculation_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4261",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_crossfit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4262",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_crosstraining_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4263",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_hiit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4264",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_amrap_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4265",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_emom_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4266",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hyrox",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_hyrox.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_hyrox_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4267",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_boxe_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4268",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_cardio_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4269",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "trail",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_trail.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_trail_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4270",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_actif_remise_forme_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4271",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_confirme_musculation_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4272",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_confirme_crossfit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4273",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_confirme_crosstraining_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4274",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_confirme_hiit_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX4275",
+    "name": "Rameur endurance",
+    "category": "cardio",
+    "categoryLabel": "Cardio / Hyrox / Trail",
+    "folder": "cardio",
+    "icon": "🏃",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "extérieur",
+      "rameur",
+      "bike",
+      "ski erg",
+      "sled"
+    ],
+    "injuryFilters": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/cardio/cardio_rameur_endurance_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/cardio/cardio_rameur_endurance_confirme_amrap_avatar.png",
+    "beginnerText": "Rameur endurance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "force",
+    "name": "Force & Hypertrophie",
+    "duration": "45–75 min",
+    "label": "Musculation",
+    "category": "push",
+    "style": "musculation",
+    "simple": "Force, volume, prise de masse."
+  },
+  {
+    "id": "poids_corps",
+    "name": "Poids du corps",
+    "duration": "25–55 min",
+    "label": "Maison / extérieur",
+    "category": "full_body",
+    "style": "poids_du_corps",
+    "simple": "Sans matériel, simple et efficace."
+  },
+  {
+    "id": "crossfit",
+    "name": "CrossFit",
+    "duration": "20–45 min",
+    "label": "WOD",
+    "category": "full_body",
+    "style": "crossfit",
+    "simple": "For time, AMRAP, chippers."
+  },
+  {
+    "id": "crosstraining",
+    "name": "CrossTraining",
+    "duration": "30–55 min",
+    "label": "Prépa physique",
+    "category": "full_body",
+    "style": "crosstraining",
+    "simple": "Fonctionnel et modulable."
+  },
+  {
+    "id": "hiit",
+    "name": "HIIT",
+    "duration": "18–30 min",
+    "label": "Intervalles",
+    "category": "hiit",
+    "style": "hiit",
+    "simple": "Efforts courts et intenses."
+  },
+  {
+    "id": "amrap",
+    "name": "AMRAP",
+    "duration": "12–20 min",
+    "label": "Max tours",
+    "category": "hiit",
+    "style": "amrap",
+    "simple": "Faire le plus de tours propres."
+  },
+  {
+    "id": "emom",
+    "name": "EMOM",
+    "duration": "16–24 min",
+    "label": "Chaque minute",
+    "category": "hiit",
+    "style": "emom",
+    "simple": "Un travail à faire chaque minute."
+  },
+  {
+    "id": "hyrox",
+    "name": "Hyrox",
+    "duration": "45–90 min",
+    "label": "Course + stations",
+    "category": "cardio",
+    "style": "hyrox",
+    "simple": "Course, rameur, sled, carries."
+  },
+  {
+    "id": "boxe",
+    "name": "Boxe / Cardio boxing",
+    "duration": "30–55 min",
+    "label": "Technique + cardio",
+    "category": "boxe",
+    "style": "boxe",
+    "simple": "Appuis, sac, rounds."
+  },
+  {
+    "id": "trail",
+    "name": "Trail / Running",
+    "duration": "40–90 min",
+    "label": "Outdoor",
+    "category": "cardio",
+    "style": "trail",
+    "simple": "Endurance, côtes, prévention."
+  },
+  {
+    "id": "caf",
+    "name": "CAF / Abdos",
+    "duration": "25–45 min",
+    "label": "Cuisses abdos fessiers",
+    "category": "core",
+    "style": "caf",
+    "simple": "Bas du corps et gainage."
+  },
+  {
+    "id": "mobilite",
+    "name": "Mobilité / Stretching",
+    "duration": "20–40 min",
+    "label": "Prévention",
+    "category": "mobilite",
+    "style": "mobilite",
+    "simple": "Souplesse, récupération, posture."
+  }
+]

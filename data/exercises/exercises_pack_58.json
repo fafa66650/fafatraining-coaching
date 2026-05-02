@@ -1,0 +1,4752 @@
+[
+  {
+    "id": "EX5416",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_debutant_boxe_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5417",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_debutant_cardio_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5418",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_debutant_remise_forme_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5419",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_musculation_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5420",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5421",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_crossfit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5422",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_crosstraining_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5423",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_hiit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5424",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_amrap_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5425",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_emom_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5426",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_boxe_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5427",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_cardio_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5428",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_actif_remise_forme_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5429",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_musculation_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5430",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5431",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_crossfit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5432",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_crosstraining_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5433",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_hiit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5434",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_amrap_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5435",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_emom_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5436",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_boxe_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5437",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_cardio_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5438",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_confirme_remise_forme_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5439",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_musculation_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5440",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5441",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_crossfit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5442",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_crosstraining_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5443",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_hiit_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5444",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_amrap_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5445",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_emom_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5446",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_boxe_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5447",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_cardio_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5448",
+    "name": "Appuis corde",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_appuis_corde_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_appuis_corde_athlete_remise_forme_avatar.png",
+    "beginnerText": "Appuis corde : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5449",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_musculation_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5450",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5451",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_crossfit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5452",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_crosstraining_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5453",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_hiit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5454",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_amrap_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5455",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_emom_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5456",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_boxe_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5457",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_cardio_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5458",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_debutant_remise_forme_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5459",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_musculation_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5460",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5461",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_crossfit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5462",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_crosstraining_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5463",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_hiit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5464",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_amrap_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5465",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_emom_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5466",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_boxe_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5467",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_cardio_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5468",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_actif_remise_forme_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5469",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_musculation_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5470",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5471",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_crossfit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5472",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_crosstraining_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5473",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_hiit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5474",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_amrap_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5475",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_emom_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5476",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_boxe_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5477",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_cardio_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5478",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_confirme_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_confirme_remise_forme_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5479",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_musculation_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5480",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_poids_du_corps_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5481",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_crossfit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5482",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_crosstraining_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5483",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_hiit_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5484",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_amrap_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5485",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_emom_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5486",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_boxe_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5487",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_cardio_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5488",
+    "name": "Round cardio boxing",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "athlete",
+    "levelLabel": "Athlète FAFATRAINING",
+    "difficulty": "Très difficile",
+    "levelScore": 20,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 5,
+    "reps": "30–45 secondes",
+    "restSeconds": 120,
+    "restLabel": "120s",
+    "photo": "assets/photos/boxe/boxe_round_cardio_boxing_athlete_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_round_cardio_boxing_athlete_remise_forme_avatar.png",
+    "beginnerText": "Round cardio boxing : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5489",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_musculation_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5490",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_poids_du_corps_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5491",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_crossfit_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5492",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_crosstraining_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5493",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_hiit_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5494",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_amrap_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5495",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_emom_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5496",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_boxe_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5497",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_cardio_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5498",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "debutant",
+    "levelLabel": "Débutant",
+    "difficulty": "Facile",
+    "levelScore": 1,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 2,
+    "reps": "30–45 secondes",
+    "restSeconds": 45,
+    "restLabel": "45s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_debutant_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_debutant_remise_forme_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5499",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_musculation_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5500",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_poids_du_corps_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5501",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crossfit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_crossfit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_crossfit_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5502",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "crosstraining",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_crosstraining.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_crosstraining_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5503",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "hiit",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_hiit.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_hiit_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5504",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "amrap",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "performance"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_amrap.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_amrap_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5505",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "emom",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_emom.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_emom_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5506",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "boxe",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "performance",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_boxe.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_boxe_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5507",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "cardio",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "perte_poids",
+      "remise_forme"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_cardio.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_cardio_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5508",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "remise_forme",
+    "level": "actif",
+    "levelLabel": "Actif",
+    "difficulty": "Moyen",
+    "levelScore": 5,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 3,
+    "reps": "30–45 secondes",
+    "restSeconds": 60,
+    "restLabel": "60s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_actif_remise_forme.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_actif_remise_forme_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5509",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "musculation",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "prise_masse",
+      "performance"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_confirme_musculation.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_confirme_musculation_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  },
+  {
+    "id": "EX5510",
+    "name": "Sac puissance",
+    "category": "boxe",
+    "categoryLabel": "Boxe / Cardio boxing",
+    "folder": "boxe",
+    "icon": "🥊",
+    "style": "poids_du_corps",
+    "level": "confirme",
+    "levelLabel": "Confirmé",
+    "difficulty": "Difficile",
+    "levelScore": 10,
+    "equipment": [
+      "gants",
+      "sac de frappe",
+      "corde",
+      "poids du corps"
+    ],
+    "injuryFilters": [
+      "épaule",
+      "poignet",
+      "cheville",
+      "cardio"
+    ],
+    "goals": [
+      "remise_forme",
+      "perte_poids"
+    ],
+    "sets": 4,
+    "reps": "30–45 secondes",
+    "restSeconds": 90,
+    "restLabel": "90s",
+    "photo": "assets/photos/boxe/boxe_sac_puissance_confirme_poids_du_corps.jpg",
+    "avatar": "assets/avatar_exercices/boxe/boxe_sac_puissance_confirme_poids_du_corps_avatar.png",
+    "beginnerText": "Sac puissance : place-toi correctement, garde le ventre serré, bouge lentement et arrête si tu ressens une douleur.",
+    "coachTip": "Posture propre, respiration contrôlée, amplitude sans douleur.",
+    "avoid": [
+      "Aller trop vite",
+      "Perdre le gainage",
+      "Forcer une douleur",
+      "Choisir trop lourd"
+    ],
+    "alternatives": {
+      "épaule": "réduire l’amplitude ou choisir une variante élastique",
+      "genou": "choisir une variante sans saut ou réduire l’amplitude",
+      "lombaires": "alléger, ralentir, garder le dos neutre",
+      "poignet": "utiliser poignées ou appui neutre",
+      "cardio": "réduire le rythme, allonger la récupération"
+    }
+  }
+]
