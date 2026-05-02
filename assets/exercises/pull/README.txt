@@ -1,1 +1,0 @@
-Images de la catégorie pull. Utilise les noms exacts listés dans VISUELS_A_CREER.csv.
