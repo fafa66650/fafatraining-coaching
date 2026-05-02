@@ -1,0 +1,1 @@
+Images de la catégorie boxe. Utilise les noms exacts listés dans VISUELS_A_CREER.csv.

@@ -1,0 +1,1 @@
+Images de la catégorie mobilite. Utilise les noms exacts listés dans VISUELS_A_CREER.csv.

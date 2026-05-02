@@ -1,31 +1,29 @@
-# FAFATRAINING COACHING — Rebuild V1 Clean Premium
+# FAFATRAINING COACHING V33 — Rebuild Propre
 
-FAFATRAINING COACHING est une application pensée pour les coachs, éducateurs sportifs et pratiquants qui veulent créer une séance claire, rapide et adaptée.
+V33 corrige le problème principal : l’application ne simule plus un utilisateur qui a déjà commencé.
 
-Elle sert à ouvrir l’app, choisir un profil, lancer une séance, coacher exercice par exercice, puis envoyer un programme propre au client.
+## Corrections majeures
+- Accueil vide au premier lancement
+- Création du profil obligatoire avant les statistiques
+- Suivi vide tant qu’aucune séance n’est terminée
+- Aucune séance affichée tant qu’elle n’est pas générée
+- Matériel non coché par défaut
+- Ordre logique : Accueil > Coach > Séance > Exercices > Suivi
+- IMC intégré
+- Bibliothèque pédagogique avec explications novice, erreurs et variantes
+- Dossiers visuels prêts avec les vrais noms de fichiers
 
-## Pour qui ?
-- coach sportif
-- éducateur sportif
-- association sportive
-- pratiquant autonome
-- public débutant, intermédiaire, avancé ou expert
+## Visuels
+Ajoute plus tard les images dans :
+- assets/exercises/push
+- assets/exercises/pull
+- assets/exercises/legs
+- assets/exercises/core
+- assets/exercises/cardio_crossfit
+- assets/exercises/boxe
+- assets/exercises/mobilite
 
-## Ce que fait l’application
-- génère une séance selon le niveau, l’objectif, la durée, la fatigue, les blessures et le matériel
-- affiche une séance lisible avec chrono, séries, répétitions, repos et consignes simples
-- filtre automatiquement les exercices à éviter selon les blessures
-- propose un export PDF A4 pour le client
-- propose un export carré type visuel programme
-- prépare les dossiers pour intégrer les visuels photo, avatar et mix
+Voir `VISUELS_A_CREER.csv`.
 
-## Ambiance
-Simple. Lisible. Terrain.
-
-Force ton corps. Élève ton mental.
-
-## Dossiers visuels
-- `assets/visuals/photos/`
-- `assets/visuals/avatar_actions/`
-- `assets/visuals/mix/`
-- `VISUELS_A_CREER.csv`
+## Déploiement
+Dézipper à la racine du dépôt GitHub Pages.
