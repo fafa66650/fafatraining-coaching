@@ -1,0 +1,296 @@
+{
+  "pompes": {
+    "photo": "assets/visuals/photos/pompes.jpg",
+    "avatar": "assets/visuals/avatar_actions/pompes.png",
+    "mix": "assets/visuals/mix/pompes.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "pompes_inclinees": {
+    "photo": "assets/visuals/photos/pompes_inclinees.jpg",
+    "avatar": "assets/visuals/avatar_actions/pompes_inclinees.png",
+    "mix": "assets/visuals/mix/pompes_inclinees.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "developpe_couche": {
+    "photo": "assets/visuals/photos/developpe_couche.jpg",
+    "avatar": "assets/visuals/avatar_actions/developpe_couche.png",
+    "mix": "assets/visuals/mix/developpe_couche.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "developpe_incline": {
+    "photo": "assets/visuals/photos/developpe_incline.jpg",
+    "avatar": "assets/visuals/avatar_actions/developpe_incline.png",
+    "mix": "assets/visuals/mix/developpe_incline.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "dips": {
+    "photo": "assets/visuals/photos/dips.jpg",
+    "avatar": "assets/visuals/avatar_actions/dips.png",
+    "mix": "assets/visuals/mix/dips.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "developpe_militaire": {
+    "photo": "assets/visuals/photos/developpe_militaire.jpg",
+    "avatar": "assets/visuals/avatar_actions/developpe_militaire.png",
+    "mix": "assets/visuals/mix/developpe_militaire.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "elevations_laterales": {
+    "photo": "assets/visuals/photos/elevations_laterales.jpg",
+    "avatar": "assets/visuals/avatar_actions/elevations_laterales.png",
+    "mix": "assets/visuals/mix/elevations_laterales.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "extension_triceps": {
+    "photo": "assets/visuals/photos/extension_triceps.jpg",
+    "avatar": "assets/visuals/avatar_actions/extension_triceps.png",
+    "mix": "assets/visuals/mix/extension_triceps.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "tractions": {
+    "photo": "assets/visuals/photos/tractions.jpg",
+    "avatar": "assets/visuals/avatar_actions/tractions.png",
+    "mix": "assets/visuals/mix/tractions.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "tirage_vertical": {
+    "photo": "assets/visuals/photos/tirage_vertical.jpg",
+    "avatar": "assets/visuals/avatar_actions/tirage_vertical.png",
+    "mix": "assets/visuals/mix/tirage_vertical.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "rowing_barre": {
+    "photo": "assets/visuals/photos/rowing_barre.jpg",
+    "avatar": "assets/visuals/avatar_actions/rowing_barre.png",
+    "mix": "assets/visuals/mix/rowing_barre.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "rowing_haltere": {
+    "photo": "assets/visuals/photos/rowing_haltere.jpg",
+    "avatar": "assets/visuals/avatar_actions/rowing_haltere.png",
+    "mix": "assets/visuals/mix/rowing_haltere.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "face_pull": {
+    "photo": "assets/visuals/photos/face_pull.jpg",
+    "avatar": "assets/visuals/avatar_actions/face_pull.png",
+    "mix": "assets/visuals/mix/face_pull.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "curl_halteres": {
+    "photo": "assets/visuals/photos/curl_halteres.jpg",
+    "avatar": "assets/visuals/avatar_actions/curl_halteres.png",
+    "mix": "assets/visuals/mix/curl_halteres.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "curl_marteau": {
+    "photo": "assets/visuals/photos/curl_marteau.jpg",
+    "avatar": "assets/visuals/avatar_actions/curl_marteau.png",
+    "mix": "assets/visuals/mix/curl_marteau.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "squat": {
+    "photo": "assets/visuals/photos/squat.jpg",
+    "avatar": "assets/visuals/avatar_actions/squat.png",
+    "mix": "assets/visuals/mix/squat.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "goblet_squat": {
+    "photo": "assets/visuals/photos/goblet_squat.jpg",
+    "avatar": "assets/visuals/avatar_actions/goblet_squat.png",
+    "mix": "assets/visuals/mix/goblet_squat.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "back_squat": {
+    "photo": "assets/visuals/photos/back_squat.jpg",
+    "avatar": "assets/visuals/avatar_actions/back_squat.png",
+    "mix": "assets/visuals/mix/back_squat.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "presse": {
+    "photo": "assets/visuals/photos/presse.jpg",
+    "avatar": "assets/visuals/avatar_actions/presse.png",
+    "mix": "assets/visuals/mix/presse.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "fentes_arriere": {
+    "photo": "assets/visuals/photos/fentes_arriere.jpg",
+    "avatar": "assets/visuals/avatar_actions/fentes_arriere.png",
+    "mix": "assets/visuals/mix/fentes_arriere.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "fentes_bulgares": {
+    "photo": "assets/visuals/photos/fentes_bulgares.jpg",
+    "avatar": "assets/visuals/avatar_actions/fentes_bulgares.png",
+    "mix": "assets/visuals/mix/fentes_bulgares.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "step_up": {
+    "photo": "assets/visuals/photos/step_up.jpg",
+    "avatar": "assets/visuals/avatar_actions/step_up.png",
+    "mix": "assets/visuals/mix/step_up.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "deadlift": {
+    "photo": "assets/visuals/photos/deadlift.jpg",
+    "avatar": "assets/visuals/avatar_actions/deadlift.png",
+    "mix": "assets/visuals/mix/deadlift.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "rdl": {
+    "photo": "assets/visuals/photos/rdl.jpg",
+    "avatar": "assets/visuals/avatar_actions/rdl.png",
+    "mix": "assets/visuals/mix/rdl.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "hip_thrust": {
+    "photo": "assets/visuals/photos/hip_thrust.jpg",
+    "avatar": "assets/visuals/avatar_actions/hip_thrust.png",
+    "mix": "assets/visuals/mix/hip_thrust.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "mollets": {
+    "photo": "assets/visuals/photos/mollets.jpg",
+    "avatar": "assets/visuals/avatar_actions/mollets.png",
+    "mix": "assets/visuals/mix/mollets.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "gainage": {
+    "photo": "assets/visuals/photos/gainage.jpg",
+    "avatar": "assets/visuals/avatar_actions/gainage.png",
+    "mix": "assets/visuals/mix/gainage.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "gainage_lateral": {
+    "photo": "assets/visuals/photos/gainage_lateral.jpg",
+    "avatar": "assets/visuals/avatar_actions/gainage_lateral.png",
+    "mix": "assets/visuals/mix/gainage_lateral.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "dead_bug": {
+    "photo": "assets/visuals/photos/dead_bug.jpg",
+    "avatar": "assets/visuals/avatar_actions/dead_bug.png",
+    "mix": "assets/visuals/mix/dead_bug.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "crunch": {
+    "photo": "assets/visuals/photos/crunch.jpg",
+    "avatar": "assets/visuals/avatar_actions/crunch.png",
+    "mix": "assets/visuals/mix/crunch.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "releves_jambes": {
+    "photo": "assets/visuals/photos/releves_jambes.jpg",
+    "avatar": "assets/visuals/avatar_actions/releves_jambes.png",
+    "mix": "assets/visuals/mix/releves_jambes.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "burpee": {
+    "photo": "assets/visuals/photos/burpee.jpg",
+    "avatar": "assets/visuals/avatar_actions/burpee.png",
+    "mix": "assets/visuals/mix/burpee.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "sprawl": {
+    "photo": "assets/visuals/photos/sprawl.jpg",
+    "avatar": "assets/visuals/avatar_actions/sprawl.png",
+    "mix": "assets/visuals/mix/sprawl.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "mountain_climber": {
+    "photo": "assets/visuals/photos/mountain_climber.jpg",
+    "avatar": "assets/visuals/avatar_actions/mountain_climber.png",
+    "mix": "assets/visuals/mix/mountain_climber.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "jumping_jack": {
+    "photo": "assets/visuals/photos/jumping_jack.jpg",
+    "avatar": "assets/visuals/avatar_actions/jumping_jack.png",
+    "mix": "assets/visuals/mix/jumping_jack.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "corde_sauter": {
+    "photo": "assets/visuals/photos/corde_sauter.jpg",
+    "avatar": "assets/visuals/avatar_actions/corde_sauter.png",
+    "mix": "assets/visuals/mix/corde_sauter.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "rameur": {
+    "photo": "assets/visuals/photos/rameur.jpg",
+    "avatar": "assets/visuals/avatar_actions/rameur.png",
+    "mix": "assets/visuals/mix/rameur.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "sled_push": {
+    "photo": "assets/visuals/photos/sled_push.jpg",
+    "avatar": "assets/visuals/avatar_actions/sled_push.png",
+    "mix": "assets/visuals/mix/sled_push.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "kettlebell_swing": {
+    "photo": "assets/visuals/photos/kettlebell_swing.jpg",
+    "avatar": "assets/visuals/avatar_actions/kettlebell_swing.png",
+    "mix": "assets/visuals/mix/kettlebell_swing.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "thruster": {
+    "photo": "assets/visuals/photos/thruster.jpg",
+    "avatar": "assets/visuals/avatar_actions/thruster.png",
+    "mix": "assets/visuals/mix/thruster.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "wall_ball": {
+    "photo": "assets/visuals/photos/wall_ball.jpg",
+    "avatar": "assets/visuals/avatar_actions/wall_ball.png",
+    "mix": "assets/visuals/mix/wall_ball.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "farmer_walk": {
+    "photo": "assets/visuals/photos/farmer_walk.jpg",
+    "avatar": "assets/visuals/avatar_actions/farmer_walk.png",
+    "mix": "assets/visuals/mix/farmer_walk.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "shadow_boxing": {
+    "photo": "assets/visuals/photos/shadow_boxing.jpg",
+    "avatar": "assets/visuals/avatar_actions/shadow_boxing.png",
+    "mix": "assets/visuals/mix/shadow_boxing.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "directs": {
+    "photo": "assets/visuals/photos/directs.jpg",
+    "avatar": "assets/visuals/avatar_actions/directs.png",
+    "mix": "assets/visuals/mix/directs.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "crochets": {
+    "photo": "assets/visuals/photos/crochets.jpg",
+    "avatar": "assets/visuals/avatar_actions/crochets.png",
+    "mix": "assets/visuals/mix/crochets.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "world_stretch": {
+    "photo": "assets/visuals/photos/world_stretch.jpg",
+    "avatar": "assets/visuals/avatar_actions/world_stretch.png",
+    "mix": "assets/visuals/mix/world_stretch.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "90_90": {
+    "photo": "assets/visuals/photos/90_90.jpg",
+    "avatar": "assets/visuals/avatar_actions/90_90.png",
+    "mix": "assets/visuals/mix/90_90.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "cat_cow": {
+    "photo": "assets/visuals/photos/cat_cow.jpg",
+    "avatar": "assets/visuals/avatar_actions/cat_cow.png",
+    "mix": "assets/visuals/mix/cat_cow.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  },
+  "stretch_psoas": {
+    "photo": "assets/visuals/photos/stretch_psoas.jpg",
+    "avatar": "assets/visuals/avatar_actions/stretch_psoas.png",
+    "mix": "assets/visuals/mix/stretch_psoas.png",
+    "fallback": "assets/visuals/fallback/default.svg"
+  }
+}

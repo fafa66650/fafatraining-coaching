@@ -1,0 +1,1 @@
+Place ici les visuels avec les noms exacts indiqués dans VISUELS_A_CREER.csv.

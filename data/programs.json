@@ -1,0 +1,101 @@
+[
+  {
+    "id": "full_body",
+    "name": "Full body intelligent",
+    "goal": "remise_forme",
+    "duration": "45 min",
+    "categories": [
+      "push",
+      "pull",
+      "legs",
+      "core",
+      "cardio"
+    ],
+    "description": "Séance complète, claire et adaptable."
+  },
+  {
+    "id": "poids_du_corps",
+    "name": "Poids du corps",
+    "goal": "remise_forme",
+    "duration": "20–55 min",
+    "categories": [
+      "push",
+      "legs",
+      "core",
+      "cardio"
+    ],
+    "description": "Maison, extérieur, débutant ou reprise."
+  },
+  {
+    "id": "musculation",
+    "name": "Musculation force",
+    "goal": "prise_masse",
+    "duration": "45–75 min",
+    "categories": [
+      "push",
+      "pull",
+      "legs"
+    ],
+    "description": "Force, volume, progression."
+  },
+  {
+    "id": "cross_training",
+    "name": "CrossTraining / WOD",
+    "goal": "performance",
+    "duration": "20–60 min",
+    "categories": [
+      "legs",
+      "push",
+      "cardio",
+      "core"
+    ],
+    "description": "Fonctionnel, intense, modulable."
+  },
+  {
+    "id": "hiit",
+    "name": "HIIT / AMRAP / EMOM",
+    "goal": "perte_poids",
+    "duration": "18–30 min",
+    "categories": [
+      "cardio",
+      "core",
+      "legs",
+      "push"
+    ],
+    "description": "Rapide, cardio, efficace."
+  },
+  {
+    "id": "boxe",
+    "name": "Boxe cardio",
+    "goal": "performance",
+    "duration": "30–55 min",
+    "categories": [
+      "boxe",
+      "cardio",
+      "core"
+    ],
+    "description": "Appuis, cardio, coordination."
+  },
+  {
+    "id": "mobilite",
+    "name": "Mobilité / Stretching",
+    "goal": "bien_etre",
+    "duration": "20–40 min",
+    "categories": [
+      "mobility",
+      "core"
+    ],
+    "description": "Prévention, récupération, amplitude."
+  },
+  {
+    "id": "jambes",
+    "name": "Jambes & fessiers",
+    "goal": "prise_masse",
+    "duration": "45–70 min",
+    "categories": [
+      "legs",
+      "core"
+    ],
+    "description": "Force, stabilité, volume bas du corps."
+  }
+]
