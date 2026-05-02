@@ -1,29 +1,34 @@
-# FAFATRAINING COACHING V33 — Rebuild Propre
+# FAFATRAINING COACHING V35 ELITE
 
-V33 corrige le problème principal : l’application ne simule plus un utilisateur qui a déjà commencé.
+Version basée sur V34 avec amélioration complète de la page d’accueil, séance rapide avancée, matériel et blessures structurés.
 
-## Corrections majeures
-- Accueil vide au premier lancement
-- Création du profil obligatoire avant les statistiques
-- Suivi vide tant qu’aucune séance n’est terminée
-- Aucune séance affichée tant qu’elle n’est pas générée
-- Matériel non coché par défaut
-- Ordre logique : Accueil > Coach > Séance > Exercices > Suivi
-- IMC intégré
-- Bibliothèque pédagogique avec explications novice, erreurs et variantes
-- Dossiers visuels prêts avec les vrais noms de fichiers
+## Nouveautés
+- Accueil plus confortable et plus convivial
+- Logo fondu en arrière-plan
+- Navigation haute colorée par onglet
+- Bouton retour pastille sur les écrans nécessaires
+- Séance rapide avancée : nombre de personnes, objectif, durée, niveau, lieu
+- Styles ajoutés ou clarifiés :
+  - Circuit training
+  - Renforcement musculaire
+  - Étirements / stretching
+  - Hyrox
+  - CrossFit
+  - CrossTraining
+  - HIIT
+  - AMRAP
+  - EMOM
+  - Tabata
+  - For Time
+  - Boxe cardio / Cardio boxing
+- Matériel classé par type, plus complet
+- Extérieur corrigé comme lieu et non matériel
+- Blessures classées par zones du corps
+- Échelles fatigue, stress, sommeil, RPE expliquées
+- Bibliothèque enrichie : 103 exercices
 
 ## Visuels
-Ajoute plus tard les images dans :
-- assets/exercises/push
-- assets/exercises/pull
-- assets/exercises/legs
-- assets/exercises/core
-- assets/exercises/cardio_crossfit
-- assets/exercises/boxe
-- assets/exercises/mobilite
-
-Voir `VISUELS_A_CREER.csv`.
+Les visuels restent à ajouter plus tard en suivant `VISUELS_A_CREER.csv`.
 
 ## Déploiement
-Dézipper à la racine du dépôt GitHub Pages.
+Dézipper à la racine GitHub Pages.

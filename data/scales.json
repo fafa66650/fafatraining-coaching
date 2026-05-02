@@ -1,0 +1,29 @@
+{
+  "fatigue": {
+    "1": "Très frais : énergie haute, séance normale ou boost possible",
+    "2": "Un peu fatigué : séance normale",
+    "3": "Fatigue moyenne : séance contrôlée",
+    "4": "Fatigué : volume réduit, repos augmenté",
+    "5": "Très fatigué : séance légère ou mobilité"
+  },
+  "stress": {
+    "1": "Très calme",
+    "2": "Stress léger",
+    "3": "Stress moyen",
+    "4": "Stress élevé : éviter de surcharger",
+    "5": "Très stressé : séance courte, respiration, mobilité"
+  },
+  "sleep": {
+    "0-4": "Très mauvais sommeil : réduire intensité",
+    "5-6": "Sommeil moyen : séance contrôlée",
+    "7-8": "Bon sommeil : séance normale",
+    "9+": "Très bon sommeil : séance boost possible"
+  },
+  "rpe": {
+    "5-6": "Facile à modéré : tu peux parler",
+    "7": "Effort sérieux mais contrôlé",
+    "8": "Difficile, encore propre",
+    "9": "Très difficile, peu de marge",
+    "10": "Maximal, à éviter pour débutants"
+  }
+}

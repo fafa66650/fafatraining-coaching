@@ -1,0 +1,2337 @@
+[
+  {
+    "key": "pompes",
+    "name": "Pompes",
+    "category": "push",
+    "muscles": "Pectoraux · triceps · gainage",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Corps droit, descends puis pousse le sol.",
+    "novice": "Imagine une planche de la tête aux talons. Le ventre reste serré.",
+    "mistake": "Bassin qui tombe, coudes trop ouverts.",
+    "variants": [
+      "Facile : pompes inclinées",
+      "Dur : pompes déclinées"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "poids_du_corps",
+      "hiit",
+      "full_body"
+    ]
+  },
+  {
+    "key": "pompes_genoux",
+    "name": "Pompes genoux",
+    "category": "push",
+    "muscles": "Pectoraux · triceps",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Genoux au sol, corps aligné des épaules aux genoux.",
+    "novice": "Parfait pour débuter sans casser la technique.",
+    "mistake": "Fesses en arrière, dos creusé.",
+    "variants": [
+      "Facile : mur",
+      "Dur : pompes classiques"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "debutant",
+      "poids_du_corps"
+    ]
+  },
+  {
+    "key": "pompes_inclinees",
+    "name": "Pompes inclinées",
+    "category": "push",
+    "muscles": "Pectoraux · triceps",
+    "equipment": [
+      "poids du corps",
+      "banc",
+      "box"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Mains sur support, corps aligné.",
+    "novice": "Plus le support est haut, plus c’est facile.",
+    "mistake": "Tête qui tombe, dos creusé.",
+    "variants": [
+      "Facile : mur",
+      "Dur : support plus bas"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "debutant",
+      "poids_du_corps",
+      "home"
+    ]
+  },
+  {
+    "key": "pompes_declinees",
+    "name": "Pompes déclinées",
+    "category": "push",
+    "muscles": "Haut pectoraux · épaules",
+    "equipment": [
+      "poids du corps",
+      "banc",
+      "box"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Pieds surélevés, ventre serré.",
+    "novice": "Garde les épaules solides, ne creuse pas le dos.",
+    "mistake": "Bas du dos qui creuse.",
+    "variants": 5,
+    "levelMin": [
+      "avance",
+      "poids_du_corps"
+    ],
+    "styles": []
+  },
+  {
+    "key": "pompes_diamant",
+    "name": "Pompes diamant",
+    "category": "push",
+    "muscles": "Triceps · pectoraux",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "coude"
+    ],
+    "simple": "Mains rapprochées, descente contrôlée.",
+    "novice": "Très ciblé triceps : garde une amplitude sans douleur.",
+    "mistake": "Coudes qui partent trop loin.",
+    "variants": 10,
+    "levelMin": [
+      "poids_du_corps",
+      "avance"
+    ],
+    "styles": []
+  },
+  {
+    "key": "developpe_couche_barre",
+    "name": "Développé couché barre",
+    "category": "push",
+    "muscles": "Pectoraux · triceps",
+    "equipment": [
+      "barre",
+      "banc"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Pieds au sol, barre contrôlée.",
+    "novice": "La barre descend vers le bas des pectoraux, pas vers le cou.",
+    "mistake": "Rebondir la barre, poignets cassés.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "force"
+    ],
+    "styles": []
+  },
+  {
+    "key": "developpe_couche_halteres",
+    "name": "Développé couché haltères",
+    "category": "push",
+    "muscles": "Pectoraux · triceps",
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Haltères alignés, descente contrôlée.",
+    "novice": "Amplitude naturelle, poignets solides.",
+    "mistake": "Descendre trop bas avec douleur.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "hypertrophie"
+    ],
+    "styles": []
+  },
+  {
+    "key": "developpe_incline_halteres",
+    "name": "Développé incliné haltères",
+    "category": "push",
+    "muscles": "Haut pectoraux · épaules",
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Coudes sous les poignets, pousse vers le haut.",
+    "novice": "Le banc incliné cible le haut des pectoraux.",
+    "mistake": "Coudes trop ouverts.",
+    "variants": 5,
+    "levelMin": [
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "developpe_militaire",
+    "name": "Développé militaire",
+    "category": "push",
+    "muscles": "Épaules · triceps · gainage",
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Ventre serré, pousse au-dessus de la tête.",
+    "novice": "Serre les fessiers pour éviter de cambrer.",
+    "mistake": "Cambrer trop fort.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "force"
+    ],
+    "styles": []
+  },
+  {
+    "key": "dips",
+    "name": "Dips",
+    "category": "push",
+    "muscles": "Triceps · pectoraux",
+    "equipment": [
+      "poids du corps",
+      "barres"
+    ],
+    "avoidIf": [
+      "épaule",
+      "coude"
+    ],
+    "simple": "Épaules basses, descends selon ton amplitude.",
+    "novice": "Si l’épaule pince, réduis l’amplitude.",
+    "mistake": "Descendre trop bas si douleur.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "poids_du_corps"
+    ],
+    "styles": []
+  },
+  {
+    "key": "elevations_laterales",
+    "name": "Élévations latérales",
+    "category": "push",
+    "muscles": "Épaules",
+    "equipment": [
+      "haltères",
+      "élastique"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Monte les bras sur les côtés, contrôle.",
+    "novice": "Léger et propre vaut mieux que lourd et balancé.",
+    "mistake": "Balancer le corps.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "prevention"
+    ],
+    "styles": []
+  },
+  {
+    "key": "extension_triceps_poulie",
+    "name": "Extension triceps poulie",
+    "category": "push",
+    "muscles": "Triceps",
+    "equipment": [
+      "poulie"
+    ],
+    "avoidIf": [
+      "coude"
+    ],
+    "simple": "Coudes fixes, tends les bras.",
+    "novice": "Seuls les avant-bras bougent.",
+    "mistake": "Bouger les coudes.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "machine"
+    ],
+    "styles": []
+  },
+  {
+    "key": "extension_triceps_elastique",
+    "name": "Extension triceps élastique",
+    "category": "push",
+    "muscles": "Triceps",
+    "equipment": [
+      "élastique"
+    ],
+    "avoidIf": [
+      "coude"
+    ],
+    "simple": "Coudes près du corps, tends sans à-coups.",
+    "novice": "Bonne version maison ou échauffement.",
+    "mistake": "Tirer avec les épaules.",
+    "variants": 1,
+    "levelMin": [
+      "home",
+      "prevention"
+    ],
+    "styles": []
+  },
+  {
+    "key": "tractions",
+    "name": "Tractions",
+    "category": "pull",
+    "muscles": "Dos · biceps",
+    "equipment": [
+      "barre traction"
+    ],
+    "avoidIf": [
+      "épaule",
+      "coude"
+    ],
+    "simple": "Tire ton corps vers la barre.",
+    "novice": "Commence par tirer les épaules vers le bas avant de plier les bras.",
+    "mistake": "Balancer les jambes.",
+    "variants": 10,
+    "levelMin": [
+      "musculation",
+      "poids_du_corps",
+      "force"
+    ],
+    "styles": []
+  },
+  {
+    "key": "tractions_assistees",
+    "name": "Tractions assistées",
+    "category": "pull",
+    "muscles": "Dos · biceps",
+    "equipment": [
+      "barre traction",
+      "élastique",
+      "machine"
+    ],
+    "avoidIf": [
+      "épaule",
+      "coude"
+    ],
+    "simple": "Utilise l’aide, contrôle la descente.",
+    "novice": "Même mouvement qu’une traction, mais plus accessible.",
+    "mistake": "Relâcher les épaules.",
+    "variants": 1,
+    "levelMin": [
+      "debutant",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "tirage_vertical",
+    "name": "Tirage vertical",
+    "category": "pull",
+    "muscles": "Grand dorsal · biceps",
+    "equipment": [
+      "poulie",
+      "machine"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Tire la barre vers le haut de poitrine.",
+    "novice": "Garde le torse fier et les épaules basses.",
+    "mistake": "Tirer derrière la nuque.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "machine"
+    ],
+    "styles": []
+  },
+  {
+    "key": "tirage_horizontal",
+    "name": "Tirage horizontal",
+    "category": "pull",
+    "muscles": "Dos · milieu du dos",
+    "equipment": [
+      "poulie",
+      "machine"
+    ],
+    "avoidIf": [
+      "lombaires",
+      "épaule"
+    ],
+    "simple": "Tire vers le ventre, poitrine ouverte.",
+    "novice": "Très bon pour apprendre à rapprocher les omoplates.",
+    "mistake": "Arrondir le dos.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "machine"
+    ],
+    "styles": []
+  },
+  {
+    "key": "rowing_barre",
+    "name": "Rowing barre",
+    "category": "pull",
+    "muscles": "Dos · biceps",
+    "equipment": [
+      "barre"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Dos plat, tire vers le nombril.",
+    "novice": "Hanches en arrière, dos long.",
+    "mistake": "Arrondir le dos.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "force"
+    ],
+    "styles": []
+  },
+  {
+    "key": "rowing_haltere",
+    "name": "Rowing haltère",
+    "category": "pull",
+    "muscles": "Dos · biceps",
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "avoidIf": [
+      "lombaires",
+      "épaule"
+    ],
+    "simple": "Appui stable, coude vers la hanche.",
+    "novice": "Rapproche l’omoplate, pas seulement le bras.",
+    "mistake": "Tourner le buste.",
+    "variants": 1,
+    "levelMin": [
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "rowing_incline_halteres",
+    "name": "Rowing incliné haltères",
+    "category": "pull",
+    "muscles": "Dos · arrière épaules",
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Allongé sur banc incliné, tire les coudes vers l’arrière.",
+    "novice": "Version stable qui protège le bas du dos.",
+    "mistake": "Lever la tête, tirer trop vite.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "prevention"
+    ],
+    "styles": []
+  },
+  {
+    "key": "face_pull",
+    "name": "Face pull",
+    "category": "pull",
+    "muscles": "Arrière épaules · posture",
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Tire vers le visage, coudes hauts.",
+    "novice": "Très utile pour posture et épaules.",
+    "mistake": "Tirer trop bas.",
+    "variants": 1,
+    "levelMin": [
+      "prevention",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "pull_over_poulie",
+    "name": "Pull-over poulie",
+    "category": "pull",
+    "muscles": "Grand dorsal",
+    "equipment": [
+      "poulie"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Bras presque tendus, tire vers les cuisses.",
+    "novice": "Sens le dos travailler sans plier les coudes.",
+    "mistake": "Transformer en triceps.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "machine"
+    ],
+    "styles": []
+  },
+  {
+    "key": "curl_halteres",
+    "name": "Curl haltères",
+    "category": "pull",
+    "muscles": "Biceps",
+    "equipment": [
+      "haltères"
+    ],
+    "avoidIf": [
+      "coude",
+      "poignet"
+    ],
+    "simple": "Coudes près du corps, monte sans élan.",
+    "novice": "Le coude ne doit pas avancer à chaque répétition.",
+    "mistake": "Balancer le dos.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "bras"
+    ],
+    "styles": []
+  },
+  {
+    "key": "curl_marteau",
+    "name": "Curl marteau",
+    "category": "pull",
+    "muscles": "Biceps · avant-bras",
+    "equipment": [
+      "haltères"
+    ],
+    "avoidIf": [
+      "coude"
+    ],
+    "simple": "Prise neutre, descente lente.",
+    "novice": "Poignets solides comme si tu tenais deux marteaux.",
+    "mistake": "Monter avec l’épaule.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "bras"
+    ],
+    "styles": []
+  },
+  {
+    "key": "curl_poulie",
+    "name": "Curl poulie",
+    "category": "pull",
+    "muscles": "Biceps",
+    "equipment": [
+      "poulie"
+    ],
+    "avoidIf": [
+      "coude"
+    ],
+    "simple": "Coudes fixes, tire proprement.",
+    "novice": "Tension constante, très lisible pour débutant.",
+    "mistake": "Bouger tout le corps.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "machine"
+    ],
+    "styles": []
+  },
+  {
+    "key": "squat",
+    "name": "Squat",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "genou",
+      "hanche"
+    ],
+    "simple": "Descends en pliant genoux et hanches.",
+    "novice": "Pousse les genoux dans l’axe des pieds.",
+    "mistake": "Genoux qui rentrent.",
+    "variants": [
+      "Facile : squat chaise",
+      "Dur : squat sauté"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "poids_du_corps",
+      "home",
+      "full_body"
+    ]
+  },
+  {
+    "key": "squat_chaise",
+    "name": "Squat chaise",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "poids du corps",
+      "chaise",
+      "banc"
+    ],
+    "avoidIf": [
+      "genou",
+      "hanche"
+    ],
+    "simple": "Assieds-toi puis relève-toi sans te jeter.",
+    "novice": "Excellent repère pour débutants.",
+    "mistake": "Tomber sur la chaise.",
+    "variants": [
+      "Facile : chaise haute",
+      "Dur : sans chaise"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "debutant",
+      "home"
+    ]
+  },
+  {
+    "key": "goblet_squat",
+    "name": "Goblet squat",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "avoidIf": [
+      "genou",
+      "hanche"
+    ],
+    "simple": "Charge contre la poitrine, descends contrôlé.",
+    "novice": "La charge devant aide à garder le dos droit.",
+    "mistake": "Talon qui décolle.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "cross_training"
+    ],
+    "styles": []
+  },
+  {
+    "key": "back_squat",
+    "name": "Back squat",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "barre"
+    ],
+    "avoidIf": [
+      "genou",
+      "lombaires"
+    ],
+    "simple": "Barre stable, gainage fort, pousse le sol.",
+    "novice": "Garde le ventre serré avant de descendre.",
+    "mistake": "Dos qui s’arrondit.",
+    "variants": 10,
+    "levelMin": [
+      "musculation",
+      "force"
+    ],
+    "styles": []
+  },
+  {
+    "key": "front_squat",
+    "name": "Front squat",
+    "category": "legs",
+    "muscles": "Cuisses · gainage",
+    "equipment": [
+      "barre"
+    ],
+    "avoidIf": [
+      "poignet",
+      "genou",
+      "lombaires"
+    ],
+    "simple": "Barre devant, buste haut.",
+    "novice": "Très bon pour apprendre à garder le buste droit.",
+    "mistake": "Coudes qui tombent.",
+    "variants": 10,
+    "levelMin": [
+      "musculation",
+      "crossfit"
+    ],
+    "styles": []
+  },
+  {
+    "key": "presse",
+    "name": "Presse à cuisses",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "machine"
+    ],
+    "avoidIf": [
+      "genou"
+    ],
+    "simple": "Pieds stables, pousse sans verrouiller fort.",
+    "novice": "Le bas du dos reste collé au dossier.",
+    "mistake": "Verrouiller brutalement.",
+    "variants": 1,
+    "levelMin": [
+      "machine",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "leg_extension",
+    "name": "Leg extension",
+    "category": "legs",
+    "muscles": "Quadriceps",
+    "equipment": [
+      "machine"
+    ],
+    "avoidIf": [
+      "genou"
+    ],
+    "simple": "Tends les jambes, contrôle la descente.",
+    "novice": "Mouvement simple pour sentir l’avant des cuisses.",
+    "mistake": "Donner des coups rapides.",
+    "variants": 1,
+    "levelMin": [
+      "machine",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "leg_curl",
+    "name": "Leg curl",
+    "category": "legs",
+    "muscles": "Ischios",
+    "equipment": [
+      "machine"
+    ],
+    "avoidIf": [
+      "genou"
+    ],
+    "simple": "Ramène les talons vers les fessiers.",
+    "novice": "Contrôle surtout la descente.",
+    "mistake": "Cambrer le dos.",
+    "variants": 1,
+    "levelMin": [
+      "machine",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "fentes_arriere",
+    "name": "Fentes arrière",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "poids du corps",
+      "haltères"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Recule un pied, descends, remonte.",
+    "novice": "Plus simple pour le genou que les fentes avant.",
+    "mistake": "Perdre l’équilibre.",
+    "variants": 1,
+    "levelMin": [
+      "poids_du_corps",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "fentes_marchees",
+    "name": "Fentes marchées",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "poids du corps",
+      "haltères"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Avance en fente puis continue en marchant.",
+    "novice": "Contrôle l’équilibre avant d’aller vite.",
+    "mistake": "Pas trop court, genou qui rentre.",
+    "variants": 5,
+    "levelMin": [
+      "cross_training",
+      "jambes"
+    ],
+    "styles": []
+  },
+  {
+    "key": "fentes_bulgares",
+    "name": "Fentes bulgares",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "banc",
+      "haltères"
+    ],
+    "avoidIf": [
+      "genou",
+      "hanche"
+    ],
+    "simple": "Pied arrière sur banc, descends droit.",
+    "novice": "Mouvement exigeant : commence léger.",
+    "mistake": "S’écraser en bas.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "jambes"
+    ],
+    "styles": []
+  },
+  {
+    "key": "step_up",
+    "name": "Step up",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "box",
+      "banc"
+    ],
+    "avoidIf": [
+      "genou"
+    ],
+    "simple": "Monte sur le support avec contrôle.",
+    "novice": "La jambe sur le support fait le travail.",
+    "mistake": "Pousser avec la jambe arrière.",
+    "variants": 1,
+    "levelMin": [
+      "fonctionnel",
+      "hyrox"
+    ],
+    "styles": []
+  },
+  {
+    "key": "deadlift",
+    "name": "Deadlift",
+    "category": "legs",
+    "muscles": "Ischios · fessiers · dos",
+    "equipment": [
+      "barre"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Barre proche, dos neutre, pousse le sol.",
+    "novice": "Ce n’est pas un squat : les hanches partent en arrière.",
+    "mistake": "Arrondir le dos.",
+    "variants": 10,
+    "levelMin": [
+      "force",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "deadlift_kettlebell",
+    "name": "Deadlift kettlebell",
+    "category": "legs",
+    "muscles": "Ischios · fessiers",
+    "equipment": [
+      "kettlebell"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Kettlebell entre les pieds, dos neutre.",
+    "novice": "Bonne version pour apprendre le mouvement de hanches.",
+    "mistake": "Dos rond.",
+    "variants": 1,
+    "levelMin": [
+      "debutant",
+      "cross_training"
+    ],
+    "styles": []
+  },
+  {
+    "key": "rdl",
+    "name": "RDL",
+    "category": "legs",
+    "muscles": "Ischios · fessiers",
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Hanches en arrière, dos long.",
+    "novice": "Tu dois sentir l’arrière des cuisses s’étirer.",
+    "mistake": "Descendre trop bas.",
+    "variants": 5,
+    "levelMin": [
+      "musculation",
+      "jambes"
+    ],
+    "styles": []
+  },
+  {
+    "key": "hip_thrust",
+    "name": "Hip thrust",
+    "category": "legs",
+    "muscles": "Fessiers",
+    "equipment": [
+      "barre",
+      "banc"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Pousse les hanches, serre les fessiers.",
+    "novice": "Le menton reste légèrement rentré.",
+    "mistake": "Cambrer au lieu de serrer.",
+    "variants": 1,
+    "levelMin": [
+      "fessiers",
+      "musculation"
+    ],
+    "styles": []
+  },
+  {
+    "key": "pont_fessier",
+    "name": "Pont fessier",
+    "category": "legs",
+    "muscles": "Fessiers",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Allongé, pousse les hanches vers le haut.",
+    "novice": "Version facile du hip thrust.",
+    "mistake": "Cambrer le dos.",
+    "variants": 1,
+    "levelMin": [
+      "home",
+      "debutant"
+    ],
+    "styles": []
+  },
+  {
+    "key": "mollets",
+    "name": "Mollets",
+    "category": "legs",
+    "muscles": "Mollets",
+    "equipment": [
+      "machine",
+      "haltères",
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "cheville"
+    ],
+    "simple": "Monte haut, pause, redescends lentement.",
+    "novice": "Ne rebondis pas, contrôle chaque répétition.",
+    "mistake": "Rebondir.",
+    "variants": 1,
+    "levelMin": [
+      "musculation",
+      "jambes"
+    ],
+    "styles": []
+  },
+  {
+    "key": "gainage",
+    "name": "Gainage",
+    "category": "core",
+    "muscles": "Abdos · gainage",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Corps droit, ventre serré, respire.",
+    "novice": "Rapproche les côtes du bassin.",
+    "mistake": "Bassin qui tombe.",
+    "variants": [
+      "Facile : genoux au sol",
+      "Dur : lever un pied"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "core",
+      "home"
+    ]
+  },
+  {
+    "key": "gainage_genoux",
+    "name": "Gainage genoux",
+    "category": "core",
+    "muscles": "Abdos · gainage",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Genoux au sol, ventre serré.",
+    "novice": "Parfait si le gainage classique est trop dur.",
+    "mistake": "Fesses trop hautes.",
+    "variants": 1,
+    "levelMin": [
+      "debutant",
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "gainage_lateral",
+    "name": "Gainage latéral",
+    "category": "core",
+    "muscles": "Obliques · gainage",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Hanche haute, épaule au-dessus du coude.",
+    "novice": "Ligne droite tête-bassin-pieds.",
+    "mistake": "Bassin qui tourne.",
+    "variants": 1,
+    "levelMin": [
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "dead_bug",
+    "name": "Dead bug",
+    "category": "core",
+    "muscles": "Abdos profonds",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Dos bas contrôlé, bras et jambe opposés bougent.",
+    "novice": "Excellent pour apprendre à gainer sans cambrer.",
+    "mistake": "Creuser le dos.",
+    "variants": 1,
+    "levelMin": [
+      "prevention",
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "bird_dog",
+    "name": "Bird dog",
+    "category": "core",
+    "muscles": "Gainage · dos",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "À quatre pattes, tends bras et jambe opposés.",
+    "novice": "Mouvement lent pour stabiliser le dos.",
+    "mistake": "Tourner le bassin.",
+    "variants": 1,
+    "levelMin": [
+      "prevention",
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "crunch",
+    "name": "Crunch",
+    "category": "core",
+    "muscles": "Abdos",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "nuque"
+    ],
+    "simple": "Enroule le haut du dos, souffle.",
+    "novice": "Monte peu mais propre, ne tire pas sur la tête.",
+    "mistake": "Tirer la nuque.",
+    "variants": 1,
+    "levelMin": [
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "releves_jambes",
+    "name": "Relevés de jambes",
+    "category": "core",
+    "muscles": "Abdos",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Descends lentement, garde le bas du dos contrôlé.",
+    "novice": "Si le dos se creuse, réduis l’amplitude.",
+    "mistake": "Cambrer fort.",
+    "variants": 5,
+    "levelMin": [
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "pallof_press",
+    "name": "Pallof press",
+    "category": "core",
+    "muscles": "Gainage anti-rotation",
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Pousse les mains devant toi sans tourner.",
+    "novice": "Très bon pour protéger le dos.",
+    "mistake": "Tourner le buste.",
+    "variants": 1,
+    "levelMin": [
+      "prevention",
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "hollow_hold",
+    "name": "Hollow hold",
+    "category": "core",
+    "muscles": "Abdos · gainage",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Dos bas collé, jambes et bras tendus.",
+    "novice": "Version gym/crossfit du gainage.",
+    "mistake": "Bas du dos qui décolle.",
+    "variants": 10,
+    "levelMin": [
+      "crossfit",
+      "core"
+    ],
+    "styles": []
+  },
+  {
+    "key": "burpee",
+    "name": "Burpee",
+    "category": "cardio_crossfit",
+    "muscles": "Full body · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "genou",
+      "cardio"
+    ],
+    "simple": "Descends, recule les jambes, reviens, saute.",
+    "novice": "Adapte sans saut si tu débutes.",
+    "mistake": "S’écraser au sol.",
+    "variants": [
+      "Facile : burpee adapté",
+      "Dur : burpee saut haut"
+    ],
+    "levelMin": 5,
+    "styles": [
+      "hiit",
+      "crossfit"
+    ]
+  },
+  {
+    "key": "burpee_adapte",
+    "name": "Burpee adapté",
+    "category": "cardio_crossfit",
+    "muscles": "Full body · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "genou",
+      "cardio"
+    ],
+    "simple": "Pose les mains, recule les pieds sans saut.",
+    "novice": "Version propre pour débutant ou reprise.",
+    "mistake": "Aller trop vite.",
+    "variants": 1,
+    "levelMin": [
+      "debutant",
+      "hiit"
+    ],
+    "styles": []
+  },
+  {
+    "key": "sprawl",
+    "name": "Sprawl",
+    "category": "cardio_crossfit",
+    "muscles": "Full body · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "cardio"
+    ],
+    "simple": "Recule les jambes vite, garde le tronc solide.",
+    "novice": "Utilisé en boxe/lutte pour explosivité.",
+    "mistake": "Bassin qui tombe.",
+    "variants": 5,
+    "levelMin": [
+      "hiit",
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "mountain_climber",
+    "name": "Mountain climber",
+    "category": "cardio_crossfit",
+    "muscles": "Core · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "cardio"
+    ],
+    "simple": "Genoux vers poitrine, épaules stables.",
+    "novice": "Garde les mains sous les épaules.",
+    "mistake": "Fesses trop hautes.",
+    "variants": 1,
+    "levelMin": [
+      "hiit",
+      "home"
+    ],
+    "styles": []
+  },
+  {
+    "key": "jumping_jack",
+    "name": "Jumping jack",
+    "category": "cardio_crossfit",
+    "muscles": "Cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Saute en ouvrant bras et jambes.",
+    "novice": "Respire et reste léger sur les appuis.",
+    "mistake": "Atterrir lourdement.",
+    "variants": 1,
+    "levelMin": [
+      "hiit",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "corde_sauter",
+    "name": "Corde à sauter",
+    "category": "cardio_crossfit",
+    "muscles": "Mollets · cardio",
+    "equipment": [
+      "corde"
+    ],
+    "avoidIf": [
+      "cheville"
+    ],
+    "simple": "Petits sauts, poignets actifs.",
+    "novice": "Le mouvement vient surtout des poignets.",
+    "mistake": "Sauter trop haut.",
+    "variants": 1,
+    "levelMin": [
+      "boxe",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "rameur",
+    "name": "Rameur",
+    "category": "cardio_crossfit",
+    "muscles": "Cardio · dos",
+    "equipment": [
+      "rameur"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Pousse jambes, tire bras, retour contrôlé.",
+    "novice": "Ordre : jambes, buste, bras puis inverse.",
+    "mistake": "Tirer uniquement avec les bras.",
+    "variants": 1,
+    "levelMin": [
+      "hyrox",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "ski_erg",
+    "name": "Ski erg",
+    "category": "cardio_crossfit",
+    "muscles": "Dos · cardio",
+    "equipment": [
+      "ski erg"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Tire les poignées vers le bas avec le tronc.",
+    "novice": "Plie légèrement les jambes, garde le dos solide.",
+    "mistake": "Tirer uniquement avec les bras.",
+    "variants": 5,
+    "levelMin": [
+      "hyrox",
+      "crossfit"
+    ],
+    "styles": []
+  },
+  {
+    "key": "assault_bike",
+    "name": "Assault bike",
+    "category": "cardio_crossfit",
+    "muscles": "Cardio complet",
+    "equipment": [
+      "bike"
+    ],
+    "avoidIf": [
+      "cardio"
+    ],
+    "simple": "Pousse et tire avec bras et jambes.",
+    "novice": "Reste régulier au lieu de partir trop fort.",
+    "mistake": "Se crisper.",
+    "variants": 1,
+    "levelMin": [
+      "crossfit",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "sled_push",
+    "name": "Sled push",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · cardio",
+    "equipment": [
+      "sled"
+    ],
+    "avoidIf": [
+      "genou",
+      "lombaires"
+    ],
+    "simple": "Buste incliné, pas courts, pousse fort.",
+    "novice": "Garde les bras solides et le dos gainé.",
+    "mistake": "Dos relâché.",
+    "variants": 10,
+    "levelMin": [
+      "hyrox"
+    ],
+    "styles": []
+  },
+  {
+    "key": "sled_pull",
+    "name": "Sled pull",
+    "category": "cardio_crossfit",
+    "muscles": "Dos · jambes · cardio",
+    "equipment": [
+      "sled",
+      "corde"
+    ],
+    "avoidIf": [
+      "lombaires",
+      "épaule"
+    ],
+    "simple": "Tire la corde, recule stable.",
+    "novice": "Utilise les jambes, pas seulement les bras.",
+    "mistake": "Arrondir le dos.",
+    "variants": 10,
+    "levelMin": [
+      "hyrox"
+    ],
+    "styles": []
+  },
+  {
+    "key": "box_jump",
+    "name": "Box jump",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · explosivité",
+    "equipment": [
+      "box"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Saute sur la box, réception stable.",
+    "novice": "Atterris silencieux avec les genoux alignés.",
+    "mistake": "Réception lourde.",
+    "variants": 5,
+    "levelMin": [
+      "crossfit"
+    ],
+    "styles": []
+  },
+  {
+    "key": "kettlebell_swing",
+    "name": "Kettlebell swing",
+    "category": "cardio_crossfit",
+    "muscles": "Fessiers · cardio",
+    "equipment": [
+      "kettlebell"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Hanches explosives, bras relâchés.",
+    "novice": "La kettlebell monte grâce aux hanches, pas aux épaules.",
+    "mistake": "Squatter le mouvement.",
+    "variants": 5,
+    "levelMin": [
+      "crosstraining"
+    ],
+    "styles": []
+  },
+  {
+    "key": "thruster",
+    "name": "Thruster",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · épaules",
+    "equipment": [
+      "haltères",
+      "barre"
+    ],
+    "avoidIf": [
+      "genou",
+      "épaule"
+    ],
+    "simple": "Squat puis poussée au-dessus de la tête.",
+    "novice": "Un seul mouvement fluide : jambes puis bras.",
+    "mistake": "Cambrer en poussant.",
+    "variants": 10,
+    "levelMin": [
+      "crossfit"
+    ],
+    "styles": []
+  },
+  {
+    "key": "wall_ball",
+    "name": "Wall ball",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · épaules · cardio",
+    "equipment": [
+      "medecine ball"
+    ],
+    "avoidIf": [
+      "genou",
+      "épaule"
+    ],
+    "simple": "Squat complet, lance la balle, récupère.",
+    "novice": "Garde la balle proche du visage à la réception.",
+    "mistake": "Genoux qui rentrent.",
+    "variants": 5,
+    "levelMin": [
+      "crossfit",
+      "hyrox"
+    ],
+    "styles": []
+  },
+  {
+    "key": "farmer_walk",
+    "name": "Farmer walk",
+    "category": "cardio_crossfit",
+    "muscles": "Gainage · grip",
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Marche droite, épaules basses, ventre serré.",
+    "novice": "Imagine porter deux valises sans pencher.",
+    "mistake": "Se pencher sur un côté.",
+    "variants": 1,
+    "levelMin": [
+      "hyrox",
+      "fonctionnel"
+    ],
+    "styles": []
+  },
+  {
+    "key": "battle_rope",
+    "name": "Battle rope",
+    "category": "cardio_crossfit",
+    "muscles": "Bras · cardio",
+    "equipment": [
+      "battle rope"
+    ],
+    "avoidIf": [
+      "épaule",
+      "cardio"
+    ],
+    "simple": "Ondulations rapides, genoux souples.",
+    "novice": "Garde le ventre serré et respire.",
+    "mistake": "Se pencher trop.",
+    "variants": 1,
+    "levelMin": [
+      "crosstraining"
+    ],
+    "styles": []
+  },
+  {
+    "key": "wall_sit",
+    "name": "Chaise murale",
+    "category": "cardio_crossfit",
+    "muscles": "Cuisses · mental",
+    "equipment": [
+      "poids du corps",
+      "mur"
+    ],
+    "avoidIf": [
+      "genou"
+    ],
+    "simple": "Dos au mur, cuisses proches parallèle.",
+    "novice": "Respire et garde les genoux alignés.",
+    "mistake": "Remonter trop haut.",
+    "variants": 1,
+    "levelMin": [
+      "home",
+      "finisher"
+    ],
+    "styles": []
+  },
+  {
+    "key": "shadow_boxing",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "muscles": "Cardio · épaules",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule",
+      "cardio"
+    ],
+    "simple": "Garde haute, appuis légers, souffle.",
+    "novice": "Travaille propre avant d’aller vite.",
+    "mistake": "Frapper crispé.",
+    "variants": 1,
+    "levelMin": [
+      "boxe",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "directs",
+    "name": "Directs",
+    "category": "boxe",
+    "muscles": "Épaules · tronc",
+    "equipment": [
+      "gants",
+      "sac"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule"
+    ],
+    "simple": "Poignet aligné, reviens en garde.",
+    "novice": "Tourne légèrement épaule et hanche.",
+    "mistake": "Poignet cassé.",
+    "variants": 1,
+    "levelMin": [
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "crochets",
+    "name": "Crochets",
+    "category": "boxe",
+    "muscles": "Épaules · tronc",
+    "equipment": [
+      "gants",
+      "sac"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule"
+    ],
+    "simple": "Tourne hanches et épaules, garde solide.",
+    "novice": "Le coude reste à hauteur du poing.",
+    "mistake": "Frapper bras seul.",
+    "variants": 1,
+    "levelMin": [
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "uppercuts",
+    "name": "Uppercuts",
+    "category": "boxe",
+    "muscles": "Épaules · tronc",
+    "equipment": [
+      "gants",
+      "sac"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule"
+    ],
+    "simple": "Pousse depuis les jambes, poing vers le haut.",
+    "novice": "Petit mouvement puissant, pas grand geste inutile.",
+    "mistake": "Frapper bras seul.",
+    "variants": 1,
+    "levelMin": [
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "deplacements_boxe",
+    "name": "Déplacements boxe",
+    "category": "boxe",
+    "muscles": "Appuis · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "cheville",
+      "genou"
+    ],
+    "simple": "Reste léger, garde haute, bouge en contrôle.",
+    "novice": "Ne croise pas les pieds, garde l’équilibre.",
+    "mistake": "Croiser les pieds.",
+    "variants": 1,
+    "levelMin": [
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "esquives",
+    "name": "Esquives",
+    "category": "boxe",
+    "muscles": "Jambes · tronc",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "genou",
+      "lombaires"
+    ],
+    "simple": "Plie les jambes, bouge le buste.",
+    "novice": "L’esquive vient des jambes, pas seulement du dos.",
+    "mistake": "Se pencher en cassant le dos.",
+    "variants": 1,
+    "levelMin": [
+      "boxe"
+    ],
+    "styles": []
+  },
+  {
+    "key": "sac_frappes_libres",
+    "name": "Sac frappes libres",
+    "category": "boxe",
+    "muscles": "Cardio · puissance",
+    "equipment": [
+      "gants",
+      "sac"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule",
+      "cardio"
+    ],
+    "simple": "Enchaîne proprement en gardant la garde.",
+    "novice": "Qualité avant puissance, respiration régulière.",
+    "mistake": "Se crisper.",
+    "variants": 5,
+    "levelMin": [
+      "boxe",
+      "cardio"
+    ],
+    "styles": []
+  },
+  {
+    "key": "world_stretch",
+    "name": "World stretch",
+    "category": "mobilite",
+    "muscles": "Hanches · dos",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [],
+    "simple": "Grand pas, rotation lente, respiration.",
+    "novice": "Très bon échauffement complet.",
+    "mistake": "Forcer l’amplitude.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite",
+      "warmup"
+    ],
+    "styles": []
+  },
+  {
+    "key": "mobilite_90_90",
+    "name": "90/90",
+    "category": "mobilite",
+    "muscles": "Hanches",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "hanche"
+    ],
+    "simple": "Assis jambes en 90/90, bouge lentement.",
+    "novice": "Cherche le contrôle, pas la vitesse.",
+    "mistake": "Compenser avec le dos.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite"
+    ],
+    "styles": []
+  },
+  {
+    "key": "cat_cow",
+    "name": "Cat cow",
+    "category": "mobilite",
+    "muscles": "Dos",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Alterner dos rond et dos creux doucement.",
+    "novice": "Respire avec le mouvement.",
+    "mistake": "Aller trop vite.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite"
+    ],
+    "styles": []
+  },
+  {
+    "key": "stretch_psoas",
+    "name": "Stretch psoas",
+    "category": "mobilite",
+    "muscles": "Hanches",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "hanche"
+    ],
+    "simple": "Bassin rétroversé, avance doucement.",
+    "novice": "Tu dois sentir l’avant de la hanche, pas le bas du dos.",
+    "mistake": "Cambrer le dos.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite"
+    ],
+    "styles": []
+  },
+  {
+    "key": "mobilite_epaules",
+    "name": "Mobilité épaules",
+    "category": "mobilite",
+    "muscles": "Épaules · posture",
+    "equipment": [
+      "bâton",
+      "élastique",
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Bouge lentement sans douleur.",
+    "novice": "Utile avant push, tractions, boxe.",
+    "mistake": "Forcer sur une douleur.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite",
+      "prevention"
+    ],
+    "styles": []
+  },
+  {
+    "key": "mobilite_cheville",
+    "name": "Mobilité cheville",
+    "category": "mobilite",
+    "muscles": "Chevilles · squat",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "cheville"
+    ],
+    "simple": "Genou vers l’avant, talon au sol.",
+    "novice": "Très utile pour squat, fentes, course.",
+    "mistake": "Décoller le talon.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite",
+      "prevention"
+    ],
+    "styles": []
+  },
+  {
+    "key": "stretch_ischios",
+    "name": "Stretch ischios",
+    "category": "mobilite",
+    "muscles": "Arrière cuisses",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "lombaires"
+    ],
+    "simple": "Hanches en arrière, dos long.",
+    "novice": "Cherche l’étirement sans arrondir fort le dos.",
+    "mistake": "Forcer en arrondissant.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite",
+      "recovery"
+    ],
+    "styles": []
+  },
+  {
+    "key": "stretch_pectoraux",
+    "name": "Stretch pectoraux",
+    "category": "mobilite",
+    "muscles": "Pectoraux · épaules",
+    "equipment": [
+      "mur",
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "épaule"
+    ],
+    "simple": "Main au mur, tourne doucement le buste.",
+    "novice": "Utile après push ou boxe.",
+    "mistake": "Forcer l’épaule.",
+    "variants": 1,
+    "levelMin": [
+      "mobilite",
+      "recovery"
+    ],
+    "styles": []
+  },
+  {
+    "key": "air_squat",
+    "name": "Air squat",
+    "category": "legs",
+    "muscles": "Cuisses · fessiers",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "genou",
+      "hanche"
+    ],
+    "simple": "Squat sans charge, contrôle complet.",
+    "novice": "Base de tous les squats : genoux alignés, talons au sol.",
+    "mistake": "Genoux qui rentrent.",
+    "variants": [
+      "Facile : squat chaise",
+      "Dur : jump squat"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "debutant",
+      "poids_du_corps"
+    ]
+  },
+  {
+    "key": "jump_squat",
+    "name": "Squat sauté",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · explosivité",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Descends en squat puis saute, réception souple.",
+    "novice": "Atterris silencieusement, genoux alignés.",
+    "mistake": "Réception lourde.",
+    "variants": [
+      "Facile : air squat",
+      "Dur : enchaînement rapide"
+    ],
+    "levelMin": 5,
+    "styles": [
+      "hiit",
+      "tabata",
+      "cross_training"
+    ]
+  },
+  {
+    "key": "bear_crawl",
+    "name": "Bear crawl",
+    "category": "cardio_crossfit",
+    "muscles": "Gainage · épaules",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule"
+    ],
+    "simple": "Marche à quatre appuis, genoux proches du sol.",
+    "novice": "Le dos reste stable, petits pas contrôlés.",
+    "mistake": "Fesses trop hautes.",
+    "variants": [
+      "Facile : statique",
+      "Dur : arrière/avant"
+    ],
+    "levelMin": 5,
+    "styles": [
+      "circuit_training",
+      "crossfit"
+    ]
+  },
+  {
+    "key": "plank_shoulder_tap",
+    "name": "Shoulder taps",
+    "category": "core",
+    "muscles": "Gainage · épaules",
+    "equipment": [
+      "poids du corps"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule"
+    ],
+    "simple": "En planche, touche une épaule après l’autre.",
+    "novice": "Garde le bassin stable, ne te balance pas.",
+    "mistake": "Bassin qui tourne.",
+    "variants": [
+      "Facile : jambes écartées",
+      "Dur : jambes serrées"
+    ],
+    "levelMin": 5,
+    "styles": [
+      "core",
+      "hiit"
+    ]
+  },
+  {
+    "key": "sit_up",
+    "name": "Sit-up",
+    "category": "core",
+    "muscles": "Abdos",
+    "equipment": [
+      "poids du corps",
+      "abmat"
+    ],
+    "avoidIf": [
+      "lombaires",
+      "nuque"
+    ],
+    "simple": "Allonge-toi, remonte le buste en contrôlant.",
+    "novice": "Souffle en montant, ne tire pas sur la nuque.",
+    "mistake": "À-coups dans le dos.",
+    "variants": [
+      "Facile : crunch",
+      "Dur : lesté"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "crossfit",
+      "core"
+    ]
+  },
+  {
+    "key": "toes_to_bar",
+    "name": "Toes to bar",
+    "category": "core",
+    "muscles": "Abdos · grip",
+    "equipment": [
+      "barre traction"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Suspendu, monte les pieds vers la barre.",
+    "novice": "Technique avancée, garde le mouvement contrôlé.",
+    "mistake": "Balancer sans contrôle.",
+    "variants": [
+      "Facile : knee raises",
+      "Dur : strict"
+    ],
+    "levelMin": 20,
+    "styles": [
+      "crossfit",
+      "expert"
+    ]
+  },
+  {
+    "key": "knee_raises",
+    "name": "Montées de genoux suspendu",
+    "category": "core",
+    "muscles": "Abdos · grip",
+    "equipment": [
+      "barre traction"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Suspendu, monte les genoux vers la poitrine.",
+    "novice": "Version accessible du toes to bar.",
+    "mistake": "Balancer fort.",
+    "variants": [
+      "Facile : chaise romaine",
+      "Dur : toes to bar"
+    ],
+    "levelMin": 5,
+    "styles": [
+      "core",
+      "crossfit"
+    ]
+  },
+  {
+    "key": "box_step_over",
+    "name": "Box step over",
+    "category": "cardio_crossfit",
+    "muscles": "Jambes · cardio",
+    "equipment": [
+      "box",
+      "haltères"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville"
+    ],
+    "simple": "Monte et passe de l’autre côté de la box.",
+    "novice": "Reste stable et contrôle la descente.",
+    "mistake": "Précipiter la descente.",
+    "variants": [
+      "Facile : sans charge",
+      "Dur : haltères"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "hyrox",
+      "cross_training"
+    ]
+  },
+  {
+    "key": "sandbag_lunge",
+    "name": "Fentes sandbag",
+    "category": "legs",
+    "muscles": "Jambes · gainage",
+    "equipment": [
+      "sandbag"
+    ],
+    "avoidIf": [
+      "genou",
+      "lombaires"
+    ],
+    "simple": "Fentes avec sac sur les épaules.",
+    "novice": "Garde le buste solide et les pas réguliers.",
+    "mistake": "Genou qui rentre.",
+    "variants": [
+      "Facile : sans charge",
+      "Dur : plus lourd"
+    ],
+    "levelMin": 10,
+    "styles": [
+      "hyrox",
+      "crossfit"
+    ]
+  },
+  {
+    "key": "clean_kettlebell",
+    "name": "Clean kettlebell",
+    "category": "cardio_crossfit",
+    "muscles": "Hanches · épaules",
+    "equipment": [
+      "kettlebell"
+    ],
+    "avoidIf": [
+      "poignet",
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Amène la kettlebell en rack sans cogner le poignet.",
+    "novice": "Mouvement technique : commence léger.",
+    "mistake": "Taper fort l’avant-bras.",
+    "variants": [
+      "Facile : deadlift KB",
+      "Dur : clean + press"
+    ],
+    "levelMin": 10,
+    "styles": [
+      "cross_training",
+      "crossfit"
+    ]
+  },
+  {
+    "key": "push_press",
+    "name": "Push press",
+    "category": "push",
+    "muscles": "Épaules · jambes",
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Petite flexion puis pousse au-dessus de la tête.",
+    "novice": "Les jambes aident la poussée, le tronc reste gainé.",
+    "mistake": "Cambrer fort.",
+    "variants": [
+      "Facile : haltères légers",
+      "Dur : barre"
+    ],
+    "levelMin": 10,
+    "styles": [
+      "crossfit",
+      "force"
+    ]
+  },
+  {
+    "key": "clean_and_jerk",
+    "name": "Clean and jerk",
+    "category": "cardio_crossfit",
+    "muscles": "Full body · puissance",
+    "equipment": [
+      "barre"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet",
+      "lombaires"
+    ],
+    "simple": "Mouvement avancé : tirage, réception, jeté.",
+    "novice": "À réserver aux pratiquants formés techniquement.",
+    "mistake": "Forcer sans technique.",
+    "variants": [
+      "Facile : clean KB",
+      "Dur : charge lourde"
+    ],
+    "levelMin": 20,
+    "styles": [
+      "crossfit",
+      "expert"
+    ]
+  },
+  {
+    "key": "snatch_haltere",
+    "name": "Snatch haltère",
+    "category": "cardio_crossfit",
+    "muscles": "Full body · explosivité",
+    "equipment": [
+      "haltères"
+    ],
+    "avoidIf": [
+      "épaule",
+      "lombaires"
+    ],
+    "simple": "Haltère du sol au-dessus de la tête en un mouvement.",
+    "novice": "Garde la charge proche du corps.",
+    "mistake": "Tirer avec le dos rond.",
+    "variants": [
+      "Facile : high pull",
+      "Dur : alterné rapide"
+    ],
+    "levelMin": 10,
+    "styles": [
+      "crossfit",
+      "hiit"
+    ]
+  },
+  {
+    "key": "rope_climb",
+    "name": "Corde à grimper",
+    "category": "cardio_crossfit",
+    "muscles": "Dos · grip · jambes",
+    "equipment": [
+      "corde grimpe"
+    ],
+    "avoidIf": [
+      "épaule",
+      "coude"
+    ],
+    "simple": "Grimpe avec jambes et bras, descends contrôlé.",
+    "novice": "Apprends le verrouillage des pieds avant d’aller haut.",
+    "mistake": "Descendre sans contrôle.",
+    "variants": [
+      "Facile : tirage corde",
+      "Dur : sans jambes"
+    ],
+    "levelMin": 20,
+    "styles": [
+      "crossfit",
+      "expert"
+    ]
+  },
+  {
+    "key": "tirage_anneaux",
+    "name": "Tirage anneaux",
+    "category": "pull",
+    "muscles": "Dos · biceps",
+    "equipment": [
+      "anneaux",
+      "sangles"
+    ],
+    "avoidIf": [
+      "épaule",
+      "coude"
+    ],
+    "simple": "Corps incliné, tire la poitrine vers les anneaux.",
+    "novice": "Plus tu es horizontal, plus c’est dur.",
+    "mistake": "Bassin qui tombe.",
+    "variants": [
+      "Facile : plus vertical",
+      "Dur : pieds surélevés"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "poids_du_corps",
+      "circuit_training"
+    ]
+  },
+  {
+    "key": "pompes_anneaux",
+    "name": "Pompes anneaux",
+    "category": "push",
+    "muscles": "Pectoraux · gainage",
+    "equipment": [
+      "anneaux",
+      "sangles"
+    ],
+    "avoidIf": [
+      "épaule",
+      "poignet"
+    ],
+    "simple": "Pompes avec mains instables sur anneaux.",
+    "novice": "Très exigeant : commence amplitude courte.",
+    "mistake": "Épaules instables.",
+    "variants": [
+      "Facile : pompes classiques",
+      "Dur : anneaux bas"
+    ],
+    "levelMin": 10,
+    "styles": [
+      "crossfit",
+      "poids_du_corps"
+    ]
+  },
+  {
+    "key": "marche_rapide",
+    "name": "Marche rapide",
+    "category": "cardio_crossfit",
+    "muscles": "Cardio doux",
+    "equipment": [
+      "aucun matériel"
+    ],
+    "avoidIf": [
+      "cardio"
+    ],
+    "simple": "Marche active, respiration régulière.",
+    "novice": "Idéal reprise, récupération ou groupe débutant.",
+    "mistake": "Partir trop vite.",
+    "variants": [
+      "Facile : plat",
+      "Dur : côte"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "debutant",
+      "exterieur",
+      "recovery"
+    ]
+  },
+  {
+    "key": "course_legere",
+    "name": "Course légère",
+    "category": "cardio_crossfit",
+    "muscles": "Cardio",
+    "equipment": [
+      "aucun matériel"
+    ],
+    "avoidIf": [
+      "genou",
+      "cheville",
+      "cardio"
+    ],
+    "simple": "Cours à allure facile, tu dois pouvoir parler.",
+    "novice": "Utilise en échauffement ou endurance.",
+    "mistake": "Partir trop vite.",
+    "variants": [
+      "Facile : marche/course",
+      "Dur : intervalles"
+    ],
+    "levelMin": 1,
+    "styles": [
+      "cardio",
+      "exterieur"
+    ]
+  }
+]

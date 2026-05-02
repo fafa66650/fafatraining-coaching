@@ -1,0 +1,285 @@
+[
+  {
+    "id": "full_body",
+    "name": "Full body intelligent",
+    "goal": "remise_forme",
+    "duration": "45 min",
+    "family": "Base complète",
+    "style": "équilibré",
+    "categories": [
+      "push",
+      "pull",
+      "legs",
+      "core",
+      "cardio_crossfit"
+    ],
+    "description": "Séance complète : pousser, tirer, jambes, gainage, cardio léger."
+  },
+  {
+    "id": "renforcement",
+    "name": "Renforcement musculaire",
+    "goal": "remise_forme",
+    "duration": "30–60 min",
+    "family": "Musculation",
+    "style": "renforcement",
+    "categories": [
+      "push",
+      "pull",
+      "legs",
+      "core"
+    ],
+    "description": "Renforcer le corps sans forcément chercher la charge lourde."
+  },
+  {
+    "id": "musculation_force",
+    "name": "Musculation force",
+    "goal": "force",
+    "duration": "45–75 min",
+    "family": "Musculation",
+    "style": "force",
+    "categories": [
+      "push",
+      "pull",
+      "legs",
+      "core"
+    ],
+    "description": "Mouvements lourds, repos plus longs, progression contrôlée."
+  },
+  {
+    "id": "hypertrophie",
+    "name": "Hypertrophie / prise de masse",
+    "goal": "prise_masse",
+    "duration": "45–75 min",
+    "family": "Musculation",
+    "style": "volume musculaire",
+    "categories": [
+      "push",
+      "pull",
+      "legs"
+    ],
+    "description": "Volume, contrôle, séries moyennes, congestion."
+  },
+  {
+    "id": "poids_du_corps",
+    "name": "Poids du corps",
+    "goal": "remise_forme",
+    "duration": "20–55 min",
+    "family": "Maison / extérieur",
+    "style": "sans matériel",
+    "categories": [
+      "push",
+      "legs",
+      "core",
+      "cardio_crossfit"
+    ],
+    "description": "Séance sans machine, adaptable maison, parc ou terrain."
+  },
+  {
+    "id": "circuit_training",
+    "name": "Circuit training",
+    "goal": "perte_poids",
+    "duration": "25–45 min",
+    "family": "Fitness cardio",
+    "style": "circuit",
+    "categories": [
+      "push",
+      "pull",
+      "legs",
+      "core",
+      "cardio_crossfit"
+    ],
+    "description": "Enchaînement d’exercices avec peu de repos."
+  },
+  {
+    "id": "hiit",
+    "name": "HIIT",
+    "goal": "perte_poids",
+    "duration": "18–30 min",
+    "family": "Fitness cardio",
+    "style": "intervalles intenses",
+    "categories": [
+      "cardio_crossfit",
+      "core",
+      "legs",
+      "push"
+    ],
+    "description": "Alternance effort intense / récupération courte."
+  },
+  {
+    "id": "tabata",
+    "name": "Tabata",
+    "goal": "perte_poids",
+    "duration": "4–20 min",
+    "family": "Fitness cardio",
+    "style": "20/10",
+    "categories": [
+      "cardio_crossfit",
+      "core",
+      "legs",
+      "push"
+    ],
+    "description": "20 secondes effort, 10 secondes repos, très intense."
+  },
+  {
+    "id": "amrap",
+    "name": "AMRAP",
+    "goal": "performance",
+    "duration": "10–30 min",
+    "family": "Cross training",
+    "style": "max tours",
+    "categories": [
+      "cardio_crossfit",
+      "legs",
+      "push",
+      "core",
+      "pull"
+    ],
+    "description": "Faire le maximum de tours ou répétitions dans un temps donné."
+  },
+  {
+    "id": "emom",
+    "name": "EMOM",
+    "goal": "performance",
+    "duration": "10–30 min",
+    "family": "Cross training",
+    "style": "chaque minute",
+    "categories": [
+      "cardio_crossfit",
+      "legs",
+      "push",
+      "core",
+      "pull"
+    ],
+    "description": "Chaque minute, réaliser une tâche précise puis récupérer."
+  },
+  {
+    "id": "for_time",
+    "name": "For Time",
+    "goal": "performance",
+    "duration": "10–40 min",
+    "family": "Cross training",
+    "style": "contre la montre",
+    "categories": [
+      "cardio_crossfit",
+      "legs",
+      "push",
+      "core",
+      "pull"
+    ],
+    "description": "Terminer un travail défini le plus vite possible en sécurité."
+  },
+  {
+    "id": "cross_training",
+    "name": "CrossTraining / WOD",
+    "goal": "performance",
+    "duration": "20–60 min",
+    "family": "Fonctionnel",
+    "style": "fonctionnel",
+    "categories": [
+      "legs",
+      "push",
+      "cardio_crossfit",
+      "core",
+      "pull"
+    ],
+    "description": "Efforts variés, cardio et renfo fonctionnel."
+  },
+  {
+    "id": "crossfit",
+    "name": "CrossFit style",
+    "goal": "performance",
+    "duration": "20–60 min",
+    "family": "Fonctionnel",
+    "style": "WOD technique",
+    "categories": [
+      "legs",
+      "push",
+      "pull",
+      "cardio_crossfit",
+      "core"
+    ],
+    "description": "Mouvements fonctionnels, intensité, formats WOD."
+  },
+  {
+    "id": "hyrox",
+    "name": "Hyrox",
+    "goal": "performance",
+    "duration": "45–90 min",
+    "family": "Fonctionnel",
+    "style": "stations endurance",
+    "categories": [
+      "cardio_crossfit",
+      "legs",
+      "core",
+      "pull"
+    ],
+    "description": "Rameur, ski erg, sled, carries, wall ball, endurance."
+  },
+  {
+    "id": "boxe_cardio",
+    "name": "Boxe cardio",
+    "goal": "performance",
+    "duration": "30–55 min",
+    "family": "Boxe",
+    "style": "frappes / appuis",
+    "categories": [
+      "boxe",
+      "cardio_crossfit",
+      "core"
+    ],
+    "description": "Appuis, frappes, coordination, cardio, gainage."
+  },
+  {
+    "id": "cardio_boxing",
+    "name": "Cardio boxing",
+    "goal": "perte_poids",
+    "duration": "25–45 min",
+    "family": "Boxe",
+    "style": "boxe fitness",
+    "categories": [
+      "boxe",
+      "cardio_crossfit",
+      "core"
+    ],
+    "description": "Boxe sans opposition, cardio, fun et accessible."
+  },
+  {
+    "id": "mobilite_recovery",
+    "name": "Mobilité / récupération",
+    "goal": "bien_etre",
+    "duration": "20–40 min",
+    "family": "Bien-être",
+    "style": "prévention",
+    "categories": [
+      "mobilite",
+      "core"
+    ],
+    "description": "Mobilité, récupération, posture, prévention."
+  },
+  {
+    "id": "stretching",
+    "name": "Étirements / stretching",
+    "goal": "bien_etre",
+    "duration": "15–45 min",
+    "family": "Bien-être",
+    "style": "souplesse",
+    "categories": [
+      "mobilite"
+    ],
+    "description": "Assouplissement, respiration, retour au calme."
+  },
+  {
+    "id": "jambes_fessiers",
+    "name": "Jambes & fessiers",
+    "goal": "prise_masse",
+    "duration": "45–70 min",
+    "family": "Spécifique",
+    "style": "bas du corps",
+    "categories": [
+      "legs",
+      "core",
+      "cardio_crossfit"
+    ],
+    "description": "Force, stabilité, volume et prévention bas du corps."
+  }
+]
