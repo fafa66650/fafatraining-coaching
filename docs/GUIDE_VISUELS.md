@@ -1,1 +1,0 @@
-Crée les fichiers indiqués dans VISUELS_A_CREER.csv et place-les dans assets/visuals/photos, assets/visuals/avatar_actions et assets/visuals/mix.
