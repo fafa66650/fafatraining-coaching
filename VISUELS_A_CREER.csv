@@ -1,104 +1,152 @@
 key;exercice;categorie;styles;fichier_attendu;consigne
-pompes;Pompes;push;poids_du_corps, hiit, full_body;assets/exercises/push/pompes.jpg;Visuel pour Pompes : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pompes_genoux;Pompes genoux;push;debutant, poids_du_corps;assets/exercises/push/pompes_genoux.jpg;Visuel pour Pompes genoux : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pompes_inclinees;Pompes inclinées;push;debutant, poids_du_corps, home;assets/exercises/push/pompes_inclinees.jpg;Visuel pour Pompes inclinées : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pompes_declinees;Pompes déclinées;push;;assets/exercises/push/pompes_declinees.jpg;Visuel pour Pompes déclinées : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pompes_diamant;Pompes diamant;push;;assets/exercises/push/pompes_diamant.jpg;Visuel pour Pompes diamant : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-developpe_couche_barre;Développé couché barre;push;;assets/exercises/push/developpe_couche_barre.jpg;Visuel pour Développé couché barre : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-developpe_couche_halteres;Développé couché haltères;push;;assets/exercises/push/developpe_couche_halteres.jpg;Visuel pour Développé couché haltères : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-developpe_incline_halteres;Développé incliné haltères;push;;assets/exercises/push/developpe_incline_halteres.jpg;Visuel pour Développé incliné haltères : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-developpe_militaire;Développé militaire;push;;assets/exercises/push/developpe_militaire.jpg;Visuel pour Développé militaire : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-dips;Dips;push;;assets/exercises/push/dips.jpg;Visuel pour Dips : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-elevations_laterales;Élévations latérales;push;;assets/exercises/push/elevations_laterales.jpg;Visuel pour Élévations latérales : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-extension_triceps_poulie;Extension triceps poulie;push;;assets/exercises/push/extension_triceps_poulie.jpg;Visuel pour Extension triceps poulie : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-extension_triceps_elastique;Extension triceps élastique;push;;assets/exercises/push/extension_triceps_elastique.jpg;Visuel pour Extension triceps élastique : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-tractions;Tractions;pull;;assets/exercises/pull/tractions.jpg;Visuel pour Tractions : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-tractions_assistees;Tractions assistées;pull;;assets/exercises/pull/tractions_assistees.jpg;Visuel pour Tractions assistées : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-tirage_vertical;Tirage vertical;pull;;assets/exercises/pull/tirage_vertical.jpg;Visuel pour Tirage vertical : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-tirage_horizontal;Tirage horizontal;pull;;assets/exercises/pull/tirage_horizontal.jpg;Visuel pour Tirage horizontal : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rowing_barre;Rowing barre;pull;;assets/exercises/pull/rowing_barre.jpg;Visuel pour Rowing barre : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rowing_haltere;Rowing haltère;pull;;assets/exercises/pull/rowing_haltere.jpg;Visuel pour Rowing haltère : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rowing_incline_halteres;Rowing incliné haltères;pull;;assets/exercises/pull/rowing_incline_halteres.jpg;Visuel pour Rowing incliné haltères : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-face_pull;Face pull;pull;;assets/exercises/pull/face_pull.jpg;Visuel pour Face pull : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pull_over_poulie;Pull-over poulie;pull;;assets/exercises/pull/pull_over_poulie.jpg;Visuel pour Pull-over poulie : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-curl_halteres;Curl haltères;pull;;assets/exercises/pull/curl_halteres.jpg;Visuel pour Curl haltères : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-curl_marteau;Curl marteau;pull;;assets/exercises/pull/curl_marteau.jpg;Visuel pour Curl marteau : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-curl_poulie;Curl poulie;pull;;assets/exercises/pull/curl_poulie.jpg;Visuel pour Curl poulie : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-squat;Squat;legs;poids_du_corps, home, full_body;assets/exercises/legs/squat.jpg;Visuel pour Squat : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-squat_chaise;Squat chaise;legs;debutant, home;assets/exercises/legs/squat_chaise.jpg;Visuel pour Squat chaise : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-goblet_squat;Goblet squat;legs;;assets/exercises/legs/goblet_squat.jpg;Visuel pour Goblet squat : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-back_squat;Back squat;legs;;assets/exercises/legs/back_squat.jpg;Visuel pour Back squat : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-front_squat;Front squat;legs;;assets/exercises/legs/front_squat.jpg;Visuel pour Front squat : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-presse;Presse à cuisses;legs;;assets/exercises/legs/presse.jpg;Visuel pour Presse à cuisses : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-leg_extension;Leg extension;legs;;assets/exercises/legs/leg_extension.jpg;Visuel pour Leg extension : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-leg_curl;Leg curl;legs;;assets/exercises/legs/leg_curl.jpg;Visuel pour Leg curl : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-fentes_arriere;Fentes arrière;legs;;assets/exercises/legs/fentes_arriere.jpg;Visuel pour Fentes arrière : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-fentes_marchees;Fentes marchées;legs;;assets/exercises/legs/fentes_marchees.jpg;Visuel pour Fentes marchées : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-fentes_bulgares;Fentes bulgares;legs;;assets/exercises/legs/fentes_bulgares.jpg;Visuel pour Fentes bulgares : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-step_up;Step up;legs;;assets/exercises/legs/step_up.jpg;Visuel pour Step up : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-deadlift;Deadlift;legs;;assets/exercises/legs/deadlift.jpg;Visuel pour Deadlift : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-deadlift_kettlebell;Deadlift kettlebell;legs;;assets/exercises/legs/deadlift_kettlebell.jpg;Visuel pour Deadlift kettlebell : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rdl;RDL;legs;;assets/exercises/legs/rdl.jpg;Visuel pour RDL : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-hip_thrust;Hip thrust;legs;;assets/exercises/legs/hip_thrust.jpg;Visuel pour Hip thrust : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pont_fessier;Pont fessier;legs;;assets/exercises/legs/pont_fessier.jpg;Visuel pour Pont fessier : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-mollets;Mollets;legs;;assets/exercises/legs/mollets.jpg;Visuel pour Mollets : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-gainage;Gainage;core;core, home;assets/exercises/core/gainage.jpg;Visuel pour Gainage : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-gainage_genoux;Gainage genoux;core;;assets/exercises/core/gainage_genoux.jpg;Visuel pour Gainage genoux : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-gainage_lateral;Gainage latéral;core;;assets/exercises/core/gainage_lateral.jpg;Visuel pour Gainage latéral : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-dead_bug;Dead bug;core;;assets/exercises/core/dead_bug.jpg;Visuel pour Dead bug : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-bird_dog;Bird dog;core;;assets/exercises/core/bird_dog.jpg;Visuel pour Bird dog : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-crunch;Crunch;core;;assets/exercises/core/crunch.jpg;Visuel pour Crunch : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-releves_jambes;Relevés de jambes;core;;assets/exercises/core/releves_jambes.jpg;Visuel pour Relevés de jambes : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pallof_press;Pallof press;core;;assets/exercises/core/pallof_press.jpg;Visuel pour Pallof press : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-hollow_hold;Hollow hold;core;;assets/exercises/core/hollow_hold.jpg;Visuel pour Hollow hold : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-burpee;Burpee;cardio_crossfit;hiit, crossfit;assets/exercises/cardio_crossfit/burpee.jpg;Visuel pour Burpee : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-burpee_adapte;Burpee adapté;cardio_crossfit;;assets/exercises/cardio_crossfit/burpee_adapte.jpg;Visuel pour Burpee adapté : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sprawl;Sprawl;cardio_crossfit;;assets/exercises/cardio_crossfit/sprawl.jpg;Visuel pour Sprawl : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-mountain_climber;Mountain climber;cardio_crossfit;;assets/exercises/cardio_crossfit/mountain_climber.jpg;Visuel pour Mountain climber : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-jumping_jack;Jumping jack;cardio_crossfit;;assets/exercises/cardio_crossfit/jumping_jack.jpg;Visuel pour Jumping jack : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-corde_sauter;Corde à sauter;cardio_crossfit;;assets/exercises/cardio_crossfit/corde_sauter.jpg;Visuel pour Corde à sauter : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rameur;Rameur;cardio_crossfit;;assets/exercises/cardio_crossfit/rameur.jpg;Visuel pour Rameur : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-ski_erg;Ski erg;cardio_crossfit;;assets/exercises/cardio_crossfit/ski_erg.jpg;Visuel pour Ski erg : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-assault_bike;Assault bike;cardio_crossfit;;assets/exercises/cardio_crossfit/assault_bike.jpg;Visuel pour Assault bike : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sled_push;Sled push;cardio_crossfit;;assets/exercises/cardio_crossfit/sled_push.jpg;Visuel pour Sled push : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sled_pull;Sled pull;cardio_crossfit;;assets/exercises/cardio_crossfit/sled_pull.jpg;Visuel pour Sled pull : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-box_jump;Box jump;cardio_crossfit;;assets/exercises/cardio_crossfit/box_jump.jpg;Visuel pour Box jump : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-kettlebell_swing;Kettlebell swing;cardio_crossfit;;assets/exercises/cardio_crossfit/kettlebell_swing.jpg;Visuel pour Kettlebell swing : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-thruster;Thruster;cardio_crossfit;;assets/exercises/cardio_crossfit/thruster.jpg;Visuel pour Thruster : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-wall_ball;Wall ball;cardio_crossfit;;assets/exercises/cardio_crossfit/wall_ball.jpg;Visuel pour Wall ball : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-farmer_walk;Farmer walk;cardio_crossfit;;assets/exercises/cardio_crossfit/farmer_walk.jpg;Visuel pour Farmer walk : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-battle_rope;Battle rope;cardio_crossfit;;assets/exercises/cardio_crossfit/battle_rope.jpg;Visuel pour Battle rope : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-wall_sit;Chaise murale;cardio_crossfit;;assets/exercises/cardio_crossfit/wall_sit.jpg;Visuel pour Chaise murale : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-shadow_boxing;Shadow boxing;boxe;;assets/exercises/boxe/shadow_boxing.jpg;Visuel pour Shadow boxing : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-directs;Directs;boxe;;assets/exercises/boxe/directs.jpg;Visuel pour Directs : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-crochets;Crochets;boxe;;assets/exercises/boxe/crochets.jpg;Visuel pour Crochets : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-uppercuts;Uppercuts;boxe;;assets/exercises/boxe/uppercuts.jpg;Visuel pour Uppercuts : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-deplacements_boxe;Déplacements boxe;boxe;;assets/exercises/boxe/deplacements_boxe.jpg;Visuel pour Déplacements boxe : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-esquives;Esquives;boxe;;assets/exercises/boxe/esquives.jpg;Visuel pour Esquives : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sac_frappes_libres;Sac frappes libres;boxe;;assets/exercises/boxe/sac_frappes_libres.jpg;Visuel pour Sac frappes libres : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-world_stretch;World stretch;mobilite;;assets/exercises/mobilite/world_stretch.jpg;Visuel pour World stretch : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-mobilite_90_90;90/90;mobilite;;assets/exercises/mobilite/mobilite_90_90.jpg;Visuel pour 90/90 : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-cat_cow;Cat cow;mobilite;;assets/exercises/mobilite/cat_cow.jpg;Visuel pour Cat cow : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-stretch_psoas;Stretch psoas;mobilite;;assets/exercises/mobilite/stretch_psoas.jpg;Visuel pour Stretch psoas : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-mobilite_epaules;Mobilité épaules;mobilite;;assets/exercises/mobilite/mobilite_epaules.jpg;Visuel pour Mobilité épaules : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-mobilite_cheville;Mobilité cheville;mobilite;;assets/exercises/mobilite/mobilite_cheville.jpg;Visuel pour Mobilité cheville : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-stretch_ischios;Stretch ischios;mobilite;;assets/exercises/mobilite/stretch_ischios.jpg;Visuel pour Stretch ischios : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-stretch_pectoraux;Stretch pectoraux;mobilite;;assets/exercises/mobilite/stretch_pectoraux.jpg;Visuel pour Stretch pectoraux : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-air_squat;Air squat;legs;debutant, poids_du_corps;assets/exercises/legs/air_squat.jpg;Visuel pour Air squat : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-jump_squat;Squat sauté;cardio_crossfit;hiit, tabata, cross_training;assets/exercises/cardio_crossfit/jump_squat.jpg;Visuel pour Squat sauté : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-bear_crawl;Bear crawl;cardio_crossfit;circuit_training, crossfit;assets/exercises/cardio_crossfit/bear_crawl.jpg;Visuel pour Bear crawl : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-plank_shoulder_tap;Shoulder taps;core;core, hiit;assets/exercises/core/plank_shoulder_tap.jpg;Visuel pour Shoulder taps : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sit_up;Sit-up;core;crossfit, core;assets/exercises/core/sit_up.jpg;Visuel pour Sit-up : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-toes_to_bar;Toes to bar;core;crossfit, expert;assets/exercises/core/toes_to_bar.jpg;Visuel pour Toes to bar : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-knee_raises;Montées de genoux suspendu;core;core, crossfit;assets/exercises/core/knee_raises.jpg;Visuel pour Montées de genoux suspendu : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-box_step_over;Box step over;cardio_crossfit;hyrox, cross_training;assets/exercises/cardio_crossfit/box_step_over.jpg;Visuel pour Box step over : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-sandbag_lunge;Fentes sandbag;legs;hyrox, crossfit;assets/exercises/legs/sandbag_lunge.jpg;Visuel pour Fentes sandbag : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-clean_kettlebell;Clean kettlebell;cardio_crossfit;cross_training, crossfit;assets/exercises/cardio_crossfit/clean_kettlebell.jpg;Visuel pour Clean kettlebell : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-push_press;Push press;push;crossfit, force;assets/exercises/push/push_press.jpg;Visuel pour Push press : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-clean_and_jerk;Clean and jerk;cardio_crossfit;crossfit, expert;assets/exercises/cardio_crossfit/clean_and_jerk.jpg;Visuel pour Clean and jerk : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-snatch_haltere;Snatch haltère;cardio_crossfit;crossfit, hiit;assets/exercises/cardio_crossfit/snatch_haltere.jpg;Visuel pour Snatch haltère : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-rope_climb;Corde à grimper;cardio_crossfit;crossfit, expert;assets/exercises/cardio_crossfit/rope_climb.jpg;Visuel pour Corde à grimper : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-tirage_anneaux;Tirage anneaux;pull;poids_du_corps, circuit_training;assets/exercises/pull/tirage_anneaux.jpg;Visuel pour Tirage anneaux : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-pompes_anneaux;Pompes anneaux;push;crossfit, poids_du_corps;assets/exercises/push/pompes_anneaux.jpg;Visuel pour Pompes anneaux : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-marche_rapide;Marche rapide;cardio_crossfit;debutant, exterieur, recovery;assets/exercises/cardio_crossfit/marche_rapide.jpg;Visuel pour Marche rapide : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
-course_legere;Course légère;cardio_crossfit;cardio, exterieur;assets/exercises/cardio_crossfit/course_legere.jpg;Visuel pour Course légère : posture lisible, fond sombre, style FAFATRAINING, facile à comprendre.
+corde_boxe;Corde boxe;boxe;boxe, cardio;assets/exercises/boxe/corde_boxe.jpg;Visuel Corde boxe : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+crochets;Crochets;boxe;;assets/exercises/boxe/crochets.jpg;Visuel Crochets : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+direct_crochet_direct;Direct crochet direct;boxe;boxe, cardio_boxing;assets/exercises/boxe/direct_crochet_direct.jpg;Visuel Direct crochet direct : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+directs;Directs;boxe;;assets/exercises/boxe/directs.jpg;Visuel Directs : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+deplacements_boxe;Déplacements boxe;boxe;;assets/exercises/boxe/deplacements_boxe.jpg;Visuel Déplacements boxe : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+slip_roll;Esquive rotative;boxe;boxe;assets/exercises/boxe/slip_roll.jpg;Visuel Esquive rotative : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+esquives;Esquives;boxe;;assets/exercises/boxe/esquives.jpg;Visuel Esquives : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+jab_cross;Jab cross;boxe;boxe, cardio_boxing;assets/exercises/boxe/jab_cross.jpg;Visuel Jab cross : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sac_round_puissance;Round sac puissance;boxe;boxe, hiit;assets/exercises/boxe/sac_round_puissance.jpg;Visuel Round sac puissance : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sac_frappes_libres;Sac frappes libres;boxe;;assets/exercises/boxe/sac_frappes_libres.jpg;Visuel Sac frappes libres : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+shadow_boxing;Shadow boxing;boxe;;assets/exercises/boxe/shadow_boxing.jpg;Visuel Shadow boxing : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+uppercuts;Uppercuts;boxe;;assets/exercises/boxe/uppercuts.jpg;Visuel Uppercuts : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+assault_bike;Assault bike;cardio_crossfit;;assets/exercises/cardio_crossfit/assault_bike.jpg;Visuel Assault bike : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+battle_rope;Battle rope;cardio_crossfit;;assets/exercises/cardio_crossfit/battle_rope.jpg;Visuel Battle rope : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+bear_crawl;Bear crawl;cardio_crossfit;circuit_training, crossfit;assets/exercises/cardio_crossfit/bear_crawl.jpg;Visuel Bear crawl : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+box_jump;Box jump;cardio_crossfit;;assets/exercises/cardio_crossfit/box_jump.jpg;Visuel Box jump : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+box_step_over;Box step over;cardio_crossfit;hyrox, cross_training;assets/exercises/cardio_crossfit/box_step_over.jpg;Visuel Box step over : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+burpee;Burpee;cardio_crossfit;hiit, crossfit;assets/exercises/cardio_crossfit/burpee.jpg;Visuel Burpee : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+burpee_adapte;Burpee adapté;cardio_crossfit;;assets/exercises/cardio_crossfit/burpee_adapte.jpg;Visuel Burpee adapté : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+burpee_box_jump;Burpee box jump;cardio_crossfit;crossfit, for_time;assets/exercises/cardio_crossfit/burpee_box_jump.jpg;Visuel Burpee box jump : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+wall_sit;Chaise murale;cardio_crossfit;;assets/exercises/cardio_crossfit/wall_sit.jpg;Visuel Chaise murale : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+clean_and_jerk;Clean and jerk;cardio_crossfit;crossfit, expert;assets/exercises/cardio_crossfit/clean_and_jerk.jpg;Visuel Clean and jerk : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+clean_kettlebell;Clean kettlebell;cardio_crossfit;cross_training, crossfit;assets/exercises/cardio_crossfit/clean_kettlebell.jpg;Visuel Clean kettlebell : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rope_climb;Corde à grimper;cardio_crossfit;crossfit, expert;assets/exercises/cardio_crossfit/rope_climb.jpg;Visuel Corde à grimper : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+corde_sauter;Corde à sauter;cardio_crossfit;;assets/exercises/cardio_crossfit/corde_sauter.jpg;Visuel Corde à sauter : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+course_legere;Course légère;cardio_crossfit;cardio, exterieur;assets/exercises/cardio_crossfit/course_legere.jpg;Visuel Course légère : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+devil_press;Devil press;cardio_crossfit;crossfit, hiit;assets/exercises/cardio_crossfit/devil_press.jpg;Visuel Devil press : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+farmers_carry_lourd;Farmer carry lourd;cardio_crossfit;hyrox, force;assets/exercises/cardio_crossfit/farmers_carry_lourd.jpg;Visuel Farmer carry lourd : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+farmer_walk;Farmer walk;cardio_crossfit;;assets/exercises/cardio_crossfit/farmer_walk.jpg;Visuel Farmer walk : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+jumping_jack;Jumping jack;cardio_crossfit;;assets/exercises/cardio_crossfit/jumping_jack.jpg;Visuel Jumping jack : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+kettlebell_swing;Kettlebell swing;cardio_crossfit;;assets/exercises/cardio_crossfit/kettlebell_swing.jpg;Visuel Kettlebell swing : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+man_maker;Man maker;cardio_crossfit;crossfit, for_time;assets/exercises/cardio_crossfit/man_maker.jpg;Visuel Man maker : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+marche_rapide;Marche rapide;cardio_crossfit;debutant, exterieur, recovery;assets/exercises/cardio_crossfit/marche_rapide.jpg;Visuel Marche rapide : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mountain_climber;Mountain climber;cardio_crossfit;;assets/exercises/cardio_crossfit/mountain_climber.jpg;Visuel Mountain climber : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+shuttle_run;Navettes;cardio_crossfit;exterieur, circuit_training, hiit;assets/exercises/cardio_crossfit/shuttle_run.jpg;Visuel Navettes : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sandbag_carry;Porté sandbag;cardio_crossfit;hyrox, cross_training;assets/exercises/cardio_crossfit/sandbag_carry.jpg;Visuel Porté sandbag : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rameur;Rameur;cardio_crossfit;;assets/exercises/cardio_crossfit/rameur.jpg;Visuel Rameur : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+step_overs_sandbag;Sandbag step over;cardio_crossfit;hyrox, crossfit;assets/exercises/cardio_crossfit/step_overs_sandbag.jpg;Visuel Sandbag step over : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+ski_erg;Ski erg;cardio_crossfit;;assets/exercises/cardio_crossfit/ski_erg.jpg;Visuel Ski erg : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+med_ball_slam;Slam medecine ball;cardio_crossfit;hiit, circuit_training;assets/exercises/cardio_crossfit/med_ball_slam.jpg;Visuel Slam medecine ball : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sled_pull;Sled pull;cardio_crossfit;;assets/exercises/cardio_crossfit/sled_pull.jpg;Visuel Sled pull : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sled_push;Sled push;cardio_crossfit;;assets/exercises/cardio_crossfit/sled_push.jpg;Visuel Sled push : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+snatch_haltere;Snatch haltère;cardio_crossfit;crossfit, hiit;assets/exercises/cardio_crossfit/snatch_haltere.jpg;Visuel Snatch haltère : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+db_snatch_alterne;Snatch haltère alterné;cardio_crossfit;crossfit, amrap;assets/exercises/cardio_crossfit/db_snatch_alterne.jpg;Visuel Snatch haltère alterné : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sprawl;Sprawl;cardio_crossfit;;assets/exercises/cardio_crossfit/sprawl.jpg;Visuel Sprawl : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+jump_squat;Squat sauté;cardio_crossfit;hiit, tabata, cross_training;assets/exercises/cardio_crossfit/jump_squat.jpg;Visuel Squat sauté : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+suicides;Suicides course;cardio_crossfit;exterieur, for_time;assets/exercises/cardio_crossfit/suicides.jpg;Visuel Suicides course : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+thruster;Thruster;cardio_crossfit;;assets/exercises/cardio_crossfit/thruster.jpg;Visuel Thruster : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+db_thruster;Thruster haltères;cardio_crossfit;crossfit, hiit;assets/exercises/cardio_crossfit/db_thruster.jpg;Visuel Thruster haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+wall_ball;Wall ball;cardio_crossfit;;assets/exercises/cardio_crossfit/wall_ball.jpg;Visuel Wall ball : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+wall_walk;Wall walk;cardio_crossfit;crossfit, expert;assets/exercises/cardio_crossfit/wall_walk.jpg;Visuel Wall walk : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+bird_dog;Bird dog;core;;assets/exercises/core/bird_dog.jpg;Visuel Bird dog : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+crunch;Crunch;core;;assets/exercises/core/crunch.jpg;Visuel Crunch : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+dead_bug;Dead bug;core;;assets/exercises/core/dead_bug.jpg;Visuel Dead bug : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+gainage;Gainage;core;core, home;assets/exercises/core/gainage.jpg;Visuel Gainage : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+gainage_genoux;Gainage genoux;core;;assets/exercises/core/gainage_genoux.jpg;Visuel Gainage genoux : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+gainage_lateral;Gainage latéral;core;;assets/exercises/core/gainage_lateral.jpg;Visuel Gainage latéral : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+hollow_hold;Hollow hold;core;;assets/exercises/core/hollow_hold.jpg;Visuel Hollow hold : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+knee_raises;Montées de genoux suspendu;core;core, crossfit;assets/exercises/core/knee_raises.jpg;Visuel Montées de genoux suspendu : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mountain_climber_lent;Mountain climber lent;core;debutant, core;assets/exercises/core/mountain_climber_lent.jpg;Visuel Mountain climber lent : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pallof_press;Pallof press;core;;assets/exercises/core/pallof_press.jpg;Visuel Pallof press : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+planche_commando;Planche commando;core;core, hiit;assets/exercises/core/planche_commando.jpg;Visuel Planche commando : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+releves_jambes;Relevés de jambes;core;;assets/exercises/core/releves_jambes.jpg;Visuel Relevés de jambes : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+russian_twist;Russian twist;core;core, circuit_training;assets/exercises/core/russian_twist.jpg;Visuel Russian twist : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+plank_shoulder_tap;Shoulder taps;core;core, hiit;assets/exercises/core/plank_shoulder_tap.jpg;Visuel Shoulder taps : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sit_up;Sit-up;core;crossfit, core;assets/exercises/core/sit_up.jpg;Visuel Sit-up : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+toes_to_bar;Toes to bar;core;crossfit, expert;assets/exercises/core/toes_to_bar.jpg;Visuel Toes to bar : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tuck_up;Tuck-up;core;core, debutant;assets/exercises/core/tuck_up.jpg;Visuel Tuck-up : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+v_up;V-up;core;crossfit, core;assets/exercises/core/v_up.jpg;Visuel V-up : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+hip_abduction_machine;Abduction machine;legs;machine, fessiers;assets/exercises/legs/hip_abduction_machine.jpg;Visuel Abduction machine : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+adductor_machine;Adducteurs machine;legs;machine, renforcement;assets/exercises/legs/adductor_machine.jpg;Visuel Adducteurs machine : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+air_squat;Air squat;legs;debutant, poids_du_corps;assets/exercises/legs/air_squat.jpg;Visuel Air squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+back_squat;Back squat;legs;;assets/exercises/legs/back_squat.jpg;Visuel Back squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+cossack_squat;Cossack squat;legs;mobilite, cross_training;assets/exercises/legs/cossack_squat.jpg;Visuel Cossack squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+deadlift;Deadlift;legs;;assets/exercises/legs/deadlift.jpg;Visuel Deadlift : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+deadlift_kettlebell;Deadlift kettlebell;legs;;assets/exercises/legs/deadlift_kettlebell.jpg;Visuel Deadlift kettlebell : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+kb_goblet_lunge;Fente goblet kettlebell;legs;cross_training, hyrox;assets/exercises/legs/kb_goblet_lunge.jpg;Visuel Fente goblet kettlebell : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+lateral_lunge;Fente latérale;legs;renforcement, mobilite;assets/exercises/legs/lateral_lunge.jpg;Visuel Fente latérale : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+fentes_arriere;Fentes arrière;legs;;assets/exercises/legs/fentes_arriere.jpg;Visuel Fentes arrière : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+fentes_bulgares;Fentes bulgares;legs;;assets/exercises/legs/fentes_bulgares.jpg;Visuel Fentes bulgares : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+fentes_marchees;Fentes marchées;legs;;assets/exercises/legs/fentes_marchees.jpg;Visuel Fentes marchées : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+walking_lunges;Fentes marchées;legs;hyrox, cross_training;assets/exercises/legs/walking_lunges.jpg;Visuel Fentes marchées : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+sandbag_lunge;Fentes sandbag;legs;hyrox, crossfit;assets/exercises/legs/sandbag_lunge.jpg;Visuel Fentes sandbag : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+front_squat;Front squat;legs;;assets/exercises/legs/front_squat.jpg;Visuel Front squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+goblet_squat;Goblet squat;legs;;assets/exercises/legs/goblet_squat.jpg;Visuel Goblet squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+good_morning;Good morning;legs;force, musculation;assets/exercises/legs/good_morning.jpg;Visuel Good morning : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+hip_thrust;Hip thrust;legs;;assets/exercises/legs/hip_thrust.jpg;Visuel Hip thrust : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+leg_curl;Leg curl;legs;;assets/exercises/legs/leg_curl.jpg;Visuel Leg curl : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+leg_extension;Leg extension;legs;;assets/exercises/legs/leg_extension.jpg;Visuel Leg extension : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mollets;Mollets;legs;;assets/exercises/legs/mollets.jpg;Visuel Mollets : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pont_fessier;Pont fessier;legs;;assets/exercises/legs/pont_fessier.jpg;Visuel Pont fessier : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+presse;Presse à cuisses;legs;;assets/exercises/legs/presse.jpg;Visuel Presse à cuisses : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rdl;RDL;legs;;assets/exercises/legs/rdl.jpg;Visuel RDL : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+reverse_sled_drag;Sled drag arrière;legs;hyrox, prevention;assets/exercises/legs/reverse_sled_drag.jpg;Visuel Sled drag arrière : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+squat;Squat;legs;poids_du_corps, home, full_body;assets/exercises/legs/squat.jpg;Visuel Squat : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+squat_chaise;Squat chaise;legs;debutant, home;assets/exercises/legs/squat_chaise.jpg;Visuel Squat chaise : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+step_down;Step down;legs;prevention, renforcement;assets/exercises/legs/step_down.jpg;Visuel Step down : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+step_up;Step up;legs;;assets/exercises/legs/step_up.jpg;Visuel Step up : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mobilite_90_90;90/90;mobilite;;assets/exercises/mobilite/mobilite_90_90.jpg;Visuel 90/90 : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+hamstring_scoop;Balayage ischios;mobilite;warmup, mobilite;assets/exercises/mobilite/hamstring_scoop.jpg;Visuel Balayage ischios : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+cat_cow;Cat cow;mobilite;;assets/exercises/mobilite/cat_cow.jpg;Visuel Cat cow : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+cobra_stretch;Cobra stretch;mobilite;stretching;assets/exercises/mobilite/cobra_stretch.jpg;Visuel Cobra stretch : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mobilite_cheville;Mobilité cheville;mobilite;;assets/exercises/mobilite/mobilite_cheville.jpg;Visuel Mobilité cheville : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+ankle_rocks;Mobilité cheville dynamique;mobilite;mobilite, warmup;assets/exercises/mobilite/ankle_rocks.jpg;Visuel Mobilité cheville dynamique : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+mobilite_epaules;Mobilité épaules;mobilite;;assets/exercises/mobilite/mobilite_epaules.jpg;Visuel Mobilité épaules : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+child_pose;Posture enfant;mobilite;stretching, recovery;assets/exercises/mobilite/child_pose.jpg;Visuel Posture enfant : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+thoracic_rotation;Rotation thoracique;mobilite;mobilite, prevention;assets/exercises/mobilite/thoracic_rotation.jpg;Visuel Rotation thoracique : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+stretch_ischios;Stretch ischios;mobilite;;assets/exercises/mobilite/stretch_ischios.jpg;Visuel Stretch ischios : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+stretch_pectoraux;Stretch pectoraux;mobilite;;assets/exercises/mobilite/stretch_pectoraux.jpg;Visuel Stretch pectoraux : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+stretch_psoas;Stretch psoas;mobilite;;assets/exercises/mobilite/stretch_psoas.jpg;Visuel Stretch psoas : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+world_stretch;World stretch;mobilite;;assets/exercises/mobilite/world_stretch.jpg;Visuel World stretch : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pigeon_stretch;Étirement pigeon;mobilite;stretching, mobilite;assets/exercises/mobilite/pigeon_stretch.jpg;Visuel Étirement pigeon : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+band_pull_apart;Band pull apart;pull;prevention, mobilite;assets/exercises/pull/band_pull_apart.jpg;Visuel Band pull apart : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+curl_halteres;Curl haltères;pull;;assets/exercises/pull/curl_halteres.jpg;Visuel Curl haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+curl_marteau;Curl marteau;pull;;assets/exercises/pull/curl_marteau.jpg;Visuel Curl marteau : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+curl_poulie;Curl poulie;pull;;assets/exercises/pull/curl_poulie.jpg;Visuel Curl poulie : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+face_pull;Face pull;pull;;assets/exercises/pull/face_pull.jpg;Visuel Face pull : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pull_over_poulie;Pull-over poulie;pull;;assets/exercises/pull/pull_over_poulie.jpg;Visuel Pull-over poulie : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+seated_row_machine;Rowing assis machine;pull;machine, renforcement;assets/exercises/pull/seated_row_machine.jpg;Visuel Rowing assis machine : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rowing_barre;Rowing barre;pull;;assets/exercises/pull/rowing_barre.jpg;Visuel Rowing barre : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rowing_haltere;Rowing haltère;pull;;assets/exercises/pull/rowing_haltere.jpg;Visuel Rowing haltère : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+rowing_incline_halteres;Rowing incliné haltères;pull;;assets/exercises/pull/rowing_incline_halteres.jpg;Visuel Rowing incliné haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+inverted_row;Rowing inversé;pull;poids_du_corps, cross_training;assets/exercises/pull/inverted_row.jpg;Visuel Rowing inversé : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+shrugs_halteres;Shrugs haltères;pull;musculation;assets/exercises/pull/shrugs_halteres.jpg;Visuel Shrugs haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tirage_anneaux;Tirage anneaux;pull;poids_du_corps, circuit_training;assets/exercises/pull/tirage_anneaux.jpg;Visuel Tirage anneaux : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tirage_horizontal;Tirage horizontal;pull;;assets/exercises/pull/tirage_horizontal.jpg;Visuel Tirage horizontal : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tirage_vertical;Tirage vertical;pull;;assets/exercises/pull/tirage_vertical.jpg;Visuel Tirage vertical : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+lat_pulldown_neutral;Tirage vertical prise neutre;pull;machine, musculation;assets/exercises/pull/lat_pulldown_neutral.jpg;Visuel Tirage vertical prise neutre : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tractions;Tractions;pull;;assets/exercises/pull/tractions.jpg;Visuel Tractions : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+tractions_assistees;Tractions assistées;pull;;assets/exercises/pull/tractions_assistees.jpg;Visuel Tractions assistées : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+dips;Dips;push;;assets/exercises/push/dips.jpg;Visuel Dips : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+developpe_couche_barre;Développé couché barre;push;;assets/exercises/push/developpe_couche_barre.jpg;Visuel Développé couché barre : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+developpe_couche_halteres;Développé couché haltères;push;;assets/exercises/push/developpe_couche_halteres.jpg;Visuel Développé couché haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+developpe_incline_halteres;Développé incliné haltères;push;;assets/exercises/push/developpe_incline_halteres.jpg;Visuel Développé incliné haltères : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+bench_press_machine;Développé machine;push;machine, musculation;assets/exercises/push/bench_press_machine.jpg;Visuel Développé machine : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+developpe_militaire;Développé militaire;push;;assets/exercises/push/developpe_militaire.jpg;Visuel Développé militaire : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+extension_triceps_poulie;Extension triceps poulie;push;;assets/exercises/push/extension_triceps_poulie.jpg;Visuel Extension triceps poulie : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+extension_triceps_elastique;Extension triceps élastique;push;;assets/exercises/push/extension_triceps_elastique.jpg;Visuel Extension triceps élastique : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pec_deck;Pec deck;push;machine, hypertrophie;assets/exercises/push/pec_deck.jpg;Visuel Pec deck : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes;Pompes;push;poids_du_corps, hiit, full_body;assets/exercises/push/pompes.jpg;Visuel Pompes : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_anneaux;Pompes anneaux;push;crossfit, poids_du_corps;assets/exercises/push/pompes_anneaux.jpg;Visuel Pompes anneaux : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_diamant;Pompes diamant;push;;assets/exercises/push/pompes_diamant.jpg;Visuel Pompes diamant : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_declinees;Pompes déclinées;push;;assets/exercises/push/pompes_declinees.jpg;Visuel Pompes déclinées : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_genoux;Pompes genoux;push;debutant, poids_du_corps;assets/exercises/push/pompes_genoux.jpg;Visuel Pompes genoux : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+hand_release_push_up;Pompes hand release;push;crossfit, for_time;assets/exercises/push/hand_release_push_up.jpg;Visuel Pompes hand release : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_inclinees;Pompes inclinées;push;debutant, poids_du_corps, home;assets/exercises/push/pompes_inclinees.jpg;Visuel Pompes inclinées : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_pike;Pompes pike;push;poids_du_corps, renforcement;assets/exercises/push/pompes_pike.jpg;Visuel Pompes pike : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_spiderman;Pompes spiderman;push;poids_du_corps, hiit, core;assets/exercises/push/pompes_spiderman.jpg;Visuel Pompes spiderman : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+pompes_triceps_banc;Pompes triceps banc;push;home, renforcement;assets/exercises/push/pompes_triceps_banc.jpg;Visuel Pompes triceps banc : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+push_press;Push press;push;crossfit, force;assets/exercises/push/push_press.jpg;Visuel Push press : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.
+elevations_laterales;Élévations latérales;push;;assets/exercises/push/elevations_laterales.jpg;Visuel Élévations latérales : posture lisible, fond sombre, style FAFATRAINING, angle clair débutant.

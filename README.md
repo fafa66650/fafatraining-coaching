@@ -1,34 +1,23 @@
-# FAFATRAINING COACHING V35 ELITE
+# FAFATRAINING COACHING V37 ULTRA INTELLIGENTE
 
-Version basée sur V34 avec amélioration complète de la page d’accueil, séance rapide avancée, matériel et blessures structurés.
+Version basée sur V36, avec niveau supérieur : coach automatique, bibliothèque enrichie, logique groupe et terrain.
 
-## Nouveautés
-- Accueil plus confortable et plus convivial
-- Logo fondu en arrière-plan
-- Navigation haute colorée par onglet
-- Bouton retour pastille sur les écrans nécessaires
-- Séance rapide avancée : nombre de personnes, objectif, durée, niveau, lieu
-- Styles ajoutés ou clarifiés :
-  - Circuit training
-  - Renforcement musculaire
-  - Étirements / stretching
-  - Hyrox
-  - CrossFit
-  - CrossTraining
-  - HIIT
-  - AMRAP
-  - EMOM
-  - Tabata
-  - For Time
-  - Boxe cardio / Cardio boxing
-- Matériel classé par type, plus complet
-- Extérieur corrigé comme lieu et non matériel
-- Blessures classées par zones du corps
-- Échelles fatigue, stress, sommeil, RPE expliquées
-- Bibliothèque enrichie : 103 exercices
+## Nouveautés V37
+- Mode Coach Auto avec recommandations selon objectif, lieu et nombre de personnes
+- Génération séance rapide plus intelligente
+- Adaptation groupe :
+  - petit groupe = plus technique
+  - grand groupe = ateliers / rotations / sécurité
+- Bibliothèque enrichie : 151 exercices
+- Programmes/styles : 22
+- Exercices classés par catégorie puis ordre alphabétique
+- Matériel, blessures, lieux et formats conservés depuis V36
+- Exports PDF et visuel client
+- Dossiers visuels prêts avec vrais noms
+- GitHub/PWA ready
+
+## Formats intégrés
+Tabata, AMRAP, EMOM, For Time, HIIT, Circuit training, CrossTraining, CrossFit style, Hyrox, boxe cardio, cardio boxing, renforcement, musculation, stretching, mobilité.
 
 ## Visuels
-Les visuels restent à ajouter plus tard en suivant `VISUELS_A_CREER.csv`.
-
-## Déploiement
-Dézipper à la racine GitHub Pages.
+Toujours à ajouter plus tard via `VISUELS_A_CREER.csv`.
