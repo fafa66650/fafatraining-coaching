@@ -305,3 +305,191 @@ body{background:radial-gradient(circle at 50% -10%,rgba(125,255,56,.10),transpar
   .v42Hero{padding:20px;border-radius:30px}.v42LogoDecor{right:-230px;width:155vw;opacity:.10}.v42Title{font-size:42px}.v42Lead{font-size:16px}
   .v42Actions,.v42ProgramGrid,.v42ExoGrid,.v42CoachGrid{grid-template-columns:1fr}.v42Exo{grid-template-columns:76px 1fr}
 }
+
+/* V44 TOP APP — vraie amélioration visuelle + ergonomie */
+:root{
+  --premium-green:#8cff3a;
+  --premium-dark:#010401;
+  --premium-card:rgba(10,18,12,.88);
+  --premium-border:rgba(140,255,58,.22);
+}
+body{
+  background:
+    radial-gradient(circle at 50% -12%,rgba(140,255,58,.16),transparent 34%),
+    radial-gradient(circle at 100% 25%,rgba(76,201,255,.08),transparent 24%),
+    #010401!important;
+}
+.top{
+  background:rgba(1,4,1,.92)!important;
+  backdrop-filter:blur(20px);
+}
+.brand img{box-shadow:0 0 0 2px rgba(140,255,58,.25),0 18px 42px rgba(0,0,0,.45)}
+.tab{
+  min-height:42px;
+  border-radius:999px!important;
+  transition:transform .18s ease, background .18s ease, border-color .18s ease;
+}
+.tab:hover{transform:translateY(-1px);border-color:rgba(140,255,58,.35)}
+.v42Hero{
+  min-height:620px!important;
+  border-radius:46px!important;
+  padding:42px!important;
+  background:
+    linear-gradient(90deg,rgba(1,4,1,.99) 0%,rgba(1,4,1,.94) 43%,rgba(1,4,1,.58) 100%),
+    radial-gradient(circle at 78% 50%,rgba(140,255,58,.18),transparent 36%)!important;
+  border:1px solid var(--premium-border)!important;
+  box-shadow:0 35px 120px rgba(0,0,0,.58), inset 0 0 0 1px rgba(255,255,255,.035);
+}
+.v42LogoDecor{
+  width:min(540px,46vw)!important;
+  right:26px!important;
+  opacity:.16!important;
+  filter:drop-shadow(0 40px 95px rgba(0,0,0,.95))!important;
+}
+.v42Title{
+  font-size:76px!important;
+  max-width:620px;
+  text-wrap:balance;
+}
+.v42Lead{
+  max-width:540px;
+  color:#eaffea!important;
+}
+.v42Action{
+  background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.028))!important;
+  transition:.2s ease;
+}
+.v42Action:hover{
+  transform:translateY(-3px);
+  border-color:rgba(140,255,58,.42)!important;
+  box-shadow:0 16px 42px rgba(0,0,0,.35);
+}
+.v42Start{
+  width:min(440px,39%)!important;
+  background:rgba(1,4,1,.88)!important;
+  box-shadow:0 28px 90px rgba(0,0,0,.55);
+}
+.v42Start .quickForm label{
+  font-size:12px;
+  color:#dcebdd;
+}
+.v42Start input,.v42Start select{
+  min-height:50px!important;
+  border-radius:17px!important;
+}
+.btn{
+  letter-spacing:.1px;
+  box-shadow:0 10px 24px rgba(0,0,0,.18);
+}
+.btn:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.v42Section,.v42ArsenalHead{
+  background:linear-gradient(180deg,rgba(13,23,15,.92),rgba(5,10,6,.88))!important;
+  border-color:rgba(255,255,255,.095)!important;
+  box-shadow:0 18px 58px rgba(0,0,0,.26);
+}
+.v42ProgramGrid{
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+}
+.v42ProgramCard{
+  min-height:142px!important;
+  border-radius:26px!important;
+  background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025))!important;
+  transition:.22s ease;
+}
+.v42ProgramCard:hover{
+  transform:translateY(-5px);
+  border-color:rgba(140,255,58,.38)!important;
+  box-shadow:0 20px 50px rgba(0,0,0,.38);
+}
+.v42ProgramCard b{
+  font-size:20px!important;
+  line-height:1.05;
+}
+.v42Tab{
+  transition:.18s ease;
+}
+.v42Tab:hover{border-color:rgba(140,255,58,.42)}
+.v42Exo{
+  border-radius:27px!important;
+  background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.025))!important;
+  transition:.22s ease;
+}
+.v42Exo:hover{
+  transform:translateY(-4px);
+  border-color:rgba(140,255,58,.35)!important;
+  box-shadow:0 18px 44px rgba(0,0,0,.34);
+}
+.v42Exo h3{
+  letter-spacing:-.4px;
+}
+.thumb{
+  background:linear-gradient(145deg,rgba(140,255,58,.16),rgba(255,255,255,.05))!important;
+  border:1px solid rgba(140,255,58,.18);
+}
+.immersiveExercise{
+  box-shadow:0 30px 130px rgba(0,0,0,.55);
+}
+.immersiveTop{
+  background:rgba(1,4,1,.55);
+  backdrop-filter:blur(16px);
+}
+.immersiveVisual{
+  min-height:390px!important;
+}
+.immersiveInfo h2{
+  font-size:74px!important;
+  text-wrap:balance;
+}
+.immersiveCoach{
+  border-color:rgba(140,255,58,.22)!important;
+  background:rgba(140,255,58,.07)!important;
+}
+.immersiveActions{
+  background:rgba(1,4,1,.88)!important;
+}
+.pill{
+  border-radius:999px!important;
+}
+@media(max-width:1050px){
+  .v42Hero{padding:26px!important;min-height:auto!important}
+  .v42LogoDecor{right:-120px!important;width:82vw!important;opacity:.10!important}
+  .v42Title{font-size:54px!important}
+  .v42Start{width:100%!important}
+  .v42ProgramGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .immersiveInfo h2{font-size:50px!important}
+}
+@media(max-width:620px){
+  .main{padding:10px!important}
+  .v42Hero{border-radius:30px!important;padding:20px!important}
+  .v42LogoDecor{right:-210px!important;width:150vw!important;opacity:.08!important}
+  .v42Title{font-size:42px!important;letter-spacing:-2px!important}
+  .v42Lead{font-size:15px!important}
+  .v42ProgramGrid{grid-template-columns:1fr!important}
+  .v42ProgramCard{min-height:118px!important}
+  .v42Exo{grid-template-columns:70px 1fr!important;padding:12px!important}
+  .v42Exo h3{font-size:17px!important}
+  .v42Exo p{font-size:12px!important}
+  .immersiveInfo h2{font-size:36px!important}
+  .immersiveVisual{min-height:285px!important}
+}
+
+/* V45 FINAL MONSTER — minimal premium */
+*{transition:all .15s ease}
+.v42ProgramCard,.v42Exo{
+  box-shadow:none!important;
+  border:1px solid rgba(255,255,255,.08)!important;
+}
+.v42ProgramCard:hover,.v42Exo:hover{
+  transform:translateY(-2px);
+  border-color:#8cff3a!important;
+}
+.v42Hero{
+  box-shadow:none!important;
+  border:1px solid rgba(255,255,255,.08)!important;
+}
+.v42Title{
+  letter-spacing:-2px!important;
+}
+.btn{
+  box-shadow:none!important;
+}

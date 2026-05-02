@@ -1,0 +1,19 @@
+{
+  "modes": {
+    "start": "lancer instantanément solo/groupe/terrain",
+    "coach_auto": "l’app choisit format, intensité, repos et alternatives",
+    "explorer": "programmes + arsenal exercices"
+  },
+  "session_phases": [
+    "Préparation",
+    "Bloc principal",
+    "Finisher",
+    "Retour au calme"
+  ],
+  "group_rules": {
+    "1": "solo technique",
+    "2-6": "petit groupe, binômes possibles",
+    "7-15": "stations, rotations",
+    "16+": "animation sécurisée, exercices simples, consignes courtes"
+  }
+}

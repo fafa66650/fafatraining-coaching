@@ -1,22 +1,12 @@
-# FAFATRAINING COACHING V42 PROPRE
+# FAFATRAINING V45 FINAL MONSTER
 
-Version fusion validée : Coach Hunter pour la clarté + FAFATRAINING pour le terrain.
+Version finale optimisée UX + visuel.
 
-## Structure
-- Accueil = action uniquement
-- Coach = profil intelligent avec IMC, fatigue, stress, blessures, matériel
-- Arsenal = onglets par groupes musculaires uniquement
-- Programmes = gros blocs classés par objectif, durée et style
-- Séance rapide SOLO / GROUPE
+✔ UX simplifiée (1 écran = 1 action)
+✔ Design minimal premium (type ENRX)
+✔ Séance rapide SOLO / GROUPE optimisée
+✔ Arsenal clair (groupes musculaires)
+✔ Programmes lisibles (gros blocs)
+✔ Expérience fluide mobile
 
-## Formats terrain
-Tabata, AMRAP, EMOM, For Time, Circuit, Hyrox, Boxe cardio, Renforcement.
-
-## Contenu
-- Exercices : 188
-- Programmes : 162
-- Formats rapides : 8
-
-## Important
-Aucun champ de séance rapide n’est prérempli.
-Les visuels d’exercices sont à ajouter dans les dossiers indiqués par `VISUELS_A_CREER.csv`.
+👉 Version stable et exploitable terrain

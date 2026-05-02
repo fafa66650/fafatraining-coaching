@@ -1,0 +1,50 @@
+{
+  "tabata": {
+    "label": "Tabata",
+    "program": "tabata_debutant",
+    "duration": "20",
+    "desc": "20s effort / 10s repos, 4 à 8 rounds."
+  },
+  "amrap": {
+    "label": "AMRAP",
+    "program": "amrap_20",
+    "duration": "20",
+    "desc": "Maximum de tours propres dans un temps donné."
+  },
+  "emom": {
+    "label": "EMOM",
+    "program": "emom_20",
+    "duration": "20",
+    "desc": "Une tâche à faire au début de chaque minute."
+  },
+  "for_time": {
+    "label": "For Time",
+    "program": "for_time_simple",
+    "duration": "25",
+    "desc": "Un travail donné à terminer proprement."
+  },
+  "circuit_training": {
+    "label": "Circuit training",
+    "program": "circuit_groupe",
+    "duration": "35",
+    "desc": "Ateliers en rotation, idéal groupe."
+  },
+  "hyrox": {
+    "label": "Hyrox",
+    "program": "hyrox_beginner",
+    "duration": "45",
+    "desc": "Stations cardio + fonctionnel."
+  },
+  "boxe_cardio": {
+    "label": "Boxe cardio",
+    "program": "boxe_cardio_intense",
+    "duration": "35",
+    "desc": "Rounds, appuis, frappes, cardio."
+  },
+  "renforcement": {
+    "label": "Renforcement",
+    "program": "full_body_debutant",
+    "duration": "45",
+    "desc": "Renforcement simple et adaptable."
+  }
+}
