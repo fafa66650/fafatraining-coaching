@@ -1,0 +1,58 @@
+{
+  "debutant": {
+    "label": "Débutant",
+    "score": 1,
+    "sets": 2,
+    "reps": "8–10",
+    "time": "30s",
+    "rest": 45,
+    "difficulty": "Facile",
+    "counts": {
+      "express": 4,
+      "standard": 5,
+      "long": 6
+    }
+  },
+  "intermediaire": {
+    "label": "Intermédiaire",
+    "score": 5,
+    "sets": 3,
+    "reps": "10–12",
+    "time": "35s",
+    "rest": 60,
+    "difficulty": "Moyen",
+    "counts": {
+      "express": 5,
+      "standard": 7,
+      "long": 8
+    }
+  },
+  "avance": {
+    "label": "Avancé",
+    "score": 10,
+    "sets": 4,
+    "reps": "8–12",
+    "time": "40s",
+    "rest": 75,
+    "difficulty": "Difficile",
+    "counts": {
+      "express": 6,
+      "standard": 8,
+      "long": 10
+    }
+  },
+  "expert": {
+    "label": "Expert",
+    "score": 20,
+    "sets": 5,
+    "reps": "6–10",
+    "time": "45s",
+    "rest": 90,
+    "difficulty": "Très dur",
+    "counts": {
+      "express": 7,
+      "standard": 10,
+      "long": 12
+    }
+  }
+}

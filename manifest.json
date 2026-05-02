@@ -1,0 +1,17 @@
+{
+  "name": "FAFATRAINING Coaching V40 Immersion",
+  "short_name": "FAFA V40",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050805",
+  "theme_color": "#050805",
+  "icons": [
+    {
+      "src": "assets/logo/logo-fafatraining.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

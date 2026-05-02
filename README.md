@@ -1,23 +1,25 @@
-# FAFATRAINING COACHING V37 ULTRA INTELLIGENTE
+# FAFATRAINING COACHING V40 IMMERSION — SOLO + GROUPE
 
-Version basée sur V36, avec niveau supérieur : coach automatique, bibliothèque enrichie, logique groupe et terrain.
+Version V40 centrée sur l’expérience : l’utilisateur entre dans une séance au lieu de naviguer dans un outil.
 
-## Nouveautés V37
-- Mode Coach Auto avec recommandations selon objectif, lieu et nombre de personnes
-- Génération séance rapide plus intelligente
-- Adaptation groupe :
-  - petit groupe = plus technique
-  - grand groupe = ateliers / rotations / sécurité
-- Bibliothèque enrichie : 151 exercices
-- Programmes/styles : 22
-- Exercices classés par catégorie puis ordre alphabétique
-- Matériel, blessures, lieux et formats conservés depuis V36
-- Exports PDF et visuel client
-- Dossiers visuels prêts avec vrais noms
-- GitHub/PWA ready
+## Modes
+- START : lancer une séance solo/groupe/terrain rapidement
+- COACH AUTO : profil, fatigue, stress, sommeil, blessures, matériel
+- EXPLORER : programmes + arsenal par groupe musculaire
+- IMMERSION : séance plein écran, coach cue, actions visibles
+
+## Contenu
+- Exercices : 188
+- Programmes : 162
+- Objectifs rapides : 162
 
 ## Formats intégrés
-Tabata, AMRAP, EMOM, For Time, HIIT, Circuit training, CrossTraining, CrossFit style, Hyrox, boxe cardio, cardio boxing, renforcement, musculation, stretching, mobilité.
+For Time, AMRAP, EMOM, Tabata, HIIT, Circuit training, CrossFit style, Hyrox, boxe cardio, renforcement, musculation, stretching, mobilité.
 
-## Visuels
-Toujours à ajouter plus tard via `VISUELS_A_CREER.csv`.
+## Organisation
+- Exercices par catégorie, groupe musculaire, style et matériel
+- Dossiers visuels prêts via VISUELS_A_CREER.csv
+- Export PDF et visuel client
+- GitHub/PWA ready
+
+Inspirations de classement : groupes musculaires et logique d’exercices par muscles comme Coach Hunter.

@@ -1,0 +1,36 @@
+{
+  "Boxe / cardio boxing": [
+    "boxe"
+  ],
+  "Cardio / HIIT / Tabata": [
+    "cardio_crossfit"
+  ],
+  "CrossFit / WOD": [
+    "cardio_crossfit",
+    "push",
+    "pull",
+    "legs",
+    "core"
+  ],
+  "Hyrox": [
+    "cardio_crossfit",
+    "legs",
+    "pull",
+    "core"
+  ],
+  "Musculation / renforcement": [
+    "push",
+    "pull",
+    "legs",
+    "core"
+  ],
+  "Mobilité / étirements": [
+    "mobilite"
+  ],
+  "Poids du corps": [
+    "push",
+    "legs",
+    "core",
+    "cardio_crossfit"
+  ]
+}
