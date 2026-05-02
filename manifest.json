@@ -1,6 +1,6 @@
 {
-  "name": "FAFATRAINING Coaching V29",
-  "short_name": "FAFA V29",
+  "name": "FAFATRAINING Coaching V30",
+  "short_name": "FAFA V30",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,8 +9,8 @@
   "theme_color": "#050805",
   "icons": [
     {
-      "src": "assets/logo/logo_officiel.jpg",
-      "sizes": "1024x1024",
+      "src": "assets/logo/logo-fafa.jpg",
+      "sizes": "512x512",
       "type": "image/jpeg"
     }
   ]
