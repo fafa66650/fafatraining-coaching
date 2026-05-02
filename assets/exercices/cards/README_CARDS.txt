@@ -1,0 +1,1 @@
+Optionnel : cartes finales composées photo + avatar.

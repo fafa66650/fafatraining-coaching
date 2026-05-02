@@ -1,0 +1,266 @@
+[
+  {
+    "id": "force_hypertrophie",
+    "nom": "Force & Hypertrophie",
+    "icon": "💪",
+    "desc": "Force, volume, hypertrophie.",
+    "children": [
+      {
+        "id": "push",
+        "nom": "Push haut du corps",
+        "smartCategory": "haut_corps",
+        "count": 8
+      },
+      {
+        "id": "pull",
+        "nom": "Pull dos bras",
+        "smartCategory": "haut_corps",
+        "count": 8
+      },
+      {
+        "id": "legs",
+        "nom": "Jambes",
+        "smartCategory": "bas_corps",
+        "count": 8
+      },
+      {
+        "id": "upper",
+        "nom": "Haut du corps complet",
+        "smartCategory": "haut_corps",
+        "count": 8
+      },
+      {
+        "id": "lower",
+        "nom": "Bas du corps complet",
+        "smartCategory": "bas_corps",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "id": "poids_du_corps",
+    "nom": "Poids du corps & Maison",
+    "icon": "🏠",
+    "desc": "Sans matériel, variantes progressives.",
+    "children": [
+      {
+        "id": "bw_full",
+        "nom": "Poids du corps complet",
+        "smartCategory": "full_body",
+        "count": 9
+      },
+      {
+        "id": "bw_upper",
+        "nom": "Haut du corps poids du corps",
+        "smartCategory": "haut_corps",
+        "count": 8
+      },
+      {
+        "id": "bw_lower",
+        "nom": "Jambes poids du corps",
+        "smartCategory": "bas_corps",
+        "count": 8
+      },
+      {
+        "id": "bw_core",
+        "nom": "Core poids du corps",
+        "smartCategory": "core",
+        "count": 7
+      },
+      {
+        "id": "bw_conditioning",
+        "nom": "Conditioning sans matériel",
+        "smartCategory": "hiit",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "id": "crossfit",
+    "nom": "CrossFit",
+    "icon": "🚀",
+    "desc": "For Time, Chipper, Benchmark.",
+    "children": [
+      {
+        "id": "wod_for_time",
+        "nom": "For Time",
+        "smartCategory": "full_body",
+        "count": 9
+      },
+      {
+        "id": "wod_chipper",
+        "nom": "Chipper",
+        "smartCategory": "full_body",
+        "count": 10
+      },
+      {
+        "id": "wod_benchmark",
+        "nom": "Benchmark",
+        "smartCategory": "hiit",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "id": "hiit_amrap_emom",
+    "nom": "HIIT · AMRAP · EMOM",
+    "icon": "⚡",
+    "desc": "Intervalles, AMRAP, EMOM, Tabata.",
+    "children": [
+      {
+        "id": "hiit_intervals",
+        "nom": "HIIT intervalles",
+        "smartCategory": "hiit",
+        "count": 8
+      },
+      {
+        "id": "amrap",
+        "nom": "AMRAP",
+        "smartCategory": "hiit",
+        "count": 8
+      },
+      {
+        "id": "emom",
+        "nom": "EMOM",
+        "smartCategory": "hiit",
+        "count": 8
+      },
+      {
+        "id": "tabata",
+        "nom": "Tabata",
+        "smartCategory": "hiit",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "hyrox",
+    "nom": "Hyrox",
+    "icon": "🏃",
+    "desc": "Course + stations fonctionnelles.",
+    "children": [
+      {
+        "id": "hyrox_engine",
+        "nom": "Engine Hyrox",
+        "smartCategory": "cardio",
+        "count": 8
+      },
+      {
+        "id": "hyrox_stations",
+        "nom": "Stations Hyrox",
+        "smartCategory": "full_body",
+        "count": 9
+      },
+      {
+        "id": "hyrox_simulation",
+        "nom": "Simulation Hyrox",
+        "smartCategory": "cardio",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "id": "boxe_cardio",
+    "nom": "Boxe & Cardio Boxing",
+    "icon": "🥊",
+    "desc": "Technique, sac, appuis, cardio boxing.",
+    "children": [
+      {
+        "id": "boxe_technique",
+        "nom": "Technique boxe",
+        "smartCategory": "boxe",
+        "count": 8
+      },
+      {
+        "id": "boxe_sac",
+        "nom": "Sac de frappe",
+        "smartCategory": "boxe",
+        "count": 8
+      },
+      {
+        "id": "cardio_boxing",
+        "nom": "Cardio boxing",
+        "smartCategory": "boxe",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "id": "running_trail",
+    "nom": "Running · Trail",
+    "icon": "⛰️",
+    "desc": "Endurance, côtes, prévention trail.",
+    "children": [
+      {
+        "id": "trail_cotes",
+        "nom": "Côtes trail",
+        "smartCategory": "cardio",
+        "count": 8
+      },
+      {
+        "id": "trail_endurance",
+        "nom": "Endurance trail",
+        "smartCategory": "cardio",
+        "count": 8
+      },
+      {
+        "id": "trail_prevention",
+        "nom": "Prévention trail",
+        "smartCategory": "mobilite",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "caf_core",
+    "nom": "CAF · Abdos · Core",
+    "icon": "🧱",
+    "desc": "Cuisses, abdos, fessiers, gainage.",
+    "children": [
+      {
+        "id": "caf",
+        "nom": "Cuisses Abdos Fessiers",
+        "smartCategory": "core",
+        "count": 8
+      },
+      {
+        "id": "core",
+        "nom": "Core stabilité",
+        "smartCategory": "core",
+        "count": 7
+      },
+      {
+        "id": "abdos",
+        "nom": "Abdos contrôlés",
+        "smartCategory": "core",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "mobilite_sante",
+    "nom": "Mobilité · Stretching · Santé",
+    "icon": "🧘",
+    "desc": "Prévention, souplesse, récupération.",
+    "children": [
+      {
+        "id": "mobility",
+        "nom": "Mobilité prévention",
+        "smartCategory": "mobilite",
+        "count": 7
+      },
+      {
+        "id": "stretching",
+        "nom": "Stretching",
+        "smartCategory": "mobilite",
+        "count": 7
+      },
+      {
+        "id": "recovery",
+        "nom": "Récupération active",
+        "smartCategory": "mobilite",
+        "count": 6
+      }
+    ]
+  }
+]
