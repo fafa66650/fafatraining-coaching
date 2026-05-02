@@ -1,1 +1,0 @@
-Chaque image doit porter le nom exact indiqué dans VISUELS_A_CREER.csv. Exemple : assets/exercises/push/pompes.jpg
