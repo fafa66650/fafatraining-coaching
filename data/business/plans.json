@@ -1,0 +1,29 @@
+[
+  {
+    "id": "FREE",
+    "name": "Free",
+    "limits": {
+      "sessions": 2,
+      "cycles": false,
+      "messages": false
+    }
+  },
+  {
+    "id": "BASIC",
+    "name": "Basic",
+    "limits": {
+      "sessions": 10,
+      "cycles": true,
+      "messages": false
+    }
+  },
+  {
+    "id": "PRO",
+    "name": "Pro",
+    "limits": {
+      "sessions": "unlimited",
+      "cycles": true,
+      "messages": true
+    }
+  }
+]

@@ -1,0 +1,1 @@
+Dézippe puis envoie index.html, app.js, style.css, manifest.json, service-worker.js, data/ et assets/ à la racine GitHub Pages.

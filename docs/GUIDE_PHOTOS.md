@@ -1,0 +1,1 @@
+Ajoute les vraies photos selon PHOTOS_A_AJOUTER.csv. Tant qu’une photo manque, l’app affiche un emplacement propre.
