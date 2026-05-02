@@ -1,1 +1,0 @@
-Ajoute ici les photos réalistes JPG des exercices selon PACK_52_MIX_AVATAR_PHOTOS.csv.
