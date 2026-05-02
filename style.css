@@ -132,3 +132,176 @@ body{background:#020502}
 @media(max-width:620px){
  .immersionTitle{font-size:42px}.immersiveInfo h2{font-size:36px}.immersiveCoach{font-size:15px}.immersiveActions .btn{min-width:100%;}.programMega{grid-template-columns:1fr}
 }
+
+/* V41 ENRX × COACH-HUNTER CLEAN — 1 écran = 1 logique */
+:root{--v41green:#7dff38;--v41dark:#020602;--v41card:rgba(12,20,14,.86)}
+body{background:radial-gradient(circle at 50% -10%,rgba(125,255,56,.13),transparent 34%),#020602}
+.top{background:rgba(2,6,2,.94);border-bottom:1px solid rgba(255,255,255,.08)}
+.topin{max-width:1180px}
+.main{max-width:1180px}
+.homeHero{
+  min-height:auto!important;
+  display:grid!important;
+  grid-template-columns:1fr!important;
+  gap:18px!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.v41Hero{
+  position:relative;
+  overflow:hidden;
+  border-radius:42px;
+  min-height:600px;
+  padding:38px;
+  border:1px solid rgba(125,255,56,.28);
+  background:
+    linear-gradient(90deg,rgba(2,6,2,.98) 0%,rgba(2,6,2,.88) 42%,rgba(2,6,2,.38) 100%),
+    radial-gradient(circle at 75% 45%,rgba(125,255,56,.18),transparent 36%);
+}
+.v41HeroLogo{
+  position:absolute;
+  right:-70px;
+  top:50%;
+  transform:translateY(-50%);
+  width:min(680px,58vw);
+  max-height:86%;
+  object-fit:contain;
+  opacity:.23;
+  filter:drop-shadow(0 35px 90px rgba(0,0,0,.75));
+  pointer-events:none;
+}
+.v41HeroContent{position:relative;z-index:2;max-width:560px}
+.v41Kicker{color:var(--v41green);letter-spacing:2px;font-weight:1000;font-size:13px}
+.v41Title{font-size:76px;line-height:.86;letter-spacing:-4px;margin:10px 0 18px}
+.v41Lead{font-size:19px;line-height:1.36;color:#ecffef}
+.v41Modes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}
+.v41Mode{border:1px solid rgba(255,255,255,.12);border-radius:24px;background:rgba(255,255,255,.045);padding:16px;text-align:left;color:white}
+.v41Mode b{display:block;color:var(--v41green);font-size:20px}
+.v41Mode span{color:var(--muted);font-size:13px}
+.v41StartPanel{
+  position:absolute;
+  z-index:3;
+  top:38px;
+  right:38px;
+  width:min(430px,40%);
+  border:1px solid rgba(125,255,56,.25);
+  border-radius:30px;
+  background:rgba(2,6,2,.82);
+  backdrop-filter:blur(18px);
+  padding:24px;
+  box-shadow:0 30px 100px rgba(0,0,0,.35);
+}
+.v41StartPanel h3{margin:0 0 10px;font-size:24px}
+.v41StartPanel .quickForm{grid-template-columns:1fr!important;gap:10px}
+.v41StartPanel input,.v41StartPanel select{min-height:44px}
+.v41Section{border:1px solid rgba(255,255,255,.1);border-radius:30px;background:var(--v41card);padding:22px;margin:14px 0}
+.v41Section h2{margin-top:0}
+.v41ProgramGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.v41ProgramCard{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:22px;
+  background:rgba(255,255,255,.045);
+  padding:16px;
+  min-height:118px;
+}
+.v41ProgramCard b{font-size:18px;color:#fff}
+.v41ProgramCard small{color:var(--muted)}
+.v41Tabs{display:flex;gap:8px;overflow:auto;padding-bottom:8px;margin-top:12px}
+.v41Tab{
+  white-space:nowrap;
+  border:1px solid rgba(255,255,255,.13);
+  background:rgba(255,255,255,.045);
+  color:#fff;
+  border-radius:999px;
+  padding:11px 14px;
+  font-weight:950;
+}
+.v41Tab.active{background:var(--v41green);color:#061006}
+.v41ArsenalHead{
+  border:1px solid rgba(125,255,56,.18);
+  border-radius:30px;
+  padding:24px;
+  margin-bottom:14px;
+  background:linear-gradient(135deg,rgba(125,255,56,.10),rgba(255,255,255,.035));
+}
+.v41ArsenalGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.v41Exo{
+  display:grid;
+  grid-template-columns:92px 1fr;
+  gap:14px;
+  border:1px solid rgba(255,255,255,.11);
+  border-radius:24px;
+  background:rgba(255,255,255,.04);
+  padding:14px;
+}
+.v41Exo h3{margin:0 0 4px;font-size:20px}
+.v41Exo p{margin:5px 0;font-size:13px;color:#d9e5dc;line-height:1.25}
+.v41ProgramTabs{display:flex;gap:8px;overflow:auto;margin:10px 0 18px}
+.v41ProgramTab{white-space:nowrap;border:1px solid rgba(255,255,255,.13);border-radius:999px;background:rgba(255,255,255,.05);color:white;padding:10px 14px;font-weight:900}
+.v41ProgramTab.active{background:var(--v41green);color:#071007}
+.v41Hidden{display:none!important}
+.librarySearchBlock{display:none!important}
+.sportFilter{display:none!important}
+.form:has(#q), .form:has(#cat), .form:has(#sty){display:none!important}
+@media(max-width:1050px){
+  .v41Hero{min-height:auto;padding:24px}
+  .v41HeroLogo{right:-140px;width:90vw;opacity:.16}
+  .v41Title{font-size:52px;letter-spacing:-2px}
+  .v41StartPanel{position:relative;top:auto;right:auto;width:100%;margin-top:22px}
+  .v41Modes,.v41ProgramGrid,.v41ArsenalGrid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .v41Hero{padding:20px;border-radius:30px}
+  .v41HeroLogo{right:-210px;width:150vw;opacity:.12}
+  .v41Title{font-size:42px}
+  .v41Lead{font-size:16px}
+  .v41Modes,.v41ProgramGrid,.v41ArsenalGrid{grid-template-columns:1fr}
+  .v41Exo{grid-template-columns:76px 1fr}
+}
+
+/* V42 PROPRE — fusion Coach Hunter + FAFATRAINING terrain */
+:root{--v42green:#7DFF38;--v42dark:#020602;--v42panel:rgba(11,18,13,.88)}
+body{background:radial-gradient(circle at 50% -10%,rgba(125,255,56,.10),transparent 35%),#020602}
+.top{background:rgba(2,6,2,.95);border-bottom:1px solid rgba(255,255,255,.08)}
+.main{max-width:1160px}
+.v42Home{display:grid;gap:16px}
+.v42Hero{
+  position:relative;overflow:hidden;border-radius:42px;min-height:560px;padding:36px;
+  border:1px solid rgba(125,255,56,.28);
+  background:linear-gradient(90deg,rgba(2,6,2,.98) 0%,rgba(2,6,2,.90) 48%,rgba(2,6,2,.45) 100%);
+}
+.v42LogoDecor{position:absolute;right:-40px;top:50%;transform:translateY(-50%);width:min(590px,50vw);opacity:.18;filter:drop-shadow(0 40px 100px rgba(0,0,0,.8));pointer-events:none}
+.v42HeroText{position:relative;z-index:2;max-width:520px}
+.v42Kicker{color:var(--v42green);font-size:13px;letter-spacing:2px;font-weight:1000}
+.v42Title{font-size:72px;line-height:.86;letter-spacing:-4px;margin:8px 0 16px}
+.v42Lead{font-size:19px;line-height:1.35;color:#ecffef}
+.v42Actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px;max-width:480px}
+.v42Action{border:1px solid rgba(255,255,255,.13);border-radius:24px;background:rgba(255,255,255,.055);color:white;text-align:left;padding:18px;min-height:110px}
+.v42Action b{display:block;color:var(--v42green);font-size:23px}.v42Action span{font-size:13px;color:var(--muted)}
+.v42Start{position:absolute;z-index:3;right:34px;top:34px;width:min(410px,38%);border:1px solid rgba(125,255,56,.27);border-radius:30px;background:rgba(2,6,2,.84);backdrop-filter:blur(18px);padding:22px}
+.v42Start h3{margin:0 0 10px;font-size:24px}.v42Start .quickForm{grid-template-columns:1fr!important;gap:10px}.v42Start input,.v42Start select{min-height:46px}
+.v42Section{border:1px solid rgba(255,255,255,.10);border-radius:30px;background:var(--v42panel);padding:22px;margin:14px 0}
+.v42Section h2{margin-top:0}
+.v42ProgramTabs,.v42MuscleTabs{display:flex;gap:8px;overflow:auto;padding-bottom:8px;margin:8px 0 16px}
+.v42Tab{white-space:nowrap;border:1px solid rgba(255,255,255,.14);border-radius:999px;background:rgba(255,255,255,.055);color:white;padding:11px 15px;font-weight:950}
+.v42Tab.active{background:var(--v42green);color:#071007}
+.v42ProgramGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.v42ProgramCard{border:1px solid rgba(255,255,255,.12);border-radius:22px;background:rgba(255,255,255,.045);color:white;text-align:left;padding:16px;min-height:120px}
+.v42ProgramCard b{font-size:18px}.v42ProgramCard small{color:var(--muted)}
+.v42ArsenalHead{border:1px solid rgba(125,255,56,.18);border-radius:30px;padding:24px;margin-bottom:14px;background:linear-gradient(135deg,rgba(125,255,56,.10),rgba(255,255,255,.035))}
+.v42ExoGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.v42Exo{display:grid;grid-template-columns:92px 1fr;gap:14px;border:1px solid rgba(255,255,255,.11);border-radius:24px;background:rgba(255,255,255,.04);padding:14px}
+.v42Exo h3{margin:0 0 4px;font-size:20px}.v42Exo p{margin:5px 0;font-size:13px;color:#d9e5dc;line-height:1.25}
+.v42CoachGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.v42Compact details,.compactDetails{border-radius:16px}
+.form:has(#q),.form:has(#cat),.form:has(#sty),.sportFilter,.librarySearchBlock{display:none!important}
+@media(max-width:1050px){
+  .layout{display:block}.side{display:none}.v42Hero{min-height:auto;padding:24px}.v42LogoDecor{right:-160px;width:90vw;opacity:.13}.v42Title{font-size:52px;letter-spacing:-2px}
+  .v42Start{position:relative;right:auto;top:auto;width:100%;margin-top:22px}.v42ProgramGrid,.v42ExoGrid,.v42CoachGrid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .v42Hero{padding:20px;border-radius:30px}.v42LogoDecor{right:-230px;width:155vw;opacity:.10}.v42Title{font-size:42px}.v42Lead{font-size:16px}
+  .v42Actions,.v42ProgramGrid,.v42ExoGrid,.v42CoachGrid{grid-template-columns:1fr}.v42Exo{grid-template-columns:76px 1fr}
+}
