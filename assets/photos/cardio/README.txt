@@ -1,1 +1,0 @@
-Ajoute ici les visuels correspondants. Les noms exacts sont dans data/mapping_images.json et VISUELS_A_CREER.csv.
