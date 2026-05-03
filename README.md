@@ -1,22 +1,12 @@
-# FAFATRAINING V47 CLEAN COACH RÉEL
+# FAFATRAINING V47 CLEAN — FIX ÉCRAN NOIR
 
-Version refaite proprement depuis V46 FULL PRO, pas un patch.
+Correction de l'écran noir :
+- app.js sécurisé
+- fallback si JSON ne charge pas
+- écran de chargement visible
+- service worker cache renouvelé
 
-## Nouveautés intégrées
-- Flow séance interactif
-- Timer effort/repos
-- Pause / reprendre
-- Suivant / précédent
-- Série validée
-- Guidage coach dynamique
-- Export visuel Menu séance inspiré FAFATRAINING
-- Export imprimable A4 / PDF navigateur / image HTML propre
-- Bibliothèque enrichie et diversifiée
-
-## Contenu
-- Mouvements/exercices : 360
-- Programmes/séances : 720
+Contenu :
+- Exercices : 360
+- Programmes : 720
 - Formats rapides : 10
-
-## Utilisation
-Lance une séance rapide ou un programme : le mode Coach réel s’ouvre directement.
