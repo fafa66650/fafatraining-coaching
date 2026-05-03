@@ -1,0 +1,86 @@
+{
+  "auto": {
+    "label": "Mode Auto intelligent",
+    "program": "perte_poids_12s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée selon fatigue, stress, niveau, matériel, blessure et historique."
+  },
+  "hiit": {
+    "label": "HIIT",
+    "program": "perte_poids_12s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "musculation": {
+    "label": "Musculation",
+    "program": "perte_poids_12s_s1_j2",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "renforcement": {
+    "label": "Renforcement",
+    "program": "perte_poids_12s_s1_j3",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "boxe": {
+    "label": "Boxe",
+    "program": "boxe_8s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "mobilite": {
+    "label": "Mobilité",
+    "program": "boxe_8s_s1_j4",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "hyrox": {
+    "label": "Hyrox",
+    "program": "hyrox_10s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "cross_training": {
+    "label": "Cross Training",
+    "program": "terrain_hardcore_8s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "prepa_physique": {
+    "label": "Prépa Physique",
+    "program": "athlete_8s_s1_j1",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "tabata": {
+    "label": "Tabata",
+    "program": "tabata_full_body_debutant_solo_15_502",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "amrap": {
+    "label": "AMRAP",
+    "program": "amrap_full_body_debutant_solo_45_658",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "emom": {
+    "label": "EMOM",
+    "program": "emom_full_body_debutant_solo_25_814",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "for_time": {
+    "label": "For Time",
+    "program": "for_time_full_body_debutant_solo_60_970",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "circuit_training": {
+    "label": "Circuit Training",
+    "program": "circuit_training_full_body_debutant_solo_35_1126",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  }
+}

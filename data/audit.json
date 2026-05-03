@@ -1,0 +1,22 @@
+{
+  "version": "V54_MARKET_LEVEL",
+  "base": "V53_LIBRARY_EXPORT_PRO",
+  "no_restart": true,
+  "exercise_count": 1200,
+  "program_count": 1600,
+  "cycle_count": 8,
+  "filters": {
+    "equipment": 14,
+    "injury_cautions": 9,
+    "muscles": 3,
+    "objectives": 10,
+    "levels": 4
+  },
+  "coach_engine": "fatigue/stress/equipment/injury/progression/anti-repetition/history/score",
+  "export": "A4 homogeneous blocks, fixed grid, no overlay",
+  "image_paths_ready": {
+    "avatar": "assets/avatars/{style}/avatar.jpg",
+    "menu": "assets/menus/{menu_id}/cover.jpg",
+    "exercise": "assets/exercises/{exercise_key}/image.jpg"
+  }
+}

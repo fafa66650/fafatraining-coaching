@@ -1,10 +1,13 @@
 {
-  "version": "V50 CLEAN DOSSIERS",
-  "brand": "FAFATRAINING COACHING",
-  "primary": "#b7ff00",
-  "background": "#050606",
-  "text": "#ffffff",
-  "watermark": "assets/logo/logo_watermark.png",
-  "defaultAvatar": "assets/placeholders/avatar_default.png",
-  "defaultMenu": "assets/placeholders/menu_default.png"
+  "app_name": "FAFATRAINING Coaching",
+  "home": {
+    "headline": "Terrain hardcore. Coach intelligent.",
+    "subtitle": "Choisis, lance, suis ton chrono, exporte une séance propre avec avatar adapté."
+  },
+  "paths": {
+    "logo": "assets/logo/logo-fafatraining.jpg",
+    "avatar_placeholder": "assets/placeholders/avatar-placeholder.svg",
+    "exercise_placeholder": "assets/placeholders/exercise-placeholder.svg",
+    "menu_placeholder": "assets/placeholders/menu-placeholder.svg"
+  }
 }

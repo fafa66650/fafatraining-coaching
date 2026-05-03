@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "fatigue_4_5": "réduit volume de 25%, évite impacts et charges lourdes",
+    "stress_4_5": "augmente repos, ajoute mobilité/respiration",
+    "injury_filter": "retire les exercices dont injury_cautions contient la zone",
+    "equipment_filter": "priorise les exercices compatibles avec le matériel disponible",
+    "progression": "adapte volume_factor selon semaine/phase/historique",
+    "anti_repetition": "évite les 120 derniers exercices stockés en localStorage"
+  },
+  "score": {
+    "set_validated": 10,
+    "session_finished": 100,
+    "streak_bonus": 25,
+    "technical_bonus": 15
+  }
+}
