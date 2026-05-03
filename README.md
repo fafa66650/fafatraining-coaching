@@ -1,15 +1,22 @@
-# FAFATRAINING V47 COACH RÉEL
+# FAFATRAINING V47 CLEAN COACH RÉEL
 
-Nouveautés :
-- Timer effort / repos
+Version refaite proprement depuis V46 FULL PRO, pas un patch.
+
+## Nouveautés intégrées
+- Flow séance interactif
+- Timer effort/repos
 - Pause / reprendre
-- Exercice suivant / précédent
+- Suivant / précédent
 - Série validée
 - Guidage coach dynamique
-- Vibration mobile si disponible
-- Export Menu séance imprimable style FAFATRAINING
-- Impression navigateur en PDF A4 portrait
+- Export visuel Menu séance inspiré FAFATRAINING
+- Export imprimable A4 / PDF navigateur / image HTML propre
+- Bibliothèque enrichie et diversifiée
 
-Contenu :
-- Exercices : 188
-- Programmes : 360
+## Contenu
+- Mouvements/exercices : 360
+- Programmes/séances : 720
+- Formats rapides : 10
+
+## Utilisation
+Lance une séance rapide ou un programme : le mode Coach réel s’ouvre directement.

@@ -1,0 +1,361 @@
+id;nom;durée;style;niveau;audience;objectif;description
+full_body;Full body intelligent;45 min;équilibré;;;remise_forme;Séance complète : pousser, tirer, jambes, gainage, cardio léger.
+mobilite_recovery;Mobilité / récupération;20–40 min;prévention;;;bien_etre;Mobilité, récupération, posture, prévention.
+stretching;Étirements / stretching;15–45 min;souplesse;;;bien_etre;Assouplissement, respiration, retour au calme.
+stretching_avance_v40;Stretching Avancé;45–70 min;stretching;;;bien_etre;Stretching format avancé : souplesse, adapté 45–70 min.
+stretching_bas_corps_v40;Stretching Bas du corps;35–55 min;stretching;;;bien_etre;Stretching format bas du corps : souplesse, adapté 35–55 min.
+stretching_boxe_v40;Stretching Boxe;30–45 min;stretching;;;bien_etre;Stretching format boxe : souplesse, adapté 30–45 min.
+stretching_core_v40;Stretching Core;20–35 min;stretching;;;bien_etre;Stretching format core : souplesse, adapté 20–35 min.
+stretching_debutant_v40;Stretching Débutant;30–40 min;stretching;;;bien_etre;Stretching format débutant : souplesse, adapté 30–40 min.
+stretching_exterieur_v40;Stretching Extérieur;25–45 min;stretching;;;bien_etre;Stretching format extérieur : souplesse, adapté 25–45 min.
+stretching_groupe_v40;Stretching Groupe;30–45 min;stretching;;;bien_etre;Stretching format groupe : souplesse, adapté 30–45 min.
+stretching_haut_corps_v40;Stretching Haut du corps;35–55 min;stretching;;;bien_etre;Stretching format haut du corps : souplesse, adapté 35–55 min.
+stretching_intermediaire_v40;Stretching Intermédiaire;40–55 min;stretching;;;bien_etre;Stretching format intermédiaire : souplesse, adapté 40–55 min.
+stretching_solo_v40;Stretching Solo;35–60 min;stretching;;;bien_etre;Stretching format solo : souplesse, adapté 35–60 min.
+boxe_avance_v40;Boxe cardio Avancé;45–70 min;boxe;;;remise_forme;Boxe cardio format avancé : rounds, adapté 45–70 min.
+boxe_bas_corps_v40;Boxe cardio Bas du corps;35–55 min;boxe;;;remise_forme;Boxe cardio format bas du corps : rounds, adapté 35–55 min.
+boxe_boxe_v40;Boxe cardio Boxe;30–45 min;boxe;;;remise_forme;Boxe cardio format boxe : rounds, adapté 30–45 min.
+boxe_core_v40;Boxe cardio Core;20–35 min;boxe;;;remise_forme;Boxe cardio format core : rounds, adapté 20–35 min.
+boxe_debutant_v40;Boxe cardio Débutant;30–40 min;boxe;;;remise_forme;Boxe cardio format débutant : rounds, adapté 30–40 min.
+boxe_exterieur_v40;Boxe cardio Extérieur;25–45 min;boxe;;;remise_forme;Boxe cardio format extérieur : rounds, adapté 25–45 min.
+boxe_groupe_v40;Boxe cardio Groupe;30–45 min;boxe;;;remise_forme;Boxe cardio format groupe : rounds, adapté 30–45 min.
+boxe_haut_corps_v40;Boxe cardio Haut du corps;35–55 min;boxe;;;remise_forme;Boxe cardio format haut du corps : rounds, adapté 35–55 min.
+boxe_cardio_intense;Boxe cardio intense;30–50 min;boxe;;;perte_poids;Rounds, frappes, cardio.
+boxe_intermediaire_v40;Boxe cardio Intermédiaire;40–55 min;boxe;;;remise_forme;Boxe cardio format intermédiaire : rounds, adapté 40–55 min.
+boxe_solo_v40;Boxe cardio Solo;35–60 min;boxe;;;remise_forme;Boxe cardio format solo : rounds, adapté 35–60 min.
+boxe_debutant;Boxe débutant;25–40 min;boxe;;;performance;Garde, appuis, directs, cardio doux.
+cardio_boxing;Cardio boxing;25–45 min;boxe fitness;;;perte_poids;Boxe sans opposition, cardio, fun et accessible.
+boxe_cardio;Boxe cardio;30–55 min;frappes / appuis;;;performance;Appuis, frappes, coordination, cardio, gainage.
+circuit_training_avance_v40;Circuit Avancé;45–70 min;circuit_training;;;remise_forme;Circuit format avancé : ateliers, adapté 45–70 min.
+circuit_training_bas_corps_v40;Circuit Bas du corps;35–55 min;circuit_training;;;remise_forme;Circuit format bas du corps : ateliers, adapté 35–55 min.
+circuit_training_boxe_v40;Circuit Boxe;30–45 min;circuit_training;;;remise_forme;Circuit format boxe : ateliers, adapté 30–45 min.
+circuit_training_core_v40;Circuit Core;20–35 min;circuit_training;;;remise_forme;Circuit format core : ateliers, adapté 20–35 min.
+circuit_debutant;Circuit débutant;25–35 min;circuit_training;;;remise_forme;Ateliers faciles à comprendre.
+circuit_training_debutant_v40;Circuit Débutant;30–40 min;circuit_training;;;remise_forme;Circuit format débutant : ateliers, adapté 30–40 min.
+circuit_training_exterieur_v40;Circuit Extérieur;25–45 min;circuit_training;;;remise_forme;Circuit format extérieur : ateliers, adapté 25–45 min.
+circuit_groupe;Circuit groupe;30–45 min;circuit_training;;;performance;Rotation par postes, parfait animation.
+circuit_training_groupe_v40;Circuit Groupe;30–45 min;circuit_training;;;remise_forme;Circuit format groupe : ateliers, adapté 30–45 min.
+circuit_training_haut_corps_v40;Circuit Haut du corps;35–55 min;circuit_training;;;remise_forme;Circuit format haut du corps : ateliers, adapté 35–55 min.
+circuit_training_intermediaire_v40;Circuit Intermédiaire;40–55 min;circuit_training;;;remise_forme;Circuit format intermédiaire : ateliers, adapté 40–55 min.
+circuit_training_solo_v40;Circuit Solo;35–60 min;circuit_training;;;remise_forme;Circuit format solo : ateliers, adapté 35–60 min.
+emom;EMOM;10–30 min;chaque minute;;;performance;Chaque minute, réaliser une tâche précise puis récupérer.
+for_time;For Time;10–40 min;contre la montre;;;performance;Terminer un travail défini le plus vite possible en sécurité.
+amrap;AMRAP;10–30 min;max tours;;;performance;Faire le maximum de tours ou répétitions dans un temps donné.
+crossfit_avance_v40;CrossFit style Avancé;45–70 min;crossfit;;;performance;CrossFit style format avancé : WOD technique, adapté 45–70 min.
+crossfit_bas_corps_v40;CrossFit style Bas du corps;35–55 min;crossfit;;;performance;CrossFit style format bas du corps : WOD technique, adapté 35–55 min.
+crossfit_boxe_v40;CrossFit style Boxe;30–45 min;crossfit;;;performance;CrossFit style format boxe : WOD technique, adapté 30–45 min.
+crossfit_core_v40;CrossFit style Core;20–35 min;crossfit;;;performance;CrossFit style format core : WOD technique, adapté 20–35 min.
+crossfit_debutant_v40;CrossFit style Débutant;30–40 min;crossfit;;;performance;CrossFit style format débutant : WOD technique, adapté 30–40 min.
+crossfit_exterieur_v40;CrossFit style Extérieur;25–45 min;crossfit;;;performance;CrossFit style format extérieur : WOD technique, adapté 25–45 min.
+crossfit_groupe_v40;CrossFit style Groupe;30–45 min;crossfit;;;performance;CrossFit style format groupe : WOD technique, adapté 30–45 min.
+crossfit_haut_corps_v40;CrossFit style Haut du corps;35–55 min;crossfit;;;performance;CrossFit style format haut du corps : WOD technique, adapté 35–55 min.
+crossfit_intermediaire_v40;CrossFit style Intermédiaire;40–55 min;crossfit;;;performance;CrossFit style format intermédiaire : WOD technique, adapté 40–55 min.
+crossfit_solo_v40;CrossFit style Solo;35–60 min;crossfit;;;performance;CrossFit style format solo : WOD technique, adapté 35–60 min.
+exterieur_parc;Extérieur parc;25–45 min;exterieur;;;remise_forme;Séance sans salle, adaptable parc ou terrain.
+tabata;Tabata;4–20 min;20/10;;;perte_poids;20 secondes effort, 10 secondes repos, très intense.
+circuit_training;Circuit training;25–45 min;circuit;;;perte_poids;Enchaînement d’exercices avec peu de repos.
+hiit;HIIT;18–30 min;intervalles intenses;;;perte_poids;Alternance effort intense / récupération courte.
+crossfit;CrossFit style;20–60 min;WOD technique;;;performance;Mouvements fonctionnels, intensité, formats WOD.
+cross_training;CrossTraining / WOD;20–60 min;fonctionnel;;;performance;Efforts variés, cardio et renfo fonctionnel.
+hyrox;Hyrox;45–90 min;stations endurance;;;performance;Rameur, ski erg, sled, carries, wall ball, endurance.
+full_body_athlete;Full body athlète;45–70 min;full_body;;;performance;Séance complète plus exigeante.
+full_body_debutant;Full body débutant;30–45 min;full_body;;;remise_forme;Séance complète et accessible.
+ados_fun_sportif;Ados circuit sportif;30–45 min;circuit_training;;;performance;Groupe ados, ateliers simples et motivants.
+for_time_team;For Time équipe;20–40 min;for_time;;;performance;Format équipe ou binôme, idéal groupe.
+hiit_avance_v40;HIIT Avancé;45–70 min;hiit;;;remise_forme;HIIT format avancé : intervalles, adapté 45–70 min.
+hiit_bas_corps_v40;HIIT Bas du corps;35–55 min;hiit;;;remise_forme;HIIT format bas du corps : intervalles, adapté 35–55 min.
+hiit_boxe_v40;HIIT Boxe;30–45 min;hiit;;;remise_forme;HIIT format boxe : intervalles, adapté 30–45 min.
+hiit_core_v40;HIIT Core;20–35 min;hiit;;;remise_forme;HIIT format core : intervalles, adapté 20–35 min.
+hiit_debutant_v40;HIIT Débutant;30–40 min;hiit;;;remise_forme;HIIT format débutant : intervalles, adapté 30–40 min.
+hiit_exterieur_v40;HIIT Extérieur;25–45 min;hiit;;;remise_forme;HIIT format extérieur : intervalles, adapté 25–45 min.
+hiit_groupe_v40;HIIT Groupe;30–45 min;hiit;;;remise_forme;HIIT format groupe : intervalles, adapté 30–45 min.
+hiit_haut_corps_v40;HIIT Haut du corps;35–55 min;hiit;;;remise_forme;HIIT format haut du corps : intervalles, adapté 35–55 min.
+hiit_intermediaire_v40;HIIT Intermédiaire;40–55 min;hiit;;;remise_forme;HIIT format intermédiaire : intervalles, adapté 40–55 min.
+hiit_solo_v40;HIIT Solo;35–60 min;hiit;;;remise_forme;HIIT format solo : intervalles, adapté 35–60 min.
+tabata_avance;Tabata avancé;16–24 min;tabata;;;performance;Tabata intense avec exercices dynamiques.
+tabata_avance_v40;Tabata Avancé;45–70 min;tabata;;;remise_forme;Tabata format avancé : 20/10 intensif, adapté 45–70 min.
+tabata_bas_corps_v40;Tabata Bas du corps;35–55 min;tabata;;;remise_forme;Tabata format bas du corps : 20/10 intensif, adapté 35–55 min.
+tabata_boxe_v40;Tabata Boxe;30–45 min;tabata;;;remise_forme;Tabata format boxe : 20/10 intensif, adapté 30–45 min.
+tabata_core_v40;Tabata Core;20–35 min;tabata;;;remise_forme;Tabata format core : 20/10 intensif, adapté 20–35 min.
+tabata_debutant;Tabata débutant;12–20 min;tabata;;;remise_forme;Tabata accessible, mouvements simples et peu de matériel.
+tabata_debutant_v40;Tabata Débutant;30–40 min;tabata;;;remise_forme;Tabata format débutant : 20/10 intensif, adapté 30–40 min.
+tabata_exterieur_v40;Tabata Extérieur;25–45 min;tabata;;;remise_forme;Tabata format extérieur : 20/10 intensif, adapté 25–45 min.
+tabata_groupe_v40;Tabata Groupe;30–45 min;tabata;;;remise_forme;Tabata format groupe : 20/10 intensif, adapté 30–45 min.
+tabata_haut_corps_v40;Tabata Haut du corps;35–55 min;tabata;;;remise_forme;Tabata format haut du corps : 20/10 intensif, adapté 35–55 min.
+tabata_intermediaire_v40;Tabata Intermédiaire;40–55 min;tabata;;;remise_forme;Tabata format intermédiaire : 20/10 intensif, adapté 40–55 min.
+tabata_solo_v40;Tabata Solo;35–60 min;tabata;;;remise_forme;Tabata format solo : 20/10 intensif, adapté 35–60 min.
+hyrox_avance_v40;Hyrox Avancé;45–70 min;hyrox;;;performance;Hyrox format avancé : stations, adapté 45–70 min.
+hyrox_bas_corps_v40;Hyrox Bas du corps;35–55 min;hyrox;;;performance;Hyrox format bas du corps : stations, adapté 35–55 min.
+hyrox_beginner;Hyrox beginner;35–50 min;hyrox;;;performance;Stations simples, endurance progressive.
+hyrox_boxe_v40;Hyrox Boxe;30–45 min;hyrox;;;performance;Hyrox format boxe : stations, adapté 30–45 min.
+hyrox_competition;Hyrox compétition;60–90 min;hyrox;;;performance;Format long orienté performance.
+hyrox_core_v40;Hyrox Core;20–35 min;hyrox;;;performance;Hyrox format core : stations, adapté 20–35 min.
+hyrox_debutant_v40;Hyrox Débutant;30–40 min;hyrox;;;performance;Hyrox format débutant : stations, adapté 30–40 min.
+hyrox_exterieur_v40;Hyrox Extérieur;25–45 min;hyrox;;;performance;Hyrox format extérieur : stations, adapté 25–45 min.
+hyrox_groupe_v40;Hyrox Groupe;30–45 min;hyrox;;;performance;Hyrox format groupe : stations, adapté 30–45 min.
+hyrox_haut_corps_v40;Hyrox Haut du corps;35–55 min;hyrox;;;performance;Hyrox format haut du corps : stations, adapté 35–55 min.
+hyrox_intermediaire_v40;Hyrox Intermédiaire;40–55 min;hyrox;;;performance;Hyrox format intermédiaire : stations, adapté 40–55 min.
+hyrox_solo_v40;Hyrox Solo;35–60 min;hyrox;;;performance;Hyrox format solo : stations, adapté 35–60 min.
+poids_du_corps;Poids du corps;20–55 min;sans matériel;;;remise_forme;Séance sans machine, adaptable maison, parc ou terrain.
+mobilite_hanches;Mobilité hanches;15–30 min;mobilite;;;bien_etre;Hanches, squat, fentes, posture.
+mobilite_epaules_dos;Mobilité épaules & dos;15–30 min;mobilite;;;bien_etre;Épaules, haut du dos, posture.
+coach_auto_groupe;Coach Auto Groupe;auto;adaptatif groupe;;;performance;Mode intelligent pour générer vite selon groupe, lieu, durée, objectif.
+musculation_force;Musculation force;45–75 min;force;;;force;Mouvements lourds, repos plus longs, progression contrôlée.
+muscu_legs;Musculation Legs;45–75 min;musculation;;;prise_masse;Jambes et fessiers.
+muscu_pull;Musculation Pull;45–70 min;musculation;;;prise_masse;Dos, biceps, posture.
+muscu_push;Musculation Push;45–70 min;musculation;;;prise_masse;Pectoraux, épaules, triceps.
+renforcement;Renforcement musculaire;30–60 min;renforcement;;;remise_forme;Renforcer le corps sans forcément chercher la charge lourde.
+hypertrophie;Hypertrophie / prise de masse;45–75 min;volume musculaire;;;prise_masse;Volume, contrôle, séries moyennes, congestion.
+perte_poids_45;Perte de poids 45 min;45 min;hiit;;;perte_poids;Dépense calorique, renforcement et cardio.
+echauffement_general;Échauffement général;8–15 min;warmup;;;bien_etre;Prépare le corps avant séance.
+senior_equilibre;Senior équilibre;25–40 min;prevention;;;bien_etre;Équilibre, mobilité, renforcement doux.
+renfo_bas_corps;Renfo bas du corps;35–55 min;renforcement;;;remise_forme;Jambes, fessiers, stabilité.
+renfo_dos_abdos;Renfo dos & abdos;25–40 min;renforcement;;;bien_etre;Posture, gainage, protection du dos.
+renfo_haut_corps;Renfo haut du corps;35–55 min;renforcement;;;remise_forme;Pectoraux, dos, épaules, bras.
+renforcement_avance_v40;Renforcement Avancé;45–70 min;renforcement;;;remise_forme;Renforcement format avancé : renfo, adapté 45–70 min.
+renforcement_bas_corps_v40;Renforcement Bas du corps;35–55 min;renforcement;;;remise_forme;Renforcement format bas du corps : renfo, adapté 35–55 min.
+renforcement_boxe_v40;Renforcement Boxe;30–45 min;renforcement;;;remise_forme;Renforcement format boxe : renfo, adapté 30–45 min.
+renforcement_core_v40;Renforcement Core;20–35 min;renforcement;;;remise_forme;Renforcement format core : renfo, adapté 20–35 min.
+renforcement_debutant_v40;Renforcement Débutant;30–40 min;renforcement;;;remise_forme;Renforcement format débutant : renfo, adapté 30–40 min.
+renforcement_exterieur_v40;Renforcement Extérieur;25–45 min;renforcement;;;remise_forme;Renforcement format extérieur : renfo, adapté 25–45 min.
+renforcement_groupe_v40;Renforcement Groupe;30–45 min;renforcement;;;remise_forme;Renforcement format groupe : renfo, adapté 30–45 min.
+renforcement_haut_corps_v40;Renforcement Haut du corps;35–55 min;renforcement;;;remise_forme;Renforcement format haut du corps : renfo, adapté 35–55 min.
+renforcement_intermediaire_v40;Renforcement Intermédiaire;40–55 min;renforcement;;;remise_forme;Renforcement format intermédiaire : renfo, adapté 40–55 min.
+renforcement_solo_v40;Renforcement Solo;35–60 min;renforcement;;;remise_forme;Renforcement format solo : renfo, adapté 35–60 min.
+reprise_post_arret;Reprise après arrêt;20–35 min;prevention;;;bien_etre;Reprise progressive sans brusquer le corps.
+retour_au_calme;Retour au calme;8–20 min;cooldown;;;bien_etre;Redescendre, respirer, récupérer.
+jambes_fessiers;Jambes & fessiers;45–70 min;bas du corps;;;prise_masse;Force, stabilité, volume et prévention bas du corps.
+stretching_complet;Stretching complet;20–40 min;stretching;;;bien_etre;Retour au calme complet.
+amrap_12;AMRAP 12 min;12 min;amrap;;;performance;Maximum de tours propres en 12 minutes.
+amrap_20;AMRAP 20 min;20 min;amrap;;;performance;AMRAP complet pour progression et endurance.
+amrap_avance_v40;AMRAP Avancé;45–70 min;amrap;;;performance;AMRAP format avancé : max tours, adapté 45–70 min.
+amrap_bas_corps_v40;AMRAP Bas du corps;35–55 min;amrap;;;performance;AMRAP format bas du corps : max tours, adapté 35–55 min.
+amrap_boxe_v40;AMRAP Boxe;30–45 min;amrap;;;performance;AMRAP format boxe : max tours, adapté 30–45 min.
+amrap_core_v40;AMRAP Core;20–35 min;amrap;;;performance;AMRAP format core : max tours, adapté 20–35 min.
+amrap_debutant_v40;AMRAP Débutant;30–40 min;amrap;;;performance;AMRAP format débutant : max tours, adapté 30–40 min.
+amrap_exterieur_v40;AMRAP Extérieur;25–45 min;amrap;;;performance;AMRAP format extérieur : max tours, adapté 25–45 min.
+amrap_groupe_v40;AMRAP Groupe;30–45 min;amrap;;;performance;AMRAP format groupe : max tours, adapté 30–45 min.
+amrap_haut_corps_v40;AMRAP Haut du corps;35–55 min;amrap;;;performance;AMRAP format haut du corps : max tours, adapté 35–55 min.
+amrap_intermediaire_v40;AMRAP Intermédiaire;40–55 min;amrap;;;performance;AMRAP format intermédiaire : max tours, adapté 40–55 min.
+amrap_solo_v40;AMRAP Solo;35–60 min;amrap;;;performance;AMRAP format solo : max tours, adapté 35–60 min.
+emom_10;EMOM 10 min;10 min;emom;;;remise_forme;EMOM court, simple, efficace.
+emom_20;EMOM 20 min;20 min;emom;;;performance;Chaque minute, une tâche claire.
+emom_avance_v40;EMOM Avancé;45–70 min;emom;;;performance;EMOM format avancé : chaque minute, adapté 45–70 min.
+emom_bas_corps_v40;EMOM Bas du corps;35–55 min;emom;;;performance;EMOM format bas du corps : chaque minute, adapté 35–55 min.
+emom_boxe_v40;EMOM Boxe;30–45 min;emom;;;performance;EMOM format boxe : chaque minute, adapté 30–45 min.
+emom_core_v40;EMOM Core;20–35 min;emom;;;performance;EMOM format core : chaque minute, adapté 20–35 min.
+emom_debutant_v40;EMOM Débutant;30–40 min;emom;;;performance;EMOM format débutant : chaque minute, adapté 30–40 min.
+emom_exterieur_v40;EMOM Extérieur;25–45 min;emom;;;performance;EMOM format extérieur : chaque minute, adapté 25–45 min.
+emom_groupe_v40;EMOM Groupe;30–45 min;emom;;;performance;EMOM format groupe : chaque minute, adapté 30–45 min.
+emom_haut_corps_v40;EMOM Haut du corps;35–55 min;emom;;;performance;EMOM format haut du corps : chaque minute, adapté 35–55 min.
+emom_intermediaire_v40;EMOM Intermédiaire;40–55 min;emom;;;performance;EMOM format intermédiaire : chaque minute, adapté 40–55 min.
+emom_solo_v40;EMOM Solo;35–60 min;emom;;;performance;EMOM format solo : chaque minute, adapté 35–60 min.
+for_time_avance_v40;For Time Avancé;45–70 min;for_time;;;performance;For Time format avancé : contre la montre, adapté 45–70 min.
+for_time_bas_corps_v40;For Time Bas du corps;35–55 min;for_time;;;performance;For Time format bas du corps : contre la montre, adapté 35–55 min.
+for_time_boxe_v40;For Time Boxe;30–45 min;for_time;;;performance;For Time format boxe : contre la montre, adapté 30–45 min.
+for_time_core_v40;For Time Core;20–35 min;for_time;;;performance;For Time format core : contre la montre, adapté 20–35 min.
+for_time_debutant_v40;For Time Débutant;30–40 min;for_time;;;performance;For Time format débutant : contre la montre, adapté 30–40 min.
+for_time_exterieur_v40;For Time Extérieur;25–45 min;for_time;;;performance;For Time format extérieur : contre la montre, adapté 25–45 min.
+for_time_groupe_v40;For Time Groupe;30–45 min;for_time;;;performance;For Time format groupe : contre la montre, adapté 30–45 min.
+for_time_haut_corps_v40;For Time Haut du corps;35–55 min;for_time;;;performance;For Time format haut du corps : contre la montre, adapté 35–55 min.
+for_time_intermediaire_v40;For Time Intermédiaire;40–55 min;for_time;;;performance;For Time format intermédiaire : contre la montre, adapté 40–55 min.
+for_time_simple;For Time simple;10–25 min;for_time;;;performance;Travail défini à terminer proprement.
+for_time_solo_v40;For Time Solo;35–60 min;for_time;;;performance;For Time format solo : contre la montre, adapté 35–60 min.
+full_body_start_20;Full Body Start 20;20 min;renforcement;Débutant;Solo;remise_forme;Séance complète rapide, simple et efficace.
+tabata_grand_groupe;Tabata Grand Groupe;20 min;tabata;Intermédiaire;Groupe;performance;Format 20/10 en ateliers, parfait 8 à 30 personnes.
+amrap_solo_12;AMRAP Solo 12;12 min;amrap;Débutant;Solo;performance;Maximum de tours propres, simple à suivre.
+emom_force_20;EMOM Force 20;20 min;emom;Intermédiaire;Solo;force;Chaque minute un travail précis, repos intégré.
+for_time_debutant;For Time Débutant;18 min;for_time;Débutant;Solo;performance;Objectif simple : terminer proprement sans bâcler.
+hyrox_simulation_45;Hyrox Simulation 45;45 min;hyrox;Intermédiaire;Solo/Groupe;performance;Stations cardio + fonctionnel type Hyrox.
+boxe_cardio_rounds;Boxe Cardio Rounds;35 min;boxe;Tous niveaux;Solo/Groupe;perte_poids;Rounds frappes, appuis, gainage.
+mobilite_recovery_25;Mobilité Recovery 25;25 min;mobilite;Tous niveaux;Solo;bien_etre;Récupération, prévention, respiration.
+circuit_ados_35;Circuit Ados Terrain 35;35 min;circuit_training;Débutant;Groupe;performance;Ateliers simples, rotation claire, sécurité.
+muscu_push_volume;Muscu Push Volume;60 min;musculation;Intermédiaire;Salle;prise_masse;Pectoraux, épaules, triceps en volume.
+muscu_pull_posture;Muscu Pull Posture;60 min;musculation;Intermédiaire;Salle;prise_masse;Dos, biceps, posture et stabilité.
+jambes_fessiers_45;Jambes Fessiers 45;45 min;renforcement;Tous niveaux;Solo;renforcement;Bas du corps complet, fessiers, stabilité.
+renforcement_debutant_full_body_10;Renforcement Full body Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_full_body_15;Renforcement Full body Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_full_body_20;Renforcement Full body Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_full_body_30;Renforcement Full body Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_full_body_45;Renforcement Full body Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_full_body_60;Renforcement Full body Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_full_body_75;Renforcement Full body Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tout le corps. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_haut_du_corps_10;Renforcement Haut du corps Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_haut_du_corps_15;Renforcement Haut du corps Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_haut_du_corps_20;Renforcement Haut du corps Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_haut_du_corps_30;Renforcement Haut du corps Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_haut_du_corps_45;Renforcement Haut du corps Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_haut_du_corps_60;Renforcement Haut du corps Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_haut_du_corps_75;Renforcement Haut du corps Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_bas_du_corps_10;Renforcement Bas du corps Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_bas_du_corps_15;Renforcement Bas du corps Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_bas_du_corps_20;Renforcement Bas du corps Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_bas_du_corps_30;Renforcement Bas du corps Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_bas_du_corps_45;Renforcement Bas du corps Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_bas_du_corps_60;Renforcement Bas du corps Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_bas_du_corps_75;Renforcement Bas du corps Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_core_10;Renforcement Core Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_core_15;Renforcement Core Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_core_20;Renforcement Core Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_core_30;Renforcement Core Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_core_45;Renforcement Core Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_core_60;Renforcement Core Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_core_75;Renforcement Core Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_cardio_10;Renforcement Cardio Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_cardio_15;Renforcement Cardio Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_cardio_20;Renforcement Cardio Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_cardio_30;Renforcement Cardio Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_cardio_45;Renforcement Cardio Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_cardio_60;Renforcement Cardio Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_cardio_75;Renforcement Cardio Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_boxe_10;Renforcement Boxe Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_boxe_15;Renforcement Boxe Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_boxe_20;Renforcement Boxe Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_boxe_30;Renforcement Boxe Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_boxe_45;Renforcement Boxe Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_boxe_60;Renforcement Boxe Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_boxe_75;Renforcement Boxe Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_mobilit_10;Renforcement Mobilité Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_mobilit_15;Renforcement Mobilité Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_mobilit_20;Renforcement Mobilité Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_mobilit_30;Renforcement Mobilité Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_mobilit_45;Renforcement Mobilité Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_mobilit_60;Renforcement Mobilité Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_mobilit_75;Renforcement Mobilité Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_hyrox_10;Renforcement Hyrox Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_hyrox_15;Renforcement Hyrox Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_hyrox_20;Renforcement Hyrox Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_hyrox_30;Renforcement Hyrox Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_hyrox_45;Renforcement Hyrox Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_hyrox_60;Renforcement Hyrox Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_hyrox_75;Renforcement Hyrox Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_push_10;Renforcement Push Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_push_15;Renforcement Push Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_push_20;Renforcement Push Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_push_30;Renforcement Push Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_push_45;Renforcement Push Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_push_60;Renforcement Push Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_push_75;Renforcement Push Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_pull_10;Renforcement Pull Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_pull_15;Renforcement Pull Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_pull_20;Renforcement Pull Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_pull_30;Renforcement Pull Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_pull_45;Renforcement Pull Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_pull_60;Renforcement Pull Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_pull_75;Renforcement Pull Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_debutant_jambes_fessiers_10;Renforcement Jambes fessiers Débutant 10 min;10 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 10 min.
+renforcement_debutant_jambes_fessiers_15;Renforcement Jambes fessiers Débutant 15 min;15 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 15 min.
+renforcement_debutant_jambes_fessiers_20;Renforcement Jambes fessiers Débutant 20 min;20 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 20 min.
+renforcement_debutant_jambes_fessiers_30;Renforcement Jambes fessiers Débutant 30 min;30 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 30 min.
+renforcement_debutant_jambes_fessiers_45;Renforcement Jambes fessiers Débutant 45 min;45 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 45 min.
+renforcement_debutant_jambes_fessiers_60;Renforcement Jambes fessiers Débutant 60 min;60 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 60 min.
+renforcement_debutant_jambes_fessiers_75;Renforcement Jambes fessiers Débutant 75 min;75 min;renforcement;Débutant;Débutant;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Consignes simples, sécurité, tempo maîtrisé. Durée 75 min.
+renforcement_intermediaire_full_body_10;Renforcement Full body Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_full_body_15;Renforcement Full body Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_full_body_20;Renforcement Full body Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_full_body_30;Renforcement Full body Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_full_body_45;Renforcement Full body Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_full_body_60;Renforcement Full body Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_full_body_75;Renforcement Full body Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tout le corps. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_haut_du_corps_10;Renforcement Haut du corps Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_haut_du_corps_15;Renforcement Haut du corps Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_haut_du_corps_20;Renforcement Haut du corps Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_haut_du_corps_30;Renforcement Haut du corps Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_haut_du_corps_45;Renforcement Haut du corps Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_haut_du_corps_60;Renforcement Haut du corps Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_haut_du_corps_75;Renforcement Haut du corps Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_bas_du_corps_10;Renforcement Bas du corps Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_bas_du_corps_15;Renforcement Bas du corps Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_bas_du_corps_20;Renforcement Bas du corps Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_bas_du_corps_30;Renforcement Bas du corps Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_bas_du_corps_45;Renforcement Bas du corps Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_bas_du_corps_60;Renforcement Bas du corps Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_bas_du_corps_75;Renforcement Bas du corps Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_core_10;Renforcement Core Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_core_15;Renforcement Core Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_core_20;Renforcement Core Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_core_30;Renforcement Core Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_core_45;Renforcement Core Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_core_60;Renforcement Core Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_core_75;Renforcement Core Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_cardio_10;Renforcement Cardio Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_cardio_15;Renforcement Cardio Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_cardio_20;Renforcement Cardio Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_cardio_30;Renforcement Cardio Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_cardio_45;Renforcement Cardio Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_cardio_60;Renforcement Cardio Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_cardio_75;Renforcement Cardio Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_boxe_10;Renforcement Boxe Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_boxe_15;Renforcement Boxe Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_boxe_20;Renforcement Boxe Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_boxe_30;Renforcement Boxe Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_boxe_45;Renforcement Boxe Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_boxe_60;Renforcement Boxe Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_boxe_75;Renforcement Boxe Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Appuis, frappes, coordination. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_mobilit_10;Renforcement Mobilité Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_mobilit_15;Renforcement Mobilité Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_mobilit_20;Renforcement Mobilité Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_mobilit_30;Renforcement Mobilité Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_mobilit_45;Renforcement Mobilité Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_mobilit_60;Renforcement Mobilité Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_mobilit_75;Renforcement Mobilité Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Amplitude, prévention. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_hyrox_10;Renforcement Hyrox Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_hyrox_15;Renforcement Hyrox Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_hyrox_20;Renforcement Hyrox Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_hyrox_30;Renforcement Hyrox Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_hyrox_45;Renforcement Hyrox Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_hyrox_60;Renforcement Hyrox Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_hyrox_75;Renforcement Hyrox Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Stations Hyrox. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_push_10;Renforcement Push Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_push_15;Renforcement Push Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_push_20;Renforcement Push Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_push_30;Renforcement Push Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_push_45;Renforcement Push Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_push_60;Renforcement Push Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_push_75;Renforcement Push Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Poussée : pectoraux, épaules, triceps. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_pull_10;Renforcement Pull Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_pull_15;Renforcement Pull Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_pull_20;Renforcement Pull Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_pull_30;Renforcement Pull Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_pull_45;Renforcement Pull Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_pull_60;Renforcement Pull Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_pull_75;Renforcement Pull Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Tirage : dos, biceps, posture. Plus dense, variations possibles. Durée 75 min.
+renforcement_intermediaire_jambes_fessiers_10;Renforcement Jambes fessiers Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 10 min.
+renforcement_intermediaire_jambes_fessiers_15;Renforcement Jambes fessiers Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 15 min.
+renforcement_intermediaire_jambes_fessiers_20;Renforcement Jambes fessiers Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 20 min.
+renforcement_intermediaire_jambes_fessiers_30;Renforcement Jambes fessiers Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 30 min.
+renforcement_intermediaire_jambes_fessiers_45;Renforcement Jambes fessiers Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 45 min.
+renforcement_intermediaire_jambes_fessiers_60;Renforcement Jambes fessiers Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 60 min.
+renforcement_intermediaire_jambes_fessiers_75;Renforcement Jambes fessiers Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;remise_forme;Force propre, contrôle, progression. Jambes et fessiers. Plus dense, variations possibles. Durée 75 min.
+renforcement_avance_full_body_10;Renforcement Full body Avancé 10 min;10 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 10 min.
+renforcement_avance_full_body_15;Renforcement Full body Avancé 15 min;15 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 15 min.
+renforcement_avance_full_body_20;Renforcement Full body Avancé 20 min;20 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 20 min.
+renforcement_avance_full_body_30;Renforcement Full body Avancé 30 min;30 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 30 min.
+renforcement_avance_full_body_45;Renforcement Full body Avancé 45 min;45 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 45 min.
+renforcement_avance_full_body_60;Renforcement Full body Avancé 60 min;60 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 60 min.
+renforcement_avance_full_body_75;Renforcement Full body Avancé 75 min;75 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Tout le corps. Intensité, chrono, exigences techniques. Durée 75 min.
+renforcement_avance_haut_du_corps_10;Renforcement Haut du corps Avancé 10 min;10 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 10 min.
+renforcement_avance_haut_du_corps_15;Renforcement Haut du corps Avancé 15 min;15 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 15 min.
+renforcement_avance_haut_du_corps_20;Renforcement Haut du corps Avancé 20 min;20 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 20 min.
+renforcement_avance_haut_du_corps_30;Renforcement Haut du corps Avancé 30 min;30 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 30 min.
+renforcement_avance_haut_du_corps_45;Renforcement Haut du corps Avancé 45 min;45 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 45 min.
+renforcement_avance_haut_du_corps_60;Renforcement Haut du corps Avancé 60 min;60 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 60 min.
+renforcement_avance_haut_du_corps_75;Renforcement Haut du corps Avancé 75 min;75 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Pectoraux, dos, épaules, bras. Intensité, chrono, exigences techniques. Durée 75 min.
+renforcement_avance_bas_du_corps_10;Renforcement Bas du corps Avancé 10 min;10 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 10 min.
+renforcement_avance_bas_du_corps_15;Renforcement Bas du corps Avancé 15 min;15 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 15 min.
+renforcement_avance_bas_du_corps_20;Renforcement Bas du corps Avancé 20 min;20 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 20 min.
+renforcement_avance_bas_du_corps_30;Renforcement Bas du corps Avancé 30 min;30 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 30 min.
+renforcement_avance_bas_du_corps_45;Renforcement Bas du corps Avancé 45 min;45 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 45 min.
+renforcement_avance_bas_du_corps_60;Renforcement Bas du corps Avancé 60 min;60 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 60 min.
+renforcement_avance_bas_du_corps_75;Renforcement Bas du corps Avancé 75 min;75 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Jambes, fessiers, stabilité. Intensité, chrono, exigences techniques. Durée 75 min.
+renforcement_avance_core_10;Renforcement Core Avancé 10 min;10 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 10 min.
+renforcement_avance_core_15;Renforcement Core Avancé 15 min;15 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 15 min.
+renforcement_avance_core_20;Renforcement Core Avancé 20 min;20 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 20 min.
+renforcement_avance_core_30;Renforcement Core Avancé 30 min;30 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 30 min.
+renforcement_avance_core_45;Renforcement Core Avancé 45 min;45 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 45 min.
+renforcement_avance_core_60;Renforcement Core Avancé 60 min;60 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 60 min.
+renforcement_avance_core_75;Renforcement Core Avancé 75 min;75 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Abdos, gainage, posture. Intensité, chrono, exigences techniques. Durée 75 min.
+renforcement_avance_cardio_10;Renforcement Cardio Avancé 10 min;10 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Intensité, chrono, exigences techniques. Durée 10 min.
+renforcement_avance_cardio_15;Renforcement Cardio Avancé 15 min;15 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Intensité, chrono, exigences techniques. Durée 15 min.
+renforcement_avance_cardio_20;Renforcement Cardio Avancé 20 min;20 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Intensité, chrono, exigences techniques. Durée 20 min.
+renforcement_avance_cardio_30;Renforcement Cardio Avancé 30 min;30 min;renforcement;Avancé;Avancé;remise_forme;Force propre, contrôle, progression. Cardio et dépense. Intensité, chrono, exigences techniques. Durée 30 min.

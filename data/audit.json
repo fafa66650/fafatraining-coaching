@@ -1,0 +1,18 @@
+{
+  "version": "V47_CLEAN_COACH_REEL",
+  "base": "V46_FULL_PRO",
+  "not_patch": true,
+  "features": [
+    "flow séance interactif",
+    "timer effort/repos",
+    "pause/suivant/précédent",
+    "série validée",
+    "guidage coach dynamique",
+    "export menu séance A4/PDF HTML",
+    "programmes et mouvements enrichis"
+  ],
+  "exercise_count": 360,
+  "program_count": 720,
+  "quick_formats": 10,
+  "issues": []
+}
