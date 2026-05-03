@@ -1,0 +1,3 @@
+Image attendue : Développé décliné — tempo contrôlé 3 secondes
+Nom : image.jpg
+Chemin : assets/exercises/developpe_decline_tempo/image.jpg
