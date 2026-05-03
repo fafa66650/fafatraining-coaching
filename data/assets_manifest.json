@@ -1,0 +1,15 @@
+{
+  "requiredFolders": [
+    "assets/avatars",
+    "assets/exercices",
+    "assets/logo",
+    "assets/menu_refs",
+    "assets/menus",
+    "assets/placeholders",
+    "assets/exports",
+    "assets/icons",
+    "data",
+    "templates/menu_exports"
+  ],
+  "note": "Place tes images dans les dossiers correspondants en gardant les noms indiqués dans avatar_map.json et menu_map.json."
+}
