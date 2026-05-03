@@ -1,1 +1,0 @@
-Ajoute ici les visuels de la catégorie boxe. Les noms exacts sont dans VISUELS_A_CREER.csv.
