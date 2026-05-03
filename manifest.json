@@ -1,0 +1,25 @@
+{
+  "name": "FAFATRAINING Coaching",
+  "short_name": "FAFATRAINING",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#030503",
+  "theme_color": "#030503",
+  "icons": [
+    {
+      "src": "assets/logo/logo-fafatraining.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo/logo-fafatraining.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "description": "Application coaching FAFATRAINING installable."
+}
