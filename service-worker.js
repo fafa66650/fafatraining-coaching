@@ -1,4 +1,4 @@
-const CACHE='fafatraining-v51-linked-files';
+const CACHE='fafatraining-v54-market-level';
 const ASSETS=[
   "./",
   "./index.html",
