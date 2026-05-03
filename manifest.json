@@ -1,0 +1,17 @@
+{
+  "name": "FAFATRAINING V47 Coach Réel",
+  "short_name": "FAFA V47",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020602",
+  "theme_color": "#020602",
+  "icons": [
+    {
+      "src": "assets/logo/logo-fafatraining.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

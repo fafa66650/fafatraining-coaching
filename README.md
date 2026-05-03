@@ -1,15 +1,15 @@
-# FAFATRAINING V46 APP STORE LEVEL — FULL PRO
+# FAFATRAINING V47 COACH RÉEL
 
-Version V46 reprise depuis la dernière base complète disponible, avec un vrai volume de programmes structurés.
+Nouveautés :
+- Timer effort / repos
+- Pause / reprendre
+- Exercice suivant / précédent
+- Série validée
+- Guidage coach dynamique
+- Vibration mobile si disponible
+- Export Menu séance imprimable style FAFATRAINING
+- Impression navigateur en PDF A4 portrait
 
-## Contenu
+Contenu :
 - Exercices : 188
 - Programmes : 360
-- Formats rapides : 10
-- Sections programmes : 11
-
-## Styles couverts
-Renforcement, HIIT, Tabata, AMRAP, EMOM, For Time, Circuit training, Hyrox, CrossFit style, Boxe cardio, Musculation, Mobilité, Stretching, Préparation physique.
-
-## Objectif
-UX mobile claire, programmes variés, séance rapide solo/groupe et base PWA prête GitHub.

@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "id": "entree",
+      "title": "1. ENTRÉE",
+      "subtitle": "Activation totale",
+      "duration": "5 min"
+    },
+    {
+      "id": "plat",
+      "title": "2. PLAT",
+      "subtitle": "Circuit challenge",
+      "duration": "4 tours"
+    },
+    {
+      "id": "accompagnement",
+      "title": "3. ACCOMPAGNEMENT",
+      "subtitle": "Résistance & core",
+      "duration": "3 séries"
+    },
+    {
+      "id": "dessert",
+      "title": "4. DESSERT",
+      "subtitle": "Finisher ultime",
+      "duration": "AMRAP 10 min"
+    }
+  ],
+  "print": "A4 portrait / PDF navigateur"
+}
