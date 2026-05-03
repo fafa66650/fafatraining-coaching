@@ -1,0 +1,112 @@
+[
+  {
+    "key": "pompes",
+    "name": "Pompes",
+    "category": "push",
+    "group": "Pectoraux",
+    "muscleGroup": "Pectoraux",
+    "muscles": "Pectoraux · triceps",
+    "equipment": [
+      "poids du corps"
+    ],
+    "level": "Débutant",
+    "levelMin": 1,
+    "styles": [
+      "renforcement"
+    ],
+    "simple": "Corps gainé, descends puis pousse.",
+    "mistake": "Bassin qui tombe.",
+    "image": "assets/exercises/pompes/image.jpg",
+    "coachCue": [
+      "Corps gainé, descends puis pousse."
+    ]
+  },
+  {
+    "key": "squat",
+    "name": "Squat",
+    "category": "legs",
+    "group": "Jambes",
+    "muscleGroup": "Jambes",
+    "muscles": "Quadriceps · fessiers",
+    "equipment": [
+      "poids du corps"
+    ],
+    "level": "Débutant",
+    "levelMin": 1,
+    "styles": [
+      "renforcement"
+    ],
+    "simple": "Genoux alignés, dos droit.",
+    "mistake": "Genoux qui rentrent.",
+    "image": "assets/exercises/squat/image.jpg",
+    "coachCue": [
+      "Genoux alignés, dos droit."
+    ]
+  },
+  {
+    "key": "burpee",
+    "name": "Burpee",
+    "category": "cardio_crossfit",
+    "group": "Cardio",
+    "muscleGroup": "Cardio",
+    "muscles": "Full body · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "level": "Intermédiaire",
+    "levelMin": 2,
+    "styles": [
+      "hiit"
+    ],
+    "simple": "Descends propre, remonte dynamique.",
+    "mistake": "Dos relâché.",
+    "image": "assets/exercises/burpee/image.jpg",
+    "coachCue": [
+      "Descends propre, remonte dynamique."
+    ]
+  },
+  {
+    "key": "shadow_boxing",
+    "name": "Shadow boxing",
+    "category": "boxe",
+    "group": "Boxe",
+    "muscleGroup": "Boxe",
+    "muscles": "Coordination · cardio",
+    "equipment": [
+      "poids du corps"
+    ],
+    "level": "Débutant",
+    "levelMin": 1,
+    "styles": [
+      "boxe"
+    ],
+    "simple": "Garde haute, appuis légers.",
+    "mistake": "Rester figé.",
+    "image": "assets/exercises/shadow_boxing/image.jpg",
+    "coachCue": [
+      "Garde haute, appuis légers."
+    ]
+  },
+  {
+    "key": "world_stretch",
+    "name": "World stretch",
+    "category": "mobilite",
+    "group": "Mobilité",
+    "muscleGroup": "Mobilité",
+    "muscles": "Hanches · dos",
+    "equipment": [
+      "tapis"
+    ],
+    "level": "Débutant",
+    "levelMin": 1,
+    "styles": [
+      "mobilite"
+    ],
+    "simple": "Grande fente, rotation, respiration.",
+    "mistake": "Forcer l’amplitude.",
+    "image": "assets/exercises/world_stretch/image.jpg",
+    "coachCue": [
+      "Grande fente, rotation, respiration."
+    ]
+  }
+]

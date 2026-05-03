@@ -1,0 +1,281 @@
+{
+  "seance_01_full_body": {
+    "id": "seance_01_full_body",
+    "title": "Séance 01 — Full Body Force & Endurance",
+    "style": "renforcement",
+    "avatar_key": "full_body",
+    "cover": "assets/menus/seance_01_full_body/cover.jpg",
+    "folder": "assets/menus/seance_01_full_body/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_02_explosivite": {
+    "id": "seance_02_explosivite",
+    "title": "Séance 02 — Explosivité",
+    "style": "hiit",
+    "avatar_key": "hiit",
+    "cover": "assets/menus/seance_02_explosivite/cover.jpg",
+    "folder": "assets/menus/seance_02_explosivite/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_03_renfo_endurance": {
+    "id": "seance_03_renfo_endurance",
+    "title": "Séance 03 — Renfo Endurance",
+    "style": "renforcement",
+    "avatar_key": "renforcement",
+    "cover": "assets/menus/seance_03_renfo_endurance/cover.jpg",
+    "folder": "assets/menus/seance_03_renfo_endurance/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_04_boxe_conditioning": {
+    "id": "seance_04_boxe_conditioning",
+    "title": "Séance 04 — Boxe Conditioning",
+    "style": "boxe",
+    "avatar_key": "boxe",
+    "cover": "assets/menus/seance_04_boxe_conditioning/cover.jpg",
+    "folder": "assets/menus/seance_04_boxe_conditioning/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_05_mobilite_recuperation": {
+    "id": "seance_05_mobilite_recuperation",
+    "title": "Séance 05 — Mobilité Récupération",
+    "style": "mobilite",
+    "avatar_key": "mobilite",
+    "cover": "assets/menus/seance_05_mobilite_recuperation/cover.jpg",
+    "folder": "assets/menus/seance_05_mobilite_recuperation/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_06_hiit_perte_de_poids": {
+    "id": "seance_06_hiit_perte_de_poids",
+    "title": "Séance 06 — HIIT Perte de poids",
+    "style": "hiit",
+    "avatar_key": "hiit",
+    "cover": "assets/menus/seance_06_hiit_perte_de_poids/cover.jpg",
+    "folder": "assets/menus/seance_06_hiit_perte_de_poids/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_07_maison_sans_materiel": {
+    "id": "seance_07_maison_sans_materiel",
+    "title": "Séance 07 — Maison Sans Matériel",
+    "style": "renforcement",
+    "avatar_key": "renforcement",
+    "cover": "assets/menus/seance_07_maison_sans_materiel/cover.jpg",
+    "folder": "assets/menus/seance_07_maison_sans_materiel/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_08_core_abdos": {
+    "id": "seance_08_core_abdos",
+    "title": "Séance 08 — Core Abdos",
+    "style": "renforcement",
+    "avatar_key": "core",
+    "cover": "assets/menus/seance_08_core_abdos/cover.jpg",
+    "folder": "assets/menus/seance_08_core_abdos/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_09_dos_posture": {
+    "id": "seance_09_dos_posture",
+    "title": "Séance 09 — Dos Posture",
+    "style": "musculation",
+    "avatar_key": "musculation",
+    "cover": "assets/menus/seance_09_dos_posture/cover.jpg",
+    "folder": "assets/menus/seance_09_dos_posture/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_10_jambes": {
+    "id": "seance_10_jambes",
+    "title": "Séance 10 — Jambes",
+    "style": "musculation",
+    "avatar_key": "musculation",
+    "cover": "assets/menus/seance_10_jambes/cover.jpg",
+    "folder": "assets/menus/seance_10_jambes/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_11_puissance": {
+    "id": "seance_11_puissance",
+    "title": "Séance 11 — Puissance",
+    "style": "prepa_physique",
+    "avatar_key": "prepa_physique",
+    "cover": "assets/menus/seance_11_puissance/cover.jpg",
+    "folder": "assets/menus/seance_11_puissance/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_12_trail_recuperation": {
+    "id": "seance_12_trail_recuperation",
+    "title": "Séance 12 — Trail Récupération",
+    "style": "recovery",
+    "avatar_key": "recovery",
+    "cover": "assets/menus/seance_12_trail_recuperation/cover.jpg",
+    "folder": "assets/menus/seance_12_trail_recuperation/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_13_hyrox": {
+    "id": "seance_13_hyrox",
+    "title": "Séance 13 — Hyrox",
+    "style": "hyrox",
+    "avatar_key": "hyrox",
+    "cover": "assets/menus/seance_13_hyrox/cover.jpg",
+    "folder": "assets/menus/seance_13_hyrox/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_14_duo_fun": {
+    "id": "seance_14_duo_fun",
+    "title": "Séance 14 — Duo Fun",
+    "style": "circuit_training",
+    "avatar_key": "circuit_training",
+    "cover": "assets/menus/seance_14_duo_fun/cover.jpg",
+    "folder": "assets/menus/seance_14_duo_fun/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_15_test_performance": {
+    "id": "seance_15_test_performance",
+    "title": "Séance 15 — Test Performance",
+    "style": "for_time",
+    "avatar_key": "for_time",
+    "cover": "assets/menus/seance_15_test_performance/cover.jpg",
+    "folder": "assets/menus/seance_15_test_performance/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_16_cardio_endurance": {
+    "id": "seance_16_cardio_endurance",
+    "title": "Séance 16 — Cardio Endurance",
+    "style": "hiit",
+    "avatar_key": "cardio",
+    "cover": "assets/menus/seance_16_cardio_endurance/cover.jpg",
+    "folder": "assets/menus/seance_16_cardio_endurance/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_17_terrain_hardcore": {
+    "id": "seance_17_terrain_hardcore",
+    "title": "Séance 17 — Terrain Hardcore",
+    "style": "cross_training",
+    "avatar_key": "cross_training",
+    "cover": "assets/menus/seance_17_terrain_hardcore/cover.jpg",
+    "folder": "assets/menus/seance_17_terrain_hardcore/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_18_hiit_intense": {
+    "id": "seance_18_hiit_intense",
+    "title": "Séance 18 — HIIT Intense",
+    "style": "hiit",
+    "avatar_key": "hiit",
+    "cover": "assets/menus/seance_18_hiit_intense/cover.jpg",
+    "folder": "assets/menus/seance_18_hiit_intense/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_19_athlete_specifique": {
+    "id": "seance_19_athlete_specifique",
+    "title": "Séance 19 — Athlète Spécifique",
+    "style": "prepa_physique",
+    "avatar_key": "prepa_physique",
+    "cover": "assets/menus/seance_19_athlete_specifique/cover.jpg",
+    "folder": "assets/menus/seance_19_athlete_specifique/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_20_mobilite_soft": {
+    "id": "seance_20_mobilite_soft",
+    "title": "Séance 20 — Mobilité Soft",
+    "style": "mobilite",
+    "avatar_key": "mobilite",
+    "cover": "assets/menus/seance_20_mobilite_soft/cover.jpg",
+    "folder": "assets/menus/seance_20_mobilite_soft/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_21_full_functional": {
+    "id": "seance_21_full_functional",
+    "title": "Séance 21 — Full Functional",
+    "style": "cross_training",
+    "avatar_key": "cross_training",
+    "cover": "assets/menus/seance_21_full_functional/cover.jpg",
+    "folder": "assets/menus/seance_21_full_functional/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_22_force_fonctionnelle": {
+    "id": "seance_22_force_fonctionnelle",
+    "title": "Séance 22 — Force Fonctionnelle",
+    "style": "musculation",
+    "avatar_key": "musculation",
+    "cover": "assets/menus/seance_22_force_fonctionnelle/cover.jpg",
+    "folder": "assets/menus/seance_22_force_fonctionnelle/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_23_explosivite_plus": {
+    "id": "seance_23_explosivite_plus",
+    "title": "Séance 23 — Explosivité Plus",
+    "style": "hiit",
+    "avatar_key": "hiit",
+    "cover": "assets/menus/seance_23_explosivite_plus/cover.jpg",
+    "folder": "assets/menus/seance_23_explosivite_plus/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_24_cardio_boxing": {
+    "id": "seance_24_cardio_boxing",
+    "title": "Séance 24 — Cardio Boxing",
+    "style": "boxe",
+    "avatar_key": "boxe",
+    "cover": "assets/menus/seance_24_cardio_boxing/cover.jpg",
+    "folder": "assets/menus/seance_24_cardio_boxing/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_25_recovery_flow": {
+    "id": "seance_25_recovery_flow",
+    "title": "Séance 25 — Recovery Flow",
+    "style": "recovery",
+    "avatar_key": "recovery",
+    "cover": "assets/menus/seance_25_recovery_flow/cover.jpg",
+    "folder": "assets/menus/seance_25_recovery_flow/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_26_force_lourde": {
+    "id": "seance_26_force_lourde",
+    "title": "Séance 26 — Force Lourde",
+    "style": "musculation",
+    "avatar_key": "musculation",
+    "cover": "assets/menus/seance_26_force_lourde/cover.jpg",
+    "folder": "assets/menus/seance_26_force_lourde/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_27_debutant_full_body": {
+    "id": "seance_27_debutant_full_body",
+    "title": "Séance 27 — Débutant Full Body",
+    "style": "renforcement",
+    "avatar_key": "full_body",
+    "cover": "assets/menus/seance_27_debutant_full_body/cover.jpg",
+    "folder": "assets/menus/seance_27_debutant_full_body/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_28_core_stabilite": {
+    "id": "seance_28_core_stabilite",
+    "title": "Séance 28 — Core Stabilité",
+    "style": "renforcement",
+    "avatar_key": "core",
+    "cover": "assets/menus/seance_28_core_stabilite/cover.jpg",
+    "folder": "assets/menus/seance_28_core_stabilite/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_29_conditioning": {
+    "id": "seance_29_conditioning",
+    "title": "Séance 29 — Conditioning",
+    "style": "cross_training",
+    "avatar_key": "cross_training",
+    "cover": "assets/menus/seance_29_conditioning/cover.jpg",
+    "folder": "assets/menus/seance_29_conditioning/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_30_cardio_challenge": {
+    "id": "seance_30_cardio_challenge",
+    "title": "Séance 30 — Cardio Challenge",
+    "style": "hiit",
+    "avatar_key": "cardio",
+    "cover": "assets/menus/seance_30_cardio_challenge/cover.jpg",
+    "folder": "assets/menus/seance_30_cardio_challenge/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  },
+  "seance_31_menu_challenge": {
+    "id": "seance_31_menu_challenge",
+    "title": "Séance 31 — Menu Challenge",
+    "style": "circuit_training",
+    "avatar_key": "circuit_training",
+    "cover": "assets/menus/seance_31_menu_challenge/cover.jpg",
+    "folder": "assets/menus/seance_31_menu_challenge/",
+    "export_template": "templates/menu_exports/menu_export_clean.html"
+  }
+}

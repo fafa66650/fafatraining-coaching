@@ -1,0 +1,7 @@
+{
+  "avatar_map": "data/avatar_map.json",
+  "menu_map": "data/menu_map.json",
+  "exercise_image_rule": "assets/exercises/{exercise_key}/image.jpg",
+  "menu_cover_rule": "assets/menus/{menu_id}/cover.jpg",
+  "style_avatar_rule": "assets/avatars/{style}/avatar.jpg"
+}

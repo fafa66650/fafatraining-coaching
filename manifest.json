@@ -2,7 +2,9 @@
   "name": "FAFATRAINING Coaching",
   "short_name": "FAFATRAINING",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#030503",
   "theme_color": "#030503",
   "icons": [
@@ -19,12 +21,5 @@
       "purpose": "any maskable"
     }
   ],
-  "description": "Application coaching FAFATRAINING installable sur iPhone et Android.",
-  "scope": "./",
-  "orientation": "portrait",
-  "categories": [
-    "fitness",
-    "health",
-    "sports"
-  ]
+  "description": "Application coaching FAFATRAINING installable."
 }

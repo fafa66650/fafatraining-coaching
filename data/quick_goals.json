@@ -1,0 +1,74 @@
+{
+  "auto": {
+    "label": "Mode Auto intelligent",
+    "program": "seance_01_full_body",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "renforcement": {
+    "label": "Renforcement",
+    "program": "seance_01_full_body",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "hiit": {
+    "label": "HIIT",
+    "program": "seance_02_explosivite",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "boxe": {
+    "label": "Boxe",
+    "program": "seance_04_boxe_conditioning",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "mobilite": {
+    "label": "Mobilité",
+    "program": "seance_05_mobilite_recuperation",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "musculation": {
+    "label": "Musculation",
+    "program": "seance_09_dos_posture",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "prepa_physique": {
+    "label": "Prépa Physique",
+    "program": "seance_11_puissance",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "recovery": {
+    "label": "Recovery",
+    "program": "seance_12_trail_recuperation",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "hyrox": {
+    "label": "Hyrox",
+    "program": "seance_13_hyrox",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "circuit_training": {
+    "label": "Circuit Training",
+    "program": "seance_14_duo_fun",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "for_time": {
+    "label": "For Time",
+    "program": "seance_15_test_performance",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  },
+  "cross_training": {
+    "label": "Cross Training",
+    "program": "seance_17_terrain_hardcore",
+    "duration": "30",
+    "desc": "Séance adaptée."
+  }
+}

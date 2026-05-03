@@ -1,0 +1,55 @@
+{
+  "renforcement": [
+    "seance_01_full_body",
+    "seance_03_renfo_endurance",
+    "seance_07_maison_sans_materiel",
+    "seance_08_core_abdos",
+    "seance_27_debutant_full_body",
+    "seance_28_core_stabilite"
+  ],
+  "hiit": [
+    "seance_02_explosivite",
+    "seance_06_hiit_perte_de_poids",
+    "seance_16_cardio_endurance",
+    "seance_18_hiit_intense",
+    "seance_23_explosivite_plus",
+    "seance_30_cardio_challenge"
+  ],
+  "boxe": [
+    "seance_04_boxe_conditioning",
+    "seance_24_cardio_boxing"
+  ],
+  "mobilite": [
+    "seance_05_mobilite_recuperation",
+    "seance_20_mobilite_soft"
+  ],
+  "musculation": [
+    "seance_09_dos_posture",
+    "seance_10_jambes",
+    "seance_22_force_fonctionnelle",
+    "seance_26_force_lourde"
+  ],
+  "prepa_physique": [
+    "seance_11_puissance",
+    "seance_19_athlete_specifique"
+  ],
+  "recovery": [
+    "seance_12_trail_recuperation",
+    "seance_25_recovery_flow"
+  ],
+  "hyrox": [
+    "seance_13_hyrox"
+  ],
+  "circuit_training": [
+    "seance_14_duo_fun",
+    "seance_31_menu_challenge"
+  ],
+  "for_time": [
+    "seance_15_test_performance"
+  ],
+  "cross_training": [
+    "seance_17_terrain_hardcore",
+    "seance_21_full_functional",
+    "seance_29_conditioning"
+  ]
+}
