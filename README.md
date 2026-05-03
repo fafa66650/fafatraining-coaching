@@ -1,12 +1,15 @@
-# FAFATRAINING V45 FINAL MONSTER
+# FAFATRAINING V46 APP STORE LEVEL — FULL PRO
 
-Version finale optimisée UX + visuel.
+Version V46 reprise depuis la dernière base complète disponible, avec un vrai volume de programmes structurés.
 
-✔ UX simplifiée (1 écran = 1 action)
-✔ Design minimal premium (type ENRX)
-✔ Séance rapide SOLO / GROUPE optimisée
-✔ Arsenal clair (groupes musculaires)
-✔ Programmes lisibles (gros blocs)
-✔ Expérience fluide mobile
+## Contenu
+- Exercices : 188
+- Programmes : 360
+- Formats rapides : 10
+- Sections programmes : 11
 
-👉 Version stable et exploitable terrain
+## Styles couverts
+Renforcement, HIIT, Tabata, AMRAP, EMOM, For Time, Circuit training, Hyrox, CrossFit style, Boxe cardio, Musculation, Mobilité, Stretching, Préparation physique.
+
+## Objectif
+UX mobile claire, programmes variés, séance rapide solo/groupe et base PWA prête GitHub.

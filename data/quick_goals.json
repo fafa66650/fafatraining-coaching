@@ -1,0 +1,62 @@
+{
+  "tabata": {
+    "label": "Tabata",
+    "program": "tabata_grand_groupe",
+    "duration": "20",
+    "desc": "20s effort / 10s repos."
+  },
+  "amrap": {
+    "label": "AMRAP",
+    "program": "amrap_solo_12",
+    "duration": "20",
+    "desc": "Maximum de tours propres."
+  },
+  "emom": {
+    "label": "EMOM",
+    "program": "emom_force_20",
+    "duration": "20",
+    "desc": "Une tâche par minute."
+  },
+  "for_time": {
+    "label": "For Time",
+    "program": "for_time_debutant",
+    "duration": "20",
+    "desc": "Terminer un travail défini proprement."
+  },
+  "circuit_training": {
+    "label": "Circuit training",
+    "program": "circuit_ados_35",
+    "duration": "35",
+    "desc": "Ateliers en rotation."
+  },
+  "hyrox": {
+    "label": "Hyrox",
+    "program": "hyrox_simulation_45",
+    "duration": "45",
+    "desc": "Stations cardio + fonctionnel."
+  },
+  "boxe_cardio": {
+    "label": "Boxe cardio",
+    "program": "boxe_cardio_rounds",
+    "duration": "35",
+    "desc": "Rounds frappes/appuis."
+  },
+  "renforcement": {
+    "label": "Renforcement",
+    "program": "full_body_start_20",
+    "duration": "45",
+    "desc": "Séance complète et adaptable."
+  },
+  "mobilite": {
+    "label": "Mobilité",
+    "program": "mobilite_recovery_25",
+    "duration": "30",
+    "desc": "Prévention, récupération, amplitude."
+  },
+  "musculation": {
+    "label": "Musculation",
+    "program": "muscu_push_volume",
+    "duration": "60",
+    "desc": "Force, volume, contrôle."
+  }
+}
