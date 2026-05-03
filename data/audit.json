@@ -1,0 +1,48 @@
+{
+  "version": "V48_ULTRA_FINAL_FIX_MENU_PROGRAMMES",
+  "base": "V47_FIX_ECRAN_NOIR",
+  "logo_integrated": true,
+  "features": [
+    "anti répétition localStorage",
+    "variation par style",
+    "adaptation niveau",
+    "export menu proche exemples",
+    "logo intégré",
+    "navigation retour globale",
+    "tri alphabétique",
+    "terrain hardcore + coach intelligent"
+  ],
+  "exercise_count": 280,
+  "program_count": 1680,
+  "quick_formats": 10,
+  "issues": [
+    "avatar réel séparé non fourni : bloc AVATAR FT prêt à remplacer"
+  ],
+  "fixes": [
+    "accueil sans version logiciel visible",
+    "logo plus visible et fondu en arrière-plan",
+    "programmes accessibles par onglets styles",
+    "recherche + filtres programmes",
+    "export menu plus harmonieux",
+    "bouton imprimer/PDF visible",
+    "avatar par style prêt à remplacer",
+    "reconstruction complète des programmes pour éviter 1200 Tabata uniquement",
+    "programmes équilibrés par style : tous les styles accessibles"
+  ],
+  "program_styles_count": {
+    "tabata": 120,
+    "amrap": 120,
+    "emom": 120,
+    "for_time": 120,
+    "circuit_training": 120,
+    "hyrox": 120,
+    "cross_training": 120,
+    "hiit": 120,
+    "boxe": 120,
+    "musculation": 120,
+    "renforcement": 120,
+    "mobilite": 120,
+    "stretching": 120,
+    "prepa_physique": 120
+  }
+}

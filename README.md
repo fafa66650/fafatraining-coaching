@@ -1,19 +1,15 @@
-# FAFATRAINING V48 ULTRA FINAL
+# FAFATRAINING V48 — FIX MENU + PROGRAMMES
 
-Version refaite depuis V47 FIX, sans superposition.
+Corrections :
+- Accueil nettoyé, sans version logiciel affichée inutilement
+- Logo plus visible et fondu en arrière-plan
+- Programmes accessibles par styles, équilibrés, pas seulement Tabata
+- Onglets styles : Tabata, AMRAP, EMOM, For Time, Circuit, Hyrox, Cross Training, HIIT, Boxe, Musculation, Renforcement, Mobilité, Stretching, Prépa Physique
+- Recherche et filtres programmes
+- Export menu plus harmonieux, avec bouton imprimer/PDF visible
+- Avatar par style prêt à remplacer par tes fichiers
 
-## Inclus
-- Anti-répétition réel avec historique local
-- Séances différentes selon style, niveau, groupe et historique
-- Adaptation niveau
-- Navigation retour globale
-- Export menu A4/PDF inspiré de tes exemples
-- Logo FAFATRAINING intégré
-- Version hybride : terrain hardcore + coach intelligent
-
-## Contenu
-- Exercices/mouvements : 280
-- Programmes/séances : 1200
-- Formats rapides : 10
-
-Note : avatar réel séparé non fourni, donc l’export utilise un bloc AVATAR FT prêt à remplacer.
+Contenu :
+- Exercices : 280
+- Programmes : 1680
+- Styles programmes : 14
