@@ -1,0 +1,38 @@
+{
+  "version": "V50_DOMINATION_COMPLETE",
+  "base_used": "FAFATRAINING_COACHING_V49_CLEAN_ULTRA_PRO.zip",
+  "no_superposition": true,
+  "what_was_done": [
+    "Dernière version reprise et réécrite proprement sans surcouche visible",
+    "Images déjà envoyées collectées dans assets/avatar et assets/examples",
+    "Mapping avatar automatique par style d'entraînement",
+    "Accueil nettoyé, sans bloc inutile en bas",
+    "Programmes équilibrés par style réel",
+    "Export menu homogène A4/PDF avec logo watermark et avatar dynamique",
+    "Arsenal classé par groupe musculaire",
+    "Anti-répétition localStorage",
+    "Navigation retour intégrée"
+  ],
+  "program_count": 1680,
+  "exercise_count": 280,
+  "style_count": 14,
+  "asset_count": 217,
+  "avatar_mapping": {
+    "hiit": "assets/avatar/hiit/hiit_001_0a5b21a5c3.jpg",
+    "tabata": "assets/avatar/hiit/hiit_001_0a5b21a5c3.jpg",
+    "amrap": "assets/avatar/cross_training/cross_training_006_85cbfd662c.jpg",
+    "emom": "assets/avatar/coaching/coaching_027_5115f84bc5.jpeg",
+    "for_time": "assets/avatar/cross_training/cross_training_006_85cbfd662c.jpg",
+    "circuit_training": "assets/avatar/full_body/full_body_000_8691794e66.jpg",
+    "hyrox": "assets/avatar/cross_training/cross_training_006_85cbfd662c.jpg",
+    "cross_training": "assets/avatar/cross_training/cross_training_006_85cbfd662c.jpg",
+    "boxe": "assets/avatar/boxe/boxe_015_efa23554e3.jpg",
+    "musculation": "assets/avatar/musculation/musculation_017_22cf54b77f.jpg",
+    "renforcement": "assets/avatar/full_body/full_body_000_8691794e66.jpg",
+    "mobilite": "assets/avatar/mobilite/mobilite_013_b44493e9a8.jpg",
+    "recovery": "assets/avatar/recovery/recovery_008_98e9a8bca0.jpg",
+    "prepa_physique": "assets/avatar/cross_training/cross_training_006_85cbfd662c.jpg",
+    "default": "assets/avatar/default/default_009_b02e771f23.jpg"
+  },
+  "issues": []
+}
