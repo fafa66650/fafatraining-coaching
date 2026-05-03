@@ -1,0 +1,1 @@
+Ajoute ici les visuels de la catégorie cardio_crossfit. Les noms exacts sont dans VISUELS_A_CREER.csv.

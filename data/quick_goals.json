@@ -1,0 +1,62 @@
+{
+  "auto": {
+    "label": "Mode Auto intelligent",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "30",
+    "desc": "Anti-répétition + niveau + contexte."
+  },
+  "tabata": {
+    "label": "Tabata",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "20",
+    "desc": "20/10, rapide, explosif."
+  },
+  "amrap": {
+    "label": "AMRAP",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "20",
+    "desc": "Maximum de tours propres."
+  },
+  "emom": {
+    "label": "EMOM",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "20",
+    "desc": "Chaque minute une mission."
+  },
+  "for_time": {
+    "label": "For Time",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "25",
+    "desc": "Challenge contre chrono."
+  },
+  "circuit": {
+    "label": "Circuit Training",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "35",
+    "desc": "Ateliers, rotations."
+  },
+  "hyrox": {
+    "label": "Hyrox",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "45",
+    "desc": "Stations cardio + fonctionnel."
+  },
+  "cross_training": {
+    "label": "Cross Training",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "45",
+    "desc": "Polyvalence force/cardio."
+  },
+  "boxe": {
+    "label": "Boxe Cardio",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "35",
+    "desc": "Rounds, appuis, mental."
+  },
+  "mobilite": {
+    "label": "Mobilité",
+    "program": "tabata_full_body_solo_10_min_debutant",
+    "duration": "25",
+    "desc": "Prévention, amplitude."
+  }
+}

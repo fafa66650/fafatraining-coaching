@@ -1,0 +1,21 @@
+{
+  "version": "V48_ULTRA_FINAL",
+  "base": "V47_FIX_ECRAN_NOIR",
+  "logo_integrated": true,
+  "features": [
+    "anti répétition localStorage",
+    "variation par style",
+    "adaptation niveau",
+    "export menu proche exemples",
+    "logo intégré",
+    "navigation retour globale",
+    "tri alphabétique",
+    "terrain hardcore + coach intelligent"
+  ],
+  "exercise_count": 280,
+  "program_count": 1200,
+  "quick_formats": 10,
+  "issues": [
+    "avatar réel séparé non fourni : bloc AVATAR FT prêt à remplacer"
+  ]
+}

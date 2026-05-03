@@ -1,0 +1,721 @@
+id;nom;durée;style;niveau;audience;cible
+full_body;Full body intelligent;45 min;équilibré;;;
+mobilite_recovery;Mobilité / récupération;20–40 min;prévention;;;
+stretching;Étirements / stretching;15–45 min;souplesse;;;
+stretching_avance_v40;Stretching Avancé;45–70 min;stretching;;;
+stretching_bas_corps_v40;Stretching Bas du corps;35–55 min;stretching;;;
+stretching_boxe_v40;Stretching Boxe;30–45 min;stretching;;;
+stretching_core_v40;Stretching Core;20–35 min;stretching;;;
+stretching_debutant_v40;Stretching Débutant;30–40 min;stretching;;;
+stretching_exterieur_v40;Stretching Extérieur;25–45 min;stretching;;;
+stretching_groupe_v40;Stretching Groupe;30–45 min;stretching;;;
+stretching_haut_corps_v40;Stretching Haut du corps;35–55 min;stretching;;;
+stretching_intermediaire_v40;Stretching Intermédiaire;40–55 min;stretching;;;
+stretching_solo_v40;Stretching Solo;35–60 min;stretching;;;
+boxe_avance_v40;Boxe cardio Avancé;45–70 min;boxe;;;
+boxe_bas_corps_v40;Boxe cardio Bas du corps;35–55 min;boxe;;;
+boxe_boxe_v40;Boxe cardio Boxe;30–45 min;boxe;;;
+boxe_core_v40;Boxe cardio Core;20–35 min;boxe;;;
+boxe_debutant_v40;Boxe cardio Débutant;30–40 min;boxe;;;
+boxe_exterieur_v40;Boxe cardio Extérieur;25–45 min;boxe;;;
+boxe_groupe_v40;Boxe cardio Groupe;30–45 min;boxe;;;
+boxe_haut_corps_v40;Boxe cardio Haut du corps;35–55 min;boxe;;;
+boxe_cardio_intense;Boxe cardio intense;30–50 min;boxe;;;
+boxe_intermediaire_v40;Boxe cardio Intermédiaire;40–55 min;boxe;;;
+boxe_solo_v40;Boxe cardio Solo;35–60 min;boxe;;;
+boxe_debutant;Boxe débutant;25–40 min;boxe;;;
+cardio_boxing;Cardio boxing;25–45 min;boxe fitness;;;
+boxe_cardio;Boxe cardio;30–55 min;frappes / appuis;;;
+circuit_training_avance_v40;Circuit Avancé;45–70 min;circuit_training;;;
+circuit_training_bas_corps_v40;Circuit Bas du corps;35–55 min;circuit_training;;;
+circuit_training_boxe_v40;Circuit Boxe;30–45 min;circuit_training;;;
+circuit_training_core_v40;Circuit Core;20–35 min;circuit_training;;;
+circuit_debutant;Circuit débutant;25–35 min;circuit_training;;;
+circuit_training_debutant_v40;Circuit Débutant;30–40 min;circuit_training;;;
+circuit_training_exterieur_v40;Circuit Extérieur;25–45 min;circuit_training;;;
+circuit_groupe;Circuit groupe;30–45 min;circuit_training;;;
+circuit_training_groupe_v40;Circuit Groupe;30–45 min;circuit_training;;;
+circuit_training_haut_corps_v40;Circuit Haut du corps;35–55 min;circuit_training;;;
+circuit_training_intermediaire_v40;Circuit Intermédiaire;40–55 min;circuit_training;;;
+circuit_training_solo_v40;Circuit Solo;35–60 min;circuit_training;;;
+emom;EMOM;10–30 min;chaque minute;;;
+for_time;For Time;10–40 min;contre la montre;;;
+amrap;AMRAP;10–30 min;max tours;;;
+crossfit_avance_v40;CrossFit style Avancé;45–70 min;crossfit;;;
+crossfit_bas_corps_v40;CrossFit style Bas du corps;35–55 min;crossfit;;;
+crossfit_boxe_v40;CrossFit style Boxe;30–45 min;crossfit;;;
+crossfit_core_v40;CrossFit style Core;20–35 min;crossfit;;;
+crossfit_debutant_v40;CrossFit style Débutant;30–40 min;crossfit;;;
+crossfit_exterieur_v40;CrossFit style Extérieur;25–45 min;crossfit;;;
+crossfit_groupe_v40;CrossFit style Groupe;30–45 min;crossfit;;;
+crossfit_haut_corps_v40;CrossFit style Haut du corps;35–55 min;crossfit;;;
+crossfit_intermediaire_v40;CrossFit style Intermédiaire;40–55 min;crossfit;;;
+crossfit_solo_v40;CrossFit style Solo;35–60 min;crossfit;;;
+exterieur_parc;Extérieur parc;25–45 min;exterieur;;;
+tabata;Tabata;4–20 min;20/10;;;
+circuit_training;Circuit training;25–45 min;circuit;;;
+hiit;HIIT;18–30 min;intervalles intenses;;;
+crossfit;CrossFit style;20–60 min;WOD technique;;;
+cross_training;CrossTraining / WOD;20–60 min;fonctionnel;;;
+hyrox;Hyrox;45–90 min;stations endurance;;;
+full_body_athlete;Full body athlète;45–70 min;full_body;;;
+full_body_debutant;Full body débutant;30–45 min;full_body;;;
+ados_fun_sportif;Ados circuit sportif;30–45 min;circuit_training;;;
+for_time_team;For Time équipe;20–40 min;for_time;;;
+hiit_avance_v40;HIIT Avancé;45–70 min;hiit;;;
+hiit_bas_corps_v40;HIIT Bas du corps;35–55 min;hiit;;;
+hiit_boxe_v40;HIIT Boxe;30–45 min;hiit;;;
+hiit_core_v40;HIIT Core;20–35 min;hiit;;;
+hiit_debutant_v40;HIIT Débutant;30–40 min;hiit;;;
+hiit_exterieur_v40;HIIT Extérieur;25–45 min;hiit;;;
+hiit_groupe_v40;HIIT Groupe;30–45 min;hiit;;;
+hiit_haut_corps_v40;HIIT Haut du corps;35–55 min;hiit;;;
+hiit_intermediaire_v40;HIIT Intermédiaire;40–55 min;hiit;;;
+hiit_solo_v40;HIIT Solo;35–60 min;hiit;;;
+tabata_avance;Tabata avancé;16–24 min;tabata;;;
+tabata_avance_v40;Tabata Avancé;45–70 min;tabata;;;
+tabata_bas_corps_v40;Tabata Bas du corps;35–55 min;tabata;;;
+tabata_boxe_v40;Tabata Boxe;30–45 min;tabata;;;
+tabata_core_v40;Tabata Core;20–35 min;tabata;;;
+tabata_debutant;Tabata débutant;12–20 min;tabata;;;
+tabata_debutant_v40;Tabata Débutant;30–40 min;tabata;;;
+tabata_exterieur_v40;Tabata Extérieur;25–45 min;tabata;;;
+tabata_groupe_v40;Tabata Groupe;30–45 min;tabata;;;
+tabata_haut_corps_v40;Tabata Haut du corps;35–55 min;tabata;;;
+tabata_intermediaire_v40;Tabata Intermédiaire;40–55 min;tabata;;;
+tabata_solo_v40;Tabata Solo;35–60 min;tabata;;;
+hyrox_avance_v40;Hyrox Avancé;45–70 min;hyrox;;;
+hyrox_bas_corps_v40;Hyrox Bas du corps;35–55 min;hyrox;;;
+hyrox_beginner;Hyrox beginner;35–50 min;hyrox;;;
+hyrox_boxe_v40;Hyrox Boxe;30–45 min;hyrox;;;
+hyrox_competition;Hyrox compétition;60–90 min;hyrox;;;
+hyrox_core_v40;Hyrox Core;20–35 min;hyrox;;;
+hyrox_debutant_v40;Hyrox Débutant;30–40 min;hyrox;;;
+hyrox_exterieur_v40;Hyrox Extérieur;25–45 min;hyrox;;;
+hyrox_groupe_v40;Hyrox Groupe;30–45 min;hyrox;;;
+hyrox_haut_corps_v40;Hyrox Haut du corps;35–55 min;hyrox;;;
+hyrox_intermediaire_v40;Hyrox Intermédiaire;40–55 min;hyrox;;;
+hyrox_solo_v40;Hyrox Solo;35–60 min;hyrox;;;
+poids_du_corps;Poids du corps;20–55 min;sans matériel;;;
+mobilite_hanches;Mobilité hanches;15–30 min;mobilite;;;
+mobilite_epaules_dos;Mobilité épaules & dos;15–30 min;mobilite;;;
+coach_auto_groupe;Coach Auto Groupe;auto;adaptatif groupe;;;
+musculation_force;Musculation force;45–75 min;force;;;
+muscu_legs;Musculation Legs;45–75 min;musculation;;;
+muscu_pull;Musculation Pull;45–70 min;musculation;;;
+muscu_push;Musculation Push;45–70 min;musculation;;;
+renforcement;Renforcement musculaire;30–60 min;renforcement;;;
+hypertrophie;Hypertrophie / prise de masse;45–75 min;volume musculaire;;;
+perte_poids_45;Perte de poids 45 min;45 min;hiit;;;
+echauffement_general;Échauffement général;8–15 min;warmup;;;
+senior_equilibre;Senior équilibre;25–40 min;prevention;;;
+renfo_bas_corps;Renfo bas du corps;35–55 min;renforcement;;;
+renfo_dos_abdos;Renfo dos & abdos;25–40 min;renforcement;;;
+renfo_haut_corps;Renfo haut du corps;35–55 min;renforcement;;;
+renforcement_avance_v40;Renforcement Avancé;45–70 min;renforcement;;;
+renforcement_bas_corps_v40;Renforcement Bas du corps;35–55 min;renforcement;;;
+renforcement_boxe_v40;Renforcement Boxe;30–45 min;renforcement;;;
+renforcement_core_v40;Renforcement Core;20–35 min;renforcement;;;
+renforcement_debutant_v40;Renforcement Débutant;30–40 min;renforcement;;;
+renforcement_exterieur_v40;Renforcement Extérieur;25–45 min;renforcement;;;
+renforcement_groupe_v40;Renforcement Groupe;30–45 min;renforcement;;;
+renforcement_haut_corps_v40;Renforcement Haut du corps;35–55 min;renforcement;;;
+renforcement_intermediaire_v40;Renforcement Intermédiaire;40–55 min;renforcement;;;
+renforcement_solo_v40;Renforcement Solo;35–60 min;renforcement;;;
+reprise_post_arret;Reprise après arrêt;20–35 min;prevention;;;
+retour_au_calme;Retour au calme;8–20 min;cooldown;;;
+jambes_fessiers;Jambes & fessiers;45–70 min;bas du corps;;;
+stretching_complet;Stretching complet;20–40 min;stretching;;;
+amrap_12;AMRAP 12 min;12 min;amrap;;;
+amrap_20;AMRAP 20 min;20 min;amrap;;;
+amrap_avance_v40;AMRAP Avancé;45–70 min;amrap;;;
+amrap_bas_corps_v40;AMRAP Bas du corps;35–55 min;amrap;;;
+amrap_boxe_v40;AMRAP Boxe;30–45 min;amrap;;;
+amrap_core_v40;AMRAP Core;20–35 min;amrap;;;
+amrap_debutant_v40;AMRAP Débutant;30–40 min;amrap;;;
+amrap_exterieur_v40;AMRAP Extérieur;25–45 min;amrap;;;
+amrap_groupe_v40;AMRAP Groupe;30–45 min;amrap;;;
+amrap_haut_corps_v40;AMRAP Haut du corps;35–55 min;amrap;;;
+amrap_intermediaire_v40;AMRAP Intermédiaire;40–55 min;amrap;;;
+amrap_solo_v40;AMRAP Solo;35–60 min;amrap;;;
+emom_10;EMOM 10 min;10 min;emom;;;
+emom_20;EMOM 20 min;20 min;emom;;;
+emom_avance_v40;EMOM Avancé;45–70 min;emom;;;
+emom_bas_corps_v40;EMOM Bas du corps;35–55 min;emom;;;
+emom_boxe_v40;EMOM Boxe;30–45 min;emom;;;
+emom_core_v40;EMOM Core;20–35 min;emom;;;
+emom_debutant_v40;EMOM Débutant;30–40 min;emom;;;
+emom_exterieur_v40;EMOM Extérieur;25–45 min;emom;;;
+emom_groupe_v40;EMOM Groupe;30–45 min;emom;;;
+emom_haut_corps_v40;EMOM Haut du corps;35–55 min;emom;;;
+emom_intermediaire_v40;EMOM Intermédiaire;40–55 min;emom;;;
+emom_solo_v40;EMOM Solo;35–60 min;emom;;;
+for_time_avance_v40;For Time Avancé;45–70 min;for_time;;;
+for_time_bas_corps_v40;For Time Bas du corps;35–55 min;for_time;;;
+for_time_boxe_v40;For Time Boxe;30–45 min;for_time;;;
+for_time_core_v40;For Time Core;20–35 min;for_time;;;
+for_time_debutant_v40;For Time Débutant;30–40 min;for_time;;;
+for_time_exterieur_v40;For Time Extérieur;25–45 min;for_time;;;
+for_time_groupe_v40;For Time Groupe;30–45 min;for_time;;;
+for_time_haut_corps_v40;For Time Haut du corps;35–55 min;for_time;;;
+for_time_intermediaire_v40;For Time Intermédiaire;40–55 min;for_time;;;
+for_time_simple;For Time simple;10–25 min;for_time;;;
+for_time_solo_v40;For Time Solo;35–60 min;for_time;;;
+full_body_start_20;Full Body Start 20;20 min;renforcement;Débutant;Solo;Full body
+tabata_grand_groupe;Tabata Grand Groupe;20 min;tabata;Intermédiaire;Groupe;Cardio
+amrap_solo_12;AMRAP Solo 12;12 min;amrap;Débutant;Solo;Full body
+emom_force_20;EMOM Force 20;20 min;emom;Intermédiaire;Solo;Full body
+for_time_debutant;For Time Débutant;18 min;for_time;Débutant;Solo;Cardio
+hyrox_simulation_45;Hyrox Simulation 45;45 min;hyrox;Intermédiaire;Solo/Groupe;Hyrox
+boxe_cardio_rounds;Boxe Cardio Rounds;35 min;boxe;Tous niveaux;Solo/Groupe;Boxe
+mobilite_recovery_25;Mobilité Recovery 25;25 min;mobilite;Tous niveaux;Solo;Mobilité
+circuit_ados_35;Circuit Ados Terrain 35;35 min;circuit_training;Débutant;Groupe;Cardio
+muscu_push_volume;Muscu Push Volume;60 min;musculation;Intermédiaire;Salle;Push
+muscu_pull_posture;Muscu Pull Posture;60 min;musculation;Intermédiaire;Salle;Pull
+jambes_fessiers_45;Jambes Fessiers 45;45 min;renforcement;Tous niveaux;Solo;Jambes fessiers
+renforcement_debutant_full_body_10;Renforcement Full body Débutant 10 min;10 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_15;Renforcement Full body Débutant 15 min;15 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_20;Renforcement Full body Débutant 20 min;20 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_30;Renforcement Full body Débutant 30 min;30 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_45;Renforcement Full body Débutant 45 min;45 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_60;Renforcement Full body Débutant 60 min;60 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_full_body_75;Renforcement Full body Débutant 75 min;75 min;renforcement;Débutant;Débutant;Full body
+renforcement_debutant_haut_du_corps_10;Renforcement Haut du corps Débutant 10 min;10 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_15;Renforcement Haut du corps Débutant 15 min;15 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_20;Renforcement Haut du corps Débutant 20 min;20 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_30;Renforcement Haut du corps Débutant 30 min;30 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_45;Renforcement Haut du corps Débutant 45 min;45 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_60;Renforcement Haut du corps Débutant 60 min;60 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_haut_du_corps_75;Renforcement Haut du corps Débutant 75 min;75 min;renforcement;Débutant;Débutant;Haut du corps
+renforcement_debutant_bas_du_corps_10;Renforcement Bas du corps Débutant 10 min;10 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_15;Renforcement Bas du corps Débutant 15 min;15 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_20;Renforcement Bas du corps Débutant 20 min;20 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_30;Renforcement Bas du corps Débutant 30 min;30 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_45;Renforcement Bas du corps Débutant 45 min;45 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_60;Renforcement Bas du corps Débutant 60 min;60 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_bas_du_corps_75;Renforcement Bas du corps Débutant 75 min;75 min;renforcement;Débutant;Débutant;Bas du corps
+renforcement_debutant_core_10;Renforcement Core Débutant 10 min;10 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_15;Renforcement Core Débutant 15 min;15 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_20;Renforcement Core Débutant 20 min;20 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_30;Renforcement Core Débutant 30 min;30 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_45;Renforcement Core Débutant 45 min;45 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_60;Renforcement Core Débutant 60 min;60 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_core_75;Renforcement Core Débutant 75 min;75 min;renforcement;Débutant;Débutant;Core
+renforcement_debutant_cardio_10;Renforcement Cardio Débutant 10 min;10 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_15;Renforcement Cardio Débutant 15 min;15 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_20;Renforcement Cardio Débutant 20 min;20 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_30;Renforcement Cardio Débutant 30 min;30 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_45;Renforcement Cardio Débutant 45 min;45 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_60;Renforcement Cardio Débutant 60 min;60 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_cardio_75;Renforcement Cardio Débutant 75 min;75 min;renforcement;Débutant;Débutant;Cardio
+renforcement_debutant_boxe_10;Renforcement Boxe Débutant 10 min;10 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_15;Renforcement Boxe Débutant 15 min;15 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_20;Renforcement Boxe Débutant 20 min;20 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_30;Renforcement Boxe Débutant 30 min;30 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_45;Renforcement Boxe Débutant 45 min;45 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_60;Renforcement Boxe Débutant 60 min;60 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_boxe_75;Renforcement Boxe Débutant 75 min;75 min;renforcement;Débutant;Débutant;Boxe
+renforcement_debutant_mobilit_10;Renforcement Mobilité Débutant 10 min;10 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_15;Renforcement Mobilité Débutant 15 min;15 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_20;Renforcement Mobilité Débutant 20 min;20 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_30;Renforcement Mobilité Débutant 30 min;30 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_45;Renforcement Mobilité Débutant 45 min;45 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_60;Renforcement Mobilité Débutant 60 min;60 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_mobilit_75;Renforcement Mobilité Débutant 75 min;75 min;renforcement;Débutant;Débutant;Mobilité
+renforcement_debutant_hyrox_10;Renforcement Hyrox Débutant 10 min;10 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_15;Renforcement Hyrox Débutant 15 min;15 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_20;Renforcement Hyrox Débutant 20 min;20 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_30;Renforcement Hyrox Débutant 30 min;30 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_45;Renforcement Hyrox Débutant 45 min;45 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_60;Renforcement Hyrox Débutant 60 min;60 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_hyrox_75;Renforcement Hyrox Débutant 75 min;75 min;renforcement;Débutant;Débutant;Hyrox
+renforcement_debutant_push_10;Renforcement Push Débutant 10 min;10 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_15;Renforcement Push Débutant 15 min;15 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_20;Renforcement Push Débutant 20 min;20 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_30;Renforcement Push Débutant 30 min;30 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_45;Renforcement Push Débutant 45 min;45 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_60;Renforcement Push Débutant 60 min;60 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_push_75;Renforcement Push Débutant 75 min;75 min;renforcement;Débutant;Débutant;Push
+renforcement_debutant_pull_10;Renforcement Pull Débutant 10 min;10 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_15;Renforcement Pull Débutant 15 min;15 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_20;Renforcement Pull Débutant 20 min;20 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_30;Renforcement Pull Débutant 30 min;30 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_45;Renforcement Pull Débutant 45 min;45 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_60;Renforcement Pull Débutant 60 min;60 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_pull_75;Renforcement Pull Débutant 75 min;75 min;renforcement;Débutant;Débutant;Pull
+renforcement_debutant_jambes_fessiers_10;Renforcement Jambes fessiers Débutant 10 min;10 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_15;Renforcement Jambes fessiers Débutant 15 min;15 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_20;Renforcement Jambes fessiers Débutant 20 min;20 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_30;Renforcement Jambes fessiers Débutant 30 min;30 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_45;Renforcement Jambes fessiers Débutant 45 min;45 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_60;Renforcement Jambes fessiers Débutant 60 min;60 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_debutant_jambes_fessiers_75;Renforcement Jambes fessiers Débutant 75 min;75 min;renforcement;Débutant;Débutant;Jambes fessiers
+renforcement_intermediaire_full_body_10;Renforcement Full body Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_15;Renforcement Full body Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_20;Renforcement Full body Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_30;Renforcement Full body Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_45;Renforcement Full body Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_60;Renforcement Full body Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_full_body_75;Renforcement Full body Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Full body
+renforcement_intermediaire_haut_du_corps_10;Renforcement Haut du corps Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_15;Renforcement Haut du corps Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_20;Renforcement Haut du corps Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_30;Renforcement Haut du corps Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_45;Renforcement Haut du corps Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_60;Renforcement Haut du corps Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_haut_du_corps_75;Renforcement Haut du corps Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Haut du corps
+renforcement_intermediaire_bas_du_corps_10;Renforcement Bas du corps Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_15;Renforcement Bas du corps Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_20;Renforcement Bas du corps Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_30;Renforcement Bas du corps Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_45;Renforcement Bas du corps Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_60;Renforcement Bas du corps Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_bas_du_corps_75;Renforcement Bas du corps Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Bas du corps
+renforcement_intermediaire_core_10;Renforcement Core Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_15;Renforcement Core Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_20;Renforcement Core Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_30;Renforcement Core Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_45;Renforcement Core Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_60;Renforcement Core Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_core_75;Renforcement Core Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Core
+renforcement_intermediaire_cardio_10;Renforcement Cardio Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_15;Renforcement Cardio Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_20;Renforcement Cardio Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_30;Renforcement Cardio Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_45;Renforcement Cardio Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_60;Renforcement Cardio Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_cardio_75;Renforcement Cardio Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Cardio
+renforcement_intermediaire_boxe_10;Renforcement Boxe Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_15;Renforcement Boxe Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_20;Renforcement Boxe Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_30;Renforcement Boxe Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_45;Renforcement Boxe Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_60;Renforcement Boxe Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_boxe_75;Renforcement Boxe Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Boxe
+renforcement_intermediaire_mobilit_10;Renforcement Mobilité Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_15;Renforcement Mobilité Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_20;Renforcement Mobilité Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_30;Renforcement Mobilité Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_45;Renforcement Mobilité Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_60;Renforcement Mobilité Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_mobilit_75;Renforcement Mobilité Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Mobilité
+renforcement_intermediaire_hyrox_10;Renforcement Hyrox Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_15;Renforcement Hyrox Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_20;Renforcement Hyrox Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_30;Renforcement Hyrox Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_45;Renforcement Hyrox Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_60;Renforcement Hyrox Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_hyrox_75;Renforcement Hyrox Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Hyrox
+renforcement_intermediaire_push_10;Renforcement Push Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_15;Renforcement Push Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_20;Renforcement Push Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_30;Renforcement Push Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_45;Renforcement Push Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_60;Renforcement Push Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_push_75;Renforcement Push Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Push
+renforcement_intermediaire_pull_10;Renforcement Pull Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_15;Renforcement Pull Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_20;Renforcement Pull Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_30;Renforcement Pull Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_45;Renforcement Pull Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_60;Renforcement Pull Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_pull_75;Renforcement Pull Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Pull
+renforcement_intermediaire_jambes_fessiers_10;Renforcement Jambes fessiers Intermédiaire 10 min;10 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_15;Renforcement Jambes fessiers Intermédiaire 15 min;15 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_20;Renforcement Jambes fessiers Intermédiaire 20 min;20 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_30;Renforcement Jambes fessiers Intermédiaire 30 min;30 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_45;Renforcement Jambes fessiers Intermédiaire 45 min;45 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_60;Renforcement Jambes fessiers Intermédiaire 60 min;60 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_intermediaire_jambes_fessiers_75;Renforcement Jambes fessiers Intermédiaire 75 min;75 min;renforcement;Intermédiaire;Intermédiaire;Jambes fessiers
+renforcement_avance_full_body_10;Renforcement Full body Avancé 10 min;10 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_15;Renforcement Full body Avancé 15 min;15 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_20;Renforcement Full body Avancé 20 min;20 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_30;Renforcement Full body Avancé 30 min;30 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_45;Renforcement Full body Avancé 45 min;45 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_60;Renforcement Full body Avancé 60 min;60 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_full_body_75;Renforcement Full body Avancé 75 min;75 min;renforcement;Avancé;Avancé;Full body
+renforcement_avance_haut_du_corps_10;Renforcement Haut du corps Avancé 10 min;10 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_15;Renforcement Haut du corps Avancé 15 min;15 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_20;Renforcement Haut du corps Avancé 20 min;20 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_30;Renforcement Haut du corps Avancé 30 min;30 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_45;Renforcement Haut du corps Avancé 45 min;45 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_60;Renforcement Haut du corps Avancé 60 min;60 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_haut_du_corps_75;Renforcement Haut du corps Avancé 75 min;75 min;renforcement;Avancé;Avancé;Haut du corps
+renforcement_avance_bas_du_corps_10;Renforcement Bas du corps Avancé 10 min;10 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_15;Renforcement Bas du corps Avancé 15 min;15 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_20;Renforcement Bas du corps Avancé 20 min;20 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_30;Renforcement Bas du corps Avancé 30 min;30 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_45;Renforcement Bas du corps Avancé 45 min;45 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_60;Renforcement Bas du corps Avancé 60 min;60 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_bas_du_corps_75;Renforcement Bas du corps Avancé 75 min;75 min;renforcement;Avancé;Avancé;Bas du corps
+renforcement_avance_core_10;Renforcement Core Avancé 10 min;10 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_15;Renforcement Core Avancé 15 min;15 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_20;Renforcement Core Avancé 20 min;20 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_30;Renforcement Core Avancé 30 min;30 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_45;Renforcement Core Avancé 45 min;45 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_60;Renforcement Core Avancé 60 min;60 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_core_75;Renforcement Core Avancé 75 min;75 min;renforcement;Avancé;Avancé;Core
+renforcement_avance_cardio_10;Renforcement Cardio Avancé 10 min;10 min;renforcement;Avancé;Avancé;Cardio
+renforcement_avance_cardio_15;Renforcement Cardio Avancé 15 min;15 min;renforcement;Avancé;Avancé;Cardio
+renforcement_avance_cardio_20;Renforcement Cardio Avancé 20 min;20 min;renforcement;Avancé;Avancé;Cardio
+renforcement_avance_cardio_30;Renforcement Cardio Avancé 30 min;30 min;renforcement;Avancé;Avancé;Cardio
+renforcement_full_body_d_butant_solo_10;Renforcement Full body Solo 10 min;10 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_15;Renforcement Full body Solo 15 min;15 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_20;Renforcement Full body Solo 20 min;20 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_25;Renforcement Full body Solo 25 min;25 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_30;Renforcement Full body Solo 30 min;30 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_35;Renforcement Full body Solo 35 min;35 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_45;Renforcement Full body Solo 45 min;45 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_60;Renforcement Full body Solo 60 min;60 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_solo_75;Renforcement Full body Solo 75 min;75 min;renforcement;Débutant;Solo;Full body
+renforcement_full_body_d_butant_groupe_10;Renforcement Full body Groupe 10 min;10 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_15;Renforcement Full body Groupe 15 min;15 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_20;Renforcement Full body Groupe 20 min;20 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_25;Renforcement Full body Groupe 25 min;25 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_30;Renforcement Full body Groupe 30 min;30 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_35;Renforcement Full body Groupe 35 min;35 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_45;Renforcement Full body Groupe 45 min;45 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_60;Renforcement Full body Groupe 60 min;60 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_groupe_75;Renforcement Full body Groupe 75 min;75 min;renforcement;Débutant;Groupe;Full body
+renforcement_full_body_d_butant_ados_10;Renforcement Full body Ados 10 min;10 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_15;Renforcement Full body Ados 15 min;15 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_20;Renforcement Full body Ados 20 min;20 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_25;Renforcement Full body Ados 25 min;25 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_30;Renforcement Full body Ados 30 min;30 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_35;Renforcement Full body Ados 35 min;35 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_45;Renforcement Full body Ados 45 min;45 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_60;Renforcement Full body Ados 60 min;60 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_ados_75;Renforcement Full body Ados 75 min;75 min;renforcement;Débutant;Ados;Full body
+renforcement_full_body_d_butant_maison_10;Renforcement Full body Maison 10 min;10 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_15;Renforcement Full body Maison 15 min;15 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_20;Renforcement Full body Maison 20 min;20 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_25;Renforcement Full body Maison 25 min;25 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_30;Renforcement Full body Maison 30 min;30 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_35;Renforcement Full body Maison 35 min;35 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_45;Renforcement Full body Maison 45 min;45 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_60;Renforcement Full body Maison 60 min;60 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_maison_75;Renforcement Full body Maison 75 min;75 min;renforcement;Débutant;Maison;Full body
+renforcement_full_body_d_butant_salle_10;Renforcement Full body Salle 10 min;10 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_15;Renforcement Full body Salle 15 min;15 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_20;Renforcement Full body Salle 20 min;20 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_25;Renforcement Full body Salle 25 min;25 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_30;Renforcement Full body Salle 30 min;30 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_35;Renforcement Full body Salle 35 min;35 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_45;Renforcement Full body Salle 45 min;45 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_60;Renforcement Full body Salle 60 min;60 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_salle_75;Renforcement Full body Salle 75 min;75 min;renforcement;Débutant;Salle;Full body
+renforcement_full_body_d_butant_ext_rieur_10;Renforcement Full body Extérieur 10 min;10 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_15;Renforcement Full body Extérieur 15 min;15 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_20;Renforcement Full body Extérieur 20 min;20 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_25;Renforcement Full body Extérieur 25 min;25 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_30;Renforcement Full body Extérieur 30 min;30 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_35;Renforcement Full body Extérieur 35 min;35 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_45;Renforcement Full body Extérieur 45 min;45 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_60;Renforcement Full body Extérieur 60 min;60 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_ext_rieur_75;Renforcement Full body Extérieur 75 min;75 min;renforcement;Débutant;Extérieur;Full body
+renforcement_full_body_d_butant_coach_10;Renforcement Full body Coach 10 min;10 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_15;Renforcement Full body Coach 15 min;15 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_20;Renforcement Full body Coach 20 min;20 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_25;Renforcement Full body Coach 25 min;25 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_30;Renforcement Full body Coach 30 min;30 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_35;Renforcement Full body Coach 35 min;35 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_45;Renforcement Full body Coach 45 min;45 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_60;Renforcement Full body Coach 60 min;60 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_d_butant_coach_75;Renforcement Full body Coach 75 min;75 min;renforcement;Débutant;Coach;Full body
+renforcement_full_body_interm_diaire_solo_10;Renforcement Full body Solo 10 min;10 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_15;Renforcement Full body Solo 15 min;15 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_20;Renforcement Full body Solo 20 min;20 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_25;Renforcement Full body Solo 25 min;25 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_30;Renforcement Full body Solo 30 min;30 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_35;Renforcement Full body Solo 35 min;35 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_45;Renforcement Full body Solo 45 min;45 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_60;Renforcement Full body Solo 60 min;60 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_solo_75;Renforcement Full body Solo 75 min;75 min;renforcement;Intermédiaire;Solo;Full body
+renforcement_full_body_interm_diaire_groupe_10;Renforcement Full body Groupe 10 min;10 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_15;Renforcement Full body Groupe 15 min;15 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_20;Renforcement Full body Groupe 20 min;20 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_25;Renforcement Full body Groupe 25 min;25 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_30;Renforcement Full body Groupe 30 min;30 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_35;Renforcement Full body Groupe 35 min;35 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_45;Renforcement Full body Groupe 45 min;45 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_60;Renforcement Full body Groupe 60 min;60 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_groupe_75;Renforcement Full body Groupe 75 min;75 min;renforcement;Intermédiaire;Groupe;Full body
+renforcement_full_body_interm_diaire_ados_10;Renforcement Full body Ados 10 min;10 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_15;Renforcement Full body Ados 15 min;15 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_20;Renforcement Full body Ados 20 min;20 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_25;Renforcement Full body Ados 25 min;25 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_30;Renforcement Full body Ados 30 min;30 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_35;Renforcement Full body Ados 35 min;35 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_45;Renforcement Full body Ados 45 min;45 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_60;Renforcement Full body Ados 60 min;60 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_ados_75;Renforcement Full body Ados 75 min;75 min;renforcement;Intermédiaire;Ados;Full body
+renforcement_full_body_interm_diaire_maison_10;Renforcement Full body Maison 10 min;10 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_15;Renforcement Full body Maison 15 min;15 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_20;Renforcement Full body Maison 20 min;20 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_25;Renforcement Full body Maison 25 min;25 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_30;Renforcement Full body Maison 30 min;30 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_35;Renforcement Full body Maison 35 min;35 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_45;Renforcement Full body Maison 45 min;45 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_60;Renforcement Full body Maison 60 min;60 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_maison_75;Renforcement Full body Maison 75 min;75 min;renforcement;Intermédiaire;Maison;Full body
+renforcement_full_body_interm_diaire_salle_10;Renforcement Full body Salle 10 min;10 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_15;Renforcement Full body Salle 15 min;15 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_20;Renforcement Full body Salle 20 min;20 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_25;Renforcement Full body Salle 25 min;25 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_30;Renforcement Full body Salle 30 min;30 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_35;Renforcement Full body Salle 35 min;35 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_45;Renforcement Full body Salle 45 min;45 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_60;Renforcement Full body Salle 60 min;60 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_salle_75;Renforcement Full body Salle 75 min;75 min;renforcement;Intermédiaire;Salle;Full body
+renforcement_full_body_interm_diaire_ext_rieur_10;Renforcement Full body Extérieur 10 min;10 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_15;Renforcement Full body Extérieur 15 min;15 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_20;Renforcement Full body Extérieur 20 min;20 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_25;Renforcement Full body Extérieur 25 min;25 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_30;Renforcement Full body Extérieur 30 min;30 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_35;Renforcement Full body Extérieur 35 min;35 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_45;Renforcement Full body Extérieur 45 min;45 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_60;Renforcement Full body Extérieur 60 min;60 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_ext_rieur_75;Renforcement Full body Extérieur 75 min;75 min;renforcement;Intermédiaire;Extérieur;Full body
+renforcement_full_body_interm_diaire_coach_10;Renforcement Full body Coach 10 min;10 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_15;Renforcement Full body Coach 15 min;15 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_20;Renforcement Full body Coach 20 min;20 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_25;Renforcement Full body Coach 25 min;25 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_30;Renforcement Full body Coach 30 min;30 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_35;Renforcement Full body Coach 35 min;35 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_45;Renforcement Full body Coach 45 min;45 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_60;Renforcement Full body Coach 60 min;60 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_interm_diaire_coach_75;Renforcement Full body Coach 75 min;75 min;renforcement;Intermédiaire;Coach;Full body
+renforcement_full_body_avanc_solo_10;Renforcement Full body Solo 10 min;10 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_15;Renforcement Full body Solo 15 min;15 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_20;Renforcement Full body Solo 20 min;20 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_25;Renforcement Full body Solo 25 min;25 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_30;Renforcement Full body Solo 30 min;30 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_35;Renforcement Full body Solo 35 min;35 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_45;Renforcement Full body Solo 45 min;45 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_60;Renforcement Full body Solo 60 min;60 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_solo_75;Renforcement Full body Solo 75 min;75 min;renforcement;Avancé;Solo;Full body
+renforcement_full_body_avanc_groupe_10;Renforcement Full body Groupe 10 min;10 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_15;Renforcement Full body Groupe 15 min;15 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_20;Renforcement Full body Groupe 20 min;20 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_25;Renforcement Full body Groupe 25 min;25 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_30;Renforcement Full body Groupe 30 min;30 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_35;Renforcement Full body Groupe 35 min;35 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_45;Renforcement Full body Groupe 45 min;45 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_60;Renforcement Full body Groupe 60 min;60 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_groupe_75;Renforcement Full body Groupe 75 min;75 min;renforcement;Avancé;Groupe;Full body
+renforcement_full_body_avanc_ados_10;Renforcement Full body Ados 10 min;10 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_15;Renforcement Full body Ados 15 min;15 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_20;Renforcement Full body Ados 20 min;20 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_25;Renforcement Full body Ados 25 min;25 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_30;Renforcement Full body Ados 30 min;30 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_35;Renforcement Full body Ados 35 min;35 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_45;Renforcement Full body Ados 45 min;45 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_60;Renforcement Full body Ados 60 min;60 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_ados_75;Renforcement Full body Ados 75 min;75 min;renforcement;Avancé;Ados;Full body
+renforcement_full_body_avanc_maison_10;Renforcement Full body Maison 10 min;10 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_15;Renforcement Full body Maison 15 min;15 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_20;Renforcement Full body Maison 20 min;20 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_25;Renforcement Full body Maison 25 min;25 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_30;Renforcement Full body Maison 30 min;30 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_35;Renforcement Full body Maison 35 min;35 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_45;Renforcement Full body Maison 45 min;45 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_60;Renforcement Full body Maison 60 min;60 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_maison_75;Renforcement Full body Maison 75 min;75 min;renforcement;Avancé;Maison;Full body
+renforcement_full_body_avanc_salle_10;Renforcement Full body Salle 10 min;10 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_15;Renforcement Full body Salle 15 min;15 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_20;Renforcement Full body Salle 20 min;20 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_25;Renforcement Full body Salle 25 min;25 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_30;Renforcement Full body Salle 30 min;30 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_35;Renforcement Full body Salle 35 min;35 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_45;Renforcement Full body Salle 45 min;45 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_60;Renforcement Full body Salle 60 min;60 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_salle_75;Renforcement Full body Salle 75 min;75 min;renforcement;Avancé;Salle;Full body
+renforcement_full_body_avanc_ext_rieur_10;Renforcement Full body Extérieur 10 min;10 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_15;Renforcement Full body Extérieur 15 min;15 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_20;Renforcement Full body Extérieur 20 min;20 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_25;Renforcement Full body Extérieur 25 min;25 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_30;Renforcement Full body Extérieur 30 min;30 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_35;Renforcement Full body Extérieur 35 min;35 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_45;Renforcement Full body Extérieur 45 min;45 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_60;Renforcement Full body Extérieur 60 min;60 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_ext_rieur_75;Renforcement Full body Extérieur 75 min;75 min;renforcement;Avancé;Extérieur;Full body
+renforcement_full_body_avanc_coach_10;Renforcement Full body Coach 10 min;10 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_15;Renforcement Full body Coach 15 min;15 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_20;Renforcement Full body Coach 20 min;20 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_25;Renforcement Full body Coach 25 min;25 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_30;Renforcement Full body Coach 30 min;30 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_35;Renforcement Full body Coach 35 min;35 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_45;Renforcement Full body Coach 45 min;45 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_60;Renforcement Full body Coach 60 min;60 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_avanc_coach_75;Renforcement Full body Coach 75 min;75 min;renforcement;Avancé;Coach;Full body
+renforcement_full_body_expert_solo_10;Renforcement Full body Solo 10 min;10 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_15;Renforcement Full body Solo 15 min;15 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_20;Renforcement Full body Solo 20 min;20 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_25;Renforcement Full body Solo 25 min;25 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_30;Renforcement Full body Solo 30 min;30 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_35;Renforcement Full body Solo 35 min;35 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_45;Renforcement Full body Solo 45 min;45 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_60;Renforcement Full body Solo 60 min;60 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_solo_75;Renforcement Full body Solo 75 min;75 min;renforcement;Expert;Solo;Full body
+renforcement_full_body_expert_groupe_10;Renforcement Full body Groupe 10 min;10 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_15;Renforcement Full body Groupe 15 min;15 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_20;Renforcement Full body Groupe 20 min;20 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_25;Renforcement Full body Groupe 25 min;25 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_30;Renforcement Full body Groupe 30 min;30 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_35;Renforcement Full body Groupe 35 min;35 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_45;Renforcement Full body Groupe 45 min;45 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_60;Renforcement Full body Groupe 60 min;60 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_groupe_75;Renforcement Full body Groupe 75 min;75 min;renforcement;Expert;Groupe;Full body
+renforcement_full_body_expert_ados_10;Renforcement Full body Ados 10 min;10 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_15;Renforcement Full body Ados 15 min;15 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_20;Renforcement Full body Ados 20 min;20 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_25;Renforcement Full body Ados 25 min;25 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_30;Renforcement Full body Ados 30 min;30 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_35;Renforcement Full body Ados 35 min;35 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_45;Renforcement Full body Ados 45 min;45 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_60;Renforcement Full body Ados 60 min;60 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_ados_75;Renforcement Full body Ados 75 min;75 min;renforcement;Expert;Ados;Full body
+renforcement_full_body_expert_maison_10;Renforcement Full body Maison 10 min;10 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_15;Renforcement Full body Maison 15 min;15 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_20;Renforcement Full body Maison 20 min;20 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_25;Renforcement Full body Maison 25 min;25 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_30;Renforcement Full body Maison 30 min;30 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_35;Renforcement Full body Maison 35 min;35 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_45;Renforcement Full body Maison 45 min;45 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_60;Renforcement Full body Maison 60 min;60 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_maison_75;Renforcement Full body Maison 75 min;75 min;renforcement;Expert;Maison;Full body
+renforcement_full_body_expert_salle_10;Renforcement Full body Salle 10 min;10 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_15;Renforcement Full body Salle 15 min;15 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_20;Renforcement Full body Salle 20 min;20 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_25;Renforcement Full body Salle 25 min;25 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_30;Renforcement Full body Salle 30 min;30 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_35;Renforcement Full body Salle 35 min;35 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_45;Renforcement Full body Salle 45 min;45 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_60;Renforcement Full body Salle 60 min;60 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_salle_75;Renforcement Full body Salle 75 min;75 min;renforcement;Expert;Salle;Full body
+renforcement_full_body_expert_ext_rieur_10;Renforcement Full body Extérieur 10 min;10 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_15;Renforcement Full body Extérieur 15 min;15 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_20;Renforcement Full body Extérieur 20 min;20 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_25;Renforcement Full body Extérieur 25 min;25 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_30;Renforcement Full body Extérieur 30 min;30 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_35;Renforcement Full body Extérieur 35 min;35 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_45;Renforcement Full body Extérieur 45 min;45 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_60;Renforcement Full body Extérieur 60 min;60 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_ext_rieur_75;Renforcement Full body Extérieur 75 min;75 min;renforcement;Expert;Extérieur;Full body
+renforcement_full_body_expert_coach_10;Renforcement Full body Coach 10 min;10 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_15;Renforcement Full body Coach 15 min;15 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_20;Renforcement Full body Coach 20 min;20 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_25;Renforcement Full body Coach 25 min;25 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_30;Renforcement Full body Coach 30 min;30 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_35;Renforcement Full body Coach 35 min;35 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_45;Renforcement Full body Coach 45 min;45 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_60;Renforcement Full body Coach 60 min;60 min;renforcement;Expert;Coach;Full body
+renforcement_full_body_expert_coach_75;Renforcement Full body Coach 75 min;75 min;renforcement;Expert;Coach;Full body
+renforcement_haut_du_corps_d_butant_solo_10;Renforcement Haut du corps Solo 10 min;10 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_15;Renforcement Haut du corps Solo 15 min;15 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_20;Renforcement Haut du corps Solo 20 min;20 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_25;Renforcement Haut du corps Solo 25 min;25 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_30;Renforcement Haut du corps Solo 30 min;30 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_35;Renforcement Haut du corps Solo 35 min;35 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_45;Renforcement Haut du corps Solo 45 min;45 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_60;Renforcement Haut du corps Solo 60 min;60 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_solo_75;Renforcement Haut du corps Solo 75 min;75 min;renforcement;Débutant;Solo;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_10;Renforcement Haut du corps Groupe 10 min;10 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_15;Renforcement Haut du corps Groupe 15 min;15 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_20;Renforcement Haut du corps Groupe 20 min;20 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_25;Renforcement Haut du corps Groupe 25 min;25 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_30;Renforcement Haut du corps Groupe 30 min;30 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_35;Renforcement Haut du corps Groupe 35 min;35 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_45;Renforcement Haut du corps Groupe 45 min;45 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_60;Renforcement Haut du corps Groupe 60 min;60 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_groupe_75;Renforcement Haut du corps Groupe 75 min;75 min;renforcement;Débutant;Groupe;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_10;Renforcement Haut du corps Ados 10 min;10 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_15;Renforcement Haut du corps Ados 15 min;15 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_20;Renforcement Haut du corps Ados 20 min;20 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_25;Renforcement Haut du corps Ados 25 min;25 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_30;Renforcement Haut du corps Ados 30 min;30 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_35;Renforcement Haut du corps Ados 35 min;35 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_45;Renforcement Haut du corps Ados 45 min;45 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_60;Renforcement Haut du corps Ados 60 min;60 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_ados_75;Renforcement Haut du corps Ados 75 min;75 min;renforcement;Débutant;Ados;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_10;Renforcement Haut du corps Maison 10 min;10 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_15;Renforcement Haut du corps Maison 15 min;15 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_20;Renforcement Haut du corps Maison 20 min;20 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_25;Renforcement Haut du corps Maison 25 min;25 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_30;Renforcement Haut du corps Maison 30 min;30 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_35;Renforcement Haut du corps Maison 35 min;35 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_45;Renforcement Haut du corps Maison 45 min;45 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_60;Renforcement Haut du corps Maison 60 min;60 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_maison_75;Renforcement Haut du corps Maison 75 min;75 min;renforcement;Débutant;Maison;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_10;Renforcement Haut du corps Salle 10 min;10 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_15;Renforcement Haut du corps Salle 15 min;15 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_20;Renforcement Haut du corps Salle 20 min;20 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_25;Renforcement Haut du corps Salle 25 min;25 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_30;Renforcement Haut du corps Salle 30 min;30 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_35;Renforcement Haut du corps Salle 35 min;35 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_45;Renforcement Haut du corps Salle 45 min;45 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_60;Renforcement Haut du corps Salle 60 min;60 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_salle_75;Renforcement Haut du corps Salle 75 min;75 min;renforcement;Débutant;Salle;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_10;Renforcement Haut du corps Extérieur 10 min;10 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_15;Renforcement Haut du corps Extérieur 15 min;15 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_20;Renforcement Haut du corps Extérieur 20 min;20 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_25;Renforcement Haut du corps Extérieur 25 min;25 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_30;Renforcement Haut du corps Extérieur 30 min;30 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_35;Renforcement Haut du corps Extérieur 35 min;35 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_45;Renforcement Haut du corps Extérieur 45 min;45 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_60;Renforcement Haut du corps Extérieur 60 min;60 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_ext_rieur_75;Renforcement Haut du corps Extérieur 75 min;75 min;renforcement;Débutant;Extérieur;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_10;Renforcement Haut du corps Coach 10 min;10 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_15;Renforcement Haut du corps Coach 15 min;15 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_20;Renforcement Haut du corps Coach 20 min;20 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_25;Renforcement Haut du corps Coach 25 min;25 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_30;Renforcement Haut du corps Coach 30 min;30 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_35;Renforcement Haut du corps Coach 35 min;35 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_45;Renforcement Haut du corps Coach 45 min;45 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_60;Renforcement Haut du corps Coach 60 min;60 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_d_butant_coach_75;Renforcement Haut du corps Coach 75 min;75 min;renforcement;Débutant;Coach;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_10;Renforcement Haut du corps Solo 10 min;10 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_15;Renforcement Haut du corps Solo 15 min;15 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_20;Renforcement Haut du corps Solo 20 min;20 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_25;Renforcement Haut du corps Solo 25 min;25 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_30;Renforcement Haut du corps Solo 30 min;30 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_35;Renforcement Haut du corps Solo 35 min;35 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_45;Renforcement Haut du corps Solo 45 min;45 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_60;Renforcement Haut du corps Solo 60 min;60 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_solo_75;Renforcement Haut du corps Solo 75 min;75 min;renforcement;Intermédiaire;Solo;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_10;Renforcement Haut du corps Groupe 10 min;10 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_15;Renforcement Haut du corps Groupe 15 min;15 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_20;Renforcement Haut du corps Groupe 20 min;20 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_25;Renforcement Haut du corps Groupe 25 min;25 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_30;Renforcement Haut du corps Groupe 30 min;30 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_35;Renforcement Haut du corps Groupe 35 min;35 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_45;Renforcement Haut du corps Groupe 45 min;45 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_60;Renforcement Haut du corps Groupe 60 min;60 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_groupe_75;Renforcement Haut du corps Groupe 75 min;75 min;renforcement;Intermédiaire;Groupe;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_10;Renforcement Haut du corps Ados 10 min;10 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_15;Renforcement Haut du corps Ados 15 min;15 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_20;Renforcement Haut du corps Ados 20 min;20 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_25;Renforcement Haut du corps Ados 25 min;25 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_30;Renforcement Haut du corps Ados 30 min;30 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_35;Renforcement Haut du corps Ados 35 min;35 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_45;Renforcement Haut du corps Ados 45 min;45 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_60;Renforcement Haut du corps Ados 60 min;60 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_ados_75;Renforcement Haut du corps Ados 75 min;75 min;renforcement;Intermédiaire;Ados;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_10;Renforcement Haut du corps Maison 10 min;10 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_15;Renforcement Haut du corps Maison 15 min;15 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_20;Renforcement Haut du corps Maison 20 min;20 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_25;Renforcement Haut du corps Maison 25 min;25 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_30;Renforcement Haut du corps Maison 30 min;30 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_35;Renforcement Haut du corps Maison 35 min;35 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_45;Renforcement Haut du corps Maison 45 min;45 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_60;Renforcement Haut du corps Maison 60 min;60 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_maison_75;Renforcement Haut du corps Maison 75 min;75 min;renforcement;Intermédiaire;Maison;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_10;Renforcement Haut du corps Salle 10 min;10 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_15;Renforcement Haut du corps Salle 15 min;15 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_20;Renforcement Haut du corps Salle 20 min;20 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_25;Renforcement Haut du corps Salle 25 min;25 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_30;Renforcement Haut du corps Salle 30 min;30 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_35;Renforcement Haut du corps Salle 35 min;35 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_45;Renforcement Haut du corps Salle 45 min;45 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_60;Renforcement Haut du corps Salle 60 min;60 min;renforcement;Intermédiaire;Salle;Haut du corps
+renforcement_haut_du_corps_interm_diaire_salle_75;Renforcement Haut du corps Salle 75 min;75 min;renforcement;Intermédiaire;Salle;Haut du corps
