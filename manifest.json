@@ -1,12 +1,12 @@
 {
   "name": "FAFATRAINING Coaching",
   "short_name": "FAFATRAINING",
-  "start_url": "./index.html",
+  "start_url": "./index.html?v=59",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#030503",
-  "theme_color": "#030503",
+  "background_color": "#050505",
+  "theme_color": "#b6ff20",
   "description": "Application coaching FAFATRAINING installable.",
   "icons": [
     {

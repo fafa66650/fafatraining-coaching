@@ -1,5 +1,5 @@
 {
-  "app_name": "FAFATRAINING Coaching",
+  "app_name": "FAFATRAINING",
   "home": {
     "headline": "Terrain hardcore. Coach intelligent.",
     "subtitle": "Bibliothèque massive, cycles réels, suivi complet, export propre."
@@ -10,5 +10,13 @@
     "avatar_placeholder": "assets/placeholders/avatar-placeholder.svg",
     "exercise_placeholder": "assets/placeholders/exercise-placeholder.svg",
     "menu_placeholder": "assets/placeholders/menu-placeholder.svg"
+  },
+  "version": "V59 STABLE CLEAN BASE",
+  "baseline": "V58 + exercices V57 + programmes premium",
+  "install_rule": "Ne pas mélanger. Supprimer ancien contenu GitHub puis uploader cette version complète.",
+  "image_paths": {
+    "avatars": "assets/avatars/<style>/avatar.jpg",
+    "menus": "assets/menus/menu_XX/cover.jpg",
+    "exercises": "assets/exercises/<key>/image.jpg"
   }
 }

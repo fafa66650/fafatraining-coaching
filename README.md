@@ -1,31 +1,23 @@
-# FAFATRAINING — V58 PROGRAMMES PREMIUM INTÉGRÉE
+# FAFATRAINING COACHING — V59 STABLE CLEAN BASE
 
-Base : FAFATRAINING_V57_EXERCICES_PRO_MIX.zip
+## Version à installer
+Installe uniquement cette version complète.
 
-## Ajouts V58
-- Programmes premium intégrés dans l’app.
-- 8 cycles coach construits.
-- 763 séances/programmes.
-- Chaque séance premium a une vraie structure :
-  - activation
-  - bloc principal
-  - core / contrôle
-  - finisher
-- Export menu utilise maintenant les vrais blocs de séance.
-- App.js corrigé pour lancer les programmes structurés.
+Base utilisée : FAFATRAINING_V58_PROGRAMMES_PREMIUM_INTEGREE.zip
 
-## Cycles premium
-- Athlète complet — 8 semaines
-- Force & musculation — 8 semaines
-- Perte de poids HIIT — 8 semaines
-- Boxe cardio conditioning — 6 semaines
-- Hyrox terrain — 10 semaines
-- Mobilité posture — 6 semaines
-- Maison sans matériel — 6 semaines
-- Terrain hardcore — 6 semaines
+## Règle
+Ne mélange pas avec V56/V57/V58.
 
-## Images à ajouter
-Toujours les mêmes chemins :
-- avatars : assets/avatars/<style>/avatar.jpg
-- menus : assets/menus/<menu_id>/cover.jpg
-- exercices : assets/exercises/<exercise_key>/image.jpg
+## Installation GitHub
+1. Supprime l'ancien contenu du repo.
+2. Upload tout le contenu de cette V59.
+3. Attends GitHub Pages.
+4. Ouvre avec ?v=59 à la fin.
+
+## Dossiers images prêts
+- Avatars : assets/avatars/<style>/avatar.jpg
+- Menus : assets/menus/menu_XX/cover.jpg
+- Exercices : assets/exercises/<key>/image.jpg
+
+Programmes : 763
+Exercices : 1500
