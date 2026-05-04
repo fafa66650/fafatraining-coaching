@@ -1,5 +1,6 @@
-# FAFATRAINING V60 CORE ENGINE PRO
+# FAFATRAINING V60.1 LIBRARY EXPORT PRO
 
-- 30 exercices uniques adaptatifs
-- moteur coach niveau/matériel/blessure/fatigue
-- export image SVG + PDF
+- 59 exercices uniques adaptatifs
+- Moteur V60 conservé
+- Export image SVG + PDF conservé
+- Bibliothèque plus complète

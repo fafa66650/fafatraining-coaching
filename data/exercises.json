@@ -23,13 +23,13 @@
       "poignet"
     ],
     "levels": {
-      "debutant": "pompes au mur ou sur genoux",
+      "debutant": "pompes mur ou genoux",
       "intermediaire": "pompes classiques",
-      "avance": "pompes tempo 3 secondes",
-      "expert": "pompes lestées, explosives ou déclinées"
+      "avance": "pompes tempo",
+      "expert": "pompes lestées / explosives"
     },
-    "tips": "Corps gainé, mains sous épaules, descente contrôlée.",
-    "mistake": "Dos creusé, coudes trop ouverts."
+    "tips": "Corps gainé, mains sous épaules.",
+    "mistake": "Dos creusé."
   },
   {
     "id": "developpe_couche",
@@ -48,6 +48,36 @@
     ],
     "objectives": [
       "force",
+      "musculation"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "chest press léger",
+      "intermediaire": "développé contrôlé",
+      "avance": "pause en bas",
+      "expert": "lourd / cluster"
+    },
+    "tips": "Omoplates serrées, barre contrôlée.",
+    "mistake": "Rebondir sur la poitrine."
+  },
+  {
+    "id": "developpe_incline",
+    "key": "developpe_incline",
+    "name": "Développé incliné",
+    "group": "haut_du_corps",
+    "type": "push",
+    "muscles": [
+      "haut pectoraux",
+      "épaules"
+    ],
+    "equipment": [
+      "barre",
+      "haltères",
+      "banc"
+    ],
+    "objectives": [
       "musculation",
       "hypertrophie"
     ],
@@ -55,31 +85,30 @@
       "épaule"
     ],
     "levels": {
-      "debutant": "chest press machine ou haltères légers",
-      "intermediaire": "développé couché contrôlé",
-      "avance": "pause en bas ou tempo",
-      "expert": "lourd, cluster ou explosif"
+      "debutant": "pompes inclinées",
+      "intermediaire": "haltères légers",
+      "avance": "tempo incliné",
+      "expert": "lourd contrôlé"
     },
-    "tips": "Omoplates serrées, pieds ancrés, barre contrôlée.",
-    "mistake": "Rebondir sur la poitrine."
+    "tips": "Angle modéré, épaules basses.",
+    "mistake": "Trop cambrer."
   },
   {
-    "id": "tractions",
-    "key": "tractions",
-    "name": "Tractions",
+    "id": "dips",
+    "key": "dips",
+    "name": "Dips",
     "group": "haut_du_corps",
-    "type": "pull",
+    "type": "push",
     "muscles": [
-      "dos",
-      "biceps"
+      "triceps",
+      "pectoraux"
     ],
     "equipment": [
-      "barre traction",
-      "élastique"
+      "barres parallèles",
+      "banc"
     ],
     "objectives": [
       "force",
-      "dos",
       "street"
     ],
     "contraindications": [
@@ -87,46 +116,13 @@
       "coude"
     ],
     "levels": {
-      "debutant": "tractions assistées élastique",
-      "intermediaire": "tractions strictes",
-      "avance": "tempo ou pause en haut",
-      "expert": "tractions lestées"
+      "debutant": "dips banc partiels",
+      "intermediaire": "dips poids du corps",
+      "avance": "tempo complet",
+      "expert": "dips lestés"
     },
-    "tips": "Tire la poitrine vers la barre, épaules basses.",
-    "mistake": "Se balancer."
-  },
-  {
-    "id": "rowing",
-    "key": "rowing",
-    "name": "Rowing",
-    "group": "haut_du_corps",
-    "type": "pull",
-    "muscles": [
-      "dos",
-      "biceps",
-      "trapèzes"
-    ],
-    "equipment": [
-      "barre",
-      "haltères",
-      "poulie"
-    ],
-    "objectives": [
-      "dos",
-      "force",
-      "posture"
-    ],
-    "contraindications": [
-      "lombaires"
-    ],
-    "levels": {
-      "debutant": "rowing élastique",
-      "intermediaire": "rowing haltère",
-      "avance": "rowing barre tempo",
-      "expert": "rowing lourd strict"
-    },
-    "tips": "Dos neutre, coude vers hanche.",
-    "mistake": "Dos rond."
+    "tips": "Descente contrôlée, épaules basses.",
+    "mistake": "Descendre trop bas."
   },
   {
     "id": "developpe_militaire",
@@ -152,13 +148,13 @@
       "lombaires"
     ],
     "levels": {
-      "debutant": "shoulder press assis léger",
-      "intermediaire": "développé haltères",
-      "avance": "barre debout stricte",
-      "expert": "push press ou lourd"
+      "debutant": "press assis léger",
+      "intermediaire": "press haltères",
+      "avance": "barre stricte",
+      "expert": "push press lourd"
     },
-    "tips": "Ventre serré, trajectoire verticale.",
-    "mistake": "Cambrer fort."
+    "tips": "Gainage fort, trajectoire verticale.",
+    "mistake": "Cambrer."
   },
   {
     "id": "elevations_laterales",
@@ -185,10 +181,223 @@
       "debutant": "élastique léger",
       "intermediaire": "haltères contrôlés",
       "avance": "tempo lent",
-      "expert": "drop set ou poulie"
+      "expert": "drop set strict"
     },
-    "tips": "Montée contrôlée, épaules basses.",
+    "tips": "Monte contrôlé, épaules basses.",
     "mistake": "Balancer le buste."
+  },
+  {
+    "id": "pompes_piquees",
+    "key": "pompes_piquees",
+    "name": "Pompes piquées",
+    "group": "haut_du_corps",
+    "type": "push",
+    "muscles": [
+      "épaules",
+      "triceps"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "épaules",
+      "force"
+    ],
+    "contraindications": [
+      "épaule",
+      "poignet"
+    ],
+    "levels": {
+      "debutant": "pike incliné",
+      "intermediaire": "pike classique",
+      "avance": "tempo",
+      "expert": "handstand push-up progression"
+    },
+    "tips": "Hanches hautes, tête contrôlée.",
+    "mistake": "Écraser la nuque."
+  },
+  {
+    "id": "extension_triceps",
+    "key": "extension_triceps",
+    "name": "Extension triceps",
+    "group": "haut_du_corps",
+    "type": "push",
+    "muscles": [
+      "triceps"
+    ],
+    "equipment": [
+      "poulie",
+      "élastique",
+      "haltères"
+    ],
+    "objectives": [
+      "bras",
+      "hypertrophie"
+    ],
+    "contraindications": [
+      "coude"
+    ],
+    "levels": {
+      "debutant": "élastique",
+      "intermediaire": "corde poulie",
+      "avance": "unilatéral tempo",
+      "expert": "superset lourd"
+    },
+    "tips": "Coudes fixes, extension complète.",
+    "mistake": "Bouger les coudes."
+  },
+  {
+    "id": "tractions",
+    "key": "tractions",
+    "name": "Tractions",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "barre traction",
+      "élastique"
+    ],
+    "objectives": [
+      "force",
+      "dos"
+    ],
+    "contraindications": [
+      "épaule",
+      "coude"
+    ],
+    "levels": {
+      "debutant": "tractions assistées",
+      "intermediaire": "tractions strictes",
+      "avance": "tempo / pause",
+      "expert": "tractions lestées"
+    },
+    "tips": "Épaules basses, poitrine vers barre.",
+    "mistake": "Se balancer."
+  },
+  {
+    "id": "tirage_vertical",
+    "key": "tirage_vertical",
+    "name": "Tirage vertical",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "objectives": [
+      "dos",
+      "musculation"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "élastique assis",
+      "intermediaire": "poulie contrôlée",
+      "avance": "tempo",
+      "expert": "lourd avec pause"
+    },
+    "tips": "Tire vers haut poitrine.",
+    "mistake": "Tirer derrière nuque."
+  },
+  {
+    "id": "rowing",
+    "key": "rowing",
+    "name": "Rowing",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "dos",
+      "biceps",
+      "trapèzes"
+    ],
+    "equipment": [
+      "barre",
+      "haltères",
+      "poulie"
+    ],
+    "objectives": [
+      "dos",
+      "force"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "rowing élastique",
+      "intermediaire": "rowing haltère",
+      "avance": "barre tempo",
+      "expert": "rowing lourd strict"
+    },
+    "tips": "Dos neutre, coude vers hanche.",
+    "mistake": "Dos rond."
+  },
+  {
+    "id": "rowing_inverse",
+    "key": "rowing_inverse",
+    "name": "Rowing inversé",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "barre basse",
+      "anneaux"
+    ],
+    "objectives": [
+      "dos",
+      "street"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "angle facile",
+      "intermediaire": "strict",
+      "avance": "pieds surélevés",
+      "expert": "lesté"
+    },
+    "tips": "Corps gainé, poitrine vers barre.",
+    "mistake": "Bassin qui tombe."
+  },
+  {
+    "id": "face_pull",
+    "key": "face_pull",
+    "name": "Face pull",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "arrière épaules",
+      "trapèzes"
+    ],
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "objectives": [
+      "posture",
+      "prévention"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "élastique léger",
+      "intermediaire": "corde poulie",
+      "avance": "pause contraction",
+      "expert": "superset posture"
+    },
+    "tips": "Tire vers le visage.",
+    "mistake": "Tirer trop bas."
   },
   {
     "id": "curl_biceps",
@@ -215,11 +424,41 @@
     "levels": {
       "debutant": "curl élastique",
       "intermediaire": "curl haltères",
-      "avance": "curl incliné tempo",
+      "avance": "incliné tempo",
       "expert": "curl strict lourd"
     },
     "tips": "Coudes fixes, descente lente.",
     "mistake": "Balancer le dos."
+  },
+  {
+    "id": "pull_over",
+    "key": "pull_over",
+    "name": "Pull-over",
+    "group": "haut_du_corps",
+    "type": "pull",
+    "muscles": [
+      "dos",
+      "pectoraux"
+    ],
+    "equipment": [
+      "haltère",
+      "poulie"
+    ],
+    "objectives": [
+      "dos",
+      "mobilité épaules"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "élastique",
+      "intermediaire": "haltère léger",
+      "avance": "poulie tempo",
+      "expert": "amplitude stricte"
+    },
+    "tips": "Bras semi-fléchis, cage stable.",
+    "mistake": "Cambrer."
   },
   {
     "id": "squat",
@@ -239,18 +478,17 @@
     ],
     "objectives": [
       "force",
-      "jambes",
-      "musculation"
+      "jambes"
     ],
     "contraindications": [
       "genou",
       "lombaires"
     ],
     "levels": {
-      "debutant": "squat à la chaise",
-      "intermediaire": "squat poids du corps ou goblet",
+      "debutant": "squat chaise",
+      "intermediaire": "goblet squat",
       "avance": "back squat tempo",
-      "expert": "front/back squat lourd ou pause"
+      "expert": "front/back squat lourd"
     },
     "tips": "Pieds stables, genoux alignés.",
     "mistake": "Genoux qui rentrent."
@@ -263,8 +501,7 @@
     "type": "legs",
     "muscles": [
       "quadriceps",
-      "fessiers",
-      "équilibre"
+      "fessiers"
     ],
     "equipment": [
       "poids du corps",
@@ -278,13 +515,73 @@
       "genou"
     ],
     "levels": {
-      "debutant": "fente statique assistée",
+      "debutant": "fente assistée",
       "intermediaire": "fentes arrière",
-      "avance": "fentes marchées haltères",
+      "avance": "fentes marchées",
       "expert": "fentes bulgares lestées"
     },
-    "tips": "Grandis-toi, genou stable.",
+    "tips": "Genou stable, buste haut.",
     "mistake": "Pas trop court."
+  },
+  {
+    "id": "split_squat",
+    "key": "split_squat",
+    "name": "Split squat",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps",
+      "haltères"
+    ],
+    "objectives": [
+      "unilatéral",
+      "force"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "assisté",
+      "intermediaire": "standard",
+      "avance": "haltères",
+      "expert": "tempo lourd"
+    },
+    "tips": "Descente verticale.",
+    "mistake": "Genou instable."
+  },
+  {
+    "id": "step_up",
+    "key": "step_up",
+    "name": "Step-up",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "box",
+      "haltères"
+    ],
+    "objectives": [
+      "jambes",
+      "unilatéral"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "step bas",
+      "intermediaire": "step standard",
+      "avance": "haltères",
+      "expert": "haut + charge"
+    },
+    "tips": "Pousse par le talon.",
+    "mistake": "Pousser avec la jambe arrière."
   },
   {
     "id": "souleve_de_terre",
@@ -310,10 +607,10 @@
       "lombaires"
     ],
     "levels": {
-      "debutant": "kettlebell deadlift léger",
+      "debutant": "kettlebell léger",
       "intermediaire": "RDL haltères",
-      "avance": "deadlift barre technique",
-      "expert": "deadlift lourd ou tempo"
+      "avance": "deadlift technique",
+      "expert": "deadlift lourd"
     },
     "tips": "Dos neutre, barre proche.",
     "mistake": "Dos rond."
@@ -341,13 +638,129 @@
       "lombaires"
     ],
     "levels": {
-      "debutant": "glute bridge au sol",
+      "debutant": "glute bridge",
       "intermediaire": "hip thrust élastique",
       "avance": "barre tempo",
-      "expert": "hip thrust lourd pause"
+      "expert": "lourd pause"
     },
     "tips": "Bassin rétroversé en haut.",
     "mistake": "Hypercambrer."
+  },
+  {
+    "id": "leg_extension",
+    "key": "leg_extension",
+    "name": "Leg extension",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "quadriceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "objectives": [
+      "quadriceps",
+      "hypertrophie"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "lourd contrôlé"
+    },
+    "tips": "Monte sans verrouiller brutalement.",
+    "mistake": "Élan."
+  },
+  {
+    "id": "leg_curl",
+    "key": "leg_curl",
+    "name": "Leg curl",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "ischios"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "objectives": [
+      "ischios",
+      "hypertrophie"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "pause lourde"
+    },
+    "tips": "Contrôle le retour.",
+    "mistake": "Hanches qui décollent."
+  },
+  {
+    "id": "good_morning",
+    "key": "good_morning",
+    "name": "Good morning",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "ischios",
+      "fessiers",
+      "dos"
+    ],
+    "equipment": [
+      "barre",
+      "élastique"
+    ],
+    "objectives": [
+      "chaîne postérieure"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "élastique",
+      "intermediaire": "léger",
+      "avance": "tempo",
+      "expert": "strict lourd"
+    },
+    "tips": "Hanches en arrière, dos neutre.",
+    "mistake": "Arrondir le dos."
+  },
+  {
+    "id": "mollets",
+    "key": "mollets",
+    "name": "Mollets",
+    "group": "bas_du_corps",
+    "type": "legs",
+    "muscles": [
+      "mollets"
+    ],
+    "equipment": [
+      "marche",
+      "haltères",
+      "machine"
+    ],
+    "objectives": [
+      "mollets",
+      "prévention"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "deux jambes",
+      "intermediaire": "debout",
+      "avance": "unilatéral tempo",
+      "expert": "charge lourde pause"
+    },
+    "tips": "Monte haut, descends lentement.",
+    "mistake": "Rebondir."
   },
   {
     "id": "box_jump",
@@ -371,13 +784,43 @@
       "cheville"
     ],
     "levels": {
-      "debutant": "step-up contrôlé",
-      "intermediaire": "box jump bas",
-      "avance": "box jump haut",
+      "debutant": "step-up",
+      "intermediaire": "box basse",
+      "avance": "box haute",
       "expert": "enchaînement explosif"
     },
     "tips": "Réception souple.",
     "mistake": "Réception lourde."
+  },
+  {
+    "id": "sled_push",
+    "key": "sled_push",
+    "name": "Sled push",
+    "group": "bas_du_corps",
+    "type": "power",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "sled"
+    ],
+    "objectives": [
+      "hyrox",
+      "puissance"
+    ],
+    "contraindications": [
+      "genou",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "léger court",
+      "intermediaire": "modéré",
+      "avance": "lourd",
+      "expert": "race pace"
+    },
+    "tips": "Buste incliné, pas puissants.",
+    "mistake": "Dos cassé."
   },
   {
     "id": "gainage",
@@ -402,13 +845,42 @@
       "épaule"
     ],
     "levels": {
-      "debutant": "gainage genoux 20 sec",
-      "intermediaire": "gainage 30-45 sec",
-      "avance": "gainage dynamique",
-      "expert": "RKC plank ou lesté"
+      "debutant": "genoux 20 sec",
+      "intermediaire": "classique 30-45 sec",
+      "avance": "dynamique",
+      "expert": "RKC ou lesté"
     },
     "tips": "Corps aligné, ventre serré.",
     "mistake": "Bassin qui tombe."
+  },
+  {
+    "id": "gainage_lateral",
+    "key": "gainage_lateral",
+    "name": "Gainage latéral",
+    "group": "core",
+    "type": "core",
+    "muscles": [
+      "obliques",
+      "gainage"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "core",
+      "stabilité"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "genoux au sol",
+      "intermediaire": "classique",
+      "avance": "rotation",
+      "expert": "étoile ou lesté"
+    },
+    "tips": "Hanche haute, épaule stable.",
+    "mistake": "Hanche qui tombe."
   },
   {
     "id": "dead_bug",
@@ -430,13 +902,72 @@
       "lombaires"
     ],
     "levels": {
-      "debutant": "bras seuls ou jambes seules",
-      "intermediaire": "dead bug complet",
-      "avance": "tempo lent",
-      "expert": "élastique ou charge légère"
+      "debutant": "bras seuls",
+      "intermediaire": "complet",
+      "avance": "tempo",
+      "expert": "élastique"
     },
     "tips": "Lombaires stables.",
     "mistake": "Cambrer."
+  },
+  {
+    "id": "bird_dog",
+    "key": "bird_dog",
+    "name": "Bird dog",
+    "group": "core",
+    "type": "core",
+    "muscles": [
+      "lombaires",
+      "gainage"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "prévention",
+      "posture"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "lent court",
+      "intermediaire": "standard",
+      "avance": "pause longue",
+      "expert": "charge légère"
+    },
+    "tips": "Bassin stable, dos neutre.",
+    "mistake": "Tourner les hanches."
+  },
+  {
+    "id": "releves_de_jambes",
+    "key": "releves_de_jambes",
+    "name": "Relevés de jambes",
+    "group": "core",
+    "type": "core",
+    "muscles": [
+      "abdos",
+      "fléchisseurs"
+    ],
+    "equipment": [
+      "tapis",
+      "barre traction"
+    ],
+    "objectives": [
+      "abdos",
+      "core"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "genoux poitrine",
+      "intermediaire": "au sol",
+      "avance": "suspendu genoux",
+      "expert": "toes to bar"
+    },
+    "tips": "Contrôle la descente.",
+    "mistake": "Dos cambré."
   },
   {
     "id": "pallof_press",
@@ -461,12 +992,71 @@
     ],
     "levels": {
       "debutant": "élastique léger",
-      "intermediaire": "debout standard",
+      "intermediaire": "debout",
       "avance": "demi-genou",
-      "expert": "dynamique ou unilatéral"
+      "expert": "dynamique"
     },
     "tips": "Résiste à la rotation.",
     "mistake": "Tourner avec l’élastique."
+  },
+  {
+    "id": "ab_wheel",
+    "key": "ab_wheel",
+    "name": "Ab wheel",
+    "group": "core",
+    "type": "core",
+    "muscles": [
+      "abdos",
+      "épaules"
+    ],
+    "equipment": [
+      "ab wheel"
+    ],
+    "objectives": [
+      "core",
+      "expert"
+    ],
+    "contraindications": [
+      "lombaires",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "rollout court",
+      "intermediaire": "genoux",
+      "avance": "amplitude longue",
+      "expert": "debout progression"
+    },
+    "tips": "Bassin verrouillé.",
+    "mistake": "Dos creusé."
+  },
+  {
+    "id": "russian_twist",
+    "key": "russian_twist",
+    "name": "Russian twist",
+    "group": "core",
+    "type": "core",
+    "muscles": [
+      "obliques"
+    ],
+    "equipment": [
+      "tapis",
+      "medecine ball"
+    ],
+    "objectives": [
+      "rotation",
+      "abdos"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "sans charge",
+      "intermediaire": "med ball léger",
+      "avance": "tempo",
+      "expert": "charge plus lourde"
+    },
+    "tips": "Tourne le buste, bassin stable.",
+    "mistake": "Bras seuls."
   },
   {
     "id": "burpees",
@@ -483,8 +1073,7 @@
     ],
     "objectives": [
       "hiit",
-      "perte_de_poids",
-      "mental"
+      "perte_de_poids"
     ],
     "contraindications": [
       "poignet",
@@ -493,9 +1082,9 @@
     ],
     "levels": {
       "debutant": "sprawl sans saut",
-      "intermediaire": "burpee classique",
-      "avance": "burpee avec saut haut",
-      "expert": "burpee over object ou lesté"
+      "intermediaire": "classique",
+      "avance": "saut haut",
+      "expert": "over object"
     },
     "tips": "Rythme stable, réception souple.",
     "mistake": "Dos qui s’écroule."
@@ -519,28 +1108,26 @@
       "core"
     ],
     "contraindications": [
-      "poignet",
-      "épaule"
+      "poignet"
     ],
     "levels": {
-      "debutant": "lent et contrôlé",
-      "intermediaire": "rythme modéré",
+      "debutant": "lent",
+      "intermediaire": "modéré",
       "avance": "cross climber",
-      "expert": "sprint climber"
+      "expert": "sprint"
     },
     "tips": "Épaules au-dessus des mains.",
-    "mistake": "Fesses trop hautes."
+    "mistake": "Fesses hautes."
   },
   {
-    "id": "corde_sauter",
-    "key": "corde_sauter",
+    "id": "corde_a_sauter",
+    "key": "corde_a_sauter",
     "name": "Corde à sauter",
     "group": "cardio",
     "type": "cardio",
     "muscles": [
       "cardio",
-      "mollets",
-      "appuis"
+      "mollets"
     ],
     "equipment": [
       "corde"
@@ -550,16 +1137,15 @@
       "boxe"
     ],
     "contraindications": [
-      "cheville",
-      "mollets"
+      "cheville"
     ],
     "levels": {
-      "debutant": "sans corde ou pas alternés",
+      "debutant": "sans corde",
       "intermediaire": "sauts simples",
       "avance": "rythme rapide",
-      "expert": "double unders progression"
+      "expert": "double unders"
     },
-    "tips": "Petits rebonds, poignets actifs.",
+    "tips": "Petits rebonds.",
     "mistake": "Sauter trop haut."
   },
   {
@@ -585,12 +1171,12 @@
     ],
     "levels": {
       "debutant": "technique lente",
-      "intermediaire": "intervalles modérés",
+      "intermediaire": "intervalles",
       "avance": "sprints 250m",
-      "expert": "sprints longs"
+      "expert": "race pace"
     },
     "tips": "Jambes puis buste puis bras.",
-    "mistake": "Tirer les bras trop tôt."
+    "mistake": "Tirer bras trop tôt."
   },
   {
     "id": "kettlebell_swing",
@@ -611,17 +1197,16 @@
       "puissance"
     ],
     "contraindications": [
-      "lombaires",
-      "épaule"
+      "lombaires"
     ],
     "levels": {
-      "debutant": "hip hinge sans charge",
-      "intermediaire": "swing russe léger",
-      "avance": "swing lourd contrôlé",
-      "expert": "swing explosif"
+      "debutant": "hinge sans charge",
+      "intermediaire": "swing russe",
+      "avance": "lourd contrôlé",
+      "expert": "explosif"
     },
     "tips": "Charnière de hanches.",
-    "mistake": "Squatter le swing."
+    "mistake": "Squatter."
   },
   {
     "id": "thruster",
@@ -639,22 +1224,140 @@
       "barre"
     ],
     "objectives": [
-      "cross_training",
-      "for_time"
+      "cross_training"
     ],
     "contraindications": [
       "épaule",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "squat to press",
+      "intermediaire": "haltères",
+      "avance": "barre tempo",
+      "expert": "for time"
+    },
+    "tips": "Squat puis poussée fluide.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "wall_ball",
+    "key": "wall_ball",
+    "name": "Wall ball",
+    "group": "cardio",
+    "type": "cardio",
+    "muscles": [
+      "jambes",
+      "épaules",
+      "cardio"
+    ],
+    "equipment": [
+      "wall ball"
+    ],
+    "objectives": [
+      "hyrox",
+      "cross_training"
+    ],
+    "contraindications": [
       "genou",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "med ball squat",
+      "intermediaire": "cible basse",
+      "avance": "cible haute",
+      "expert": "volume race pace"
+    },
+    "tips": "Lance avec les jambes.",
+    "mistake": "Bras seuls."
+  },
+  {
+    "id": "farmer_walk",
+    "key": "farmer_walk",
+    "name": "Farmer walk",
+    "group": "cardio",
+    "type": "carry",
+    "muscles": [
+      "grip",
+      "gainage",
+      "posture"
+    ],
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "objectives": [
+      "hyrox",
+      "force"
+    ],
+    "contraindications": [
       "lombaires"
     ],
     "levels": {
-      "debutant": "squat to press léger",
-      "intermediaire": "haltères contrôlés",
-      "avance": "barre tempo",
-      "expert": "for time intensif"
+      "debutant": "charges légères",
+      "intermediaire": "marche contrôlée",
+      "avance": "charges lourdes",
+      "expert": "distance longue"
     },
-    "tips": "Squat puis poussée fluide.",
-    "mistake": "Cambrer en haut."
+    "tips": "Épaules basses, marche droite.",
+    "mistake": "Se pencher."
+  },
+  {
+    "id": "battle_rope",
+    "key": "battle_rope",
+    "name": "Battle rope",
+    "group": "cardio",
+    "type": "cardio",
+    "muscles": [
+      "épaules",
+      "cardio"
+    ],
+    "equipment": [
+      "battle rope"
+    ],
+    "objectives": [
+      "hiit",
+      "terrain"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "vagues courtes",
+      "intermediaire": "alterné",
+      "avance": "double vague",
+      "expert": "intervalles longs"
+    },
+    "tips": "Genoux souples, tronc stable.",
+    "mistake": "Épaules crispées."
+  },
+  {
+    "id": "med_ball_slam",
+    "key": "med_ball_slam",
+    "name": "Med ball slam",
+    "group": "cardio",
+    "type": "power",
+    "muscles": [
+      "full body",
+      "core"
+    ],
+    "equipment": [
+      "medecine ball"
+    ],
+    "objectives": [
+      "puissance",
+      "hiit"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "rythme modéré",
+      "avance": "puissant",
+      "expert": "for time"
+    },
+    "tips": "Claque au sol avec gainage.",
+    "mistake": "Cambrer."
   },
   {
     "id": "shadow_boxing",
@@ -672,14 +1375,13 @@
     ],
     "objectives": [
       "boxe",
-      "cardio",
-      "technique"
+      "cardio"
     ],
     "contraindications": [
       "épaule"
     ],
     "levels": {
-      "debutant": "shadow lent technique",
+      "debutant": "lent technique",
       "intermediaire": "rounds 2 min",
       "avance": "enchaînements + esquives",
       "expert": "rounds haute intensité"
@@ -688,8 +1390,8 @@
     "mistake": "Bras seuls."
   },
   {
-    "id": "directs",
-    "key": "directs",
+    "id": "directs_boxe",
+    "key": "directs_boxe",
     "name": "Directs boxe",
     "group": "boxe",
     "type": "boxe",
@@ -708,28 +1410,26 @@
       "technique"
     ],
     "contraindications": [
-      "poignet",
-      "épaule"
+      "poignet"
     ],
     "levels": {
-      "debutant": "directs dans le vide",
+      "debutant": "dans le vide",
       "intermediaire": "jab-cross au sac",
       "avance": "avec déplacements",
-      "expert": "rounds puissance/vitesse"
+      "expert": "puissance/vitesse"
     },
     "tips": "Tourne hanches, reviens en garde.",
     "mistake": "Frapper bras seuls."
   },
   {
-    "id": "crochets",
-    "key": "crochets",
+    "id": "crochets_boxe",
+    "key": "crochets_boxe",
     "name": "Crochets boxe",
     "group": "boxe",
     "type": "boxe",
     "muscles": [
       "tronc",
-      "épaules",
-      "appuis"
+      "épaules"
     ],
     "equipment": [
       "gants",
@@ -740,21 +1440,51 @@
       "puissance"
     ],
     "contraindications": [
-      "poignet",
-      "épaule"
+      "poignet"
     ],
     "levels": {
-      "debutant": "crochet lent technique",
-      "intermediaire": "crochets au sac",
+      "debutant": "lent technique",
+      "intermediaire": "au sac",
       "avance": "crochet-esquive",
-      "expert": "puissance + volume"
+      "expert": "puissance volume"
     },
-    "tips": "Coude aligné, rotation buste.",
+    "tips": "Coude aligné, rotation.",
     "mistake": "Bras trop ouvert."
   },
   {
-    "id": "esquives",
-    "key": "esquives",
+    "id": "uppercuts",
+    "key": "uppercuts",
+    "name": "Uppercuts",
+    "group": "boxe",
+    "type": "boxe",
+    "muscles": [
+      "jambes",
+      "tronc",
+      "épaules"
+    ],
+    "equipment": [
+      "gants",
+      "sac"
+    ],
+    "objectives": [
+      "boxe",
+      "puissance"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "lents",
+      "intermediaire": "au sac",
+      "avance": "enchaînements",
+      "expert": "round puissance"
+    },
+    "tips": "Pousse avec les jambes.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "esquives_boxe",
+    "key": "esquives_boxe",
     "name": "Esquives boxe",
     "group": "boxe",
     "type": "boxe",
@@ -772,17 +1502,78 @@
       "défense"
     ],
     "contraindications": [
-      "genou",
-      "lombaires"
+      "genou"
     ],
     "levels": {
       "debutant": "slips lents",
       "intermediaire": "bob and weave",
       "avance": "esquive + contre",
-      "expert": "round défense/attaque"
+      "expert": "round défense"
     },
     "tips": "Plie les jambes, garde haute.",
-    "mistake": "Se pencher dos rond."
+    "mistake": "Dos rond."
+  },
+  {
+    "id": "deplacements_boxe",
+    "key": "deplacements_boxe",
+    "name": "Déplacements boxe",
+    "group": "boxe",
+    "type": "boxe",
+    "muscles": [
+      "appuis",
+      "cardio"
+    ],
+    "equipment": [
+      "plots",
+      "échelle",
+      "poids du corps"
+    ],
+    "objectives": [
+      "boxe",
+      "coordination"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "pas chassés",
+      "intermediaire": "garde haute",
+      "avance": "pivots + angles",
+      "expert": "round appuis"
+    },
+    "tips": "Petits pas, équilibre.",
+    "mistake": "Croiser les pieds."
+  },
+  {
+    "id": "pattes_d_ours",
+    "key": "pattes_d_ours",
+    "name": "Pattes d’ours",
+    "group": "boxe",
+    "type": "boxe",
+    "muscles": [
+      "épaules",
+      "tronc",
+      "cardio"
+    ],
+    "equipment": [
+      "pattes d’ours",
+      "gants"
+    ],
+    "objectives": [
+      "boxe",
+      "coordination"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "combos simples",
+      "intermediaire": "1-2-3",
+      "avance": "défense incluse",
+      "expert": "round intensif"
+    },
+    "tips": "Précision, garde.",
+    "mistake": "Frapper sans appuis."
   },
   {
     "id": "world_stretch",
@@ -806,17 +1597,17 @@
       "hanches"
     ],
     "levels": {
-      "debutant": "fente courte mains au sol",
+      "debutant": "fente courte",
       "intermediaire": "rotation thoracique",
       "avance": "transition fluide",
-      "expert": "flow complet dynamique"
+      "expert": "flow complet"
     },
     "tips": "Grande fente, respiration.",
-    "mistake": "Forcer l’amplitude."
+    "mistake": "Forcer."
   },
   {
-    "id": "mobilite_hanches_90_90",
-    "key": "mobilite_hanches_90_90",
+    "id": "90_90_hanches",
+    "key": "90_90_hanches",
     "name": "90/90 hanches",
     "group": "mobilite",
     "type": "mobility",
@@ -832,17 +1623,16 @@
       "prévention"
     ],
     "contraindications": [
-      "genou",
-      "hanches"
+      "genou"
     ],
     "levels": {
-      "debutant": "mains au sol assisté",
+      "debutant": "mains au sol",
       "intermediaire": "buste droit",
-      "avance": "transitions 90/90",
-      "expert": "flow hanches sans mains"
+      "avance": "transitions",
+      "expert": "flow sans mains"
     },
-    "tips": "Buste haut, respiration lente.",
-    "mistake": "Forcer le genou."
+    "tips": "Buste haut, respiration.",
+    "mistake": "Forcer genou."
   },
   {
     "id": "cat_cow",
@@ -870,7 +1660,7 @@
       "avance": "respiration synchronisée",
       "expert": "flow colonne"
     },
-    "tips": "Dos rond puis creux lentement.",
+    "tips": "Dos rond puis creux.",
     "mistake": "Aller vite."
   },
   {
@@ -895,13 +1685,72 @@
       "épaule"
     ],
     "levels": {
-      "debutant": "bâton prise large",
-      "intermediaire": "élastique léger",
+      "debutant": "bâton large",
+      "intermediaire": "élastique",
       "avance": "amplitude contrôlée",
-      "expert": "flow épaules complet"
+      "expert": "flow complet"
     },
-    "tips": "Côtes basses, amplitude progressive.",
+    "tips": "Côtes basses.",
     "mistake": "Cambrer."
+  },
+  {
+    "id": "mobilite_chevilles",
+    "key": "mobilite_chevilles",
+    "name": "Mobilité chevilles",
+    "group": "mobilite",
+    "type": "mobility",
+    "muscles": [
+      "chevilles",
+      "mollets"
+    ],
+    "equipment": [
+      "mur",
+      "tapis"
+    ],
+    "objectives": [
+      "mobilité",
+      "prévention"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "genou vers mur",
+      "intermediaire": "pulsations",
+      "avance": "charge légère",
+      "expert": "dynamique"
+    },
+    "tips": "Talon au sol.",
+    "mistake": "Décoller talon."
+  },
+  {
+    "id": "pigeon_stretch",
+    "key": "pigeon_stretch",
+    "name": "Pigeon stretch",
+    "group": "mobilite",
+    "type": "mobility",
+    "muscles": [
+      "hanches",
+      "fessiers"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "mobilité",
+      "recovery"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "support",
+      "intermediaire": "standard",
+      "avance": "respiration longue",
+      "expert": "flow"
+    },
+    "tips": "Respire et relâche.",
+    "mistake": "Forcer genou."
   },
   {
     "id": "respiration_recovery",
@@ -911,25 +1760,23 @@
     "type": "recovery",
     "muscles": [
       "respiration",
-      "core",
-      "stress"
+      "core"
     ],
     "equipment": [
       "tapis"
     ],
     "objectives": [
       "recovery",
-      "stress",
-      "mobilité"
+      "stress"
     ],
     "contraindications": [],
     "levels": {
-      "debutant": "respiration allongée 2 min",
+      "debutant": "allongée 2 min",
       "intermediaire": "4-6 respirations",
       "avance": "box breathing",
-      "expert": "récupération guidée complète"
+      "expert": "récupération complète"
     },
-    "tips": "Inspire lent, expire plus long.",
+    "tips": "Expire plus long.",
     "mistake": "Respiration haute."
   }
 ]
