@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/for_time/avatar.jpg
+Mettre ici : assets/avatars/for_time/avatar.jpg
+Type : For Time

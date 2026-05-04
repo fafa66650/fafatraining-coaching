@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/prepa_physique/avatar.jpg
+Mettre ici : assets/avatars/prepa_physique/avatar.jpg
+Type : Prépa physique

@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/emom/avatar.jpg
+Mettre ici : assets/avatars/emom/avatar.jpg
+Type : EMOM

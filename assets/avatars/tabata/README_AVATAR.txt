@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/tabata/avatar.jpg
+Mettre ici : assets/avatars/tabata/avatar.jpg
+Type : Tabata

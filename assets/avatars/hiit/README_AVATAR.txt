@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/hiit/avatar.jpg
+Mettre ici : assets/avatars/hiit/avatar.jpg
+Type : HIIT

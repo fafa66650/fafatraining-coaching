@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/circuit_training/avatar.jpg
+Mettre ici : assets/avatars/circuit_training/avatar.jpg
+Type : Circuit Training

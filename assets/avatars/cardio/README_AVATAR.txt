@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/cardio/avatar.jpg
+Mettre ici : assets/avatars/cardio/avatar.jpg
+Type : Cardio

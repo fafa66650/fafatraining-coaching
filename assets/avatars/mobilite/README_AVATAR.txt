@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/mobilite/avatar.jpg
+Mettre ici : assets/avatars/mobilite/avatar.jpg
+Type : Mobilité

@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/musculation/avatar.jpg
+Mettre ici : assets/avatars/musculation/avatar.jpg
+Type : Musculation

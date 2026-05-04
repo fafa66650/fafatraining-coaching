@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/cross_training/avatar.jpg
+Mettre ici : assets/avatars/cross_training/avatar.jpg
+Type : Cross Training

@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/renforcement/avatar.jpg
+Mettre ici : assets/avatars/renforcement/avatar.jpg
+Type : Renforcement

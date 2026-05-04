@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/hyrox/avatar.jpg
+Mettre ici : assets/avatars/hyrox/avatar.jpg
+Type : Hyrox

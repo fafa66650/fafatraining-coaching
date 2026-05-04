@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/recovery/avatar.jpg
+Mettre ici : assets/avatars/recovery/avatar.jpg
+Type : Récupération

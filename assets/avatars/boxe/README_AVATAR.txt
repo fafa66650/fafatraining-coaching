@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/boxe/avatar.jpg
+Mettre ici : assets/avatars/boxe/avatar.jpg
+Type : Boxe

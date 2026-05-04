@@ -1,1 +1,2 @@
-Avatar attendu : assets/avatars/amrap/avatar.jpg
+Mettre ici : assets/avatars/amrap/avatar.jpg
+Type : AMRAP
