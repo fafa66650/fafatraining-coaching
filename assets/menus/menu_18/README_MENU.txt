@@ -1,0 +1,1 @@
+Image attendue : assets/menus/menu_18/cover.jpg
