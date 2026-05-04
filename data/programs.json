@@ -4,69 +4,69 @@
     "name": "Full Body",
     "goal": "full",
     "icon": "⚡",
-    "description": "Corps complet, équilibré, tout public."
+    "description": "Complet"
   },
   {
     "id": "force",
     "name": "Force",
     "goal": "force",
     "icon": "💪",
-    "description": "Musculation, charges, progression."
+    "description": "Charges"
   },
   {
     "id": "hiit",
     "name": "HIIT",
     "goal": "hiit",
     "icon": "🔥",
-    "description": "Intervalles courts, intensité, cardio."
+    "description": "Intervalles"
   },
   {
     "id": "boxe",
     "name": "Boxe",
     "goal": "boxe",
     "icon": "🥊",
-    "description": "Technique, appuis, cardio, renfo."
+    "description": "Pure/renfo/cardio"
   },
   {
     "id": "cross",
     "name": "Cross",
     "goal": "cross",
     "icon": "🏋️",
-    "description": "AMRAP, EMOM, For Time, terrain."
+    "description": "AMRAP/EMOM"
   },
   {
     "id": "hyrox",
     "name": "Hyrox",
     "goal": "hyrox",
     "icon": "🏁",
-    "description": "Stations, cardio, carries."
+    "description": "Stations"
   },
   {
     "id": "mobilite",
     "name": "Mobilité",
     "goal": "mobilite",
     "icon": "🧘",
-    "description": "Étirements, souplesse, respiration."
+    "description": "Souplesse"
   },
   {
     "id": "renfo",
     "name": "Renfo",
     "goal": "renfo",
     "icon": "🛡️",
-    "description": "Posture, gainage, contrôle."
+    "description": "Contrôle"
   },
   {
     "id": "explosivite",
     "name": "Explosif",
     "goal": "explosivite",
     "icon": "💥",
-    "description": "Vitesse, puissance, appuis."
+    "description": "Appuis"
   },
   {
     "id": "reeducation",
     "name": "Prévention",
     "goal": "reeducation",
     "icon": "🧩",
-    "description": "Activation, posture, récupération."
+    "description": "Récup"
   }
 ]

@@ -3166,5 +3166,517 @@
     },
     "tips": "Posture haute, cadence régulière.",
     "mistake": "S’accrocher trop fort."
+  },
+  {
+    "id": "jab_cross_au_sac",
+    "key": "jab_cross_au_sac",
+    "name": "Jab cross au sac",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "boxe",
+    "muscles": [
+      "épaules",
+      "tronc"
+    ],
+    "equipment": [
+      "sac",
+      "gants"
+    ],
+    "objectives": [
+      "boxe",
+      "cardio"
+    ],
+    "contraindications": [
+      "poignet",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "2 rounds légers",
+      "intermediaire": "3 rounds 2 min",
+      "avance": "4 rounds 3 min",
+      "expert": "6 rounds 3 min / récup 1 min"
+    },
+    "tips": "Jab précis, cross avec rotation de hanche.",
+    "mistake": "Frapper bras seuls."
+  },
+  {
+    "id": "shadow_defense",
+    "key": "shadow_defense",
+    "name": "Shadow défense",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "boxe",
+    "muscles": [
+      "appuis",
+      "tronc"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "boxe",
+      "défense"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "2 min lent",
+      "intermediaire": "3 rounds technique",
+      "avance": "4 rounds avec esquives",
+      "expert": "6 rounds pro"
+    },
+    "tips": "Garde haute, esquive courte.",
+    "mistake": "Baisser les mains."
+  },
+  {
+    "id": "combo_sac_puissance",
+    "key": "combo_sac_puissance",
+    "name": "Combo sac puissance",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "boxe",
+    "muscles": [
+      "épaules",
+      "tronc"
+    ],
+    "equipment": [
+      "sac",
+      "gants"
+    ],
+    "objectives": [
+      "boxe",
+      "puissance"
+    ],
+    "contraindications": [
+      "poignet",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "touches légères",
+      "intermediaire": "3x2 min",
+      "avance": "4x3 min",
+      "expert": "6x3 min récup 1 min"
+    },
+    "tips": "Travaille précision avant puissance.",
+    "mistake": "Forcer sans appuis."
+  },
+  {
+    "id": "footwork_cones",
+    "key": "footwork_cones",
+    "name": "Footwork cônes",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "coordination",
+    "muscles": [
+      "appuis",
+      "mollets"
+    ],
+    "equipment": [
+      "plots",
+      "extérieur"
+    ],
+    "objectives": [
+      "boxe",
+      "coordination"
+    ],
+    "contraindications": [
+      "cheville",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "pas simples",
+      "intermediaire": "déplacements angles",
+      "avance": "pivots rapides",
+      "expert": "rounds réaction"
+    },
+    "tips": "Petits pas, équilibre permanent.",
+    "mistake": "Croiser les pieds."
+  },
+  {
+    "id": "cardio_boxing_combo",
+    "key": "cardio_boxing_combo",
+    "name": "Cardio boxing combo",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "cardio",
+    "muscles": [
+      "cardio",
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps",
+      "sac"
+    ],
+    "objectives": [
+      "cardio_boxing",
+      "boxe"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "1-2 lent",
+      "intermediaire": "enchaînement 30/30",
+      "avance": "rounds 2 min",
+      "expert": "rounds haute intensité"
+    },
+    "tips": "Rythme propre, respiration.",
+    "mistake": "Perdre la technique."
+  },
+  {
+    "id": "pompes_genoux",
+    "key": "pompes_genoux",
+    "name": "Pompes genoux",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "type": "force",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "force",
+      "débutant"
+    ],
+    "contraindications": [
+      "poignet",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "mains sur banc",
+      "intermediaire": "genoux",
+      "avance": "tempo genoux",
+      "expert": "départ vers classiques"
+    },
+    "tips": "Corps aligné tête-genoux.",
+    "mistake": "Hanches cassées."
+  },
+  {
+    "id": "squat_chaise",
+    "key": "squat_chaise",
+    "name": "Squat chaise",
+    "group": "bas_du_corps",
+    "pattern": "Legs",
+    "type": "force",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "chaise",
+      "poids du corps"
+    ],
+    "objectives": [
+      "débutant",
+      "renforcement"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "assis-debout assisté",
+      "intermediaire": "contrôlé",
+      "avance": "tempo",
+      "expert": "avec charge légère"
+    },
+    "tips": "Assieds-toi puis pousse dans les talons.",
+    "mistake": "Genoux qui rentrent."
+  },
+  {
+    "id": "circuit_echelle_appuis",
+    "key": "circuit_echelle_appuis",
+    "name": "Circuit échelle appuis",
+    "group": "cardio",
+    "pattern": "Explosivité",
+    "type": "coordination",
+    "muscles": [
+      "appuis"
+    ],
+    "equipment": [
+      "échelle",
+      "extérieur"
+    ],
+    "objectives": [
+      "agilité",
+      "cardio"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "rythme moyen",
+      "avance": "rapide",
+      "expert": "réactif"
+    },
+    "tips": "Regard devant, appuis légers.",
+    "mistake": "Regarder uniquement les pieds."
+  },
+  {
+    "id": "etirement_ischios",
+    "key": "etirement_ischios",
+    "name": "Étirement ischios",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "ischios"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "souplesse",
+      "récupération"
+    ],
+    "contraindications": [
+      "ischios"
+    ],
+    "levels": {
+      "debutant": "genou fléchi",
+      "intermediaire": "jambe tendue douce",
+      "avance": "respiration longue",
+      "expert": "PNF léger"
+    },
+    "tips": "Allonge la colonne, respire.",
+    "mistake": "Forcer dans le dos."
+  },
+  {
+    "id": "etirement_quadriceps",
+    "key": "etirement_quadriceps",
+    "name": "Étirement quadriceps",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "quadriceps"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "souplesse",
+      "récupération"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "couché côté",
+      "intermediaire": "debout assisté",
+      "avance": "genou au sol",
+      "expert": "PNF léger"
+    },
+    "tips": "Bassin rétroversé.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "ouverture_pectoraux",
+    "key": "ouverture_pectoraux",
+    "name": "Ouverture pectoraux",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "pectoraux"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "mobilité",
+      "posture"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "mur doux",
+      "intermediaire": "angle 90",
+      "avance": "respiration longue",
+      "expert": "flow épaules"
+    },
+    "tips": "Épaule basse, respiration.",
+    "mistake": "Forcer l’épaule."
+  },
+  {
+    "id": "respiration_box_breathing",
+    "key": "respiration_box_breathing",
+    "name": "Respiration box breathing",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "recovery",
+    "muscles": [
+      "respiration"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "calme",
+      "récupération"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "2 min",
+      "intermediaire": "4 cycles",
+      "avance": "5 min",
+      "expert": "10 min récupération"
+    },
+    "tips": "Inspire, bloque, expire, bloque.",
+    "mistake": "Respirer haut dans les épaules."
+  },
+  {
+    "id": "flow_mobilite_hanches",
+    "key": "flow_mobilite_hanches",
+    "name": "Flow mobilité hanches",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "hanches"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "souplesse",
+      "mobilité"
+    ],
+    "contraindications": [
+      "hanches",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "mouvements doux",
+      "intermediaire": "flow 5 min",
+      "avance": "flow 8 min",
+      "expert": "flow long"
+    },
+    "tips": "Va lentement, cherche l’amplitude utile.",
+    "mistake": "Forcer les positions."
+  },
+  {
+    "id": "circuit_poids_du_corps",
+    "key": "circuit_poids_du_corps",
+    "name": "Circuit poids du corps",
+    "group": "cardio",
+    "pattern": "Circuit",
+    "type": "circuit",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "circuit",
+      "renforcement"
+    ],
+    "contraindications": [
+      "genou",
+      "poignet"
+    ],
+    "levels": {
+      "debutant": "3 exos faciles",
+      "intermediaire": "4 exos",
+      "avance": "5 exos",
+      "expert": "6 exos intense"
+    },
+    "tips": "Garde une technique propre.",
+    "mistake": "Aller trop vite."
+  },
+  {
+    "id": "circuit_halteres_full_body",
+    "key": "circuit_halteres_full_body",
+    "name": "Circuit haltères full body",
+    "group": "cardio",
+    "pattern": "Circuit",
+    "type": "circuit",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "objectives": [
+      "circuit",
+      "renforcement"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "charges légères",
+      "intermediaire": "3 tours",
+      "avance": "4 tours",
+      "expert": "5 tours lourd"
+    },
+    "tips": "Charges maîtrisées.",
+    "mistake": "Sacrifier la posture."
+  },
+  {
+    "id": "emom_kettlebell",
+    "key": "emom_kettlebell",
+    "name": "EMOM kettlebell",
+    "group": "cardio",
+    "pattern": "Cross Training",
+    "type": "cross",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "objectives": [
+      "emom",
+      "cross_training"
+    ],
+    "contraindications": [
+      "lombaires",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "EMOM technique",
+      "intermediaire": "EMOM 10 min",
+      "avance": "EMOM 14 min",
+      "expert": "EMOM 20 min"
+    },
+    "tips": "Reste propre chaque minute.",
+    "mistake": "Choisir trop lourd."
+  },
+  {
+    "id": "amrap_poids_du_corps",
+    "key": "amrap_poids_du_corps",
+    "name": "AMRAP poids du corps",
+    "group": "cardio",
+    "pattern": "Cross Training",
+    "type": "cross",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "amrap",
+      "cross_training"
+    ],
+    "contraindications": [
+      "poignet",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "8 min easy",
+      "intermediaire": "12 min",
+      "avance": "16 min",
+      "expert": "20 min"
+    },
+    "tips": "Rythme constant.",
+    "mistake": "Partir trop vite."
   }
 ]
