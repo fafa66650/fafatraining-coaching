@@ -11,7 +11,7 @@
     "exercise_placeholder": "assets/placeholders/exercise-placeholder.svg",
     "menu_placeholder": "assets/placeholders/menu-placeholder.svg"
   },
-  "version": "V59.1 DATA PRO",
+  "version": "V59.2 COACH PRO",
   "baseline": "V58 + exercices V57 + programmes premium",
   "install_rule": "Ne pas mélanger. Supprimer ancien contenu GitHub puis uploader cette version complète.",
   "image_paths": {
@@ -19,5 +19,6 @@
     "menus": "assets/menus/menu_XX/cover.jpg",
     "exercises": "assets/exercises/<key>/image.jpg"
   },
-  "data_status": "bibliothèque, niveaux, catégories et filtres corrigés"
+  "data_status": "bibliothèque, niveaux, catégories et filtres corrigés",
+  "coach_status": "moteur intelligent ajouté"
 }
