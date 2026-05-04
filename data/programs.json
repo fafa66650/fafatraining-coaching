@@ -1,69 +1,72 @@
 [
   {
-    "id": "full_body_intelligent",
+    "id": "full",
     "name": "Full Body intelligent",
     "goal": "full",
-    "duration": [
-      20,
-      30,
-      45,
-      60
-    ],
+    "icon": "⚡",
     "description": "Séance complète haut, bas, core et cardio."
   },
   {
-    "id": "force_haut_bas",
-    "name": "Force haut/bas",
+    "id": "force",
+    "name": "Force / Musculation",
     "goal": "force",
-    "duration": [
-      30,
-      45,
-      60
-    ],
-    "description": "Force structurée avec assistance et core."
+    "icon": "💪",
+    "description": "Force structurée, assistance et core."
   },
   {
-    "id": "hiit_brule_graisse",
+    "id": "hiit",
     "name": "HIIT brûle graisse",
     "goal": "hiit",
-    "duration": [
-      20,
-      30,
-      45
-    ],
-    "description": "Intervalles cardio et renforcement."
+    "icon": "🔥",
+    "description": "Intervalles, cardio et renforcement."
   },
   {
-    "id": "boxe_conditioning",
+    "id": "boxe",
     "name": "Boxe conditioning",
     "goal": "boxe",
-    "duration": [
-      20,
-      30,
-      45
-    ],
-    "description": "Technique boxe, appuis, cardio et finisher."
+    "icon": "🥊",
+    "description": "Rounds, appuis, technique et cardio."
   },
   {
-    "id": "mobilite_recovery",
+    "id": "cross",
+    "name": "Cross Training",
+    "goal": "cross",
+    "icon": "🏋️",
+    "description": "AMRAP, EMOM, For Time, terrain."
+  },
+  {
+    "id": "mobilite",
     "name": "Mobilité recovery",
     "goal": "mobilite",
-    "duration": [
-      15,
-      20,
-      30
-    ],
-    "description": "Récupération, mobilité, prévention."
+    "icon": "🧘",
+    "description": "Récupération, prévention et posture."
   },
   {
-    "id": "cross_training",
-    "name": "Cross training terrain",
-    "goal": "cross",
-    "duration": [
-      30,
-      45,
-      60
-    ],
-    "description": "Séance terrain avec puissance, cardio et mental."
+    "id": "circuit",
+    "name": "Circuit Training",
+    "goal": "circuit",
+    "icon": "🔁",
+    "description": "Tours complets, alternance muscles/cardio."
+  },
+  {
+    "id": "renfo",
+    "name": "Renforcement",
+    "goal": "renfo",
+    "icon": "🛡️",
+    "description": "Contrôle, posture, gainage et endurance."
+  },
+  {
+    "id": "hyrox",
+    "name": "Hyrox / Conditioning",
+    "goal": "hyrox",
+    "icon": "🏁",
+    "description": "Stations, cardio, carries et mental."
+  },
+  {
+    "id": "explosivite",
+    "name": "Explosivité",
+    "goal": "explosivite",
+    "icon": "💥",
+    "description": "Puissance, sauts, mouvements athlétiques."
   }
 ]
