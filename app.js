@@ -40,7 +40,7 @@ function updateStreak(s){let t=today();if(s.lastDay!==t){let y=new Date(Date.now
 function addScore(points,label){let s=userStats();s=updateStreak(s);s.score+=(points||0);if(label==='Série validée')s.sets=(s.sets||0)+1;s.history.push({date:new Date().toISOString(),points,label,program:S.currentProgram?.name||''});s.history=s.history.slice(-200);saveStats(s)}
 function statsPanel(){let s=userStats();let last=(s.history||[]).slice(-3).reverse().map(h=>`<small>${safe(h.label)} · ${safe(h.program)} · +${h.points}</small><br>`).join('');return `<section class="panel"><h2>📈 Suivi complet</h2><p><span class="tag">Séances ${s.sessions||0}</span><span class="tag">Séries ${s.sets||0}</span><span class="tag hard">Score ${s.score||0}</span><span class="tag smart">Streak ${s.streak||0}</span></p><p>${last||'Aucun historique.'}</p></section>`}
 function quickForm(){let opts=Object.entries(S.quick).map(([k,v])=>`<option value="${safe(k)}">${safe(v.label||k)}</option>`).join('');return `<div class="quick"><label>Personnes<input id="qPeople" type="number" min="1" placeholder="ex : 12"></label><label>Format / objectif<select id="qFormat"><option value="">Auto</option>${opts}</select></label><label>Durée<select id="qDuration"><option value="auto">Auto</option><option value="20">20 min</option><option value="30">30 min</option><option value="45">45 min</option><option value="60">60 min</option></select></label><label>Niveau<select id="qLevel"><option value="">Auto</option><option>Débutant</option><option>Intermédiaire</option><option>Avancé</option><option>Expert</option></select></label><label>Lieu<select id="qPlace"><option value="">Choisir</option><option>Maison</option><option>Salle</option><option>Extérieur</option><option>Gymnase</option><option>Box</option></select></label><button class="primary" onclick="FAFA.generateSession()">Générer séance</button></div>`}
-function home(){layout(`<section class="hero"><div><p class="kicker">V59.1 DATA PRO</p><h1>${safe(S.ui?.home?.headline||'Terrain hardcore. Coach intelligent.')}</h1><p>${safe(S.ui?.home?.subtitle||'Base stable : exercices, cycles, coach, exports et dossiers images prêts.')}</p><div class="modeGrid"><button class="modeCard" onclick="FAFA.go('start')"><b>🔥 START</b><span>Séance rapide intelligente.</span></button><button class="modeCard" onclick="FAFA.go('coach')"><b>🧠 COACH</b><span>Fatigue, stress, matériel, blessure.</span></button><button class="modeCard" onclick="FAFA.go('programs')"><b>📋 PROGRAMMES</b><span>${S.programs.length} séances et cycles.</span></button></div></div><div class="startPanel"><h2>⚡ Séance rapide</h2><p>${S.exercises.length} exercices structurés. Anti-répétition actif.</p>${quickForm()}</div></section>${statsPanel()}`)}
+function home(){layout(`<section class="hero"><div><p class="kicker">V59.2 COACH PRO</p><h1>${safe(S.ui?.home?.headline||'Terrain hardcore. Coach intelligent.')}</h1><p>${safe(S.ui?.home?.subtitle||'Base stable : exercices, cycles, coach, exports et dossiers images prêts.')}</p><div class="modeGrid"><button class="modeCard" onclick="FAFA.go('start')"><b>🔥 START</b><span>Séance rapide intelligente.</span></button><button class="modeCard" onclick="FAFA.go('coach')"><b>🧠 COACH</b><span>Fatigue, stress, matériel, blessure.</span></button><button class="modeCard" onclick="FAFA.go('programs')"><b>📋 PROGRAMMES</b><span>${S.programs.length} séances et cycles.</span></button></div></div><div class="startPanel"><h2>⚡ Séance rapide</h2><p>${S.exercises.length} exercices structurés. Anti-répétition actif.</p>${quickForm()}</div></section>${statsPanel()}`)}
 function start(){layout(`<section class="panel"><h1>⚡ Séance rapide</h1><p>Choix automatique selon niveau, format et historique.</p>${quickForm()}</section>`)}
 function coach(){let eq=(S.filters.equipment||[]).map(x=>`<option>${safe(x)}</option>`).join('');let inj=(S.filters.injury_cautions||[]).map(x=>`<option>${safe(x)}</option>`).join('');let obj=(S.filters.objectives||[]).map(x=>`<option>${safe(x)}</option>`).join('');layout(`<section class="panel"><h1>🧠 Coach intelligent</h1><p>Adapte volume, style, exercice, repos et intensité.</p><div class="quick"><label>Objectif<select id="coachGoal"><option value="">Auto</option>${obj}</select></label><label>Matériel<select id="coachEquip"><option value="">Tous</option>${eq}</select></label><label>Zone à protéger<select id="coachInjury"><option value="">Aucune</option>${inj}</select></label><label>Fatigue<select id="fatigue"><option value="1">1 très frais</option><option value="2">2 léger</option><option value="3">3 moyen</option><option value="4">4 fatigué</option><option value="5">5 très fatigué</option></select></label><label>Stress<select id="stress"><option value="1">1 calme</option><option value="2">2 léger</option><option value="3">3 moyen</option><option value="4">4 élevé</option><option value="5">5 très stressé</option></select></label><label>Temps<select id="coachTime"><option value="20">20 min</option><option value="30" selected>30 min</option><option value="45">45 min</option><option value="60">60 min</option></select></label><button class="primary" onclick="FAFA.generateCoachSession()">Créer séance adaptée</button></div></section>`)}
 function historyKeys(){try{return JSON.parse(localStorage.getItem('fafa_history')||'[]')}catch(e){return[]}}
@@ -65,18 +65,45 @@ function sessionFromStructure(p){
  return arr.length?arr:null;
 }
 
+
 function createSession(p,level){
- let structured=sessionFromStructure(p);
- if(structured){S.currentProgram=p;S.session=structured;S.current=0;S.seconds=30;S.phase='work';S.running=false;S.tab='coachFlow';render();return;}
- let cats=p.target_groups||p.categories||[];
- let pool=S.exercises.filter(e=>cats.includes(e.group)||cats.includes(e.category));
- if(level)pool=filterByLevel(pool,level);
- if(pool.length<8)pool=S.exercises;
- S.currentProgram=p;S.session=buildByFormat(pool,p.style||'renforcement',level||p.level||'intermediaire');S.current=0;S.seconds=30;S.phase='work';S.running=false;S.tab='coachFlow';render();
+ let structured=typeof sessionFromStructure==='function'?sessionFromStructure(p):null;
+ if(structured&&structured.length){
+   S.currentProgram=p;S.session=structured;S.current=0;S.seconds=30;S.phase='work';S.running=false;S.tab='coachFlow';render();return;
+ }
+ let realLevel=normLevel(level||p.level||'intermediaire');
+ let targetGroups=p.target_groups||p.categories||['haut_du_corps','bas_du_corps','core','cardio'];
+ S.currentProgram=p;
+ S.session=buildCoachSession({level:realLevel,objective:p.goal||'',equipment:'',injury:'',fatigue:3,stress:3,targetGroups,prescriptions:prescriptionsForLevel(realLevel)});
+ S.current=0;S.seconds=30;S.phase='work';S.running=false;S.tab='coachFlow';render();
 }
 
 function generateSession(){let f=document.getElementById('qFormat')?.value||'auto';let q=S.quick[f]||S.quick.auto||Object.values(S.quick)[0];let p=S.programs.find(x=>x.id===q.program)||S.programs.find(x=>x.style===f)||S.programs[0];let level=document.getElementById('qLevel')?.value||p.level||'Intermédiaire';createSession(p,level)}
-function generateCoachSession(){let goal=document.getElementById('coachGoal')?.value||'auto';let time=document.getElementById('coachTime')?.value||'30';let style=goal.includes('boxe')?'boxe':goal.includes('mobil')?'mobilite':goal.includes('force')?'musculation':goal.includes('perte')?'hiit':'renforcement';let p=S.programs.find(x=>x.style===style&&String(x.duration).includes(time))||S.programs.find(x=>x.style===style)||S.programs[0];let cats=p.categories||[];let pool=S.exercises.filter(e=>cats.includes(e.category));pool=applyCoachFilters(pool.length?pool:S.exercises);S.currentProgram=p;S.session=buildByFormat(pool,p.style||style,p.level||'Intermédiaire');S.tab='coachFlow';S.current=0;S.seconds=30;S.phase='work';render()}
+
+function generateCoachSession(){
+ let goal=(document.getElementById('coachGoal')?.value||'').toLowerCase();
+ let equipment=document.getElementById('coachEquip')?.value||'';
+ let injury=document.getElementById('coachInjury')?.value||'';
+ let fatigue=Number(document.getElementById('fatigue')?.value||3);
+ let stress=Number(document.getElementById('stress')?.value||3);
+ let time=document.getElementById('coachTime')?.value||'30';
+ let level='intermediaire';
+ if(fatigue<=2 && stress<=2) level='avance';
+ if(fatigue>=4 || stress>=4) level='debutant';
+ if(goal.includes('expert')) level='expert';
+ let targetGroups=[];
+ if(goal.includes('boxe')) targetGroups=['boxe','cardio','core'];
+ else if(goal.includes('force')) targetGroups=['haut_du_corps','bas_du_corps','core'];
+ else if(goal.includes('mobil')||goal.includes('recovery')) targetGroups=['mobilite','core'];
+ else if(goal.includes('perte')||goal.includes('hiit')||goal.includes('cardio')) targetGroups=['cardio','bas_du_corps','core'];
+ else targetGroups=['haut_du_corps','bas_du_corps','core','cardio'];
+ let style=targetGroups.includes('boxe')?'boxe':targetGroups.includes('mobilite')?'mobilite':targetGroups.includes('cardio')?'hiit':'renforcement';
+ let p={id:'coach_auto_v59_2',name:'Coach intelligent — séance adaptée',style,level,duration:time+' min',phase:'coach',target_groups:targetGroups,cycle_title:'Coach intelligent'};
+ S.currentProgram=p;
+ S.session=buildCoachSession({level,objective:goal,equipment,injury,fatigue,stress,targetGroups,prescriptions:prescriptionsForLevel(level)});
+ S.current=0;S.seconds=30;S.phase='work';S.running=false;S.tab='coachFlow';render();
+}
+
 function pickProgram(id){let p=S.programs.find(x=>x.id===id)||S.programs[0];createSession(p,p.level)}
 function programsView(){let ids=S.styles[S.style]||[],selected=ids.map(id=>S.programs.find(p=>p.id===id)).filter(Boolean);let q=S.search.toLowerCase();let list=selected.filter(p=>(!q||(p.name+' '+p.level+' '+p.audience+' '+p.target+' '+p.cycle_title).toLowerCase().includes(q))&&(!S.filterLevel||p.level===S.filterLevel)&&(!S.filterAudience||p.audience===S.filterAudience)).slice(0,160);let tabs=Object.keys(S.styles).map(st=>`<button class="${st===S.style?'active':''}" onclick="FAFA.setStyle('${safe(st)}')">${safe(S.labels[st]||st)} <span class="tag">${(S.styles[st]||[]).length}</span></button>`).join('');layout(`<section class="panel"><h1>Programmes premium <span class="tag">${S.programs.length}</span></h1><div class="tabs">${tabs}</div><div class="toolbar"><input placeholder="Recherche..." oninput="FAFA.searchPrograms(this.value)"><select onchange="FAFA.filterLevel(this.value)"><option value="">Tous niveaux</option><option>Débutant</option><option>Intermédiaire</option><option>Avancé</option><option>Expert</option></select><select onchange="FAFA.filterAudience(this.value)"><option value="">Tous formats</option><option>Solo</option><option>Groupe</option><option>Maison</option><option>Salle</option><option>Extérieur</option><option>Coach</option></select></div><div class="grid">${list.map(p=>`<button class="card" onclick="FAFA.pickProgram('${p.id}')"><div class="cardHero"><img src="${menuCover(p)}" onerror="this.src='${phMenu()}'"></div><b>${safe(p.name)}</b><p>${safe(p.duration)} · ${safe(p.level)} · ${safe(p.audience)}</p><span class="tag ${p.mode==='terrain hardcore'?'hard':'smart'}">${safe(p.phase||p.mode)}</span><small><br>${safe(p.description)}</small></button>`).join('')}</div></section>`)}
 function arsenal(){let ids=S.groups[S.group]||[],base=ids.map(id=>S.exercises.find(e=>e.key===id)).filter(Boolean);let q=(document.getElementById('arsenalSearch')?.value||'').toLowerCase();let equip=document.getElementById('arsenalEquip')?.value||'';let inj=document.getElementById('arsenalInjury')?.value||'';let obj=document.getElementById('arsenalObj')?.value||'';let list=base.filter(e=>(!q||(e.name+' '+e.muscles+' '+e.simple).toLowerCase().includes(q))&&(!equip||(e.equipment||[]).includes(equip))&&(!inj||!(e.injury_cautions||[]).includes(inj))&&(!obj||(e.objectives||[]).includes(obj))).sort((a,b)=>a.name.localeCompare(b.name,'fr')).slice(0,240);let eq=(S.filters.equipment||[]).map(x=>`<option>${safe(x)}</option>`).join('');let injOpts=(S.filters.injury_cautions||[]).map(x=>`<option>${safe(x)}</option>`).join('');let objOpts=(S.filters.objectives||[]).map(x=>`<option>${safe(x)}</option>`).join('');layout(`<section class="panel"><h1>Arsenal <span class="tag">${S.exercises.length}</span></h1><div class="tabs">${Object.keys(S.groups).map(g=>`<button class="${g===S.group?'active':''}" onclick="FAFA.setGroup('${safe(g)}')">${safe(g)}</button>`).join('')}</div><div class="toolbar"><input id="arsenalSearch" placeholder="Recherche exercice..." onchange="FAFA.refresh()"><select id="arsenalEquip" onchange="FAFA.refresh()"><option value="">Tout matériel</option>${eq}</select><select id="arsenalInjury" onchange="FAFA.refresh()"><option value="">Toutes limitations</option>${injOpts}</select></div><div class="toolbar"><select id="arsenalObj" onchange="FAFA.refresh()"><option value="">Tous objectifs</option>${objOpts}</select></div><div class="grid">${list.map(e=>`<div class="card"><div class="cardHero"><img src="${e.image}" onerror="this.src='${phExercise()}'"></div><b>${safe(e.name)}</b><p>${safe(e.muscles)}</p><span class="tag">${safe(e.level)}</span>${(e.objectives||[]).slice(0,3).map(o=>`<span class="tag">${safe(o)}</span>`).join('')}<br><small><b>Consigne :</b> ${safe((e.consignes||[])[0]||e.simple)}<br><b>Erreur :</b> ${safe((e.erreurs_frequentes||[])[0]||e.mistake)}<br><b>Variante :</b> ${safe(e.variantes_niveau?.debutant||e.easy_variant||'')}</small></div>`).join('')}</div></section>`)}
@@ -108,6 +135,96 @@ function exportMenu(){
 }
 
 function go(t){S.lastTab=S.tab;S.tab=t;render()}function goBack(){S.tab=S.lastTab&&S.lastTab!==S.tab?S.lastTab:'home';render()}function render(){if(S.tab==='home')home();else if(S.tab==='start')start();else if(S.tab==='coach')coach();else if(S.tab==='programs')programsView();else if(S.tab==='arsenal')arsenal();else if(S.tab==='coachFlow')coachFlow();else home()}
+
+
+/* V59.2 COACH PRO PATCH */
+function normLevel(level){
+  const l=String(level||'intermediaire').toLowerCase();
+  if(l.includes('expert'))return 'expert';
+  if(l.includes('avance')||l.includes('avancé'))return 'avance';
+  if(l.includes('debut')||l.includes('début'))return 'debutant';
+  return 'intermediaire';
+}
+function getExerciseByKey(key){return S.exercises.find(e=>e.key===key)}
+function getHistory(){try{return JSON.parse(localStorage.getItem('fafa_exo_history')||'[]')}catch(e){return[]}}
+function saveExoHistory(keys){localStorage.setItem('fafa_exo_history',JSON.stringify(keys.slice(-80)))}
+function hasLevel(ex, level){
+  const l=normLevel(level);
+  return Array.isArray(ex.level) ? ex.level.includes(l) : String(ex.level||'').toLowerCase().includes(l);
+}
+function isSafeForInjury(ex, injury){
+  if(!injury)return true;
+  const i=String(injury).toLowerCase();
+  return !(ex.injury_cautions||[]).some(x=>String(x).toLowerCase().includes(i));
+}
+function matchEquipment(ex, equipment){
+  if(!equipment)return true;
+  const eq=String(equipment).toLowerCase();
+  return (ex.equipment||[]).some(x=>String(x).toLowerCase().includes(eq)) || (ex.equipment||[]).includes('poids du corps');
+}
+function scoreExercise(ex, ctx){
+  let score=0;
+  if(hasLevel(ex, ctx.level)) score+=8;
+  if(ctx.objective && (ex.objectives||[]).some(o=>String(o).toLowerCase().includes(ctx.objective))) score+=8;
+  if(ctx.equipment && matchEquipment(ex, ctx.equipment)) score+=5;
+  if(ctx.targetGroups && ctx.targetGroups.includes(ex.group)) score+=10;
+  if(ctx.categories && ctx.categories.includes(ex.category)) score+=8;
+  if(ctx.history && ctx.history.includes(ex.key)) score-=25;
+  if(ctx.fatigue>=4 && (ex.difficulty==='expert' || (ex.level||[]).includes('expert'))) score-=10;
+  if(ctx.stress>=4 && ex.category==='mobilite') score+=6;
+  return score;
+}
+function smartPick(pool, count, ctx){
+  const ranked=pool
+    .filter(e=>isSafeForInjury(e, ctx.injury))
+    .filter(e=>matchEquipment(e, ctx.equipment))
+    .map(e=>({e,score:scoreExercise(e,ctx)}))
+    .sort((a,b)=>b.score-a.score);
+  let chosen=[];
+  for(const item of ranked){
+    if(chosen.length>=count)break;
+    if(!chosen.some(x=>x.key===item.e.key)) chosen.push(item.e);
+  }
+  if(chosen.length<count){
+    for(const e of pool){
+      if(chosen.length>=count)break;
+      if(!chosen.some(x=>x.key===e.key) && isSafeForInjury(e,ctx)) chosen.push(e);
+    }
+  }
+  return chosen;
+}
+function buildCoachSession(ctx){
+  const history=getHistory();
+  ctx.history=history;
+  const all=S.exercises||[];
+  const targetGroups=ctx.targetGroups&&ctx.targetGroups.length?ctx.targetGroups:['haut_du_corps','bas_du_corps','core','cardio'];
+  const activationPool=all.filter(e=>['mobilite','cardio'].includes(e.group)||['mobilite','cardio_crossfit'].includes(e.category));
+  const mainPool=all.filter(e=>targetGroups.includes(e.group)||targetGroups.includes(e.category));
+  const corePool=all.filter(e=>e.group==='core'||e.category==='core');
+  const finisherPool=all.filter(e=>['cardio','boxe','bas_du_corps'].includes(e.group)||['cardio_crossfit','boxe'].includes(e.category));
+  let fatigue=Number(ctx.fatigue||3);
+  let volumeFactor=fatigue>=4?0.7:(fatigue<=2?1.15:1);
+  let mainCount=Math.max(4, Math.round(7*volumeFactor));
+  let finisherCount=fatigue>=4?2:4;
+  const activation=smartPick(activationPool,4,ctx).map(e=>({...e,block:'activation',prescription:ctx.prescriptions?.activation||'45 sec'}));
+  const bloc=smartPick(mainPool,mainCount,ctx).map(e=>({...e,block:'bloc',prescription:ctx.prescriptions?.bloc||'3-4 tours'}));
+  const core=smartPick(corePool,4,ctx).map(e=>({...e,block:'core',prescription:ctx.prescriptions?.core||'35 sec'}));
+  const finisher=smartPick(finisherPool,finisherCount,ctx).map(e=>({...e,block:'finisher',prescription:ctx.prescriptions?.finisher||'6 min'}));
+  const session=[...activation,...bloc,...core,...finisher];
+  saveExoHistory([...history,...session.map(e=>e.key)]);
+  return session;
+}
+function prescriptionsForLevel(level){
+  const l=normLevel(level);
+  const map={
+    debutant:{activation:'40 sec',bloc:'2-3 tours',core:'25 sec',finisher:'4 min'},
+    intermediaire:{activation:'45 sec',bloc:'3-4 tours',core:'35 sec',finisher:'6 min'},
+    avance:{activation:'50 sec',bloc:'4-5 tours',core:'40 sec',finisher:'8 min'},
+    expert:{activation:'60 sec',bloc:'5 tours + intensité',core:'45 sec',finisher:'10 min'}
+  };
+  return map[l]||map.intermediaire;
+}
+
 window.FAFA={go,goBack,setStyle:s=>{S.style=s;S.search='';S.filterLevel='';S.filterAudience='';render()},setGroup:g=>{S.group=g;render()},searchPrograms:q=>{S.search=q;render()},filterLevel:l=>{S.filterLevel=l;render()},filterAudience:a=>{S.filterAudience=a;render()},refresh:render,generateSession,generateCoachSession,pickProgram,startTimer,pauseTimer,nextEx,prevEx,validateSet,finishSession,exportMenu};
 boot();
 })();

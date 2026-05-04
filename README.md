@@ -1,23 +1,28 @@
-# FAFATRAINING — V59.1 DATA PRO
+# FAFATRAINING — V59.2 MOTEUR COACH PRO
 
-Base : V59 Stable Clean.
+Base : V59.1 DATA PRO.
 
-## Ce qui est corrigé
-- Bibliothèque réelle et classée
-- Niveaux remplis : débutant, intermédiaire, avancé, expert
-- Groupes propres : haut_du_corps, bas_du_corps, core, cardio, boxe, mobilite
-- Filtres réellement liés
-- Programmes reliés à la même base d’exercices
-- Export et séances utilisent les mêmes clés exercices
+## Ajouts V59.2
+- Moteur coach intelligent
+- Anti-répétition réel via localStorage
+- Adaptation fatigue / stress
+- Filtre blessure / limitation
+- Filtre matériel
+- Séances équilibrées : activation / bloc / core / finisher
+- Programmes qui utilisent la même base exercises.json
+- Prescriptions adaptées selon niveau
 
-## Chiffres
+## Données
 - Exercices : 395
 - Programmes : 180
-- Expert : 75 exercices
-- Avancé : 225 exercices
-- Intermédiaire : 235 exercices
-- Débutant : 170 exercices
+- Expert rempli : 75
 
-## Installation
-Installe cette version complète uniquement.
-Ne mélange pas avec V59 ancienne.
+## Test à faire
+1. Onglet Coach
+2. Choisir fatigue 5 + stress 5
+3. Générer : la séance doit être plus douce
+4. Choisir objectif boxe : la séance doit sortir boxe/cardio/core
+5. Choisir niveau expert via programme expert : les exercices expert doivent sortir
+
+## Important
+Installer cette version complète uniquement.
