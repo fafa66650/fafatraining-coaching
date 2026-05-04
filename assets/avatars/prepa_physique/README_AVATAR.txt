@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/prepa_physique/avatar.jpg

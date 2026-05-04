@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/for_time/avatar.jpg

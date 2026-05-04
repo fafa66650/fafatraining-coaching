@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/cardio/avatar.jpg

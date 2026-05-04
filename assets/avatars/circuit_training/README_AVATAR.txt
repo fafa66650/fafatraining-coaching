@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/circuit_training/avatar.jpg

@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/musculation/avatar.jpg

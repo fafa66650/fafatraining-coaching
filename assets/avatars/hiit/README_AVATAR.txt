@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/hiit/avatar.jpg

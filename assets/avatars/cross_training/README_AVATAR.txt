@@ -1,0 +1,1 @@
+Avatar attendu : assets/avatars/cross_training/avatar.jpg
