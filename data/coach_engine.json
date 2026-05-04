@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "fatigue_4_5": "réduit volume, évite impacts",
+    "stress_4_5": "augmente repos, ajoute mobilité",
+    "injury_filter": "retire exercices à risque",
+    "equipment_filter": "priorise matériel disponible",
+    "progression": "adapte volume_factor par phase",
+    "anti_repetition": "évite les 160 derniers exercices"
+  },
+  "score": {
+    "set_validated": 10,
+    "session_finished": 100,
+    "streak_bonus": 25,
+    "technical_bonus": 15
+  }
+}
