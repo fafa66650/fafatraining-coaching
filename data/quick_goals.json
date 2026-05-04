@@ -1,92 +1,42 @@
 {
   "auto": {
-    "label": "Mode Auto intelligent",
-    "program": "athlete_complet_8s_s1_j1",
-    "duration": "30",
-    "desc": "Choix intelligent parmi les programmes premium."
+    "label": "Auto intelligent",
+    "program": "force_haut_4s_s1_j1",
+    "duration": "30"
   },
   "musculation": {
-    "label": "Musculation",
-    "program": "athlete_complet_8s_s1_j1",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "hiit": {
-    "label": "HIIT",
-    "program": "athlete_complet_8s_s1_j2",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "mobilite": {
-    "label": "Mobilité",
-    "program": "athlete_complet_8s_s1_j3",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "boxe": {
-    "label": "Boxe",
-    "program": "athlete_complet_8s_s1_j5",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "cross_training": {
-    "label": "Cross Training",
-    "program": "athlete_complet_8s_s1_j6",
-    "duration": "30",
-    "desc": "Programme adapté."
+    "label": "musculation",
+    "program": "force_haut_4s_s1_j1",
+    "duration": "30"
   },
   "renforcement": {
-    "label": "Renforcement",
-    "program": "perte_poids_hiit_8s_s1_j2",
-    "duration": "30",
-    "desc": "Programme adapté."
+    "label": "renforcement",
+    "program": "full_body_6s_s1_j1",
+    "duration": "30"
   },
-  "circuit_training": {
-    "label": "Circuit Training",
-    "program": "perte_poids_hiit_8s_s1_j5",
-    "duration": "30",
-    "desc": "Programme adapté."
+  "hiit": {
+    "label": "hiit",
+    "program": "hiit_perte_poids_6s_s1_j1",
+    "duration": "30"
+  },
+  "boxe": {
+    "label": "boxe",
+    "program": "boxe_cardio_6s_s1_j1",
+    "duration": "30"
+  },
+  "mobilite": {
+    "label": "mobilite",
+    "program": "mobilite_posture_4s_s1_j1",
+    "duration": "30"
   },
   "hyrox": {
-    "label": "Hyrox",
-    "program": "hyrox_10s_s1_j1",
-    "duration": "30",
-    "desc": "Programme adapté."
+    "label": "hyrox",
+    "program": "hyrox_6s_s1_j1",
+    "duration": "30"
   },
-  "recovery": {
-    "label": "Recovery",
-    "program": "mobilite_posture_6s_s1_j4",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "amrap": {
-    "label": "AMRAP",
-    "program": "terrain_hardcore_6s_s1_j1",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "for_time": {
-    "label": "For Time",
-    "program": "terrain_hardcore_6s_s1_j2",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "emom": {
-    "label": "EMOM",
-    "program": "terrain_hardcore_6s_s1_j3",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "tabata": {
-    "label": "Tabata",
-    "program": "tabata_full_body_debutant_331",
-    "duration": "30",
-    "desc": "Programme adapté."
-  },
-  "prepa_physique": {
-    "label": "Prépa Physique",
-    "program": "prepa_physique_full_body_debutant_724",
-    "duration": "30",
-    "desc": "Programme adapté."
+  "cross_training": {
+    "label": "cross_training",
+    "program": "expert_hardcore_4s_s1_j1",
+    "duration": "30"
   }
 }

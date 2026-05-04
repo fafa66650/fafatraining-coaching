@@ -1,4 +1,4 @@
-const CACHE='fafatraining-v59-stable-clean';
+const CACHE='fafatraining-v59-1-data-pro';
 const ASSETS=[
   "./",
   "./index.html",

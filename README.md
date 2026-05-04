@@ -1,23 +1,23 @@
-# FAFATRAINING COACHING — V59 STABLE CLEAN BASE
+# FAFATRAINING — V59.1 DATA PRO
 
-## Version à installer
-Installe uniquement cette version complète.
+Base : V59 Stable Clean.
 
-Base utilisée : FAFATRAINING_V58_PROGRAMMES_PREMIUM_INTEGREE.zip
+## Ce qui est corrigé
+- Bibliothèque réelle et classée
+- Niveaux remplis : débutant, intermédiaire, avancé, expert
+- Groupes propres : haut_du_corps, bas_du_corps, core, cardio, boxe, mobilite
+- Filtres réellement liés
+- Programmes reliés à la même base d’exercices
+- Export et séances utilisent les mêmes clés exercices
 
-## Règle
-Ne mélange pas avec V56/V57/V58.
+## Chiffres
+- Exercices : 395
+- Programmes : 180
+- Expert : 75 exercices
+- Avancé : 225 exercices
+- Intermédiaire : 235 exercices
+- Débutant : 170 exercices
 
-## Installation GitHub
-1. Supprime l'ancien contenu du repo.
-2. Upload tout le contenu de cette V59.
-3. Attends GitHub Pages.
-4. Ouvre avec ?v=59 à la fin.
-
-## Dossiers images prêts
-- Avatars : assets/avatars/<style>/avatar.jpg
-- Menus : assets/menus/menu_XX/cover.jpg
-- Exercices : assets/exercises/<key>/image.jpg
-
-Programmes : 763
-Exercices : 1500
+## Installation
+Installe cette version complète uniquement.
+Ne mélange pas avec V59 ancienne.
