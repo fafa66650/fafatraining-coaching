@@ -1,13 +1,18 @@
-# FAFATRAINING V60.4 ELITE COMPLETE
+# FAFATRAINING V61 IOS COACH PRO
 
-## Contenu
-- 89 mouvements intelligents avec adaptations débutant/intermédiaire/avancé/expert.
-- Moteur V60.4 : anti-répétition localStorage, niveau, durée, matériel, blessure, fatigue/stress.
-- Familles : musculation, renforcement, HIIT, boxe, cross training, Hyrox, mobilité, explosivité, circuit training.
-- Formats : séries/reps/repos, rounds boxe, AMRAP, EMOM, For Time, Tabata.
-- Export menu pro image SVG + PDF.
-- UI style iOS + identité FAFATRAINING.
+## Changements V61
+- Navigation simplifiée : Accueil / Générer / Bibliothèque.
+- Export retiré de la navigation : il est intégré dans la séance.
+- Programmes intégrés au générateur sous forme de pastilles rondes iOS.
+- Moteur corrigé : un objectif n'est pas juste une catégorie d'exercices.
+  - Boxe = technique + cardio + renfo + core.
+  - Mobilité = mobilité / étirements / respiration uniquement.
+  - Cross/Hyrox = AMRAP, EMOM, For Time, stations.
+- Multi-matériel : plusieurs choix possibles.
+- Conseils de charge selon niveau / objectif.
+- Export menu pro plus lisible : exercices à gauche, infos utiles à droite.
+- Bibliothèque : 101 mouvements intelligents.
 
-## Installation GitHub
-Uploader tout le contenu du zip à la racine du repo.
-Ouvrir avec ?v=604 pour forcer le cache.
+## Installation
+Uploader tout le contenu à la racine GitHub.
+Forcer le cache avec : index.html?v=61

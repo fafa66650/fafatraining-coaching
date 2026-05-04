@@ -2796,5 +2796,375 @@
     },
     "tips": "Relâche le dos.",
     "mistake": "Forcer épaules."
+  },
+  {
+    "id": "auto_massage_quadriceps",
+    "key": "auto_massage_quadriceps",
+    "name": "Auto-massage quadriceps",
+    "pattern": "Rééducation",
+    "group": "reeducation",
+    "type": "recovery",
+    "muscles": [
+      "quadriceps"
+    ],
+    "equipment": [
+      "foam roller"
+    ],
+    "objectives": [
+      "récupération",
+      "prévention"
+    ],
+    "contraindications": [
+      "douleur aiguë"
+    ],
+    "levels": {
+      "debutant": "pression douce 45 sec",
+      "intermediaire": "aller-retour lent",
+      "avance": "zone ciblée 60 sec",
+      "expert": "routine complète"
+    },
+    "tips": "Pression progressive, respiration lente.",
+    "mistake": "Rouler trop vite ou sur douleur vive."
+  },
+  {
+    "id": "auto_massage_mollets",
+    "key": "auto_massage_mollets",
+    "name": "Auto-massage mollets",
+    "pattern": "Rééducation",
+    "group": "reeducation",
+    "type": "recovery",
+    "muscles": [
+      "mollets"
+    ],
+    "equipment": [
+      "foam roller"
+    ],
+    "objectives": [
+      "récupération",
+      "prévention"
+    ],
+    "contraindications": [
+      "douleur aiguë"
+    ],
+    "levels": {
+      "debutant": "pression douce",
+      "intermediaire": "aller-retour lent",
+      "avance": "pause sur tension",
+      "expert": "routine complète"
+    },
+    "tips": "Relâchement progressif.",
+    "mistake": "Forcer sur douleur."
+  },
+  {
+    "id": "activation_scapulaire",
+    "key": "activation_scapulaire",
+    "name": "Activation scapulaire",
+    "pattern": "Rééducation",
+    "group": "reeducation",
+    "type": "prevention",
+    "muscles": [
+      "omoplates",
+      "épaules"
+    ],
+    "equipment": [
+      "élastique",
+      "poids du corps"
+    ],
+    "objectives": [
+      "prévention",
+      "posture"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "rétractions douces",
+      "intermediaire": "wall slides",
+      "avance": "élastique léger",
+      "expert": "circuit posture"
+    },
+    "tips": "Épaules basses, mouvement lent.",
+    "mistake": "Hausser les épaules."
+  },
+  {
+    "id": "monster_walk",
+    "key": "monster_walk",
+    "name": "Monster walk",
+    "pattern": "Rééducation",
+    "group": "bas_du_corps",
+    "type": "prevention",
+    "muscles": [
+      "moyen fessier",
+      "hanches"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "objectives": [
+      "prévention",
+      "genou",
+      "hanches"
+    ],
+    "contraindications": [
+      "genou",
+      "hanches"
+    ],
+    "levels": {
+      "debutant": "sans élastique",
+      "intermediaire": "élastique léger",
+      "avance": "pas contrôlés",
+      "expert": "circuit activation"
+    },
+    "tips": "Genoux alignés, bassin stable.",
+    "mistake": "Genoux qui rentrent."
+  },
+  {
+    "id": "tibialis_raise",
+    "key": "tibialis_raise",
+    "name": "Tibialis raise",
+    "pattern": "Rééducation",
+    "group": "bas_du_corps",
+    "type": "prevention",
+    "muscles": [
+      "tibial antérieur",
+      "chevilles"
+    ],
+    "equipment": [
+      "mur",
+      "poids du corps"
+    ],
+    "objectives": [
+      "prévention",
+      "cheville"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "amplitude courte",
+      "intermediaire": "mur",
+      "avance": "tempo",
+      "expert": "charge légère"
+    },
+    "tips": "Dos au mur, monte les pointes.",
+    "mistake": "Balancer le corps."
+  },
+  {
+    "id": "scap_push_up",
+    "key": "scap_push_up",
+    "name": "Scap push-up",
+    "pattern": "Rééducation",
+    "group": "haut_du_corps",
+    "type": "prevention",
+    "muscles": [
+      "omoplates",
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "prévention",
+      "posture"
+    ],
+    "contraindications": [
+      "poignet",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "mur",
+      "intermediaire": "quadrupédie",
+      "avance": "planche",
+      "expert": "tempo"
+    },
+    "tips": "Bras tendus, bouge les omoplates.",
+    "mistake": "Plier les coudes."
+  },
+  {
+    "id": "y_t_w_au_sol",
+    "key": "y_t_w_au_sol",
+    "name": "Y-T-W au sol",
+    "pattern": "Rééducation",
+    "group": "haut_du_corps",
+    "type": "prevention",
+    "muscles": [
+      "arrière épaules",
+      "trapèzes"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "posture",
+      "prévention"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "amplitude courte",
+      "intermediaire": "lent",
+      "avance": "pause 2 sec",
+      "expert": "circuit posture"
+    },
+    "tips": "Nuque longue, omoplates actives.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "sauts_lateraux",
+    "key": "sauts_lateraux",
+    "name": "Sauts latéraux",
+    "pattern": "Explosivité",
+    "group": "cardio",
+    "type": "power",
+    "muscles": [
+      "appuis",
+      "mollets",
+      "jambes"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "explosivité",
+      "agilité"
+    ],
+    "contraindications": [
+      "cheville",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "petits sauts",
+      "intermediaire": "latéraux contrôlés",
+      "avance": "rythme rapide",
+      "expert": "avec réaction"
+    },
+    "tips": "Réception légère, genou aligné.",
+    "mistake": "Atterrir lourd."
+  },
+  {
+    "id": "sprint_court",
+    "key": "sprint_court",
+    "name": "Sprint court",
+    "pattern": "Explosivité",
+    "group": "cardio",
+    "type": "power",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "extérieur"
+    ],
+    "objectives": [
+      "explosivité",
+      "vitesse"
+    ],
+    "contraindications": [
+      "ischios",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "accélération 10m",
+      "intermediaire": "sprint 15m",
+      "avance": "sprint 20m",
+      "expert": "répétitions chronométrées"
+    },
+    "tips": "Départ gainé, accélère progressivement.",
+    "mistake": "Partir à froid."
+  },
+  {
+    "id": "lancer_medecine_ball",
+    "key": "lancer_medecine_ball",
+    "name": "Lancer médecine ball",
+    "pattern": "Explosivité",
+    "group": "cardio",
+    "type": "power",
+    "muscles": [
+      "tronc",
+      "épaules",
+      "jambes"
+    ],
+    "equipment": [
+      "medecine ball"
+    ],
+    "objectives": [
+      "puissance",
+      "explosivité"
+    ],
+    "contraindications": [
+      "épaule",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "lancer poitrine léger",
+      "intermediaire": "lancer sol",
+      "avance": "rotation contrôlée",
+      "expert": "puissance max"
+    },
+    "tips": "Transfert jambes-tronc-bras.",
+    "mistake": "Bras seuls."
+  },
+  {
+    "id": "agility_ladder",
+    "key": "agility_ladder",
+    "name": "Agility ladder",
+    "pattern": "Explosivité",
+    "group": "cardio",
+    "type": "coordination",
+    "muscles": [
+      "appuis",
+      "coordination"
+    ],
+    "equipment": [
+      "échelle"
+    ],
+    "objectives": [
+      "agilité",
+      "cardio"
+    ],
+    "contraindications": [
+      "cheville",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "pas simples",
+      "intermediaire": "in-in-out",
+      "avance": "latéral",
+      "expert": "réactivité"
+    },
+    "tips": "Regard devant, appuis légers.",
+    "mistake": "Regarder les pieds."
+  },
+  {
+    "id": "marche_inclinee",
+    "key": "marche_inclinee",
+    "name": "Marche inclinée",
+    "pattern": "Cardio",
+    "group": "cardio",
+    "type": "cardio",
+    "muscles": [
+      "cardio",
+      "jambes"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "cardio",
+      "perte_de_poids"
+    ],
+    "contraindications": [
+      "genou",
+      "mollets"
+    ],
+    "levels": {
+      "debutant": "inclinaison douce",
+      "intermediaire": "rythme modéré",
+      "avance": "intervalles",
+      "expert": "inclinaison forte"
+    },
+    "tips": "Posture haute, cadence régulière.",
+    "mistake": "S’accrocher trop fort."
   }
 ]

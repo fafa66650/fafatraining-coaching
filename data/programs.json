@@ -1,72 +1,72 @@
 [
   {
     "id": "full",
-    "name": "Full Body intelligent",
+    "name": "Full Body",
     "goal": "full",
     "icon": "⚡",
-    "description": "Séance complète haut, bas, core et cardio."
+    "description": "Corps complet, équilibré, tout public."
   },
   {
     "id": "force",
-    "name": "Force / Musculation",
+    "name": "Force",
     "goal": "force",
     "icon": "💪",
-    "description": "Force structurée, assistance et core."
+    "description": "Musculation, charges, progression."
   },
   {
     "id": "hiit",
-    "name": "HIIT brûle graisse",
+    "name": "HIIT",
     "goal": "hiit",
     "icon": "🔥",
-    "description": "Intervalles, cardio et renforcement."
+    "description": "Intervalles courts, intensité, cardio."
   },
   {
     "id": "boxe",
-    "name": "Boxe conditioning",
+    "name": "Boxe",
     "goal": "boxe",
     "icon": "🥊",
-    "description": "Rounds, appuis, technique et cardio."
+    "description": "Technique, appuis, cardio, renfo."
   },
   {
     "id": "cross",
-    "name": "Cross Training",
+    "name": "Cross",
     "goal": "cross",
     "icon": "🏋️",
     "description": "AMRAP, EMOM, For Time, terrain."
   },
   {
-    "id": "mobilite",
-    "name": "Mobilité recovery",
-    "goal": "mobilite",
-    "icon": "🧘",
-    "description": "Récupération, prévention et posture."
+    "id": "hyrox",
+    "name": "Hyrox",
+    "goal": "hyrox",
+    "icon": "🏁",
+    "description": "Stations, cardio, carries."
   },
   {
-    "id": "circuit",
-    "name": "Circuit Training",
-    "goal": "circuit",
-    "icon": "🔁",
-    "description": "Tours complets, alternance muscles/cardio."
+    "id": "mobilite",
+    "name": "Mobilité",
+    "goal": "mobilite",
+    "icon": "🧘",
+    "description": "Étirements, souplesse, respiration."
   },
   {
     "id": "renfo",
-    "name": "Renforcement",
+    "name": "Renfo",
     "goal": "renfo",
     "icon": "🛡️",
-    "description": "Contrôle, posture, gainage et endurance."
-  },
-  {
-    "id": "hyrox",
-    "name": "Hyrox / Conditioning",
-    "goal": "hyrox",
-    "icon": "🏁",
-    "description": "Stations, cardio, carries et mental."
+    "description": "Posture, gainage, contrôle."
   },
   {
     "id": "explosivite",
-    "name": "Explosivité",
+    "name": "Explosif",
     "goal": "explosivite",
     "icon": "💥",
-    "description": "Puissance, sauts, mouvements athlétiques."
+    "description": "Vitesse, puissance, appuis."
+  },
+  {
+    "id": "reeducation",
+    "name": "Prévention",
+    "goal": "reeducation",
+    "icon": "🧩",
+    "description": "Activation, posture, récupération."
   }
 ]
