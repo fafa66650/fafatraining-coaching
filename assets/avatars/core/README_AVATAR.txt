@@ -1,1 +1,0 @@
-Avatar attendu : assets/avatars/core/avatar.jpg
