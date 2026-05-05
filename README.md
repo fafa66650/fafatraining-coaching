@@ -1,13 +1,13 @@
-# FAFATRAINING V61.1 COACH LOGIC FIX
+# FAFATRAINING V61.2 STRUCTURE PRO
 
-- Accueil nettoyé : plus de doublons inutiles en bas.
-- Pastilles rondes réduites.
-- Logo visible via `assets/logo/logo-fafa.jpg`.
-- Profil séance : âge, nombre de personnes, niveau, durée, blessure, fatigue/stress.
-- Fatigue/stress expliqués.
-- Matériel multi-sélection avec préselection automatique selon objectif.
-- Sous-objectifs : boxe pure, boxe+renfo, boxe+cardio, cardio boxing, HIIT, mobilité.
-- Moteur coach corrigé : mobilité sans pompes, boxe en rounds, charges conseillées.
-- Bibliothèque : 118 mouvements.
+## Corrections
+- Moteur avec durée réelle cohérente : 20 / 30 / 45 / 60 min.
+- Export plus lisible : durée affichée = durée calculée.
+- Accueil plus premium, sans gros encadré lourd, logo intégré en filigrane.
+- Logo rappelé dans chaque page.
+- Matériel détaillé : poulie, banc, tapis, vélo, box/step, medecine ball, machines, etc.
+- Styles : musculation, renfo, full body, HIIT, circuit, boxe, CrossFit style, cross training, Hyrox, mobilité, prévention, explosivité.
+- Sous-styles : boxe pure, boxe+renfo, boxe+cardio, cardio boxing, WOD, force+WOD, skill, mobilité haut/bas/relax.
+- Bibliothèque enrichie : 145 mouvements.
 
-Installation : remplace les fichiers à la racine GitHub et ouvre `index.html?v=611`.
+Installation : remplacer les fichiers à la racine GitHub, ouvrir `index.html?v=612`.

@@ -1,17 +1,24 @@
 [
   {
+    "id": "musculation",
+    "name": "Musculation",
+    "goal": "force",
+    "icon": "💪",
+    "description": "Charges / machines"
+  },
+  {
+    "id": "renforcement",
+    "name": "Renfo",
+    "goal": "renfo",
+    "icon": "🛡️",
+    "description": "Contrôle"
+  },
+  {
     "id": "full",
     "name": "Full Body",
     "goal": "full",
     "icon": "⚡",
     "description": "Complet"
-  },
-  {
-    "id": "force",
-    "name": "Force",
-    "goal": "force",
-    "icon": "💪",
-    "description": "Charges"
   },
   {
     "id": "hiit",
@@ -21,18 +28,32 @@
     "description": "Intervalles"
   },
   {
+    "id": "circuit",
+    "name": "Circuit",
+    "goal": "circuit",
+    "icon": "🔁",
+    "description": "Tours"
+  },
+  {
     "id": "boxe",
     "name": "Boxe",
     "goal": "boxe",
     "icon": "🥊",
-    "description": "Pure/renfo/cardio"
+    "description": "Pure / cardio"
+  },
+  {
+    "id": "crossfit",
+    "name": "CrossFit style",
+    "goal": "crossfit",
+    "icon": "🏋️",
+    "description": "WOD"
   },
   {
     "id": "cross",
-    "name": "Cross",
+    "name": "Cross training",
     "goal": "cross",
-    "icon": "🏋️",
-    "description": "AMRAP/EMOM"
+    "icon": "🏃",
+    "description": "Terrain"
   },
   {
     "id": "hyrox",
@@ -49,11 +70,11 @@
     "description": "Souplesse"
   },
   {
-    "id": "renfo",
-    "name": "Renfo",
-    "goal": "renfo",
-    "icon": "🛡️",
-    "description": "Contrôle"
+    "id": "prevention",
+    "name": "Prévention",
+    "goal": "reeducation",
+    "icon": "🧩",
+    "description": "Récup"
   },
   {
     "id": "explosivite",
@@ -61,12 +82,5 @@
     "goal": "explosivite",
     "icon": "💥",
     "description": "Appuis"
-  },
-  {
-    "id": "reeducation",
-    "name": "Prévention",
-    "goal": "reeducation",
-    "icon": "🧩",
-    "description": "Récup"
   }
 ]

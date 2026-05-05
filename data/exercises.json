@@ -3678,5 +3678,817 @@
     },
     "tips": "Rythme constant.",
     "mistake": "Partir trop vite."
+  },
+  {
+    "id": "mobilite_nuque_douce",
+    "key": "mobilite_nuque_douce",
+    "name": "Mobilité nuque douce",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "cou"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "mobilité",
+      "prévention"
+    ],
+    "contraindications": [
+      "cervicales"
+    ],
+    "levels": {
+      "debutant": "inclinaisons lentes",
+      "intermediaire": "rotations contrôlées",
+      "avance": "tempo respiration",
+      "expert": "routine complète"
+    },
+    "tips": "Mouvement lent, sans douleur.",
+    "mistake": "Forcer l’amplitude."
+  },
+  {
+    "id": "etirement_trapezes",
+    "key": "etirement_trapezes",
+    "name": "Étirement trapèzes",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "trapèzes"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "souplesse",
+      "récupération"
+    ],
+    "contraindications": [
+      "cervicales"
+    ],
+    "levels": {
+      "debutant": "15 sec côté",
+      "intermediaire": "30 sec côté",
+      "avance": "45 sec respiration",
+      "expert": "PNF léger"
+    },
+    "tips": "Épaule basse, respiration lente.",
+    "mistake": "Tirer fort sur la tête."
+  },
+  {
+    "id": "etirement_dorsaux_au_banc",
+    "key": "etirement_dorsaux_au_banc",
+    "name": "Étirement dorsaux au banc",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "dos",
+      "épaules"
+    ],
+    "equipment": [
+      "banc",
+      "chaise"
+    ],
+    "objectives": [
+      "souplesse",
+      "dos"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "sur chaise",
+      "intermediaire": "sur banc",
+      "avance": "respiration longue",
+      "expert": "amplitude contrôlée"
+    },
+    "tips": "Allonge les bras, pousse les hanches arrière.",
+    "mistake": "Cambrer fort."
+  },
+  {
+    "id": "ouverture_thoracique_au_sol",
+    "key": "ouverture_thoracique_au_sol",
+    "name": "Ouverture thoracique au sol",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "colonne",
+      "épaules"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "mobilité",
+      "posture"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "rotation courte",
+      "intermediaire": "rotation complète",
+      "avance": "pause 3 sec",
+      "expert": "flow thoracique"
+    },
+    "tips": "Ouvre depuis le haut du dos.",
+    "mistake": "Tourner le bassin."
+  },
+  {
+    "id": "etirement_pectoraux_au_mur",
+    "key": "etirement_pectoraux_au_mur",
+    "name": "Étirement pectoraux au mur",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "pectoraux"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "posture",
+      "souplesse"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "mur doux",
+      "intermediaire": "angle 90",
+      "avance": "respiration longue",
+      "expert": "variation haute/basse"
+    },
+    "tips": "Épaule basse, cage ouverte.",
+    "mistake": "Avancer trop fort."
+  },
+  {
+    "id": "etirement_avant_bras",
+    "key": "etirement_avant_bras",
+    "name": "Étirement avant-bras",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "poignets"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "poignets",
+      "prévention"
+    ],
+    "contraindications": [
+      "poignet"
+    ],
+    "levels": {
+      "debutant": "paume douce",
+      "intermediaire": "dos de main",
+      "avance": "30 sec",
+      "expert": "routine poignet"
+    },
+    "tips": "Progressif, sans douleur.",
+    "mistake": "Écraser le poignet."
+  },
+  {
+    "id": "activation_coiffe_rotateurs",
+    "key": "activation_coiffe_rotateurs",
+    "name": "Activation coiffe rotateurs",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "épaules"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "objectives": [
+      "épaules",
+      "prévention"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "rotation externe légère",
+      "intermediaire": "2x12",
+      "avance": "3x15",
+      "expert": "tempo strict"
+    },
+    "tips": "Coude collé, mouvement propre.",
+    "mistake": "Tourner tout le buste."
+  },
+  {
+    "id": "wall_angels",
+    "key": "wall_angels",
+    "name": "Wall angels",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "épaules",
+      "dos"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "posture",
+      "épaules"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "amplitude courte",
+      "intermediaire": "8 reps lentes",
+      "avance": "12 reps",
+      "expert": "pause en haut"
+    },
+    "tips": "Dos proche du mur, épaules basses.",
+    "mistake": "Cambrer pour compenser."
+  },
+  {
+    "id": "clamshell",
+    "key": "clamshell",
+    "name": "Clamshell",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "moyen fessier"
+    ],
+    "equipment": [
+      "élastique",
+      "tapis"
+    ],
+    "objectives": [
+      "hanches",
+      "genou"
+    ],
+    "contraindications": [
+      "hanches",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "sans élastique",
+      "intermediaire": "élastique léger",
+      "avance": "3x15",
+      "expert": "pause en haut"
+    },
+    "tips": "Bassin stable, ouvre le genou.",
+    "mistake": "Tourner le bassin."
+  },
+  {
+    "id": "terminal_knee_extension",
+    "key": "terminal_knee_extension",
+    "name": "Terminal knee extension",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "quadriceps"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "objectives": [
+      "genou",
+      "prévention"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "2x15",
+      "avance": "3x15",
+      "expert": "tempo strict"
+    },
+    "tips": "Tends le genou en contrôle.",
+    "mistake": "Verrouiller brutalement."
+  },
+  {
+    "id": "equilibre_unipodal",
+    "key": "equilibre_unipodal",
+    "name": "Équilibre unipodal",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "cheville"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "cheville",
+      "genou"
+    ],
+    "contraindications": [
+      "cheville",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "support proche",
+      "intermediaire": "30 sec",
+      "avance": "yeux fermés",
+      "expert": "surface instable"
+    },
+    "tips": "Pied actif, genou aligné.",
+    "mistake": "S’effondrer vers l’intérieur."
+  },
+  {
+    "id": "montees_de_genoux_low_impact",
+    "key": "montees_de_genoux_low_impact",
+    "name": "Montées de genoux low impact",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "type": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "cardio",
+      "débutant"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "marche active",
+      "intermediaire": "rythme modéré",
+      "avance": "30/30",
+      "expert": "haute cadence"
+    },
+    "tips": "Bras actifs, posture haute.",
+    "mistake": "Se pencher en arrière."
+  },
+  {
+    "id": "step_touch_cardio",
+    "key": "step_touch_cardio",
+    "name": "Step touch cardio",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "type": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "cardio",
+      "senior"
+    ],
+    "contraindications": [
+      "cheville",
+      "genou"
+    ],
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "modéré",
+      "avance": "bras actifs",
+      "expert": "intervalle rapide"
+    },
+    "tips": "Reste souple, respire.",
+    "mistake": "Faire des pas trop grands."
+  },
+  {
+    "id": "velo_intervalle",
+    "key": "velo_intervalle",
+    "name": "Vélo intervalle",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "type": "cardio",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "vélo"
+    ],
+    "objectives": [
+      "cardio",
+      "hiit"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "10 min easy",
+      "intermediaire": "30/30",
+      "avance": "45/15",
+      "expert": "sprints"
+    },
+    "tips": "Cadence régulière, contrôle souffle.",
+    "mistake": "Trop de résistance."
+  },
+  {
+    "id": "tapis_marche_inclinee",
+    "key": "tapis_marche_inclinee",
+    "name": "Tapis marche inclinée",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "type": "cardio",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "cardio",
+      "perte_de_poids"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "inclinaison douce",
+      "intermediaire": "10 min",
+      "avance": "intervalles",
+      "expert": "inclinaison forte"
+    },
+    "tips": "Posture haute, pas régulier.",
+    "mistake": "S’accrocher fort."
+  },
+  {
+    "id": "poulie_tirage_horizontal",
+    "key": "poulie_tirage_horizontal",
+    "name": "Poulie tirage horizontal",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "type": "force",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "poulie",
+      "machine"
+    ],
+    "objectives": [
+      "dos",
+      "musculation"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "léger technique",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd contrôlé"
+    },
+    "tips": "Tire les coudes vers l’arrière.",
+    "mistake": "Épaules qui montent."
+  },
+  {
+    "id": "poulie_vis_a_vis",
+    "key": "poulie_vis_a_vis",
+    "name": "Poulie vis-à-vis",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "type": "isolation",
+    "muscles": [
+      "pectoraux"
+    ],
+    "equipment": [
+      "poulie",
+      "machine"
+    ],
+    "objectives": [
+      "pectoraux",
+      "musculation"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "3x15",
+      "avance": "4x12",
+      "expert": "tempo strict"
+    },
+    "tips": "Bras semi-fléchis, contrôle.",
+    "mistake": "Tirer avec les épaules."
+  },
+  {
+    "id": "chest_press_machine",
+    "key": "chest_press_machine",
+    "name": "Chest press machine",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "type": "force",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "objectives": [
+      "pectoraux",
+      "débutant"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "léger guidé",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd contrôlé"
+    },
+    "tips": "Dos collé, poussée propre.",
+    "mistake": "Verrouiller brutalement."
+  },
+  {
+    "id": "leg_press_machine",
+    "key": "leg_press_machine",
+    "name": "Leg press machine",
+    "group": "bas_du_corps",
+    "pattern": "Legs",
+    "type": "force",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "objectives": [
+      "jambes",
+      "musculation"
+    ],
+    "contraindications": [
+      "genou",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "amplitude courte",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd contrôlé"
+    },
+    "tips": "Bassin collé, genoux alignés.",
+    "mistake": "Décoller le bassin."
+  },
+  {
+    "id": "abduction_machine",
+    "key": "abduction_machine",
+    "name": "Abduction machine",
+    "group": "bas_du_corps",
+    "pattern": "Legs",
+    "type": "isolation",
+    "muscles": [
+      "moyen fessier"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "objectives": [
+      "hanches",
+      "prévention"
+    ],
+    "contraindications": [
+      "hanches"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "3x15",
+      "avance": "4x15",
+      "expert": "pause contrôlée"
+    },
+    "tips": "Bassin stable, ouvre sans élan.",
+    "mistake": "Balancer le corps."
+  },
+  {
+    "id": "assault_bike",
+    "key": "assault_bike",
+    "name": "Assault bike",
+    "group": "cardio",
+    "pattern": "CrossFit",
+    "type": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "air bike",
+      "vélo"
+    ],
+    "objectives": [
+      "crossfit",
+      "hiit"
+    ],
+    "contraindications": [
+      "genou",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "cadence douce",
+      "intermediaire": "10 cal",
+      "avance": "15 cal",
+      "expert": "sprint calories"
+    },
+    "tips": "Bras et jambes ensemble.",
+    "mistake": "Partir trop vite."
+  },
+  {
+    "id": "wall_walk",
+    "key": "wall_walk",
+    "name": "Wall walk",
+    "group": "cardio",
+    "pattern": "CrossFit",
+    "type": "gym",
+    "muscles": [
+      "épaules",
+      "core"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "crossfit",
+      "épaules"
+    ],
+    "contraindications": [
+      "épaule",
+      "poignet"
+    ],
+    "levels": {
+      "debutant": "marche partielle",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "volume expert"
+    },
+    "tips": "Gainage fort, mains contrôlées.",
+    "mistake": "Cambrer fort."
+  },
+  {
+    "id": "toes_to_bar",
+    "key": "toes_to_bar",
+    "name": "Toes to bar",
+    "group": "core",
+    "pattern": "CrossFit",
+    "type": "core",
+    "muscles": [
+      "abdos",
+      "grip"
+    ],
+    "equipment": [
+      "barre traction"
+    ],
+    "objectives": [
+      "crossfit",
+      "core"
+    ],
+    "contraindications": [
+      "épaule",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "relevés genoux",
+      "intermediaire": "genoux suspendus",
+      "avance": "toes to bar strict",
+      "expert": "enchaîné"
+    },
+    "tips": "Contrôle le balancier.",
+    "mistake": "Tirer sur les épaules."
+  },
+  {
+    "id": "clean_and_jerk_technique",
+    "key": "clean_and_jerk_technique",
+    "name": "Clean and jerk technique",
+    "group": "cardio",
+    "pattern": "CrossFit",
+    "type": "power",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "objectives": [
+      "crossfit",
+      "puissance"
+    ],
+    "contraindications": [
+      "lombaires",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "PVC technique",
+      "intermediaire": "charge légère",
+      "avance": "complexe technique",
+      "expert": "lourd technique"
+    },
+    "tips": "Décompose le mouvement.",
+    "mistake": "Chercher la charge avant la forme."
+  },
+  {
+    "id": "snatch_technique",
+    "key": "snatch_technique",
+    "name": "Snatch technique",
+    "group": "cardio",
+    "pattern": "CrossFit",
+    "type": "power",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "objectives": [
+      "crossfit",
+      "puissance"
+    ],
+    "contraindications": [
+      "épaule",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "PVC technique",
+      "intermediaire": "haltère léger",
+      "avance": "barre légère",
+      "expert": "complexe expert"
+    },
+    "tips": "Trajectoire proche du corps.",
+    "mistake": "Tirer loin devant."
+  },
+  {
+    "id": "box_step_over",
+    "key": "box_step_over",
+    "name": "Box step-over",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "type": "cardio",
+    "muscles": [
+      "jambes"
+    ],
+    "equipment": [
+      "box",
+      "step"
+    ],
+    "objectives": [
+      "hyrox",
+      "jambes"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "step bas",
+      "intermediaire": "box modéré",
+      "avance": "avec charge",
+      "expert": "volume rapide"
+    },
+    "tips": "Pose le pied entier, contrôle.",
+    "mistake": "Sauter sans contrôle."
+  },
+  {
+    "id": "sandbag_carry",
+    "key": "sandbag_carry",
+    "name": "Sandbag carry",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "type": "carry",
+    "muscles": [
+      "core",
+      "jambes"
+    ],
+    "equipment": [
+      "sandbag",
+      "sac"
+    ],
+    "objectives": [
+      "hyrox",
+      "carry"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "léger 20m",
+      "intermediaire": "40m",
+      "avance": "60m",
+      "expert": "lourd long"
+    },
+    "tips": "Buste haut, respiration.",
+    "mistake": "Dos rond."
   }
 ]
