@@ -1,16 +1,13 @@
-# FAFATRAINING V63 FINAL PERFECT
+# FAFATRAINING V63.1 ROUND IOS FIX
 
-Version corrigée selon les consignes :
-- accueil plus iOS / premium avec logo agrandi et filigrane propre ;
-- bulles réduites et mieux organisées ;
-- générateur complet : objectif, style, niveau, durée réelle, lieu, âge, personnes, contraintes, fatigue, stress ;
-- matériel rangé par catégorie ;
-- menu séance mix affiche + app ;
-- zone OBJECTIF claire ;
-- badges ronds ;
-- chaque bloc indique durée, format, travail, repos, répétitions ;
-- export image / PDF ;
-- bibliothèque nettoyée et enrichie ;
-- 160 mouvements.
+Corrections ciblées après test :
+- accueil plus propre, sans gros filigrane carré ;
+- logo visible propre ;
+- pastilles sport vraiment rondes et plus petites ;
+- matériel en petites pastilles rondes par catégories ;
+- styles précis en pastilles rondes ;
+- menu séance plus proche du modèle : logo plus gros, badges ronds, objectif mieux placé, meta déplacée ;
+- bibliothèque plus clean avec bénéfices ;
+- 160 mouvements conservés.
 
-Installation : remplacer les fichiers GitHub par ceux du ZIP puis ouvrir `index.html?v=63`.
+Installation : remplacer les fichiers du dépôt par ceux du ZIP.
