@@ -42,7 +42,7 @@ const subRules={
  boxe_renfo:{activation:['boxe','mobilite'],main:['boxe'],assistance:['core','haut_du_corps','bas_du_corps'],finisher:['boxe','cardio']},
  boxe_cardio:{activation:['boxe','cardio'],main:['boxe','cardio'],assistance:['core'],finisher:['cardio','boxe']},
  cardio_boxing:{activation:['cardio','boxe'],main:['boxe','cardio'],assistance:['cardio','core'],finisher:['cardio']},
- crossfit_wod:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},
+ crossfit_wod:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},crossfit_emom:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},crossfit_fortime:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},
  crossfit_force:{activation:['mobilite'],main:['haut_du_corps','bas_du_corps'],assistance:['core'],finisher:['cardio']},
  crossfit_skill:{activation:['mobilite'],main:['cardio','core'],assistance:['reeducation','core'],finisher:['mobilite']},
  mobilite_bas:{activation:['mobilite'],main:['mobilite'],assistance:['mobilite'],finisher:['mobilite']},
@@ -87,8 +87,15 @@ function details(block,cfg,count){
   if(block==='finisher')return{format:'6 x 30 sec',work:'30 sec intense',rest:'30 sec',reps:'garde haute'};
  }
  if(cfg.goal==='crossfit'){
-  if(block==='main')return cfg.subgoal==='crossfit_force'?{format:'Force + WOD',work:'5 séries x 5 reps',rest:'90 sec',reps:'charge propre'}:{format:`AMRAP ${m} min`,work:'enchaîner les exercices',rest:'si besoin',reps:'8-12 reps par mouvement'};
-  if(block==='finisher')return{format:`For Time ${m} min`,work:'finir le circuit',rest:'minimum propre',reps:'qualité avant vitesse'};
+  if(block==='main'){
+    if(cfg.subgoal==='crossfit_force')return{format:'Force + WOD',work:'5 séries x 5 reps puis WOD court',rest:'90 sec force / 30 sec WOD',reps:'charge propre'};
+    if(cfg.subgoal==='crossfit_emom')return{format:`EMOM ${m} min`,work:'1 exercice au début de chaque minute',rest:'reste de la minute',reps:'6-12 reps selon mouvement'};
+    if(cfg.subgoal==='crossfit_fortime')return{format:`For Time ${m} min`,work:'finir la liste le plus propre possible',rest:'courts repos contrôlés',reps:'10-20 reps selon mouvement'};
+    if(cfg.subgoal==='crossfit_skill')return{format:`Skill ${m} min`,work:'technique + contrôle',rest:'45-60 sec',reps:'5-8 reps propres'};
+    return{format:`AMRAP ${m} min`,work:'enchaîner les exercices',rest:'si besoin',reps:'8-12 reps par mouvement'};
+  }
+  if(block==='activation')return{format:`${m} min progressif`,work:'mobilité + montée cardio',rest:'aucun',reps:'30-45 sec par mouvement'};
+  if(block==='finisher')return{format:`For Time ${m} min`,work:'finir propre sans casser la technique',rest:'minimum propre',reps:'qualité avant vitesse'};
  }
  if(cfg.goal==='hiit')return{format:block==='main'?`${m} min HIIT`:`${m} min`,work:'40 sec travail',rest:'20 sec repos',reps:'rythme soutenu'};
  if(cfg.goal==='mobilite'||cfg.goal==='reeducation')return{format:`${m} min contrôle`,work:'45-60 sec par mouvement',rest:'respiration lente',reps:'aucune douleur'};
@@ -97,12 +104,30 @@ function details(block,cfg,count){
  if(cfg.goal==='hyrox')return{format:`${m} min stations`,work:'3 min station',rest:'1 min transition',reps:'rythme régulier'};
  return{format:`${m} min`,work:`${count} exercices`,rest:'repos adapté',reps:'qualité avant vitesse'};
 }
+function prescription(e,cfg,block,idx){
+ if(cfg.goal==='boxe') return block==='main'?'round 2-3 min':'30-45 sec';
+ if(cfg.goal==='crossfit'){
+   if(cfg.subgoal==='crossfit_emom') return '6-10 reps / minute';
+   if(cfg.subgoal==='crossfit_fortime') return '10-20 reps';
+   if(cfg.subgoal==='crossfit_force'&&block==='main') return idx<2?'5 x 5 reps':'8-12 reps';
+   return block==='main'?'8-12 reps':'30-45 sec';
+ }
+ if(cfg.goal==='hiit') return '40 sec travail / 20 sec repos';
+ if(cfg.goal==='mobilite'||cfg.goal==='reeducation') return '45-60 sec contrôlé';
+ if(cfg.goal==='force') return block==='main'?'3-5 séries x 8-12 reps':'2-3 séries x 10-15 reps';
+ if(cfg.goal==='explosivite') return '3-6 reps explosives';
+ return block==='main'?'10-15 reps':'30-45 sec';
+}
 function charge(e,l,g){let eq=(e.equipment||[]).join(' ');if(eq.match(/barre|haltères|kettlebell|machine|poulie/)){if(g==='force')return l==='debutant'?'léger technique · RPE 5-6':l==='intermediaire'?'60-75% effort · RPE 7':l==='avance'?'70-85% effort · RPE 8':'80-90% effort · RPE 8-9';return 'charge modérée contrôlable'}return 'poids du corps / contrôle'}
+function isComposite(e){
+ let n=(e.name||'').toLowerCase();
+ return n.includes('circuit ')||n.includes('amrap ')||n.includes('emom ')||n.includes('for time ')||n.includes('wod ');
+}
 function pick(exs,n,block,cfg,used,h){
- let ranked=shuffle(exs).filter(e=>!used.has(e.id)&&safeFor(e,cfg.injury)&&hasEq(e,cfg.equipmentList)).map(e=>({e,s:score(e,cfg,block,h)})).filter(x=>x.s>-60).sort((a,b)=>b.s-a.s).map(x=>x.e);
- if(ranked.length<n)ranked=ranked.concat(shuffle(exs).filter(e=>!used.has(e.id)&&!ranked.includes(e)&&safeFor(e,cfg.injury)));
+ let ranked=shuffle(exs).filter(e=>!used.has(e.id)&&!isComposite(e)&&safeFor(e,cfg.injury)&&hasEq(e,cfg.equipmentList)).map(e=>({e,s:score(e,cfg,block,h)})).filter(x=>x.s>-60).sort((a,b)=>b.s-a.s).map(x=>x.e);
+ if(ranked.length<n)ranked=ranked.concat(shuffle(exs).filter(e=>!used.has(e.id)&&!isComposite(e)&&!ranked.includes(e)&&safeFor(e,cfg.injury)));
  let out=ranked.slice(0,n);out.forEach(e=>used.add(e.id));
- return out.map(e=>{let a=adapt(e,cfg.level);a.charge=charge(a,cfg.level,cfg.goal);return a});
+ return out.map((e,idx)=>{let a=adapt(e,cfg.level);a.charge=charge(a,cfg.level,cfg.goal);a.prescription=prescription(a,cfg,block,idx);return a});
 }
 function generate(cfg,exs){
  let c={...cfg,level:cfg.level==='choisir'?'intermediaire':cfg.level,duration:cfg.duration==='choisir'?30:Number(cfg.duration),equipmentList:cfg.equipmentList?.length?cfg.equipmentList:['poids du corps'],people:Number(cfg.people||1),age:Number(cfg.age||0)};

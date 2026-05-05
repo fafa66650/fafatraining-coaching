@@ -237,3 +237,140 @@
   .exportBlock{grid-template-columns:1fr!important}
   .exportBlock aside{border-left:0!important;border-top:2px solid var(--g)!important;border-radius:16px!important}
 }
+
+
+/* ===== V63.2 MENU + LOGIC FIX ===== */
+
+/* All generator circles exactly the same size */
+.compact,
+.panel .dotGrid.compact{
+  display:grid!important;
+  grid-template-columns:repeat(6,58px)!important;
+  gap:12px!important;
+  justify-content:center!important;
+  align-items:center!important;
+}
+.compact .dot,
+.panel .dotGrid.compact .dot,
+.dot{
+  width:58px!important;
+  height:58px!important;
+  min-width:58px!important;
+  min-height:58px!important;
+  border-radius:50%!important;
+  padding:4px!important;
+}
+.compact .dot span,.dot span{font-size:15px!important}
+.compact .dot b,.dot b{font-size:7.8px!important;line-height:1.05!important}
+
+/* Style precise same visual language */
+.smallPills{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  justify-content:flex-start!important;
+  gap:10px!important;
+}
+.smallPills button{
+  width:72px!important;
+  height:72px!important;
+  min-width:72px!important;
+  min-height:72px!important;
+  border-radius:50%!important;
+  padding:6px!important;
+}
+.smallPills button b{font-size:8.2px!important;line-height:1.02!important}
+.smallPills button small{font-size:7.2px!important;line-height:1!important}
+
+/* Inputs same height / better grid */
+.formGrid{
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:14px!important;
+  align-items:end!important;
+}
+.formGrid label{display:flex;flex-direction:column;gap:5px}
+.formGrid input,.formGrid select{
+  height:48px!important;
+  border-radius:18px!important;
+}
+
+/* Material smaller round compact */
+.equipGrid{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:9px!important;
+}
+.equip{
+  width:58px!important;
+  height:58px!important;
+  min-width:58px!important;
+  min-height:58px!important;
+  border-radius:50%!important;
+  padding:3px!important;
+}
+.equip span{font-size:13px!important}
+.equip b{font-size:7.2px!important;max-width:48px!important;line-height:1!important}
+.equipBlock h3{font-size:16px!important;margin:8px 0 6px!important}
+.sliders{grid-template-columns:1fr 1fr!important}
+.range{padding:8px 12px!important;border-radius:18px!important}
+.range input{height:32px!important}
+
+/* Export header: one logo only, aligned */
+.exportBg{display:none!important}
+.exportCard header{
+  grid-template-columns:145px 1fr 135px!important;
+  gap:16px!important;
+}
+.exportCard header img{
+  width:140px!important;height:140px!important;
+}
+.exportCard h1{
+  font-size:74px!important;
+  line-height:.78!important;
+}
+.menuMeta{
+  margin:8px 0 12px 158px!important;
+  font-size:15px!important;
+}
+.objective{
+  border-radius:16px!important;
+  padding:10px 12px!important;
+  align-items:center!important;
+}
+.objective b{
+  font-size:25px!important;
+}
+.badges.roundBadges span{
+  width:92px!important;
+  height:92px!important;
+  font-size:12px!important;
+}
+.exportBlock{
+  grid-template-columns:1fr 215px!important;
+  padding:10px!important;
+}
+.exportBlock h2{
+  font-size:34px!important;
+}
+.exportBlock small{
+  font-size:13px!important;
+}
+.exportItems p{
+  min-height:58px!important;
+}
+.exportItems strong{
+  font-size:14px!important;
+}
+.exportItems span{
+  font-size:11px!important;
+}
+.exportBlock aside b{font-size:24px!important}
+.exportBlock aside span,.exportBlock aside em,.exportBlock aside i{
+  font-size:13px!important;
+  margin-top:5px!important;
+}
+
+@media(max-width:860px){
+  .compact,.panel .dotGrid.compact{grid-template-columns:repeat(5,58px)!important}
+  .formGrid{grid-template-columns:1fr!important}
+  .menuMeta{margin-left:0!important}
+}
