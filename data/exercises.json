@@ -4490,5 +4490,452 @@
     },
     "tips": "Buste haut, respiration.",
     "mistake": "Dos rond."
+  },
+  {
+    "id": "jumping_jack",
+    "key": "jumping_jack",
+    "name": "Jumping jack",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "type": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "hiit",
+      "cardio"
+    ],
+    "contraindications": [
+      "genou",
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "step jack",
+      "intermediaire": "standard",
+      "avance": "tempo rapide",
+      "expert": "explosif"
+    },
+    "tips": "Bras actifs, réception souple.",
+    "mistake": "Genoux verrouillés."
+  },
+  {
+    "id": "burpee",
+    "key": "burpee",
+    "name": "Burpee",
+    "group": "cardio",
+    "pattern": "HIIT",
+    "type": "cardio",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "hiit",
+      "full"
+    ],
+    "contraindications": [
+      "lombaires",
+      "poignet"
+    ],
+    "levels": {
+      "debutant": "sans pompe",
+      "intermediaire": "standard",
+      "avance": "avec saut",
+      "expert": "explosif"
+    },
+    "tips": "Garde le rythme sans casser la technique.",
+    "mistake": "Dos rond au sol."
+  },
+  {
+    "id": "fentes_marchees",
+    "key": "fentes_marchees",
+    "name": "Fentes marchées",
+    "group": "bas_du_corps",
+    "pattern": "Legs",
+    "type": "force",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps",
+      "haltères"
+    ],
+    "objectives": [
+      "jambes",
+      "force"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "assistées",
+      "intermediaire": "poids du corps",
+      "avance": "haltères",
+      "expert": "lourd contrôlé"
+    },
+    "tips": "Genou aligné, buste haut.",
+    "mistake": "Pas trop court."
+  },
+  {
+    "id": "rowing_halteres",
+    "key": "rowing_halteres",
+    "name": "Rowing haltères",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "type": "force",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "objectives": [
+      "dos",
+      "force"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "unilatéral léger",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd strict"
+    },
+    "tips": "Tire le coude vers la hanche.",
+    "mistake": "Épaule qui monte."
+  },
+  {
+    "id": "developpe_epaules_halteres",
+    "key": "developpe_epaules_halteres",
+    "name": "Développé épaules haltères",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "type": "force",
+    "muscles": [
+      "épaules",
+      "triceps"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "objectives": [
+      "épaules",
+      "force"
+    ],
+    "contraindications": [
+      "épaule",
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "assis léger",
+      "intermediaire": "debout strict",
+      "avance": "tempo",
+      "expert": "lourd strict"
+    },
+    "tips": "Côtes rentrées, trajectoire stable.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "planche_laterale",
+    "key": "planche_laterale",
+    "name": "Planche latérale",
+    "group": "core",
+    "pattern": "Core",
+    "type": "core",
+    "muscles": [
+      "obliques"
+    ],
+    "equipment": [
+      "poids du corps",
+      "tapis"
+    ],
+    "objectives": [
+      "core",
+      "prévention"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "genoux",
+      "intermediaire": "30 sec",
+      "avance": "45 sec",
+      "expert": "lestée"
+    },
+    "tips": "Hanche haute, corps aligné.",
+    "mistake": "Hanche qui tombe."
+  },
+  {
+    "id": "assault_bike_calories",
+    "key": "assault_bike_calories",
+    "name": "Assault bike calories",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "type": "cardio",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "air bike",
+      "vélo"
+    ],
+    "objectives": [
+      "hyrox",
+      "hiit"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "8 cal",
+      "intermediaire": "12 cal",
+      "avance": "15 cal",
+      "expert": "20 cal"
+    },
+    "tips": "Rythme constant, respiration maîtrisée.",
+    "mistake": "Partir trop fort."
+  },
+  {
+    "id": "sac_de_frappe_rounds",
+    "key": "sac_de_frappe_rounds",
+    "name": "Sac de frappe rounds",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "boxe",
+    "muscles": [
+      "épaules",
+      "cardio"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "objectives": [
+      "boxe",
+      "cardio"
+    ],
+    "contraindications": [
+      "poignet",
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "3x1 min",
+      "intermediaire": "3x2 min",
+      "avance": "4x2 min",
+      "expert": "5x3 min"
+    },
+    "tips": "Garde haute, tourne autour du sac.",
+    "mistake": "Rester statique."
+  },
+  {
+    "id": "shadow_avec_esquives",
+    "key": "shadow_avec_esquives",
+    "name": "Shadow avec esquives",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "type": "boxe",
+    "muscles": [
+      "boxe",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "objectives": [
+      "boxe",
+      "technique"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "2 min",
+      "avance": "3 rounds",
+      "expert": "vitesse + esquives"
+    },
+    "tips": "Respire, varie les angles.",
+    "mistake": "Forcer les épaules."
+  },
+  {
+    "id": "etirement_flechisseurs_hanche",
+    "key": "etirement_flechisseurs_hanche",
+    "name": "Étirement fléchisseurs hanche",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "hanches",
+      "quadriceps"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "mobilité",
+      "hanches"
+    ],
+    "contraindications": [
+      "lombaires"
+    ],
+    "levels": {
+      "debutant": "30 sec",
+      "intermediaire": "45 sec",
+      "avance": "60 sec",
+      "expert": "PNF léger"
+    },
+    "tips": "Bassin rétroversé, respiration lente.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "etirement_mollets_mur",
+    "key": "etirement_mollets_mur",
+    "name": "Étirement mollets mur",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "mollets"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "mobilité",
+      "cheville"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "30 sec",
+      "intermediaire": "45 sec",
+      "avance": "60 sec",
+      "expert": "genou fléchi/tendu"
+    },
+    "tips": "Talon au sol, posture haute.",
+    "mistake": "Décoller le talon."
+  },
+  {
+    "id": "mobilite_chevilles_genou_mur",
+    "key": "mobilite_chevilles_genou_mur",
+    "name": "Mobilité chevilles genou mur",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "type": "mobility",
+    "muscles": [
+      "chevilles"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "objectives": [
+      "cheville",
+      "prévention"
+    ],
+    "contraindications": [
+      "cheville"
+    ],
+    "levels": {
+      "debutant": "amplitude douce",
+      "intermediaire": "10 reps",
+      "avance": "15 reps",
+      "expert": "pause contrôlée"
+    },
+    "tips": "Genou avance dans l’axe.",
+    "mistake": "Talon qui décolle."
+  },
+  {
+    "id": "respiration_recuperation",
+    "key": "respiration_recuperation",
+    "name": "Respiration récupération",
+    "group": "mobilite",
+    "pattern": "Respiration",
+    "type": "recovery",
+    "muscles": [
+      "respiration"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "objectives": [
+      "récupération",
+      "stress"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "2 min",
+      "intermediaire": "3 min",
+      "avance": "5 min",
+      "expert": "10 min"
+    },
+    "tips": "Inspire nasal, expire long.",
+    "mistake": "Respiration haute."
+  },
+  {
+    "id": "face_pull_elastique",
+    "key": "face_pull_elastique",
+    "name": "Face pull élastique",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "type": "prevention",
+    "muscles": [
+      "arrière épaules"
+    ],
+    "equipment": [
+      "élastique",
+      "poulie"
+    ],
+    "objectives": [
+      "épaules",
+      "posture"
+    ],
+    "contraindications": [
+      "épaule"
+    ],
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "2x15",
+      "avance": "3x15",
+      "expert": "tempo strict"
+    },
+    "tips": "Coudes hauts, omoplates serrées.",
+    "mistake": "Cambrer."
+  },
+  {
+    "id": "marche_active_recuperation",
+    "key": "marche_active_recuperation",
+    "name": "Marche active récupération",
+    "group": "cardio",
+    "pattern": "Recovery",
+    "type": "recovery",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "extérieur",
+      "tapis"
+    ],
+    "objectives": [
+      "récupération",
+      "senior"
+    ],
+    "contraindications": [
+      "genou"
+    ],
+    "levels": {
+      "debutant": "5 min",
+      "intermediaire": "10 min",
+      "avance": "15 min",
+      "expert": "20 min"
+    },
+    "tips": "Respire facile, posture haute.",
+    "mistake": "Aller trop vite."
   }
 ]

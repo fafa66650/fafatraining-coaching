@@ -4,14 +4,14 @@
     "name": "Musculation",
     "goal": "force",
     "icon": "💪",
-    "description": "Charges / machines"
+    "description": "Force / charges"
   },
   {
     "id": "renforcement",
     "name": "Renfo",
     "goal": "renfo",
     "icon": "🛡️",
-    "description": "Contrôle"
+    "description": "Posture / gainage"
   },
   {
     "id": "full",
@@ -25,7 +25,7 @@
     "name": "HIIT",
     "goal": "hiit",
     "icon": "🔥",
-    "description": "Intervalles"
+    "description": "Intensité"
   },
   {
     "id": "circuit",
@@ -39,11 +39,11 @@
     "name": "Boxe",
     "goal": "boxe",
     "icon": "🥊",
-    "description": "Pure / cardio"
+    "description": "Rounds"
   },
   {
     "id": "crossfit",
-    "name": "CrossFit style",
+    "name": "CrossFit",
     "goal": "crossfit",
     "icon": "🏋️",
     "description": "WOD"
@@ -81,6 +81,6 @@
     "name": "Explosif",
     "goal": "explosivite",
     "icon": "💥",
-    "description": "Appuis"
+    "description": "Vitesse"
   }
 ]

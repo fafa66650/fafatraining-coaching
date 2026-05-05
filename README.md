@@ -1,13 +1,16 @@
-# FAFATRAINING V61.2 STRUCTURE PRO
+# FAFATRAINING V63 FINAL PERFECT
 
-## Corrections
-- Moteur avec durée réelle cohérente : 20 / 30 / 45 / 60 min.
-- Export plus lisible : durée affichée = durée calculée.
-- Accueil plus premium, sans gros encadré lourd, logo intégré en filigrane.
-- Logo rappelé dans chaque page.
-- Matériel détaillé : poulie, banc, tapis, vélo, box/step, medecine ball, machines, etc.
-- Styles : musculation, renfo, full body, HIIT, circuit, boxe, CrossFit style, cross training, Hyrox, mobilité, prévention, explosivité.
-- Sous-styles : boxe pure, boxe+renfo, boxe+cardio, cardio boxing, WOD, force+WOD, skill, mobilité haut/bas/relax.
-- Bibliothèque enrichie : 145 mouvements.
+Version corrigée selon les consignes :
+- accueil plus iOS / premium avec logo agrandi et filigrane propre ;
+- bulles réduites et mieux organisées ;
+- générateur complet : objectif, style, niveau, durée réelle, lieu, âge, personnes, contraintes, fatigue, stress ;
+- matériel rangé par catégorie ;
+- menu séance mix affiche + app ;
+- zone OBJECTIF claire ;
+- badges ronds ;
+- chaque bloc indique durée, format, travail, repos, répétitions ;
+- export image / PDF ;
+- bibliothèque nettoyée et enrichie ;
+- 160 mouvements.
 
-Installation : remplacer les fichiers à la racine GitHub, ouvrir `index.html?v=612`.
+Installation : remplacer les fichiers GitHub par ceux du ZIP puis ouvrir `index.html?v=63`.
