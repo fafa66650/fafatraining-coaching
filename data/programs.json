@@ -1,86 +1,74 @@
 [
   {
-    "id": "musculation",
+    "goal": "musculation",
     "name": "Musculation",
-    "goal": "force",
     "icon": "💪",
-    "description": "Force / charges"
+    "description": "Force, charges, progression."
   },
   {
-    "id": "renforcement",
-    "name": "Renfo",
     "goal": "renfo",
+    "name": "Renfo",
     "icon": "🛡️",
-    "description": "Posture / gainage"
+    "description": "Posture, gainage, contrôle."
   },
   {
-    "id": "full",
-    "name": "Full Body",
     "goal": "full",
+    "name": "Full Body",
     "icon": "⚡",
-    "description": "Complet"
+    "description": "Complet, tout public."
   },
   {
-    "id": "hiit",
-    "name": "HIIT",
     "goal": "hiit",
+    "name": "HIIT",
     "icon": "🔥",
-    "description": "Intensité"
+    "description": "Intervalles, cardio."
   },
   {
-    "id": "circuit",
-    "name": "Circuit",
     "goal": "circuit",
+    "name": "Circuit",
     "icon": "🔁",
-    "description": "Tours"
+    "description": "Tours, alternance."
   },
   {
-    "id": "boxe",
-    "name": "Boxe",
     "goal": "boxe",
+    "name": "Boxe",
     "icon": "🥊",
-    "description": "Rounds"
+    "description": "Technique, sac, appuis."
   },
   {
-    "id": "crossfit",
-    "name": "CrossFit",
     "goal": "crossfit",
+    "name": "CrossFit",
     "icon": "🏋️",
-    "description": "WOD"
+    "description": "WOD, AMRAP, EMOM."
   },
   {
-    "id": "cross",
-    "name": "Cross training",
     "goal": "cross",
+    "name": "Cross training",
     "icon": "🏃",
-    "description": "Terrain"
+    "description": "Terrain, endurance."
   },
   {
-    "id": "hyrox",
-    "name": "Hyrox",
     "goal": "hyrox",
+    "name": "Hyrox",
     "icon": "🏁",
-    "description": "Stations"
+    "description": "Stations, carries."
   },
   {
-    "id": "mobilite",
-    "name": "Mobilité",
     "goal": "mobilite",
+    "name": "Mobilité",
     "icon": "🧘",
-    "description": "Souplesse"
+    "description": "Souplesse, respiration."
   },
   {
-    "id": "prevention",
+    "goal": "prevention",
     "name": "Prévention",
-    "goal": "reeducation",
     "icon": "🧩",
-    "description": "Récup"
+    "description": "Protection, récup."
   },
   {
-    "id": "explosivite",
-    "name": "Explosif",
     "goal": "explosivite",
+    "name": "Explosif",
     "icon": "💥",
-    "description": "Vitesse"
+    "description": "Vitesse, puissance."
   }
 ]

@@ -1,141 +1,128 @@
 
-const Engine=(()=>{
-const blockLabels={activation:'ENTRÉE',main:'PLAT',assistance:'ACCOMPAGNEMENT',finisher:'DESSERT'};
-const blockObjectives={
- activation:'Activer le corps, monter progressivement en température et préparer les gestes.',
- main:'Travailler le cœur de la séance avec un format clair et mesurable.',
- assistance:'Compléter le travail, renforcer les zones utiles et sécuriser les mouvements.',
- finisher:'Finir avec intensité contrôlée et garder une technique propre.'
+const FafaEngine=(()=>{
+const blocks=[
+ {id:'activation',title:'1. ENTRÉE',role:'Préparer le corps, la respiration et les articulations.'},
+ {id:'main',title:'2. PLAT',role:'Bloc principal : objectif de la séance.'},
+ {id:'assistance',title:'3. ACCOMPAGNEMENT',role:'Renforcement utile, posture et sécurité.'},
+ {id:'finisher',title:'4. DESSERT',role:'Finisher, retour au calme ou récupération selon objectif.'}
+];
+const configs={
+ musculation:{label:'MUSCULATION',objective:'Force, hypertrophie et progression avec charges adaptées.',groups:['haut_du_corps','bas_du_corps','core'],badges:['💪 Force','🎯 Progression','🧠 Contrôle','⏱ Tempo']},
+ renfo:{label:'RENFORCEMENT',objective:'Tonus, gainage, posture et corps solide.',groups:['haut_du_corps','bas_du_corps','core','reeducation'],badges:['🛡 Posture','💪 Tonus','🧠 Contrôle','⚡ Énergie']},
+ full:{label:'FULL BODY',objective:'Séance complète haut, bas, core et cardio.',groups:['haut_du_corps','bas_du_corps','core','cardio'],badges:['⚡ Complet','💪 Force','🏃 Cardio','🧠 Mental']},
+ hiit:{label:'HIIT',objective:'Intervalles intenses, souffle et dépense énergétique.',groups:['cardio','bas_du_corps','haut_du_corps','core'],badges:['🔥 Intensité','⏱ Intervalles','🏃 Cardio','⚡ Explosif']},
+ circuit:{label:'CIRCUIT TRAINING',objective:'Tours clairs, rythme, ateliers et alternance musculaire.',groups:['cardio','haut_du_corps','bas_du_corps','core'],badges:['🔁 Tours','💪 Renfo','🏃 Cardio','🎯 Rythme']},
+ boxe:{label:'BOXE',objective:'Technique, appuis, rounds, cardio et explosivité boxe.',groups:['boxe','cardio','core','haut_du_corps','bas_du_corps'],badges:['🥊 Technique','🦶 Appuis','🏃 Cardio','🧠 Mental']},
+ crossfit:{label:'CROSSFIT',objective:'WOD structuré : AMRAP, EMOM, For Time, Skill ou Force + WOD.',groups:['cardio','bas_du_corps','haut_du_corps','core'],badges:['🏋 WOD','🔥 AMRAP','⏱ EMOM','🧠 Mental']},
+ cross:{label:'CROSS TRAINING',objective:'Terrain, force utile, endurance et capacité à enchaîner.',groups:['cardio','bas_du_corps','haut_du_corps','core'],badges:['🏃 Terrain','💪 Force','🔥 Endurance','🎯 Discipline']},
+ hyrox:{label:'HYROX',objective:'Stations, carries, course, transitions et endurance de force.',groups:['cardio','bas_du_corps','core','haut_du_corps'],badges:['🏁 Stations','🏃 Course','🎒 Carries','🧠 Mental']},
+ mobilite:{label:'MOBILITÉ',objective:'Souplesse, amplitude, respiration et récupération.',groups:['mobilite','reeducation','core'],badges:['🧘 Souplesse','🌬 Respiration','🛡 Prévention','🧠 Calme']},
+ prevention:{label:'PRÉVENTION',objective:'Activer, protéger, renforcer sans douleur et récupérer.',groups:['reeducation','mobilite','core'],badges:['🧩 Activation','🛡 Sécurité','🧠 Contrôle','🌬 Respiration']},
+ explosivite:{label:'EXPLOSIVITÉ',objective:'Puissance, vitesse, appuis et réactivité.',groups:['cardio','bas_du_corps','haut_du_corps','core'],badges:['💥 Puissance','⚡ Vitesse','🎯 Réactivité','🧠 Mental']}
 };
-const themes={
- force:{title:'MUSCULATION',icons:['💪 Force','🎯 Progression','🧠 Contrôle','⏱ Discipline'],objective:'Développer la force propre avec charges adaptées, repos clair et technique prioritaire.'},
- renfo:{title:'RENFORCEMENT',icons:['🛡 Posture','💪 Tonus','🧠 Contrôle','⚡ Énergie'],objective:'Renforcer le corps, améliorer le gainage et protéger les articulations.'},
- full:{title:'FULL BODY',icons:['⚡ Complet','💪 Force','🏃 Cardio','🧠 Mental'],objective:'Travailler haut, bas, core et cardio dans une séance équilibrée.'},
- hiit:{title:'HIIT',icons:['🔥 Intensité','🏃 Cardio','⚡ Explosif','⏱ Chrono'],objective:'Monter l’intensité, travailler le souffle et brûler un maximum en peu de temps.'},
- circuit:{title:'CIRCUIT TRAINING',icons:['🔁 Tours','💪 Renfo','🏃 Cardio','🎯 Rythme'],objective:'Enchaîner plusieurs exercices avec des tours précis et un rythme régulier.'},
- boxe:{title:'BOXE CONDITIONING',icons:['🥊 Boxe','🏃 Cardio','🦶 Appuis','🧠 Mental'],objective:'Améliorer technique, appuis, endurance et explosivité spécifique boxe.'},
- crossfit:{title:'CROSSFIT',icons:['🏋 WOD','🔥 AMRAP','⏱ EMOM','🧠 Mental'],objective:'Créer un WOD lisible, chronométré, avec intensité et contrôle technique.'},
- cross:{title:'CROSS TRAINING',icons:['🏃 Terrain','💪 Force','🔥 Endurance','🎯 Discipline'],objective:'Développer endurance, force utile, mental et capacité à enchaîner.'},
- hyrox:{title:'HYROX',icons:['🏁 Stations','🏃 Cardio','🎒 Carries','🧠 Mental'],objective:'Travailler stations, transitions, cardio et endurance de force.'},
- mobilite:{title:'MOBILITÉ',icons:['🧘 Souplesse','🌬 Respiration','🛡 Prévention','🧠 Calme'],objective:'Améliorer souplesse, respiration, amplitude et récupération.'},
- reeducation:{title:'PRÉVENTION',icons:['🧩 Activation','🛡 Sécurité','🧠 Contrôle','🌬 Respiration'],objective:'Activer, protéger et renforcer sans douleur.'},
- explosivite:{title:'EXPLOSIVITÉ',icons:['💥 Vitesse','⚡ Puissance','🎯 Réactivité','🧠 Mental'],objective:'Développer vitesse, puissance, appuis et coordination.'}
+const styles={
+ musculation:[['force_pure','Force pure','3-5 séries','series_force'],['hypertrophie','Hypertrophie','8-12 reps','series'],['endurance_force','Endurance force','15-20 reps','series_endurance'],['push_pull','Push/Pull','haut du corps','series'],['jambes','Jambes','bas du corps','series']],
+ renfo:[['posture','Posture','contrôle','prehab'],['core','Core','gainage','core'],['dos_protecteur','Dos','protection','prehab'],['senior_safe','Senior safe','sécurisé','prehab']],
+ full:[['equilibre','Équilibré','haut/bas/core','circuit'],['cardio_renfo','Cardio+renfo','alterné','interval'],['force_complete','Force complète','charges','series'],['terrain','Terrain','extérieur','circuit']],
+ hiit:[['tabata','Tabata','20/10','tabata'],['interval_40_20','40/20','intervalles','interval'],['brule_graisse','Brûle graisse','intense','hiit'],['cardio_boxing','Cardio boxing','boxe fitness','round']],
+ circuit:[['tours','Tours','3-5 tours','circuit'],['stations','Stations','ateliers','stations'],['groupe','Groupe','plusieurs','stations'],['cardio_mix','Cardio mix','alternance','interval']],
+ boxe:[['boxe_pure','Boxe pure','3 min','round'],['boxe_renfo','Boxe+renfo','hybride','hybrid'],['boxe_cardio','Boxe cardio','30/30','interval'],['cardio_boxing','Cardio boxing','public','round'],['appuis_defense','Appuis','défense','skill']],
+ crossfit:[['wod','WOD','lisible','wod'],['amrap','AMRAP','max tours','amrap'],['emom','EMOM','chaque minute','emom'],['for_time','For Time','chrono','fortime'],['force_wod','Force+WOD','charge+cardio','hybrid'],['skill','Skill','technique','skill']],
+ cross:[['terrain','Terrain','course+renfo','circuit'],['endurance','Endurance','long effort','interval'],['force_terrain','Force terrain','charges','circuit'],['team','Équipe','ateliers','stations']],
+ hyrox:[['stations','Stations','course+atelier','stations'],['carries','Carries','portés','circuit'],['cardio','Cardio','rameur/course','interval'],['simulation','Simulation','format course','stations']],
+ mobilite:[['bas','Bas du corps','hanches/jambes','mobility'],['haut','Haut du corps','épaules/dos','mobility'],['colonne','Colonne','dos/respiration','mobility'],['relax','Relax','calme','breath']],
+ prevention:[['epaule','Épaules','coiffe','prehab'],['genou','Genoux','contrôle','prehab'],['dos','Dos','gainage doux','prehab'],['recup','Récup','auto-massage','recovery']],
+ explosivite:[['vitesse','Vitesse','appuis','agility'],['puissance','Puissance','sauts/lancers','power'],['reactivite','Réactivité','changements','agility'],['athlete','Athlète','haut niveau','power']]
 };
-const recipes={
- force:{activation:['mobilite','reeducation'],main:['haut_du_corps','bas_du_corps'],assistance:['core','haut_du_corps','bas_du_corps'],finisher:['core','cardio']},
- renfo:{activation:['mobilite','reeducation'],main:['haut_du_corps','bas_du_corps','core'],assistance:['core','reeducation'],finisher:['mobilite','cardio']},
- full:{activation:['mobilite','cardio'],main:['haut_du_corps','bas_du_corps','core'],assistance:['core','reeducation'],finisher:['cardio']},
- hiit:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},
- circuit:{activation:['mobilite','cardio'],main:['cardio','haut_du_corps','bas_du_corps','core'],assistance:['core','bas_du_corps'],finisher:['cardio']},
- boxe:{activation:['boxe','cardio','mobilite'],main:['boxe'],assistance:['core','haut_du_corps','bas_du_corps'],finisher:['boxe','cardio']},
- crossfit:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps','core'],assistance:['core','reeducation'],finisher:['cardio']},
- cross:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core','bas_du_corps','haut_du_corps'],finisher:['cardio']},
- hyrox:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps'],assistance:['core','haut_du_corps'],finisher:['cardio']},
- mobilite:{activation:['mobilite'],main:['mobilite'],assistance:['mobilite','reeducation'],finisher:['mobilite']},
- reeducation:{activation:['mobilite','reeducation'],main:['reeducation','mobilite'],assistance:['core','reeducation'],finisher:['mobilite','reeducation']},
- explosivite:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps'],assistance:['core','reeducation'],finisher:['cardio']}
+const profiles={
+ tabata:{format:'TABATA',rounds:'8 rounds',work:'20 sec',rest:'10 sec',reps:'max propre',intensity:'haute'},
+ interval:{format:'INTERVAL',rounds:'8 à 12 séries',work:'40 sec',rest:'20 sec',reps:'rythme soutenu',intensity:'haute'},
+ hiit:{format:'HIIT',rounds:'3 à 4 tours',work:'35-45 sec',rest:'15-25 sec',reps:'propre + rapide',intensity:'haute'},
+ amrap:{format:'AMRAP',rounds:'12 à 18 min',work:'enchaîner',rest:'si besoin',reps:'8-15 reps',intensity:'contrôlée'},
+ emom:{format:'EMOM',rounds:'10 à 16 min',work:'début de minute',rest:'reste de minute',reps:'6-12 reps',intensity:'technique'},
+ fortime:{format:'FOR TIME',rounds:'cap temps',work:'finir la liste',rest:'court',reps:'10-20 reps',intensity:'haute propre'},
+ wod:{format:'WOD',rounds:'AMRAP ou For Time',work:'bloc structuré',rest:'court',reps:'reps affichées',intensity:'progressive'},
+ hybrid:{format:'HYBRIDE',rounds:'force + cardio',work:'séries puis circuit',rest:'60-90 sec puis court',reps:'5-12 reps',intensity:'mixte'},
+ round:{format:'ROUNDS',rounds:'3 à 5 rounds',work:'2-3 min',rest:'1 min',reps:'combo / thème',intensity:'technique'},
+ skill:{format:'SKILL',rounds:'qualité technique',work:'5-8 reps',rest:'45-60 sec',reps:'contrôle',intensity:'modérée'},
+ circuit:{format:'CIRCUIT',rounds:'3 à 5 tours',work:'10-15 reps ou 40 sec',rest:'60 sec/tour',reps:'affichées',intensity:'modérée+'},
+ stations:{format:'STATIONS',rounds:'4 à 6 stations',work:'2-4 min/station',rest:'1 min transition',reps:'distance ou temps',intensity:'endurance'},
+ series:{format:'SÉRIES',rounds:'3 à 5 séries',work:'8-12 reps',rest:'60-90 sec',reps:'charge adaptée',intensity:'progressive'},
+ series_force:{format:'FORCE',rounds:'4 à 6 séries',work:'3-6 reps',rest:'90-150 sec',reps:'lourd propre',intensity:'haute qualité'},
+ series_endurance:{format:'ENDURANCE FORCE',rounds:'3 à 4 séries',work:'15-20 reps',rest:'45-60 sec',reps:'contrôle',intensity:'moyenne'},
+ mobility:{format:'MOBILITÉ',rounds:'2 à 3 tours',work:'45-60 sec',rest:'respiration',reps:'aucune douleur',intensity:'douce'},
+ prehab:{format:'PRÉVENTION',rounds:'2 à 3 séries',work:'10-15 reps',rest:'30-45 sec',reps:'contrôle',intensity:'douce'},
+ recovery:{format:'RÉCUP',rounds:'routine',work:'45-90 sec',rest:'respiration',reps:'pression douce',intensity:'douce'},
+ breath:{format:'RESPIRATION',rounds:'routine calme',work:'2-5 min',rest:'libre',reps:'respiration lente',intensity:'très douce'},
+ power:{format:'PUISSANCE',rounds:'4 à 6 séries',work:'3-6 reps',rest:'60-90 sec',reps:'explosif propre',intensity:'haute qualité'},
+ agility:{format:'RÉACTIVITÉ',rounds:'6 à 10 séquences',work:'10-20 sec',rest:'40-60 sec',reps:'vitesse propre',intensity:'nerveuse'},
+ core:{format:'CORE',rounds:'3 à 4 séries',work:'30-45 sec',rest:'30 sec',reps:'gainage propre',intensity:'contrôle'}
 };
-const subRules={
- force_hypertrophie:{activation:['mobilite'],main:['haut_du_corps','bas_du_corps'],assistance:['haut_du_corps','bas_du_corps','core'],finisher:['core']},
- force_force:{activation:['mobilite'],main:['haut_du_corps','bas_du_corps'],assistance:['core'],finisher:['cardio']},
- boxe_pure:{activation:['boxe','mobilite'],main:['boxe'],assistance:['boxe','core'],finisher:['boxe']},
- boxe_renfo:{activation:['boxe','mobilite'],main:['boxe'],assistance:['core','haut_du_corps','bas_du_corps'],finisher:['boxe','cardio']},
- boxe_cardio:{activation:['boxe','cardio'],main:['boxe','cardio'],assistance:['core'],finisher:['cardio','boxe']},
- cardio_boxing:{activation:['cardio','boxe'],main:['boxe','cardio'],assistance:['cardio','core'],finisher:['cardio']},
- crossfit_wod:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},crossfit_emom:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},crossfit_fortime:{activation:['mobilite','cardio'],main:['cardio','bas_du_corps','haut_du_corps'],assistance:['core'],finisher:['cardio']},
- crossfit_force:{activation:['mobilite'],main:['haut_du_corps','bas_du_corps'],assistance:['core'],finisher:['cardio']},
- crossfit_skill:{activation:['mobilite'],main:['cardio','core'],assistance:['reeducation','core'],finisher:['mobilite']},
- mobilite_bas:{activation:['mobilite'],main:['mobilite'],assistance:['mobilite'],finisher:['mobilite']},
- mobilite_haut:{activation:['mobilite'],main:['mobilite','reeducation'],assistance:['mobilite'],finisher:['mobilite']},
- mobilite_relax:{activation:['mobilite'],main:['mobilite'],assistance:['mobilite'],finisher:['mobilite']}
-};
-function hist(){try{return JSON.parse(localStorage.getItem('fafa_v63_hist')||'[]')}catch(e){return[]}}
-function saveHist(keys){localStorage.setItem('fafa_v63_hist',JSON.stringify(keys.slice(-260)))}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function safeFor(e,inj){return !inj||!(e.contraindications||[]).includes(inj)}
-function hasEq(e,eqs){if(!eqs||!eqs.length||eqs.includes('tous'))return true;let q=e.equipment||[];return q.includes('poids du corps')||eqs.some(x=>q.includes(x))}
-function allowed(cfg,block){let r=subRules[cfg.subgoal]||recipes[cfg.goal]||recipes.full;return r[block]||[]}
-function score(e,cfg,block,h){
- let s=0,a=allowed(cfg,block),obj=e.objectives||[];
- if(a.includes(e.group))s+=30;
- if(cfg.goal==='mobilite'&&!['mobilite','reeducation'].includes(e.group))s-=120;
- if(cfg.goal==='reeducation'&&!['mobilite','reeducation','core'].includes(e.group))s-=90;
- if(cfg.goal==='boxe'&&e.group==='boxe')s+=18;
- if(cfg.goal==='crossfit'&&(obj.includes('crossfit')||e.pattern==='CrossFit'))s+=14;
- if(cfg.goal==='hyrox'&&(obj.includes('hyrox')||e.pattern==='Hyrox'))s+=14;
- if(h.includes(e.id))s-=18;
- if(cfg.fatigue>=4&&['power','cardio','cross'].includes(e.type))s-=6;
- if(cfg.stress>=4&&['mobilite','reeducation'].includes(e.group))s+=7;
- if(cfg.age && cfg.age<14 && ['power','gym'].includes(e.type))s-=12;
- if(cfg.age && cfg.age>65 && ['power','cross'].includes(e.type))s-=14;
- if(cfg.people>1&&(e.equipment||[]).includes('machine'))s-=4;
+function hist(){try{return JSON.parse(localStorage.getItem('fafa_v65_hist')||'[]')}catch(e){return[]}}
+function save(ids){localStorage.setItem('fafa_v65_hist',JSON.stringify(ids.slice(-360)))}
+function styleType(cfg){let a=styles[cfg.goal]||styles.full;return (a.find(x=>x[0]===cfg.style)||a[0])[3]}
+function profile(cfg){return profiles[styleType(cfg)]||profiles.circuit}
+function equipmentOk(e,eq){if(!eq||!eq.length)return true;let q=e.equipment||[];if(q.includes('poids du corps'))return true;if(eq.includes('machines')&&q.includes('machine'))return true;return eq.some(x=>q.includes(x))}
+function safe(e,inj){return !inj||!(e.contraindications||[]).includes(inj)}
+function allowedGroups(cfg,block){
+ if(block==='activation')return ['mobilite','reeducation','cardio','boxe'];
+ if(cfg.goal==='mobilite')return ['mobilite','reeducation'];
+ if(cfg.goal==='prevention')return ['reeducation','mobilite','core'];
+ if(cfg.goal==='boxe')return block==='main'?['boxe']:['boxe','cardio','core','reeducation','haut_du_corps','bas_du_corps'];
+ return (configs[cfg.goal]||configs.full).groups;
+}
+function score(e,cfg,block,used,h){
+ let s=0,g=allowedGroups(cfg,block),obj=e.objectives||[];
+ if(g.includes(e.group))s+=30;
+ if(used.has(e.id))s-=100;
+ if(h.includes(e.id))s-=10;
+ if(!safe(e,cfg.injury))s-=100;
+ if(!equipmentOk(e,cfg.equipment))s-=14;
+ if(cfg.goal==='boxe'&&e.group==='boxe')s+=25;
+ if(cfg.goal==='crossfit'&&obj.includes('crossfit'))s+=18;
+ if(cfg.goal==='hyrox'&&obj.includes('hyrox'))s+=18;
+ if(cfg.goal==='mobilite'&&e.group==='mobilite')s+=20;
+ if(cfg.goal==='prevention'&&e.group==='reeducation')s+=20;
+ if(cfg.style?.includes('core')&&e.group==='core')s+=20;
+ if(cfg.style?.includes('jambes')&&e.group==='bas_du_corps')s+=20;
+ if(cfg.style?.includes('haut')&&e.group==='haut_du_corps')s+=20;
+ if(+cfg.age>65&&['mobilite','reeducation'].includes(e.group))s+=8;
+ if(+cfg.age<15&&['mobilite','reeducation','core'].includes(e.group))s+=4;
+ if(+cfg.fatigue>=4&&e.group==='cardio')s-=5;
+ if(+cfg.stress>=4&&['mobilite','reeducation'].includes(e.group))s+=6;
  return s;
 }
-function adapt(e,l){let v=e.levels?.[l]||e.levels?.intermediaire||e.name;return {...e,displayName:e.name,instruction:v,shortTip:e.tips,shortMistake:e.mistake}}
-function split(goal,total){
- if(goal==='mobilite'||goal==='reeducation') return {activation:4,main:Math.max(8,total-12),assistance:5,finisher:3};
- if(total<=20)return{activation:4,main:10,assistance:4,finisher:2};
- if(total<=30)return{activation:5,main:14,assistance:7,finisher:4};
- if(total<=45)return{activation:7,main:22,assistance:10,finisher:6};
+function duration(cfg){
+ let d=+cfg.duration||30;
+ if(cfg.goal==='mobilite'||cfg.goal==='prevention'){
+  if(d<=20)return{activation:3,main:10,assistance:5,finisher:2};
+  if(d<=30)return{activation:4,main:15,assistance:8,finisher:3};
+  if(d<=45)return{activation:6,main:22,assistance:12,finisher:5};
+  return{activation:8,main:30,assistance:16,finisher:6};
+ }
+ if(d<=20)return{activation:4,main:9,assistance:5,finisher:2};
+ if(d<=30)return{activation:5,main:14,assistance:7,finisher:4};
+ if(d<=45)return{activation:7,main:22,assistance:10,finisher:6};
  return{activation:8,main:30,assistance:14,finisher:8};
 }
-function details(block,cfg,count){
- let m=split(cfg.goal,cfg.duration)[block];
- if(cfg.goal==='boxe'){
-  if(block==='main')return cfg.subgoal==='boxe_pure'?{format:'3 rounds x 3 min',work:'3 min / round',rest:'1 min entre rounds',reps:'jab-cross-crochet / défense / appuis'}:{format:'4 rounds x 2 min',work:'2 min / round',rest:'1 min',reps:'sac ou shadow + renfo court'};
-  if(block==='activation')return{format:`${m} min progressif`,work:'appuis + mobilité + shadow',rest:'aucun',reps:'30-45 sec par atelier'};
-  if(block==='finisher')return{format:'6 x 30 sec',work:'30 sec intense',rest:'30 sec',reps:'garde haute'};
- }
- if(cfg.goal==='crossfit'){
-  if(block==='main'){
-    if(cfg.subgoal==='crossfit_force')return{format:'Force + WOD',work:'5 séries x 5 reps puis WOD court',rest:'90 sec force / 30 sec WOD',reps:'charge propre'};
-    if(cfg.subgoal==='crossfit_emom')return{format:`EMOM ${m} min`,work:'1 exercice au début de chaque minute',rest:'reste de la minute',reps:'6-12 reps selon mouvement'};
-    if(cfg.subgoal==='crossfit_fortime')return{format:`For Time ${m} min`,work:'finir la liste le plus propre possible',rest:'courts repos contrôlés',reps:'10-20 reps selon mouvement'};
-    if(cfg.subgoal==='crossfit_skill')return{format:`Skill ${m} min`,work:'technique + contrôle',rest:'45-60 sec',reps:'5-8 reps propres'};
-    return{format:`AMRAP ${m} min`,work:'enchaîner les exercices',rest:'si besoin',reps:'8-12 reps par mouvement'};
-  }
-  if(block==='activation')return{format:`${m} min progressif`,work:'mobilité + montée cardio',rest:'aucun',reps:'30-45 sec par mouvement'};
-  if(block==='finisher')return{format:`For Time ${m} min`,work:'finir propre sans casser la technique',rest:'minimum propre',reps:'qualité avant vitesse'};
- }
- if(cfg.goal==='hiit')return{format:block==='main'?`${m} min HIIT`:`${m} min`,work:'40 sec travail',rest:'20 sec repos',reps:'rythme soutenu'};
- if(cfg.goal==='mobilite'||cfg.goal==='reeducation')return{format:`${m} min contrôle`,work:'45-60 sec par mouvement',rest:'respiration lente',reps:'aucune douleur'};
- if(cfg.goal==='force')return{format:block==='main'?`${m} min force`:`${m} min`,work:block==='main'?'3-5 séries x 8-12 reps':'2-3 séries x 10-15 reps',rest:block==='main'?'60-90 sec':'45-60 sec',reps:'RPE adapté'};
- if(cfg.goal==='explosivite')return{format:`${m} min explosif`,work:'3-6 reps rapides',rest:'60 sec',reps:'qualité maximale'};
- if(cfg.goal==='hyrox')return{format:`${m} min stations`,work:'3 min station',rest:'1 min transition',reps:'rythme régulier'};
- return{format:`${m} min`,work:`${count} exercices`,rest:'repos adapté',reps:'qualité avant vitesse'};
+function count(cfg,block){
+ let d=+cfg.duration||30;
+ if(block==='activation')return d<=20?2:3;
+ if(block==='main')return d<=20?3:5;
+ if(block==='assistance')return d<=20?2:3;
+ if(block==='finisher')return cfg.goal==='mobilite'||cfg.goal==='prevention'?1:2;
+ return 2;
 }
-function prescription(e,cfg,block,idx){
- if(cfg.goal==='boxe') return block==='main'?'round 2-3 min':'30-45 sec';
- if(cfg.goal==='crossfit'){
-   if(cfg.subgoal==='crossfit_emom') return '6-10 reps / minute';
-   if(cfg.subgoal==='crossfit_fortime') return '10-20 reps';
-   if(cfg.subgoal==='crossfit_force'&&block==='main') return idx<2?'5 x 5 reps':'8-12 reps';
-   return block==='main'?'8-12 reps':'30-45 sec';
- }
- if(cfg.goal==='hiit') return '40 sec travail / 20 sec repos';
- if(cfg.goal==='mobilite'||cfg.goal==='reeducation') return '45-60 sec contrôlé';
- if(cfg.goal==='force') return block==='main'?'3-5 séries x 8-12 reps':'2-3 séries x 10-15 reps';
- if(cfg.goal==='explosivite') return '3-6 reps explosives';
- return block==='main'?'10-15 reps':'30-45 sec';
+function pick(exs,cfg,block,used,h){
+ let n=count(cfg,block), list=shuffle(exs).map(e=>({e,s:score(e,cfg,block,used,h)})).filter(x=>x.s>-40).sort((a,b)=>b.s-a.s).map(x=>x.e);
+ if(list.length<n)list=shuffle(exs).filter(e=>!used.has(e.id)&&safe(e,cfg.injury));
+ let out=list.slice(0,n);out.forEach(e=>used.add(e.id));return out.map((e,i)=>adapt(e,cfg,block,i));
 }
-function charge(e,l,g){let eq=(e.equipment||[]).join(' ');if(eq.match(/barre|haltères|kettlebell|machine|poulie/)){if(g==='force')return l==='debutant'?'léger technique · RPE 5-6':l==='intermediaire'?'60-75% effort · RPE 7':l==='avance'?'70-85% effort · RPE 8':'80-90% effort · RPE 8-9';return 'charge modérée contrôlable'}return 'poids du corps / contrôle'}
-function isComposite(e){
- let n=(e.name||'').toLowerCase();
- return n.includes('circuit ')||n.includes('amrap ')||n.includes('emom ')||n.includes('for time ')||n.includes('wod ');
-}
-function pick(exs,n,block,cfg,used,h){
- let ranked=shuffle(exs).filter(e=>!used.has(e.id)&&!isComposite(e)&&safeFor(e,cfg.injury)&&hasEq(e,cfg.equipmentList)).map(e=>({e,s:score(e,cfg,block,h)})).filter(x=>x.s>-60).sort((a,b)=>b.s-a.s).map(x=>x.e);
- if(ranked.length<n)ranked=ranked.concat(shuffle(exs).filter(e=>!used.has(e.id)&&!isComposite(e)&&!ranked.includes(e)&&safeFor(e,cfg.injury)));
- let out=ranked.slice(0,n);out.forEach(e=>used.add(e.id));
- return out.map((e,idx)=>{let a=adapt(e,cfg.level);a.charge=charge(a,cfg.level,cfg.goal);a.prescription=prescription(a,cfg,block,idx);return a});
-}
-function generate(cfg,exs){
- let c={...cfg,level:cfg.level==='choisir'?'intermediaire':cfg.level,duration:cfg.duration==='choisir'?30:Number(cfg.duration),equipmentList:cfg.equipmentList?.length?cfg.equipmentList:['poids du corps'],people:Number(cfg.people||1),age:Number(cfg.age||0)};
- let used=new Set(),h=hist(),mainCount=c.duration>=45?5:4;if(c.goal==='mobilite'||c.goal==='reeducation')mainCount=4;if(c.duration<=20)mainCount=3;
- let theme=themes[c.goal]||themes.full, s={title:`${theme.title} · ${c.level}`,theme,objective:theme.objective,meta:{goal:c.goal,subgoal:c.subgoal||'',level:c.level,duration:`${c.duration} min`,durationReal:c.duration,equipment:c.equipmentList.join(', '),injury:c.injury||'aucune',age:c.age||'non renseigné',people:c.people,stress:c.stress,fatigue:c.fatigue},blocks:{},blockInfos:{}};
- s.blocks.activation=pick(exs,2,'activation',c,used,h);s.blocks.main=pick(exs,mainCount,'main',c,used,h);s.blocks.assistance=pick(exs,c.duration<=20?2:3,'assistance',c,used,h);s.blocks.finisher=pick(exs,(c.goal==='mobilite'||c.goal==='reeducation')?1:2,'finisher',c,used,h);
- let mins=split(c.goal,c.duration);Object.keys(mins).forEach(k=>s.blockInfos[k]={minutes:mins[k],objective:blockObjectives[k],...details(k,c,s.blocks[k].length)});
- saveHist([...h,...Object.values(s.blocks).flat().map(e=>e.id)]);return s;
-}
-return{generate,blockLabels};
+function adapt(e,cfg,block,i){let lvl=cfg.level==='choisir'?'intermediaire':cfg.level;return{...e,displayName:e.name,instruction:e.levels?.[lvl]||e.levels?.intermediaire||e.name,prescription:prescription(e,cfg,block,i),charge:charge(e,cfg)}}
+function prescription(e,cfg,block,i){let st=styleType(cfg),p=profile(cfg);if(block==='activation')return '30-45 sec technique';if(st==='tabata')return '20 sec travail / 10 sec repos';if(st==='emom')return '6-12 reps au début de minute';if(st==='amrap')return i%2?'12 reps':'10 reps';if(st==='fortime')return i%2?'15 reps':'10 reps';if(st==='round')return block==='main'?'round 2-3 min':'30-45 sec';if(st==='power'||st==='agility')return '3-6 reps explosives';if(['mobility','prehab','recovery','breath'].includes(st))return p.work;if(st==='series_force')return '4-6 séries x 3-6 reps';if(st==='series')return block==='main'?'3-5 séries x 8-12 reps':'2-3 séries x 10-15 reps';if(st==='series_endurance')return '3-4 séries x 15-20 reps';if(st==='stations')return '2-4 min / station';return block==='main'?'10-15 reps ou 40 sec':'30-45 sec'}
+function charge(e,cfg){let q=(e.equipment||[]).join(' '),lvl=cfg.level;if(q.match(/barre|haltères|kettlebell|machine|poulie/)){if(cfg.goal==='musculation'){if(lvl==='debutant')return 'charge légère · technique';if(lvl==='intermediaire'||lvl==='choisir')return 'charge modérée · RPE 7';if(lvl==='avance')return 'charge lourde contrôlée · RPE 8';return 'charge lourde maîtrisée · RPE 8-9'}return 'charge contrôlable'}return 'poids du corps / contrôle'}
+function info(cfg,block,items){let m=duration(cfg)[block],p=profile(cfg);if(block==='activation')return{minutes:m,format:'Activation',rounds:`${m} min`,work:'30-45 sec par exercice',rest:'enchaîner propre',reps:'amplitude + respiration',intensity:'progressive'};if(block==='assistance')return{minutes:m,format:'Renforcement utile',rounds:`${m} min`,work:`${items.length} exercices`,rest:'30-45 sec',reps:'contrôle + posture',intensity:'contrôle'};if(block==='finisher')return{minutes:m,format:cfg.goal==='mobilite'||cfg.goal==='prevention'?'Retour au calme':'Finisher',rounds:`${m} min`,work:p.format==='ROUNDS'?'30/30':'enchaînement court',rest:'adapté',reps:'finir propre',intensity:p.intensity};let rounds=p.rounds;if(p.format==='AMRAP')rounds=`AMRAP ${m} min`;if(p.format==='EMOM')rounds=`EMOM ${m} min`;if(p.format==='FOR TIME')rounds=`For Time ${m} min`;if(p.format==='TABATA')rounds='8 rounds';if(p.format==='ROUNDS')rounds=cfg.level==='expert'?'5 rounds x 3 min':'3 rounds x 2-3 min';return{minutes:m,format:p.format,rounds,work:p.work,rest:p.rest,reps:p.reps,intensity:p.intensity}}
+function generate(cfg,exs){cfg={goal:'full',style:'equilibre',level:'intermediaire',duration:30,equipment:['poids du corps'],age:'',people:1,fatigue:3,stress:3,injury:'',place:'',...cfg};let used=new Set(),h=hist(),conf=configs[cfg.goal]||configs.full,s={title:conf.label,objective:conf.objective,theme:conf,style:cfg.style,meta:{...cfg,equipment:(cfg.equipment||[]).join(', ')},blocks:{},infos:{}};blocks.forEach(b=>{s.blocks[b.id]=pick(exs,cfg,b.id,used,h);s.infos[b.id]=info(cfg,b.id,s.blocks[b.id])});save([...h,...Object.values(s.blocks).flat().map(e=>e.id)]);return s}
+return{blocks,configs,styles,generate,profile};
 })();
