@@ -26,7 +26,9 @@
       "intermediaire": "pompes genoux",
       "avance": "pompes classiques",
       "expert": "pompes lestées / tempo lent"
-    }
+    },
+    "human_explain": "Pompes : mouvement pour pectoraux, triceps, épaules, avec poids du corps.",
+    "coach_note": "Corps gainé, mains sous épaules. Erreur à éviter : Dos creusé ou épaules qui montent."
   },
   {
     "id": "ex002",
@@ -55,7 +57,9 @@
       "intermediaire": "haltères légers",
       "avance": "barre contrôlée",
       "expert": "lourd / cluster"
-    }
+    },
+    "human_explain": "Développé couché : mouvement pour pectoraux, triceps, avec barre, haltères.",
+    "coach_note": "Omoplates serrées, barre contrôlée. Erreur à éviter : Rebondir la barre ou casser les poignets."
   },
   {
     "id": "ex003",
@@ -84,7 +88,9 @@
       "intermediaire": "haltères légers",
       "avance": "tempo contrôlé",
       "expert": "lourd strict"
-    }
+    },
+    "human_explain": "Développé incliné : mouvement pour haut pectoraux, épaules, avec haltères, barre.",
+    "coach_note": "Banc modéré, épaules basses. Erreur à éviter : Coudes trop ouverts."
   },
   {
     "id": "ex004",
@@ -112,7 +118,9 @@
       "intermediaire": "élastique assistance",
       "avance": "dips propres",
       "expert": "dips lestés"
-    }
+    },
+    "human_explain": "Dips : mouvement pour triceps, pectoraux, avec barre parallèle, poids du corps.",
+    "coach_note": "Descente contrôlée, épaules basses. Erreur à éviter : Descendre trop bas si douleur épaules."
   },
   {
     "id": "ex005",
@@ -139,7 +147,9 @@
       "intermediaire": "debout strict",
       "avance": "tempo 3 sec",
       "expert": "lourd strict"
-    }
+    },
+    "human_explain": "Shoulder press haltères : mouvement pour épaules, triceps, avec haltères.",
+    "coach_note": "Gainage fort, trajectoire verticale. Erreur à éviter : Cambrer le dos."
   },
   {
     "id": "ex006",
@@ -168,7 +178,9 @@
       "intermediaire": "barre légère",
       "avance": "strict press",
       "expert": "lourd / push press"
-    }
+    },
+    "human_explain": "Développé militaire : mouvement pour épaules, triceps, core, avec barre, haltères.",
+    "coach_note": "Fessiers serrés, côtes rentrées. Erreur à éviter : Se pencher en arrière."
   },
   {
     "id": "ex007",
@@ -195,7 +207,9 @@
       "intermediaire": "haltères légers",
       "avance": "tempo lent",
       "expert": "drop set"
-    }
+    },
+    "human_explain": "Élévations latérales : mouvement pour épaules, avec haltères, élastique.",
+    "coach_note": "Coudes souples, montée contrôlée. Erreur à éviter : Balancer le buste."
   },
   {
     "id": "ex008",
@@ -223,7 +237,9 @@
       "intermediaire": "contrôle strict",
       "avance": "tempo lent",
       "expert": "lourd alterné"
-    }
+    },
+    "human_explain": "Rowing haltère : mouvement pour dos, biceps, avec haltères, banc.",
+    "coach_note": "Dos plat, coude vers la hanche. Erreur à éviter : Tourner le buste."
   },
   {
     "id": "ex009",
@@ -250,7 +266,9 @@
       "intermediaire": "strict",
       "avance": "tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Rowing barre : mouvement pour dos, biceps, ischios, avec barre.",
+    "coach_note": "Dos neutre, tirage vers nombril. Erreur à éviter : Arrondir le dos."
   },
   {
     "id": "ex010",
@@ -278,7 +296,9 @@
       "intermediaire": "poulie légère",
       "avance": "strict",
       "expert": "lourd contrôlé"
-    }
+    },
+    "human_explain": "Tirage vertical : mouvement pour grand dorsal, biceps, avec poulie, machine.",
+    "coach_note": "Poitrine haute, tirer les coudes. Erreur à éviter : Tirer derrière la nuque."
   },
   {
     "id": "ex011",
@@ -305,7 +325,9 @@
       "intermediaire": "tractions assistées",
       "avance": "tractions strictes",
       "expert": "lestées"
-    }
+    },
+    "human_explain": "Tractions : mouvement pour dos, biceps, avec barre traction.",
+    "coach_note": "Gainage, menton au-dessus. Erreur à éviter : Kip non maîtrisé."
   },
   {
     "id": "ex012",
@@ -333,7 +355,9 @@
       "intermediaire": "poulie légère",
       "avance": "tempo",
       "expert": "série longue"
-    }
+    },
+    "human_explain": "Face pull : mouvement pour arrière épaules, trapèzes, avec poulie, élastique.",
+    "coach_note": "Tirer vers le visage, coudes hauts. Erreur à éviter : Cambrer ou tirer trop lourd."
   },
   {
     "id": "ex013",
@@ -360,7 +384,9 @@
       "intermediaire": "haltères légers",
       "avance": "tempo",
       "expert": "curl lourd strict"
-    }
+    },
+    "human_explain": "Curl biceps : mouvement pour biceps, avec haltères, barre.",
+    "coach_note": "Coudes fixes, omoplates basses. Erreur à éviter : Balancer le corps."
   },
   {
     "id": "ex014",
@@ -386,7 +412,9 @@
       "intermediaire": "poulie légère",
       "avance": "tempo",
       "expert": "séries longues"
-    }
+    },
+    "human_explain": "Extension triceps poulie : mouvement pour triceps, avec poulie, élastique.",
+    "coach_note": "Coudes collés, extension complète. Erreur à éviter : Épaules qui avancent."
   },
   {
     "id": "ex015",
@@ -413,7 +441,9 @@
       "intermediaire": "amplitude réduite",
       "avance": "classique",
       "expert": "tempo lent"
-    }
+    },
+    "human_explain": "Pompes diamant : mouvement pour triceps, pectoraux, avec poids du corps.",
+    "coach_note": "Mains serrées, gainage fort. Erreur à éviter : Coudes qui partent trop loin."
   },
   {
     "id": "ex016",
@@ -440,7 +470,9 @@
       "intermediaire": "standard",
       "avance": "tempo",
       "expert": "lestées"
-    }
+    },
+    "human_explain": "Pompes déclinées : mouvement pour haut pectoraux, épaules, avec poids du corps, box.",
+    "coach_note": "Pieds surélevés, corps aligné. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex017",
@@ -468,7 +500,9 @@
       "intermediaire": "debout léger",
       "avance": "alterné",
       "expert": "puissant"
-    }
+    },
+    "human_explain": "Landmine press : mouvement pour épaules, pectoraux, core, avec barre.",
+    "coach_note": "Pousser en diagonale, gainage. Erreur à éviter : Tourner le bassin."
   },
   {
     "id": "ex018",
@@ -495,7 +529,9 @@
       "intermediaire": "léger",
       "avance": "alterné",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Renegade row : mouvement pour dos, core, avec haltères.",
+    "coach_note": "Bassin stable, tirage propre. Erreur à éviter : Hanches qui tournent."
   },
   {
     "id": "ex019",
@@ -522,7 +558,9 @@
       "intermediaire": "banc incliné",
       "avance": "tempo",
       "expert": "isométrie"
-    }
+    },
+    "human_explain": "Y-T-W épaules : mouvement pour épaules, trapèzes, avec poids du corps, banc.",
+    "coach_note": "Mouvement lent, pouces haut. Erreur à éviter : Compensation lombaire."
   },
   {
     "id": "ex020",
@@ -549,7 +587,9 @@
       "intermediaire": "contrôlé",
       "avance": "tempo",
       "expert": "lourd maîtrisé"
-    }
+    },
+    "human_explain": "Pullover haltère : mouvement pour dos, pectoraux, avec haltères, banc.",
+    "coach_note": "Côtes basses, amplitude contrôlée. Erreur à éviter : Trop cambrer."
   },
   {
     "id": "ex021",
@@ -579,7 +619,9 @@
       "intermediaire": "goblet squat",
       "avance": "front/back squat",
       "expert": "lourd tempo"
-    }
+    },
+    "human_explain": "Squat : mouvement pour quadriceps, fessiers, core, avec poids du corps, barre.",
+    "coach_note": "Pieds stables, genoux alignés. Erreur à éviter : Genoux qui rentrent."
   },
   {
     "id": "ex022",
@@ -607,7 +649,9 @@
       "intermediaire": "fente arrière",
       "avance": "walking lunges",
       "expert": "bulgare lestée"
-    }
+    },
+    "human_explain": "Fentes : mouvement pour quadriceps, fessiers, avec poids du corps, haltères.",
+    "coach_note": "Genou stable, buste haut. Erreur à éviter : Pas trop court."
   },
   {
     "id": "ex023",
@@ -635,7 +679,9 @@
       "intermediaire": "poids du corps",
       "avance": "haltères",
       "expert": "tempo lourd"
-    }
+    },
+    "human_explain": "Split squat : mouvement pour quadriceps, fessiers, avec poids du corps, haltères.",
+    "coach_note": "Descente verticale. Erreur à éviter : Bassin qui s’ouvre."
   },
   {
     "id": "ex024",
@@ -664,7 +710,9 @@
       "intermediaire": "hip thrust léger",
       "avance": "pause 2 sec",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Hip thrust : mouvement pour fessiers, ischios, avec barre, haltères.",
+    "coach_note": "Rétroversion en haut. Erreur à éviter : Trop cambrer."
   },
   {
     "id": "ex025",
@@ -692,7 +740,9 @@
       "intermediaire": "RDL léger",
       "avance": "deadlift contrôlé",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Soulevé de terre : mouvement pour ischios, fessiers, dos, avec barre, haltères.",
+    "coach_note": "Dos neutre, pousser le sol. Erreur à éviter : Arrondir le dos."
   },
   {
     "id": "ex026",
@@ -720,7 +770,9 @@
       "intermediaire": "haltères",
       "avance": "barre tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Romanian deadlift : mouvement pour ischios, fessiers, avec barre, haltères.",
+    "coach_note": "Hanches en arrière, dos plat. Erreur à éviter : Descendre trop bas."
   },
   {
     "id": "ex027",
@@ -747,7 +799,9 @@
       "intermediaire": "barre légère",
       "avance": "tempo",
       "expert": "lourd technique"
-    }
+    },
+    "human_explain": "Good morning : mouvement pour ischios, lombaires, avec barre, élastique.",
+    "coach_note": "Buste charnière, dos long. Erreur à éviter : Plier les genoux excessivement."
   },
   {
     "id": "ex028",
@@ -775,7 +829,9 @@
       "intermediaire": "box modérée",
       "avance": "haltères",
       "expert": "explosif"
-    }
+    },
+    "human_explain": "Step-up : mouvement pour quadriceps, fessiers, avec box, haltères.",
+    "coach_note": "Pousser par la jambe devant. Erreur à éviter : Sauter avec la jambe arrière."
   },
   {
     "id": "ex029",
@@ -802,7 +858,9 @@
       "intermediaire": "haltères",
       "avance": "machine",
       "expert": "unilatéral lent"
-    }
+    },
+    "human_explain": "Mollets debout : mouvement pour mollets, avec poids du corps, haltères.",
+    "coach_note": "Amplitude complète, pause en haut. Erreur à éviter : Rebondir."
   },
   {
     "id": "ex030",
@@ -829,7 +887,9 @@
       "intermediaire": "modéré",
       "avance": "tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Presse à cuisses : mouvement pour quadriceps, fessiers, avec machine.",
+    "coach_note": "Dos collé, amplitude propre. Erreur à éviter : Verrouiller fort les genoux."
   },
   {
     "id": "ex031",
@@ -854,7 +914,9 @@
       "intermediaire": "modéré",
       "avance": "tempo",
       "expert": "séries longues"
-    }
+    },
+    "human_explain": "Leg curl : mouvement pour ischios, avec machine.",
+    "coach_note": "Bassin stable, contrôle. Erreur à éviter : Lever les hanches."
   },
   {
     "id": "ex032",
@@ -879,7 +941,9 @@
       "intermediaire": "modéré",
       "avance": "tempo",
       "expert": "séries longues"
-    }
+    },
+    "human_explain": "Leg extension : mouvement pour quadriceps, avec machine.",
+    "coach_note": "Contrôle en haut, descente lente. Erreur à éviter : À-coups."
   },
   {
     "id": "ex033",
@@ -904,7 +968,9 @@
       "intermediaire": "45 sec",
       "avance": "60 sec",
       "expert": "lesté"
-    }
+    },
+    "human_explain": "Wall sit : mouvement pour quadriceps, avec mur.",
+    "coach_note": "Dos au mur, genoux alignés. Erreur à éviter : Monter trop haut."
   },
   {
     "id": "ex034",
@@ -932,7 +998,9 @@
       "intermediaire": "modéré",
       "avance": "intervalles",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Sled push : mouvement pour jambes, cardio, avec extérieur, sled.",
+    "coach_note": "Buste incliné, pas puissants. Erreur à éviter : Dos cassé."
   },
   {
     "id": "ex035",
@@ -961,7 +1029,9 @@
       "intermediaire": "distance moyenne",
       "avance": "lourd",
       "expert": "très lourd"
-    }
+    },
+    "human_explain": "Farmer walk : mouvement pour grip, core, jambes, avec haltères, kettlebell.",
+    "coach_note": "Épaules basses, marche droite. Erreur à éviter : Se pencher."
   },
   {
     "id": "ex036",
@@ -989,7 +1059,9 @@
       "intermediaire": "swing russe",
       "avance": "intervalles",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Kettlebell swing : mouvement pour fessiers, ischios, cardio, avec kettlebell.",
+    "coach_note": "Hanches explosives, dos neutre. Erreur à éviter : Squatter le mouvement."
   },
   {
     "id": "ex037",
@@ -1016,7 +1088,9 @@
       "intermediaire": "petite box",
       "avance": "box jump",
       "expert": "haute box"
-    }
+    },
+    "human_explain": "Box jump : mouvement pour jambes, explosivité, avec box.",
+    "coach_note": "Réception souple, descente contrôlée. Erreur à éviter : Atterrir raide."
   },
   {
     "id": "ex038",
@@ -1043,7 +1117,9 @@
       "intermediaire": "standard",
       "avance": "enchaîné",
       "expert": "lesté léger"
-    }
+    },
+    "human_explain": "Squat jump : mouvement pour jambes, cardio, avec poids du corps.",
+    "coach_note": "Atterrir souple. Erreur à éviter : Genoux qui rentrent."
   },
   {
     "id": "ex039",
@@ -1070,7 +1146,9 @@
       "intermediaire": "amplitude courte",
       "avance": "complet",
       "expert": "chargé"
-    }
+    },
+    "human_explain": "Cossack squat : mouvement pour adducteurs, quadriceps, avec poids du corps.",
+    "coach_note": "Talons au sol, amplitude progressive. Erreur à éviter : Forcer l’amplitude."
   },
   {
     "id": "ex040",
@@ -1096,7 +1174,9 @@
       "intermediaire": "mur éloigné",
       "avance": "pause",
       "expert": "lesté"
-    }
+    },
+    "human_explain": "Tibialis raise : mouvement pour tibial antérieur, avec mur, poids du corps.",
+    "coach_note": "Dos au mur, relever les pointes. Erreur à éviter : Aller trop vite."
   },
   {
     "id": "ex041",
@@ -1124,7 +1204,9 @@
       "intermediaire": "30 sec",
       "avance": "60 sec",
       "expert": "lesté"
-    }
+    },
+    "human_explain": "Gainage : mouvement pour abdos, core, avec poids du corps, tapis.",
+    "coach_note": "Coudes sous épaules, bassin neutre. Erreur à éviter : Dos creusé."
   },
   {
     "id": "ex042",
@@ -1151,7 +1233,9 @@
       "intermediaire": "30 sec",
       "avance": "jambe levée",
       "expert": "lesté"
-    }
+    },
+    "human_explain": "Gainage latéral : mouvement pour obliques, hanches, avec poids du corps, tapis.",
+    "coach_note": "Hanche haute, épaule stable. Erreur à éviter : Hanche qui tombe."
   },
   {
     "id": "ex043",
@@ -1178,7 +1262,9 @@
       "intermediaire": "alterné",
       "avance": "tempo",
       "expert": "élastique"
-    }
+    },
+    "human_explain": "Dead bug : mouvement pour abdos profonds, avec poids du corps, tapis.",
+    "coach_note": "Lombaires stables, respiration. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex044",
@@ -1205,7 +1291,9 @@
       "intermediaire": "alterné",
       "avance": "pause",
       "expert": "élastique"
-    }
+    },
+    "human_explain": "Bird dog : mouvement pour core, dos, avec poids du corps, tapis.",
+    "coach_note": "Bassin stable, mouvement lent. Erreur à éviter : Tourner les hanches."
   },
   {
     "id": "ex045",
@@ -1232,7 +1320,9 @@
       "intermediaire": "standard",
       "avance": "rock",
       "expert": "lesté"
-    }
+    },
+    "human_explain": "Hollow hold : mouvement pour abdos, avec poids du corps, tapis.",
+    "coach_note": "Bas du dos au sol. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex046",
@@ -1259,7 +1349,9 @@
       "intermediaire": "standard",
       "avance": "rapide",
       "expert": "croisé"
-    }
+    },
+    "human_explain": "Mountain climbers : mouvement pour core, cardio, avec poids du corps.",
+    "coach_note": "Épaules au-dessus des mains. Erreur à éviter : Fesses trop hautes."
   },
   {
     "id": "ex047",
@@ -1285,7 +1377,9 @@
       "intermediaire": "med ball léger",
       "avance": "tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Russian twist : mouvement pour obliques, avec medecine ball, poids du corps.",
+    "coach_note": "Rotation contrôlée. Erreur à éviter : Arrondir fort le dos."
   },
   {
     "id": "ex048",
@@ -1313,7 +1407,9 @@
       "intermediaire": "poulie",
       "avance": "dynamique",
       "expert": "unilatéral"
-    }
+    },
+    "human_explain": "Pallof press : mouvement pour core, obliques, avec élastique, poulie.",
+    "coach_note": "Bassin fixe, bras tendus. Erreur à éviter : Tourner le buste."
   },
   {
     "id": "ex049",
@@ -1341,7 +1437,9 @@
       "intermediaire": "au sol",
       "avance": "suspendu",
       "expert": "toes to bar"
-    }
+    },
+    "human_explain": "Relevés de jambes : mouvement pour abdos, fléchisseurs, avec poids du corps, barre traction.",
+    "coach_note": "Contrôle, pas d’élan. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex050",
@@ -1367,7 +1465,9 @@
       "intermediaire": "demi V-up",
       "avance": "V-up",
       "expert": "enchaîné"
-    }
+    },
+    "human_explain": "V-ups : mouvement pour abdos, avec poids du corps.",
+    "coach_note": "Monter bras et jambes ensemble. Erreur à éviter : Tirer sur la nuque."
   },
   {
     "id": "ex051",
@@ -1394,7 +1494,9 @@
       "intermediaire": "lent",
       "avance": "alterné",
       "expert": "rapide"
-    }
+    },
+    "human_explain": "Planche shoulder taps : mouvement pour core, épaules, avec poids du corps.",
+    "coach_note": "Bassin immobile. Erreur à éviter : Rotation excessive."
   },
   {
     "id": "ex052",
@@ -1423,7 +1525,9 @@
       "intermediaire": "poulie légère",
       "avance": "dynamique",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Woodchopper : mouvement pour obliques, épaules, avec poulie, élastique.",
+    "coach_note": "Rotation hanches/épaules coordonnée. Erreur à éviter : Tirer avec les bras seuls."
   },
   {
     "id": "ex053",
@@ -1451,7 +1555,9 @@
       "intermediaire": "avant/arrière",
       "avance": "latéral",
       "expert": "rapide"
-    }
+    },
+    "human_explain": "Bear crawl : mouvement pour core, épaules, jambes, avec poids du corps.",
+    "coach_note": "Genoux proches du sol. Erreur à éviter : Fesses hautes."
   },
   {
     "id": "ex054",
@@ -1479,7 +1585,9 @@
       "intermediaire": "parallettes tuck",
       "avance": "une jambe",
       "expert": "L-sit"
-    }
+    },
+    "human_explain": "L-sit tuck : mouvement pour abdos, triceps, avec parallettes, poids du corps.",
+    "coach_note": "Pousser dans les mains. Erreur à éviter : Épaules aux oreilles."
   },
   {
     "id": "ex055",
@@ -1507,7 +1615,9 @@
       "intermediaire": "modéré",
       "avance": "lourd",
       "expert": "unilatéral"
-    }
+    },
+    "human_explain": "Farmer hold : mouvement pour core, avant-bras, avec haltères, kettlebell.",
+    "coach_note": "Grandir, respirer. Erreur à éviter : Se pencher."
   },
   {
     "id": "ex056",
@@ -1534,7 +1644,9 @@
       "intermediaire": "standard",
       "avance": "over object",
       "expert": "bar facing"
-    }
+    },
+    "human_explain": "Burpees : mouvement pour full body, cardio, avec poids du corps.",
+    "coach_note": "Rythme régulier, réception souple. Erreur à éviter : S’effondrer en bas."
   },
   {
     "id": "ex057",
@@ -1559,7 +1671,9 @@
       "intermediaire": "standard",
       "avance": "rapide",
       "expert": "lesté léger"
-    }
+    },
+    "human_explain": "Jumping jacks : mouvement pour cardio, avec poids du corps.",
+    "coach_note": "Respiration régulière. Erreur à éviter : Bras mous."
   },
   {
     "id": "ex058",
@@ -1586,7 +1700,9 @@
       "intermediaire": "standard",
       "avance": "sprint",
       "expert": "intervalles"
-    }
+    },
+    "human_explain": "High knees : mouvement pour cardio, hanches, avec poids du corps.",
+    "coach_note": "Genoux hauts, buste droit. Erreur à éviter : Se pencher arrière."
   },
   {
     "id": "ex059",
@@ -1613,7 +1729,9 @@
       "intermediaire": "standard",
       "avance": "grand saut",
       "expert": "touch sol"
-    }
+    },
+    "human_explain": "Skaters : mouvement pour jambes, cardio, avec poids du corps.",
+    "coach_note": "Pousser latéralement. Erreur à éviter : Genou instable."
   },
   {
     "id": "ex060",
@@ -1640,7 +1758,9 @@
       "intermediaire": "simple",
       "avance": "double unders prep",
       "expert": "double unders"
-    }
+    },
+    "human_explain": "Corde à sauter : mouvement pour mollets, cardio, avec corde.",
+    "coach_note": "Petits rebonds, poignets actifs. Erreur à éviter : Sauter trop haut."
   },
   {
     "id": "ex061",
@@ -1667,7 +1787,9 @@
       "intermediaire": "20m",
       "avance": "30m",
       "expert": "répétitions"
-    }
+    },
+    "human_explain": "Sprint court : mouvement pour jambes, cardio, avec extérieur.",
+    "coach_note": "Départ progressif, appuis puissants. Erreur à éviter : Partir à froid."
   },
   {
     "id": "ex062",
@@ -1695,7 +1817,9 @@
       "intermediaire": "intervalles",
       "avance": "500m",
       "expert": "sprint"
-    }
+    },
+    "human_explain": "Rameur : mouvement pour cardio, dos, jambes, avec rameur.",
+    "coach_note": "Jambes puis bras, retour contrôlé. Erreur à éviter : Tirer bras trop tôt."
   },
   {
     "id": "ex063",
@@ -1721,7 +1845,9 @@
       "intermediaire": "intervalles",
       "avance": "sprint",
       "expert": "calories"
-    }
+    },
+    "human_explain": "Assault bike : mouvement pour cardio, avec vélo.",
+    "coach_note": "Rythme constant, pousser/tirer. Erreur à éviter : Partir trop vite."
   },
   {
     "id": "ex064",
@@ -1746,7 +1872,9 @@
       "intermediaire": "jogging",
       "avance": "intervalles",
       "expert": "sprint"
-    }
+    },
+    "human_explain": "Tapis course : mouvement pour cardio, avec tapis course.",
+    "coach_note": "Posture haute, cadence stable. Erreur à éviter : Foulée lourde."
   },
   {
     "id": "ex065",
@@ -1773,7 +1901,9 @@
       "intermediaire": "vagues alternées",
       "avance": "slams",
       "expert": "intervalles"
-    }
+    },
+    "human_explain": "Battle rope : mouvement pour épaules, cardio, avec battle rope.",
+    "coach_note": "Genoux souples, tronc stable. Erreur à éviter : Épaules crispées."
   },
   {
     "id": "ex066",
@@ -1799,7 +1929,9 @@
       "intermediaire": "standard",
       "avance": "intervalles",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Slam ball : mouvement pour full body, avec medecine ball.",
+    "coach_note": "Lever haut, claquer fort. Erreur à éviter : Arrondir le dos pour ramasser."
   },
   {
     "id": "ex067",
@@ -1824,7 +1956,9 @@
       "intermediaire": "standard",
       "avance": "for time",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Devil press : mouvement pour full body, avec haltères.",
+    "coach_note": "Dos neutre, extension complète. Erreur à éviter : Précipiter la montée."
   },
   {
     "id": "ex068",
@@ -1851,7 +1985,9 @@
       "intermediaire": "standard",
       "avance": "barre",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Thruster : mouvement pour jambes, épaules, avec haltères, barre.",
+    "coach_note": "Squat puis poussée fluide. Erreur à éviter : Séparer trop le mouvement."
   },
   {
     "id": "ex069",
@@ -1877,7 +2013,9 @@
       "intermediaire": "alterné",
       "avance": "double DB",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Dumbbell clean : mouvement pour jambes, épaules, avec haltères.",
+    "coach_note": "Hanches puissantes, réception stable. Erreur à éviter : Tirer avec les bras."
   },
   {
     "id": "ex070",
@@ -1902,7 +2040,9 @@
       "intermediaire": "alterné",
       "avance": "for time",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Dumbbell snatch : mouvement pour full body, avec haltères.",
+    "coach_note": "Trajectoire proche, extension hanche. Erreur à éviter : Dos rond."
   },
   {
     "id": "ex071",
@@ -1929,7 +2069,9 @@
       "intermediaire": "standard",
       "avance": "série longue",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Wall ball : mouvement pour jambes, épaules, avec medecine ball.",
+    "coach_note": "Squat complet, viser haut. Erreur à éviter : Lancer sans jambes."
   },
   {
     "id": "ex072",
@@ -1956,7 +2098,9 @@
       "intermediaire": "petit saut",
       "avance": "standard",
       "expert": "long"
-    }
+    },
+    "human_explain": "Burpee broad jump : mouvement pour full body, cardio, avec poids du corps, extérieur.",
+    "coach_note": "Saut vers l’avant contrôlé. Erreur à éviter : Atterrir raide."
   },
   {
     "id": "ex073",
@@ -1982,7 +2126,9 @@
       "intermediaire": "distance courte",
       "avance": "long",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Sandbag carry : mouvement pour core, jambes, avec sandbag.",
+    "coach_note": "Buste gainé, pas réguliers. Erreur à éviter : Se tordre."
   },
   {
     "id": "ex074",
@@ -2010,7 +2156,9 @@
       "intermediaire": "modéré",
       "avance": "sprint",
       "expert": "réactif"
-    }
+    },
+    "human_explain": "Shuttle run : mouvement pour cardio, appuis, avec extérieur, cônes.",
+    "coach_note": "Changer de direction bas. Erreur à éviter : Freiner debout."
   },
   {
     "id": "ex075",
@@ -2036,7 +2184,9 @@
       "intermediaire": "course modérée",
       "avance": "intervalles",
       "expert": "sprint"
-    }
+    },
+    "human_explain": "Escaliers : mouvement pour jambes, cardio, avec extérieur.",
+    "coach_note": "Regarder devant, pas rapides. Erreur à éviter : Monter crispé."
   },
   {
     "id": "ex076",
@@ -2062,7 +2212,9 @@
       "intermediaire": "round 2 min",
       "avance": "round 3 min",
       "expert": "intense"
-    }
+    },
+    "human_explain": "Shadow boxing : mouvement pour boxe, cardio, avec poids du corps.",
+    "coach_note": "Garde haute, déplacement léger. Erreur à éviter : Bras qui tombent."
   },
   {
     "id": "ex077",
@@ -2088,7 +2240,9 @@
       "intermediaire": "sac léger",
       "avance": "enchaîné",
       "expert": "vitesse"
-    }
+    },
+    "human_explain": "Jab-cross : mouvement pour boxe, avec poids du corps, sac.",
+    "coach_note": "Retour garde rapide, appuis stables. Erreur à éviter : Pousser sans rotation."
   },
   {
     "id": "ex078",
@@ -2114,7 +2268,9 @@
       "intermediaire": "sac léger",
       "avance": "round",
       "expert": "puissance"
-    }
+    },
+    "human_explain": "Crochet au sac : mouvement pour boxe, core, avec sac.",
+    "coach_note": "Rotation hanche, coude aligné. Erreur à éviter : Bras tendu."
   },
   {
     "id": "ex079",
@@ -2140,7 +2296,9 @@
       "intermediaire": "sac léger",
       "avance": "enchaîné",
       "expert": "puissance"
-    }
+    },
+    "human_explain": "Uppercut au sac : mouvement pour boxe, jambes, avec sac.",
+    "coach_note": "Pousser jambes, menton bas. Erreur à éviter : Se redresser trop."
   },
   {
     "id": "ex080",
@@ -2166,7 +2324,9 @@
       "intermediaire": "rythmé",
       "avance": "avec jab",
       "expert": "round"
-    }
+    },
+    "human_explain": "Défense slips : mouvement pour boxe, appuis, avec poids du corps.",
+    "coach_note": "Petit déplacement de tête. Erreur à éviter : Baisser les yeux."
   },
   {
     "id": "ex081",
@@ -2192,7 +2352,9 @@
       "intermediaire": "enchaîné",
       "avance": "avec contre",
       "expert": "round"
-    }
+    },
+    "human_explain": "Esquives rouleau : mouvement pour boxe, jambes, avec poids du corps.",
+    "coach_note": "Fléchir jambes, dos droit. Erreur à éviter : Se pencher seulement."
   },
   {
     "id": "ex082",
@@ -2219,7 +2381,9 @@
       "intermediaire": "rythmé",
       "avance": "rapide",
       "expert": "réactif"
-    }
+    },
+    "human_explain": "Pas chassés boxe : mouvement pour boxe, cardio, avec extérieur, poids du corps.",
+    "coach_note": "Garde stable, pieds jamais collés. Erreur à éviter : Croiser les pieds."
   },
   {
     "id": "ex083",
@@ -2246,7 +2410,9 @@
       "intermediaire": "simple",
       "avance": "variations",
       "expert": "double unders"
-    }
+    },
+    "human_explain": "Corde boxe : mouvement pour cardio, mollets, avec corde.",
+    "coach_note": "Épaules détendues, poignets actifs. Erreur à éviter : Sauter trop haut."
   },
   {
     "id": "ex084",
@@ -2273,7 +2439,9 @@
       "intermediaire": "modéré",
       "avance": "intense",
       "expert": "all out"
-    }
+    },
+    "human_explain": "Sac 30/30 : mouvement pour boxe, cardio, avec sac.",
+    "coach_note": "30 sec actif, garde propre. Erreur à éviter : Frapper sans technique."
   },
   {
     "id": "ex085",
@@ -2298,7 +2466,9 @@
       "intermediaire": "1-2",
       "avance": "ajout esquive",
       "expert": "enchaînements"
-    }
+    },
+    "human_explain": "Pattes d’ours virtuelles : mouvement pour boxe, avec poids du corps.",
+    "coach_note": "Réagir vite, retour garde. Erreur à éviter : Se découvrir."
   },
   {
     "id": "ex086",
@@ -2325,7 +2495,9 @@
       "intermediaire": "standard",
       "avance": "enchaîné",
       "expert": "sprint"
-    }
+    },
+    "human_explain": "Sprawl boxe : mouvement pour boxe, cardio, avec poids du corps.",
+    "coach_note": "Descendre vite, remonter garde. Erreur à éviter : Dos creusé."
   },
   {
     "id": "ex087",
@@ -2352,7 +2524,9 @@
       "intermediaire": "30 sec",
       "avance": "45 sec",
       "expert": "1 min"
-    }
+    },
+    "human_explain": "Directs vitesse : mouvement pour boxe, épaules, avec poids du corps, sac.",
+    "coach_note": "Relâché, respiration courte. Erreur à éviter : Crisper épaules."
   },
   {
     "id": "ex088",
@@ -2378,7 +2552,9 @@
       "intermediaire": "fluide",
       "avance": "round",
       "expert": "vitesse"
-    }
+    },
+    "human_explain": "Combo 1-2-slip-2 : mouvement pour boxe, avec poids du corps, sac.",
+    "coach_note": "Toucher, défendre, contrer. Erreur à éviter : Oublier la garde."
   },
   {
     "id": "ex089",
@@ -2405,7 +2581,9 @@
       "intermediaire": "30/30",
       "avance": "round",
       "expert": "intense"
-    }
+    },
+    "human_explain": "Boxe + gainage : mouvement pour boxe, core, avec poids du corps.",
+    "coach_note": "Alterner frappe et gainage propre. Erreur à éviter : Bâcler la position."
   },
   {
     "id": "ex090",
@@ -2433,7 +2611,9 @@
       "intermediaire": "modéré",
       "avance": "réactif",
       "expert": "sprint"
-    }
+    },
+    "human_explain": "Footwork cônes : mouvement pour boxe, appuis, avec cônes, extérieur.",
+    "coach_note": "Petits pas rapides. Erreur à éviter : Regarder les pieds."
   },
   {
     "id": "ex091",
@@ -2460,7 +2640,9 @@
       "intermediaire": "3 coups",
       "avance": "5 coups",
       "expert": "round lourd"
-    }
+    },
+    "human_explain": "Sac puissance : mouvement pour boxe, épaules, avec sac.",
+    "coach_note": "Frapper fort mais propre. Erreur à éviter : Perdre l’équilibre."
   },
   {
     "id": "ex092",
@@ -2487,7 +2669,9 @@
       "intermediaire": "modéré",
       "avance": "rapide",
       "expert": "intervalles"
-    }
+    },
+    "human_explain": "Cardio boxing combo : mouvement pour boxe, cardio, avec poids du corps.",
+    "coach_note": "Rythme musical, respiration. Erreur à éviter : Bras trop bas."
   },
   {
     "id": "ex093",
@@ -2514,7 +2698,9 @@
       "intermediaire": "standard",
       "avance": "round",
       "expert": "rapide"
-    }
+    },
+    "human_explain": "Shadow mobilité épaules : mouvement pour boxe, épaules, avec poids du corps.",
+    "coach_note": "Amplitude fluide, garde souple. Erreur à éviter : Crisper nuque."
   },
   {
     "id": "ex094",
@@ -2540,7 +2726,9 @@
       "intermediaire": "enchaîné",
       "avance": "avec contre",
       "expert": "round"
-    }
+    },
+    "human_explain": "Déplacements défense : mouvement pour boxe, appuis, avec poids du corps.",
+    "coach_note": "Déplacer, défendre, replacer. Erreur à éviter : Pieds alignés."
   },
   {
     "id": "ex095",
@@ -2566,7 +2754,9 @@
       "intermediaire": "45 sec",
       "avance": "60 sec",
       "expert": "contract-relax"
-    }
+    },
+    "human_explain": "Étirement pectoraux : mouvement pour pectoraux, épaules, avec mur.",
+    "coach_note": "Respiration lente, épaule basse. Erreur à éviter : Forcer l’épaule."
   },
   {
     "id": "ex096",
@@ -2593,7 +2783,9 @@
       "intermediaire": "45 sec",
       "avance": "60 sec",
       "expert": "latéral"
-    }
+    },
+    "human_explain": "Étirement dorsaux : mouvement pour dos, épaules, avec mur, tapis.",
+    "coach_note": "Allonger le dos, respirer. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex097",
@@ -2619,7 +2811,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "respiration"
-    }
+    },
+    "human_explain": "Ouverture thoracique : mouvement pour thorax, dos, avec tapis.",
+    "coach_note": "Tourner doucement, suivre la main. Erreur à éviter : Forcer la rotation."
   },
   {
     "id": "ex098",
@@ -2645,7 +2839,9 @@
       "intermediaire": "standard",
       "avance": "respiration",
       "expert": "contrôle"
-    }
+    },
+    "human_explain": "Cat cow : mouvement pour colonne, avec tapis.",
+    "coach_note": "Mobiliser vertèbre par vertèbre. Erreur à éviter : Aller vite."
   },
   {
     "id": "ex099",
@@ -2670,7 +2866,9 @@
       "intermediaire": "standard",
       "avance": "switch",
       "expert": "chargé léger"
-    }
+    },
+    "human_explain": "90/90 hanches : mouvement pour hanches, avec tapis.",
+    "coach_note": "Buste haut, rotation contrôlée. Erreur à éviter : Douleur genou."
   },
   {
     "id": "ex100",
@@ -2696,7 +2894,9 @@
       "intermediaire": "standard",
       "avance": "avec rotation",
       "expert": "tempo"
-    }
+    },
+    "human_explain": "World stretch : mouvement pour hanches, colonne, avec poids du corps.",
+    "coach_note": "Grand pas, rotation douce. Erreur à éviter : S’écraser."
   },
   {
     "id": "ex101",
@@ -2722,7 +2922,9 @@
       "intermediaire": "élastique",
       "avance": "PNF",
       "expert": "longue tenue"
-    }
+    },
+    "human_explain": "Étirement ischios : mouvement pour ischios, avec tapis, élastique.",
+    "coach_note": "Dos long, jambe tendue modérée. Erreur à éviter : Arrondir fort."
   },
   {
     "id": "ex102",
@@ -2748,7 +2950,9 @@
       "intermediaire": "debout",
       "avance": "couch stretch",
       "expert": "PNF"
-    }
+    },
+    "human_explain": "Étirement quadriceps : mouvement pour quadriceps, avec mur, tapis.",
+    "coach_note": "Bassin rentré, genou aligné. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex103",
@@ -2775,7 +2979,9 @@
       "intermediaire": "standard",
       "avance": "bras levé",
       "expert": "longue tenue"
-    }
+    },
+    "human_explain": "Couch stretch : mouvement pour quadriceps, psoas, avec mur, tapis.",
+    "coach_note": "Rétroversion bassin, respiration. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex104",
@@ -2800,7 +3006,9 @@
       "intermediaire": "45 sec",
       "avance": "60 sec",
       "expert": "soléaire"
-    }
+    },
+    "human_explain": "Étirement mollets : mouvement pour mollets, avec mur.",
+    "coach_note": "Talon au sol, genou tendu/fléchi. Erreur à éviter : Rebondir."
   },
   {
     "id": "ex105",
@@ -2826,7 +3034,9 @@
       "intermediaire": "3 min",
       "avance": "5 min",
       "expert": "long"
-    }
+    },
+    "human_explain": "Respiration box breathing : mouvement pour respiration, mental, avec poids du corps.",
+    "coach_note": "Inspirer 4, bloquer 4, expirer 4. Erreur à éviter : Monter les épaules."
   },
   {
     "id": "ex106",
@@ -2852,7 +3062,9 @@
       "intermediaire": "standard",
       "avance": "latéral",
       "expert": "long"
-    }
+    },
+    "human_explain": "Child pose : mouvement pour dos, hanches, avec tapis.",
+    "coach_note": "Relâcher épaules, respirer. Erreur à éviter : Bloquer respiration."
   },
   {
     "id": "ex107",
@@ -2878,7 +3090,9 @@
       "intermediaire": "standard",
       "avance": "buste bas",
       "expert": "PNF"
-    }
+    },
+    "human_explain": "Pigeon stretch : mouvement pour fessiers, hanches, avec tapis.",
+    "coach_note": "Hanche posée, dos long. Erreur à éviter : Douleur genou."
   },
   {
     "id": "ex108",
@@ -2903,7 +3117,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "large"
-    }
+    },
+    "human_explain": "Adducteurs rockback : mouvement pour adducteurs, avec tapis.",
+    "coach_note": "Reculer doucement, dos plat. Erreur à éviter : Forcer genou."
   },
   {
     "id": "ex109",
@@ -2930,7 +3146,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "chargé"
-    }
+    },
+    "human_explain": "Cheville genou au mur : mouvement pour chevilles, mollets, avec mur.",
+    "coach_note": "Genou vers mur, talon au sol. Erreur à éviter : Talon décolle."
   },
   {
     "id": "ex110",
@@ -2957,7 +3175,9 @@
       "intermediaire": "standard",
       "avance": "tempo",
       "expert": "avec élastique"
-    }
+    },
+    "human_explain": "Scapula wall slide : mouvement pour épaules, omoplates, avec mur.",
+    "coach_note": "Dos au mur, bras glissent. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex111",
@@ -2982,7 +3202,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "respiration"
-    }
+    },
+    "human_explain": "Rotation cervicale douce : mouvement pour cervicales, avec poids du corps.",
+    "coach_note": "Menton rentré, mouvement lent. Erreur à éviter : Forcer amplitude."
   },
   {
     "id": "ex112",
@@ -3008,7 +3230,9 @@
       "intermediaire": "standard",
       "avance": "rotation",
       "expert": "long"
-    }
+    },
+    "human_explain": "Extension poignets : mouvement pour poignets, avant-bras, avec tapis.",
+    "coach_note": "Pression progressive. Erreur à éviter : Douleur vive."
   },
   {
     "id": "ex113",
@@ -3034,7 +3258,9 @@
       "intermediaire": "standard",
       "avance": "rotation",
       "expert": "chargé"
-    }
+    },
+    "human_explain": "Squat pry : mouvement pour hanches, chevilles, avec poids du corps.",
+    "coach_note": "Coudes dans genoux, dos long. Erreur à éviter : Talons levés."
   },
   {
     "id": "ex114",
@@ -3061,7 +3287,9 @@
       "intermediaire": "très léger",
       "avance": "tempo",
       "expert": "amplitude"
-    }
+    },
+    "human_explain": "Jefferson curl léger : mouvement pour ischios, dos, avec poids du corps, haltères.",
+    "coach_note": "Dérouler très lentement. Erreur à éviter : Charge lourde."
   },
   {
     "id": "ex115",
@@ -3087,7 +3315,9 @@
       "intermediaire": "60 sec",
       "avance": "routine complète",
       "expert": "long"
-    }
+    },
+    "human_explain": "Auto-massage quadriceps : mouvement pour quadriceps, avec foam roller.",
+    "coach_note": "Pression progressive, respiration lente. Erreur à éviter : Aller trop vite."
   },
   {
     "id": "ex116",
@@ -3112,7 +3342,9 @@
       "intermediaire": "standard",
       "avance": "croisé",
       "expert": "long"
-    }
+    },
+    "human_explain": "Auto-massage mollets : mouvement pour mollets, avec foam roller.",
+    "coach_note": "Relâchement progressif. Erreur à éviter : Pression douloureuse."
   },
   {
     "id": "ex117",
@@ -3138,7 +3370,9 @@
       "intermediaire": "standard",
       "avance": "tempo",
       "expert": "strict"
-    }
+    },
+    "human_explain": "Activation coiffe rotateurs : mouvement pour coiffe, épaules, avec élastique.",
+    "coach_note": "Coude collé, mouvement propre. Erreur à éviter : Épaule qui avance."
   },
   {
     "id": "ex118",
@@ -3164,7 +3398,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "lent"
-    }
+    },
+    "human_explain": "Wall angels : mouvement pour épaules, dos, avec mur.",
+    "coach_note": "Dos contre mur, bras contrôlés. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex119",
@@ -3190,7 +3426,9 @@
       "intermediaire": "élastique",
       "avance": "pause",
       "expert": "série longue"
-    }
+    },
+    "human_explain": "Clamshell : mouvement pour moyen fessier, avec élastique, tapis.",
+    "coach_note": "Bassin stable, ouvrir genou. Erreur à éviter : Tourner bassin."
   },
   {
     "id": "ex120",
@@ -3216,7 +3454,9 @@
       "intermediaire": "standard",
       "avance": "squat léger",
       "expert": "long"
-    }
+    },
+    "human_explain": "Marche latérale élastique : mouvement pour fessiers, hanches, avec élastique.",
+    "coach_note": "Genoux alignés, tension constante. Erreur à éviter : Pieds qui rentrent."
   },
   {
     "id": "ex121",
@@ -3242,7 +3482,9 @@
       "intermediaire": "30 sec",
       "avance": "45 sec",
       "expert": "60 sec"
-    }
+    },
+    "human_explain": "Spanish squat iso : mouvement pour quadriceps, genou, avec élastique.",
+    "coach_note": "Buste droit, tension genou contrôlée. Erreur à éviter : Douleur vive."
   },
   {
     "id": "ex122",
@@ -3267,7 +3509,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "série longue"
-    }
+    },
+    "human_explain": "Terminal knee extension : mouvement pour quadriceps, avec élastique.",
+    "coach_note": "Tendre genou sans verrouiller fort. Erreur à éviter : Compensation hanche."
   },
   {
     "id": "ex123",
@@ -3293,7 +3537,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "série"
-    }
+    },
+    "human_explain": "McGill curl-up : mouvement pour core, dos, avec tapis.",
+    "coach_note": "Lombaires neutres, petit mouvement. Erreur à éviter : Tirer la nuque."
   },
   {
     "id": "ex124",
@@ -3319,7 +3565,9 @@
       "intermediaire": "court",
       "avance": "standard",
       "expert": "long"
-    }
+    },
+    "human_explain": "Side plank modifié : mouvement pour core, dos, avec tapis.",
+    "coach_note": "Alignement épaule/hanche. Erreur à éviter : Hanche qui tombe."
   },
   {
     "id": "ex125",
@@ -3345,7 +3593,9 @@
       "intermediaire": "alterné",
       "avance": "pause longue",
       "expert": "élastique"
-    }
+    },
+    "human_explain": "Bird dog pause : mouvement pour core, dos, avec tapis.",
+    "coach_note": "Pause 2 sec, bassin fixe. Erreur à éviter : Rotation bassin."
   },
   {
     "id": "ex126",
@@ -3371,7 +3621,9 @@
       "intermediaire": "jambe seule",
       "avance": "alterné",
       "expert": "élastique"
-    }
+    },
+    "human_explain": "Dead bug respiration : mouvement pour core, respiration, avec tapis.",
+    "coach_note": "Expirer, lombaires stables. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex127",
@@ -3397,7 +3649,9 @@
       "intermediaire": "30 sec",
       "avance": "yeux fermés",
       "expert": "instable"
-    }
+    },
+    "human_explain": "Équilibre unipodal : mouvement pour cheville, proprioception, avec poids du corps.",
+    "coach_note": "Pied actif, regard fixe. Erreur à éviter : S’effondrer hanche."
   },
   {
     "id": "ex128",
@@ -3423,7 +3677,9 @@
       "intermediaire": "standard",
       "avance": "pause",
       "expert": "long"
-    }
+    },
+    "human_explain": "Tibialis raise prévention : mouvement pour tibial, genou, avec mur.",
+    "coach_note": "Monter pointes, contrôle. Erreur à éviter : Rebondir."
   },
   {
     "id": "ex129",
@@ -3449,7 +3705,9 @@
       "intermediaire": "genoux",
       "avance": "planche",
       "expert": "tempo"
-    }
+    },
+    "human_explain": "Scap push-up : mouvement pour omoplates, serratus, avec poids du corps.",
+    "coach_note": "Bras tendus, omoplates bougent. Erreur à éviter : Plier coudes."
   },
   {
     "id": "ex130",
@@ -3475,7 +3733,9 @@
       "intermediaire": "pause",
       "avance": "unilatéral",
       "expert": "élastique"
-    }
+    },
+    "human_explain": "Pont fessier activation : mouvement pour fessiers, core, avec tapis.",
+    "coach_note": "Pousser talons, bassin neutre. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex131",
@@ -3500,7 +3760,9 @@
       "intermediaire": "3 min",
       "avance": "5 min",
       "expert": "long"
-    }
+    },
+    "human_explain": "Respiration diaphragmatique : mouvement pour respiration, avec tapis.",
+    "coach_note": "Respirer bas, relâcher épaules. Erreur à éviter : Respiration haute."
   },
   {
     "id": "ex132",
@@ -3526,7 +3788,9 @@
       "intermediaire": "standard",
       "avance": "lent",
       "expert": "routine"
-    }
+    },
+    "human_explain": "Mobilité nerf sciatique douce : mouvement pour ischios, dos, avec tapis.",
+    "coach_note": "Mouvement doux sans douleur. Erreur à éviter : Forcer tiraillement."
   },
   {
     "id": "ex133",
@@ -3552,7 +3816,9 @@
       "intermediaire": "strict",
       "avance": "tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Tirage horizontal machine : mouvement pour dos, biceps, avec machine.",
+    "coach_note": "Poitrine fixe, tirer les coudes. Erreur à éviter : Épaules qui montent."
   },
   {
     "id": "ex134",
@@ -3578,7 +3844,9 @@
       "intermediaire": "assisté",
       "avance": "standard",
       "expert": "expert"
-    }
+    },
+    "human_explain": "Pompes archer : mouvement pour pectoraux, triceps, avec poids du corps.",
+    "coach_note": "Décaler le poids sans perdre le gainage. Erreur à éviter : Bassin qui tourne."
   },
   {
     "id": "ex135",
@@ -3606,7 +3874,9 @@
       "intermediaire": "standard",
       "avance": "haltère",
       "expert": "tempo"
-    }
+    },
+    "human_explain": "Fente latérale : mouvement pour adducteurs, fessiers, avec poids du corps, haltères.",
+    "coach_note": "Hanche arrière, genou aligné. Erreur à éviter : Pied qui décolle."
   },
   {
     "id": "ex136",
@@ -3633,7 +3903,9 @@
       "intermediaire": "standard",
       "avance": "tempo",
       "expert": "lourd"
-    }
+    },
+    "human_explain": "Goblet squat : mouvement pour quadriceps, core, avec kettlebell, haltères.",
+    "coach_note": "Charge proche du corps. Erreur à éviter : Coudes qui tirent genoux."
   },
   {
     "id": "ex137",
@@ -3659,7 +3931,9 @@
       "intermediaire": "court",
       "avance": "standard",
       "expert": "long"
-    }
+    },
+    "human_explain": "Ab wheel : mouvement pour abdos, épaules, avec ab wheel.",
+    "coach_note": "Rétroversion, amplitude maîtrisée. Erreur à éviter : Cambrer."
   },
   {
     "id": "ex138",
@@ -3685,7 +3959,9 @@
       "intermediaire": "standard",
       "avance": "rapide",
       "expert": "squat jump"
-    }
+    },
+    "human_explain": "Tabata squat : mouvement pour jambes, cardio, avec poids du corps.",
+    "coach_note": "20 sec travail, 10 sec repos. Erreur à éviter : Perdre amplitude."
   },
   {
     "id": "ex139",
@@ -3710,7 +3986,9 @@
       "intermediaire": "3 min",
       "avance": "3x3",
       "expert": "5x3"
-    }
+    },
+    "human_explain": "Round sac technique : mouvement pour boxe, avec sac.",
+    "coach_note": "Objectif technique par round. Erreur à éviter : Frapper sans garde."
   },
   {
     "id": "ex140",
@@ -3736,7 +4014,9 @@
       "intermediaire": "30 sec",
       "avance": "45 sec",
       "expert": "long"
-    }
+    },
+    "human_explain": "Étirement trapèzes : mouvement pour trapèzes, cervicales, avec poids du corps.",
+    "coach_note": "Épaule basse, respiration lente. Erreur à éviter : Tirer fort sur la tête."
   },
   {
     "id": "ex141",
@@ -3763,6 +4043,1654 @@
       "intermediaire": "assistance",
       "avance": "unilatéral",
       "expert": "chargé"
-    }
+    },
+    "human_explain": "Élévation mollet excentrique : mouvement pour mollets, tendon, avec marche, poids du corps.",
+    "coach_note": "Descente lente 3 sec. Erreur à éviter : Rebondir."
+  },
+  {
+    "id": "v65-pompes-tempo-3-1-1",
+    "name": "Pompes tempo 3-1-1",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Descente lente, pause, poussée contrôlée.",
+    "mistake": "Perdre le gainage",
+    "contraindications": [],
+    "objectives": [
+      "force",
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "sur genoux",
+      "intermediaire": "tempo court",
+      "avance": "3-1-1",
+      "expert": "lesté tempo"
+    },
+    "human_explain": "Pompes tempo 3-1-1 : mouvement pour pectoraux, triceps, avec poids du corps.",
+    "coach_note": "Descente lente, pause, poussée contrôlée. Erreur à éviter : Perdre le gainage."
+  },
+  {
+    "id": "v65-pompes-explosives",
+    "name": "Pompes explosives",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "explosivité"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Pousser vite, réception douce.",
+    "mistake": "Atterrir raide",
+    "contraindications": [],
+    "objectives": [
+      "explosivite"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "mains sur banc",
+      "intermediaire": "petit décollage",
+      "avance": "clap push-up",
+      "expert": "enchaînées"
+    },
+    "human_explain": "Pompes explosives : mouvement pour pectoraux, triceps, explosivité, avec poids du corps.",
+    "coach_note": "Pousser vite, réception douce. Erreur à éviter : Atterrir raide."
+  },
+  {
+    "id": "v65-developpe-halteres-sol",
+    "name": "Développé haltères sol",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "haltères",
+      "tapis"
+    ],
+    "tips": "Coudes contrôlés, dos stable.",
+    "mistake": "Rebondir les coudes au sol",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd contrôlé"
+    },
+    "human_explain": "Développé haltères sol : mouvement pour pectoraux, triceps, avec haltères, tapis.",
+    "coach_note": "Coudes contrôlés, dos stable. Erreur à éviter : Rebondir les coudes au sol."
+  },
+  {
+    "id": "v65-arnold-press",
+    "name": "Arnold press",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "épaules"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "tips": "Rotation fluide, gainage serré.",
+    "mistake": "Cambrer",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "lourd strict"
+    },
+    "human_explain": "Arnold press : mouvement pour épaules, avec haltères.",
+    "coach_note": "Rotation fluide, gainage serré. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v65-tirage-menton-elastique",
+    "name": "Tirage menton élastique",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "épaules",
+      "trapèzes"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Tirer coudes hauts sans douleur.",
+    "mistake": "Monter trop haut",
+    "contraindications": [],
+    "objectives": [
+      "renfo"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "poulie"
+    },
+    "human_explain": "Tirage menton élastique : mouvement pour épaules, trapèzes, avec élastique.",
+    "coach_note": "Tirer coudes hauts sans douleur. Erreur à éviter : Monter trop haut."
+  },
+  {
+    "id": "v65-pull-apart-elastique",
+    "name": "Pull-apart élastique",
+    "group": "haut_du_corps",
+    "pattern": "Posture",
+    "muscles": [
+      "arrière épaules",
+      "dos"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Écarter bras tendus, omoplates actives.",
+    "mistake": "Hausser les épaules",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "2x15",
+      "avance": "3x20",
+      "expert": "tempo"
+    },
+    "human_explain": "Pull-apart élastique : mouvement pour arrière épaules, dos, avec élastique.",
+    "coach_note": "Écarter bras tendus, omoplates actives. Erreur à éviter : Hausser les épaules."
+  },
+  {
+    "id": "v65-rowing-trx",
+    "name": "Rowing TRX",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "sangles",
+      "poids du corps"
+    ],
+    "tips": "Corps gainé, tirer poitrine vers mains.",
+    "mistake": "Hanches basses",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "vertical",
+      "intermediaire": "incliné",
+      "avance": "horizontal",
+      "expert": "pieds surélevés"
+    },
+    "human_explain": "Rowing TRX : mouvement pour dos, biceps, avec sangles, poids du corps.",
+    "coach_note": "Corps gainé, tirer poitrine vers mains. Erreur à éviter : Hanches basses."
+  },
+  {
+    "id": "v65-tirage-supination",
+    "name": "Tirage supination",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "poulie",
+      "barre traction"
+    ],
+    "tips": "Coudes vers bas, poitrine haute.",
+    "mistake": "Épaules en avant",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "poulie légère",
+      "intermediaire": "assisté",
+      "avance": "strict",
+      "expert": "lesté"
+    },
+    "human_explain": "Tirage supination : mouvement pour dos, biceps, avec poulie, barre traction.",
+    "coach_note": "Coudes vers bas, poitrine haute. Erreur à éviter : Épaules en avant."
+  },
+  {
+    "id": "v65-pompes-scapulaires",
+    "name": "Pompes scapulaires",
+    "group": "haut_du_corps",
+    "pattern": "Prévention",
+    "muscles": [
+      "omoplates",
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Bras tendus, bouger uniquement les omoplates.",
+    "mistake": "Plier les coudes",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "mur",
+      "intermediaire": "genoux",
+      "avance": "planche",
+      "expert": "tempo"
+    },
+    "human_explain": "Pompes scapulaires : mouvement pour omoplates, épaules, avec poids du corps.",
+    "coach_note": "Bras tendus, bouger uniquement les omoplates. Erreur à éviter : Plier les coudes."
+  },
+  {
+    "id": "v65-extension-nuque-triceps",
+    "name": "Extension nuque triceps",
+    "group": "haut_du_corps",
+    "pattern": "Bras",
+    "muscles": [
+      "triceps"
+    ],
+    "equipment": [
+      "haltères",
+      "élastique"
+    ],
+    "tips": "Coudes serrés, amplitude contrôlée.",
+    "mistake": "Ouvrir les coudes",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "élastique",
+      "intermediaire": "haltère léger",
+      "avance": "tempo",
+      "expert": "lourd"
+    },
+    "human_explain": "Extension nuque triceps : mouvement pour triceps, avec haltères, élastique.",
+    "coach_note": "Coudes serrés, amplitude contrôlée. Erreur à éviter : Ouvrir les coudes."
+  },
+  {
+    "id": "v65-curl-marteau",
+    "name": "Curl marteau",
+    "group": "haut_du_corps",
+    "pattern": "Bras",
+    "muscles": [
+      "biceps",
+      "avant-bras"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "tips": "Poignets neutres, coudes fixes.",
+    "mistake": "Balancer",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "3x12",
+      "avance": "4x10",
+      "expert": "lourd"
+    },
+    "human_explain": "Curl marteau : mouvement pour biceps, avant-bras, avec haltères.",
+    "coach_note": "Poignets neutres, coudes fixes. Erreur à éviter : Balancer."
+  },
+  {
+    "id": "v65-curl-incline",
+    "name": "Curl incliné",
+    "group": "haut_du_corps",
+    "pattern": "Bras",
+    "muscles": [
+      "biceps"
+    ],
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "tips": "Épaules basses, amplitude longue.",
+    "mistake": "Élan",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "lourd strict"
+    },
+    "human_explain": "Curl incliné : mouvement pour biceps, avec haltères, banc.",
+    "coach_note": "Épaules basses, amplitude longue. Erreur à éviter : Élan."
+  },
+  {
+    "id": "v65-squat-avant",
+    "name": "Squat avant",
+    "group": "bas_du_corps",
+    "pattern": "Squat",
+    "muscles": [
+      "quadriceps",
+      "core"
+    ],
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "tips": "Coudes hauts, buste droit.",
+    "mistake": "Coudes qui tombent",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "goblet",
+      "intermediaire": "haltères",
+      "avance": "barre légère",
+      "expert": "front squat"
+    },
+    "human_explain": "Squat avant : mouvement pour quadriceps, core, avec barre, haltères.",
+    "coach_note": "Coudes hauts, buste droit. Erreur à éviter : Coudes qui tombent."
+  },
+  {
+    "id": "v65-squat-sumo",
+    "name": "Squat sumo",
+    "group": "bas_du_corps",
+    "pattern": "Squat",
+    "muscles": [
+      "adducteurs",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps",
+      "kettlebell",
+      "haltères"
+    ],
+    "tips": "Pieds ouverts, genoux suivent pointes.",
+    "mistake": "Buste qui tombe",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "poids du corps",
+      "intermediaire": "goblet",
+      "avance": "tempo",
+      "expert": "lourd"
+    },
+    "human_explain": "Squat sumo : mouvement pour adducteurs, fessiers, avec poids du corps, kettlebell.",
+    "coach_note": "Pieds ouverts, genoux suivent pointes. Erreur à éviter : Buste qui tombe."
+  },
+  {
+    "id": "v65-fente-bulgare",
+    "name": "Fente bulgare",
+    "group": "bas_du_corps",
+    "pattern": "Unilatéral",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "banc",
+      "haltères"
+    ],
+    "tips": "Descente verticale, genou stable.",
+    "mistake": "Pousser avec la jambe arrière",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "assistée",
+      "intermediaire": "poids du corps",
+      "avance": "haltères",
+      "expert": "tempo lourd"
+    },
+    "human_explain": "Fente bulgare : mouvement pour quadriceps, fessiers, avec banc, haltères.",
+    "coach_note": "Descente verticale, genou stable. Erreur à éviter : Pousser avec la jambe arrière."
+  },
+  {
+    "id": "v65-step-down",
+    "name": "Step down",
+    "group": "bas_du_corps",
+    "pattern": "Contrôle",
+    "muscles": [
+      "quadriceps",
+      "genou"
+    ],
+    "equipment": [
+      "box",
+      "step"
+    ],
+    "tips": "Descente lente, genou aligné.",
+    "mistake": "Genou qui rentre",
+    "contraindications": [],
+    "objectives": [
+      "prevention",
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "petite hauteur",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "chargé"
+    },
+    "human_explain": "Step down : mouvement pour quadriceps, genou, avec box, step.",
+    "coach_note": "Descente lente, genou aligné. Erreur à éviter : Genou qui rentre."
+  },
+  {
+    "id": "v65-nordic-curl-assiste",
+    "name": "Nordic curl assisté",
+    "group": "bas_du_corps",
+    "pattern": "Ischios",
+    "muscles": [
+      "ischios"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Descente lente, hanches ouvertes.",
+    "mistake": "Casser aux hanches",
+    "contraindications": [],
+    "objectives": [
+      "force",
+      "prevention"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "élastique",
+      "intermediaire": "amplitude courte",
+      "avance": "lent",
+      "expert": "complet"
+    },
+    "human_explain": "Nordic curl assisté : mouvement pour ischios, avec poids du corps.",
+    "coach_note": "Descente lente, hanches ouvertes. Erreur à éviter : Casser aux hanches."
+  },
+  {
+    "id": "v65-leg-curl-swiss-ball",
+    "name": "Leg curl swiss ball",
+    "group": "bas_du_corps",
+    "pattern": "Ischios",
+    "muscles": [
+      "ischios",
+      "fessiers"
+    ],
+    "equipment": [
+      "swiss ball"
+    ],
+    "tips": "Hanches hautes, ramener talons.",
+    "mistake": "Hanches qui tombent",
+    "contraindications": [],
+    "objectives": [
+      "renfo"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "pont simple",
+      "intermediaire": "curl partiel",
+      "avance": "standard",
+      "expert": "unilatéral"
+    },
+    "human_explain": "Leg curl swiss ball : mouvement pour ischios, fessiers, avec swiss ball.",
+    "coach_note": "Hanches hautes, ramener talons. Erreur à éviter : Hanches qui tombent."
+  },
+  {
+    "id": "v65-sumo-deadlift",
+    "name": "Sumo deadlift",
+    "group": "bas_du_corps",
+    "pattern": "Hinge",
+    "muscles": [
+      "fessiers",
+      "adducteurs",
+      "dos"
+    ],
+    "equipment": [
+      "barre",
+      "kettlebell"
+    ],
+    "tips": "Pousser le sol, dos neutre.",
+    "mistake": "Tirer avec le dos",
+    "contraindications": [],
+    "objectives": [
+      "force"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "kettlebell",
+      "intermediaire": "barre légère",
+      "avance": "standard",
+      "expert": "lourd"
+    },
+    "human_explain": "Sumo deadlift : mouvement pour fessiers, adducteurs, dos, avec barre, kettlebell.",
+    "coach_note": "Pousser le sol, dos neutre. Erreur à éviter : Tirer avec le dos."
+  },
+  {
+    "id": "v65-swing-une-main",
+    "name": "Swing une main",
+    "group": "bas_du_corps",
+    "pattern": "Hinge",
+    "muscles": [
+      "fessiers",
+      "core",
+      "cardio"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tips": "Hanches explosives, épaule stable.",
+    "mistake": "Rotation excessive",
+    "contraindications": [],
+    "objectives": [
+      "crossfit"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "dead swing",
+      "intermediaire": "alterné",
+      "avance": "série longue",
+      "expert": "lourd"
+    },
+    "human_explain": "Swing une main : mouvement pour fessiers, core, cardio, avec kettlebell.",
+    "coach_note": "Hanches explosives, épaule stable. Erreur à éviter : Rotation excessive."
+  },
+  {
+    "id": "v65-walking-lunges",
+    "name": "Walking lunges",
+    "group": "bas_du_corps",
+    "pattern": "Unilatéral",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "haltères",
+      "poids du corps"
+    ],
+    "tips": "Pas longs, buste haut.",
+    "mistake": "Genou instable",
+    "contraindications": [],
+    "objectives": [
+      "hyrox"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "poids du corps",
+      "intermediaire": "haltères",
+      "avance": "distance",
+      "expert": "lourd"
+    },
+    "human_explain": "Walking lunges : mouvement pour quadriceps, fessiers, avec haltères, poids du corps.",
+    "coach_note": "Pas longs, buste haut. Erreur à éviter : Genou instable."
+  },
+  {
+    "id": "v65-sissy-squat-assiste",
+    "name": "Sissy squat assisté",
+    "group": "bas_du_corps",
+    "pattern": "Quadriceps",
+    "muscles": [
+      "quadriceps"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Bassin gainé, amplitude progressive.",
+    "mistake": "Douleur genou",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "assisté",
+      "intermediaire": "amplitude courte",
+      "avance": "standard",
+      "expert": "tempo"
+    },
+    "human_explain": "Sissy squat assisté : mouvement pour quadriceps, avec poids du corps.",
+    "coach_note": "Bassin gainé, amplitude progressive. Erreur à éviter : Douleur genou."
+  },
+  {
+    "id": "v65-hip-airplane",
+    "name": "Hip airplane",
+    "group": "bas_du_corps",
+    "pattern": "Stabilité",
+    "muscles": [
+      "hanches",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Bassin stable, rotation contrôlée.",
+    "mistake": "S’effondrer sur le pied",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "appui mur",
+      "intermediaire": "petite rotation",
+      "avance": "standard",
+      "expert": "contrôlé"
+    },
+    "human_explain": "Hip airplane : mouvement pour hanches, fessiers, avec poids du corps.",
+    "coach_note": "Bassin stable, rotation contrôlée. Erreur à éviter : S’effondrer sur le pied."
+  },
+  {
+    "id": "v65-crunch-cable",
+    "name": "Crunch câble",
+    "group": "core",
+    "pattern": "Flexion",
+    "muscles": [
+      "abdos"
+    ],
+    "equipment": [
+      "poulie"
+    ],
+    "tips": "Arrondir le haut du dos, bassin fixe.",
+    "mistake": "Tirer avec les bras",
+    "contraindications": [],
+    "objectives": [
+      "hypertrophie"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "3x15",
+      "avance": "4x12",
+      "expert": "lourd"
+    },
+    "human_explain": "Crunch câble : mouvement pour abdos, avec poulie.",
+    "coach_note": "Arrondir le haut du dos, bassin fixe. Erreur à éviter : Tirer avec les bras."
+  },
+  {
+    "id": "v65-planche-rkc",
+    "name": "Planche RKC",
+    "group": "core",
+    "pattern": "Anti-extension",
+    "muscles": [
+      "core"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Contracter fessiers et abdos très fort.",
+    "mistake": "Tenir trop longtemps en relâchant",
+    "contraindications": [],
+    "objectives": [
+      "core"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "10 sec",
+      "intermediaire": "15 sec",
+      "avance": "20 sec",
+      "expert": "séries"
+    },
+    "human_explain": "Planche RKC : mouvement pour core, avec poids du corps.",
+    "coach_note": "Contracter fessiers et abdos très fort. Erreur à éviter : Tenir trop longtemps en relâchant."
+  },
+  {
+    "id": "v65-suitcase-carry",
+    "name": "Suitcase carry",
+    "group": "core",
+    "pattern": "Anti-flexion",
+    "muscles": [
+      "obliques",
+      "grip"
+    ],
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "tips": "Marcher droit, ne pas pencher.",
+    "mistake": "Compensation du buste",
+    "contraindications": [],
+    "objectives": [
+      "hyrox",
+      "core"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger 20m",
+      "intermediaire": "30m",
+      "avance": "lourd",
+      "expert": "long"
+    },
+    "human_explain": "Suitcase carry : mouvement pour obliques, grip, avec haltères, kettlebell.",
+    "coach_note": "Marcher droit, ne pas pencher. Erreur à éviter : Compensation du buste."
+  },
+  {
+    "id": "v65-pallof-press-rotation",
+    "name": "Pallof press rotation",
+    "group": "core",
+    "pattern": "Anti-rotation",
+    "muscles": [
+      "core",
+      "obliques"
+    ],
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "tips": "Bras tendus, bassin stable.",
+    "mistake": "Tourner les hanches",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "dynamique"
+    },
+    "human_explain": "Pallof press rotation : mouvement pour core, obliques, avec poulie, élastique.",
+    "coach_note": "Bras tendus, bassin stable. Erreur à éviter : Tourner les hanches."
+  },
+  {
+    "id": "v65-hanging-knee-raise",
+    "name": "Hanging knee raise",
+    "group": "core",
+    "pattern": "Suspension",
+    "muscles": [
+      "abdos",
+      "grip"
+    ],
+    "equipment": [
+      "barre traction"
+    ],
+    "tips": "Monter genoux sans balancer.",
+    "mistake": "Élan excessif",
+    "contraindications": [],
+    "objectives": [
+      "core",
+      "crossfit"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "chaise romaine",
+      "intermediaire": "suspendu genoux",
+      "avance": "strict",
+      "expert": "toes to bar"
+    },
+    "human_explain": "Hanging knee raise : mouvement pour abdos, grip, avec barre traction.",
+    "coach_note": "Monter genoux sans balancer. Erreur à éviter : Élan excessif."
+  },
+  {
+    "id": "v65-dragon-flag-progression",
+    "name": "Dragon flag progression",
+    "group": "core",
+    "pattern": "Anti-extension",
+    "muscles": [
+      "abdos"
+    ],
+    "equipment": [
+      "banc"
+    ],
+    "tips": "Descendre lentement, corps gainé.",
+    "mistake": "Cambrer",
+    "contraindications": [],
+    "objectives": [
+      "core"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "tuck",
+      "intermediaire": "une jambe",
+      "avance": "négative",
+      "expert": "complète"
+    },
+    "human_explain": "Dragon flag progression : mouvement pour abdos, avec banc.",
+    "coach_note": "Descendre lentement, corps gainé. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v65-copenhagen-plank",
+    "name": "Copenhagen plank",
+    "group": "core",
+    "pattern": "Adducteurs/Core",
+    "muscles": [
+      "adducteurs",
+      "obliques"
+    ],
+    "equipment": [
+      "banc"
+    ],
+    "tips": "Corps aligné, hanche haute.",
+    "mistake": "Épaule instable",
+    "contraindications": [],
+    "objectives": [
+      "prevention",
+      "core"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "genou sur banc",
+      "intermediaire": "court",
+      "avance": "standard",
+      "expert": "long"
+    },
+    "human_explain": "Copenhagen plank : mouvement pour adducteurs, obliques, avec banc.",
+    "coach_note": "Corps aligné, hanche haute. Erreur à éviter : Épaule instable."
+  },
+  {
+    "id": "v65-plank-walkout",
+    "name": "Plank walkout",
+    "group": "core",
+    "pattern": "Anti-extension",
+    "muscles": [
+      "core",
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Marcher mains loin sans cambrer.",
+    "mistake": "Aller trop loin",
+    "contraindications": [],
+    "objectives": [
+      "core",
+      "hiit"
+    ],
+    "type": "strength",
+    "levels": {
+      "debutant": "courte",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "avec pompe"
+    },
+    "human_explain": "Plank walkout : mouvement pour core, épaules, avec poids du corps.",
+    "coach_note": "Marcher mains loin sans cambrer. Erreur à éviter : Aller trop loin."
+  },
+  {
+    "id": "v65-emom-burpees",
+    "name": "EMOM burpees",
+    "group": "cardio",
+    "pattern": "EMOM",
+    "muscles": [
+      "cardio",
+      "full body"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Faire les reps au début de minute, récupérer le reste.",
+    "mistake": "Commencer trop vite",
+    "contraindications": [],
+    "objectives": [
+      "crossfit",
+      "hiit"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "5/min",
+      "intermediaire": "7/min",
+      "avance": "10/min",
+      "expert": "12/min"
+    },
+    "human_explain": "EMOM burpees : mouvement pour cardio, full body, avec poids du corps.",
+    "coach_note": "Faire les reps au début de minute, récupérer le reste. Erreur à éviter : Commencer trop vite."
+  },
+  {
+    "id": "v65-amrap-kettlebell",
+    "name": "AMRAP kettlebell",
+    "group": "cardio",
+    "pattern": "AMRAP",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tips": "Rythme constant, technique propre.",
+    "mistake": "Perdre le dos neutre",
+    "contraindications": [],
+    "objectives": [
+      "crossfit"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "8 min",
+      "intermediaire": "10 min",
+      "avance": "12 min",
+      "expert": "16 min"
+    },
+    "human_explain": "AMRAP kettlebell : mouvement pour full body, avec kettlebell.",
+    "coach_note": "Rythme constant, technique propre. Erreur à éviter : Perdre le dos neutre."
+  },
+  {
+    "id": "v65-for-time-dumbbells",
+    "name": "For time dumbbells",
+    "group": "cardio",
+    "pattern": "For Time",
+    "muscles": [
+      "full body"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "tips": "Finir vite mais propre.",
+    "mistake": "Bâcler les mouvements",
+    "contraindications": [],
+    "objectives": [
+      "crossfit"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "cap 8 min",
+      "intermediaire": "cap 10 min",
+      "avance": "cap 12 min",
+      "expert": "cap 15 min"
+    },
+    "human_explain": "For time dumbbells : mouvement pour full body, avec haltères.",
+    "coach_note": "Finir vite mais propre. Erreur à éviter : Bâcler les mouvements."
+  },
+  {
+    "id": "v65-rameur-500m",
+    "name": "Rameur 500m",
+    "group": "cardio",
+    "pattern": "Cardio machine",
+    "muscles": [
+      "cardio",
+      "dos",
+      "jambes"
+    ],
+    "equipment": [
+      "rameur"
+    ],
+    "tips": "Pousser jambes puis tirer bras.",
+    "mistake": "Tirer trop tôt",
+    "contraindications": [],
+    "objectives": [
+      "hyrox"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "technique",
+      "intermediaire": "500m modéré",
+      "avance": "500m rapide",
+      "expert": "sprint"
+    },
+    "human_explain": "Rameur 500m : mouvement pour cardio, dos, jambes, avec rameur.",
+    "coach_note": "Pousser jambes puis tirer bras. Erreur à éviter : Tirer trop tôt."
+  },
+  {
+    "id": "v65-rameur-intervalles",
+    "name": "Rameur intervalles",
+    "group": "cardio",
+    "pattern": "Intervalles",
+    "muscles": [
+      "cardio"
+    ],
+    "equipment": [
+      "rameur"
+    ],
+    "tips": "Rythme régulier sur chaque intervalle.",
+    "mistake": "Premier trop rapide",
+    "contraindications": [],
+    "objectives": [
+      "hiit",
+      "hyrox"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "6x30/30",
+      "intermediaire": "8x30/30",
+      "avance": "10x40/20",
+      "expert": "12x"
+    },
+    "human_explain": "Rameur intervalles : mouvement pour cardio, avec rameur.",
+    "coach_note": "Rythme régulier sur chaque intervalle. Erreur à éviter : Premier trop rapide."
+  },
+  {
+    "id": "v65-skierg",
+    "name": "SkiErg",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "muscles": [
+      "dos",
+      "triceps",
+      "cardio"
+    ],
+    "equipment": [
+      "skierg"
+    ],
+    "tips": "Grandir puis tirer vers poches.",
+    "mistake": "Tirer bras seuls",
+    "contraindications": [],
+    "objectives": [
+      "hyrox"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "technique",
+      "intermediaire": "250m",
+      "avance": "500m",
+      "expert": "intervalles"
+    },
+    "human_explain": "SkiErg : mouvement pour dos, triceps, cardio, avec skierg.",
+    "coach_note": "Grandir puis tirer vers poches. Erreur à éviter : Tirer bras seuls."
+  },
+  {
+    "id": "v65-wall-ball-target",
+    "name": "Wall ball target",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "muscles": [
+      "jambes",
+      "épaules"
+    ],
+    "equipment": [
+      "medecine ball"
+    ],
+    "tips": "Squat complet puis lancer fluide.",
+    "mistake": "Lancer sans jambes",
+    "contraindications": [],
+    "objectives": [
+      "hyrox",
+      "crossfit"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "ballon léger",
+      "intermediaire": "10 reps",
+      "avance": "20 reps",
+      "expert": "50 reps"
+    },
+    "human_explain": "Wall ball target : mouvement pour jambes, épaules, avec medecine ball.",
+    "coach_note": "Squat complet puis lancer fluide. Erreur à éviter : Lancer sans jambes."
+  },
+  {
+    "id": "v65-box-step-over-leste",
+    "name": "Box step-over lesté",
+    "group": "cardio",
+    "pattern": "Hyrox",
+    "muscles": [
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "box",
+      "haltères"
+    ],
+    "tips": "Monter stable, descendre contrôlé.",
+    "mistake": "Sauter sans contrôle",
+    "contraindications": [],
+    "objectives": [
+      "hyrox"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "poids du corps",
+      "intermediaire": "haltères légers",
+      "avance": "rythme",
+      "expert": "lourd"
+    },
+    "human_explain": "Box step-over lesté : mouvement pour jambes, cardio, avec box, haltères.",
+    "coach_note": "Monter stable, descendre contrôlé. Erreur à éviter : Sauter sans contrôle."
+  },
+  {
+    "id": "v65-bear-crawl-rapide",
+    "name": "Bear crawl rapide",
+    "group": "cardio",
+    "pattern": "Locomotion",
+    "muscles": [
+      "core",
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Genoux bas, appuis rapides.",
+    "mistake": "Fesses hautes",
+    "contraindications": [],
+    "objectives": [
+      "hiit",
+      "terrain"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "20m",
+      "avance": "40m",
+      "expert": "sprint"
+    },
+    "human_explain": "Bear crawl rapide : mouvement pour core, épaules, avec poids du corps.",
+    "coach_note": "Genoux bas, appuis rapides. Erreur à éviter : Fesses hautes."
+  },
+  {
+    "id": "v65-sprint-cones-5-10-5",
+    "name": "Sprint cônes 5-10-5",
+    "group": "cardio",
+    "pattern": "Agilité",
+    "muscles": [
+      "appuis",
+      "cardio"
+    ],
+    "equipment": [
+      "cônes",
+      "extérieur"
+    ],
+    "tips": "Freiner bas, repartir vite.",
+    "mistake": "Se redresser au demi-tour",
+    "contraindications": [],
+    "objectives": [
+      "explosivite"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "marche",
+      "intermediaire": "modéré",
+      "avance": "sprint",
+      "expert": "réaction"
+    },
+    "human_explain": "Sprint cônes 5-10-5 : mouvement pour appuis, cardio, avec cônes, extérieur.",
+    "coach_note": "Freiner bas, repartir vite. Erreur à éviter : Se redresser au demi-tour."
+  },
+  {
+    "id": "v65-round-jab-uniquement",
+    "name": "Round jab uniquement",
+    "group": "boxe",
+    "pattern": "Round technique",
+    "muscles": [
+      "boxe"
+    ],
+    "equipment": [
+      "sac",
+      "poids du corps"
+    ],
+    "tips": "Varier rythme, garde haute.",
+    "mistake": "Jab lent sans retour",
+    "contraindications": [],
+    "objectives": [
+      "boxe"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "2 min",
+      "intermediaire": "3 min",
+      "avance": "3 rounds",
+      "expert": "5 rounds"
+    },
+    "human_explain": "Round jab uniquement : mouvement pour boxe, avec sac, poids du corps.",
+    "coach_note": "Varier rythme, garde haute. Erreur à éviter : Jab lent sans retour."
+  },
+  {
+    "id": "v65-round-corps-tete",
+    "name": "Round corps-tête",
+    "group": "boxe",
+    "pattern": "Round technique",
+    "muscles": [
+      "boxe",
+      "core"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "Changer hauteur sans perdre appuis.",
+    "mistake": "Baisser les yeux",
+    "contraindications": [],
+    "objectives": [
+      "boxe"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "2 min",
+      "intermediaire": "3 min",
+      "avance": "3 rounds",
+      "expert": "5 rounds"
+    },
+    "human_explain": "Round corps-tête : mouvement pour boxe, core, avec sac.",
+    "coach_note": "Changer hauteur sans perdre appuis. Erreur à éviter : Baisser les yeux."
+  },
+  {
+    "id": "v65-slip-rope",
+    "name": "Slip rope",
+    "group": "boxe",
+    "pattern": "Défense",
+    "muscles": [
+      "appuis",
+      "jambes"
+    ],
+    "equipment": [
+      "corde",
+      "poids du corps"
+    ],
+    "tips": "Passer sous la corde avec jambes.",
+    "mistake": "Pencher seulement le dos",
+    "contraindications": [],
+    "objectives": [
+      "boxe"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "2 min",
+      "avance": "3 rounds",
+      "expert": "vitesse"
+    },
+    "human_explain": "Slip rope : mouvement pour appuis, jambes, avec corde, poids du corps.",
+    "coach_note": "Passer sous la corde avec jambes. Erreur à éviter : Pencher seulement le dos."
+  },
+  {
+    "id": "v65-sac-puissance-10-coups",
+    "name": "Sac puissance 10 coups",
+    "group": "boxe",
+    "pattern": "Puissance",
+    "muscles": [
+      "boxe",
+      "épaules"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "10 coups propres puis récupérer.",
+    "mistake": "Frapper désorganisé",
+    "contraindications": [],
+    "objectives": [
+      "boxe",
+      "explosivite"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "modéré",
+      "avance": "puissant",
+      "expert": "rounds"
+    },
+    "human_explain": "Sac puissance 10 coups : mouvement pour boxe, épaules, avec sac.",
+    "coach_note": "10 coups propres puis récupérer. Erreur à éviter : Frapper désorganisé."
+  },
+  {
+    "id": "v65-pattes-d-ours-reaction",
+    "name": "Pattes d’ours réaction",
+    "group": "boxe",
+    "pattern": "Réactivité",
+    "muscles": [
+      "boxe"
+    ],
+    "equipment": [
+      "pattes d'ours"
+    ],
+    "tips": "Réagir au signal, retour garde.",
+    "mistake": "Anticiper au hasard",
+    "contraindications": [],
+    "objectives": [
+      "boxe"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "lent",
+      "intermediaire": "2 coups",
+      "avance": "3-4 coups",
+      "expert": "vitesse"
+    },
+    "human_explain": "Pattes d’ours réaction : mouvement pour boxe, avec pattes d'ours.",
+    "coach_note": "Réagir au signal, retour garde. Erreur à éviter : Anticiper au hasard."
+  },
+  {
+    "id": "v65-shadow-avec-elastique",
+    "name": "Shadow avec élastique",
+    "group": "boxe",
+    "pattern": "Résistance",
+    "muscles": [
+      "épaules",
+      "boxe"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Garder technique malgré tension.",
+    "mistake": "Bras qui s’écartent",
+    "contraindications": [],
+    "objectives": [
+      "boxe",
+      "renfo"
+    ],
+    "type": "cardio",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "30 sec",
+      "avance": "round",
+      "expert": "résistance"
+    },
+    "human_explain": "Shadow avec élastique : mouvement pour épaules, boxe, avec élastique.",
+    "coach_note": "Garder technique malgré tension. Erreur à éviter : Bras qui s’écartent."
+  },
+  {
+    "id": "v65-cars-epaules",
+    "name": "CARs épaules",
+    "group": "mobilite",
+    "pattern": "Mobilité articulaire",
+    "muscles": [
+      "épaules"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Faire un grand cercle lent sans douleur.",
+    "mistake": "Compenser avec le dos",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "petit cercle",
+      "intermediaire": "standard",
+      "avance": "lent",
+      "expert": "contrôle max"
+    },
+    "human_explain": "CARs épaules : mouvement pour épaules, avec poids du corps.",
+    "coach_note": "Faire un grand cercle lent sans douleur. Erreur à éviter : Compenser avec le dos."
+  },
+  {
+    "id": "v65-cars-hanches",
+    "name": "CARs hanches",
+    "group": "mobilite",
+    "pattern": "Mobilité articulaire",
+    "muscles": [
+      "hanches"
+    ],
+    "equipment": [
+      "poids du corps",
+      "mur"
+    ],
+    "tips": "Bassin stable, grand cercle contrôlé.",
+    "mistake": "Tourner tout le bassin",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "appui mur",
+      "intermediaire": "petit cercle",
+      "avance": "standard",
+      "expert": "lent"
+    },
+    "human_explain": "CARs hanches : mouvement pour hanches, avec poids du corps, mur.",
+    "coach_note": "Bassin stable, grand cercle contrôlé. Erreur à éviter : Tourner tout le bassin."
+  },
+  {
+    "id": "v65-etirement-piriforme",
+    "name": "Étirement piriforme",
+    "group": "mobilite",
+    "pattern": "Hanches",
+    "muscles": [
+      "fessiers",
+      "hanches"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Respirer, relâcher la hanche.",
+    "mistake": "Tirer sur le genou",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "sur dos",
+      "intermediaire": "assis",
+      "avance": "pigeon léger",
+      "expert": "long"
+    },
+    "human_explain": "Étirement piriforme : mouvement pour fessiers, hanches, avec tapis.",
+    "coach_note": "Respirer, relâcher la hanche. Erreur à éviter : Tirer sur le genou."
+  },
+  {
+    "id": "v65-ouverture-adducteurs-grenouille",
+    "name": "Ouverture adducteurs grenouille",
+    "group": "mobilite",
+    "pattern": "Hanches",
+    "muscles": [
+      "adducteurs"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Reculer lentement, respirer.",
+    "mistake": "Forcer genoux",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "courte",
+      "intermediaire": "standard",
+      "avance": "pause",
+      "expert": "long"
+    },
+    "human_explain": "Ouverture adducteurs grenouille : mouvement pour adducteurs, avec tapis.",
+    "coach_note": "Reculer lentement, respirer. Erreur à éviter : Forcer genoux."
+  },
+  {
+    "id": "v65-mobilite-extension-thoracique",
+    "name": "Mobilité extension thoracique",
+    "group": "mobilite",
+    "pattern": "Colonne",
+    "muscles": [
+      "thorax",
+      "dos"
+    ],
+    "equipment": [
+      "foam roller"
+    ],
+    "tips": "Respirer sur le rouleau.",
+    "mistake": "Cambrer lombaires",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "petite",
+      "intermediaire": "standard",
+      "avance": "bras ouverts",
+      "expert": "long"
+    },
+    "human_explain": "Mobilité extension thoracique : mouvement pour thorax, dos, avec foam roller.",
+    "coach_note": "Respirer sur le rouleau. Erreur à éviter : Cambrer lombaires."
+  },
+  {
+    "id": "v65-etirement-grand-dorsal-lateral",
+    "name": "Étirement grand dorsal latéral",
+    "group": "mobilite",
+    "pattern": "Dos",
+    "muscles": [
+      "grand dorsal"
+    ],
+    "equipment": [
+      "mur",
+      "banc"
+    ],
+    "tips": "Hanches en arrière, côté allongé.",
+    "mistake": "Tordre lombaires",
+    "contraindications": [],
+    "objectives": [
+      "mobilite"
+    ],
+    "type": "mobility",
+    "levels": {
+      "debutant": "30 sec",
+      "intermediaire": "45 sec",
+      "avance": "60 sec",
+      "expert": "long"
+    },
+    "human_explain": "Étirement grand dorsal latéral : mouvement pour grand dorsal, avec mur, banc.",
+    "coach_note": "Hanches en arrière, côté allongé. Erreur à éviter : Tordre lombaires."
+  },
+  {
+    "id": "v65-prehab-cheville-elastique",
+    "name": "Préhab cheville élastique",
+    "group": "reeducation",
+    "pattern": "Cheville",
+    "muscles": [
+      "chevilles"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Mouvement lent dans chaque direction.",
+    "mistake": "Tirer trop fort",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "prehab",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "2x12",
+      "avance": "3x15",
+      "expert": "contrôle"
+    },
+    "human_explain": "Préhab cheville élastique : mouvement pour chevilles, avec élastique.",
+    "coach_note": "Mouvement lent dans chaque direction. Erreur à éviter : Tirer trop fort."
+  },
+  {
+    "id": "v65-prehab-ischios-slider",
+    "name": "Préhab ischios slider",
+    "group": "reeducation",
+    "pattern": "Ischios",
+    "muscles": [
+      "ischios"
+    ],
+    "equipment": [
+      "serviette",
+      "slider"
+    ],
+    "tips": "Hanches hautes, descente contrôlée.",
+    "mistake": "Hanches qui tombent",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "prehab",
+    "levels": {
+      "debutant": "un pied assisté",
+      "intermediaire": "deux pieds",
+      "avance": "lent",
+      "expert": "unilatéral"
+    },
+    "human_explain": "Préhab ischios slider : mouvement pour ischios, avec serviette, slider.",
+    "coach_note": "Hanches hautes, descente contrôlée. Erreur à éviter : Hanches qui tombent."
+  },
+  {
+    "id": "v65-serratus-punch",
+    "name": "Serratus punch",
+    "group": "reeducation",
+    "pattern": "Épaule",
+    "muscles": [
+      "serratus",
+      "omoplates"
+    ],
+    "equipment": [
+      "haltères",
+      "élastique"
+    ],
+    "tips": "Pousser l’omoplate vers l’avant.",
+    "mistake": "Plier le coude",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "prehab",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "2x15",
+      "avance": "3x15",
+      "expert": "tempo"
+    },
+    "human_explain": "Serratus punch : mouvement pour serratus, omoplates, avec haltères, élastique.",
+    "coach_note": "Pousser l’omoplate vers l’avant. Erreur à éviter : Plier le coude."
+  },
+  {
+    "id": "v65-external-rotation-90-90",
+    "name": "External rotation 90/90",
+    "group": "reeducation",
+    "pattern": "Épaule",
+    "muscles": [
+      "coiffe",
+      "épaules"
+    ],
+    "equipment": [
+      "élastique",
+      "poulie"
+    ],
+    "tips": "Coude à hauteur épaule, rotation contrôlée.",
+    "mistake": "Cambrer",
+    "contraindications": [],
+    "objectives": [
+      "prevention"
+    ],
+    "type": "prehab",
+    "levels": {
+      "debutant": "léger",
+      "intermediaire": "standard",
+      "avance": "tempo",
+      "expert": "strict"
+    },
+    "human_explain": "External rotation 90/90 : mouvement pour coiffe, épaules, avec élastique, poulie.",
+    "coach_note": "Coude à hauteur épaule, rotation contrôlée. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v65-marche-respiration-nasale",
+    "name": "Marche respiration nasale",
+    "group": "reeducation",
+    "pattern": "Récup",
+    "muscles": [
+      "respiration",
+      "cardio"
+    ],
+    "equipment": [
+      "extérieur"
+    ],
+    "tips": "Rester en respiration nasale facile.",
+    "mistake": "Accélérer trop",
+    "contraindications": [],
+    "objectives": [
+      "recovery"
+    ],
+    "type": "prehab",
+    "levels": {
+      "debutant": "5 min",
+      "intermediaire": "10 min",
+      "avance": "15 min",
+      "expert": "20 min"
+    },
+    "human_explain": "Marche respiration nasale : mouvement pour respiration, cardio, avec extérieur.",
+    "coach_note": "Rester en respiration nasale facile. Erreur à éviter : Accélérer trop."
   }
 ]
