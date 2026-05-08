@@ -1,12 +1,13 @@
-# FAFATRAINING V66 REAL COACH REBUILD
+# FAFATRAINING V67 REAL ATHLETE SYSTEM
 
-Rebuild complet UX + logique coach :
-- home simplifiée, plus app premium ;
-- générateur en étapes : objectif, style, profil, matériel, état du jour ;
-- adaptation visible selon âge, fatigue, stress, blessure ;
-- séance détaillée avec objectif, matériel, travail, repos, répétitions, consignes ;
-- menu séance refondu, plus proche d’un vrai menu coach ;
-- bibliothèque avec 199 mouvements, explication humaine, consigne, erreur, niveaux ;
-- PWA GitHub ready.
+Ajouts V67 :
+- Dashboard athlète.
+- Profil athlète : âge, taille, poids, objectif long terme, sport principal, séances/semaine, expérience, sommeil, récupération.
+- Recommandations automatiques.
+- Historique local des séances sauvegardées.
+- Plan semaine automatique.
+- Moteur adapté au profil + fatigue/stress/sommeil/récupération.
+- Export menu séance.
+- Bibliothèque : 199 mouvements.
 
-Test : `?v=66`
+Test : `?v=67`
