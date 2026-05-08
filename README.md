@@ -1,12 +1,13 @@
-# FAFATRAINING V68 iOS PRO CLEAN
+# FAFATRAINING V72 PREMIUM UX CLEAN
 
-Améliorations :
-- accueil plus premium, logo intégré en filigrane et pastilles sportives façon iOS ;
-- générateur plus clair : objectif, style, profil, matériel par catégorie, état du jour ;
-- matériel enrichi et rangé ;
-- styles précis enrichis : CrossFit, boxe, mobilité, prévention ;
-- bibliothèque enrichie : 226 mouvements ;
-- UI plus homogène, moins effet patch ;
-- base PWA GitHub ready.
+Version corrigée après retour :
+- accueil simplifié et premium ;
+- générateur en étapes, pas une page chargée ;
+- suppression des répétitions visuelles ;
+- menu séance plus lisible et homogène ;
+- bibliothèque claire et filtrable ;
+- moteur plus propre ;
+- 235 mouvements ;
+- PWA GitHub ready.
 
-Test : `?v=68`
+Test : `?v=72`

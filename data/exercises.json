@@ -6448,5 +6448,257 @@
     },
     "human_explain": "Carry suitcase : Marcher droit.",
     "coach_note": "Consigne : Marcher droit. Erreur à éviter : Se pencher."
+  },
+  {
+    "id": "v72_227",
+    "name": "Mobilité cervicales douce",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "cervicales"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Tourne lentement sans forcer.",
+    "mistake": "Faire des mouvements brusques.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Mobilité cervicales douce version facile",
+      "intermediaire": "Mobilité cervicales douce standard",
+      "avance": "Mobilité cervicales douce tempo/charge modérée",
+      "expert": "Mobilité cervicales douce version intense maîtrisée"
+    },
+    "human_explain": "Mobilité cervicales douce : Tourne lentement sans forcer.",
+    "coach_note": "Consigne : Tourne lentement sans forcer. Erreur : Faire des mouvements brusques."
+  },
+  {
+    "id": "v72_228",
+    "name": "Préhab épaule rotation externe",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "coiffe",
+      "épaule"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Coude fixé, rotation propre.",
+    "mistake": "Bouger tout le bras.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Préhab épaule rotation externe version facile",
+      "intermediaire": "Préhab épaule rotation externe standard",
+      "avance": "Préhab épaule rotation externe tempo/charge modérée",
+      "expert": "Préhab épaule rotation externe version intense maîtrisée"
+    },
+    "human_explain": "Préhab épaule rotation externe : Coude fixé, rotation propre.",
+    "coach_note": "Consigne : Coude fixé, rotation propre. Erreur : Bouger tout le bras."
+  },
+  {
+    "id": "v72_229",
+    "name": "Préhab genou step down",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "quadriceps",
+      "genou"
+    ],
+    "equipment": [
+      "step"
+    ],
+    "tips": "Descente lente, genou dans l’axe.",
+    "mistake": "Genou qui rentre.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Préhab genou step down version facile",
+      "intermediaire": "Préhab genou step down standard",
+      "avance": "Préhab genou step down tempo/charge modérée",
+      "expert": "Préhab genou step down version intense maîtrisée"
+    },
+    "human_explain": "Préhab genou step down : Descente lente, genou dans l’axe.",
+    "coach_note": "Consigne : Descente lente, genou dans l’axe. Erreur : Genou qui rentre."
+  },
+  {
+    "id": "v72_230",
+    "name": "Shadow boxing appuis",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "appuis",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Reste léger, garde haute.",
+    "mistake": "Croiser les pieds.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Shadow boxing appuis version facile",
+      "intermediaire": "Shadow boxing appuis standard",
+      "avance": "Shadow boxing appuis tempo/charge modérée",
+      "expert": "Shadow boxing appuis version intense maîtrisée"
+    },
+    "human_explain": "Shadow boxing appuis : Reste léger, garde haute.",
+    "coach_note": "Consigne : Reste léger, garde haute. Erreur : Croiser les pieds."
+  },
+  {
+    "id": "v72_231",
+    "name": "Sac de frappe rounds",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "boxe",
+      "épaules",
+      "cardio"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "Round propre, thème précis.",
+    "mistake": "Frapper sans garde.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Sac de frappe rounds version facile",
+      "intermediaire": "Sac de frappe rounds standard",
+      "avance": "Sac de frappe rounds tempo/charge modérée",
+      "expert": "Sac de frappe rounds version intense maîtrisée"
+    },
+    "human_explain": "Sac de frappe rounds : Round propre, thème précis.",
+    "coach_note": "Consigne : Round propre, thème précis. Erreur : Frapper sans garde."
+  },
+  {
+    "id": "v72_232",
+    "name": "AMRAP full body",
+    "group": "cardio",
+    "pattern": "AMRAP",
+    "muscles": [
+      "full body",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Rythme constant, qualité avant vitesse.",
+    "mistake": "Sacrifier la technique.",
+    "objectives": [
+      "cardio",
+      "amrap"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "AMRAP full body version facile",
+      "intermediaire": "AMRAP full body standard",
+      "avance": "AMRAP full body tempo/charge modérée",
+      "expert": "AMRAP full body version intense maîtrisée"
+    },
+    "human_explain": "AMRAP full body : Rythme constant, qualité avant vitesse.",
+    "coach_note": "Consigne : Rythme constant, qualité avant vitesse. Erreur : Sacrifier la technique."
+  },
+  {
+    "id": "v72_233",
+    "name": "Goblet squat tempo",
+    "group": "bas_du_corps",
+    "pattern": "Squat",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tips": "Descente lente, buste haut.",
+    "mistake": "Genoux vers l’intérieur.",
+    "objectives": [
+      "bas_du_corps",
+      "squat"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Goblet squat tempo version facile",
+      "intermediaire": "Goblet squat tempo standard",
+      "avance": "Goblet squat tempo tempo/charge modérée",
+      "expert": "Goblet squat tempo version intense maîtrisée"
+    },
+    "human_explain": "Goblet squat tempo : Descente lente, buste haut.",
+    "coach_note": "Consigne : Descente lente, buste haut. Erreur : Genoux vers l’intérieur."
+  },
+  {
+    "id": "v72_234",
+    "name": "Rowing élastique",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Tire les coudes vers l’arrière.",
+    "mistake": "Hausser les épaules.",
+    "objectives": [
+      "haut_du_corps",
+      "pull"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rowing élastique version facile",
+      "intermediaire": "Rowing élastique standard",
+      "avance": "Rowing élastique tempo/charge modérée",
+      "expert": "Rowing élastique version intense maîtrisée"
+    },
+    "human_explain": "Rowing élastique : Tire les coudes vers l’arrière.",
+    "coach_note": "Consigne : Tire les coudes vers l’arrière. Erreur : Hausser les épaules."
+  },
+  {
+    "id": "v72_235",
+    "name": "Planche dead bug combo",
+    "group": "core",
+    "pattern": "Core",
+    "muscles": [
+      "abdos",
+      "lombaires"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Bassin stable, respiration.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "core",
+      "core"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Planche dead bug combo version facile",
+      "intermediaire": "Planche dead bug combo standard",
+      "avance": "Planche dead bug combo tempo/charge modérée",
+      "expert": "Planche dead bug combo version intense maîtrisée"
+    },
+    "human_explain": "Planche dead bug combo : Bassin stable, respiration.",
+    "coach_note": "Consigne : Bassin stable, respiration. Erreur : Cambrer."
   }
 ]
