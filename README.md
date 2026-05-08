@@ -1,13 +1,12 @@
-# FAFATRAINING V67 REAL ATHLETE SYSTEM
+# FAFATRAINING V68 iOS PRO CLEAN
 
-Ajouts V67 :
-- Dashboard athlète.
-- Profil athlète : âge, taille, poids, objectif long terme, sport principal, séances/semaine, expérience, sommeil, récupération.
-- Recommandations automatiques.
-- Historique local des séances sauvegardées.
-- Plan semaine automatique.
-- Moteur adapté au profil + fatigue/stress/sommeil/récupération.
-- Export menu séance.
-- Bibliothèque : 199 mouvements.
+Améliorations :
+- accueil plus premium, logo intégré en filigrane et pastilles sportives façon iOS ;
+- générateur plus clair : objectif, style, profil, matériel par catégorie, état du jour ;
+- matériel enrichi et rangé ;
+- styles précis enrichis : CrossFit, boxe, mobilité, prévention ;
+- bibliothèque enrichie : 226 mouvements ;
+- UI plus homogène, moins effet patch ;
+- base PWA GitHub ready.
 
-Test : `?v=67`
+Test : `?v=68`

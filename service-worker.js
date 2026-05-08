@@ -1,4 +1,4 @@
-const CACHE='fafatraining-v67-real-athlete-system';
+const CACHE='fafatraining-v68-ios-pro-clean';
 const ASSETS=['./','./index.html','./style.css','./app.js','./js/engine.js','./data/exercises.json','./data/programs.json','./data/profile-default.json','./assets/logo/logo-fafa.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(clients.claim())});

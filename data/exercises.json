@@ -5692,5 +5692,761 @@
     },
     "human_explain": "Marche respiration nasale : travaille respiration, cardio avec extérieur.",
     "coach_note": "Rester en respiration nasale facile. Erreur à éviter : Accélérer trop."
+  },
+  {
+    "id": "v68_200",
+    "name": "Ouverture hanches 90/90",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "hanches",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Améliorer rotation de hanche.",
+    "mistake": "Forcer le genou.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Ouverture hanches 90/90 facile",
+      "intermediaire": "Ouverture hanches 90/90 standard",
+      "avance": "Ouverture hanches 90/90 tempo/charge modérée",
+      "expert": "Ouverture hanches 90/90 intense maîtrisé"
+    },
+    "human_explain": "Ouverture hanches 90/90 : Améliorer rotation de hanche.",
+    "coach_note": "Consigne : Améliorer rotation de hanche. Erreur à éviter : Forcer le genou."
+  },
+  {
+    "id": "v68_201",
+    "name": "Étirement psoas genou au sol",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "psoas",
+      "quadriceps"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Ouvrir la hanche, bassin gainé.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Étirement psoas genou au sol facile",
+      "intermediaire": "Étirement psoas genou au sol standard",
+      "avance": "Étirement psoas genou au sol tempo/charge modérée",
+      "expert": "Étirement psoas genou au sol intense maîtrisé"
+    },
+    "human_explain": "Étirement psoas genou au sol : Ouvrir la hanche, bassin gainé.",
+    "coach_note": "Consigne : Ouvrir la hanche, bassin gainé. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v68_202",
+    "name": "Rotation thoracique au sol",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "colonne",
+      "épaules"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Libérer le haut du dos.",
+    "mistake": "Tourner les hanches.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rotation thoracique au sol facile",
+      "intermediaire": "Rotation thoracique au sol standard",
+      "avance": "Rotation thoracique au sol tempo/charge modérée",
+      "expert": "Rotation thoracique au sol intense maîtrisé"
+    },
+    "human_explain": "Rotation thoracique au sol : Libérer le haut du dos.",
+    "coach_note": "Consigne : Libérer le haut du dos. Erreur à éviter : Tourner les hanches."
+  },
+  {
+    "id": "v68_203",
+    "name": "Étirement ischios actif",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "ischios",
+      "mollets"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Gagner en souplesse active.",
+    "mistake": "Arrondir fort.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Étirement ischios actif facile",
+      "intermediaire": "Étirement ischios actif standard",
+      "avance": "Étirement ischios actif tempo/charge modérée",
+      "expert": "Étirement ischios actif intense maîtrisé"
+    },
+    "human_explain": "Étirement ischios actif : Gagner en souplesse active.",
+    "coach_note": "Consigne : Gagner en souplesse active. Erreur à éviter : Arrondir fort."
+  },
+  {
+    "id": "v68_204",
+    "name": "Mobilité cheville mur",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "chevilles",
+      "mollets"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "tips": "Améliorer amplitude de flexion.",
+    "mistake": "Décoller talon.",
+    "objectives": [
+      "mobilite",
+      "mobilité"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Mobilité cheville mur facile",
+      "intermediaire": "Mobilité cheville mur standard",
+      "avance": "Mobilité cheville mur tempo/charge modérée",
+      "expert": "Mobilité cheville mur intense maîtrisé"
+    },
+    "human_explain": "Mobilité cheville mur : Améliorer amplitude de flexion.",
+    "coach_note": "Consigne : Améliorer amplitude de flexion. Erreur à éviter : Décoller talon."
+  },
+  {
+    "id": "v68_205",
+    "name": "Respiration 90/90",
+    "group": "mobilite",
+    "pattern": "Respiration",
+    "muscles": [
+      "diaphragme",
+      "core"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Calmer et récupérer.",
+    "mistake": "Monter les épaules.",
+    "objectives": [
+      "mobilite",
+      "respiration"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Respiration 90/90 facile",
+      "intermediaire": "Respiration 90/90 standard",
+      "avance": "Respiration 90/90 tempo/charge modérée",
+      "expert": "Respiration 90/90 intense maîtrisé"
+    },
+    "human_explain": "Respiration 90/90 : Calmer et récupérer.",
+    "coach_note": "Consigne : Calmer et récupérer. Erreur à éviter : Monter les épaules."
+  },
+  {
+    "id": "v68_206",
+    "name": "Dead bug contrôle",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "core",
+      "lombaires"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Stabiliser bassin et respiration.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Dead bug contrôle facile",
+      "intermediaire": "Dead bug contrôle standard",
+      "avance": "Dead bug contrôle tempo/charge modérée",
+      "expert": "Dead bug contrôle intense maîtrisé"
+    },
+    "human_explain": "Dead bug contrôle : Stabiliser bassin et respiration.",
+    "coach_note": "Consigne : Stabiliser bassin et respiration. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v68_207",
+    "name": "Wall slides",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "épaules",
+      "omoplates"
+    ],
+    "equipment": [
+      "mur"
+    ],
+    "tips": "Contrôle scapulaire.",
+    "mistake": "Hausser épaules.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Wall slides facile",
+      "intermediaire": "Wall slides standard",
+      "avance": "Wall slides tempo/charge modérée",
+      "expert": "Wall slides intense maîtrisé"
+    },
+    "human_explain": "Wall slides : Contrôle scapulaire.",
+    "coach_note": "Consigne : Contrôle scapulaire. Erreur à éviter : Hausser épaules."
+  },
+  {
+    "id": "v68_208",
+    "name": "Face pull élastique",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "arrière épaule",
+      "omoplates"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Renforcer posture.",
+    "mistake": "Tirer avec trapèzes.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Face pull élastique facile",
+      "intermediaire": "Face pull élastique standard",
+      "avance": "Face pull élastique tempo/charge modérée",
+      "expert": "Face pull élastique intense maîtrisé"
+    },
+    "human_explain": "Face pull élastique : Renforcer posture.",
+    "coach_note": "Consigne : Renforcer posture. Erreur à éviter : Tirer avec trapèzes."
+  },
+  {
+    "id": "v68_209",
+    "name": "Clamshell élastique",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "moyen fessier",
+      "hanches"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Stabiliser bassin/genou.",
+    "mistake": "Rouler bassin.",
+    "objectives": [
+      "reeducation",
+      "prévention"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Clamshell élastique facile",
+      "intermediaire": "Clamshell élastique standard",
+      "avance": "Clamshell élastique tempo/charge modérée",
+      "expert": "Clamshell élastique intense maîtrisé"
+    },
+    "human_explain": "Clamshell élastique : Stabiliser bassin/genou.",
+    "coach_note": "Consigne : Stabiliser bassin/genou. Erreur à éviter : Rouler bassin."
+  },
+  {
+    "id": "v68_210",
+    "name": "Shadow jab-cross",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "technique",
+      "appuis"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Garde haute, retour rapide.",
+    "mistake": "Baisser la garde.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Shadow jab-cross facile",
+      "intermediaire": "Shadow jab-cross standard",
+      "avance": "Shadow jab-cross tempo/charge modérée",
+      "expert": "Shadow jab-cross intense maîtrisé"
+    },
+    "human_explain": "Shadow jab-cross : Garde haute, retour rapide.",
+    "coach_note": "Consigne : Garde haute, retour rapide. Erreur à éviter : Baisser la garde."
+  },
+  {
+    "id": "v68_211",
+    "name": "Shadow déplacement latéral",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "appuis",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Bouger sans croiser les pieds.",
+    "mistake": "Pieds collés.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Shadow déplacement latéral facile",
+      "intermediaire": "Shadow déplacement latéral standard",
+      "avance": "Shadow déplacement latéral tempo/charge modérée",
+      "expert": "Shadow déplacement latéral intense maîtrisé"
+    },
+    "human_explain": "Shadow déplacement latéral : Bouger sans croiser les pieds.",
+    "coach_note": "Consigne : Bouger sans croiser les pieds. Erreur à éviter : Pieds collés."
+  },
+  {
+    "id": "v68_212",
+    "name": "Esquive rotative",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "défense",
+      "core"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Passer sous la ligne, regard haut.",
+    "mistake": "Plier le dos.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Esquive rotative facile",
+      "intermediaire": "Esquive rotative standard",
+      "avance": "Esquive rotative tempo/charge modérée",
+      "expert": "Esquive rotative intense maîtrisé"
+    },
+    "human_explain": "Esquive rotative : Passer sous la ligne, regard haut.",
+    "coach_note": "Consigne : Passer sous la ligne, regard haut. Erreur à éviter : Plier le dos."
+  },
+  {
+    "id": "v68_213",
+    "name": "Corde boxing",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "mollets",
+      "cardio"
+    ],
+    "equipment": [
+      "corde"
+    ],
+    "tips": "Rythme léger, épaules relâchées.",
+    "mistake": "Sauter trop haut.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Corde boxing facile",
+      "intermediaire": "Corde boxing standard",
+      "avance": "Corde boxing tempo/charge modérée",
+      "expert": "Corde boxing intense maîtrisé"
+    },
+    "human_explain": "Corde boxing : Rythme léger, épaules relâchées.",
+    "coach_note": "Consigne : Rythme léger, épaules relâchées. Erreur à éviter : Sauter trop haut."
+  },
+  {
+    "id": "v68_214",
+    "name": "Sac jab puissance",
+    "group": "boxe",
+    "pattern": "Boxe",
+    "muscles": [
+      "bras",
+      "épaules",
+      "core"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "Impact propre, retour rapide.",
+    "mistake": "Pousser le sac.",
+    "objectives": [
+      "boxe",
+      "boxe"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Sac jab puissance facile",
+      "intermediaire": "Sac jab puissance standard",
+      "avance": "Sac jab puissance tempo/charge modérée",
+      "expert": "Sac jab puissance intense maîtrisé"
+    },
+    "human_explain": "Sac jab puissance : Impact propre, retour rapide.",
+    "coach_note": "Consigne : Impact propre, retour rapide. Erreur à éviter : Pousser le sac."
+  },
+  {
+    "id": "v68_215",
+    "name": "Shuttle run cônes",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "muscles": [
+      "vitesse",
+      "appuis"
+    ],
+    "equipment": [
+      "cônes"
+    ],
+    "tips": "Changer direction avec contrôle.",
+    "mistake": "Freiner genoux rentrés.",
+    "objectives": [
+      "cardio",
+      "cardio"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Shuttle run cônes facile",
+      "intermediaire": "Shuttle run cônes standard",
+      "avance": "Shuttle run cônes tempo/charge modérée",
+      "expert": "Shuttle run cônes intense maîtrisé"
+    },
+    "human_explain": "Shuttle run cônes : Changer direction avec contrôle.",
+    "coach_note": "Consigne : Changer direction avec contrôle. Erreur à éviter : Freiner genoux rentrés."
+  },
+  {
+    "id": "v68_216",
+    "name": "SkiErg intervalle",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "muscles": [
+      "dos",
+      "cardio"
+    ],
+    "equipment": [
+      "skierg"
+    ],
+    "tips": "Tirer fort, gainage stable.",
+    "mistake": "Arrondir dos.",
+    "objectives": [
+      "cardio",
+      "cardio"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "SkiErg intervalle facile",
+      "intermediaire": "SkiErg intervalle standard",
+      "avance": "SkiErg intervalle tempo/charge modérée",
+      "expert": "SkiErg intervalle intense maîtrisé"
+    },
+    "human_explain": "SkiErg intervalle : Tirer fort, gainage stable.",
+    "coach_note": "Consigne : Tirer fort, gainage stable. Erreur à éviter : Arrondir dos."
+  },
+  {
+    "id": "v68_217",
+    "name": "Assault bike sprint",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "muscles": [
+      "cardio",
+      "cuisses"
+    ],
+    "equipment": [
+      "vélo"
+    ],
+    "tips": "Accélérer court et contrôlé.",
+    "mistake": "Partir trop fort.",
+    "objectives": [
+      "cardio",
+      "cardio"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Assault bike sprint facile",
+      "intermediaire": "Assault bike sprint standard",
+      "avance": "Assault bike sprint tempo/charge modérée",
+      "expert": "Assault bike sprint intense maîtrisé"
+    },
+    "human_explain": "Assault bike sprint : Accélérer court et contrôlé.",
+    "coach_note": "Consigne : Accélérer court et contrôlé. Erreur à éviter : Partir trop fort."
+  },
+  {
+    "id": "v68_218",
+    "name": "Battle rope vagues",
+    "group": "cardio",
+    "pattern": "Cardio",
+    "muscles": [
+      "épaules",
+      "core"
+    ],
+    "equipment": [
+      "battle rope"
+    ],
+    "tips": "Ondulations régulières.",
+    "mistake": "Dos rond.",
+    "objectives": [
+      "cardio",
+      "cardio"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Battle rope vagues facile",
+      "intermediaire": "Battle rope vagues standard",
+      "avance": "Battle rope vagues tempo/charge modérée",
+      "expert": "Battle rope vagues intense maîtrisé"
+    },
+    "human_explain": "Battle rope vagues : Ondulations régulières.",
+    "coach_note": "Consigne : Ondulations régulières. Erreur à éviter : Dos rond."
+  },
+  {
+    "id": "v68_219",
+    "name": "Développé haltères neutre",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "tips": "Pousser sans ouvrir trop les coudes.",
+    "mistake": "Épaules hautes.",
+    "objectives": [
+      "haut_du_corps",
+      "push"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Développé haltères neutre facile",
+      "intermediaire": "Développé haltères neutre standard",
+      "avance": "Développé haltères neutre tempo/charge modérée",
+      "expert": "Développé haltères neutre intense maîtrisé"
+    },
+    "human_explain": "Développé haltères neutre : Pousser sans ouvrir trop les coudes.",
+    "coach_note": "Consigne : Pousser sans ouvrir trop les coudes. Erreur à éviter : Épaules hautes."
+  },
+  {
+    "id": "v68_220",
+    "name": "Rowing buste penché",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "barre"
+    ],
+    "tips": "Dos plat, tirer vers hanche.",
+    "mistake": "Arrondir.",
+    "objectives": [
+      "haut_du_corps",
+      "pull"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rowing buste penché facile",
+      "intermediaire": "Rowing buste penché standard",
+      "avance": "Rowing buste penché tempo/charge modérée",
+      "expert": "Rowing buste penché intense maîtrisé"
+    },
+    "human_explain": "Rowing buste penché : Dos plat, tirer vers hanche.",
+    "coach_note": "Consigne : Dos plat, tirer vers hanche. Erreur à éviter : Arrondir."
+  },
+  {
+    "id": "v68_221",
+    "name": "Traction assistée",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "barre traction"
+    ],
+    "tips": "Tirer poitrine vers barre.",
+    "mistake": "Coups de jambes.",
+    "objectives": [
+      "haut_du_corps",
+      "pull"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Traction assistée facile",
+      "intermediaire": "Traction assistée standard",
+      "avance": "Traction assistée tempo/charge modérée",
+      "expert": "Traction assistée intense maîtrisé"
+    },
+    "human_explain": "Traction assistée : Tirer poitrine vers barre.",
+    "coach_note": "Consigne : Tirer poitrine vers barre. Erreur à éviter : Coups de jambes."
+  },
+  {
+    "id": "v68_222",
+    "name": "Pompes genoux propres",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Gainage droit, amplitude contrôlée.",
+    "mistake": "Fesses sorties.",
+    "objectives": [
+      "haut_du_corps",
+      "push"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Pompes genoux propres facile",
+      "intermediaire": "Pompes genoux propres standard",
+      "avance": "Pompes genoux propres tempo/charge modérée",
+      "expert": "Pompes genoux propres intense maîtrisé"
+    },
+    "human_explain": "Pompes genoux propres : Gainage droit, amplitude contrôlée.",
+    "coach_note": "Consigne : Gainage droit, amplitude contrôlée. Erreur à éviter : Fesses sorties."
+  },
+  {
+    "id": "v68_223",
+    "name": "Hip thrust banc",
+    "group": "bas_du_corps",
+    "pattern": "Hinge",
+    "muscles": [
+      "fessiers",
+      "ischios"
+    ],
+    "equipment": [
+      "banc"
+    ],
+    "tips": "Pousser hanches, menton rentré.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "bas_du_corps",
+      "hinge"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Hip thrust banc facile",
+      "intermediaire": "Hip thrust banc standard",
+      "avance": "Hip thrust banc tempo/charge modérée",
+      "expert": "Hip thrust banc intense maîtrisé"
+    },
+    "human_explain": "Hip thrust banc : Pousser hanches, menton rentré.",
+    "coach_note": "Consigne : Pousser hanches, menton rentré. Erreur à éviter : Cambrer."
+  },
+  {
+    "id": "v68_224",
+    "name": "Fente arrière",
+    "group": "bas_du_corps",
+    "pattern": "Unilatéral",
+    "muscles": [
+      "quadriceps",
+      "fessiers"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Reculer, genou stable.",
+    "mistake": "Buste qui tombe.",
+    "objectives": [
+      "bas_du_corps",
+      "unilatéral"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Fente arrière facile",
+      "intermediaire": "Fente arrière standard",
+      "avance": "Fente arrière tempo/charge modérée",
+      "expert": "Fente arrière intense maîtrisé"
+    },
+    "human_explain": "Fente arrière : Reculer, genou stable.",
+    "coach_note": "Consigne : Reculer, genou stable. Erreur à éviter : Buste qui tombe."
+  },
+  {
+    "id": "v68_225",
+    "name": "Soulevé roumain haltères",
+    "group": "bas_du_corps",
+    "pattern": "Hinge",
+    "muscles": [
+      "ischios",
+      "fessiers"
+    ],
+    "equipment": [
+      "haltères"
+    ],
+    "tips": "Hanches arrière, dos plat.",
+    "mistake": "Arrondir.",
+    "objectives": [
+      "bas_du_corps",
+      "hinge"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Soulevé roumain haltères facile",
+      "intermediaire": "Soulevé roumain haltères standard",
+      "avance": "Soulevé roumain haltères tempo/charge modérée",
+      "expert": "Soulevé roumain haltères intense maîtrisé"
+    },
+    "human_explain": "Soulevé roumain haltères : Hanches arrière, dos plat.",
+    "coach_note": "Consigne : Hanches arrière, dos plat. Erreur à éviter : Arrondir."
+  },
+  {
+    "id": "v68_226",
+    "name": "Carry suitcase",
+    "group": "core",
+    "pattern": "Core",
+    "muscles": [
+      "anti-flexion"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "tips": "Marcher droit.",
+    "mistake": "Se pencher.",
+    "objectives": [
+      "core",
+      "core"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Carry suitcase facile",
+      "intermediaire": "Carry suitcase standard",
+      "avance": "Carry suitcase tempo/charge modérée",
+      "expert": "Carry suitcase intense maîtrisé"
+    },
+    "human_explain": "Carry suitcase : Marcher droit.",
+    "coach_note": "Consigne : Marcher droit. Erreur à éviter : Se pencher."
   }
 ]
