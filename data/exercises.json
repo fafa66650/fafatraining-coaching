@@ -6700,5 +6700,887 @@
     },
     "human_explain": "Planche dead bug combo : Bassin stable, respiration.",
     "coach_note": "Consigne : Bassin stable, respiration. Erreur : Cambrer."
+  },
+  {
+    "id": "squat_goblet",
+    "name": "Squat goblet",
+    "group": "bas_du_corps",
+    "pattern": "Squat",
+    "muscles": [
+      "quadriceps",
+      "fessiers",
+      "core"
+    ],
+    "equipment": [
+      "kettlebell",
+      "haltères"
+    ],
+    "tips": "Descendre propre, buste fier, genoux dans l’axe.",
+    "mistake": "Genoux qui rentrent.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Squat goblet version facile / amplitude réduite",
+      "intermediaire": "Squat goblet standard propre",
+      "avance": "Squat goblet tempo contrôlé ou charge modérée",
+      "expert": "Squat goblet intense / charge ou cadence élevée"
+    },
+    "human_explain": "Squat goblet : Descendre propre, buste fier, genoux dans l’axe.",
+    "coach_note": "Consigne : Descendre propre, buste fier, genoux dans l’axe. Erreur à éviter : Genoux qui rentrent.."
+  },
+  {
+    "id": "squat_barre",
+    "name": "Squat barre",
+    "group": "bas_du_corps",
+    "pattern": "Squat",
+    "muscles": [
+      "quadriceps",
+      "fessiers",
+      "core"
+    ],
+    "equipment": [
+      "barre"
+    ],
+    "tips": "Gainage fort, descente contrôlée, poussée au sol.",
+    "mistake": "Dos rond ou talons décollés.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Squat barre version facile / amplitude réduite",
+      "intermediaire": "Squat barre standard propre",
+      "avance": "Squat barre tempo contrôlé ou charge modérée",
+      "expert": "Squat barre intense / charge ou cadence élevée"
+    },
+    "human_explain": "Squat barre : Gainage fort, descente contrôlée, poussée au sol.",
+    "coach_note": "Consigne : Gainage fort, descente contrôlée, poussée au sol. Erreur à éviter : Dos rond ou talons décollés.."
+  },
+  {
+    "id": "soulev_de_terre_roumain",
+    "name": "Soulevé de terre roumain",
+    "group": "bas_du_corps",
+    "pattern": "Hinge",
+    "muscles": [
+      "ischios",
+      "fessiers",
+      "dos"
+    ],
+    "equipment": [
+      "barre",
+      "haltères"
+    ],
+    "tips": "Hanches vers l’arrière, dos plat.",
+    "mistake": "Arrondir le dos.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Soulevé de terre roumain version facile / amplitude réduite",
+      "intermediaire": "Soulevé de terre roumain standard propre",
+      "avance": "Soulevé de terre roumain tempo contrôlé ou charge modérée",
+      "expert": "Soulevé de terre roumain intense / charge ou cadence élevée"
+    },
+    "human_explain": "Soulevé de terre roumain : Hanches vers l’arrière, dos plat.",
+    "coach_note": "Consigne : Hanches vers l’arrière, dos plat. Erreur à éviter : Arrondir le dos.."
+  },
+  {
+    "id": "d_velopp_halt_res",
+    "name": "Développé haltères",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "tips": "Contrôle et amplitude propre.",
+    "mistake": "Taper les haltères.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Développé haltères version facile / amplitude réduite",
+      "intermediaire": "Développé haltères standard propre",
+      "avance": "Développé haltères tempo contrôlé ou charge modérée",
+      "expert": "Développé haltères intense / charge ou cadence élevée"
+    },
+    "human_explain": "Développé haltères : Contrôle et amplitude propre.",
+    "coach_note": "Consigne : Contrôle et amplitude propre. Erreur à éviter : Taper les haltères.."
+  },
+  {
+    "id": "pompes_genoux",
+    "name": "Pompes genoux",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "pectoraux",
+      "triceps"
+    ],
+    "equipment": [
+      "poids du corps",
+      "tapis"
+    ],
+    "tips": "Version débutant, garder l’alignement.",
+    "mistake": "Fesses sorties.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Pompes genoux version facile / amplitude réduite",
+      "intermediaire": "Pompes genoux standard propre",
+      "avance": "Pompes genoux tempo contrôlé ou charge modérée",
+      "expert": "Pompes genoux intense / charge ou cadence élevée"
+    },
+    "human_explain": "Pompes genoux : Version débutant, garder l’alignement.",
+    "coach_note": "Consigne : Version débutant, garder l’alignement. Erreur à éviter : Fesses sorties.."
+  },
+  {
+    "id": "d_velopp_paules",
+    "name": "Développé épaules",
+    "group": "haut_du_corps",
+    "pattern": "Push",
+    "muscles": [
+      "épaules",
+      "triceps"
+    ],
+    "equipment": [
+      "haltères",
+      "barre"
+    ],
+    "tips": "Côtes basses, pousser vertical.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Développé épaules version facile / amplitude réduite",
+      "intermediaire": "Développé épaules standard propre",
+      "avance": "Développé épaules tempo contrôlé ou charge modérée",
+      "expert": "Développé épaules intense / charge ou cadence élevée"
+    },
+    "human_explain": "Développé épaules : Côtes basses, pousser vertical.",
+    "coach_note": "Consigne : Côtes basses, pousser vertical. Erreur à éviter : Cambrer.."
+  },
+  {
+    "id": "tirage_poulie_haute",
+    "name": "Tirage poulie haute",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "poulie",
+      "machine"
+    ],
+    "tips": "Tirer les coudes vers le bas.",
+    "mistake": "Tirer derrière la nuque.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Tirage poulie haute version facile / amplitude réduite",
+      "intermediaire": "Tirage poulie haute standard propre",
+      "avance": "Tirage poulie haute tempo contrôlé ou charge modérée",
+      "expert": "Tirage poulie haute intense / charge ou cadence élevée"
+    },
+    "human_explain": "Tirage poulie haute : Tirer les coudes vers le bas.",
+    "coach_note": "Consigne : Tirer les coudes vers le bas. Erreur à éviter : Tirer derrière la nuque.."
+  },
+  {
+    "id": "rowing_halt_res",
+    "name": "Rowing haltères",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "haltères",
+      "banc"
+    ],
+    "tips": "Tirer vers la hanche, dos stable.",
+    "mistake": "Rotation excessive.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rowing haltères version facile / amplitude réduite",
+      "intermediaire": "Rowing haltères standard propre",
+      "avance": "Rowing haltères tempo contrôlé ou charge modérée",
+      "expert": "Rowing haltères intense / charge ou cadence élevée"
+    },
+    "human_explain": "Rowing haltères : Tirer vers la hanche, dos stable.",
+    "coach_note": "Consigne : Tirer vers la hanche, dos stable. Erreur à éviter : Rotation excessive.."
+  },
+  {
+    "id": "tractions_assist_es",
+    "name": "Tractions assistées",
+    "group": "haut_du_corps",
+    "pattern": "Pull",
+    "muscles": [
+      "dos",
+      "biceps"
+    ],
+    "equipment": [
+      "barre traction",
+      "élastique"
+    ],
+    "tips": "Poitrine vers la barre, descente contrôlée.",
+    "mistake": "Coups de jambes.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Tractions assistées version facile / amplitude réduite",
+      "intermediaire": "Tractions assistées standard propre",
+      "avance": "Tractions assistées tempo contrôlé ou charge modérée",
+      "expert": "Tractions assistées intense / charge ou cadence élevée"
+    },
+    "human_explain": "Tractions assistées : Poitrine vers la barre, descente contrôlée.",
+    "coach_note": "Consigne : Poitrine vers la barre, descente contrôlée. Erreur à éviter : Coups de jambes.."
+  },
+  {
+    "id": "extension_triceps_corde",
+    "name": "Extension triceps corde",
+    "group": "haut_du_corps",
+    "pattern": "Bras",
+    "muscles": [
+      "triceps"
+    ],
+    "equipment": [
+      "poulie",
+      "élastique"
+    ],
+    "tips": "Coudes serrés, extension complète.",
+    "mistake": "Ouvrir les coudes.",
+    "objectives": [
+      "musculation",
+      "force",
+      "hypertrophie",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Extension triceps corde version facile / amplitude réduite",
+      "intermediaire": "Extension triceps corde standard propre",
+      "avance": "Extension triceps corde tempo contrôlé ou charge modérée",
+      "expert": "Extension triceps corde intense / charge ou cadence élevée"
+    },
+    "human_explain": "Extension triceps corde : Coudes serrés, extension complète.",
+    "coach_note": "Consigne : Coudes serrés, extension complète. Erreur à éviter : Ouvrir les coudes.."
+  },
+  {
+    "id": "side_plank",
+    "name": "Side plank",
+    "group": "core",
+    "pattern": "Latéral",
+    "muscles": [
+      "obliques",
+      "épaule"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Hanche haute, corps aligné.",
+    "mistake": "Épaule qui s’écrase.",
+    "objectives": [
+      "core",
+      "prevention",
+      "hyrox",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Side plank version facile / amplitude réduite",
+      "intermediaire": "Side plank standard propre",
+      "avance": "Side plank tempo contrôlé ou charge modérée",
+      "expert": "Side plank intense / charge ou cadence élevée"
+    },
+    "human_explain": "Side plank : Hanche haute, corps aligné.",
+    "coach_note": "Consigne : Hanche haute, corps aligné. Erreur à éviter : Épaule qui s’écrase.."
+  },
+  {
+    "id": "russian_twist_medball",
+    "name": "Russian twist medball",
+    "group": "core",
+    "pattern": "Rotation",
+    "muscles": [
+      "obliques"
+    ],
+    "equipment": [
+      "medecine ball"
+    ],
+    "tips": "Rotation contrôlée, buste haut.",
+    "mistake": "Balancer sans contrôle.",
+    "objectives": [
+      "core",
+      "prevention",
+      "hyrox",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Russian twist medball version facile / amplitude réduite",
+      "intermediaire": "Russian twist medball standard propre",
+      "avance": "Russian twist medball tempo contrôlé ou charge modérée",
+      "expert": "Russian twist medball intense / charge ou cadence élevée"
+    },
+    "human_explain": "Russian twist medball : Rotation contrôlée, buste haut.",
+    "coach_note": "Consigne : Rotation contrôlée, buste haut. Erreur à éviter : Balancer sans contrôle.."
+  },
+  {
+    "id": "farmer_carry",
+    "name": "Farmer carry",
+    "group": "core",
+    "pattern": "Carry",
+    "muscles": [
+      "grip",
+      "core",
+      "trapèzes"
+    ],
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "tips": "Marcher grand, épaules basses.",
+    "mistake": "Se pencher.",
+    "objectives": [
+      "core",
+      "prevention",
+      "hyrox",
+      "renfo"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Farmer carry version facile / amplitude réduite",
+      "intermediaire": "Farmer carry standard propre",
+      "avance": "Farmer carry tempo contrôlé ou charge modérée",
+      "expert": "Farmer carry intense / charge ou cadence élevée"
+    },
+    "human_explain": "Farmer carry : Marcher grand, épaules basses.",
+    "coach_note": "Consigne : Marcher grand, épaules basses. Erreur à éviter : Se pencher.."
+  },
+  {
+    "id": "shadow_esquive_rotative",
+    "name": "Shadow esquive rotative",
+    "group": "boxe",
+    "pattern": "Défense",
+    "muscles": [
+      "core",
+      "jambes"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Fléchir jambes, regard devant, rester compact.",
+    "mistake": "Plier uniquement le dos.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Shadow esquive rotative version facile / amplitude réduite",
+      "intermediaire": "Shadow esquive rotative standard propre",
+      "avance": "Shadow esquive rotative tempo contrôlé ou charge modérée",
+      "expert": "Shadow esquive rotative intense / charge ou cadence élevée"
+    },
+    "human_explain": "Shadow esquive rotative : Fléchir jambes, regard devant, rester compact.",
+    "coach_note": "Consigne : Fléchir jambes, regard devant, rester compact. Erreur à éviter : Plier uniquement le dos.."
+  },
+  {
+    "id": "d_placements_avant_arri_re",
+    "name": "Déplacements avant-arrière",
+    "group": "boxe",
+    "pattern": "Appuis",
+    "muscles": [
+      "mollets",
+      "appuis"
+    ],
+    "equipment": [
+      "poids du corps",
+      "cônes"
+    ],
+    "tips": "Entrer-sortir en garde sans croiser.",
+    "mistake": "Pieds collés.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Déplacements avant-arrière version facile / amplitude réduite",
+      "intermediaire": "Déplacements avant-arrière standard propre",
+      "avance": "Déplacements avant-arrière tempo contrôlé ou charge modérée",
+      "expert": "Déplacements avant-arrière intense / charge ou cadence élevée"
+    },
+    "human_explain": "Déplacements avant-arrière : Entrer-sortir en garde sans croiser.",
+    "coach_note": "Consigne : Entrer-sortir en garde sans croiser. Erreur à éviter : Pieds collés.."
+  },
+  {
+    "id": "sac_rounds_techniques",
+    "name": "Sac rounds techniques",
+    "group": "boxe",
+    "pattern": "Sac",
+    "muscles": [
+      "boxe",
+      "cardio"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "Un thème par round, volume maîtrisé.",
+    "mistake": "Frapper sans garde.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Sac rounds techniques version facile / amplitude réduite",
+      "intermediaire": "Sac rounds techniques standard propre",
+      "avance": "Sac rounds techniques tempo contrôlé ou charge modérée",
+      "expert": "Sac rounds techniques intense / charge ou cadence élevée"
+    },
+    "human_explain": "Sac rounds techniques : Un thème par round, volume maîtrisé.",
+    "coach_note": "Consigne : Un thème par round, volume maîtrisé. Erreur à éviter : Frapper sans garde.."
+  },
+  {
+    "id": "sac_puissance_30_30",
+    "name": "Sac puissance 30/30",
+    "group": "boxe",
+    "pattern": "Puissance",
+    "muscles": [
+      "épaules",
+      "core"
+    ],
+    "equipment": [
+      "sac"
+    ],
+    "tips": "Impact propre, respirer sur les frappes.",
+    "mistake": "Pousser le sac.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Sac puissance 30/30 version facile / amplitude réduite",
+      "intermediaire": "Sac puissance 30/30 standard propre",
+      "avance": "Sac puissance 30/30 tempo contrôlé ou charge modérée",
+      "expert": "Sac puissance 30/30 intense / charge ou cadence élevée"
+    },
+    "human_explain": "Sac puissance 30/30 : Impact propre, respirer sur les frappes.",
+    "coach_note": "Consigne : Impact propre, respirer sur les frappes. Erreur à éviter : Pousser le sac.."
+  },
+  {
+    "id": "corde_sauter_boxing",
+    "name": "Corde à sauter boxing",
+    "group": "boxe",
+    "pattern": "Cardio",
+    "muscles": [
+      "mollets",
+      "cardio"
+    ],
+    "equipment": [
+      "corde"
+    ],
+    "tips": "Rythme léger, épaules relâchées.",
+    "mistake": "Sauter trop haut.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Corde à sauter boxing version facile / amplitude réduite",
+      "intermediaire": "Corde à sauter boxing standard propre",
+      "avance": "Corde à sauter boxing tempo contrôlé ou charge modérée",
+      "expert": "Corde à sauter boxing intense / charge ou cadence élevée"
+    },
+    "human_explain": "Corde à sauter boxing : Rythme léger, épaules relâchées.",
+    "coach_note": "Consigne : Rythme léger, épaules relâchées. Erreur à éviter : Sauter trop haut.."
+  },
+  {
+    "id": "pattes_d_ours_combo_1_2_3",
+    "name": "Pattes d’ours combo 1-2-3",
+    "group": "boxe",
+    "pattern": "Technique",
+    "muscles": [
+      "coordination",
+      "vitesse"
+    ],
+    "equipment": [
+      "pattes d’ours"
+    ],
+    "tips": "Précision, retour garde, distance.",
+    "mistake": "Chercher la force avant la précision.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Pattes d’ours combo 1-2-3 version facile / amplitude réduite",
+      "intermediaire": "Pattes d’ours combo 1-2-3 standard propre",
+      "avance": "Pattes d’ours combo 1-2-3 tempo contrôlé ou charge modérée",
+      "expert": "Pattes d’ours combo 1-2-3 intense / charge ou cadence élevée"
+    },
+    "human_explain": "Pattes d’ours combo 1-2-3 : Précision, retour garde, distance.",
+    "coach_note": "Consigne : Précision, retour garde, distance. Erreur à éviter : Chercher la force avant la précision.."
+  },
+  {
+    "id": "slip_line",
+    "name": "Slip line",
+    "group": "boxe",
+    "pattern": "Défense",
+    "muscles": [
+      "appuis",
+      "core"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Passer sous la ligne, tête mobile.",
+    "mistake": "Regarder le sol.",
+    "objectives": [
+      "boxe",
+      "cardio_boxing",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Slip line version facile / amplitude réduite",
+      "intermediaire": "Slip line standard propre",
+      "avance": "Slip line tempo contrôlé ou charge modérée",
+      "expert": "Slip line intense / charge ou cadence élevée"
+    },
+    "human_explain": "Slip line : Passer sous la ligne, tête mobile.",
+    "coach_note": "Consigne : Passer sous la ligne, tête mobile. Erreur à éviter : Regarder le sol.."
+  },
+  {
+    "id": "burpee_contr_l",
+    "name": "Burpee contrôlé",
+    "group": "cardio",
+    "pattern": "HIIT",
+    "muscles": [
+      "full body",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Adapter la version, garder un rythme stable.",
+    "mistake": "S’écraser au sol.",
+    "objectives": [
+      "hiit",
+      "crossfit",
+      "hyrox",
+      "perte_gras",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Burpee contrôlé version facile / amplitude réduite",
+      "intermediaire": "Burpee contrôlé standard propre",
+      "avance": "Burpee contrôlé tempo contrôlé ou charge modérée",
+      "expert": "Burpee contrôlé intense / charge ou cadence élevée"
+    },
+    "human_explain": "Burpee contrôlé : Adapter la version, garder un rythme stable.",
+    "coach_note": "Consigne : Adapter la version, garder un rythme stable. Erreur à éviter : S’écraser au sol.."
+  },
+  {
+    "id": "mountain_climber",
+    "name": "Mountain climber",
+    "group": "cardio",
+    "pattern": "HIIT",
+    "muscles": [
+      "core",
+      "cardio"
+    ],
+    "equipment": [
+      "poids du corps"
+    ],
+    "tips": "Genoux sous buste, épaules stables.",
+    "mistake": "Fesses trop hautes.",
+    "objectives": [
+      "hiit",
+      "crossfit",
+      "hyrox",
+      "perte_gras",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Mountain climber version facile / amplitude réduite",
+      "intermediaire": "Mountain climber standard propre",
+      "avance": "Mountain climber tempo contrôlé ou charge modérée",
+      "expert": "Mountain climber intense / charge ou cadence élevée"
+    },
+    "human_explain": "Mountain climber : Genoux sous buste, épaules stables.",
+    "coach_note": "Consigne : Genoux sous buste, épaules stables. Erreur à éviter : Fesses trop hautes.."
+  },
+  {
+    "id": "rameur_intervalle",
+    "name": "Rameur intervalle",
+    "group": "cardio",
+    "pattern": "Erg",
+    "muscles": [
+      "dos",
+      "jambes",
+      "cardio"
+    ],
+    "equipment": [
+      "rameur"
+    ],
+    "tips": "Jambes puis tirage, retour contrôlé.",
+    "mistake": "Tirer trop tôt avec les bras.",
+    "objectives": [
+      "hiit",
+      "crossfit",
+      "hyrox",
+      "perte_gras",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rameur intervalle version facile / amplitude réduite",
+      "intermediaire": "Rameur intervalle standard propre",
+      "avance": "Rameur intervalle tempo contrôlé ou charge modérée",
+      "expert": "Rameur intervalle intense / charge ou cadence élevée"
+    },
+    "human_explain": "Rameur intervalle : Jambes puis tirage, retour contrôlé.",
+    "coach_note": "Consigne : Jambes puis tirage, retour contrôlé. Erreur à éviter : Tirer trop tôt avec les bras.."
+  },
+  {
+    "id": "farmer_carry_lourd",
+    "name": "Farmer carry lourd",
+    "group": "cardio",
+    "pattern": "Carry",
+    "muscles": [
+      "grip",
+      "core"
+    ],
+    "equipment": [
+      "haltères",
+      "kettlebell"
+    ],
+    "tips": "Marcher droit, pas courts et solides.",
+    "mistake": "Se pencher.",
+    "objectives": [
+      "hiit",
+      "crossfit",
+      "hyrox",
+      "perte_gras",
+      "explosivite"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Farmer carry lourd version facile / amplitude réduite",
+      "intermediaire": "Farmer carry lourd standard propre",
+      "avance": "Farmer carry lourd tempo contrôlé ou charge modérée",
+      "expert": "Farmer carry lourd intense / charge ou cadence élevée"
+    },
+    "human_explain": "Farmer carry lourd : Marcher droit, pas courts et solides.",
+    "coach_note": "Consigne : Marcher droit, pas courts et solides. Erreur à éviter : Se pencher.."
+  },
+  {
+    "id": "box_breathing",
+    "name": "Box breathing",
+    "group": "mobilite",
+    "pattern": "Respiration",
+    "muscles": [
+      "mental",
+      "respiration"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "4 sec inspire, 4 blocage, 4 expire, 4 pause.",
+    "mistake": "Respiration crispée.",
+    "objectives": [
+      "mobilite",
+      "prevention",
+      "recovery",
+      "senior"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Box breathing version facile / amplitude réduite",
+      "intermediaire": "Box breathing standard propre",
+      "avance": "Box breathing tempo contrôlé ou charge modérée",
+      "expert": "Box breathing intense / charge ou cadence élevée"
+    },
+    "human_explain": "Box breathing : 4 sec inspire, 4 blocage, 4 expire, 4 pause.",
+    "coach_note": "Consigne : 4 sec inspire, 4 blocage, 4 expire, 4 pause. Erreur à éviter : Respiration crispée.."
+  },
+  {
+    "id": "tirement_psoas",
+    "name": "Étirement psoas",
+    "group": "mobilite",
+    "pattern": "Souplesse",
+    "muscles": [
+      "psoas",
+      "quadriceps"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Bassin rétroversé, respiration lente.",
+    "mistake": "Cambrer.",
+    "objectives": [
+      "mobilite",
+      "prevention",
+      "recovery",
+      "senior"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Étirement psoas version facile / amplitude réduite",
+      "intermediaire": "Étirement psoas standard propre",
+      "avance": "Étirement psoas tempo contrôlé ou charge modérée",
+      "expert": "Étirement psoas intense / charge ou cadence élevée"
+    },
+    "human_explain": "Étirement psoas : Bassin rétroversé, respiration lente.",
+    "coach_note": "Consigne : Bassin rétroversé, respiration lente. Erreur à éviter : Cambrer.."
+  },
+  {
+    "id": "rotation_thoracique",
+    "name": "Rotation thoracique",
+    "group": "mobilite",
+    "pattern": "Mobilité",
+    "muscles": [
+      "dos",
+      "épaules"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Tourner haut du dos, hanches stables.",
+    "mistake": "Forcer cervicales.",
+    "objectives": [
+      "mobilite",
+      "prevention",
+      "recovery",
+      "senior"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Rotation thoracique version facile / amplitude réduite",
+      "intermediaire": "Rotation thoracique standard propre",
+      "avance": "Rotation thoracique tempo contrôlé ou charge modérée",
+      "expert": "Rotation thoracique intense / charge ou cadence élevée"
+    },
+    "human_explain": "Rotation thoracique : Tourner haut du dos, hanches stables.",
+    "coach_note": "Consigne : Tourner haut du dos, hanches stables. Erreur à éviter : Forcer cervicales.."
+  },
+  {
+    "id": "child_pose_lat_ral",
+    "name": "Child pose latéral",
+    "group": "mobilite",
+    "pattern": "Récupération",
+    "muscles": [
+      "dos",
+      "lats"
+    ],
+    "equipment": [
+      "tapis"
+    ],
+    "tips": "Respirer dans les côtes.",
+    "mistake": "Bloquer la respiration.",
+    "objectives": [
+      "mobilite",
+      "prevention",
+      "recovery",
+      "senior"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "Child pose latéral version facile / amplitude réduite",
+      "intermediaire": "Child pose latéral standard propre",
+      "avance": "Child pose latéral tempo contrôlé ou charge modérée",
+      "expert": "Child pose latéral intense / charge ou cadence élevée"
+    },
+    "human_explain": "Child pose latéral : Respirer dans les côtes.",
+    "coach_note": "Consigne : Respirer dans les côtes. Erreur à éviter : Bloquer la respiration.."
+  },
+  {
+    "id": "tke_lastique",
+    "name": "TKE élastique",
+    "group": "reeducation",
+    "pattern": "Prévention",
+    "muscles": [
+      "genou",
+      "quadriceps"
+    ],
+    "equipment": [
+      "élastique"
+    ],
+    "tips": "Tendre le genou sans douleur.",
+    "mistake": "Verrouiller brutalement.",
+    "objectives": [
+      "mobilite",
+      "prevention",
+      "recovery",
+      "senior"
+    ],
+    "contraindications": [],
+    "levels": {
+      "debutant": "TKE élastique version facile / amplitude réduite",
+      "intermediaire": "TKE élastique standard propre",
+      "avance": "TKE élastique tempo contrôlé ou charge modérée",
+      "expert": "TKE élastique intense / charge ou cadence élevée"
+    },
+    "human_explain": "TKE élastique : Tendre le genou sans douleur.",
+    "coach_note": "Consigne : Tendre le genou sans douleur. Erreur à éviter : Verrouiller brutalement.."
   }
 ]

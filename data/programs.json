@@ -2,73 +2,86 @@
   {
     "goal": "musculation",
     "name": "Musculation",
-    "icon": "💪",
-    "description": "Force, charges, progression."
+    "icon": "💪"
   },
   {
-    "goal": "renfo",
-    "name": "Renfo",
-    "icon": "🛡️",
-    "description": "Posture, gainage, contrôle."
+    "goal": "force",
+    "name": "Force",
+    "icon": "🏋️"
+  },
+  {
+    "goal": "hypertrophie",
+    "name": "Prise masse",
+    "icon": "📈"
+  },
+  {
+    "goal": "perte_gras",
+    "name": "Perte poids",
+    "icon": "🔥"
   },
   {
     "goal": "full",
     "name": "Full Body",
-    "icon": "⚡",
-    "description": "Complet, tout public."
+    "icon": "⚡"
   },
   {
     "goal": "hiit",
     "name": "HIIT",
-    "icon": "🔥",
-    "description": "Intervalles, cardio."
+    "icon": "⏱️"
   },
   {
     "goal": "circuit",
     "name": "Circuit",
-    "icon": "🔁",
-    "description": "Tours, alternance."
+    "icon": "🔁"
   },
   {
     "goal": "boxe",
     "name": "Boxe",
-    "icon": "🥊",
-    "description": "Technique, sac, appuis."
+    "icon": "🥊"
+  },
+  {
+    "goal": "cardio_boxing",
+    "name": "Cardio Boxing",
+    "icon": "🥊"
   },
   {
     "goal": "crossfit",
     "name": "CrossFit",
-    "icon": "🏋️",
-    "description": "WOD, AMRAP, EMOM."
-  },
-  {
-    "goal": "cross",
-    "name": "Cross training",
-    "icon": "🏃",
-    "description": "Terrain, endurance."
+    "icon": "🏋️"
   },
   {
     "goal": "hyrox",
     "name": "Hyrox",
-    "icon": "🏁",
-    "description": "Stations, carries."
+    "icon": "🚣"
+  },
+  {
+    "goal": "explosivite",
+    "name": "Explosivité",
+    "icon": "💥"
   },
   {
     "goal": "mobilite",
     "name": "Mobilité",
-    "icon": "🧘",
-    "description": "Souplesse, respiration."
+    "icon": "🧘"
   },
   {
     "goal": "prevention",
     "name": "Prévention",
-    "icon": "🧩",
-    "description": "Protection, récup."
+    "icon": "🛡️"
   },
   {
-    "goal": "explosivite",
-    "name": "Explosif",
-    "icon": "💥",
-    "description": "Vitesse, puissance."
+    "goal": "recovery",
+    "name": "Recovery",
+    "icon": "🌙"
+  },
+  {
+    "goal": "senior",
+    "name": "Sport santé",
+    "icon": "🤝"
+  },
+  {
+    "goal": "outdoor",
+    "name": "Outdoor",
+    "icon": "🌳"
   }
 ]
