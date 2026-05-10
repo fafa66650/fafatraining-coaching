@@ -1,16 +1,17 @@
-# FAFATRAINING V73 REAL COACH ENGINE
+# FAFATRAINING V75 TOTAL PREMIUM REBUILD
 
-Version construite à partir de V72 PREMIUM UX CLEAN.
+Rebuild total premium à partir de V74.
 
-Ajouts principaux :
-- calcul IMC réel avec interprétation nuancée ;
-- profil athlète : âge, taille, poids, niveau, fatigue, stress, récupération, blessure ;
-- calcul reps / séries / repos / charge / tempo selon objectif ;
-- génération de séance complète par blocs : échauffement, technique, bloc principal, renfort, finisher/retour ;
-- estimation calories ;
-- bibliothèque enrichie : 264 mouvements ;
-- styles boxe, cardio boxing, CrossFit, Hyrox, force, prise de masse, perte de poids, mobilité, prévention ;
-- menu séance premium avec reps, repos, charge, tempo ;
-- PWA GitHub Pages ready.
+Inclus :
+- nouveau design system complet ;
+- nouvelle UX iOS premium ;
+- dashboard refait ;
+- générateur en flow propre ;
+- bibliothèque pro ;
+- menus séance entièrement redesignés ;
+- moteur coach avec IMC, RPE, reps, charge, repos, calories ;
+- anti-répétition via historique ;
+- 277 mouvements ;
+- PWA GitHub ready.
 
-Test après dépôt GitHub : `?v=73`
+Test : `?v=75`

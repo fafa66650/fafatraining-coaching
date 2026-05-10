@@ -1,4 +1,4 @@
-const CACHE='fafatraining-v73-real-coach-engine';
+const CACHE='fafatraining-v75-total-premium-rebuild';
 const ASSETS=['./','./index.html','./style.css','./app.js','./js/engine.js','./data/exercises.json','./data/programs.json','./assets/logo/logo-fafa.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.map(k=>k!==CACHE?caches.delete(k):null))).then(()=>self.clients.claim()))});
