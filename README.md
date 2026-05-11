@@ -1,17 +1,18 @@
-# FAFATRAINING V75 TOTAL PREMIUM REBUILD
 
-Rebuild total premium à partir de V74.
+# FAFATRAINING V76 — REAL ATHLETE AI SYSTEM
 
-Inclus :
-- nouveau design system complet ;
-- nouvelle UX iOS premium ;
-- dashboard refait ;
-- générateur en flow propre ;
-- bibliothèque pro ;
-- menus séance entièrement redesignés ;
-- moteur coach avec IMC, RPE, reps, charge, repos, calories ;
-- anti-répétition via historique ;
-- 277 mouvements ;
+## Rebuild V76
+- bibliothèque massive enrichie ;
+- moteur athlète ;
+- menus séance premium ;
+- profils sportifs ;
+- IMC réel ;
+- charges / repos / reps ;
+- récupération ;
+- logique coach ;
+- UI premium iOS ;
 - PWA GitHub ready.
 
-Test : `?v=75`
+Exercices :
+- avant : 277
+- maintenant : 597
