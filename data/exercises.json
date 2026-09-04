@@ -5143,36 +5143,6 @@
     "search": "for time dumbbells cross training cardio for time full body haltères crossfit "
   },
   {
-    "id": "v65-rameur-500m",
-    "name": "Rameur 500m",
-    "family": "Hyrox",
-    "group": "cardio",
-    "pattern": "Cardio machine",
-    "muscles": [
-      "cardio",
-      "dos",
-      "jambes"
-    ],
-    "equipment": [
-      "rameur"
-    ],
-    "mode": "time",
-    "level": "Intermédiaire",
-    "cues": "Pousser jambes puis tirer bras.",
-    "error": "Tirer trop tôt",
-    "variants": [
-      "Rameur",
-      "Assault bike",
-      "Tapis course"
-    ],
-    "goals": [
-      "hyrox"
-    ],
-    "lowImpact": false,
-    "contraindications": [],
-    "search": "rameur 500m hyrox cardio cardio machine cardio dos jambes rameur hyrox rameur assault bike tapis course"
-  },
-  {
     "id": "v65-rameur-intervalles",
     "name": "Rameur intervalles",
     "family": "Hyrox",

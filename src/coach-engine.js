@@ -73,23 +73,34 @@ function formatFor(goal,style){
   if(goal==="boxe") return style==="technique"?"Rounds techniques":"Rounds";
   if(goal==="hiit") return style==="tabata"?"Tabata 20/10":style==="emom"?"EMOM":"Intervalles";
   if(goal==="crossfit") return style==="emom"?"EMOM":style==="amrap"?"AMRAP":style==="fortime"?"For Time":"Circuit";
-  if(goal==="hyrox") return "Stations";
-  if(goal==="trail") return "Course + renforcement";
+  if(goal==="hyrox") return style==="erg"?"Ergs":style==="carries"?"Carries + stations":"Stations";
+  if(goal==="trail") return style==="hills"?"Côtes + renforcement":style==="interval"?"Fractionné":style==="technical"?"Technique trail":"Course + renforcement";
   if(["mobilite","recovery","prevention"].includes(goal)) return "Flow contrôlé";
   return "Séries";
 }
-function prescription(goal,style,level,ready,mode,block){
+function prescription(goal,style,level,ready,mode,block,age=30,intensityBoost=false){
   const rule=GOAL_RULES[goal]||GOAL_RULES.remise_en_forme;
   let rpe=(rule.rpe[0]+rule.rpe[1])/2;
   if(ready<55) rpe-=1.2; else if(ready<70) rpe-=.6; else if(ready>88) rpe+=.3;
   if(level==="Débutant") rpe-=.5;
+  if(age<16) rpe=Math.min(rpe,7);
+  if(age>=65) rpe-=.4;
+  if(intensityBoost) rpe+=.4;
   rpe=Math.max(3,Math.min(9,Math.round(rpe*10)/10));
   if(block==="warmup") return {sets:1,reps:mode==="time"?"30-45 sec":"8-10",rest:"15-20 sec",rpe:4,tempo:"progressif"};
   if(block==="cooldown") return {sets:1,reps:mode==="time"?"45-60 sec":"6-8",rest:"respiration",rpe:3,tempo:"lent"};
-  if(goal==="boxe" || mode==="rounds") return {sets:level==="Débutant"?3:5,reps:level==="Débutant"?"2 min":"3 min",rest:"60 sec",rpe,tempo:"garde + appuis"};
+  if(goal==="boxe" || mode==="rounds") {
+    const round=age<16?"1 min 30":level==="Débutant"?"2 min":"3 min";
+    return {sets:style==="power"?4:(level==="Débutant"?3:5),reps:round,rest:style==="power"?"75-90 sec":"60 sec",rpe,tempo:style==="technique"?"précision + garde":"garde + appuis"};
+  }
   if(goal==="trail" && mode==="distance") return {sets:4,reps:level==="Débutant"?"200-400 m":"400-800 m",rest:"60-120 sec",rpe,tempo:"allure régulière"};
   if(goal==="hyrox" && mode==="distance") return {sets:3,reps:"250-1000 m",rest:"60-90 sec",rpe,tempo:"constant"};
-  if(goal==="hiit" || goal==="crossfit" || mode==="time") return {sets:4,reps:style==="tabata"?"20 sec":"30-45 sec",rest:style==="tabata"?"10 sec":"30-45 sec",rpe,tempo:"rythmé"};
+  if(goal==="hiit" || goal==="crossfit" || mode==="time") {
+    if(style==="emom") return {sets:12,reps:"travail dans la minute",rest:"reste de la minute",rpe,tempo:"constant"};
+    if(style==="amrap") return {sets:1,reps:"12-16 min AMRAP",rest:"selon besoin",rpe,tempo:"constant"};
+    if(style==="fortime") return {sets:3,reps:"travail prescrit",rest:"minimum technique",rpe,tempo:"efficace"};
+    return {sets:4,reps:style==="tabata"?"20 sec":"30-45 sec",rest:style==="tabata"?"10 sec":"30-45 sec",rpe,tempo:"rythmé"};
+  }
   const sets=Math.round((rule.sets[0]+rule.sets[1])/2);
   const reps=`${rule.reps[0]}-${rule.reps[1]}`;
   return {sets,reps,rest:`${rule.rest[0]}-${rule.rest[1]} sec`,rpe,tempo:goal==="force"?"contrôlé / explosif":"2-0-2"};
@@ -132,6 +143,37 @@ function injuryPenalty(ex,injuries=[]){
   });
   return penalty;
 }
+
+function styleBonus(ex,cfg){
+  const style=cfg.style||"standard", name=`${ex.name} ${ex.pattern} ${(ex.muscles||[]).join(" ")}`.toLowerCase();
+  let b=0;
+  if(style==="upper") b+=ex.group==="haut_du_corps"?34:(ex.group==="bas_du_corps"?-34:0);
+  if(style==="lower") b+=ex.group==="bas_du_corps"?34:(ex.group==="haut_du_corps"?-28:0);
+  if(style==="push") b+=/push|press|développ|pompe|triceps|pector/.test(name)?36:-8;
+  if(style==="pull") b+=/pull|row|tirage|traction|dos|biceps/.test(name)?36:-8;
+  if(style==="technique") b+=/technique|shadow|appui|pivot|mobilité|prévention/.test(name)?26:0;
+  if(style==="bag") b+=/sac|bag/.test(name)?40:-8;
+  if(style==="power") b+=/power|puissance|sprint|jump|slam|snatch|clean/.test(name)?34:0;
+  if(style==="footwork") b+=/appui|footwork|pivot|déplacement/.test(name)?42:-5;
+  if(style==="hills") b+=/côte|montée|step|mollet|fessier/.test(name)?36:0;
+  if(style==="technical") b+=/descente|technique|skipping|appui|équilibre/.test(name)?35:0;
+  if(style==="erg") b+=/rameur|rowerg|skierg|erg/.test(name)?45:-4;
+  if(style==="carries") b+=/carry|farmer|sandbag|lunge|sled/.test(name)?42:0;
+  if(style==="kettlebell") b+=(ex.equipment||[]).includes("kettlebell")?42:-5;
+  if(style==="bodyweight") b+=(ex.equipment||[]).includes("poids du corps")?35:-20;
+  if(style==="lowimpact") b+=ex.lowImpact?30:(/jump|burpee|sprint|box jump|saut/.test(name)?-50:0);
+  return b;
+}
+function adaptationPenalty(ex,cfg){
+  const flags=cfg.adapt||[], text=`${ex.name} ${ex.pattern}`.toLowerCase();let p=0;
+  if(flags.includes("nojump") && /jump|burpee|saut|plyo|broad/.test(text)) p+=120;
+  if(flags.includes("quiet") && /jump|slam|battle rope|sled|sprint/.test(text)) p+=90;
+  if(flags.includes("legs") && ex.group==="bas_du_corps") p+=80;
+  if(flags.includes("upper") && ex.group==="haut_du_corps") p+=80;
+  if(flags.includes("lowimpact") && !ex.lowImpact && /jump|burpee|sprint/.test(text)) p+=70;
+  return p;
+}
+
 function selectExercises(exercises,cfg,block,count,used,recent){
   const families=blockFamilies(cfg.goal,block);
   const maxLevel=profileLevelRank(cfg.level);
@@ -141,7 +183,10 @@ function selectExercises(exercises,cfg,block,count,used,recent){
     if(fi>=0) s+=80-fi*8; else s-=15;
     if(available(ex,cfg.equipment)) s+=30; else s-=60;
     if(levelRank(ex.level)<=maxLevel+1) s+=15; else s-=35;
-    if(ex.lowImpact && (cfg.readiness<60 || cfg.age>=60 || cfg.pain>=2)) s+=22;
+    if(ex.lowImpact && (cfg.readiness<60 || cfg.age>=60 || cfg.age<16 || cfg.pain>=2)) s+=22;
+    if(cfg.age<16 && ex.family==="Musculation" && (ex.equipment||[]).some(x=>["barre","machine"].includes(x))) s-=22;
+    s+=styleBonus(ex,cfg);
+    s-=adaptationPenalty(ex,cfg);
     if(used.has(ex.id)) s-=180;
     if(recent.has(ex.id)) s-=20;
     s-=injuryPenalty(ex,cfg.injuries);
@@ -161,7 +206,7 @@ export function generateSession({athlete,daily,choice,exercises,history}){
     goal,level,duration,age:Number(athlete.age)||30,
     equipment:choice.equipment?.length?choice.equipment:athlete.equipment||["poids du corps"],
     injuries:[...(athlete.injuries||[]),...(daily.injuries||[])],
-    pain:Number(daily.pain||0),readiness:ready
+    pain:Number(daily.pain||0),readiness:ready,style:choice.style||"standard",adapt:choice.adapt||daily.adapt||[],intensityBoost:!!choice.intensityBoost
   };
   const recent=new Set((history||[]).slice(0,6).flatMap(s=>s.exerciseIds||[]));
   const used=new Set();
@@ -178,7 +223,7 @@ export function generateSession({athlete,daily,choice,exercises,history}){
       key,label,minutes,
       exercises:selected.map(ex=>({
         ...ex,
-        prescription:prescription(goal,choice.style||"",level,ready,ex.mode,key),
+        prescription:prescription(goal,choice.style||"",level,ready,ex.mode,key,cfg.age,cfg.intensityBoost),
         suggestedLoad:loadSuggestion(history||[],ex.id,7)
       }))
     };
@@ -195,6 +240,7 @@ export function generateSession({athlete,daily,choice,exercises,history}){
     exerciseIds:blocks.flatMap(b=>b.exercises.map(e=>e.id)),
     coachNote: ready<55 ? "Séance allégée aujourd’hui : priorité à la technique et à la récupération." :
       ready>88 ? "Très bonne disponibilité : tu peux viser le haut de la fourchette sans sacrifier la technique." :
+      cfg.adapt.length ? `Séance adaptée : ${cfg.adapt.join(", ")}. La priorité reste ${GOAL_RULES[goal]?.label||goal}.` :
       "Séance calibrée pour ton état du jour. Garde 1 à 3 répétitions en réserve selon le bloc.",
     logs:[]
   };

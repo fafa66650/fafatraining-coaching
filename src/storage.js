@@ -1,18 +1,21 @@
 
-const KEY="fafatraining_v79";
+const KEY="fafatraining_v80";
+const LEGACY_KEY="fafatraining_v79";
 const defaults={
   athletes:[],
   activeAthleteId:null,
   sessions:[],
   draft:{},
   preferences:{theme:"dark"},
-  schemaVersion:79
+  schemaVersion:80
 };
 
 export function loadState(){
   try{
-    const raw=JSON.parse(localStorage.getItem(KEY)||"null");
-    return raw ? {...defaults,...raw} : structuredClone(defaults);
+    const raw=JSON.parse(localStorage.getItem(KEY)||localStorage.getItem(LEGACY_KEY)||"null");
+    const state=raw ? {...defaults,...raw,schemaVersion:80} : structuredClone(defaults);
+    if(raw && !localStorage.getItem(KEY)) localStorage.setItem(KEY,JSON.stringify(state));
+    return state;
   }catch(e){ return structuredClone(defaults); }
 }
 export function saveState(state){ localStorage.setItem(KEY,JSON.stringify(state)); }
@@ -49,6 +52,6 @@ export async function importState(file){
   const txt=await file.text();
   const data=JSON.parse(txt);
   if(!Array.isArray(data.athletes)||!Array.isArray(data.sessions)) throw new Error("Fichier invalide");
-  saveState({...defaults,...data,schemaVersion:79});
+  saveState({...defaults,...data,schemaVersion:80});
   return loadState();
 }

@@ -8,7 +8,7 @@ let currentSession=null;
 let wizardStep=0;
 let wizard={};
 let builder={};
-let libraryFilter={q:"",family:"Tous",group:"Tous",equipment:"Tous"};
+let libraryFilter={q:"",family:"Tous",group:"Tous",equipment:"Tous",level:"Tous"};
 let timerInterval=null;
 let timerSeconds=0;
 
@@ -16,7 +16,26 @@ const $=(s,r=document)=>r.querySelector(s);
 const $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const safe=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const visualPath=name=>`assets/visuals/${name||"coaching.jpeg"}`;
-const logoPath=()=>`assets/logo/${[...document.querySelectorAll("img")].length?"logo-fafatraining.jpg":"logo-fafatraining.jpg"}`;
+const logoPath=()=>`assets/logo/logo-fafatraining.jpg`;
+const TRAINING_STYLES={
+  remise_en_forme:[["equilibre","Équilibré","Renforcement + cardio doux"],["lowimpact","Sans impact","Articulations préservées"],["circuit","Circuit simple","Enchaînement facile à suivre"]],
+  musculation:[["full","Full body","Tout le corps"],["upper","Haut du corps","Pectoraux, dos, épaules, bras"],["lower","Bas du corps","Jambes, fessiers, mollets"],["push","Push","Pectoraux, épaules, triceps"],["pull","Pull","Dos, biceps"],["hypertrophy","Hypertrophie","Volume musculaire"]],
+  force:[["full","Force globale","Mouvements de base"],["upper","Force haut","Poussée + tirage"],["lower","Force bas","Squat + hinge"],["technique","Technique","Charge modérée, qualité"]],
+  perte_gras:[["circuit","Circuit","Renforcement + cardio"],["lowimpact","Sans saut","Dépense avec faible impact"],["boxing","Cardio boxing","Boxe fitness"],["interval","Intervalles","Efforts courts"]],
+  full_body:[["equilibre","Équilibré","Pousser, tirer, jambes, core"],["kettlebell","Kettlebell","Force fonctionnelle"],["bodyweight","Poids du corps","Sans charge"],["athletic","Athlétique","Puissance + cardio"]],
+  hiit:[["tabata","Tabata","20 s effort / 10 s repos"],["interval","40 / 20","40 s effort / 20 s repos"],["emom","EMOM","Une tâche chaque minute"],["lowimpact","Low impact","Intense sans sauts"]],
+  boxe:[["technique","Technique","Garde, déplacements, combinaisons"],["bag","Sac","Rounds au sac"],["power","Puissance","Impact + récupération"],["conditioning","Conditioning","Boxe + cardio"],["footwork","Appuis","Déplacements et coordination"]],
+  cardio:[["endurance","Endurance","Allure continue"],["interval","Intervalles","Alternance effort / récup"],["lowimpact","Low impact","Cardio articulaire"],["mixed","Mix cardio","Plusieurs modalités"]],
+  trail:[["easy","Endurance fondamentale","Allure conversationnelle"],["hills","Côtes","Montées + renforcement"],["interval","Fractionné","Intervalles course"],["technical","Technique trail","Appuis + descente"]],
+  crossfit:[["amrap","AMRAP","Maximum de tours dans le temps"],["emom","EMOM","Travail à la minute"],["fortime","For Time","Finir le travail proprement"],["strength","Force + metcon","Bloc force puis conditioning"]],
+  hyrox:[["simulation","Simulation","Course + stations"],["erg","Ergos","Rameur + SkiErg"],["carries","Carries","Portés + jambes"],["engine","Engine","Endurance spécifique"]],
+  aerobic:[["lowimpact","Low impact","Coordination sans saut"],["dance","Chorégraphié","Pas simples et rythmés"],["cardio","Cardio","Rythme soutenu"]],
+  mobilite:[["global","Global","Tout le corps"],["lower","Bas du corps","Hanches, chevilles, jambes"],["upper","Haut du corps","Épaules, thorax"],["recovery","Mobilité récup","Respiration + relâchement"]],
+  prevention:[["shoulders","Épaules","Omoplates + coiffe"],["knees","Genoux","Contrôle + quadriceps"],["back","Dos","Core + mobilité"],["ankles","Chevilles","Stabilité + mobilité"]],
+  recovery:[["breathing","Respiration","Système nerveux + calme"],["mobility","Mobilité douce","Déverrouillage global"],["active","Récupération active","Bouger sans fatigue"]]
+};
+const STYLE_ICONS={tabata:"⏱️",emom:"🕐",amrap:"🔁",fortime:"🏁",technique:"🎯",power:"💥",bag:"🥊",hills:"⛰️",interval:"⚡",lowimpact:"🛡️",upper:"⬆️",lower:"⬇️",push:"➡️",pull:"⬅️",simulation:"🚣",recovery:"🌙"};
+
 
 function toast(msg){
   const el=document.createElement("div");el.className="toast";el.textContent=msg;document.body.appendChild(el);
@@ -30,8 +49,8 @@ function hFor(){ const a=active();return a?sessionsFor(state,a.id):[]; }
 
 async function init(){
   [exercises,programs]=await Promise.all([
-    fetch("data/exercises.json?v=79").then(r=>r.json()),
-    fetch("data/programs.json?v=79").then(r=>r.json())
+    fetch("data/exercises.json?v=80").then(r=>r.json()),
+    fetch("data/programs.json?v=80").then(r=>r.json())
   ]);
   if("serviceWorker" in navigator) navigator.serviceWorker.register("./service-worker.js").catch(()=>{});
   window.addEventListener("hashchange",render);
@@ -45,7 +64,7 @@ function chrome(content,{nav=true}={}){
     <header class="topbar no-print">
       <button class="brand" data-go="home" style="background:none;border:0;color:white;text-align:left">
         <img src="${logoPath()}" alt="FAFATRAINING">
-        <span>FAFATRAINING<small>REAL ATHLETE SYSTEM</small></span>
+        <span>FAFATRAINING<small>COMPLETE COACH OS</small></span>
       </button>
       ${a?`<button class="avatar-switch" data-go="athletes">👤 ${safe(a.firstName||a.name||"Profil")} ▾</button>`:""}
     </header>
@@ -216,77 +235,103 @@ function summaryItem(k,v){return `<article><b>${k}</b><span>${safe(v)}</span></a
 
 function createPage(){
   const a=active(); if(!a) return "";
+  const step=Math.max(1,Math.min(4,Number(qparam("step")||1)));
   builder={goal:builder.goal||a.primaryGoal||"remise_en_forme",duration:builder.duration||a.duration||30,
     level:builder.level||a.level||"Débutant",equipment:builder.equipment||[...(a.equipment||["poids du corps"])],
     fatigue:builder.fatigue??3,stress:builder.stress??3,sleep:builder.sleep??(a.sleep||3),pain:builder.pain??0,
-    secondaryGoal:builder.secondaryGoal||a.secondaryGoal||"",style:builder.style||"standard"};
+    secondaryGoal:builder.secondaryGoal||a.secondaryGoal||"",style:builder.style||recommendedStyle(builder.goal||a.primaryGoal||"remise_en_forme")};
   const p=programs.find(x=>x.goal===builder.goal)||programs[0];
-  return chrome(`
-    <div class="page-head"><div><p class="eyebrow">Créer une séance</p><h1>3 choix. Puis je m’occupe du reste.</h1><p>Objectif → temps → état du jour. Le profil et le matériel sont déjà connus.</p></div></div>
-    <section class="wizard-card">
-      <h2>1. Aujourd’hui, tu veux travailler quoi ?</h2>
-      <div class="program-grid" style="grid-template-columns:repeat(3,1fr)">
-        ${programs.map(x=>`<button class="program-card" style="height:185px;outline:${builder.goal===x.goal?"2px solid var(--green)":"none"}" data-builder-goal="${x.goal}">
-          <img src="${visualPath(x.visual)}"><div class="content"><span class="icon">${x.icon}</span><b>${x.name}</b><p>${x.benefit}</p></div></button>`).join("")}
-      </div>
-    </section>
-    <section class="wizard-card" style="margin-top:12px">
-      <h2>2. Combien de temps ?</h2><p>Le nombre de blocs et d’exercices s’adapte réellement.</p>
-      <div class="chip-wrap">${[20,30,45,60].map(x=>`<button class="chip ${Number(builder.duration)===x?"on":""}" data-builder-duration="${x}">${x} min</button>`).join("")}</div>
-    </section>
-    <section class="wizard-card" style="margin-top:12px">
-      <h2>3. Comment tu te sens ?</h2><p>La séance est allégée ou renforcée selon ces réponses.</p>
-      <div class="form-grid">
+  const styles=TRAINING_STYLES[builder.goal]||[["standard","Standard","Séance équilibrée"]];
+  if(!styles.some(x=>x[0]===builder.style)) builder.style=styles[0][0];
+  const content=step===1?`
+      <h2>Qu’est-ce que tu veux travailler aujourd’hui ?</h2><p>Choisis un univers. Les exercices et le format de séance changent réellement.</p>
+      <div class="program-grid compact-programs">${programs.map(x=>`<button class="program-card mini ${builder.goal===x.goal?"selected-card":""}" data-builder-goal="${x.goal}">
+        <img src="${visualPath(x.visual)}"><div class="content"><span class="icon">${x.icon}</span><b>${x.name}</b><p>${x.benefit}</p></div></button>`).join("")}</div>
+      <div class="wizard-actions"><button class="btn secondary" data-go="home">Annuler</button><button class="btn primary" data-go="create?step=2">Continuer</button></div>`:
+    step===2?`
+      <h2>Quel style précis ?</h2><p>Plus besoin de deviner ce que signifie “CrossFit” ou “musculation” : choisis le format exact.</p>
+      <div class="style-grid">${styles.map(([id,label,desc])=>`<button class="style-card ${builder.style===id?"selected":""}" data-builder-style="${id}"><span>${STYLE_ICONS[id]||p.icon}</span><b>${label}</b><small>${desc}</small></button>`).join("")}</div>
+      <h3 class="subheading">Combien de temps as-tu ?</h3><div class="duration-row">${[15,20,30,45,60,75].map(x=>`<button class="duration-pill ${Number(builder.duration)===x?"on":""}" data-builder-duration="${x}">${x}<small>min</small></button>`).join("")}</div>
+      <div class="wizard-actions"><button class="btn secondary" data-go="create?step=1">Retour</button><button class="btn primary" data-go="create?step=3">Continuer</button></div>`:
+    step===3?`
+      <h2>Comment tu te sens aujourd’hui ?</h2><p>Ces quatre réponses modifient le volume, l’intensité et les exercices. Elles ne changent pas ton profil permanent.</p>
+      <div class="readiness-grid">
         ${rangeBuilder("fatigue","Fatigue",builder.fatigue,"1 = frais · 5 = très fatigué")}
         ${rangeBuilder("stress","Stress",builder.stress,"1 = calme · 5 = élevé")}
-        ${rangeBuilder("sleep","Sommeil",builder.sleep,"1 = mauvais · 5 = très bon")}
-        ${rangeBuilder("pain","Douleur aujourd’hui",builder.pain,"0 = aucune · 5 = forte",0)}
+        ${rangeBuilder("sleep","Sommeil",builder.sleep,"1 = mauvais · 5 = excellent")}
+        ${rangeBuilder("pain","Douleur",builder.pain,"0 = aucune · 5 = forte",0)}
       </div>
-      <div class="summary-list" style="margin-top:16px">
-        ${summaryItem("Profil",`${a.level} · ${a.age||"—"} ans`)}
-        ${summaryItem("Matériel",builder.equipment.join(", "))}
-        ${summaryItem("Objectif secondaire",builder.secondaryGoal||"Aucun")}
-        ${summaryItem("Univers",p.name)}
+      <div class="quick-adapt"><h3>Besoin d’adapter encore ?</h3><div class="chip-wrap">
+        ${adaptChip("quiet","🤫 Sans bruit")}${adaptChip("nojump","🛡️ Sans sauts")}${adaptChip("legs","🦵 Jambes fatiguées")}${adaptChip("upper","💪 Haut du corps fatigué")}${adaptChip("different","🔀 Plus de variété")}
+      </div></div>
+      <div class="wizard-actions"><button class="btn secondary" data-go="create?step=2">Retour</button><button class="btn primary" data-go="create?step=4">Voir le résumé</button></div>`:
+    `<div class="review-layout"><div>
+      <h2>Ta séance est prête à être construite.</h2><p>Tu peux encore modifier le matériel ou revenir à une étape avant de générer.</p>
+      <div class="summary-list">
+        ${summaryItem("Univers",p.name)}${summaryItem("Style",styles.find(x=>x[0]===builder.style)?.[1]||builder.style)}
+        ${summaryItem("Durée",`${builder.duration} min`)}${summaryItem("Niveau",a.level)}
+        ${summaryItem("Matériel",builder.equipment.join(", ")||"Poids du corps")}${summaryItem("Zones à protéger",(a.injuries||[]).join(", ")||"Aucune")}
       </div>
-      <div class="wizard-actions"><button class="btn secondary" data-edit-equipment>Modifier le matériel</button><button class="btn primary" data-generate>Générer ma séance</button></div>
-    </section>
-    <aside class="coach-tip"><img src="${visualPath(p.visual)}"><div class="copy"><span class="badge">APERÇU</span><h3>${p.name}</h3><p>${p.benefit}</p></div></aside>
+      <div class="material-preview"><h3>Matériel pour cette séance</h3><div class="chip-wrap">${builder.equipment.map(x=>`<span class="chip on passive">${safe(x)}</span>`).join("")}</div></div>
+      <div class="wizard-actions"><button class="btn secondary" data-go="create?step=3">Retour</button><button class="btn primary big-cta" data-generate>⚡ Générer ma séance</button></div>
+    </div><img class="review-avatar" src="${visualPath(p.visual)}" alt=""></div>`;
+  return chrome(`
+    <div class="page-head create-head"><div><p class="eyebrow">Coach du jour · Étape ${step}/4</p><h1>${step===1?"Choisis.":step===2?"Précise.":step===3?"Adapte.":"Lance."}</h1><p>${a.firstName?safe(a.firstName)+", ":""}le profil permanent est déjà enregistré : pas besoin de tout ressaisir.</p></div></div>
+    <div class="builder-progress">${[1,2,3,4].map(i=>`<i class="${i<=step?"on":""}"></i>`).join("")}</div>
+    <section class="wizard-card builder-card">${content}</section>
+    <aside class="coach-tip compact-tip"><img src="${visualPath(step===3?"avatar-coach.jpeg":p.visual)}"><div class="copy"><span class="badge">FAFA TE GUIDE</span><h3>${step===1?"Un seul choix à la fois.":step===2?"Le format change vraiment la séance.":step===3?"L’état du jour compte.":"Pas de poids inventé."}</h3><p>${step===4?"Sans historique de charge, FAFATRAINING indique un RPE cible au lieu d’inventer un poids en kilogrammes.":p.benefit}</p></div></aside>
   `);
 }
+function recommendedStyle(goal){return (TRAINING_STYLES[goal]||[["standard"]])[0][0]}
+function adaptChip(id,label){return `<button class="chip ${(builder.adapt||[]).includes(id)?"on":""}" data-builder-adapt="${id}">${label}</button>`}
 function rangeBuilder(key,label,value,legend,min=1){return `<div class="range-card"><header><span>${label}</span><span id="${key}Val">${value}</span></header><input data-builder-range="${key}" type="range" min="${min}" max="5" value="${value}"><small>${legend}</small></div>`}
 function equipmentOptions(){return ["poids du corps","tapis","mur","chaise","banc","haltères","barre","kettlebell","élastique","machine","poulie","barre traction","box","step","medecine ball","sandbag","battle rope","sac","pattes d’ours","corde","rameur","vélo","skierg","sled","cônes","extérieur"]}
 
 function sessionPage(){
   const id=qparam("id");
-  if(id && !currentSession) currentSession=state.sessions.find(s=>s.id===id)||null;
+  if(id && (!currentSession || currentSession.id!==id)) currentSession=state.sessions.find(s=>s.id===id)||null;
   if(!currentSession) return chrome(`<div class="empty"><h2>Aucune séance ouverte</h2><button class="btn primary" data-go="create">Créer une séance</button></div>`);
   const p=programs.find(x=>x.goal===currentSession.goal)||programs[0];
+  const styleLabel=(TRAINING_STYLES[currentSession.goal]||[]).find(x=>x[0]===currentSession.style)?.[1]||currentSession.style;
+  const totalEx=currentSession.blocks.reduce((n,b)=>n+b.exercises.length,0);
   return chrome(`
-    <section class="session-hero">
-      <div class="copy"><p class="eyebrow">${safe(currentSession.format)} · Score ${currentSession.score}/100</p>
+    <section class="session-hero premium-session">
+      <div class="copy"><p class="eyebrow">${safe(currentSession.format)} · ${safe(styleLabel)} · Score ${currentSession.score}/100</p>
         <h1>${safe(currentSession.title)}</h1>
         <p>${safe(currentSession.coachNote)}</p>
-        <div class="action-row"><button class="btn primary" data-go-live>Démarrer</button><button class="btn secondary" data-print>Imprimer / PDF</button></div>
+        <div class="action-row"><button class="btn primary big-cta" data-go-live>▶ Démarrer</button><button class="btn secondary" data-adapt-open>⚙ Adapter</button><button class="btn secondary" data-print>Imprimer / PDF</button></div>
       </div>
-      <div class="media"><img src="${visualPath(p.visual)}"></div>
+      <div class="media"><img src="${visualPath(p.visual)}" alt=""></div>
     </section>
-    <section class="metrics">
+    <section class="metrics compact-metrics">
       ${metric("Durée",`${currentSession.duration} min`)}
+      ${metric("Intensité",`RPE ${sessionRpe(currentSession)}`)}
       ${metric("Disponibilité",`${currentSession.readiness}%`)}
-      ${metric("Objectif",safe(p.name))}
-      ${metric("Matériel",`${currentSession.equipment.length} choix`)}
-      ${metric("Exercices",currentSession.exerciseIds.length)}
+      ${metric("Exercices",totalEx)}
+      ${metric("Style",safe(styleLabel))}
+    </section>
+    <section class="session-essentials">
+      <div><span class="eyebrow">MATÉRIEL</span><div class="chip-wrap">${currentSession.equipment.map(x=>`<span class="chip passive">${safe(x)}</span>`).join("")}</div></div>
+      <div><span class="eyebrow">OBJECTIF DU JOUR</span><p>${safe(currentSession.objective)}</p></div>
     </section>
     <div class="block-list">${currentSession.blocks.map(blockHtml).join("")}</div>
-    <div class="action-row no-print"><button class="btn primary" data-go-live>Démarrer cette séance</button><button class="btn secondary" data-regenerate>🔁 Générer une autre proposition</button></div>
+    <section class="adapt-bar no-print"><div><b>Quelque chose a changé ?</b><small>Adapte sans recommencer tout le profil.</small></div><div class="chip-wrap">
+      <button class="chip" data-adapt="shorter">⏱️ Plus court</button><button class="chip" data-adapt="easier">🌿 Plus facile</button><button class="chip" data-adapt="harder">🔥 Plus intense</button><button class="chip" data-adapt="different">🔀 Différente</button><button class="chip" data-adapt="nojump">🛡️ Sans sauts</button>
+    </div></section>
+    <div class="action-row no-print"><button class="btn primary big-cta" data-go-live>▶ Démarrer cette séance</button><button class="btn secondary" data-regenerate>🔁 Autre proposition</button></div>
+    <div id="adaptModal"></div>
   `);
 }
+function sessionRpe(session){const all=session.blocks.flatMap(b=>b.exercises).map(e=>Number(e.prescription?.rpe)||0).filter(Boolean);return all.length?(all.reduce((a,b)=>a+b,0)/all.length).toFixed(1):"—"}
 function metric(k,v){return `<article class="stat-card"><b>${k}</b><span>${v}</span></article>`}
-function blockHtml(b){return `<section class="block"><header class="block-head"><h2>${safe(b.label)}</h2><span>${b.minutes} min</span></header>
-  ${b.exercises.map((e,i)=>`<article class="session-ex"><div><h3>${i+1}. ${safe(e.name)}</h3><p>${safe(e.cues)}</p></div>
-    <div class="rx"><b>${e.prescription.sets} × ${safe(e.prescription.reps)}</b><small>Repos ${safe(e.prescription.rest)} · RPE ${e.prescription.rpe}</small></div>
-    <footer><span class="badge">${safe(e.family)}</span><span class="badge">${safe(e.pattern)}</span>${e.suggestedLoad?`<span class="badge">Charge suggérée ${e.suggestedLoad} kg</span>`:""}<button class="btn secondary small no-print" data-swap="${e.id}" data-block="${b.key}">Remplacer</button></footer>
+function blockHtml(b){return `<section class="block"><header class="block-head"><div><span class="block-number">${blockIcon(b.key)}</span><h2>${safe(b.label)}</h2></div><span>${b.minutes} min</span></header>
+  ${b.exercises.map((e,i)=>`<article class="session-ex"><div><h3>${i+1}. ${safe(e.name)}</h3><p>${safe(e.cues)}</p><small class="human-name">${humanExerciseHelp(e)}</small></div>
+    <div class="rx"><b>${formatPrescription(e)}</b><small>Repos ${safe(e.prescription.rest)} · RPE ${e.prescription.rpe}${e.prescription.tempo?` · Tempo ${safe(e.prescription.tempo)}`:""}</small></div>
+    <footer><span class="badge">${safe(e.family)}</span><span class="badge">${safe(e.pattern)}</span>${e.suggestedLoad?`<span class="badge strong">Charge suggérée ${e.suggestedLoad} kg</span>`:`<span class="badge">Charge : atteindre RPE ${e.prescription.rpe}</span>`}<button class="btn secondary small no-print" data-ex-info="${e.id}">Détails</button><button class="btn secondary small no-print" data-swap="${e.id}" data-block="${b.key}">Remplacer</button></footer>
   </article>`).join("")}</section>`}
+function blockIcon(k){return {warmup:"1",skill:"2",main:"3",support:"4",cooldown:"5"}[k]||"•"}
+function formatPrescription(e){const p=e.prescription||{};if(e.mode==="rounds")return `${p.sets} rounds · ${p.reps}`;if(e.mode==="distance")return `${p.sets} × ${p.reps}`;if(e.mode==="time")return `${p.sets} × ${p.reps}`;return `${p.sets} séries × ${p.reps} reps`}
+function humanExerciseHelp(e){const v=(e.variants||[])[0];return v?`Variante possible : ${v}`:`Cible : ${(e.muscles||[]).join(", ")||"mouvement global"}`}
 
 function livePage(){
   if(!currentSession){
@@ -316,28 +361,35 @@ function libraryPage(){
   const families=["Tous",...new Set(exercises.map(e=>e.family))];
   const groups=["Tous",...new Set(exercises.map(e=>e.group))];
   const equipment=["Tous",...new Set(exercises.flatMap(e=>e.equipment))];
+  const levels=["Tous","Débutant","Intermédiaire","Avancé","Expert"];
   let list=exercises.filter(e=>
     (!libraryFilter.q || e.search.includes(libraryFilter.q.toLowerCase())) &&
     (libraryFilter.family==="Tous"||e.family===libraryFilter.family) &&
     (libraryFilter.group==="Tous"||e.group===libraryFilter.group) &&
-    (libraryFilter.equipment==="Tous"||e.equipment.includes(libraryFilter.equipment))
+    (libraryFilter.equipment==="Tous"||e.equipment.includes(libraryFilter.equipment)) &&
+    (libraryFilter.level==="Tous"||e.level===libraryFilter.level)
   );
   return chrome(`
-    <div class="page-head"><div><p class="eyebrow">Bibliothèque pro</p><h1>${exercises.length} exercices réels</h1><p>Recherche, muscles, matériel, variantes et consignes.</p></div></div>
-    <div class="filters">
-      <input id="libQ" value="${safe(libraryFilter.q)}" placeholder="Rechercher : squat, dos, corde, boxe…">
+    <div class="page-head"><div><p class="eyebrow">Bibliothèque coach</p><h1>${exercises.length} mouvements utilisables</h1><p>Recherche par discipline, zone du corps, matériel ou niveau. Clique sur un mouvement pour comprendre quoi faire.</p></div></div>
+    <div class="filters library-filters">
+      <input id="libQ" value="${safe(libraryFilter.q)}" placeholder="Ex. squat, pectoraux, sac, côte, mobilité…">
       ${filterSelect("libFamily",families,libraryFilter.family)}
       ${filterSelect("libGroup",groups,libraryFilter.group)}
       ${filterSelect("libEquipment",equipment,libraryFilter.equipment)}
+      ${filterSelect("libLevel",levels,libraryFilter.level)}
     </div>
-    <div class="section-title"><div><h2>${list.length} résultat(s)</h2></div></div>
+    <div class="library-shortcuts"><button class="chip" data-lib-preset="Musculation">🏋️ Musculation</button><button class="chip" data-lib-preset="Boxe">🥊 Boxe</button><button class="chip" data-lib-preset="Course / Trail">⛰️ Trail</button><button class="chip" data-lib-preset="Mobilité">🧘 Mobilité</button><button class="chip" data-lib-reset>Effacer les filtres</button></div>
+    <div class="section-title"><div><h2>${list.length} résultat(s)</h2><p>Les variantes évitent de multiplier artificiellement les fiches.</p></div></div>
     <section class="library-grid">${list.slice(0,180).map(exCard).join("")}</section>
-    ${list.length>180?`<div class="empty">Affichage des 180 premiers résultats. Affine les filtres pour aller plus vite.</div>`:""}
+    ${list.length>180?`<div class="empty">${list.length} résultats : utilise les filtres pour aller directement au bon exercice.</div>`:""}
+    <div id="exerciseModal"></div>
   `);
 }
 function filterSelect(id,arr,value){return `<select id="${id}">${arr.map(x=>`<option ${x===value?"selected":""}>${safe(x)}</option>`).join("")}</select>`}
-function exCard(e){return `<article class="exercise-card"><span class="meta">${safe(e.family)} · ${safe(e.level)}</span><h3>${safe(e.name)}</h3><p>${safe(e.cues)}</p><small>${safe(e.muscles.join(" · "))}<br>${safe(e.equipment.join(" · "))}</small>
-  <div class="variants"><b>Variantes :</b> ${safe((e.variants||[]).slice(0,3).join(" · ")||"—")}<br><b>Erreur fréquente :</b> ${safe(e.error)}</div></article>`}
+function exCard(e){return `<button class="exercise-card clickable" data-ex-info="${e.id}"><span class="meta">${safe(e.family)} · ${safe(e.level)}</span><h3>${safe(e.name)}</h3><p>${safe(e.cues)}</p><small>${safe(e.muscles.join(" · "))}<br>${safe(e.equipment.join(" · "))}</small>
+  <div class="variants"><b>${(e.variants||[]).length} variante(s)</b> · ${safe(e.mode==="reps"?"répétitions":e.mode==="rounds"?"rounds":e.mode==="distance"?"distance":"temps")}</div></button>`}
+function openExerciseModal(id){const e=exercises.find(x=>x.id===id);if(!e)return;let host=$("#exerciseModal");if(!host){host=document.createElement("div");host.id="exerciseModalRuntime";document.body.appendChild(host)}host.innerHTML=`<div class="modal-bg" data-close-modal><section class="modal exercise-modal" onclick="event.stopPropagation()"><button class="modal-close" data-close-modal>×</button><p class="eyebrow">${safe(e.family)} · ${safe(e.level)}</p><h2>${safe(e.name)}</h2><div class="summary-list">${summaryItem("Mouvement",e.pattern)}${summaryItem("Muscles",e.muscles.join(", ")||"Global")}${summaryItem("Matériel",e.equipment.join(", "))}${summaryItem("Format",e.mode)}</div><h3>Comment le faire</h3><p>${safe(e.cues)}</p><h3>Erreur fréquente</h3><p>${safe(e.error)}</p><h3>Variantes</h3><div class="chip-wrap">${(e.variants||[]).length?e.variants.map(v=>`<span class="chip passive">${safe(v)}</span>`).join(""):`<span class="chip passive">Aucune variante renseignée</span>`}</div></section></div>`;bindModalClose()}
+function bindModalClose(){$$("[data-close-modal]").forEach(x=>x.onclick=()=>{const bg=x.closest(".modal-bg")||$(".modal-bg");if(bg)bg.remove()})}
 
 function progressPage(){
   const h=hFor(), st=progressStats(h), completed=h.filter(s=>s.completedAt);
@@ -437,6 +489,32 @@ function startTimer(sec){
 }
 function updateTimer(){const el=$("#timerText");if(el)el.textContent=`${String(Math.floor(timerSeconds/60)).padStart(2,"0")}:${String(timerSeconds%60).padStart(2,"0")}`}
 
+
+function openAdaptModal(){
+  const host=$("#adaptModal");if(!host)return;
+  host.innerHTML=`<div class="modal-bg" data-close-modal><section class="modal" onclick="event.stopPropagation()"><button class="modal-close" data-close-modal>×</button><p class="eyebrow">ADAPTER LA SÉANCE</p><h2>Qu’est-ce qui a changé ?</h2><p>On garde ton objectif, mais on recalcule la séance.</p><div class="choice-grid adapt-choice-grid">
+    <button class="choice" data-adapt="shorter"><span class="emoji">⏱️</span><b>Moins de temps</b><small>Réduit la durée et le nombre d’exercices.</small></button>
+    <button class="choice" data-adapt="equipment"><span class="emoji">🎒</span><b>Moins de matériel</b><small>Repasse au poids du corps + matériel simple.</small></button>
+    <button class="choice" data-adapt="easier"><span class="emoji">🌿</span><b>Plus facile</b><small>Réduit l’intensité et favorise le low impact.</small></button>
+    <button class="choice" data-adapt="harder"><span class="emoji">🔥</span><b>Plus intense</b><small>Augmente légèrement le RPE cible.</small></button>
+    <button class="choice" data-adapt="nojump"><span class="emoji">🛡️</span><b>Sans sauts</b><small>Évite les mouvements à impact.</small></button>
+    <button class="choice" data-adapt="different"><span class="emoji">🔀</span><b>Exercices différents</b><small>Même objectif, sélection différente.</small></button>
+  </div></section></div>`;
+  bindModalClose();$$("[data-adapt]",host).forEach(x=>x.onclick=()=>applySessionAdapt(x.dataset.adapt));
+}
+function applySessionAdapt(type){
+  if(!currentSession)return;const a=active();
+  builder.goal=currentSession.goal;builder.style=currentSession.style;builder.duration=currentSession.duration;builder.equipment=[...currentSession.equipment];
+  builder.fatigue=builder.fatigue??3;builder.stress=builder.stress??3;builder.sleep=builder.sleep??3;builder.pain=builder.pain??0;builder.adapt=builder.adapt||[];
+  if(type==="shorter") builder.duration=Math.max(15,Number(builder.duration)-15);
+  if(type==="equipment") builder.equipment=["poids du corps","tapis"];
+  if(type==="easier"){builder.fatigue=Math.max(4,builder.fatigue);builder.adapt=[...new Set([...builder.adapt,"lowimpact"])]}
+  if(type==="harder"){builder.fatigue=1;builder.stress=Math.min(builder.stress,2);builder.sleep=Math.max(builder.sleep,4);builder.intensityBoost=true}
+  if(type==="nojump") builder.adapt=[...new Set([...builder.adapt,"nojump"])];
+  if(type==="different") builder.variation=Date.now();
+  currentSession=generateSession({athlete:a,daily:builder,choice:builder,exercises,history:hFor()});state.sessions.unshift(currentSession);saveState(state);go(`session?id=${currentSession.id}`);toast("Séance adaptée");
+}
+
 function bind(){
   $$("[data-go]").forEach(x=>x.onclick=()=>go(x.dataset.go));
   $$("[data-program]").forEach(x=>x.onclick=()=>{builder.goal=x.dataset.program;go("create")});
@@ -448,7 +526,9 @@ function bind(){
   $$("[data-wiz-equipment]").forEach(x=>x.onclick=()=>{wizard.equipment=wizard.equipment||[];const v=x.dataset.wizEquipment;wizard.equipment=wizard.equipment.includes(v)?wizard.equipment.filter(a=>a!==v):[...wizard.equipment,v];render()});
   $$("[data-wiz-injury]").forEach(x=>x.onclick=()=>{wizard.injuries=wizard.injuries||[];const v=x.dataset.wizInjury;if(v==="Aucune")wizard.injuries=["Aucune"];else{wizard.injuries=wizard.injuries.filter(a=>a!=="Aucune");wizard.injuries=wizard.injuries.includes(v)?wizard.injuries.filter(a=>a!==v):[...wizard.injuries,v]}render()});
   $("[data-save-onboarding]")?.addEventListener("click",()=>{syncWizardInputs();saveOnboarding()});
-  $$("[data-builder-goal]").forEach(x=>x.onclick=()=>{builder.goal=x.dataset.builderGoal;render()});
+  $$("[data-builder-goal]").forEach(x=>x.onclick=()=>{builder.goal=x.dataset.builderGoal;builder.style=recommendedStyle(builder.goal);render()});
+  $$("[data-builder-style]").forEach(x=>x.onclick=()=>{builder.style=x.dataset.builderStyle;render()});
+  $$("[data-builder-adapt]").forEach(x=>x.onclick=()=>{builder.adapt=builder.adapt||[];const v=x.dataset.builderAdapt;builder.adapt=builder.adapt.includes(v)?builder.adapt.filter(z=>z!==v):[...builder.adapt,v];render()});
   $$("[data-builder-duration]").forEach(x=>x.onclick=()=>{builder.duration=Number(x.dataset.builderDuration);render()});
   $$("[data-builder-range]").forEach(x=>x.oninput=()=>{builder[x.dataset.builderRange]=Number(x.value);const t=$("#"+x.dataset.builderRange+"Val");if(t)t.textContent=x.value});
   $("[data-generate]")?.addEventListener("click",regenerate);
@@ -457,6 +537,8 @@ function bind(){
   $$("[data-go-live]").forEach(x=>x.onclick=()=>go(`live?id=${currentSession.id}`));
   $("[data-print]")?.addEventListener("click",()=>window.print());
   $("[data-regenerate]")?.addEventListener("click",regenerate);
+  $("[data-adapt-open]")?.addEventListener("click",openAdaptModal);
+  $$("[data-adapt]").forEach(x=>x.onclick=()=>applySessionAdapt(x.dataset.adapt));
   $$("[data-timer]").forEach(x=>x.onclick=()=>startTimer(Number(x.dataset.timer)));
   $("[data-timer-stop]")?.addEventListener("click",()=>{clearInterval(timerInterval);timerInterval=null;timerSeconds=0;updateTimer()});
   $$("[data-complete-ex]").forEach(btn=>btn.onclick=()=>{
@@ -474,8 +556,11 @@ function bind(){
     const ix=state.sessions.findIndex(s=>s.id===currentSession.id); if(ix>=0)state.sessions[ix]=currentSession;else state.sessions.unshift(currentSession);
     saveState(state);toast("Séance terminée");go("progress");
   });
-  const libHandler=()=>{libraryFilter={q:$("#libQ")?.value||"",family:$("#libFamily")?.value||"Tous",group:$("#libGroup")?.value||"Tous",equipment:$("#libEquipment")?.value||"Tous"};render()};
-  $("#libQ")?.addEventListener("input",libHandler);$("#libFamily")?.addEventListener("change",libHandler);$("#libGroup")?.addEventListener("change",libHandler);$("#libEquipment")?.addEventListener("change",libHandler);
+  const libHandler=()=>{libraryFilter={q:$("#libQ")?.value||"",family:$("#libFamily")?.value||"Tous",group:$("#libGroup")?.value||"Tous",equipment:$("#libEquipment")?.value||"Tous",level:$("#libLevel")?.value||"Tous"};render()};
+  $("#libQ")?.addEventListener("change",libHandler);$("#libFamily")?.addEventListener("change",libHandler);$("#libGroup")?.addEventListener("change",libHandler);$("#libEquipment")?.addEventListener("change",libHandler);$("#libLevel")?.addEventListener("change",libHandler);
+  $$("[data-lib-preset]").forEach(x=>x.onclick=()=>{libraryFilter.family=x.dataset.libPreset;render()});
+  $("[data-lib-reset]")?.addEventListener("click",()=>{libraryFilter={q:"",family:"Tous",group:"Tous",equipment:"Tous",level:"Tous"};render()});
+  $$("[data-ex-info]").forEach(x=>x.onclick=()=>openExerciseModal(x.dataset.exInfo));
   $("[data-new-athlete]")?.addEventListener("click",()=>{wizard={};wizardStep=0;go("onboarding")});
   $$("[data-activate-athlete]").forEach(x=>x.onclick=()=>{state.activeAthleteId=x.dataset.activateAthlete;saveState(state);go("home")});
   $$("[data-edit-athlete]").forEach(x=>x.onclick=()=>{state.activeAthleteId=x.dataset.editAthlete;saveState(state);go("profile")});
