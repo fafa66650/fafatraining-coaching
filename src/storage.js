@@ -1,5 +1,5 @@
 
-const KEY="fafatraining_v80";
+const KEY="fafatraining_v81_coach_flow";
 const LEGACY_KEY="fafatraining_v79";
 const defaults={
   athletes:[],
