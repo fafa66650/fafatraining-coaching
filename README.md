@@ -1,6 +1,5 @@
-# FAFATRAINING V81 — COACH FLOW RESTRUCTURED
+# FAFATRAINING — COACH FLOW 
 
-Version entièrement restructurée à partir de la V80.
 
 ## Principe UX
 L’application est maintenant organisée selon le travail réel du coach :
