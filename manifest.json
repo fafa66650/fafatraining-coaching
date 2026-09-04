@@ -1,16 +1,13 @@
 {
-  "name": "FAFATRAINING V75 TOTAL PREMIUM REBUILD",
-  "short_name": "FAFATRAINING",
-  "start_url": "./index.html?v=75",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#b8ff18",
-  "icons": [
-    {
-      "src": "assets/logo/logo-fafa.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg"
-    }
+  "name":"FAFATRAINING — Complete Coach System",
+  "short_name":"FAFATRAINING",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#050605",
+  "theme_color":"#050605",
+  "orientation":"portrait",
+  "icons":[
+    {"src":"assets/logo/logo-fafatraining.jpg","sizes":"512x512","type":"image/jpeg","purpose":"any maskable"}
   ]
 }

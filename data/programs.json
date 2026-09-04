@@ -1,87 +1,16 @@
 [
-  {
-    "goal": "musculation",
-    "name": "Musculation",
-    "icon": "💪"
-  },
-  {
-    "goal": "force",
-    "name": "Force",
-    "icon": "🏋️"
-  },
-  {
-    "goal": "hypertrophie",
-    "name": "Prise masse",
-    "icon": "📈"
-  },
-  {
-    "goal": "perte_gras",
-    "name": "Perte poids",
-    "icon": "🔥"
-  },
-  {
-    "goal": "full",
-    "name": "Full Body",
-    "icon": "⚡"
-  },
-  {
-    "goal": "hiit",
-    "name": "HIIT",
-    "icon": "⏱️"
-  },
-  {
-    "goal": "circuit",
-    "name": "Circuit",
-    "icon": "🔁"
-  },
-  {
-    "goal": "boxe",
-    "name": "Boxe",
-    "icon": "🥊"
-  },
-  {
-    "goal": "cardio_boxing",
-    "name": "Cardio Boxing",
-    "icon": "🥊"
-  },
-  {
-    "goal": "crossfit",
-    "name": "CrossFit",
-    "icon": "🏋️"
-  },
-  {
-    "goal": "hyrox",
-    "name": "Hyrox",
-    "icon": "🚣"
-  },
-  {
-    "goal": "explosivite",
-    "name": "Explosivité",
-    "icon": "💥"
-  },
-  {
-    "goal": "mobilite",
-    "name": "Mobilité",
-    "icon": "🧘"
-  },
-  {
-    "goal": "prevention",
-    "name": "Prévention",
-    "icon": "🛡️"
-  },
-  {
-    "goal": "recovery",
-    "name": "Recovery",
-    "icon": "🌙"
-  },
-  {
-    "goal": "senior",
-    "name": "Sport santé",
-    "icon": "🤝"
-  },
-  {
-    "goal": "outdoor",
-    "name": "Outdoor",
-    "icon": "🌳"
-  }
+  {"id":"general_fit","name":"Remise en forme","sport":"Général","goal":"remise_en_forme","icon":"✨"},
+  {"id":"strength","name":"Force","sport":"Musculation","goal":"force","icon":"🏋️"},
+  {"id":"hypertrophy","name":"Prise de masse","sport":"Musculation","goal":"hypertrophie","icon":"💪"},
+  {"id":"fat_loss","name":"Perte de poids","sport":"Général","goal":"perte_gras","icon":"🔥"},
+  {"id":"boxing","name":"Boxe","sport":"Boxe","goal":"boxe","icon":"🥊"},
+  {"id":"cardio_boxing","name":"Cardio Boxing","sport":"Boxe","goal":"cardio_boxing","icon":"⚡"},
+  {"id":"trail","name":"Trail","sport":"Trail","goal":"trail","icon":"⛰️"},
+  {"id":"aerobic","name":"Aérobic","sport":"Aérobic","goal":"aerobic","icon":"🎵"},
+  {"id":"bodyweight","name":"Poids du corps","sport":"Poids de corps","goal":"bodyweight","icon":"🤸"},
+  {"id":"cross","name":"Cross training","sport":"Cross training","goal":"crossfit","icon":"🔁"},
+  {"id":"hyrox","name":"Hyrox","sport":"Hyrox","goal":"hyrox","icon":"🚣"},
+  {"id":"mobility","name":"Mobilité","sport":"Mobilité","goal":"mobilite","icon":"🧩"},
+  {"id":"prevention","name":"Prévention","sport":"Prévention","goal":"prevention","icon":"🛡️"},
+  {"id":"senior","name":"Sport santé","sport":"Sport santé","goal":"senior","icon":"🤝"}
 ]

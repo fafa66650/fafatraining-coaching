@@ -1,0 +1,22 @@
+FAFATRAINING V77 — DOUBLE VERIFICATION
+
+Vérification 1 — structure / données
+- fichiers critiques présents : OK
+- bibliothèque >= 250 mouvements : OK (306)
+- IDs uniques : OK
+- noms uniques : OK
+- aucun nom générique du type "Pro 1 / Pro 2" : OK
+- programmes : OK (14)
+
+Vérification 2 — code / exécution statique
+- node --check src/app.js : OK
+- node --check src/core/storage.js : OK
+- node --check src/services/coach-engine.js : OK
+- node --check src/components/ui.js : OK
+- chemins d'import ES modules : OK
+- fichiers data/logo accessibles : OK
+- test HTTP local index.html : OK
+- test HTTP exercises.json : OK
+- test HTTP src/app.js : OK
+
+Limite volontaire : GitHub Pages étant statique, la gestion des adhérents est locale au navigateur. Export/import JSON inclus pour sauvegarde et transfert manuel.
