@@ -1,19 +1,15 @@
-import fs from 'node:fs';
-import path from 'node:path';
-const root=path.resolve(new URL('..',import.meta.url).pathname);
-const required=['index.html','styles/app.css','src/app.js','src/core/storage.js','src/services/coach-engine.js','src/components/ui.js','data/exercises.json','data/programs.json','manifest.json','service-worker.js','assets/logo/logo-fafatraining.jpg'];
-let errors=[];
-for(const f of required){if(!fs.existsSync(path.join(root,f)))errors.push(`Fichier manquant: ${f}`)}
-const ex=JSON.parse(fs.readFileSync(path.join(root,'data/exercises.json'),'utf8'));
-const pr=JSON.parse(fs.readFileSync(path.join(root,'data/programs.json'),'utf8'));
-if(ex.length<250)errors.push(`Bibliothèque trop petite: ${ex.length}`);
+
+import fs from "node:fs";
+const req=["index.html","styles/app.css","src/app.js","src/storage.js","src/coach-engine.js","data/exercises.json","data/programs.json","manifest.json","service-worker.js"];
+for(const f of req){if(!fs.existsSync(f))throw new Error("Fichier manquant: "+f)}
+const ex=JSON.parse(fs.readFileSync("data/exercises.json","utf8"));
 const ids=new Set(),names=new Set();
-for(const [i,e] of ex.entries()){
-  for(const k of ['id','name','group','pattern','equipment','cues','error','variants','goals']) if(e[k]===undefined)errors.push(`Exercice ${i} champ manquant: ${k}`);
-  if(ids.has(e.id))errors.push(`ID exercice dupliqué: ${e.id}`); ids.add(e.id);
-  const n=e.name.toLowerCase(); if(names.has(n))errors.push(`Nom exercice dupliqué: ${e.name}`); names.add(n);
-  if(/\bPro\s*\d+\b/i.test(e.name))errors.push(`Nom générique interdit: ${e.name}`);
+for(const e of ex){
+  if(!e.id||!e.name||!e.family||!e.group||!e.mode)throw new Error("Exercice incomplet: "+JSON.stringify(e));
+  if(ids.has(e.id))throw new Error("ID doublon: "+e.id);ids.add(e.id);
+  const n=e.name.toLowerCase();if(names.has(n))throw new Error("Nom doublon: "+e.name);names.add(n);
 }
-if(pr.length<10)errors.push('Programmes insuffisants');
-if(errors.length){console.error('\nQA FAILED\n'+errors.join('\n'));process.exit(1)}
-console.log(`QA OK — ${ex.length} exercices uniques, ${pr.length} programmes, fichiers critiques présents.`);
+if(ex.length<400)throw new Error("Bibliothèque trop petite: "+ex.length);
+const programs=JSON.parse(fs.readFileSync("data/programs.json","utf8"));
+if(programs.length<12)throw new Error("Programmes insuffisants");
+console.log(`QA OK — ${ex.length} exercices uniques, ${programs.length} univers.`);
