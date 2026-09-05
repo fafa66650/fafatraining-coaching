@@ -1,60 +1,50 @@
-FAFATRAINING V82 — AUDIT COMPLET
+FAFATRAINING V83 — QA REPORT
 
-IMAGES
-- Visuels présents dans assets/visuals : 14
-- Références visuelles utilisées par l'application : 14
-- Référence manquante : 0
-- Logo principal : OK
-- Cadrage principal : object-fit CONTAIN pour éviter de couper les posters/avatars
-- Accueil : avatar-action.jpeg présent et centré
-- Conseil FAFA : avatar-coach.jpeg présent et centré
-- Cartes programmes : image complète, non recadrée
-- Couverture séance : image complète, non recadrée
+Version : ULTIMATE COACH STUDIO
+Cible : GitHub Pages uniquement
+
+APPLICATION
+- Séance ponctuelle : OK
+- Programme multi-semaines / multi-mois : OK
+- Cours collectif : OK
+- Pastilles Retour : OK
+- Partage natif + copie de secours : OK
+- Fiche téléchargeable avec logo intégré : OK
+- Impression / PDF A4 avec logo + signature FAFATRAINING : OK
+- Mode séance en direct, timer, séries, reps, charges et RPE : OK
+- Guide « Je ne sais pas quoi choisir » : OK
+- Aucun service externe : OK
 
 BIBLIOTHÈQUE
-- Variantes d'exercices uniques : 477
-- Mouvements maîtres : 189
-- Noms de variantes dupliqués : 0
+- Variantes uniques : 695
+- Mouvements maîtres : 262
+- Disciplines / univers : 25
+- Objectifs / cibles : 25
+- Formats de séance : 30
+- Matériels classés : 129
+- Lieux : 7
+- Explications vides : 0
 - IDs dupliqués : 0
-- Filtre par discipline : OK
-- Filtre par niveau : OK
-- Filtre par lieu : OK
-- Filtre multi-matériel : OK
-- Sélection multi-matériel dans la création de séance : OK
-- Lieu du jour dans la création : OK
-- Moteur tient compte du lieu : OK
+- Noms dupliqués : 0
 
-COUVERTURE NIVEAUX — FICHES MOUVEMENTS
-- Débutant : 189 mouvements adaptables
-- Intermédiaire : 189 mouvements adaptables
-- Avancé : 189 mouvements adaptables
-- Expert : 189 mouvements adaptables
+NIVEAUX
+- Débutant : 110 variantes / 262 mouvements adaptables
+- Intermédiaire : 470 variantes / 262 mouvements adaptables
+- Avancé : 115 variantes / 262 mouvements adaptables
+- Chaque mouvement maître possède les 3 niveaux : OK
 
-VARIANTES BRUTES PAR NIVEAU
-- Débutant : 42
-- Intermédiaire : 383
-- Avancé : 36
-- Expert : 16
+IMAGES
+- Visuels présents : 14
+- Visuels référencés manquants : 0
+- Logo : OK
+- Affichage principal en object-fit contain pour éviter les coupes : OK
 
-COUVERTURE PAR FAMILLE
-- Aérobic: 11 mouvements maîtres / 21 variantes
-- Boxe: 20 mouvements maîtres / 66 variantes
-- Cardio: 13 mouvements maîtres / 19 variantes
-- Course / Trail: 9 mouvements maîtres / 31 variantes
-- Cross training: 22 mouvements maîtres / 37 variantes
-- Hyrox: 18 mouvements maîtres / 37 variantes
-- Mobilité: 22 mouvements maîtres / 49 variantes
-- Musculation: 24 mouvements maîtres / 98 variantes
-- Poids du corps / Renfo: 23 mouvements maîtres / 54 variantes
-- Prévention: 21 mouvements maîtres / 51 variantes
-- Récupération: 6 mouvements maîtres / 14 variantes
+MOTEUR
+- Test des 25 univers : OK
+- Programme 4 semaines × 3 séances : OK
+- Cours collectif 15 personnes / 6 stations : OK
+- Variété / anti-répétition : OK
+- Filtres lieu + matériel + niveau + cible : OK
 
 RÉSULTAT
-- Toutes les fiches maîtres disposent maintenant des 4 niveaux.
-- Le filtre Expert ne peut plus retourner 0 à cause d'un niveau absent : chaque mouvement a une adaptation Expert.
-- Les catégories faibles ont été enrichies, notamment Course/Trail, Aérobic, Récupération, Boxe, Cross training et poids du corps avancé/expert.
-- Le matériel est sélectionnable en plusieurs choix dans la bibliothèque et dans la création de séance.
-- Les images principales ne sont plus coupées par un recadrage cover.
-
-- Visuels présents mais non référencés : 0 — aucun
-- Références visuelles cassées : 0
+V83 validée sur les contrôles automatisables.

@@ -208,3 +208,4 @@ export function generateGroupClass({choice,exercises,seed=""}){
  });
  return{id:`class_${Date.now()}`,date:new Date().toISOString(),name:choice.name||"Cours collectif FAFATRAINING",participants,stations:stationData,duration:Number(choice.duration)||45,rounds:Number(choice.rounds)||3,format:choice.format||"stations",trainingType:choice.trainingType||"cross_training",targets:choice.targets||["full_body"],equipment:choice.equipment||[],place:choice.place||"studio"};
 }
+

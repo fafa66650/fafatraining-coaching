@@ -1,0 +1,578 @@
+[
+  {
+    "group": "Sans matériel / environnement",
+    "items": [
+      [
+        "poids du corps",
+        "Poids du corps"
+      ],
+      [
+        "mur",
+        "Mur"
+      ],
+      [
+        "sol",
+        "Sol"
+      ],
+      [
+        "chaise",
+        "Chaise"
+      ],
+      [
+        "banc extérieur",
+        "Banc extérieur"
+      ],
+      [
+        "escaliers",
+        "Escaliers"
+      ],
+      [
+        "barre parc",
+        "Barre de parc"
+      ],
+      [
+        "piste",
+        "Piste"
+      ],
+      [
+        "côte",
+        "Côte / pente"
+      ],
+      [
+        "terrain",
+        "Terrain / espace libre"
+      ]
+    ]
+  },
+  {
+    "group": "Charges libres",
+    "items": [
+      [
+        "haltères",
+        "Haltères"
+      ],
+      [
+        "haltères réglables",
+        "Haltères réglables"
+      ],
+      [
+        "barre",
+        "Barre olympique"
+      ],
+      [
+        "barre courte",
+        "Barre courte"
+      ],
+      [
+        "barre ez",
+        "Barre EZ"
+      ],
+      [
+        "disques",
+        "Disques"
+      ],
+      [
+        "kettlebell",
+        "Kettlebell"
+      ],
+      [
+        "double kettlebell",
+        "Deux kettlebells"
+      ],
+      [
+        "medecine ball",
+        "Médecine-ball"
+      ],
+      [
+        "slam ball",
+        "Slam ball"
+      ],
+      [
+        "sandbag",
+        "Sandbag"
+      ],
+      [
+        "powerbag",
+        "Powerbag"
+      ],
+      [
+        "gilet lesté",
+        "Gilet lesté"
+      ],
+      [
+        "chaînes",
+        "Chaînes"
+      ],
+      [
+        "landmine",
+        "Landmine"
+      ],
+      [
+        "trap bar",
+        "Trap bar / hex bar"
+      ]
+    ]
+  },
+  {
+    "group": "Bancs / racks / plateformes",
+    "items": [
+      [
+        "banc",
+        "Banc plat"
+      ],
+      [
+        "banc inclinable",
+        "Banc inclinable"
+      ],
+      [
+        "rack",
+        "Rack / cage"
+      ],
+      [
+        "squat rack",
+        "Squat rack"
+      ],
+      [
+        "smith machine",
+        "Smith machine"
+      ],
+      [
+        "box",
+        "Plyo box"
+      ],
+      [
+        "step",
+        "Step"
+      ],
+      [
+        "plateforme haltéro",
+        "Plateforme haltéro"
+      ],
+      [
+        "barre traction",
+        "Barre de traction"
+      ],
+      [
+        "barres parallèles",
+        "Barres parallèles"
+      ]
+    ]
+  },
+  {
+    "group": "Machines bas du corps",
+    "items": [
+      [
+        "presse 45",
+        "Presse à cuisses 45°"
+      ],
+      [
+        "presse horizontale",
+        "Presse horizontale"
+      ],
+      [
+        "hack squat",
+        "Hack squat"
+      ],
+      [
+        "pendulum squat",
+        "Pendulum squat"
+      ],
+      [
+        "belt squat machine",
+        "Belt squat"
+      ],
+      [
+        "leg extension",
+        "Leg extension"
+      ],
+      [
+        "leg curl assis",
+        "Leg curl assis"
+      ],
+      [
+        "leg curl couché",
+        "Leg curl couché"
+      ],
+      [
+        "leg curl debout",
+        "Leg curl debout"
+      ],
+      [
+        "adducteurs machine",
+        "Adducteurs"
+      ],
+      [
+        "abducteurs machine",
+        "Abducteurs"
+      ],
+      [
+        "glute drive",
+        "Glute drive / hip thrust"
+      ],
+      [
+        "mollets debout machine",
+        "Mollets debout"
+      ],
+      [
+        "mollets assis machine",
+        "Mollets assis"
+      ]
+    ]
+  },
+  {
+    "group": "Machines haut du corps",
+    "items": [
+      [
+        "chest press",
+        "Chest press"
+      ],
+      [
+        "incline chest press",
+        "Chest press inclinée"
+      ],
+      [
+        "shoulder press machine",
+        "Shoulder press"
+      ],
+      [
+        "pec deck",
+        "Pec deck"
+      ],
+      [
+        "reverse pec deck",
+        "Reverse pec deck"
+      ],
+      [
+        "lat pulldown machine",
+        "Lat pulldown"
+      ],
+      [
+        "rowing machine",
+        "Rowing machine"
+      ],
+      [
+        "high row machine",
+        "High row"
+      ],
+      [
+        "pullover machine",
+        "Pullover machine"
+      ],
+      [
+        "dip assisté",
+        "Dips assistés"
+      ],
+      [
+        "traction assistée",
+        "Tractions assistées"
+      ],
+      [
+        "biceps machine",
+        "Machine biceps"
+      ],
+      [
+        "triceps machine",
+        "Machine triceps"
+      ],
+      [
+        "machine guidée",
+        "Machine guidée / autre machine"
+      ]
+    ]
+  },
+  {
+    "group": "Poulies / câbles",
+    "items": [
+      [
+        "poulie haute",
+        "Poulie haute"
+      ],
+      [
+        "poulie basse",
+        "Poulie basse"
+      ],
+      [
+        "vis à vis",
+        "Poulie vis-à-vis"
+      ],
+      [
+        "functional trainer",
+        "Functional trainer"
+      ],
+      [
+        "corde poulie",
+        "Corde poulie"
+      ],
+      [
+        "barre droite poulie",
+        "Barre droite"
+      ],
+      [
+        "barre v poulie",
+        "Barre V"
+      ],
+      [
+        "poignée simple",
+        "Poignée simple"
+      ],
+      [
+        "sangle cheville",
+        "Sangle cheville"
+      ],
+      [
+        "poulie générique",
+        "Poulie / câble générique"
+      ]
+    ]
+  },
+  {
+    "group": "Fonctionnel / Cross Training",
+    "items": [
+      [
+        "battle rope",
+        "Battle rope"
+      ],
+      [
+        "sled",
+        "Sled / traîneau"
+      ],
+      [
+        "corde sled",
+        "Corde de sled"
+      ],
+      [
+        "farmer handles",
+        "Farmer handles"
+      ],
+      [
+        "corde à grimper",
+        "Corde à grimper"
+      ],
+      [
+        "anneaux",
+        "Anneaux"
+      ],
+      [
+        "parallettes",
+        "Parallettes"
+      ],
+      [
+        "trx",
+        "TRX / sangles suspension"
+      ],
+      [
+        "échelle agilité",
+        "Échelle d’agilité"
+      ],
+      [
+        "haies basses",
+        "Haies basses"
+      ],
+      [
+        "cônes",
+        "Cônes"
+      ],
+      [
+        "mini haies",
+        "Mini-haies"
+      ],
+      [
+        "roue abdominale",
+        "Roue abdominale"
+      ],
+      [
+        "sliders",
+        "Sliders / disques glissants"
+      ],
+      [
+        "serviette",
+        "Serviette"
+      ]
+    ]
+  },
+  {
+    "group": "Élastiques",
+    "items": [
+      [
+        "élastique",
+        "Bande élastique longue"
+      ],
+      [
+        "mini band",
+        "Mini-band"
+      ],
+      [
+        "tube élastique",
+        "Tube avec poignées"
+      ],
+      [
+        "power band",
+        "Power band"
+      ],
+      [
+        "élastique chevilles",
+        "Élastique chevilles"
+      ]
+    ]
+  },
+  {
+    "group": "Cardio",
+    "items": [
+      [
+        "tapis course",
+        "Tapis de course"
+      ],
+      [
+        "rameur",
+        "Rameur"
+      ],
+      [
+        "skierg",
+        "SkiErg"
+      ],
+      [
+        "vélo",
+        "Vélo"
+      ],
+      [
+        "air bike",
+        "Air bike"
+      ],
+      [
+        "elliptique",
+        "Elliptique"
+      ],
+      [
+        "stepper",
+        "Stepper"
+      ],
+      [
+        "stair climber",
+        "Stair climber"
+      ],
+      [
+        "corde",
+        "Corde à sauter"
+      ]
+    ]
+  },
+  {
+    "group": "Boxe",
+    "items": [
+      [
+        "sac",
+        "Sac lourd"
+      ],
+      [
+        "sac uppercut",
+        "Sac uppercut"
+      ],
+      [
+        "poire vitesse",
+        "Poire de vitesse"
+      ],
+      [
+        "double end bag",
+        "Double-end bag"
+      ],
+      [
+        "pattes d’ours",
+        "Pattes d’ours"
+      ],
+      [
+        "paos",
+        "Paos"
+      ],
+      [
+        "bouclier frappe",
+        "Bouclier de frappe"
+      ],
+      [
+        "corde boxe",
+        "Corde à sauter boxe"
+      ],
+      [
+        "slip rope",
+        "Corde d’esquive"
+      ]
+    ]
+  },
+  {
+    "group": "Mobilité / récupération",
+    "items": [
+      [
+        "tapis",
+        "Tapis"
+      ],
+      [
+        "rouleau",
+        "Foam roller"
+      ],
+      [
+        "balle massage",
+        "Balle de massage"
+      ],
+      [
+        "double balle massage",
+        "Double balle"
+      ],
+      [
+        "bâton mobilité",
+        "Bâton / PVC"
+      ],
+      [
+        "yoga block",
+        "Brique yoga"
+      ],
+      [
+        "sangle yoga",
+        "Sangle yoga"
+      ],
+      [
+        "bosu",
+        "BOSU"
+      ],
+      [
+        "swiss ball",
+        "Swiss ball"
+      ],
+      [
+        "balance pad",
+        "Coussin d’équilibre"
+      ]
+    ]
+  },
+  {
+    "group": "Aérobic / cours collectifs",
+    "items": [
+      [
+        "step aerobic",
+        "Step aérobic"
+      ],
+      [
+        "body bar",
+        "Body bar"
+      ],
+      [
+        "disques légers",
+        "Disques légers"
+      ],
+      [
+        "petits haltères",
+        "Petits haltères"
+      ],
+      [
+        "mini band collectif",
+        "Mini-bands"
+      ],
+      [
+        "tapis collectif",
+        "Tapis"
+      ],
+      [
+        "ballon paille",
+        "Petit ballon"
+      ]
+    ]
+  }
+]
