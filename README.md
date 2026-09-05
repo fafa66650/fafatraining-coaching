@@ -1,4 +1,4 @@
-# FAFATRAINING V83 — ULTIMATE COACH STUDIO
+# FAFATRAINING V84 — ULTIMATE COACH STUDIO
 
 Application/PWA statique conçue pour GitHub Pages, sans Firebase, Supabase ni serveur.
 
@@ -32,3 +32,7 @@ Les profils, séances et programmes restent dans le navigateur via localStorage.
 
 ## GitHub Pages
 Décompresser le ZIP et copier **tout le contenu** à la racine du dépôt `fafatraining-coaching`.
+
+
+## Correction V84 — écran noir
+Le démarrage est autonome via `src/app.bundle.js`; aucun chargement JSON n’est requis pour afficher l’interface. Le ZIP peut être déployé tel quel à la racine de GitHub Pages.
