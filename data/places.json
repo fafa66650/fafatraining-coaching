@@ -1,0 +1,37 @@
+[
+  {
+    "id": "home",
+    "name": "Maison",
+    "desc": "Petit espace, mobilier et matériel personnel."
+  },
+  {
+    "id": "gym",
+    "name": "Salle de musculation",
+    "desc": "Charges libres, machines, poulies et cardio."
+  },
+  {
+    "id": "outdoor",
+    "name": "Extérieur / Parc",
+    "desc": "Poids du corps, bancs, côtes, escaliers et matériel transportable."
+  },
+  {
+    "id": "track",
+    "name": "Piste / Terrain",
+    "desc": "Course, sprints, agilité, circuits et préparation physique."
+  },
+  {
+    "id": "studio",
+    "name": "Gymnase / Studio",
+    "desc": "Cours collectifs, step, circuits, mobilité et matériel partagé."
+  },
+  {
+    "id": "boxing",
+    "name": "Espace boxe / Dojo",
+    "desc": "Sac, pattes d’ours, paos, corde et travail technique."
+  },
+  {
+    "id": "mixed",
+    "name": "Mixte / Peu importe",
+    "desc": "Le moteur utilise tous les lieux compatibles avec le matériel choisi."
+  }
+]
