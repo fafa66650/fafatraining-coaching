@@ -182,6 +182,10 @@ function selectExercises(exercises,cfg,block,count,used,recent){
     const fi=families.indexOf(ex.family);
     if(fi>=0) s+=80-fi*8; else s-=15;
     if(available(ex,cfg.equipment)) s+=30; else s-=60;
+    if(cfg.place && cfg.place!=="Mixte"){
+      if((ex.places||[]).includes(cfg.place)||(ex.places||[]).includes("Mixte")) s+=18;
+      else s-=28;
+    }
     if(levelRank(ex.level)<=maxLevel+1) s+=15; else s-=35;
     if(ex.lowImpact && (cfg.readiness<60 || cfg.age>=60 || cfg.age<16 || cfg.pain>=2)) s+=22;
     if(cfg.age<16 && ex.family==="Musculation" && (ex.equipment||[]).some(x=>["barre","machine"].includes(x))) s-=22;
@@ -205,6 +209,7 @@ export function generateSession({athlete,daily,choice,exercises,history}){
   const cfg={
     goal,level,duration,age:Number(athlete.age)||30,
     equipment:choice.equipment?.length?choice.equipment:athlete.equipment||["poids du corps"],
+    place:choice.place||athlete.place||"Mixte",
     injuries:[...(athlete.injuries||[]),...(daily.injuries||[])],
     pain:Number(daily.pain||0),readiness:ready,style:choice.style||"standard",adapt:choice.adapt||daily.adapt||[],intensityBoost:!!choice.intensityBoost
   };
@@ -236,6 +241,7 @@ export function generateSession({athlete,daily,choice,exercises,history}){
     objective:choice.secondaryGoal||athlete.secondaryGoal||"Progresser régulièrement avec une séance adaptée.",
     format:formatFor(goal,choice.style),
     equipment:cfg.equipment,
+    place:cfg.place,
     blocks,
     exerciseIds:blocks.flatMap(b=>b.exercises.map(e=>e.id)),
     coachNote: ready<55 ? "Séance allégée aujourd’hui : priorité à la technique et à la récupération." :

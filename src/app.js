@@ -3,7 +3,7 @@ import {loadState,saveState,uid,upsertAthlete,activeAthlete,removeAthlete,sessio
 import {bmi,readiness,generateSession,progressStats} from "./coach-engine.js";
 
 let state=loadState(), exercises=[], programs=[], masters=[];
-let currentSession=null, createStep=0, builder={}, clientDraft={}, library={q:"",family:"Tous",level:"Tous",equipment:"Tous"};
+let currentSession=null, createStep=0, builder={}, clientDraft={}, library={q:"",family:"Tous",level:"Tous",place:"Tous",equipment:[],equipmentOpen:false};
 let timer=null, timerSeconds=0;
 
 const $=(q,r=document)=>r.querySelector(q);
@@ -184,19 +184,20 @@ function createContent(selected){
    <div class="duration-row">${[20,30,45,60].map(x=>`<button class="duration ${Number(builder.duration)===x?"on":""}" data-duration="${x}"><b>${x}</b><small>min</small></button>`).join("")}</div>
    <div class="today-grid">${range("fatigue","Fatigue",builder.fatigue,1)}${range("stress","Stress",builder.stress,1)}${range("sleep","Sommeil",builder.sleep,1)}${range("pain","Douleur",builder.pain,0)}</div>
    <div class="readiness"><span>Disponibilité du jour</span><b>${ready}%</b><small>${ready<55?"Le moteur allégera automatiquement le volume.":ready>85?"Très bonne disponibilité : haut de fourchette possible.":"Charge de travail normale et progressive."}</small></div>
-   <div class="form-section"><b>Matériel disponible aujourd’hui</b><div class="chip-wrap">${equipmentOptions().map(x=>`<button class="chip ${(builder.equipment||[]).includes(x)?"on":""}" data-builder-equipment="${esc(x)}">${esc(x)}</button>`).join("")}</div></div>
+   <div class="form-section"><b>Lieu aujourd’hui</b><div class="chip-wrap">${["Maison","Salle","Extérieur","Gymnase","Mixte"].map(x=>`<button class="chip ${builder.place===x?"on":""}" data-builder-place="${x}">${x}</button>`).join("")}</div></div>
+   <div class="form-section"><b>Matériel disponible aujourd’hui</b><small class="helper">Tu peux en choisir plusieurs. Le moteur n’utilisera que du matériel disponible.</small><div class="chip-wrap">${equipmentOptions().map(x=>`<button class="chip ${(builder.equipment||[]).includes(x)?"on":""}" data-builder-equipment="${esc(x)}">${esc(x)}</button>`).join("")}</div><button class="small-pill" data-clear-builder-equipment>Tout décocher</button></div>
    ${wizardNav()}`;
  }
  const a=selected||{firstName:"Séance libre",level:builder.level||"Débutant",age:30,equipment:builder.equipment};
  const p=programFor(builder.goal);
  return `<h2>Tout est prêt</h2><p>Vérifie uniquement l’essentiel. Ensuite le moteur construit la séance complète.</p>
-  <div class="review">${summary("Pour",a.firstName||"Séance libre")}${summary("Univers",p.name)}${summary("Style",(STYLES[builder.goal]||[]).find(x=>x[0]===builder.style)?.[1]||"Standard")}${summary("Durée",`${builder.duration} min`)}${summary("Niveau",a.level||builder.level||"Débutant")}${summary("Matériel",(builder.equipment||[]).join(", ")||"Poids du corps")}</div>
+  <div class="review">${summary("Pour",a.firstName||"Séance libre")}${summary("Univers",p.name)}${summary("Style",(STYLES[builder.goal]||[]).find(x=>x[0]===builder.style)?.[1]||"Standard")}${summary("Durée",`${builder.duration} min`)}${summary("Niveau",a.level||builder.level||"Débutant")}${summary("Lieu",builder.place||a.place||"Mixte")}${summary("Matériel",(builder.equipment||[]).join(", ")||"Poids du corps")}</div>
   <div class="wizard-actions"><button class="secondary" data-create-prev>Retour</button><button class="primary" data-generate>Générer la séance</button></div>`;
 }
 function wizardNav(){return `<div class="wizard-actions"><button class="secondary" data-create-prev>Retour</button><button class="primary" data-create-next>Continuer</button></div>`}
 function ensureBuilderFromAthlete(a){
  if(builder._synced)return;
- builder.duration=builder.duration||a.duration||30;builder.level=a.level||"Débutant";builder.equipment=[...(a.equipment||["poids du corps"])];
+ builder.duration=builder.duration||a.duration||30;builder.level=a.level||"Débutant";builder.place=builder.place||a.place||"Mixte";builder.equipment=[...(a.equipment||["poids du corps"])];
  builder.fatigue=3;builder.stress=3;builder.sleep=3;builder.pain=0;builder._synced=true;
 }
 function range(k,label,v,min){return `<label class="range-box"><header><b>${label}</b><span id="${k}v">${v}</span></header><input type="range" min="${min}" max="5" value="${v}" data-range="${k}"><small>${min===0?"0 = aucune · 5 = forte":"1 = bas · 5 = élevé"}</small></label>`}
@@ -212,11 +213,11 @@ function generate(){
 function sessionPage(){
  const id=param("id");currentSession=state.sessions.find(s=>s.id===id)||currentSession;
  if(!currentSession)return shell(`<div class="empty">Séance introuvable.</div>`,{back:true});
- const p=programFor(currentSession.goal);
+ const p=programFor(currentSession.goal); const sessionVisual=(currentSession.goal==="full_body"&&currentSession.style==="kettlebell")?"kettlebell.jpeg":p.visual;
  return shell(`
   <section class="session-cover"><div class="session-copy"><p class="eyebrow">${esc(currentSession.format)} · ${currentSession.duration} MIN</p><h1>${esc(currentSession.title)}</h1><p>${esc(currentSession.coachNote)}</p>
    <div class="session-badges"><span>${currentSession.readiness}% disponibilité</span><span>${currentSession.exerciseIds.length} exercices</span><span>score ${currentSession.score}/100</span></div>
-  </div><img src="${visual(p.visual)}"></section>
+  </div><img src="${visual(sessionVisual)}"></section>
   <div class="session-toolbar no-print"><button class="primary" data-live>▶ Démarrer</button><button class="secondary" data-adapt>↻ Adapter</button><button class="secondary" data-share>⌁ Partager</button><button class="secondary" data-print>⌑ Imprimer / PDF</button></div>
   <section class="equipment-line"><b>Matériel</b><span>${esc((currentSession.equipment||[]).join(" · ")||"Poids du corps")}</span></section>
   <div class="session-blocks">${currentSession.blocks.map(sessionBlock).join("")}</div>
@@ -237,33 +238,73 @@ function sessionText(s){
 }
 
 function libraryPage(){
- const families=["Tous",...new Set(masters.map(m=>m.family))], levels=["Tous","Débutant","Intermédiaire","Avancé","Expert"], eq=["Tous",...new Set(masters.flatMap(m=>m.equipment))];
- const list=masters.filter(m=>(!library.q||(`${m.name} ${m.search}`).includes(library.q.toLowerCase()))&&(library.family==="Tous"||m.family===library.family)&&(library.level==="Tous"||m.levels.includes(library.level))&&(library.equipment==="Tous"||m.equipment.includes(library.equipment)));
+ const families=["Tous",...new Set(masters.map(m=>m.family))],
+       levels=["Tous","Débutant","Intermédiaire","Avancé","Expert"],
+       places=["Tous","Maison","Salle","Extérieur","Gymnase","Mixte"],
+       equipment=[...new Set(masters.flatMap(m=>m.equipment))].sort((a,b)=>a.localeCompare(b,"fr"));
+ const list=masters.filter(m=>{
+   const text=`${m.name} ${m.search}`;
+   const textOk=!library.q||text.includes(library.q.toLowerCase());
+   const familyOk=library.family==="Tous"||m.family===library.family;
+   const levelOk=library.level==="Tous"||Boolean(m.adaptations?.[library.level]);
+   const placeOk=library.place==="Tous"||(m.places||[]).includes(library.place);
+   const equipmentOk=!library.equipment.length||library.equipment.some(eq=>m.equipment.includes(eq));
+   return textOk&&familyOk&&levelOk&&placeOk&&equipmentOk;
+ });
  return shell(`
-  <header class="page-head"><div><p class="eyebrow">BIBLIOTHÈQUE COACH</p><h1>${masters.length} mouvements maîtres</h1><p>${exercises.length} variantes sont regroupées par mouvement, niveau et matériel pour éviter les faux doublons.</p></div></header>
-  <section class="filter-bar">
-   <input id="libq" value="${esc(library.q)}" placeholder="Rechercher un mouvement, muscle, matériel…">
-   ${select("libfamily",families,library.family)}${select("liblevel",levels,library.level)}${select("libeq",eq,library.equipment)}
+  <header class="page-head"><div><p class="eyebrow">BIBLIOTHÈQUE COACH</p><h1>${masters.length} mouvements maîtres</h1><p>${exercises.length} variantes derrière des fiches uniques. Chaque mouvement propose une adaptation Débutant, Intermédiaire, Avancé et Expert.</p></div></header>
+  <section class="filter-bar v82">
+   <input id="libq" value="${esc(library.q)}" placeholder="Rechercher : squat, dos, boxe, élastique…">
+   ${select("libfamily",families,library.family)}
+   ${select("liblevel",levels,library.level)}
+   ${select("libplace",places,library.place)}
+   <button class="equipment-trigger ${library.equipment.length?"on":""}" data-equipment-open>Matériel ${library.equipment.length?`(${library.equipment.length})`:""}</button>
    <button class="reset-filter" data-reset-filter>Effacer les filtres</button>
   </section>
-  <p class="result-count">${list.length} mouvement(s)</p>
+  ${library.equipmentOpen?`<section class="equipment-filter-panel">
+    <header><div><b>Choisis un ou plusieurs matériels</b><small>Le mouvement doit être compatible avec tous les matériels sélectionnés.</small></div><button class="icon-pill" data-equipment-close>×</button></header>
+    <div class="chip-wrap">${equipment.map(eq=>`<button class="chip ${library.equipment.includes(eq)?"on":""}" data-lib-equipment="${esc(eq)}">${esc(eq)}</button>`).join("")}</div>
+    <footer>${library.equipment.length?`<span>${library.equipment.map(esc).join(" · ")}</span>`:"<span>Aucun matériel imposé</span>"}<button class="small-pill" data-clear-equipment>Effacer le matériel</button></footer>
+   </section>`:""}
+  <section class="library-balance">
+   ${["Débutant","Intermédiaire","Avancé","Expert"].map(level=>`<article><small>${level}</small><b>${masters.filter(m=>m.adaptations?.[level]).length}</b><span>mouvements adaptables</span></article>`).join("")}
+  </section>
+  <p class="result-count">${list.length} mouvement(s) correspondant aux filtres</p>
   <section class="master-grid">${list.map(masterCard).join("")}</section>
  `);
 }
 function masterCard(m){
- return `<button class="master-card" data-movement="${m.id}"><div><span class="family">${esc(m.family)}</span><h3>${esc(m.name)}</h3><p>${esc(m.muscles.slice(0,4).join(" · "))}</p><small>${m.variants.length} variante(s) · ${esc(m.levels.join(" · "))}</small></div><i>›</i></button>`;
+ const selected=library.level!=="Tous"?m.adaptations?.[library.level]:null;
+ return `<button class="master-card" data-movement="${m.id}"><div><span class="family">${esc(m.family)}</span><h3>${esc(m.name)}</h3>
+   <p>${esc(m.muscles.slice(0,4).join(" · "))}</p>
+   <small>${m.variants.length} variante(s) · ${esc((m.places||[]).join(" · "))}</small>
+   ${selected?`<span class="level-preview">${library.level} : ${esc(selected.variantName)}</span>`:""}
+  </div><i>›</i></button>`;
 }
 function movementPage(){
  const id=param("id"), m=masters.find(x=>x.id===id);if(!m)return libraryPage();
  return shell(`
-  <header class="movement-head"><p class="eyebrow">${esc(m.family)}</p><h1>${esc(m.name)}</h1><p>Une seule fiche, toutes les progressions utiles à l’intérieur.</p></header>
-  <section class="movement-summary">${summary("Muscles",m.muscles.join(" · "))}${summary("Matériel",m.equipment.join(" · "))}${summary("Niveaux",m.levels.join(" · "))}${summary("Variantes",m.variants.length)}</section>
-  <section class="level-tabs">${m.levels.map(l=>`<button class="level-tab" data-level-jump="${esc(l)}">${esc(l)}</button>`).join("")}</section>
-  <section class="variant-list">${m.levels.map(level=>`<div class="level-section" id="level-${slug(level)}"><h2>${level}</h2>${m.variants.filter(v=>v.level===level).map(variantCard).join("")}</div>`).join("")}</section>
+  <header class="movement-head"><p class="eyebrow">${esc(m.family)}</p><h1>${esc(m.name)}</h1><p>Une seule fiche. Le niveau, le lieu et le matériel changent la variante et la prescription, pas le nom du mouvement.</p></header>
+  <section class="movement-summary">${summary("Muscles",m.muscles.join(" · "))}${summary("Matériel",m.equipment.join(" · "))}${summary("Lieux",(m.places||[]).join(" · "))}${summary("Variantes",m.variants.length)}</section>
+  <section class="level-tabs">${["Débutant","Intermédiaire","Avancé","Expert"].map(l=>`<button class="level-tab" data-level-jump="${esc(l)}">${esc(l)}</button>`).join("")}</section>
+  <section class="level-adaptations">${["Débutant","Intermédiaire","Avancé","Expert"].map(level=>levelAdaptation(m,level)).join("")}</section>
+  <div class="section-title"><div><h2>Toutes les variantes disponibles</h2><p>Utiles pour changer de matériel ou de contexte sans créer de doublon dans la bibliothèque.</p></div></div>
+  <section class="variant-list">${m.variants.map(variantCard).join("")}</section>
  `,{back:true});
 }
+function levelAdaptation(m,level){
+ const a=m.adaptations?.[level]; if(!a)return "";
+ return `<section class="level-adaptation" id="level-${slug(level)}">
+   <header><span>${esc(level)}</span><b>${esc(a.variantName)}</b></header>
+   <div class="adapt-grid">
+    <article><small>Prescription</small><b>${esc(a.prescription)}</b></article>
+    <article><small>Matériel</small><b>${esc((a.equipment||[]).join(" · ")||"Poids du corps")}</b></article>
+   </div>
+   <div class="howto"><div><b>Posture / exécution</b><p>${esc(a.cues)}</p></div><div><b>À éviter</b><p>${esc(a.error)}</p></div></div>
+  </section>`;
+}
 function variantCard(v){
- return `<article class="variant-card"><header><div><b>${esc(v.name)}</b><small>${esc(v.equipment.join(" · "))}</small></div><span>${esc(v.mode)}</span></header>
+ return `<article class="variant-card"><header><div><b>${esc(v.name)}</b><small>${esc(v.level)} · ${esc(v.equipment.join(" · "))}</small></div><span>${esc(v.mode)}</span></header>
   <div class="howto"><div><b>Comment faire</b><p>${esc(v.cues)}</p></div><div><b>À éviter</b><p>${esc(v.error)}</p></div></div>
   <footer><small>${esc(v.muscles.join(" · "))}</small></footer></article>`;
 }
@@ -296,7 +337,7 @@ function summary(k,v){return `<article><small>${esc(k)}</small><b>${esc(v)}</b><
 function field(id,label,value,type="text"){return `<label class="field"><span>${label}</span><input id="${id}" type="${type}" value="${esc(value)}"></label>`}
 function selectField(id,label,opts,value){return `<label class="field"><span>${label}</span><select id="${id}">${opts.map(o=>{const v=Array.isArray(o)?o[0]:o,l=Array.isArray(o)?o[1]:o;return `<option value="${esc(v)}" ${String(v)===String(value)?"selected":""}>${esc(l)}</option>`}).join("")}</select></label>`}
 function select(id,arr,val){return `<select id="${id}">${arr.map(x=>`<option ${x===val?"selected":""}>${esc(x)}</option>`).join("")}</select>`}
-function equipmentOptions(){return ["poids du corps","tapis","mur","chaise","banc","haltères","barre","kettlebell","élastique","machine","poulie","barre traction","box","step","medecine ball","sandbag","battle rope","sac","pattes d’ours","corde","rameur","vélo","skierg","sled","cônes","extérieur"]}
+function equipmentOptions(){return ["poids du corps","tapis","mur","chaise","banc","haltères","barre","kettlebell","élastique","machine","poulie","barre traction","box","step","medecine ball","sandbag","battle rope","sac","pattes d’ours","corde","rameur","vélo","skierg","sled","cônes","rouleau","extérieur"]}
 
 function saveClient(id){
  const existing=state.athletes.find(x=>x.id===id)||{};
@@ -334,18 +375,25 @@ function bind(){
  $$("[data-create-prev]").forEach(x=>x.onclick=()=>{createStep=Math.max(0,createStep-1);render()});
  $$("[data-duration]").forEach(x=>x.onclick=()=>{builder.duration=Number(x.dataset.duration);render()});
  $$("[data-range]").forEach(x=>x.oninput=()=>{builder[x.dataset.range]=Number(x.value);const t=$("#"+x.dataset.range+"v");if(t)t.textContent=x.value});
+ $$("[data-builder-place]").forEach(x=>x.onclick=()=>{builder.place=x.dataset.builderPlace;render()});
  $$("[data-builder-equipment]").forEach(x=>x.onclick=()=>{builder.equipment=builder.equipment||[];const v=x.dataset.builderEquipment;builder.equipment=builder.equipment.includes(v)?builder.equipment.filter(z=>z!==v):[...builder.equipment,v];x.classList.toggle("on")});
+ $("[data-clear-builder-equipment]")?.addEventListener("click",()=>{builder.equipment=[];render()});
  $("[data-generate]")?.addEventListener("click",generate);
  $("[data-live]")?.addEventListener("click",()=>go(`live?id=${currentSession.id}`));
  $("[data-share]")?.addEventListener("click",()=>shareSession());
  $("[data-print]")?.addEventListener("click",()=>print());
  $("[data-adapt]")?.addEventListener("click",()=>{const s=currentSession;builder={athleteId:s.athleteId==="free"?"free":s.athleteId,goal:s.goal,style:s.style,duration:s.duration,_synced:false};createStep=2;go("create")});
  $$("[data-swap]").forEach(x=>x.onclick=()=>swap(x.dataset.block,x.dataset.swap));
- $("#libq")?.addEventListener("input",e=>{library.q=e.target.value;render()});
+ $("#libq")?.addEventListener("change",e=>{library.q=e.target.value;render()});
+ $("#libq")?.addEventListener("keydown",e=>{if(e.key==="Enter"){library.q=e.target.value;render()}});
  $("#libfamily")?.addEventListener("change",e=>{library.family=e.target.value;render()});
  $("#liblevel")?.addEventListener("change",e=>{library.level=e.target.value;render()});
- $("#libeq")?.addEventListener("change",e=>{library.equipment=e.target.value;render()});
- $("[data-reset-filter]")?.addEventListener("click",()=>{library={q:"",family:"Tous",level:"Tous",equipment:"Tous"};render()});
+ $("#libplace")?.addEventListener("change",e=>{library.place=e.target.value;render()});
+ $("[data-equipment-open]")?.addEventListener("click",()=>{library.equipmentOpen=true;render()});
+ $("[data-equipment-close]")?.addEventListener("click",()=>{library.equipmentOpen=false;render()});
+ $$("[data-lib-equipment]").forEach(x=>x.onclick=()=>{const v=x.dataset.libEquipment;library.equipment=library.equipment.includes(v)?library.equipment.filter(z=>z!==v):[...library.equipment,v];render()});
+ $("[data-clear-equipment]")?.addEventListener("click",()=>{library.equipment=[];render()});
+ $("[data-reset-filter]")?.addEventListener("click",()=>{library={q:"",family:"Tous",level:"Tous",place:"Tous",equipment:[],equipmentOpen:false};render()});
  $$("[data-movement]").forEach(x=>x.onclick=()=>go(`movement?id=${x.dataset.movement}`));
  $$("[data-level-jump]").forEach(x=>x.onclick=()=>document.getElementById("level-"+slug(x.dataset.levelJump))?.scrollIntoView({behavior:"smooth"}));
  $("#progressClient")?.addEventListener("change",e=>{state.activeAthleteId=e.target.value;saveState(state);render()});

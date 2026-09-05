@@ -6,7 +6,8 @@
     "family": "Général",
     "icon": "✨",
     "visual": "coaching.jpeg",
-    "benefit": "Reprendre une activité progressive et équilibrée."
+    "benefit": "Reprendre une activité progressive et équilibrée.",
+    "focus": "50% 45%"
   },
   {
     "id": "muscle",
@@ -15,7 +16,8 @@
     "family": "Musculation",
     "icon": "🏋️",
     "visual": "strength-dumbbells.jpeg",
-    "benefit": "Force, hypertrophie et progression des charges."
+    "benefit": "Force, hypertrophie et progression des charges.",
+    "focus": "50% 12%"
   },
   {
     "id": "strength",
@@ -24,7 +26,8 @@
     "family": "Musculation",
     "icon": "💪",
     "visual": "strength-dumbbells.jpeg",
-    "benefit": "Développer la force avec une technique rigoureuse."
+    "benefit": "Développer la force avec une technique rigoureuse.",
+    "focus": "50% 12%"
   },
   {
     "id": "fatloss",
@@ -33,7 +36,8 @@
     "family": "Cardio",
     "icon": "🔥",
     "visual": "cardio.jpeg",
-    "benefit": "Combiner renforcement et dépense énergétique."
+    "benefit": "Combiner renforcement et dépense énergétique.",
+    "focus": "50% 25%"
   },
   {
     "id": "full",
@@ -41,8 +45,9 @@
     "goal": "full_body",
     "family": "Poids du corps / Renfo",
     "icon": "⚡",
-    "visual": "kettlebell.jpeg",
-    "benefit": "Travailler l’ensemble du corps en une séance."
+    "visual": "fullbody.jpeg",
+    "benefit": "Travailler l’ensemble du corps en une séance.",
+    "focus": "50% 25%"
   },
   {
     "id": "hiit",
@@ -51,7 +56,8 @@
     "family": "Cardio",
     "icon": "⏱️",
     "visual": "hiit.jpeg",
-    "benefit": "Intervalles courts et intensité ajustée au niveau."
+    "benefit": "Intervalles courts et intensité ajustée au niveau.",
+    "focus": "50% 24%"
   },
   {
     "id": "boxing",
@@ -60,7 +66,8 @@
     "family": "Boxe",
     "icon": "🥊",
     "visual": "boxing.jpeg",
-    "benefit": "Technique, appuis, cardio, puissance et mental."
+    "benefit": "Technique, appuis, cardio, puissance et mental.",
+    "focus": "50% 30%"
   },
   {
     "id": "cardio",
@@ -69,7 +76,8 @@
     "family": "Cardio",
     "icon": "❤️",
     "visual": "cardio.jpeg",
-    "benefit": "Endurance, souffle et régularité."
+    "benefit": "Endurance, souffle et régularité.",
+    "focus": "50% 25%"
   },
   {
     "id": "trail",
@@ -78,7 +86,8 @@
     "family": "Course / Trail",
     "icon": "⛰️",
     "visual": "cardio.jpeg",
-    "benefit": "Endurance, côtes, descente et technique de course."
+    "benefit": "Endurance, côtes, descente et technique de course.",
+    "focus": "50% 25%"
   },
   {
     "id": "cross",
@@ -87,7 +96,8 @@
     "family": "Cross training",
     "icon": "🔁",
     "visual": "battlerope.jpeg",
-    "benefit": "Force fonctionnelle, cardio et puissance."
+    "benefit": "Force fonctionnelle, cardio et puissance.",
+    "focus": "50% 45%"
   },
   {
     "id": "hyrox",
@@ -96,7 +106,8 @@
     "family": "Hyrox",
     "icon": "🚣",
     "visual": "hyrox.jpeg",
-    "benefit": "Course, ergos, portés et stations."
+    "benefit": "Course, ergos, portés et stations.",
+    "focus": "50% 25%"
   },
   {
     "id": "aerobic",
@@ -105,7 +116,8 @@
     "family": "Aérobic",
     "icon": "🎵",
     "visual": "cardio.jpeg",
-    "benefit": "Cardio rythmé, coordination et plaisir."
+    "benefit": "Cardio rythmé, coordination et plaisir.",
+    "focus": "50% 25%"
   },
   {
     "id": "mobility",
@@ -114,7 +126,8 @@
     "family": "Mobilité",
     "icon": "🧘",
     "visual": "mobility.jpeg",
-    "benefit": "Amplitude, contrôle et aisance de mouvement."
+    "benefit": "Amplitude, contrôle et aisance de mouvement.",
+    "focus": "50% 25%"
   },
   {
     "id": "prevention",
@@ -123,7 +136,8 @@
     "family": "Prévention",
     "icon": "🛡️",
     "visual": "mental.jpeg",
-    "benefit": "Stabilité, contrôle et renforcement ciblé."
+    "benefit": "Stabilité, contrôle et renforcement ciblé.",
+    "focus": "50% 25%"
   },
   {
     "id": "recovery",
@@ -132,6 +146,7 @@
     "family": "Récupération",
     "icon": "🌙",
     "visual": "avatar-recovery.jpeg",
-    "benefit": "Récupération active, respiration et mobilité douce."
+    "benefit": "Récupération active, respiration et mobilité douce.",
+    "focus": "50% 15%"
   }
 ]

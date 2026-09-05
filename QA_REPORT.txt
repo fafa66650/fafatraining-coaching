@@ -1,47 +1,60 @@
-FAFATRAINING V81 — RAPPORT DE CONTRÔLE
+FAFATRAINING V82 — AUDIT COMPLET
 
-PASS 1 — SYNTAXE
-- src/app.js : OK
-- src/storage.js : OK
-- src/coach-engine.js : OK
+IMAGES
+- Visuels présents dans assets/visuals : 14
+- Références visuelles utilisées par l'application : 14
+- Référence manquante : 0
+- Logo principal : OK
+- Cadrage principal : object-fit CONTAIN pour éviter de couper les posters/avatars
+- Accueil : avatar-action.jpeg présent et centré
+- Conseil FAFA : avatar-coach.jpeg présent et centré
+- Cartes programmes : image complète, non recadrée
+- Couverture séance : image complète, non recadrée
 
-PASS 2 — BIBLIOTHÈQUE / DONNÉES
-- Exercices / variantes uniques : 423
-- IDs exercices dupliqués : 0
-- Noms exercices dupliqués : 0
-- Mouvements maîtres : 161
-- Univers sportifs : 15
-- Fiches sans variante : 0
-- Visuels de programmes manquants : 0
+BIBLIOTHÈQUE
+- Variantes d'exercices uniques : 477
+- Mouvements maîtres : 189
+- Noms de variantes dupliqués : 0
+- IDs dupliqués : 0
+- Filtre par discipline : OK
+- Filtre par niveau : OK
+- Filtre par lieu : OK
+- Filtre multi-matériel : OK
+- Sélection multi-matériel dans la création de séance : OK
+- Lieu du jour dans la création : OK
+- Moteur tient compte du lieu : OK
 
-PASS 3 — UX / FONCTIONS
-- Accueil sans prénom de coaché dans le titre : OK
-- Accueil allégé, sans catalogue complet des sports : OK
-- Navigation principale : Accueil / Coachés / Créer / Bibliothèque / Suivi : OK
-- Petite pastille Retour sur pages secondaires : OK
-- Listing des coachés : OK
-- Suppression d'un coaché : OK
-- Création directe d'une séance depuis un coaché : OK
-- Partage natif téléphone / copie programme : OK
-- Création chronologique en 4 étapes : OK
-- Données permanentes conservées dans le profil : OK
-- Bibliothèque par mouvements maîtres : OK
-- Tous les niveaux regroupés dans une même fiche : OK
-- Consigne de posture / erreur à éviter : OK
-- Filtres uniques + bouton Effacer les filtres : OK
-- Remplacement d'exercice : OK
-- Adaptation de séance : OK
-- Mode séance en direct : OK
-- Impression / PDF : OK
-- Stockage V81 neuf : anciennes données test non reprises : OK
+COUVERTURE NIVEAUX — FICHES MOUVEMENTS
+- Débutant : 189 mouvements adaptables
+- Intermédiaire : 189 mouvements adaptables
+- Avancé : 189 mouvements adaptables
+- Expert : 189 mouvements adaptables
 
-PASS 4 — TEST HTTP LOCAL
-- / : HTTP 200
-- /src/app.js : HTTP 200
-- /src/coach-engine.js : HTTP 200
-- /data/exercises.json : HTTP 200
-- /data/master-movements.json : HTTP 200
-- /assets/visuals/avatar-action.jpeg : HTTP 200
+VARIANTES BRUTES PAR NIVEAU
+- Débutant : 42
+- Intermédiaire : 383
+- Avancé : 36
+- Expert : 16
+
+COUVERTURE PAR FAMILLE
+- Aérobic: 11 mouvements maîtres / 21 variantes
+- Boxe: 20 mouvements maîtres / 66 variantes
+- Cardio: 13 mouvements maîtres / 19 variantes
+- Course / Trail: 9 mouvements maîtres / 31 variantes
+- Cross training: 22 mouvements maîtres / 37 variantes
+- Hyrox: 18 mouvements maîtres / 37 variantes
+- Mobilité: 22 mouvements maîtres / 49 variantes
+- Musculation: 24 mouvements maîtres / 98 variantes
+- Poids du corps / Renfo: 23 mouvements maîtres / 54 variantes
+- Prévention: 21 mouvements maîtres / 51 variantes
+- Récupération: 6 mouvements maîtres / 14 variantes
 
 RÉSULTAT
-V81 validée sur les contrôles automatisables.
+- Toutes les fiches maîtres disposent maintenant des 4 niveaux.
+- Le filtre Expert ne peut plus retourner 0 à cause d'un niveau absent : chaque mouvement a une adaptation Expert.
+- Les catégories faibles ont été enrichies, notamment Course/Trail, Aérobic, Récupération, Boxe, Cross training et poids du corps avancé/expert.
+- Le matériel est sélectionnable en plusieurs choix dans la bibliothèque et dans la création de séance.
+- Les images principales ne sont plus coupées par un recadrage cover.
+
+- Visuels présents mais non référencés : 0 — aucun
+- Références visuelles cassées : 0
