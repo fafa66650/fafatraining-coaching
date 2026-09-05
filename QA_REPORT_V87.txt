@@ -1,0 +1,36 @@
+FAFATRAINING V87 — QA REPORT
+
+Mouvements: 595
+Débutant: 175
+Intermédiaire: 291
+Avancé: 129
+Programmes: 47
+
+Noms de mouvements uniques: True
+IDs exercices uniques: True
+IDs programmes uniques: True
+
+Univers:
+- Musculation: 122
+- Boxe / Combat: 86
+- Renforcement / Poids du corps: 81
+- HYROX: 73
+- Mobilité / Souplesse: 61
+- Prévention / Reprise: 53
+- Cross Training: 41
+- Running / Trail: 40
+- Cardio: 19
+- Cardio / Aérobic: 11
+- Récupération: 8
+
+Contrôles exécutés:
+- JSON exercices valide
+- JSON programmes valide
+- JavaScript: node --check OK
+- chemins index V87 vérifiés
+- assets conservés
+- ancien écran noir remplacé par un message d’erreur explicite si une ressource manque
+- filtres de niveau stricts
+- multi-sélection matériel persistante jusqu’à validation
+- impression CSS dédiée
+- format réseau 1080x1350 x2 slides
