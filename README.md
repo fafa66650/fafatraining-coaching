@@ -1,38 +1,36 @@
-# FAFATRAINING V84 — ULTIMATE COACH STUDIO
+# FAFATRAINING V85 — CLEAN REBUILD
 
-Application/PWA statique conçue pour GitHub Pages, sans Firebase, Supabase ni serveur.
+Cette version remplace les V83/V84. Elle est conçue pour GitHub Pages sans Firebase, Supabase, Vercel ni autre serveur.
 
-## Les 3 usages centraux
-1. **Une séance** : libre ou rattachée à un adhérent.
-2. **Un programme** : de 4 à 24 semaines, 2 à 5 séances/semaine, avec variation et progression.
-3. **Un cours collectif** : nombre de participants, stations, tours, niveaux mixtes et quantités de matériel.
+## Cause de la page noire corrigée
+La V84 contenait encore une instruction `export async function` dans un script chargé en mode classique. Un navigateur bloquait donc tout le fichier avant l’affichage de l’application. La V85 est testée avec un parseur JavaScript classique (`new Function`) en plus des contrôles syntaxiques habituels.
 
-## Bibliothèque
-- 695 variantes d’exercices ;
-- 262 familles de mouvements ;
+## Déploiement GitHub Pages
+1. Supprimer de préférence les anciens fichiers `index.html`, `src/app.bundle.js`, `styles/app.css` et l’ancien `service-worker.js` du dépôt.
+2. Envoyer **tout le contenu** du ZIP V85 à la racine du dépôt.
+3. Vérifier que `index.html` est bien visible à la racine, comme sur ta capture GitHub.
+4. Attendre la fin du déploiement GitHub Pages puis faire une actualisation forcée de Safari.
+
+Le nouvel `index.html` utilise uniquement :
+- `styles/fafatraining-v85.css?v=85`
+- `src/fafatraining-v85.js?v=85`
+
+Les anciens noms de fichiers ne sont donc plus nécessaires au fonctionnement.
+
+## Fonctions principales
+- séance ponctuelle ;
+- programme de plusieurs semaines/mois ;
+- cours collectif ;
+- profils adhérents + suppression ;
+- bibliothèque pédagogique ;
 - 3 niveaux : Débutant / Intermédiaire / Avancé ;
-- chaque fiche niveau possède une exécution spécifique, erreur fréquente, matériel et prescription ;
-- recherche par discipline, niveau, lieu, muscle et matériel ;
-- aucune explication générique restante dans la bibliothèque.
+- choix de plusieurs matériels ;
+- quantités de matériel pour les groupes ;
+- séries, répétitions, charge et RPE ;
+- IMC ;
+- suivi ;
+- impression / PDF ;
+- partage natif, e-mail et SMS ;
+- export/import des données locales.
 
-## Catalogue entraînement
-- 25 univers / disciplines expliqués en français simple ;
-- 25 objectifs / cibles ;
-- 30 formats : séries, circuits, HIIT, Tabata, EMOM, AMRAP, For Time, pyramides, supersets, rounds, intervalles, etc. ;
-- 129 matériels classés en familles.
-
-## Partage
-- partage natif sur téléphone quand le navigateur le permet ;
-- sinon copie d’un résumé ;
-- téléchargement d’une fiche HTML autonome avec logo FAFATRAINING intégré ;
-- impression / Enregistrer en PDF avec mise en page A4, logo et signature FAFA.
-
-## Données
-Les profils, séances et programmes restent dans le navigateur via localStorage. Export/import JSON disponible.
-
-## GitHub Pages
-Décompresser le ZIP et copier **tout le contenu** à la racine du dépôt `fafatraining-coaching`.
-
-
-## Correction V84 — écran noir
-Le démarrage est autonome via `src/app.bundle.js`; aucun chargement JSON n’est requis pour afficher l’interface. Le ZIP peut être déployé tel quel à la racine de GitHub Pages.
+Voir `AUDIT_V85_COMPLET.txt` pour le contrôle détaillé.
