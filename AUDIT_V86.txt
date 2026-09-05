@@ -1,0 +1,49 @@
+FAFATRAINING COACH STUDIO V86 — AUDIT COMPLET
+
+BASE
+- Application personnelle du coach FAFA.
+- GitHub Pages uniquement : HTML/CSS/JavaScript statiques.
+- Données coach locales + sauvegarde JSON.
+
+CONTRÔLES
+- OK — Syntaxe JavaScript
+- OK — Index sans module
+- OK — Pas de fetch JSON au démarrage
+- OK — Écran de secours
+- OK — Trois niveaux
+- OK — Filtre strict de niveau
+- OK — Générateur strict de niveau
+- OK — Fiches techniques
+- OK — Adaptations 3 niveaux
+- OK — IDs uniques
+- OK — Noms uniques
+- OK — Programmes prêts — 33
+- OK — Coach-only
+- OK — Adhérents CRUD
+- OK — Modes individuel/libre/collectif
+- OK — Multi-matériel persistant
+- OK — Explication RPE
+- OK — Prescription selon objectif
+- OK — Export social PNG
+- OK — Deux slides réseaux
+- OK — Pas de données adhérent dans export social
+- OK — Impression PDF
+- OK — Partage natif
+- OK — Sauvegarde import/export
+- OK — Responsive mobile
+- OK — Images contain
+- OK — Visuels présents — set()
+
+VOLUMÉTRIE
+- Mouvements : 459
+- Répartition des fiches sources : {'Intermédiaire': 383, 'Avancé': 26, 'Débutant': 50}
+- Chaque fiche contient néanmoins une adaptation Débutant + Intermédiaire + Avancé : OUI
+- Programmes prêts : 33
+
+IMPORTANT
+- Le filtre de bibliothèque est strict : si Débutant est choisi, aucune carte marquée Intermédiaire ou Avancé n’est affichée.
+- Les variantes/adaptations des autres niveaux ne sont pas empilées dans la carte.
+- Les programmes fournis par l’utilisateur ont été intégrés comme modèles structurés quand leur contenu était identifiable dans les envois ; les exemples Internet ont été utilisés comme inspirations adaptées, pas comme copies.
+
+RÉSULTAT
+- 27 contrôles automatisables réussis.

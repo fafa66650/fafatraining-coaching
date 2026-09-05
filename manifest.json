@@ -1,17 +1,9 @@
 {
-  "name": "FAFATRAINING V85 — Ultimate Coach Studio",
+  "name": "FAFATRAINING — Coach Studio",
   "short_name": "FAFATRAINING",
-  "start_url": "./#home",
-  "scope": "./",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#050605",
-  "theme_color": "#050605",
-  "description": "Application FAFATRAINING autonome pour coaching individuel, programmes, cours collectifs, bibliothèque pédagogique et suivi.",
-  "icons": [
-    {
-      "src": "./assets/logo/logo-fafatraining.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg"
-    }
-  ]
+  "background_color": "#050705",
+  "theme_color": "#b8ff18",
+  "description": "Application coach personnelle FAFATRAINING."
 }

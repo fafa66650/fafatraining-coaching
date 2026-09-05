@@ -1,22 +1,28 @@
-# BENCHMARK — FAFATRAINING V83
+# Benchmark UX — FAFATRAINING V80
 
-La V83 reprend des principes fonctionnels observés sur des applications actuelles sans reproduire leur interface.
-
-## JEFIT
-JEFIT met en avant plus de 1 500 exercices, la création de routines personnalisées, les filtres par équipement/objectif, la saisie séries-charges-supersets/drop sets et le suivi volume/1RM.
+La V80 ne copie aucune interface tierce. Elle reprend des principes utiles observés dans plusieurs applications sportives actuelles et les adapte à l’identité FAFATRAINING.
 
 ## Hevy
-Hevy combine une bibliothèque de 400+ exercices, filtres matériel/muscles, instructions d’exécution, routines réutilisables, historique, séries/reps/charges et RPE.
+- bibliothèque d’exercices large avec recherche et filtres ;
+- journal de séance avec séries, répétitions, charge, durée et RPE ;
+- remplacement d’un exercice sans reconstruire tout le programme ;
+- historique, volume et 1RM estimé.
 
 ## Freeletics
-Freeletics personnalise ses parcours selon objectif, niveau, âge, matériel et préférences, puis adapte les séances en fonction des retours et du contexte. Ses parcours course distinguent notamment distance continue et intervalles.
+- présentation synthétique de la séance avant de démarrer ;
+- bouton d’adaptation de la séance du jour ;
+- possibilité d’obtenir une séance différente, plus courte ou adaptée aux contraintes du moment.
 
-## Décisions FAFATRAINING
-- distinguer discipline, cible musculaire et format de séance ;
-- proposer une explication simple avant les termes techniques ;
-- séparer séance ponctuelle, programme long et cours collectif ;
-- intégrer quantité de matériel pour les groupes ;
-- garder le coach maître des décisions ;
-- regrouper les variantes dans une fiche mouvement pédagogique ;
-- partager une fiche en lecture seule plutôt que donner accès aux données coach ;
-- rester intégralement sur GitHub Pages.
+## Fitbod
+- paramètres permanents séparés des modifications du jour ;
+- adaptation rapide de la durée et du matériel ;
+- changement de focus musculaire / séance sans tout reconfigurer.
+
+## Traduction dans FAFATRAINING V80
+1. Le profil permanent n’est saisi qu’une fois.
+2. Créer une séance suit 4 écrans : univers → style précis + durée → état du jour → résumé.
+3. Chaque univers propose de vrais sous-formats : Tabata, EMOM, AMRAP, For Time, technique boxe, sac, puissance, côtes, fractionné, ergos, carries, Push, Pull, haut/bas, etc.
+4. Une séance déjà générée peut être adaptée : plus courte, plus facile, plus intense, autre matériel, sans saut ou différente.
+5. Le moteur utilise niveau, âge, matériel, objectifs, historique, fatigue, stress, sommeil, douleur et zones à protéger.
+6. Sans historique de charge, l’application n’invente pas de kilogrammes : elle donne un RPE cible. Avec historique, elle propose une charge dérivée de la séance précédente.
+7. Les visuels FAFATRAINING sont contextuels (Boxe, HIIT, Cardio, Hyrox, Mobilité, force, récupération, coaching).

@@ -1,50 +1,61 @@
-FAFATRAINING V83 — QA REPORT
+FAFATRAINING V80 — RAPPORT DE CONTRÔLE COMPLET
 
-Version : ULTIMATE COACH STUDIO
-Cible : GitHub Pages uniquement
+PASS 1 — STRUCTURE / SYNTAXE
+- index.html : présent
+- styles/app.css : présent
+- src/app.js : syntaxe JavaScript OK
+- src/storage.js : syntaxe JavaScript OK
+- src/coach-engine.js : syntaxe JavaScript OK
+- manifest.json : présent
+- service-worker.js : présent
+- PWA / GitHub Pages : structure OK
 
-APPLICATION
-- Séance ponctuelle : OK
-- Programme multi-semaines / multi-mois : OK
-- Cours collectif : OK
-- Pastilles Retour : OK
-- Partage natif + copie de secours : OK
-- Fiche téléchargeable avec logo intégré : OK
-- Impression / PDF A4 avec logo + signature FAFATRAINING : OK
-- Mode séance en direct, timer, séries, reps, charges et RPE : OK
-- Guide « Je ne sais pas quoi choisir » : OK
-- Aucun service externe : OK
+PASS 2 — BIBLIOTHÈQUE / CONTENU
+- 423 exercices uniques
+- 15 univers sportifs
+- doublons exacts : 0
+- doublons normalisés évidents : 0
+- faux exercices numérotés type Pro 1 / Elite 1 : 0
+- variantes : vérifiées
+- consignes / erreurs / matériel / muscles / niveau / mode : présents
+- visuels des univers : présents
 
-BIBLIOTHÈQUE
-- Variantes uniques : 695
-- Mouvements maîtres : 262
-- Disciplines / univers : 25
-- Objectifs / cibles : 25
-- Formats de séance : 30
-- Matériels classés : 129
-- Lieux : 7
-- Explications vides : 0
-- IDs dupliqués : 0
-- Noms dupliqués : 0
+PASS 3 — MOTEUR SPORTIF
+Génération automatique testée pour chacun des 15 univers.
+- structure 5 blocs : OK
+- bloc vide : 0
+- doublon dans une même séance : 0
+- prescription repos + RPE : OK
+- IMC 80 kg / 180 cm = 24,7 : OK
+- styles différenciés testés :
+  * Musculation haut du corps : exercices haut du corps
+  * Boxe sac : exercices au sac
+  * Trail côtes : travail de côtes
+  * HIIT Tabata : format 20/10
+  * Hyrox ergos : rameur / SkiErg prioritaires
 
-NIVEAUX
-- Débutant : 110 variantes / 262 mouvements adaptables
-- Intermédiaire : 470 variantes / 262 mouvements adaptables
-- Avancé : 115 variantes / 262 mouvements adaptables
-- Chaque mouvement maître possède les 3 niveaux : OK
+PASS 4 — UX / ADAPTATION
+- onboarding progressif : OK
+- création en 4 écrans : univers / style+durée / état du jour / résumé
+- adaptation séance existante : plus court / moins de matériel / plus facile / plus intense / sans sauts / différente
+- remplacement d'un exercice : OK
+- fiche exercice détaillée : OK
+- charge en kg non inventée : RPE utilisé quand aucun historique n'existe
+- suggestion de charge basée sur l'historique : présente
+- minuteur repos : présent
+- suivi séries / reps / poids / RPE : présent
+- multi-profils : présent
+- export / import : présent
+- impression / PDF : présent
 
-IMAGES
-- Visuels présents : 14
-- Visuels référencés manquants : 0
-- Logo : OK
-- Affichage principal en object-fit contain pour éviter les coupes : OK
+PASS 5 — HTTP LOCAL
+- / : HTTP 200
+- /index.html : HTTP 200
+- /styles/app.css : HTTP 200
+- /src/app.js : HTTP 200
+- /src/coach-engine.js : HTTP 200
+- /data/exercises.json : HTTP 200
+- /data/programs.json : HTTP 200
+- visuels Boxe et Force : HTTP 200
 
-MOTEUR
-- Test des 25 univers : OK
-- Programme 4 semaines × 3 séances : OK
-- Cours collectif 15 personnes / 6 stations : OK
-- Variété / anti-répétition : OK
-- Filtres lieu + matériel + niveau + cible : OK
-
-RÉSULTAT
-V83 validée sur les contrôles automatisables.
+RÉSULTAT : QA V80 VALIDÉE.
