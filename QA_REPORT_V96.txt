@@ -1,0 +1,75 @@
+FAFATRAINING V96 — RAPPORT QA FINAL
+
+RÉSULTAT STATIQUE / VM : 65/65 contrôles réussis
+
+OK — Fichier index.html
+OK — Fichier manifest.json
+OK — Fichier service-worker.js
+OK — Fichier src/fafatraining-coach-v96.js
+OK — Fichier styles/fafatraining-v96.css
+OK — Fichier data/exercises-v96.json
+OK — Fichier data/templates-v96.json
+OK — Fichier assets/logo/logo-fafatraining-header.jpg
+OK — 595 mouvements — 595
+OK — 595 IDs mouvements uniques
+OK — 595 noms mouvements uniques
+OK — 184 programmes — 184
+OK — 184 IDs programmes uniques
+OK — 184 titres programmes uniques
+OK — Prescriptions détaillées >= 1000 — 1092
+OK — Prescriptions avec name
+OK — Prescriptions avec sets
+OK — Prescriptions avec reps
+OK — Prescriptions avec rest
+OK — Prescriptions avec tempo
+OK — Prescriptions avec intensity
+OK — Prescriptions avec cue
+OK — Aucun programme prescription strictement dupliquée — 184/184
+OK — Catégorie matériel Sans matériel — 41
+OK — Catégorie matériel Matériel léger transportable — 102
+OK — Catégorie matériel Matériel de salle — 41
+OK — Aujourd’hui intelligent
+OK — Mode séance en direct
+OK — Séance express
+OK — Favoris programmes
+OK — Programmes récents
+OK — Recommandations adhérent
+OK — Historique visuel adhérent
+OK — Carte musculaire interactive
+OK — Démonstration mouvement 3 repères
+OK — Studio Social éditable
+OK — Studio 4 formats
+OK — Sauvegarde automatique locale
+OK — Navigation retour
+OK — Micro-interactions V96
+OK — Index charge CSS V96
+OK — Index charge JS V96
+OK — Service Worker cache V96
+OK — Service Worker charge data V96
+OK — Pas de runtime V95 dans index
+OK — Pas de runtime V95 dans service worker
+OK — Référence styles/fafatraining-v96.css
+OK — Référence assets/logo/logo-fafatraining-header.jpg
+OK — Référence data/templates-v96.json
+OK — Référence assets/icons/icon-192.png
+OK — Référence src/fafatraining-coach-v96.js
+OK — Référence data/exercises-v96.json
+OK — Aucun visuel binaire dupliqué — []
+OK — CSS accolades équilibrées — 1611/1611
+OK — VM sans erreur — []
+OK — VM home — {'today': True, 'commands': 7, 'universes': 8, 'express': True}
+OK — VM session — {'live': True, 'title': 'Mobilité corps entier — Flow 1'}
+OK — VM live — {'focus': True, 'entry': True, 'finish': True, 'sets': 1}
+OK — VM liveSummary — {'summary': True, 'grid': True}
+OK — VM programs — {'smart': True, 'cards': 64, 'favs': True, 'recommended': True}
+OK — VM library — {'595': True, 'map': True, 'spots': 10}
+OK — VM client — {'progress': True, 'insight': True}
+OK — VM history — {'kpis': True, 'title': True}
+OK — VM social — {'composer': False, 'title': False, 'slides': False, 'density': False, 'image': False}
+OK — VM backup — {'auto': True, 'snapshot': True, 'saved': True}
+
+NOTE DE VALIDATION
+- Syntaxe JavaScript et Service Worker vérifiées séparément avec Node.
+- Les scénarios fonctionnels V96 ont été exécutés dans une VM JavaScript (navigation logique, séance live, favoris/recommandations, carte musculaire, historique, Studio Social, sauvegarde).
+- Un test E2E graphique Chromium n’a pas pu être exécuté dans cet environnement car le navigateur géré bloque les URL locales/file://. La validation visuelle finale doit donc être faite sur GitHub Pages/Safari lors du test utilisateur.
+- Aucune synchronisation cloud n’est simulée : la V96 conserve une sauvegarde automatique locale + export/import pour transfert.
