@@ -1,0 +1,12 @@
+FAFATRAINING — correctif de déploiement/cache
+
+Ce package conserve la V93 fonctionnelle et ajoute une compatibilité transitoire avec une ancienne page V92 éventuellement encore servie par le Service Worker du navigateur.
+
+Fichiers de compatibilité ajoutés :
+- src/fafatraining-coach-v92.js -> copie compatible du moteur V93
+- styles/fafatraining-v92.css -> copie compatible du style V93
+- data/exercises-v92.json -> données V93 accessibles depuis une page V92 mise en cache
+- data/templates-v92.json -> données V93 accessibles depuis une page V92 mise en cache
+
+Le Service Worker utilise désormais une navigation network-first et supprime les anciens caches à l'activation.
+Ces fichiers de compatibilité sont uniquement techniques et ne réintroduisent pas l'ancienne interface V92.
