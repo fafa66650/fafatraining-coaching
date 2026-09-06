@@ -1,16 +1,20 @@
-# FAFATRAINING COACH STUDIO V92
+# FAFATRAINING COACH STUDIO V93
 
-V92 est l’évolution « Intelligence + Expérience + Social » de la V91.
+V93 est une évolution directe de la V92 FINAL CLEAN verrouillée comme socle fonctionnel. Les données locales V92 sont migrées automatiquement vers V93 au premier lancement.
 
-## Nouveautés principales
-- moteur de sélection global : historique récent, fatigue locale estimée, patterns Push/Pull/Squat/Hinge, volume musculaire, lieu, matériel et ordre des mouvements ;
-- créateur progressif en 4 étapes : Adhérent → Objectif → Contexte → Proposition FAFA, avec réglages Coach avancés optionnels ;
-- programmation réelle : semaines → jours → séances → exercices, avec volume, intensité, densité, RIR et %1RM indicatif ;
-- Resource Planner collectif : addition des besoins simultanés en matériel et détection de conflits ;
-- historique enrichi par charge d’entraînement estimée et tonnage lorsque les charges sont renseignées ;
-- fiches techniques et FAFA TIPS renforcés pour réduire les formulations génériques ;
-- Studio Social V92 : carrousel automatique, Story/TikTok, Reel Cover, fiche adhérent et 5 templates FAFATRAINING ;
-- V91 migrée automatiquement vers la clé V92.
+## Corrections et améliorations principales
+- accueil réorganisé en accès compacts par catégories ;
+- logo mieux intégré et versions techniques retirées de l’interface ;
+- 8 univers conservés avec cadrages visuels retravaillés ;
+- bibliothèque de 595 mouvements organisée par grandes zones corporelles et filtres utiles ;
+- fiches mouvements enrichies, variantes cliquables dans la même vue et protection contre le dock inférieur ;
+- 47 programmes restructurés avec prescription détaillée : séries, répétitions/durée, repos, tempo, intensité, consignes et FAFA TIP ;
+- programmes pensés comme bases adaptables plutôt que verrouillés par niveau ;
+- impression adhérent enrichie par guide technique et adaptations ;
+- créateur progressif : Adhérent → Objectif → Contexte → Proposition FAFA, puis réglages avancés ;
+- conservation des fonctions V92 : moteur intelligent, historique/fatigue, planification, collectif, Timer, drag & drop, RPE/RIR, 1RM/%1RM, blocs, sauvegarde/restauration, Studio Social et PWA.
 
 ## Déploiement GitHub Pages
 Copier tout le contenu du ZIP à la racine du dépôt. `index.html` doit rester à la racine.
+
+Pour éviter un ancien cache après remplacement d’une version précédente, faire un rechargement forcé du navigateur une fois le déploiement terminé.
