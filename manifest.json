@@ -6,17 +6,9 @@
   "display": "standalone",
   "background_color": "#080b08",
   "theme_color": "#b8ff18",
-  "description": "FAFATRAINING Coach Studio : adhérents, séances en direct, programmes, mouvements, planification et Studio Social.",
+  "description": "FAFATRAINING Coach Studio : adhérents, programmes prêts, séances en direct, mouvements, planification et Studio Social.",
   "icons": [
-    {
-      "src": "./assets/icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./assets/icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    {"src":"./assets/icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./assets/icons/icon-512.png","sizes":"512x512","type":"image/png"}
   ]
 }

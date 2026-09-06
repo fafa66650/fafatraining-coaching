@@ -1,0 +1,61 @@
+FAFATRAINING V97 — RAPPORT QA FINAL CLEAN
+
+Contrôles statiques/données : 41/41 réussis
+
+OK — Bibliothèque mouvements — 595 mouvements
+OK — IDs mouvements uniques — 0 doublon
+OK — Noms mouvements uniques — 0 doublon
+OK — Programmothèque V97 — 260 programmes prêts
+OK — IDs programmes uniques — 0 doublon
+OK — Titres programmes uniques — 0 doublon
+OK — Essentiels FAFATRAINING — 32 essentiels
+OK — Répartition des 8 univers — Mobilité & Prévention: 24, Musculation & Renforcement: 56, Préparation Physique: 32, Cours Collectifs: 29, Cross & Functional: 33, Cardio & Endurance: 35, HYROX: 24, Boxe & Combat: 27
+OK — Taxonomie matériel V97 — Sans matériel: 87, Salle de sport: 19, Matériel maison / transportable: 115, Équipement spécifique: 39
+OK — Objectifs programmes — 19 objectifs distincts
+OK — Zones corporelles programmes — 12 zones distinctes
+OK — Variantes internes programmes — Accessible / Standard / Intensif pour les 260 programmes
+OK — Prescriptions détaillées — professionalBlocks présents sur les 260 programmes
+OK — Prescriptions complètes distinctes — 0 signature complète dupliquée
+OK — Cohérence “sans matériel” — 0 titre/bodyweight mal classé
+OK — Exclusivité des catégories matériel — 0 programme présent dans deux classes matériel
+OK — Références statiques — 0 asset/fichier référencé manquant
+OK — Index V97 — CSS + JS V97 chargés
+OK — Cache-busting V97 — version 97.0 dans index
+OK — Cache Service Worker — cache fafatraining-v97-0
+OK — FAFATRAINING / Mes programmes — marqueur présent dans le runtime V97
+OK — Essentiels — marqueur présent dans le runtime V97
+OK — Filtre objectifs — marqueur présent dans le runtime V97
+OK — Filtre durée — marqueur présent dans le runtime V97
+OK — Filtres avancés — marqueur présent dans le runtime V97
+OK — Sans matériel — marqueur présent dans le runtime V97
+OK — Maison / transportable — marqueur présent dans le runtime V97
+OK — Salle de sport — marqueur présent dans le runtime V97
+OK — Équipement spécifique — marqueur présent dans le runtime V97
+OK — Variantes Accessible — marqueur présent dans le runtime V97
+OK — Variantes Intensif — marqueur présent dans le runtime V97
+OK — Export images — marqueur présent dans le runtime V97
+OK — Instagram — marqueur présent dans le runtime V97
+OK — Story/TikTok — marqueur présent dans le runtime V97
+OK — Reel — marqueur présent dans le runtime V97
+OK — Fiche adhérent — marqueur présent dans le runtime V97
+OK — Drag & drop studio — marqueur présent dans le runtime V97
+OK — Aujourd’hui — marqueur présent dans le runtime V97
+OK — Séance express — marqueur présent dans le runtime V97
+OK — Mode séance live — marqueur présent dans le runtime V97
+OK — Sauvegarde locale — marqueur présent dans le runtime V97
+
+CONTRÔLE HTTP LOCAL
+- OK — index, CSS, JS, JSON, manifest, logo et reset-cache répondent HTTP 200 via serveur local.
+
+LIMITATION DE CONTRÔLE
+- Chromium headless est installé dans l’environnement mais son exécution graphique/dump DOM reste bloquée ici (timeout système). Ce test navigateur n’est donc PAS compté comme réussi. Le contrôle visuel final doit être fait sur GitHub Pages/Safari ou mobile.
+
+PACKAGE
+- Le ZIP final doit contenir index.html à la racine et exclure les anciens CHANGELOG/QA V96.
+
+VALIDATION DU ZIP FINAL
+- OK — index.html présent à la racine.
+- OK — aucun CHANGELOG_V96.md ni QA_REPORT_V96.txt dans le package final.
+- OK — syntaxe JS et Service Worker revalidée après extraction.
+- OK — JSON revalidés après extraction.
+- OK — unzip -t : aucune erreur détectée.
