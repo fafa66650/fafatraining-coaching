@@ -1,18 +1,18 @@
-# FAFATRAINING Coach Studio — V97
+# FAFATRAINING Coach Studio — V98
 
-V97 est une évolution directe de la V96 verrouillée. Elle conserve les fonctions de coaching et simplifie surtout la programmothèque et l'expérience quotidienne.
+V98 est une évolution directe de la V97 verrouillée. Elle conserve le socle fonctionnel et renforce l’usage quotidien du coach.
 
-## Points clés
+## Nouveautés principales
 - 595 mouvements techniques conservés.
-- 260 programmes FAFATRAINING prêts à utiliser, avec prescriptions détaillées.
-- 32 programmes Essentiels mis en avant (4 par grand univers).
-- Filtres programmes simplifiés : Univers → Objectif → Matériel → Durée.
-- Filtres avancés optionnels : zone du corps, format, fréquence.
-- Taxonomie matériel corrigée : Sans matériel / Maison & transportable / Salle de sport / Équipement spécifique.
-- Séparation claire FAFATRAINING / Mes programmes.
-- Variantes Accessible / Standard / Intensif dans chaque programme, sans dupliquer artificiellement le catalogue.
-- Accueil et cartes univers retravaillés avec visuels grand format et cadrage individuel.
-- Studio Social conservé et renforcé : carrousel Instagram, Story/TikTok, Reel Cover et fiche adhérent.
-- Mode Séance en direct, Séance Express, historique adhérent et sauvegarde locale conservés.
+- 360 programmes FAFATRAINING prêts à utiliser, dont davantage de programmes ciblés et de vraies structures 1 / 4 / 5 / 6 séances par semaine.
+- Dock simplifié : Accueil · Adhérents · Créer · Programmes · Mouvements.
+- Plans renommés et repositionnés comme Cycles / programmation dans l’univers Programmes.
+- Planning Coach hebdomadaire avec date/heure réelle des séances.
+- Accueil Aujourd’hui alimenté par les rendez-vous planifiés.
+- Recherche globale : adhérents, séances, programmes, mouvements, cycles et blocs.
+- Fiche adhérent enrichie : mensurations, évolution du poids, performances/records.
+- Mode Séance en direct : ajout de « Passer aujourd’hui » en plus de Remplacer.
+- Studio Social, Séance Express, Timer, sauvegarde locale et exports conservés.
+- Core Clean : suppression des déclarations de fonctions historiques dupliquées et centralisation des parcours V98.
 
 Déploiement GitHub Pages : envoyer tout le contenu du ZIP à la racine du dépôt. `index.html` doit rester à la racine.
