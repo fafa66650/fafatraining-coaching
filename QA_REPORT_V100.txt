@@ -1,0 +1,73 @@
+FAFATRAINING V100 CLEAN CORE — RAPPORT QA
+
+OK — Bibliothèque mouvements — 1509 mouvements
+OK — IDs mouvements uniques — 0 doublon
+OK — Noms mouvements uniques — 0 doublon
+OK — Champs mouvements essentiels — 1509/1509
+OK — Cohérence matériel sensible — Face Pull / Pulldown / carry / tyre / sled contrôlés
+OK — Programmothèque — 600 programmes
+OK — IDs programmes uniques — 0 doublon
+OK — Titres programmes uniques — 0 doublon
+OK — Programmes non vides — 600/600
+OK — Signatures programmes distinctes — 0 doublon
+OK — Variantes internes réelles — 600/600
+OK — Fréquence 1× / semaine — 52
+OK — Fréquence 2× / semaine — 269
+OK — Fréquence 3× / semaine — 133
+OK — Fréquence 4× / semaine — 53
+OK — Fréquence 5× / semaine — 48
+OK — Fréquence 6× / semaine — 45
+OK — Liens programmes ↔ mouvements — 0 ID exercice orphelin
+OK — Schéma programme V100 unifié — bodyZone · frequency · variants
+OK — Textes mouvements uniques — cues — 0 doublon exact
+OK — Textes mouvements uniques — error — 0 doublon exact
+OK — Textes mouvements uniques — breathing — 0 doublon exact
+OK — Textes mouvements uniques — fafaTip — 0 doublon exact
+OK — Étapes techniques uniques — 0 doublon exact
+OK — Fichier présent — index.html
+OK — Fichier présent — styles/fafatraining-v100.css
+OK — Fichier présent — src/fafatraining-coach-v100.js
+OK — Fichier présent — data/exercises-v100.json
+OK — Fichier présent — data/templates-v100.json
+OK — Fichier présent — manifest.json
+OK — Fichier présent — service-worker.js
+OK — Fichier présent — assets/icons/icon-192.png
+OK — Fichier présent — assets/icons/icon-512.png
+OK — Fichier présent — assets/logo/logo-fafatraining-header.jpg
+
+RUNTIME SMOKE TESTS
+OK — Accueil — rendu sans erreur
+OK — Programmes — rendu 600 programmes
+OK — Mouvements — rendu 1 509 mouvements
+OK — Adhérents — rendu sans erreur
+OK — Créer — rendu sans erreur
+OK — Cycles / programmation — rendu sans erreur
+OK — Studio Social — route et redessin initial revalidés
+OK — Recherche globale HYROX — rendu sans erreur
+OK — Aperçu programme — drawer + variantes
+OK — Variante Accessible → séance — séries / repos issus de la variante V100
+OK — Fiche mouvement — vigilance + usages / prescription visibles
+OK — Mode séance en direct — rendu terrain
+OK — Planning Coach — rendu semaine
+OK — Timer Coach — ouverture du modal
+OK — Migration V98 → clé neutre fafatraining_coach — données conservées
+OK — Fonctions JavaScript top-level — 269 / 269 uniques
+OK — node --check runtime V100
+OK — node --check Service Worker
+
+CONTRÔLE NAVIGATEUR
+- Chromium headless est présent dans l’environnement, mais son exécution graphique reste bloquée par l’environnement système (timeout), comme lors de la QA V98. Ce contrôle n’est pas compté comme réussi.
+- Les captures fournies ont été utilisées comme référence visuelle pour conserver l’identité sombre/vert FAFATRAINING, le dock mobile, les cartes, drawers et hiérarchie fonctionnelle.
+
+VALIDATION APRÈS EXTRACTION DU ZIP
+OK — extraction complète
+OK — JSON : 1 509 mouvements / 600 programmes
+OK — schéma V100 : bodyZone / frequency / variants
+OK — aucun ancien champ targetArea / frequencyV97 / variantProfiles
+OK — node --check JavaScript après extraction
+OK — node --check Service Worker après extraction
+OK — routes runtime revalidées après extraction
+OK — drawers programme / mouvement revalidés après extraction
+OK — variante programme → séance revalidée après extraction
+OK — Mode séance / Planning / Studio Social / Timer revalidés après extraction
+OK — migration de sauvegarde V98 revalidée après extraction
