@@ -1,5 +1,8 @@
-const CACHE="fafatraining-v100-clean-1";
-const CORE=["./","./index.html","./styles/fafatraining-v100.css","./src/fafatraining-coach-v100.js","./data/exercises-v100.json","./data/templates-v100.json","./manifest.json","./assets/logo/logo-fafatraining-header.jpg","./reset-cache.html"];
-self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener("fetch",e=>{if(e.request.method!=="GET")return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r}).catch(()=>caches.match(e.request).then(r=>r||caches.match("./index.html"))))});
+const CACHE='fafatraining-core';
+const SHELL=['./','./index.html','./404.html','./app.css','./app.js','./core/storage.js','./core/catalog.js','./manifest.json','./reset-cache.html','./data/catalog.json','./data/program-index.json','./data/exercise-index.json','./assets/brand/logo.jpg','./assets/brand/avatar-coach.jpeg','./assets/icons/icon-192.png','./assets/icons/icon-512.png'];
+self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(SHELL);self.skipWaiting()})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key!==CACHE&&key.startsWith('fafatraining'))await caches.delete(key);await self.clients.claim()})()));
+async function cacheFirst(req){const c=await caches.open(CACHE),hit=await c.match(req);if(hit)return hit;const res=await fetch(req);if(res.ok)c.put(req,res.clone());return res}
+async function staleWhileRevalidate(req){const c=await caches.open(CACHE),hit=await c.match(req);const net=fetch(req).then(res=>{if(res.ok)c.put(req,res.clone());return res}).catch(()=>null);return hit||await net||new Response('',{status:503})}
+async function networkFirst(req){const c=await caches.open(CACHE);try{const res=await fetch(req);if(res.ok)c.put(req,res.clone());return res}catch(_){return await c.match(req)||await c.match('./index.html')}}
+self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET')return;const u=new URL(req.url);if(u.origin!==location.origin)return;if(req.mode==='navigate'){event.respondWith(networkFirst(req));return}if(/\/data\/(?:programs|exercises)\//.test(u.pathname)){event.respondWith(staleWhileRevalidate(req));return}if(/\.(?:png|jpe?g|webp|svg)$/i.test(u.pathname)){event.respondWith(cacheFirst(req));return}event.respondWith(staleWhileRevalidate(req))});

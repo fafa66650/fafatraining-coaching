@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#b8ff18">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="FAFATRAINING">
+  <meta name="description" content="FAFATRAINING Coach Studio — adhérents, programmes personnalisés, mouvements, planification, suivi, séance en direct et Studio Social.">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+  <link rel="stylesheet" href="./app.css">
+  <title>FAFATRAINING — Coach Studio</title>
+</head>
+<body>
+  <div id="app" class="boot"><div class="boot-card"><img src="./assets/brand/logo.jpg" alt="FAFATRAINING"><strong>FAFATRAINING</strong><span>Chargement du Coach Studio…</span></div></div>
+  <input id="import-file" type="file" accept="application/json" hidden>
+  <script defer src="./core/storage.js"></script>
+  <script defer src="./core/catalog.js"></script>
+  <script defer src="./app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
+  </script>
+</body>
+</html>
