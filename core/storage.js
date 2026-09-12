@@ -1,0 +1,8 @@
+(()=>{'use strict';
+const DB='fafatraining_coach_db',STORE='app',KEY='state',LEGACY='fafatraining_coach';
+function open(){return new Promise((res,rej)=>{if(!('indexedDB'in window)){rej(Error('indexedDB'));return}const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>{const d=r.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE)};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
+async function get(){try{const d=await open();return await new Promise((res,rej)=>{const tx=d.transaction(STORE,'readonly'),r=tx.objectStore(STORE).get(KEY);r.onsuccess=()=>res(r.result||null);r.onerror=()=>rej(r.error)})}catch(_){return null}}
+async function put(v){try{const d=await open();await new Promise((res,rej)=>{const tx=d.transaction(STORE,'readwrite');tx.objectStore(STORE).put(v,KEY);tx.oncomplete=()=>res();tx.onerror=()=>rej(tx.error)})}catch(_){}try{localStorage.setItem(LEGACY,JSON.stringify(v))}catch(_){}return v}
+async function load(){let v=await get();if(v)return v;try{const raw=localStorage.getItem(LEGACY);if(raw){v=JSON.parse(raw);await put(v);return v}for(const k of Object.keys(localStorage)){if(!/fafatraining/i.test(k))continue;try{const x=JSON.parse(localStorage.getItem(k));if(x&&typeof x==='object'&&(x.clients||x.adherents||x.sessions)){await put(x);return x}}catch(_){}}}catch(_){}return null}
+async function clearAppData(){try{const d=await open();await new Promise((res,rej)=>{const tx=d.transaction(STORE,'readwrite');tx.objectStore(STORE).delete(KEY);tx.oncomplete=res;tx.onerror=()=>rej(tx.error)})}catch(_){}try{localStorage.removeItem(LEGACY)}catch(_){}}
+window.FTStorage={load,save:put,clearAppData};})();
