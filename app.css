@@ -240,8 +240,39 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 /* Movement modal: larger useful images, smaller boxes, no tab jumps. */
 .movement-hero{min-height:190px;grid-template-columns:minmax(0,1fr) 190px;border-radius:22px}.movement-hero-copy{padding:20px}.movement-hero-copy h2{font-size:clamp(30px,4vw,46px)}.movement-hero-character{min-height:190px}.movement-tabs{position:sticky;top:0;margin:8px 0;padding:5px;border-radius:14px}.movement-tabs button{min-height:40px;font-size:11px}.movement-tab-panel{min-height:0}.official-demo{padding:10px}.official-demo .demo-grid{gap:8px}.official-demo .demo-frame{min-height:0;padding:8px;border-radius:16px}.movement-demo-photo{height:360px!important;object-fit:contain!important;object-position:center!important;padding:0!important;margin:6px 0 8px!important;background:radial-gradient(circle at 50% 42%,rgba(184,255,24,.08),transparent 60%),#070a07}.official-demo .demo-frame p{min-height:0;font-size:10.5px}.movement-levels{gap:8px;margin-top:8px}.movement-level{min-height:0;padding:12px;border-radius:16px}.movement-level b{font-size:13px}.movement-level p{font-size:10px}.movement-level small{font-size:9.5px}.demo-guide-identity{grid-template-columns:100px 1fr}.demo-guide-identity img{width:100px;height:126px}.demo-steps{gap:6px}.demo-steps article{padding:9px;border-radius:13px}.demo-note{font-size:9.5px}
 
-/* Anatomy: stable selection by named zone. No approximate clickable dots. */
-.anatomy-selector{grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);gap:12px}.anatomy-figures{display:grid;grid-template-columns:1fr 1fr;gap:10px}.anatomy-clean .anatomy-card{padding:12px;min-height:0;overflow:hidden}.anatomy-clean .anatomy-card>p{font-size:9.5px;margin:4px 0;color:var(--muted)}.anatomy-photo-map.clean{width:min(100%,320px);aspect-ratio:359/738;background:radial-gradient(circle at 50% 38%,rgba(184,255,24,.08),transparent 56%),#070a07}.anatomy-photo-map.clean>img{opacity:.88;filter:grayscale(.18) contrast(1.04) brightness(.88);object-fit:contain}.anatomy-photo-map.clean:before{z-index:4;background:linear-gradient(90deg,#070a07 0,rgba(7,10,7,.99) 5%,rgba(7,10,7,.72) 10%,transparent 16%,transparent 86%,rgba(7,10,7,.72) 94%,#070a07 100%)}.anatomy-photo-map.clean:after{z-index:3;background:linear-gradient(180deg,transparent 0,transparent 40%,rgba(5,7,5,.22) 43%,rgba(5,7,5,.94) 49%,rgba(5,7,5,.96) 64%,rgba(5,7,5,.36) 69%,transparent 75%,transparent 100%)}.anatomy-zone-badges{position:absolute;z-index:8;left:8px;right:8px;bottom:42px;display:flex;gap:5px;flex-wrap:wrap;justify-content:center;pointer-events:none}.anatomy-zone-badge{background:rgba(5,7,5,.86);border:1px solid rgba(255,255,255,.13);color:#dce4da;border-radius:999px;padding:4px 7px;font-size:8px;font-weight:900}.anatomy-zone-badge.primary{border-color:var(--green);color:var(--green);box-shadow:0 0 16px rgba(184,255,24,.14)}.anatomy-side{position:sticky;top:10px;border-radius:18px;padding:14px}.anatomy-side h3{font-size:22px}.muscle-list.grouped{gap:9px}.muscle-group-list{padding:9px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.018)}.muscle-group-head{display:flex;justify-content:space-between;gap:8px;align-items:center}.muscle-group-head span{font-size:8px;color:var(--muted)}.muscle-group-list>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin-top:6px}.muscle-group-list button{min-height:34px!important;border-radius:10px!important;font-size:9px!important}.anatomy-side-actions{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:8px}.anatomy-target-list{display:grid;gap:6px;margin:10px 0}.target-muscle{border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025);color:#fff;padding:9px 10px;text-align:left;cursor:pointer}.target-muscle b,.target-muscle small{display:block}.target-muscle b{font-size:11px}.target-muscle small{color:var(--muted);font-size:8.5px;margin-top:2px}.target-muscle.primary{border-color:rgba(184,255,24,.55);background:rgba(184,255,24,.08)}.anatomy-focus-preview{position:relative;height:145px;margin:10px 0 12px;border:1px solid rgba(184,255,24,.24);border-radius:16px;overflow:hidden;background-image:var(--focus-image);background-repeat:no-repeat;background-size:var(--focus-size);background-position:var(--focus-x) var(--focus-y);box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}.anatomy-focus-preview:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,5,.05),rgba(5,7,5,.12) 45%,rgba(5,7,5,.88) 100%)}.anatomy-focus-preview span,.anatomy-focus-preview small{position:absolute;z-index:2;left:11px;right:11px;display:block}.anatomy-focus-preview span{bottom:26px;color:var(--green);font-size:12px;font-weight:950}.anatomy-focus-preview small{bottom:10px;color:#d8e0d6;font-size:8.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.anatomy-side .anatomy-focus-preview{width:100%}
+/* Anatomy: one clean shared board. No dots, no hotspots, no approximate paint overlays. */
+.anatomy-selector{grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);gap:12px}
+.anatomy-figures{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.anatomy-clean .anatomy-card{padding:12px;min-height:0;overflow:hidden;justify-content:flex-start}
+.anatomy-clean .anatomy-card>p{font-size:9.5px;margin:4px 0;color:var(--muted)}
+.anatomy-photo-map.clean{position:relative;width:min(100%,320px);aspect-ratio:330/700;margin:0 auto;background:#070907;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.anatomy-photo-map.clean>img{width:100%;height:100%;object-fit:contain;filter:grayscale(1) contrast(1.05) brightness(.90);opacity:1}
+.anatomy-photo-map.clean:before,.anatomy-photo-map.clean:after{display:none!important}
+.anatomy-photo-map.clean figcaption{position:absolute;left:9px;right:9px;bottom:9px;padding:7px 9px;border:1px solid rgba(255,255,255,.12);border-radius:11px;background:rgba(5,7,5,.88);backdrop-filter:blur(10px);color:#d8e0d6;font-size:8px;font-weight:850;line-height:1.35;text-align:center}
+.anatomy-movement .anatomy-photo-map.clean{width:min(100%,300px)}
+.anatomy-side{position:sticky;top:10px;border-radius:18px;padding:14px}
+.anatomy-side h3{font-size:22px}
+.muscle-list.grouped{gap:9px}
+.muscle-group-list{padding:9px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.018)}
+.muscle-group-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.muscle-group-head span{font-size:8px;color:var(--muted)}
+.muscle-group-list>div{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin-top:6px}
+.muscle-group-list button{min-height:38px!important;border-radius:10px!important;font-size:9px!important}
+.anatomy-side-actions{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:8px}
+.anatomy-target-list{display:grid;gap:6px;margin:10px 0}
+.target-muscle{border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025);color:#fff;padding:9px 10px;text-align:left;cursor:pointer}
+.target-muscle b,.target-muscle small{display:block}.target-muscle b{font-size:11px}.target-muscle small{color:var(--muted);font-size:8.5px;margin-top:2px}
+.target-muscle.primary{border-color:rgba(184,255,24,.55);background:rgba(184,255,24,.08)}
+.anatomy-focus-preview{position:relative;height:150px;margin:10px 0 12px;border:1px solid rgba(184,255,24,.24);border-radius:16px;overflow:hidden;background:#070907}
+.anatomy-focus-media{position:absolute;inset:0;background-image:var(--focus-image);background-repeat:no-repeat;background-size:var(--focus-size);background-position:var(--focus-x) var(--focus-y);filter:grayscale(1) contrast(1.06) brightness(.88)}
+.anatomy-focus-media:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,5,.02),rgba(5,7,5,.08) 55%,rgba(5,7,5,.92) 100%)}
+.anatomy-focus-preview span,.anatomy-focus-preview small{position:absolute;z-index:2;left:11px;right:11px;display:block}
+.anatomy-focus-preview span{bottom:27px;color:var(--green);font-size:12px;font-weight:950}
+.anatomy-focus-preview small{bottom:10px;color:#d8e0d6;font-size:8.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.anatomy-subzones{margin:12px 0;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}
+.anatomy-subzones>b{display:block;color:#fff;font-size:11px;margin-bottom:6px}
+.anatomy-subzones ul{margin:0;padding-left:17px;color:#cbd4c9;font-size:10px;line-height:1.48}
+.anatomy-subzones li+li{margin-top:4px}
 
 /* Studio / export: smaller source rows and usable preview space. */
 .studio-grid{grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:12px}.studio-controls{padding:13px}.source-picker{max-height:280px}.source-option{padding:9px 10px;border-radius:12px}.source-option b{font-size:11px}.source-option small{font-size:8.5px}.canvas-stage{min-height:460px}.studio-preview{padding:13px}
@@ -251,46 +282,7 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 @media(max-width:760px){.shell{padding-left:12px;padding-right:12px}.cockpit.refined{grid-template-columns:1fr;min-height:0}.cockpit-copy{padding:22px 18px 18px}.cockpit-character{height:180px;min-height:180px;order:-1}.cockpit-character img{right:-12%;bottom:-18%;width:92%;height:120%;object-position:right bottom}.region-grid,.muscle-grid-v2{grid-template-columns:repeat(2,minmax(0,1fr))}.movement-filter-grid.compact{grid-template-columns:1fr}.discipline-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.movement-grid{grid-template-columns:1fr}.movement-card{min-height:0}.movement-hero{grid-template-columns:1fr}.movement-hero-character{height:150px;min-height:150px;order:-1}.movement-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}.movement-tabs button{font-size:9.5px;padding:0 4px}.movement-demo-photo{height:330px!important}.movement-levels{grid-template-columns:1fr}.anatomy-figures{grid-template-columns:1fr 1fr}.anatomy-photo-map.clean{width:min(100%,230px)}.modal-card{padding:12px;border-radius:18px}.variant-panel,.detail-card,.info-card{padding:11px}.program-detail-hero{grid-template-columns:1fr}.program-detail-media{min-height:150px}.program-detail-media img{max-height:170px}.canvas-stage{min-height:360px}}
 @media(max-width:520px){.anatomy-focus-preview{height:130px}.region-grid,.muscle-grid-v2,.discipline-grid{grid-template-columns:1fr 1fr}.anatomy-figures{grid-template-columns:1fr}.anatomy-photo-map.clean{width:min(100%,280px)}.movement-demo-photo{height:300px!important}.cockpit-character{height:150px}.cockpit-copy h1{font-size:36px}.program-grid{grid-template-columns:1fr}.modal-card{margin:1vh auto 10vh}}
 
-/* FAFATRAINING anatomy v2 — one shared board, dynamic muscle highlights, no per-exercise artwork. */
-.anatomy-photo-map.clean{aspect-ratio:330/700;background:#070907}
-.anatomy-photo-map.clean>img{inset:0;width:100%;height:100%;object-fit:contain;filter:grayscale(1) contrast(1.06) brightness(.88);opacity:1}
-.anatomy-photo-map.clean:before{background:linear-gradient(90deg,rgba(5,7,5,.38),transparent 9%,transparent 91%,rgba(5,7,5,.38));z-index:3}
-.anatomy-zone-layer{position:absolute;z-index:5;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
-.anatomy-highlight{fill:var(--green);stroke:#efffc5;stroke-width:1.4;filter:drop-shadow(0 0 8px rgba(184,255,24,.58));transition:.2s}
-.anatomy-highlight.primary{fill:rgba(184,255,24,.72);stroke-width:1.8}
-.anatomy-highlight.secondary{fill:rgba(184,255,24,.24);stroke:rgba(184,255,24,.82);stroke-width:1.25;filter:drop-shadow(0 0 4px rgba(184,255,24,.30))}
-.anatomy-zone-badges{bottom:14px;z-index:8}
-.anatomy-zone-badge{backdrop-filter:blur(10px)}
-.anatomy-photo-map.clean .anatomy-view-label{display:none}
-.anatomy-movement .anatomy-photo-map.clean{width:min(100%,310px)}
-@media(max-width:760px){.anatomy-photo-map.clean{width:min(100%,270px)}.anatomy-zone-badges{bottom:10px}.anatomy-zone-badge{font-size:7.5px;padding:4px 6px}}
-
-/* Final anatomy cleanup */
-.anatomy-photo-map.clean:after{z-index:3;background:linear-gradient(180deg,rgba(5,7,5,.02),transparent 72%,rgba(5,7,5,.16) 100%)}
-.anatomy-focus-preview{position:relative;height:148px;margin:10px 0 12px;border:1px solid rgba(184,255,24,.24);border-radius:16px;overflow:hidden;background:#070907;box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}
-.anatomy-focus-media{position:absolute;inset:0;background-image:var(--focus-image);background-repeat:no-repeat;background-size:var(--focus-size);background-position:var(--focus-x) var(--focus-y);filter:grayscale(1) contrast(1.06) brightness(.84)}
-.anatomy-focus-media:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,5,.03),rgba(5,7,5,.12) 48%,rgba(5,7,5,.9) 100%)}
-.anatomy-focus-highlight{display:none}
-.anatomy-focus-preview:after{display:none}
-.anatomy-focus-preview span,.anatomy-focus-preview small{z-index:4}
-@media(max-width:520px){.anatomy-focus-preview{height:132px}}
-
 /* ===== FAFATRAINING professional refinement 2026-09-14 ===== */
-/* Shared anatomy board: precise dynamic regions, never clickable hotspots. */
-.anatomy-photo-map.clean{position:relative;isolation:isolate}
-.anatomy-zone-layer{mix-blend-mode:screen}
-.anatomy-highlight{fill:rgba(184,255,24,.34);stroke:#eaffbf;stroke-width:1.2;filter:drop-shadow(0 0 5px rgba(184,255,24,.44))}
-.anatomy-highlight.primary{fill:rgba(184,255,24,.50);stroke:#f4ffd7;stroke-width:1.55;filter:drop-shadow(0 0 8px rgba(184,255,24,.56))}
-.anatomy-highlight.secondary{fill:rgba(184,255,24,.16);stroke:rgba(184,255,24,.72);stroke-width:1.1;filter:drop-shadow(0 0 3px rgba(184,255,24,.24))}
-.anatomy-view-note{position:absolute;z-index:8;left:12px;right:12px;bottom:14px;padding:7px 9px;border:1px solid rgba(255,255,255,.12);border-radius:11px;background:rgba(5,7,5,.82);backdrop-filter:blur(10px);color:#bac4b8;text-align:center;font-size:8.5px;font-weight:800;line-height:1.3}
-.anatomy-zone-badges:empty{display:none}
-.anatomy-subzones{margin:12px 0;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}
-.anatomy-subzones>b{display:block;color:#fff;font-size:11px;margin-bottom:6px}
-.anatomy-subzones ul{margin:0;padding-left:17px;color:#cbd4c9;font-size:10px;line-height:1.48}
-.anatomy-subzones li+li{margin-top:4px}
-.anatomy-movement .anatomy-card{justify-content:flex-start}
-.anatomy-movement .anatomy-card h3{margin-bottom:8px}
-
 /* Product ergonomics: denser desktop, comfortable mobile, clearer tap hierarchy. */
 .page-head{scroll-margin-top:84px}.btn,.icon-btn,.dock button,.movement-tabs button,.region-pill,.muscle-pill{min-height:44px}
 .program-card,.movement-card,.client-card,.quick-card{content-visibility:auto;contain-intrinsic-size:260px}
@@ -310,4 +302,38 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 @media(max-width:430px){
  .movement-actions{grid-template-columns:1fr}
  .program-actions .btn{flex-basis:100%}
+}
+
+
+/* ===== FINAL CLEAN PRODUCT LAYER ===== */
+/* Program browser: information first, no repeated category poster on every card. */
+.program-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.program-card-clean{min-height:0;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:20px;cursor:pointer}
+.program-card-clean .program-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 14px 0}
+.program-card-clean .program-count{color:var(--muted);font-size:9px;font-weight:850;white-space:nowrap}
+.program-card-clean .program-body{padding:10px 14px 14px}
+.program-card-clean .program-body h3{margin:3px 0 7px;font-size:20px;line-height:1.06;letter-spacing:-.025em}
+.program-card-clean .program-purpose{margin:0;color:#cbd4c9;font-size:11px;line-height:1.4;min-height:31px}
+.program-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:12px 0}
+.program-facts span{border:1px solid var(--line);border-radius:12px;padding:8px;color:var(--muted);font-size:8.5px;line-height:1.2}
+.program-facts b{display:block;color:#fff;font-size:13px;margin-bottom:2px}
+.program-card-clean .program-foot{margin-top:10px;padding-top:10px}
+.program-card-clean:hover{transform:translateY(-2px);border-color:rgba(184,255,24,.34);box-shadow:0 14px 42px rgba(0,0,0,.26)}
+.custom-program-card{cursor:default}
+
+/* Action rows must never hide content in movement/program modals. */
+.program-actions,.movement-actions{position:static!important;bottom:auto!important;margin:14px 0!important;padding:0!important;background:none!important;backdrop-filter:none!important}
+
+/* Legacy anatomy overlay classes are intentionally disabled. */
+.anatomy-zone-layer,.anatomy-highlight,.anatomy-zone-badges,.anatomy-view-note,.anatomy-focus-highlight{display:none!important}
+
+@media(max-width:1000px){.program-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.anatomy-selector{grid-template-columns:1fr}.anatomy-side{position:static}}
+@media(max-width:760px){
+ .program-grid{grid-template-columns:1fr}.program-card-clean .program-purpose{min-height:0}.program-facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .anatomy-figures{grid-template-columns:1fr 1fr}.anatomy-photo-map.clean{width:min(100%,235px)}.anatomy-movement .anatomy-photo-map.clean{width:min(100%,235px)}
+ .anatomy-focus-preview{height:138px}.movement-actions{display:grid!important;grid-template-columns:1fr 1fr;gap:7px}.movement-actions .btn{width:100%}
+}
+@media(max-width:520px){
+ .program-facts{grid-template-columns:1fr 1fr}.anatomy-figures{grid-template-columns:1fr}.anatomy-photo-map.clean,.anatomy-movement .anatomy-photo-map.clean{width:min(100%,280px)}
+ .movement-actions{grid-template-columns:1fr}.anatomy-focus-preview{height:132px}
 }
