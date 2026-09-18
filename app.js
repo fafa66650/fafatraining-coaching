@@ -30,6 +30,7 @@ const SPLITS=['Adaptatif','Full Body','Haut / Bas','Push / Pull / Legs','Muscles
 const VARIABILITY={stable:{label:'Stable',desc:'Garde les mouvements repères pour suivre la progression.'},balanced:{label:'Équilibrée',desc:'Conserve les fondamentaux et renouvelle une partie de la séance.'},renewed:{label:'Renouvelée',desc:'Augmente la rotation d’exercices compatibles sans perdre la logique du programme.'}};
 const INTENSITIES={accessible:{label:'Accessible',desc:'Technique & confort · moins de volume · plus de récupération.'},standard:{label:'Standard',desc:'Prescription de référence · équilibre volume, intensité et récupération.'},intense:{label:'Intensif',desc:'Challenge maîtrisé · volume/densité supérieurs et progressions pertinentes.'}};
 const IMG={fullbody:'./assets/brand/fullbody.jpeg',boxing:'./assets/brand/boxing.jpeg',cardio:'./assets/brand/cardio.jpeg',hyrox:'./assets/brand/hyrox.jpeg',mobility:'./assets/brand/mobility.jpeg',strength:'./assets/brand/strength.jpeg',coaching:'./assets/brand/coaching.jpeg',action:'./assets/brand/avatar-action.jpeg',coach:'./assets/brand/avatar-coach.jpeg',recovery:'./assets/brand/avatar-recovery.jpeg',rope:'./assets/brand/battlerope.jpeg'};
+const DEMO_IMG={fullbody:'./assets/demos/family-fullbody.webp',boxing:'./assets/demos/family-boxing.webp',cardio:'./assets/demos/family-cardio.webp',hyrox:'./assets/demos/family-hyrox.webp',mobility:'./assets/demos/family-mobility.webp',strength:'./assets/demos/family-strength.webp',rope:'./assets/demos/family-battlerope.webp',coach:'./assets/demos/family-coach.webp'};
 const MOVEMENT_MEDIA={
   mv_0099:{
     demo:['./assets/movements/mv_0099/demo-start.webp','./assets/movements/mv_0099/demo-action.webp','./assets/movements/mv_0099/demo-control.webp'],
@@ -41,52 +42,67 @@ const ANATOMY_VIEW_MUSCLES={
  front:new Set(['Pectoraux','Épaules','Biceps','Abdos & gainage','Hanches','Adducteurs','Quadriceps','Tibial antérieur']),
  back:new Set(['Dos','Épaules','Triceps','Hanches','Fessiers','Ischio-jambiers','Mollets'])
 };
-const ANATOMY_FOCUS={
- 'Pectoraux':{view:'front',size:'210%',x:'50%',y:'29%'},'Dos':{view:'back',size:'205%',x:'50%',y:'28%'},
- 'Épaules':{view:'front',size:'225%',x:'74%',y:'30%'},'Biceps':{view:'front',size:'245%',x:'77%',y:'39%'},
- 'Triceps':{view:'back',size:'245%',x:'80%',y:'39%'},'Abdos & gainage':{view:'front',size:'225%',x:'50%',y:'43%'},
- 'Hanches':{view:'front',size:'270%',x:'68%',y:'54%'},'Fessiers':{view:'back',size:'260%',x:'50%',y:'55%'},
- 'Adducteurs':{view:'front',size:'270%',x:'50%',y:'63%'},'Quadriceps':{view:'front',size:'250%',x:'66%',y:'63%'},
- 'Ischio-jambiers':{view:'back',size:'255%',x:'34%',y:'66%'},'Mollets':{view:'back',size:'215%',x:'50%',y:'80%'},'Tibial antérieur':{view:'front',size:'220%',x:'50%',y:'80%'}
+/* Les zones sont des surfaces anatomiques, jamais des points approximatifs. Elles restent
+   partagées par toute l'application : une seule source de vérité pour les 1 509 mouvements. */
+const ANATOMY_SHAPES={
+ front:{
+  'Pectoraux':'<ellipse cx="116" cy="190" rx="45" ry="31"/><ellipse cx="214" cy="190" rx="45" ry="31"/>',
+  'Épaules':'<ellipse cx="78" cy="187" rx="20" ry="26"/><ellipse cx="252" cy="187" rx="20" ry="26"/>',
+  'Biceps':'<ellipse cx="54" cy="247" rx="20" ry="44"/><ellipse cx="276" cy="247" rx="20" ry="44"/>',
+  'Abdos & gainage':'<rect x="124" y="216" width="82" height="125" rx="28"/>',
+  'Hanches':'<ellipse cx="111" cy="354" rx="27" ry="37"/><ellipse cx="219" cy="354" rx="27" ry="37"/>',
+  'Adducteurs':'<path d="M143 366 C157 378 161 429 150 487 C137 464 129 411 132 378 Z"/><path d="M187 366 C173 378 169 429 180 487 C193 464 201 411 198 378 Z"/>',
+  'Quadriceps':'<path d="M82 356 C107 342 134 359 143 397 C150 429 139 484 111 505 C83 477 76 410 82 356 Z"/><path d="M248 356 C223 342 196 359 187 397 C180 429 191 484 219 505 C247 477 254 410 248 356 Z"/>',
+  'Tibial antérieur':'<path d="M102 500 C122 493 136 506 132 555 C128 603 119 635 105 641 C95 610 92 550 102 500 Z"/><path d="M228 500 C208 493 194 506 198 555 C202 603 211 635 225 641 C235 610 238 550 228 500 Z"/>'
+ },
+ back:{
+  'Dos':'<path d="M83 165 C112 145 145 159 165 185 C185 159 218 145 247 165 C244 242 225 306 165 334 C105 306 86 242 83 165 Z"/>',
+  'Épaules':'<ellipse cx="82" cy="182" rx="22" ry="27"/><ellipse cx="248" cy="182" rx="22" ry="27"/>',
+  'Triceps':'<ellipse cx="54" cy="246" rx="19" ry="44"/><ellipse cx="276" cy="246" rx="19" ry="44"/>',
+  'Hanches':'<ellipse cx="112" cy="351" rx="28" ry="31"/><ellipse cx="218" cy="351" rx="28" ry="31"/>',
+  'Fessiers':'<ellipse cx="124" cy="388" rx="43" ry="45"/><ellipse cx="206" cy="388" rx="43" ry="45"/>',
+  'Ischio-jambiers':'<path d="M91 423 C112 408 142 419 147 455 C150 493 137 529 111 536 C91 511 84 463 91 423 Z"/><path d="M239 423 C218 408 188 419 183 455 C180 493 193 529 219 536 C239 511 246 463 239 423 Z"/>',
+  'Mollets':'<path d="M100 527 C119 513 139 525 139 568 C139 609 124 640 106 643 C94 614 91 559 100 527 Z"/><path d="M230 527 C211 513 191 525 191 568 C191 609 206 640 224 643 C236 614 239 559 230 527 Z"/>'
+ }
 };
 function movementMedia(e){if(!e)return null;return MOVEMENT_MEDIA[e.id]||null}
 function movementContextImage(e){const s=norm([e?.uiFamily,e?.universe,e?.family,e?.pattern,e?.name].join(' '));if(/box|combat|sparring|shadow/.test(s))return IMG.boxing;if(/hyrox|sled|ski erg|skierg|rameur|rower/.test(s))return IMG.hyrox;if(/mobil|stretch|etir|yoga|rotation|90 90|hanches/.test(s))return IMG.mobility;if(/cardio|running|course|run|bike|velo|jump|burpee/.test(s))return IMG.cardio;if(/battle rope|corde/.test(s))return IMG.rope;return IMG.strength}
+function movementDemoFamily(e){
+ const n=norm(`${e?.name||''} ${e?.simpleName||''} ${e?.family||''} ${e?.uiFamily||''} ${e?.universe||''} ${e?.pattern||''} ${e?.demoPattern||''}`),pattern=movementPatternGroup(e);
+ if(/battle rope|corde ondulatoire|corde de combat/.test(n))return{key:'battle-rope',label:'Cordes / conditioning',image:DEMO_IMG.rope};
+ if(/boxe|boxing|combat|jab|cross|uppercut|crochet|shadow|pattes d ours|sac de frappe/.test(n)||pattern==='Combat')return{key:'combat',label:'Boxe / combat',image:DEMO_IMG.boxing};
+ if(/hyrox|sled|traineau|skierg|ski erg|farmer carry|wall ball/.test(n))return{key:'hyrox',label:'HYROX / fonctionnel',image:DEMO_IMG.hyrox};
+ if(/mobil|stretch|etir|90 90|yoga|rotation|souplesse|recovery|recuperation/.test(n)||pattern==='Mobilité')return{key:'mobility',label:'Mobilité / contrôle',image:DEMO_IMG.mobility};
+ if(/run|running|course|sprint|trail|jog|bike|velo|rameur|rower|cardio|endurance/.test(n)||pattern==='Cardio')return{key:'cardio',label:'Cardio / endurance',image:DEMO_IMG.cardio};
+ if(/squat|fente|lunge|hinge|deadlift|souleve|hip thrust|pont fessier|kettlebell|swing|full body|burpee|step up|leg press/.test(n)||['Jambes','Charnière','Portés','Sauts / appuis'].includes(pattern))return{key:'fullbody',label:'Bas du corps / full body',image:DEMO_IMG.fullbody};
+ if(/pompe|push up|gainage|plank|ab wheel|crawl/.test(n)||pattern==='Gainage')return{key:'bodyweight',label:'Poids du corps / gainage',image:DEMO_IMG.fullbody};
+ if(/arrache|snatch|epaule|clean|jerk|halteroph|power/.test(n)||pattern==='Haltérophilie / puissance')return{key:'power',label:'Haltérophilie / puissance',image:DEMO_IMG.fullbody};
+ if(['Poussée','Tirage'].includes(pattern)||/developpe|bench|rowing|tirage|traction|curl|triceps|elevation|raise|poulie|machine/.test(n))return{key:'strength',label:'Musculation / renforcement',image:DEMO_IMG.strength};
+ return{key:'coach',label:'Renforcement / technique',image:DEMO_IMG.coach}
+}
+function movementDemoVisual(e){const media=movementMedia(e);if(media?.demo?.length>=3)return{specific:true,label:'Démo spécifique',image:media.demo[1],frames:media.demo};const family=movementDemoFamily(e);return{specific:false,...family}}
+
 const MOVEMENT_NAME_FR={
- 'seated calf raise':'Élévation des mollets assis',
- 'standing calf raise':'Élévation des mollets debout',
- 'calf raise':'Élévation des mollets',
- 'tibialis raise':'Relevé du tibial antérieur',
- 'glute bridge':'Pont fessier',
- 'back extension':'Extension du dos',
- 'leg extension':'Extension des jambes',
- 'leg curl':'Flexion des jambes'
+ 'seated calf raise':'Élévation des mollets assis','standing calf raise':'Élévation des mollets debout','calf raise':'Élévation des mollets','tibialis raise':'Relevé du tibial antérieur','glute bridge':'Pont fessier','back extension':'Extension du dos','leg extension':'Extension des jambes','leg curl':'Flexion des jambes'
 };
-function movementDisplayName(value){
- const raw=String(value?.name||value||'').trim();if(!raw)return'';
- const parts=raw.split(/\s+[—–]\s+/),base=parts.shift(),key=norm(base),fr=MOVEMENT_NAME_FR[key]||base;
- return [fr,...parts].join(' — ')
+function movementDisplayName(value){const raw=String(value?.name||value||'').trim();if(!raw)return'';const parts=raw.split(/\s+[—–]\s+/),base=parts.shift(),key=norm(base),fr=MOVEMENT_NAME_FR[key]||base;return [fr,...parts].join(' — ')}
+function anatomyOverlay(view='front',primary=[],secondary=[]){
+ const p=new Set((primary||[]).map(muscleKey).filter(isAnatomicalMuscle)),s=new Set((secondary||[]).map(muscleKey).filter(isAnatomicalMuscle));
+ const all=[...p,...s].filter((m,i,a)=>a.indexOf(m)===i&&ANATOMY_SHAPES[view]?.[m]);
+ if(!all.length)return'';
+ return `<svg class="anatomy-overlay" viewBox="0 0 330 700" aria-hidden="true">${all.map(m=>`<g class="anatomy-fill ${p.has(m)?'primary':'secondary'}" data-muscle="${esc(m)}">${ANATOMY_SHAPES[view][m]}</g>`).join('')}</svg>`
 }
-function anatomyPhotoMap(view='front',selected=[],primary=null,mode='select'){
- const src=SHARED_ANATOMY[view],chosen=[...(selected||[])].map(muscleKey).filter(isAnatomicalMuscle),pk=primary?muscleKey(primary):null;
- const requested=mode==='movement'?[pk,...chosen.filter(x=>x!==pk)].filter(Boolean):chosen;
- const visible=requested.filter(m=>ANATOMY_VIEW_MUSCLES[view]?.has(m));
- const main=visible.find(m=>m===pk)||visible[0]||'';
- const supporting=visible.filter(m=>m!==main).slice(0,3);
- const caption=[main?`Principal : ${main}`:'',supporting.length?`Secondaires : ${supporting.join(', ')}`:''].filter(Boolean).join(' · ');
- return `<figure class="anatomy-photo-map clean ${mode==='movement'?'movement-map':''}" data-view="${view}"><img src="${src}" alt="Personnage officiel FAFATRAINING · vue ${view==='back'?'de dos':'de face'}" loading="lazy">${caption?`<figcaption>${esc(caption)}</figcaption>`:''}</figure>`
-}
-function anatomyFocusPreview(muscle){
- const key=muscleKey(muscle),cfg=ANATOMY_FOCUS[key];if(!cfg)return'';
- const src=SHARED_ANATOMY[cfg.view],details=(MUSCLE_DETAILS[key]||[]).join(' · ');
- return `<div class="anatomy-focus-preview"><div class="anatomy-focus-media" style="--focus-image:url('${src}');--focus-size:${cfg.size};--focus-x:${cfg.x};--focus-y:${cfg.y}"></div><span>${esc(key)}</span><small>${esc(details||'Repère anatomique')}</small></div>`
+function anatomyPhotoMap(view='front',selected=[],primary=null,mode='select',primaryList=null,secondaryList=null){
+ const src=SHARED_ANATOMY[view],chosen=[...(selected||[])].map(muscleKey).filter(isAnatomicalMuscle);
+ const primaries=(primaryList&&primaryList.length?primaryList:(primary?[muscleKey(primary)]:mode==='select'?chosen:[])).filter(m=>ANATOMY_VIEW_MUSCLES[view]?.has(m));
+ const secondaries=(secondaryList||[]).map(muscleKey).filter(m=>ANATOMY_VIEW_MUSCLES[view]?.has(m)&&!primaries.includes(m));
+ const selectionMode=mode==='select'?chosen.filter(m=>ANATOMY_VIEW_MUSCLES[view]?.has(m)):[];
+ const overlayPrimary=mode==='select'?selectionMode:primaries,overlaySecondary=mode==='select'?[]:secondaries;
+ return `<figure class="anatomy-photo-map clean ${mode==='movement'?'movement-map':''}" data-view="${view}"><img src="${src}" alt="Personnage officiel FAFATRAINING · vue ${view==='back'?'de dos':'de face'}" loading="lazy">${anatomyOverlay(view,overlayPrimary,overlaySecondary)}<span class="anatomy-view-label">${view==='back'?'VUE DE DOS':'VUE DE FACE'}</span></figure>`
 }
 function movementAnatomyDetails(e,primary){
  const key=muscleKey(primary||''),n=norm(`${e?.name||''} ${e?.simpleName||''} ${e?.pattern||''}`);
- if(key==='Mollets'){
-  if(/seated calf|mollet assis|assis.*mollet|calf.*assis/.test(n))return['Soléaire · dominant lorsque le genou est fléchi','Gastrocnémiens · contribution réduite par la flexion du genou'];
-  if(/standing calf|mollet debout|debout.*mollet/.test(n))return['Gastrocnémiens · dominants lorsque le genou est tendu','Soléaire · synergiste'];
-  return['Gastrocnémiens','Soléaire'];
- }
+ if(key==='Mollets'){if(/seated calf|mollet assis|assis.*mollet|calf.*assis/.test(n))return['Soléaire · davantage sollicité genou fléchi','Gastrocnémiens · participation secondaire'];if(/standing calf|mollet debout|debout.*mollet/.test(n))return['Gastrocnémiens · forte contribution genou tendu','Soléaire · synergiste'];return['Gastrocnémiens','Soléaire']}
  if(key==='Tibial antérieur')return['Tibial antérieur · dorsiflexion de cheville'];
  if(key==='Hanches'&&/90 90/.test(n))return['Rotateurs internes / externes de hanche','Contrôle du bassin'];
  if(key==='Fessiers'&&/hip thrust|pont fessier|glute bridge/.test(n))return['Grand fessier · dominant','Moyen fessier · stabilisation'];
@@ -142,7 +158,7 @@ function portalDaysLeft(a){return Math.max(0,Math.ceil((+a.expiresAt-Date.now())
 function portalProgress(){const logs=ui.portalLocal?.logs||[],planned=ui.portalAccess?.sessions?.length||0,done=logs.length,avg=done?Math.round(logs.reduce((n,x)=>n+(+x.rpe||0),0)/done*10)/10:0;return{logs,planned,done,avg}}
 function portalWorkoutSource(kind,id){const a=ui.portalAccess;if(!a)return null;return kind==='session'?(a.sessions||[]).find(x=>x.id===id):(a.programs||[]).find(x=>x.id===id)}
 function portalWorkoutModal(kind,id){const src=portalWorkoutSource(kind,id);if(!src)return'<div class="empty"><strong>Séance introuvable</strong></div>';let ei=0;const blocks=(src.blocks||[]).map(b=>`<section class="portal-workout-block"><header><span>${esc(b.label||'Bloc')}</span><small>${esc(b.instruction||'')}</small></header>${(b.items||[]).map(it=>{if(it.type!=='exercise')return`<div class="portal-instruction">${esc(it.name||it.variantExercise||'Consigne')}</div>`;const idx=ei++,sets=clamp(num(it.sets)||1,1,10);return`<article class="portal-exercise-log" data-ei="${idx}" data-exercise-id="${esc(it.variantExerciseId||it.id||'')}" data-name="${esc(it.variantExercise||it.name||'Exercice')}"><div class="portal-exercise-head"><div><b>${esc(movementDisplayName(it.variantExercise||it.name||'Exercice'))}</b><span>${esc(it.sets||'')} × ${esc(it.reps||'—')} · repos ${esc(it.rest||'—')}</span></div><button type="button" class="btn ghost small" data-action="portal-exercise-info" data-kind="${kind}" data-source="${esc(id)}" data-ei="${idx}">Technique</button></div>${it.cue?`<p>${esc(it.cue)}</p>`:''}<div class="set-log"><header><span>Série</span><span>Réps / durée</span><span>Charge</span><span>RIR</span><span>OK</span></header>${Array.from({length:sets},(_,si)=>`<div class="set-log-row" data-si="${si}"><span>${si+1}</span><input class="p-reps" placeholder="${esc(it.reps||'—')}"><input class="p-load" inputmode="decimal" placeholder="kg"><input class="p-rir" inputmode="numeric" placeholder="2"><input class="p-done" type="checkbox" aria-label="Série terminée"></div>`).join('')}</div></article>`}).join('')}</section>`).join('');return `<div class="portal-modal-bg" data-action="portal-close-modal"><section class="portal-modal" role="dialog" aria-modal="true"><button class="portal-back-mini" data-action="portal-close-modal">← Retour</button><button class="modal-x" data-action="portal-close-modal">×</button><span class="eyebrow">MA SÉANCE</span><h2>${esc(src.title||'Séance FAFATRAINING')}</h2><form id="portal-workout-form"><input type="hidden" name="kind" value="${kind}"><input type="hidden" name="sourceId" value="${esc(id)}">${blocks}<div class="form-grid portal-finish"><div class="field"><label>RPE global</label><select name="rpe"><option value="6">6 · facile</option><option value="7" selected>7 · maîtrisé</option><option value="8">8 · difficile</option><option value="9">9 · très difficile</option><option value="10">10 · maximal</option></select></div><div class="field"><label>Inconfort</label><select name="discomfort"><option value="0">Aucun</option><option value="1">Léger</option><option value="2">Important</option></select></div><div class="field full"><label>Commentaire pour mon coach</label><textarea name="note" placeholder="Facultatif"></textarea></div><div class="field full actions"><button class="btn primary" type="submit">Terminer et enregistrer</button><button class="btn secondary" type="button" data-action="portal-close-modal">Fermer</button></div></div></form></section></div>`}
-function portalExerciseInfo(kind,sourceId,ei){const src=portalWorkoutSource(kind,sourceId);const items=(src?.blocks||[]).flatMap(b=>(b.items||[]).filter(x=>x.type==='exercise'));const it=items[ei];if(!it)return'';return `<div class="portal-modal-bg" data-action="portal-close-modal"><section class="portal-modal compact"><button class="portal-back-mini" data-action="portal-close-modal">← Retour</button><button class="modal-x" data-action="portal-close-modal">×</button><span class="eyebrow">TECHNIQUE</span><h2>${esc(movementDisplayName(it.variantExercise||it.name))}</h2><div class="detail-card"><p><b>Prescription :</b> ${esc(it.sets||'')} × ${esc(it.reps||'—')} · repos ${esc(it.rest||'—')}<br><b>Tempo :</b> ${esc(it.tempo||'contrôlé')}<br><b>Intensité :</b> ${esc(it.intensity||'RPE 6–8')}</p></div>${it.cue?`<div class="detail-card"><h3>Repère</h3><p>${esc(it.cue)}</p></div>`:''}${it.fafaTip?`<div class="detail-card progression-card"><h3>FAFA TIP</h3><p>${esc(it.fafaTip)}</p></div>`:''}</section></div>`}
+function portalExerciseInfo(kind,sourceId,ei){const src=portalWorkoutSource(kind,sourceId);const items=(src?.blocks||[]).flatMap(b=>(b.items||[]).filter(x=>x.type==='exercise'));const it=items[ei];if(!it)return'';const e=getExercise(it.variantExerciseId||it.id),visual=e?movementDemoVisual(e):{image:IMG.action,label:'FAFATRAINING'},prim=e?primaryMusclesOf(e):[],sec=e?secondaryMusclesOf(e):[];return `<div class="portal-modal-bg" data-action="portal-close-modal"><section class="portal-modal compact"><button class="portal-back-mini" data-action="portal-close-modal">← Retour</button><button class="modal-x" data-action="portal-close-modal">×</button><span class="eyebrow">TECHNIQUE</span><h2>${esc(movementDisplayName(it.variantExercise||it.name))}</h2><div class="portal-tech-visual"><img src="${visual.image}" alt="${esc(movementDisplayName(it.variantExercise||it.name))}"><span>${esc(visual.specific?'Démo spécifique':visual.label)}</span></div>${prim.length?`<div class="muscle-legend portal-muscles"><span><i class="primary-dot"></i> Principal${prim.length>1?'aux':''} : ${esc(prim.join(' + '))}</span>${sec.length?`<span><i class="secondary-dot"></i> Secondaires : ${esc(sec.slice(0,4).join(', '))}</span>`:''}</div>`:''}<div class="detail-card"><p><b>Prescription :</b> ${esc(it.sets||'')} × ${esc(it.reps||'—')} · repos ${esc(it.rest||'—')}<br><b>Tempo :</b> ${esc(it.tempo||'contrôlé')}<br><b>Intensité :</b> ${esc(it.intensity||'RPE 6–8')}</p></div>${it.cue?`<div class="detail-card"><h3>Repère</h3><p>${esc(it.cue)}</p></div>`:''}${it.fafaTip?`<div class="detail-card progression-card"><h3>FAFA TIP</h3><p>${esc(it.fafaTip)}</p></div>`:''}</section></div>`}
 function renderPortal(){const a=ui.portalAccess;if(ui.portalError){$('#app').className='portal-root';$('#app').innerHTML=`<main class="portal-login"><section class="portal-login-card"><img src="./assets/brand/logo.jpg" alt="FAFATRAINING"><span class="eyebrow">ACCÈS IMPOSSIBLE</span><h1>Ce code n’est pas utilisable.</h1><p>${esc(ui.portalError)}</p><a class="btn primary" href="#portal-login">Saisir un autre code</a></section></main>`;return}if(!a){$('#app').className='boot';$('#app').innerHTML='<div class="boot-card"><img src="./assets/brand/logo.jpg" alt="FAFATRAINING"><strong>FAFATRAINING</strong><span>Ouverture de ton portail…</span></div>';return}if(+a.expiresAt<=Date.now()){$('#app').className='portal-root';$('#app').innerHTML=`<main class="portal-login"><section class="portal-login-card"><img src="./assets/brand/logo.jpg" alt="FAFATRAINING"><span class="eyebrow">ACCÈS EXPIRÉ</span><h1>Ton accompagnement est arrivé à son terme.</h1><p>Cet accès a expiré le ${esc(new Date(+a.expiresAt).toLocaleString('fr-FR'))}. Contacte ton coach pour prolonger ou renouveler ton programme.</p><a class="btn secondary" href="#portal-login">Utiliser un nouveau code</a></section></main>`;return}const pr=portalProgress(),next=(a.sessions||[]).filter(x=>x.scheduledAt&&+new Date(x.scheduledAt)>=Date.now()).sort((x,y)=>+new Date(x.scheduledAt)-+new Date(y.scheduledAt))[0],first=(a.programs||[])[0],tab=ui.portalTab||'today';let body='';if(tab==='today'){body=`<section class="portal-hero"><div><span class="eyebrow">BONJOUR ${esc(String(a.client?.firstName||'').toUpperCase())}</span><h1>${next?'Ta prochaine séance est prête.':'Ton programme t’attend.'}</h1><p>${esc(a.client?.goal||'Accompagnement FAFATRAINING')} · ${portalDaysLeft(a)} jour${portalDaysLeft(a)>1?'s':''} d’accès restant${portalDaysLeft(a)>1?'s':''}</p>${next?`<button class="btn primary" data-action="portal-start-session" data-id="${esc(next.id)}">Démarrer · ${esc(next.title)}</button>`:first?`<button class="btn primary" data-action="portal-start-program" data-id="${esc(first.id)}">Démarrer mon programme</button>`:''}</div><img src="./assets/brand/avatar-action.jpeg" alt="FAFATRAINING"></section><div class="portal-kpis"><article><b>${pr.done}</b><span>Séances terminées</span></article><article><b>${pr.avg||'—'}</b><span>RPE moyen</span></article><article><b>${portalDaysLeft(a)}</b><span>Jours restants</span></article></div>${next?`<section class="portal-section"><div class="section-head"><div><span class="eyebrow">PROCHAINE SÉANCE</span><h2>${esc(next.title)}</h2><p>${esc(formatDate(next.scheduledAt))}</p></div></div>${safePortalBlocks(next.blocks).map((b)=>`<article class="portal-summary-card"><b>${esc(b.label)}</b><span>${b.items.filter(x=>x.type==='exercise').length} exercices</span></article>`).join('')}</section>`:''}`}
 else if(tab==='programs'){body=`<section class="portal-section"><div class="page-head"><div><span class="eyebrow">MON PROGRAMME</span><h1>Ce que mon coach m’a préparé</h1></div></div><div class="portal-program-grid">${(a.programs||[]).map(p=>`<article class="portal-program-card"><span class="eyebrow">${esc(p.objective||'PROGRAMME')}</span><h3>${esc(p.title)}</h3><p>${esc(p.duration)} min · ${esc(p.frequency)}×/semaine · ${esc(p.bodyZone||'Corps entier')}</p><div class="actions"><button class="btn primary small" data-action="portal-start-program" data-id="${esc(p.id)}">Démarrer</button><button class="btn secondary small" data-action="portal-view-program" data-id="${esc(p.id)}">Voir le détail</button></div></article>`).join('')||'<div class="empty"><strong>Aucun programme transmis</strong></div>'}</div></section>`}
 else if(tab==='planning'){body=`<section class="portal-section"><div class="page-head"><div><span class="eyebrow">MON PLANNING</span><h1>Mes prochaines séances</h1></div></div><div class="portal-agenda">${(a.sessions||[]).slice().sort((x,y)=>String(x.scheduledAt).localeCompare(String(y.scheduledAt))).map(x=>`<article><div><b>${esc(x.title)}</b><span>${esc(formatDate(x.scheduledAt))}</span></div><button class="btn primary small" data-action="portal-start-session" data-id="${esc(x.id)}">Démarrer</button></article>`).join('')||'<div class="empty"><strong>Aucune séance planifiée</strong><span>Ton programme reste accessible dans l’onglet Programme.</span></div>'}</div></section>`}
@@ -164,31 +180,86 @@ function getProgram(id){return window.FTCatalog?.getProgram(id)||PROGRAM_BY_ID.g
 function muscleKey(label){const n=norm(label);if(/pector/.test(n))return'Pectoraux';if(/dors|grand dorsal|lomb|trap/.test(n))return'Dos';if(/epaule|delto|omoplate/.test(n))return'Épaules';if(/biceps|brachial/.test(n))return'Biceps';if(/triceps/.test(n))return'Triceps';if(/abdo|core|gainage|oblique|transverse/.test(n))return'Abdos & gainage';if(/hanche|psoas|flechisseur hanche|flexion hanche|rotateur/.test(n))return'Hanches';if(/fess|glute/.test(n))return'Fessiers';if(/adduct/.test(n))return'Adducteurs';if(/quad|cuisse avant/.test(n))return'Quadriceps';if(/ischio|hamstring|chaine poster/.test(n))return'Ischio-jambiers';if(/tibial/.test(n))return'Tibial antérieur';if(/mollet|calf|gastrocn|soleaire|soléaire/.test(n))return'Mollets';return label}
 
 function isAnatomicalMuscle(label){return MUSCLES.includes(label)}
-function primaryMuscleOf(e){
- const zone=muscleKey(e?.bodyZone||'');
- if(isAnatomicalMuscle(zone))return zone;
- const raw=muscleKey(e?.primaryMuscle||'');
- if(isAnatomicalMuscle(raw))return raw;
- const p=norm(e?.demoPattern||''),n=norm(`${e?.name||''} ${e?.pattern||''}`);
- if(/core|vup|hanging core/.test(p)||/ab wheel|gainage|plank|crunch|sit up|anti extension|anti rotation/.test(n))return'Abdos & gainage';
- if(/push horizontal|pec deck/.test(p)||/developpe couche|pompe|push up|ecarte/.test(n))return'Pectoraux';
- if(/push vertical|lateral raise|rotator|shoulder mobility/.test(p)||/developpe epaule|elevation laterale|oiseau/.test(n))return'Épaules';
- if(/pull horizontal|pull vertical|shrug|rower/.test(p)||/rowing|tirage|traction|pulldown/.test(n))return'Dos';
- if(/curl/.test(p)||/curl|biceps/.test(n))return'Biceps';
- if(/triceps/.test(p)||/extension triceps|dips/.test(n))return'Triceps';
- if(/adduction/.test(p)||/adduct/.test(n))return'Adducteurs';
- if(/tibial/.test(p)||/tibial/.test(n))return'Tibial antérieur';
- if(/calf/.test(p)||/mollet|calf|gastrocn|soleaire|soléaire/.test(n))return'Mollets';
- if(/hip 9090/.test(p)||/90 90|psoas|rotation hanche/.test(n))return'Hanches';
- if(/bridge|clamshell|abduction/.test(p)||/hip thrust|pont fessier|glute/.test(n))return'Fessiers';
- if(/hinge/.test(p)||/souleve de terre roumain|good morning/.test(n))return'Ischio-jambiers';
- if(/squat|leg press|leg extension|step|lunge/.test(p)||/squat|fente|presse a cuisses|leg extension/.test(n))return'Quadriceps';
- return null
+function primaryMusclesOf(e){
+ const n=norm(`${e?.name||''} ${e?.simpleName||''}`),p=norm(e?.demoPattern||''),pat=norm(e?.pattern||'');
+ const uniq=a=>[...new Set(a.map(muscleKey).filter(isAnatomicalMuscle))].slice(0,2);
+ /* Les règles spécifiques au geste passent avant les champs historiques quand ceux-ci étaient
+    trop génériques (ex. chaîne postérieure pour un tirage d’épaulé). */
+ if(/tirage d epaule|tirage epaule|clean pull|high pull|tirage menton|upright row/.test(n))return['Épaules'];
+ if(/tirage d arrache|snatch pull/.test(n))return['Dos'];
+ if(/shrug|haussement/.test(n)||/shrug/.test(p))return['Dos'];
+ if(/tibial/.test(n)||/tibial/.test(p))return['Tibial antérieur'];
+ if(/mollet|calf|gastrocn|soleaire|soléaire/.test(n)||/calf/.test(p))return['Mollets'];
+ if(/ab wheel|gainage|plank|crunch|sit up|anti extension|anti rotation|dead bug/.test(n)||/core|vup|hanging core/.test(p))return['Abdos & gainage'];
+ if(/developpe couche|bench press|pompe|push up|ecarte|chest press|pec deck/.test(n)||/push horizontal|pec deck/.test(p))return['Pectoraux'];
+ if(/developpe epaule|overhead press|shoulder press|elevation laterale|oiseau|reverse fly/.test(n)||/push vertical|lateral raise|rotator|shoulder mobility/.test(p))return['Épaules'];
+ if(/rowing|row |traction|pull up|pulldown|tirage vertical|tirage horizontal/.test(n)||/pull horizontal|pull vertical|rower/.test(p))return['Dos'];
+ if(/leg curl|hamstring curl|nordic/.test(n))return uniq(['Ischio-jambiers','Fessiers']);
+ if(/mcgill curl up|curl up/.test(n))return['Abdos & gainage'];
+ if(/curl/.test(n)||/curl/.test(p))return['Biceps'];
+ if(/triceps|extension.*bras|dips/.test(n)||/triceps/.test(p))return['Triceps'];
+ if(/adduct/.test(n)||/adduction/.test(p))return['Adducteurs'];
+ if(/90 90|psoas|rotation hanche|mobilite hanche/.test(n)||/hip 9090/.test(p))return['Hanches'];
+ if(/hip thrust|pont fessier|glute bridge|clamshell|abduction hanche/.test(n)||/bridge|clamshell|abduction/.test(p))return['Fessiers'];
+ if(/souleve de terre roumain|romanian deadlift|good morning|leg curl|curl ischio|nordic/.test(n)||/hinge/.test(p))return['Ischio-jambiers'];
+ if(/squat|fente|lunge|presse a cuisses|leg press|leg extension|step up|split squat/.test(n)||/squat|leg press|leg extension|step|lunge/.test(p))return['Quadriceps'];
+ if(/arrach|snatch|epaule jete|clean and jerk|clean & jerk|power clean|hang clean|clean complet|epaule complet|jerk/.test(n)||/olympic/.test(p))return['Quadriceps'];
+ if(/jab|cross|crochet|uppercut|shadow boxing|sac de frappe|pattes d ours/.test(n)||/boxing/.test(p))return['Épaules'];
+ const raw=muscleKey(e?.primaryMuscle||'');if(isAnatomicalMuscle(raw))return[raw];
+ const zone=muscleKey(e?.bodyZone||'');if(isAnatomicalMuscle(zone))return[zone];
+ if(/chaine poster/.test(norm(e?.primaryMuscle||'')))return['Ischio-jambiers'];
+ if(/jambes/.test(norm(e?.primaryMuscle||'')))return['Quadriceps'];
+ if(/bras/.test(norm(e?.primaryMuscle||'')))return['Biceps'];
+ return[]
 }
+function primaryMuscleOf(e){return primaryMusclesOf(e)[0]||null}
 function secondaryMusclesOf(e){
- const primary=primaryMuscleOf(e),raw=[...(e?.secondaryMuscles||[]),...(e?.muscles||[])],out=[];
- for(const item of raw){const m=muscleKey(item);if(isAnatomicalMuscle(m)&&m!==primary&&!out.includes(m))out.push(m)}
- return out.slice(0,4)
+ const primaries=primaryMusclesOf(e),n=norm(`${e?.name||''} ${e?.simpleName||''}`),p=norm(e?.demoPattern||''),out=[];
+ const add=m=>{m=muscleKey(m);if(isAnatomicalMuscle(m)&&!primaries.includes(m)&&!out.includes(m))out.push(m)};
+ const addMany=a=>a.forEach(add);
+ if(/push horizontal|pec deck/.test(p)){addMany(['Triceps','Épaules']);return out}
+ if(/push vertical|lateral raise/.test(p)){add('Triceps');return out}
+ if(/pull horizontal/.test(p)){addMany(['Biceps','Épaules']);return out}
+ if(/pull vertical/.test(p)){add('Biceps');return out}
+ if(/shrug/.test(p)){add('Épaules');return out}
+ if(/triceps/.test(p)){add('Épaules');return out}
+ if(/leg curl|hamstring curl/.test(n)){add('Mollets');return out}
+ if(/nordic/.test(n)){addMany(['Fessiers','Mollets']);return out}
+ if(/mcgill curl up|curl up/.test(n)){return out}
+ if(/curl/.test(p)){return out}
+ if(/squat|leg press/.test(p)){addMany(['Fessiers','Ischio-jambiers']);return out}
+ if(/leg extension/.test(p)){return out}
+ if(/lunge|step/.test(p)){addMany(['Fessiers','Ischio-jambiers']);return out}
+ if(/hinge/.test(p)){addMany(['Fessiers','Dos']);return out}
+ if(/bridge|clamshell|abduction/.test(p)){add('Hanches');return out}
+ if(/adduction/.test(p)){add('Hanches');return out}
+ if(/calf/.test(p)){return out}
+ if(/core|vup|hanging core/.test(p)){if(/hanging|releve|raise/.test(n))add('Hanches');return out}
+ if(/hip 9090/.test(p)){addMany(['Fessiers','Adducteurs']);return out}
+ if(/jump/.test(p)){addMany(['Fessiers','Mollets']);return out}
+ if(/crawl/.test(p)){add('Épaules');return out}
+ if(/battle rope/.test(p)){add('Abdos & gainage');return out}
+ if(/boxing/.test(p)){addMany(['Triceps','Abdos & gainage']);return out}
+ if(/olympic/.test(p)){
+   if(/tirage d epaule|clean pull|high pull/.test(n))addMany(['Dos','Quadriceps','Fessiers','Ischio-jambiers']);
+   else if(/tirage d arrache|snatch pull/.test(n))addMany(['Épaules','Quadriceps','Fessiers','Ischio-jambiers']);
+   else if(/jete|jerk/.test(n))addMany(['Triceps','Quadriceps','Fessiers']);
+   else addMany(['Fessiers','Ischio-jambiers','Dos','Épaules']);
+   return out.slice(0,5)
+ }
+ const raw=[...(e?.secondaryMuscles||[]),...(e?.muscles||[])];
+ for(const item of raw)add(item);
+ if(primaries.includes('Pectoraux'))addMany(['Triceps','Épaules']);
+ if(primaries.includes('Dos'))add('Biceps');
+ if(primaries.includes('Quadriceps'))add('Fessiers');
+ if(primaries.includes('Ischio-jambiers'))add('Fessiers');
+ return out.slice(0,5)
+}
+function movementSummary(e){
+ const p=primaryMusclesOf(e),s=secondaryMusclesOf(e),name=movementDisplayName(e);
+ if(!p.length)return `Mouvement ${name}. Repères techniques, sécurité et adaptations sont regroupés dans cette fiche.`;
+ const pp=p.join(' + '),ss=s.slice(0,4).join(', ');
+ return `${p.length>1?'Muscles principaux':'Muscle principal'} : ${pp}.${ss?` Secondaires : ${ss}.`:''}`
 }
 function bodyRegionOf(e){
  const primary=primaryMuscleOf(e);
@@ -234,17 +305,17 @@ function canonicalEquipmentLabel(label){
  return'Petit matériel'
 }
 function equipmentGroupsOf(e){return [...new Set((e?.equipment||[]).map(canonicalEquipmentLabel).filter(Boolean))]}
-function movementTargetMuscles(e,mode='primary'){const p=primaryMuscleOf(e),s=secondaryMusclesOf(e);return mode==='all'?[p,...s].filter(Boolean):p?[p]:[]}
+function movementTargetMuscles(e,mode='primary'){const p=primaryMusclesOf(e),s=secondaryMusclesOf(e);return mode==='all'?[...p,...s].filter(Boolean):p}
 
 function demoTriptych(e){
  const steps=(e?.techniqueSteps||[]).filter(Boolean),labels=['Départ','Action','Contrôle'];
  const fallback=[e?.cues||'Installe une position stable.',steps[1]||'Exécute le mouvement sans perdre les repères.',e?.fafaTip||'Termine proprement et garde le contrôle.'];
- const media=movementMedia(e);
- if(media?.demo?.length>=3){
-  return `<section class="demo-wrap official-demo premium-media"><div class="demo-head"><div><span class="eyebrow">DÉMONSTRATION FAFATRAINING</span><h3>Le mouvement, en trois repères.</h3><p>Visuels spécifiques au mouvement.</p></div><span class="demo-pattern">visuel officiel</span></div><div class="demo-grid">${[0,1,2].map((i)=>`<article class="demo-frame"><b>${labels[i]}</b><img class="movement-demo-photo" src="${media.demo[i]}" alt="${esc(movementDisplayName(e)||'Mouvement')} · ${labels[i]}" loading="lazy"><p>${esc(steps[i]||fallback[i]||fallback[1])}</p>${i<2?'<span class="motion-arrow" aria-hidden="true">→</span>':''}</article>`).join('')}</div></section>`
+ const visual=movementDemoVisual(e);
+ if(visual.specific&&visual.frames?.length>=3){
+  return `<section class="demo-wrap official-demo premium-media"><div class="demo-head"><div><span class="eyebrow">DÉMONSTRATION FAFATRAINING</span><h3>${esc(movementDisplayName(e))}</h3><p>Trois visuels spécifiques au mouvement.</p></div><span class="demo-pattern">démo spécifique</span></div><div class="demo-grid">${[0,1,2].map((i)=>`<article class="demo-frame"><b>${labels[i]}</b><img class="movement-demo-photo" src="${visual.frames[i]}" alt="${esc(movementDisplayName(e))} · ${labels[i]}" loading="lazy"><p>${esc(steps[i]||fallback[i]||fallback[1])}</p>${i<2?'<span class="motion-arrow" aria-hidden="true">→</span>':''}</article>`).join('')}</div></section>`
  }
  const phaseText=[steps[0]||fallback[0],steps[1]||fallback[1],steps[2]||fallback[2]];
- return `<section class="demo-guide technique-first"><div class="demo-guide-identity"><img src="${IMG.action}" alt="Coach FAFATRAINING" loading="lazy"><div><span class="eyebrow">REPÈRES TECHNIQUES</span><h3>${esc(movementDisplayName(e)||'Mouvement')}</h3><p>Les trois repères essentiels pour préparer, exécuter et contrôler le mouvement.</p></div></div><div class="demo-steps">${phaseText.map((txt,i)=>`<article><span>${i+1}</span><div><b>${labels[i]}</b><p>${esc(txt)}</p></div></article>`).join('')}</div></section>`
+ return `<section class="family-demo-card" data-demo-family="${esc(visual.key||'coach')}"><div class="family-demo-media"><img src="${visual.image}" alt="Personnage FAFATRAINING · ${esc(visual.label)}" loading="lazy"><span class="family-demo-badge">${esc(visual.label)}</span></div><div class="family-demo-copy"><span class="eyebrow">DÉMONSTRATION GUIDÉE</span><h3>${esc(movementDisplayName(e))}</h3><p class="family-demo-note">Le visuel représente la famille du geste avec le personnage FAFATRAINING. Les repères ci-dessous sont propres à cet exercice.</p><div class="demo-steps">${phaseText.map((txt,i)=>`<article><span>${i+1}</span><div><b>${labels[i]}</b><p>${esc(txt)}</p></div></article>`).join('')}</div></div></section>`
 }
 
 function programFamilyLabel(p){return p?.catalogFamily||programBaseTitle(p)}
@@ -308,7 +379,7 @@ function renderCreate(){return `<div class="page-head"><div><span class="eyebrow
 function renderAnatomy(selected=[]){
  const current=selected[0]||'';
  const grouped=Object.entries(BODY_REGIONS).map(([region,muscles])=>`<section class="muscle-group-list"><div class="muscle-group-head"><b>${esc(region)}</b><span>${muscles.length} zones</span></div><div>${muscles.map(m=>`<button data-action="toggle-muscle" data-muscle="${esc(m)}" class="${current===m?'on':''}">${esc(m)}</button>`).join('')}</div></section>`).join('');
- return `<div class="anatomy-layout anatomy-shared anatomy-clean anatomy-selector"><div class="anatomy-figures"><article class="anatomy-card"><h3>Face</h3><p>Repères antérieurs · personnage FAFATRAINING</p>${anatomyPhotoMap('front',selected,null,'select')}</article><article class="anatomy-card"><h3>Dos</h3><p>Repères postérieurs · personnage FAFATRAINING</p>${anatomyPhotoMap('back',selected,null,'select')}</article></div><aside class="anatomy-side"><span class="eyebrow">SÉLECTION MUSCULAIRE</span><h3>${current?esc(current):'Choisis une zone'}</h3>${current?anatomyFocusPreview(current):''}<p>${current?'Zone sélectionnée. Choisis une autre zone dans la liste pour changer de cible.':'Choisis une zone anatomique dans la liste ci-dessous.'}</p><div class="muscle-list grouped">${grouped}</div><div class="anatomy-side-actions"><button class="btn link" data-action="clear-muscles">Effacer la sélection</button>${current?`<button class="btn primary small" data-action="search-selected-muscles">Voir les mouvements</button>`:''}</div></aside></div>`
+ return `<div class="anatomy-layout anatomy-shared anatomy-clean anatomy-selector"><div class="anatomy-figures"><article class="anatomy-card"><h3>Face</h3><p>Vue antérieure</p>${anatomyPhotoMap('front',selected,null,'select')}</article><article class="anatomy-card"><h3>Dos</h3><p>Vue postérieure</p>${anatomyPhotoMap('back',selected,null,'select')}</article></div><aside class="anatomy-side"><span class="eyebrow">CHOIX DE LA ZONE</span><h3>${current?esc(current):'Choisis un muscle'}</h3><p>${current?'La zone sélectionnée apparaît en vert sur la vue correspondante.':'Choisis un muscle dans la liste : la zone est colorée sur le personnage puis les mouvements associés sont filtrés.'}</p><div class="muscle-list grouped">${grouped}</div><div class="anatomy-side-actions"><button class="btn link" data-action="clear-muscles">Effacer</button>${current?`<button class="btn primary small" data-action="search-selected-muscles">Voir les mouvements</button>`:''}</div></aside></div>`
 }
 function programFilterOptions(){const groups=programGroups();return {universe:['Tous',...new Set(groups.map(g=>g.sample.family||g.sample.category).filter(Boolean))],equipment:['Tous',...new Set(groups.map(g=>g.sample.equipmentClass).filter(Boolean))],zone:['Toutes',...new Set(groups.map(g=>g.sample.bodyZone).filter(Boolean))]}}
 function filteredProgramGroups(){const f=ui.programFilters;return programGroups().filter(g=>{const ps=g.programs,hay=norm(ps.map(p=>[programBaseTitle(p),p.title,p.family,p.category,p.objective,p.bodyZone,p.equipmentClass,p.programType].join(' ')).join(' '));if(f.q&&!hay.includes(norm(f.q)))return false;if(f.universe!=='Tous'&&!ps.some(p=>(p.family||p.category)===f.universe))return false;if(f.equipment!=='Tous'&&!ps.some(p=>p.equipmentClass===f.equipment))return false;if(f.zone!=='Toutes'&&!ps.some(p=>p.bodyZone===f.zone))return false;if(f.duration!=='Toutes'&&!ps.some(p=>{const d=+p.duration||0;return f.duration==='≤30'?d<=30:f.duration==='31–45'?d>=31&&d<=45:f.duration==='46–60'?d>=46&&d<=60:d>60}))return false;return true})}
@@ -378,36 +449,37 @@ function renderMovements(){
  ${active&&shown.length<all.length?`<div class="actions" style="justify-content:center;margin:16px"><button class="btn secondary" data-action="more-movements">Afficher plus</button></div>`:''}`
 }
 function movementCard(g){
- const e=g.sample,primary=primaryMuscleOf(e),secondary=secondaryMusclesOf(e),pattern=movementPatternGroup(e),eq=equipmentGroupsOf(e);
- return `<article class="movement-card" data-action="open-movement" data-id="${e.id}"><div class="movement-top"><span>${esc(e.uiFamily||e.universe||e.family)}</span><b>${esc(primary||e.bodyZone||'Effort global')}</b></div><h3>${esc(movementDisplayName(g.title))}</h3><p>${esc(e.cues||'Ouvre la famille pour voir la technique et les variantes.')}</p><div class="meta">${primary?`<span>${esc(primary)}</span>`:''}${secondary.slice(0,2).map(x=>`<span>${esc(x)}</span>`).join('')}<span>${esc(pattern)}</span>${eq[0]?`<span>${esc(eq[0])}</span>`:''}</div><footer><span>${g.items.length} variante${g.items.length>1?'s':''}</span><strong>Ouvrir →</strong></footer></article>`
+ const e=g.sample,primaries=primaryMusclesOf(e),secondary=secondaryMusclesOf(e),pattern=movementPatternGroup(e),eq=equipmentGroupsOf(e),visual=movementDemoVisual(e);
+ return `<article class="movement-card visual-card" data-action="open-movement" data-id="${e.id}"><div class="movement-card-media"><img src="${visual.image}" alt="${esc(movementDisplayName(e))}" loading="lazy"><span>${esc(visual.specific?'Démo spécifique':visual.label)}</span></div><div class="movement-card-content"><div class="movement-top"><span>${esc(e.uiFamily||e.universe||e.family)}</span><b>${esc(primaries[0]||e.bodyZone||'Effort global')}</b></div><h3>${esc(movementDisplayName(g.title))}</h3><p>${esc(movementSummary(e))}</p><div class="meta">${primaries.map(x=>`<span class="primary-muscle-chip">${esc(x)}</span>`).join('')}${secondary.slice(0,2).map(x=>`<span>${esc(x)}</span>`).join('')}<span>${esc(pattern)}</span>${eq[0]?`<span>${esc(eq[0])}</span>`:''}</div><footer><span>${visual.specific?'Démo spécifique · ':''}${g.items.length} variante${g.items.length>1?'s':''}</span><strong>Ouvrir →</strong></footer></div></article>`
 }
 function movementAdaptationCard(e,key,label,sub){const a=e?.adaptations?.[key]||{},fallback=key==='accessible'?e?.regressionStrategy:key==='intense'?e?.progressionStrategy:e?.cues;return `<article class="movement-level ${key}"><span class="level-label">${esc(label)}</span><b>${esc(sub)}</b><p>${esc(a.tip||fallback||'Adapter progressivement la difficulté.')}</p>${a.volume?`<small>${esc(a.volume)}</small>`:''}</article>`}
 function movementModal(e){
  const group=movementGroups(EX).find(g=>g.key===norm(e.progressionGroup||e.simpleName||e.name));
- const primary=primaryMuscleOf(e),secondary=secondaryMusclesOf(e),muscles=[primary,...secondary].filter(Boolean),tab=ui.movementTab||'demo';
+ const primaries=primaryMusclesOf(e),primary=primaries[0]||null,secondary=secondaryMusclesOf(e),muscles=[...primaries,...secondary].filter(Boolean),tab=ui.movementTab||'demo';
  const hasSpecificDemo=(movementMedia(e)?.demo?.length||0)>=3;
- const tabs=[['demo',hasSpecificDemo?'Démo':'Repères'],['anatomy','Anatomie'],['technique','Technique'],['variants','Variantes']];
+ const tabs=[['demo','Démo'],['anatomy','Muscles'],['technique','Technique'],['variants','Variantes']];
  let body='';
  if(tab==='demo')body=`${demoTriptych(e)}<div class="movement-levels">${movementAdaptationCard(e,'accessible','Accessible','Technique & confort')}${movementAdaptationCard(e,'standard','Standard','Prescription de référence')}${movementAdaptationCard(e,'intense','Intensif','Challenge maîtrisé')}</div>`;
  else if(tab==='anatomy'){
-  const frontVisual=anatomyPhotoMap('front',muscles,primary,'movement');
-  const backVisual=anatomyPhotoMap('back',muscles,primary,'movement');
-  const principalLabel=primary||'Effort global / technique';
-  body=`<div class="muscle-legend"><span><i class="primary-dot"></i> Principal : ${esc(principalLabel)}</span><span><i class="secondary-dot"></i> Secondaires : ${esc(secondary.join(', ')||'—')}</span></div>
+  const frontVisual=anatomyPhotoMap('front',muscles,primary,'movement',primaries,secondary);
+  const backVisual=anatomyPhotoMap('back',muscles,primary,'movement',primaries,secondary);
+  const principalLabel=primaries.length?primaries.join(' + '):'Effort global / technique';
+  body=`<div class="muscle-legend"><span><i class="primary-dot"></i> Principal${primaries.length>1?'aux':''} : ${esc(principalLabel)}</span><span><i class="secondary-dot"></i> Secondaires : ${esc(secondary.join(', ')||'—')}</span></div>
   <div class="anatomy-layout anatomy-movement anatomy-shared anatomy-clean">
    <article class="anatomy-card"><h3>Vue de face</h3>${frontVisual}</article>
    <article class="anatomy-card"><h3>Vue de dos</h3>${backVisual}</article>
-   <aside class="anatomy-side"><span class="eyebrow">ANATOMIE DU MOUVEMENT</span><h3>${esc(principalLabel)}</h3>
-   ${primary?anatomyFocusPreview(primary):''}
-   <div class="anatomy-target-list">${primary?`<button class="target-muscle primary" data-action="movement-anatomy-muscle" data-muscle="${esc(primary)}"><b>${esc(primary)}</b><small>Muscle principal</small></button>`:''}${secondary.map(m=>`<button class="target-muscle" data-action="movement-anatomy-muscle" data-muscle="${esc(m)}"><b>${esc(m)}</b><small>Muscle secondaire</small></button>`).join('')}</div>
-   ${primary?`<div class="anatomy-subzones"><b>Sous-zones utiles</b><ul>${movementAnatomyDetails(e,primary).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:`<p>Ce mouvement n’isole pas proprement un seul muscle.</p>`}
-   <button class="btn secondary wide" data-action="movement-anatomy">Ouvrir la carte musculaire complète</button></aside>
+   <aside class="anatomy-side"><span class="eyebrow">MUSCLES SOLLICITÉS</span><h3>${esc(principalLabel)}</h3>
+   <p class="anatomy-purpose">Lecture rapide pour vérifier ce que le mouvement sollicite réellement. Le vert indique le travail principal, le blanc translucide les muscles secondaires.</p>
+   <div class="anatomy-target-list">${primaries.map(m=>`<div class="target-muscle primary"><b>${esc(m)}</b><small>Muscle principal</small></div>`).join('')}${secondary.map(m=>`<div class="target-muscle"><b>${esc(m)}</b><small>Muscle secondaire</small></div>`).join('')}</div>
+   ${primary?`<div class="anatomy-subzones"><b>Repères utiles</b><ul>${movementAnatomyDetails(e,primary).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:''}
+   </aside>
   </div>`;
  }
  else if(tab==='technique')body=`<div class="tech-grid"><article class="info-card technique-card"><span class="eyebrow">EXÉCUTION</span><h3>Technique</h3><ol>${(e.techniqueSteps||[e.cues]).map(x=>`<li>${esc(x)}</li>`).join('')}</ol><p><b>Respiration :</b> ${esc(e.breathing||'Respiration régulière.')}</p></article><article class="info-card warning"><span class="eyebrow">SÉCURITÉ</span><h3>Erreur & vigilance</h3><p><b>Erreur fréquente</b><br>${esc(e.error||'Perdre les repères techniques.')}</p><p><b>Vigilance</b><br>${esc(e.vigilance||'Adapte si la technique se dégrade ou en cas de douleur inhabituelle.')}</p><p><b>FAFA TIP</b><br>${esc(e.fafaTip||e.cues||'Garde le contrôle.')}</p></article></div>`;
- else body=`${group&&group.items.length>1?`<section class="variant-panel"><span class="eyebrow">FAMILLE TECHNIQUE</span><h3>${esc(group.title)}</h3><p class="variant-help">Les variantes sont regroupées ici : tempo, assistance, amplitude, matériel et progression n’encombrent plus la bibliothèque principale.</p><div class="variant-list">${group.items.slice(0,50).map(x=>`<button class="chip ${x.id===e.id?'on':''}" data-action="open-movement" data-id="${x.id}">${esc(movementDisplayName(x))}</button>`).join('')}</div></section>`:'<div class="empty"><strong>Aucune autre variante enregistrée</strong></div>'}<div class="detail-grid movement-progression"><article class="detail-card"><h3>Régression</h3><p>${esc(e.regressionStrategy||'Réduire amplitude, charge ou complexité en conservant le même objectif moteur.')}</p></article><article class="detail-card"><h3>Progression</h3><p>${esc(e.progressionStrategy||'Augmenter progressivement charge, amplitude, stabilité ou densité.')}</p></article><article class="detail-card"><h3>Matériel</h3><p>${esc((e.equipment||[]).join(' · ')||'Sans matériel')}</p></article></div>`;
- const heroPrimary=primary?`Principal · ${primary}`:'Effort global / technique';
- return modal(`<section class="movement-hero"><div class="movement-hero-copy"><span class="eyebrow">${esc(e.uiFamily||e.universe||e.family)}</span><h2>${esc(movementDisplayName(e))}</h2><p>${esc(e.why||'Mouvement technique FAFATRAINING.')}</p><div class="meta"><span>${esc(heroPrimary)}</span>${secondary.slice(0,2).map(x=>`<span>${esc(x)}</span>`).join('')}<span>${esc(equipmentGroupsOf(e).slice(0,2).join(' · ')||'Sans matériel')}</span></div></div><div class="movement-hero-character"><img src="${IMG.action}" alt="Personnage officiel FAFATRAINING"></div></section><nav class="movement-tabs" aria-label="Détails du mouvement">${tabs.map(([k,l])=>`<button class="${tab===k?'on':''}" data-action="movement-tab" data-value="${k}" data-id="${e.id}">${l}</button>`).join('')}</nav><section class="movement-tab-panel">${body}</section><div class="actions program-actions movement-actions"><button class="btn primary" data-action="add-exercise-to-blank" data-id="${e.id}">${icon('plus')} Créer un programme avec ce mouvement</button><button class="btn secondary" data-action="studio-from-movement" data-id="${e.id}">${icon('share')} Créer une fiche</button></div>`,true)
+ else body=`${group&&group.items.length>1?`<section class="variant-panel"><span class="eyebrow">FAMILLE TECHNIQUE</span><h3>${esc(group.title)}</h3><p class="variant-help">Choisis une variante uniquement si elle correspond au même geste de base. L’exercice affiché dans les autres onglets reste celui sélectionné ici.</p><div class="variant-list">${group.items.slice(0,50).map(x=>`<button class="chip ${x.id===e.id?'on':''}" data-action="open-movement" data-id="${x.id}">${esc(movementDisplayName(x))}</button>`).join('')}</div></section>`:'<div class="empty"><strong>Aucune autre variante enregistrée</strong></div>'}<div class="detail-grid movement-progression"><article class="detail-card"><h3>Régression</h3><p>${esc(e.regressionStrategy||'Réduire amplitude, charge ou complexité en conservant le même objectif moteur.')}</p></article><article class="detail-card"><h3>Progression</h3><p>${esc(e.progressionStrategy||'Augmenter progressivement charge, amplitude, stabilité ou densité.')}</p></article><article class="detail-card"><h3>Matériel</h3><p>${esc((e.equipment||[]).join(' · ')||'Sans matériel')}</p></article></div>`;
+ const heroPrimary=primaries.length?`Principal${primaries.length>1?'aux':''} · ${primaries.join(' + ')}`:'Effort global / technique';
+ const heroVisual=movementDemoVisual(e),heroMedia=heroVisual.image;
+ return modal(`<section class="movement-hero"><div class="movement-hero-copy"><span class="eyebrow">${esc(e.uiFamily||e.universe||e.family)}</span><h2>${esc(movementDisplayName(e))}</h2><p>${esc(movementSummary(e))}</p><div class="meta"><span>${esc(heroPrimary)}</span>${secondary.slice(0,3).map(x=>`<span>${esc(x)}</span>`).join('')}<span>${esc(equipmentGroupsOf(e).slice(0,2).join(' · ')||'Sans matériel')}</span></div></div><div class="movement-hero-character ${hasSpecificDemo?'specific-demo':'family-visual'}"><img src="${heroMedia}" alt="${esc(movementDisplayName(e))}"><span class="movement-hero-visual-label">${esc(hasSpecificDemo?'Démo spécifique':heroVisual.label)}</span></div></section><nav class="movement-tabs" aria-label="Détails du mouvement">${tabs.map(([k,l])=>`<button class="${tab===k?'on':''}" data-action="movement-tab" data-value="${k}" data-id="${e.id}">${l}</button>`).join('')}</nav><section class="movement-tab-panel">${body}</section><div class="actions program-actions movement-actions"><button class="btn primary" data-action="add-exercise-to-blank" data-id="${e.id}">${icon('plus')} Créer un programme avec ce mouvement</button><button class="btn secondary" data-action="studio-from-movement" data-id="${e.id}">${icon('share')} Créer une fiche</button></div>`,true)
 }
 
 function newMovementForm(){return `<form id="movement-form" class="form-grid"><div class="field"><label>Nom</label><input required name="name"></div><div class="field"><label>Univers</label><input required name="universe" placeholder="Musculation, mobilité, boxe…"></div><div class="field"><label>Muscle principal</label><select name="primaryMuscle">${MUSCLES.map(x=>`<option>${x}</option>`).join('')}</select></div><div class="field"><label>Matériel</label><input name="equipment" placeholder="Haltères, tapis…"></div><div class="field full"><label>Repères techniques <small>1 par ligne</small></label><textarea name="steps"></textarea></div><div class="field"><label>Erreur fréquente</label><textarea name="error"></textarea></div><div class="field"><label>FAFA TIP</label><textarea name="tip"></textarea></div><div class="field full actions"><button class="btn primary" type="submit">Enregistrer le mouvement</button><button class="btn secondary" type="button" data-action="close-modal">Annuler</button></div></form>`}

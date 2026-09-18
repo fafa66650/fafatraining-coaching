@@ -337,3 +337,105 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
  .program-facts{grid-template-columns:1fr 1fr}.anatomy-figures{grid-template-columns:1fr}.anatomy-photo-map.clean,.anatomy-movement .anatomy-photo-map.clean{width:min(100%,280px)}
  .movement-actions{grid-template-columns:1fr}.anatomy-focus-preview{height:132px}
 }
+
+/* ===== FAFATRAINING FINAL POLISH · 2026-09 =====
+   Une seule lecture anatomique, responsive, sans points approximatifs. */
+.anatomy-photo-map.clean{position:relative;isolation:isolate;background:#050705}
+.anatomy-photo-map.clean>img{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:contain;object-position:center;opacity:.96!important;filter:grayscale(1) contrast(1.06) brightness(.92)!important}
+.anatomy-overlay{position:absolute;z-index:4;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.anatomy-fill>*{vector-effect:non-scaling-stroke;transition:opacity .16s ease,filter .16s ease}
+.anatomy-fill.primary>*{fill:rgba(184,255,24,.58);stroke:rgba(224,255,157,.98);stroke-width:2.2;filter:drop-shadow(0 0 7px rgba(184,255,24,.48))}
+.anatomy-fill.secondary>*{fill:rgba(245,249,244,.24);stroke:rgba(255,255,255,.78);stroke-width:1.5;filter:drop-shadow(0 0 4px rgba(255,255,255,.18))}
+.anatomy-view-label{position:absolute;z-index:8;left:50%;bottom:12px;transform:translateX(-50%);padding:5px 9px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(5,7,5,.82);font-size:8px;font-weight:950;letter-spacing:.05em;color:#fff;white-space:nowrap}
+.anatomy-purpose{margin:8px 0 10px!important;color:#cdd5cc!important;font-size:10.5px!important;line-height:1.5!important}
+.target-muscle{cursor:default!important}.target-muscle.primary{box-shadow:inset 3px 0 0 var(--green)}
+.primary-muscle-chip{border-color:rgba(184,255,24,.48)!important;color:var(--green)!important;background:rgba(184,255,24,.06)}
+.muscle-legend .secondary-dot{background:rgba(245,249,244,.34)!important;border-color:rgba(255,255,255,.8)!important}
+.anatomy-movement{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(250px,.72fr);align-items:start}
+.anatomy-movement .anatomy-card{min-height:0!important;padding:12px!important}
+.anatomy-movement .anatomy-photo-map.clean{width:min(100%,300px);aspect-ratio:330/700}
+.anatomy-target-list{max-height:220px;overflow:auto;padding-right:2px}
+.movement-hero-character.specific-demo img{object-fit:contain!important;object-position:center!important;padding:8px;background:#050705}
+.movement-hero-copy p{max-width:780px}
+.movement-tabs{grid-template-columns:repeat(4,minmax(0,1fr));display:grid}
+.movement-tabs button{white-space:nowrap}
+.movement-card p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.modal-card,.modal{scrollbar-gutter:stable}
+
+/* Tablette / petit laptop : conserver la densité, puis empiler seulement quand nécessaire. */
+@media(max-width:1100px){
+ .anatomy-movement{grid-template-columns:1fr 1fr}.anatomy-movement .anatomy-side{grid-column:1/-1;position:static}
+ .anatomy-target-list{grid-template-columns:repeat(2,minmax(0,1fr));display:grid;max-height:none}
+}
+@media(max-width:760px){
+ body{font-size:15px}
+ .modal-bg{padding:0}.modal,.modal.large,.modal.full{padding:12px 12px calc(var(--dock-h) + env(safe-area-inset-bottom) + 26px)}
+ .movement-hero-copy{padding:16px}.movement-hero-copy h2{font-size:clamp(28px,9vw,40px);line-height:1.02}
+ .movement-tabs{gap:4px;padding:4px}.movement-tabs button{min-height:46px;font-size:10px}
+ .anatomy-movement{grid-template-columns:1fr 1fr;gap:7px}.anatomy-movement .anatomy-card{padding:8px!important;border-radius:14px}.anatomy-movement .anatomy-card h3{font-size:15px;margin:2px 0 6px}
+ .anatomy-movement .anatomy-photo-map.clean{width:100%;max-width:235px;border-radius:13px}
+ .anatomy-movement .anatomy-side{grid-column:1/-1;padding:12px}
+ .anatomy-target-list{grid-template-columns:repeat(2,minmax(0,1fr));display:grid}
+ .muscle-legend{font-size:10px;margin:8px 0;padding:8px 10px}
+ .movement-actions{position:static!important;margin:10px 0 0!important;padding:0!important;background:none!important;box-shadow:none!important}
+ .dock{padding-bottom:max(7px,env(safe-area-inset-bottom));max-width:calc(100vw - 12px)}
+ .page{padding-bottom:8px}
+}
+@media(max-width:480px){
+ .anatomy-movement{grid-template-columns:1fr}.anatomy-movement .anatomy-side{grid-column:auto}.anatomy-movement .anatomy-photo-map.clean{max-width:285px}
+ .anatomy-target-list{grid-template-columns:1fr}.movement-tabs button{font-size:9px;padding-inline:3px}
+ .modal h2{font-size:30px}.meta span{font-size:9px;padding:5px 7px}
+}
+@media(min-width:1440px){
+ .shell{max-width:1480px}.modal.large{width:min(1260px,92vw)}.anatomy-movement .anatomy-photo-map.clean{width:min(100%,330px)}
+}
+
+/* ===== FAFATRAINING · DEMOS ADAPTATIVES PAR FAMILLE · 2026-09-18 ===== */
+.movement-card.visual-card{overflow:hidden;padding:0;display:flex;flex-direction:column}
+.movement-card-media{position:relative;height:150px;background:#050705;overflow:hidden;border-bottom:1px solid var(--line)}
+.movement-card-media img{width:100%;height:100%;object-fit:cover;object-position:center 35%;filter:saturate(.9) contrast(1.04) brightness(.84);transition:transform .22s ease,filter .22s ease}
+.movement-card.visual-card:hover .movement-card-media img{transform:scale(1.025);filter:saturate(.96) contrast(1.04) brightness(.9)}
+.movement-card-media:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(5,7,5,.78))}
+.movement-card-media span{position:absolute;z-index:2;left:10px;bottom:9px;border:1px solid rgba(184,255,24,.34);border-radius:999px;background:rgba(5,7,5,.82);color:var(--green);padding:5px 8px;font-size:8px;font-weight:950;letter-spacing:.06em;text-transform:uppercase}
+.movement-card-content{display:flex;flex:1;flex-direction:column;padding:14px}
+.movement-card-content footer{margin-top:auto}
+
+.family-demo-card{display:grid;grid-template-columns:minmax(290px,.9fr) minmax(0,1.1fr);gap:14px;border:1px solid var(--line);border-radius:22px;padding:12px;background:linear-gradient(145deg,rgba(184,255,24,.045),rgba(255,255,255,.018))}
+.family-demo-media{position:relative;min-height:430px;overflow:hidden;border-radius:17px;background:#050705}
+.family-demo-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.92) contrast(1.05) brightness(.9)}
+.family-demo-media:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,5,.02),rgba(5,7,5,.08) 48%,rgba(5,7,5,.72))}
+.family-demo-badge{position:absolute;z-index:2;left:12px;bottom:12px;border:1px solid rgba(184,255,24,.45);background:rgba(5,7,5,.88);color:var(--green);border-radius:999px;padding:7px 10px;font-size:9px;font-weight:950;letter-spacing:.07em;text-transform:uppercase}
+.family-demo-copy{padding:10px 8px 4px;min-width:0}
+.family-demo-copy h3{font-size:clamp(24px,3vw,34px);line-height:1.04;margin:6px 0 8px}
+.family-demo-note{margin:0 0 12px;color:var(--muted);font-size:11px;line-height:1.5}
+.family-demo-copy .demo-steps{margin-top:0}
+
+.movement-hero-character.family-visual{position:relative;overflow:hidden;background:#050705}
+.movement-hero-character.family-visual img{width:100%;height:100%;object-fit:cover!important;object-position:center!important;filter:saturate(.9) contrast(1.05) brightness(.86)}
+.movement-hero-character.family-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,7,5,.3),transparent 45%),linear-gradient(180deg,transparent 58%,rgba(5,7,5,.55))}
+.movement-hero-visual-label{position:absolute;z-index:3;right:10px;bottom:10px;border:1px solid rgba(184,255,24,.4);background:rgba(5,7,5,.86);color:var(--green);border-radius:999px;padding:5px 8px;font-size:8px;font-weight:950;letter-spacing:.05em;text-transform:uppercase;max-width:calc(100% - 20px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.portal-tech-visual{position:relative;height:230px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#050705;margin:10px 0}
+.portal-tech-visual img{width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.92) contrast(1.04) brightness(.88)}
+.portal-tech-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 52%,rgba(5,7,5,.72))}
+.portal-tech-visual span{position:absolute;z-index:2;left:10px;bottom:10px;border:1px solid rgba(184,255,24,.4);background:rgba(5,7,5,.86);color:var(--green);border-radius:999px;padding:6px 9px;font-size:9px;font-weight:900}
+.portal-muscles{margin:8px 0 10px}
+
+@media(max-width:1000px){
+ .family-demo-card{grid-template-columns:1fr 1fr}
+ .family-demo-media{min-height:380px}
+ .movement-card-media{height:135px}
+}
+@media(max-width:760px){
+ .family-demo-card{grid-template-columns:1fr;padding:8px;gap:8px}
+ .family-demo-media{min-height:300px}
+ .family-demo-copy{padding:8px 5px 2px}
+ .family-demo-copy h3{font-size:24px}
+ .movement-card-media{height:160px}
+ .portal-tech-visual{height:210px}
+}
+@media(max-width:480px){
+ .family-demo-media{min-height:270px}
+ .movement-card-media{height:145px}
+ .portal-tech-visual{height:190px}
+}
