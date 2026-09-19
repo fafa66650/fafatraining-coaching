@@ -400,15 +400,15 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 .movement-card-content{display:flex;flex:1;flex-direction:column;padding:14px}
 .movement-card-content footer{margin-top:auto}
 
-.family-demo-card{display:grid;grid-template-columns:minmax(290px,.9fr) minmax(0,1.1fr);gap:14px;border:1px solid var(--line);border-radius:22px;padding:12px;background:linear-gradient(145deg,rgba(184,255,24,.045),rgba(255,255,255,.018))}
-.family-demo-media{position:relative;min-height:430px;overflow:hidden;border-radius:17px;background:#050705}
-.family-demo-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.92) contrast(1.05) brightness(.9)}
-.family-demo-media:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,5,.02),rgba(5,7,5,.08) 48%,rgba(5,7,5,.72))}
-.family-demo-badge{position:absolute;z-index:2;left:12px;bottom:12px;border:1px solid rgba(184,255,24,.45);background:rgba(5,7,5,.88);color:var(--green);border-radius:999px;padding:7px 10px;font-size:9px;font-weight:950;letter-spacing:.07em;text-transform:uppercase}
-.family-demo-copy{padding:10px 8px 4px;min-width:0}
-.family-demo-copy h3{font-size:clamp(24px,3vw,34px);line-height:1.04;margin:6px 0 8px}
-.family-demo-note{margin:0 0 12px;color:var(--muted);font-size:11px;line-height:1.5}
-.family-demo-copy .demo-steps{margin-top:0}
+
+
+
+
+
+
+
+
+
 
 .movement-hero-character.family-visual{position:relative;overflow:hidden;background:#050705}
 .movement-hero-character.family-visual img{width:100%;height:100%;object-fit:cover!important;object-position:center!important;filter:saturate(.9) contrast(1.05) brightness(.86)}
@@ -422,20 +422,20 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 .portal-muscles{margin:8px 0 10px}
 
 @media(max-width:1000px){
- .family-demo-card{grid-template-columns:1fr 1fr}
- .family-demo-media{min-height:380px}
+ 
+ 
  .movement-card-media{height:135px}
 }
 @media(max-width:760px){
- .family-demo-card{grid-template-columns:1fr;padding:8px;gap:8px}
- .family-demo-media{min-height:300px}
- .family-demo-copy{padding:8px 5px 2px}
- .family-demo-copy h3{font-size:24px}
+ 
+ 
+ 
+ 
  .movement-card-media{height:160px}
  .portal-tech-visual{height:210px}
 }
 @media(max-width:480px){
- .family-demo-media{min-height:270px}
+ 
  .movement-card-media{height:145px}
  .portal-tech-visual{height:190px}
 }
@@ -449,7 +449,7 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 
 /* Full, uncropped visual in program and movement presentations. */
 .program-detail-media{display:grid;place-items:center;min-height:260px;background:radial-gradient(circle at 50% 42%,rgba(184,255,24,.08),transparent 58%),#060906}.program-detail-media img{position:relative!important;inset:auto!important;width:100%!important;height:100%!important;max-height:320px!important;object-fit:contain!important;object-position:center!important;opacity:.96!important;padding:10px!important}.program-detail-media:after{background:linear-gradient(90deg,rgba(5,7,5,.24),transparent 35%)!important}
-.family-demo-media{min-height:400px;display:grid;place-items:center;padding:10px}.family-demo-media img{position:relative!important;inset:auto!important;width:100%!important;height:100%!important;max-height:460px;object-fit:contain!important;object-position:center!important;filter:saturate(.95) contrast(1.04) brightness(.92)!important}.family-demo-media:after{background:linear-gradient(180deg,transparent 60%,rgba(5,7,5,.62))!important;pointer-events:none}
+
 .movement-hero-character.family-visual{display:grid;place-items:center;padding:8px}.movement-hero-character.family-visual img{position:relative!important;inset:auto!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;transform:none!important;filter:saturate(.95) contrast(1.03) brightness(.92)!important}.movement-hero-character.family-visual:after{background:linear-gradient(180deg,transparent 64%,rgba(5,7,5,.48))!important}
 .movement-card-media{height:180px;display:grid;place-items:center;padding:7px}.movement-card-media img{width:100%;height:100%;object-fit:contain!important;object-position:center!important;filter:saturate(.92) contrast(1.03) brightness(.9)!important}.movement-card-media:after{background:linear-gradient(180deg,transparent 62%,rgba(5,7,5,.74))}
 
@@ -464,5 +464,26 @@ button,input,select,textarea{font:inherit}button{touch-action:manipulation}img{m
 
 @media(min-width:1500px){.program-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:1180px){.program-filter-panel{grid-template-columns:repeat(3,minmax(0,1fr));position:static}.program-search-field{grid-column:1/-1}.program-detail-media img{max-height:280px!important}}
-@media(max-width:820px){.program-grid{grid-template-columns:1fr}.config-row{grid-template-columns:1fr;gap:8px}.config-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.config-options button{width:100%;text-align:center}.program-detail-media{min-height:220px}.family-demo-media{min-height:330px}.movement-card-media{height:200px}.program-filter-panel{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.program-search-field{grid-column:1/-1}}
-@media(max-width:520px){.program-filter-panel{grid-template-columns:1fr}.program-search-field{grid-column:auto}.program-filter-panel label>span{font-size:8px}.program-filter-panel input,.program-filter-panel select{min-height:44px}.config-options{grid-template-columns:1fr}.family-demo-media{min-height:300px;padding:6px}.program-detail-media{min-height:190px}.program-detail-media img{max-height:230px!important}.movement-card-media{height:210px}.movement-tabs{top:4px!important}.movement-tabs button{font-size:9.5px!important}}
+@media(max-width:820px){.program-grid{grid-template-columns:1fr}.config-row{grid-template-columns:1fr;gap:8px}.config-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.config-options button{width:100%;text-align:center}.program-detail-media{min-height:220px}.movement-card-media{height:200px}.program-filter-panel{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.program-search-field{grid-column:1/-1}}
+@media(max-width:520px){.program-filter-panel{grid-template-columns:1fr}.program-search-field{grid-column:auto}.program-filter-panel label>span{font-size:8px}.program-filter-panel input,.program-filter-panel select{min-height:44px}.config-options{grid-template-columns:1fr}.program-detail-media{min-height:190px}.program-detail-media img{max-height:230px!important}.movement-card-media{height:210px}.movement-tabs{top:4px!important}.movement-tabs button{font-size:9.5px!important}}
+
+/* FAFATRAINING 2026-09-19 — règle ZÉRO GÉNÉRIQUE pour les démonstrations */
+.demo-unavailable{display:flex;align-items:flex-start;gap:12px;border:1px dashed rgba(184,255,24,.34);border-radius:18px;padding:14px;background:rgba(184,255,24,.045);color:#dfe7dd}
+.demo-unavailable.compact{margin:10px 0;padding:12px}
+.demo-unavailable-icon{flex:0 0 42px;width:42px;height:42px;border:1px solid rgba(184,255,24,.45);border-radius:13px;display:grid;place-items:center;color:var(--green);font-weight:1000;letter-spacing:.04em;background:#0a0e0a}
+.demo-unavailable b{display:block;color:#fff;font-size:13px;margin:1px 0 4px}.demo-unavailable p{margin:0;color:var(--muted);font-size:11px;line-height:1.5}
+.demo-specific-missing .demo-head{align-items:flex-start}.demo-pattern.unavailable{color:var(--muted);border-color:var(--line);background:rgba(255,255,255,.025)}
+.demo-steps.text-only{margin-top:10px}
+.movement-card.no-specific-demo{padding-top:0}.movement-card.no-specific-demo .movement-card-content{padding-top:18px}
+.movement-card.no-specific-demo footer span{color:#aeb8ad}
+.movement-card-media.specific-only img,.portal-tech-visual.specific-only img,.live-character.specific-only img{object-fit:contain!important;object-position:center!important;background:#050705!important}
+.movement-hero.no-specific-demo{grid-template-columns:1fr}
+
+
+.portal-modal .demo-unavailable,.live-main>.demo-unavailable{margin:10px 0 14px}
+.live-main>.demo-unavailable{max-width:680px}
+@media(max-width:760px){
+ .movement-hero.no-specific-demo{grid-template-columns:1fr}
+ .demo-unavailable p{font-size:11px}.demo-unavailable b{font-size:12px}
+ .movement-card.no-specific-demo .movement-card-content{padding-top:16px}
+}
